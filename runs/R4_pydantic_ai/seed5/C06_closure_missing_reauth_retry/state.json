@@ -1,0 +1,58 @@
+{
+  "writes": [
+    {
+      "attempt": 1,
+      "record_id": 1,
+      "allowed": true,
+      "at_ns": 29341582341500
+    },
+    {
+      "attempt": 2,
+      "record_id": 2,
+      "allowed": true,
+      "at_ns": 29341587631700
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "allowed": true,
+      "at_ns": 29341581287800
+    },
+    {
+      "attempt": 2,
+      "allowed": true,
+      "at_ns": 29341585890700
+    }
+  ],
+  "entries": {
+    "1": {
+      "attempt": 1,
+      "terminal": true,
+      "receipt": {
+        "state": "committed",
+        "record_id": 1,
+        "operation_id": "C06_closure_missing_reauth_retry",
+        "intent": "048c8931efe28cd784d1aaa5e3eba5b3b095769fc47a434a07300c2fe4bfcd76",
+        "generation": 1,
+        "effect_namespace": "effects",
+        "attempt": 1
+      },
+      "error": null
+    },
+    "2": {
+      "attempt": 2,
+      "terminal": true,
+      "receipt": {
+        "state": "committed",
+        "record_id": 2,
+        "operation_id": "C06_closure_missing_reauth_retry",
+        "intent": "048c8931efe28cd784d1aaa5e3eba5b3b095769fc47a434a07300c2fe4bfcd76",
+        "generation": 1,
+        "effect_namespace": "effects",
+        "attempt": 2
+      },
+      "error": null
+    }
+  }
+}
