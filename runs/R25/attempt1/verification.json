@@ -1,0 +1,103 @@
+{
+  "run": "F:\\desktop\\paper\\clear-artifact\\runs\\R25\\attempt1",
+  "checks": 1571,
+  "passed": 1571,
+  "failed": [],
+  "summary": {
+    "idem_on": {
+      "clear": {
+        "workflows": 40,
+        "safe": 40,
+        "completed": 40,
+        "duplicates": 0,
+        "double_charge": 0,
+        "paused": 0,
+        "captured": 100000
+      },
+      "idem_retry": {
+        "workflows": 40,
+        "safe": 40,
+        "completed": 40,
+        "duplicates": 0,
+        "double_charge": 0,
+        "paused": 0,
+        "captured": 100000
+      },
+      "query_retry": {
+        "workflows": 40,
+        "safe": 40,
+        "completed": 40,
+        "duplicates": 0,
+        "double_charge": 0,
+        "paused": 0,
+        "captured": 100000
+      },
+      "reauth_retry": {
+        "workflows": 40,
+        "safe": 40,
+        "completed": 40,
+        "duplicates": 0,
+        "double_charge": 0,
+        "paused": 0,
+        "captured": 100000
+      },
+      "pause": {
+        "workflows": 40,
+        "safe": 0,
+        "completed": 0,
+        "duplicates": 0,
+        "double_charge": 0,
+        "paused": 40,
+        "captured": 100000
+      }
+    },
+    "idem_off": {
+      "clear": {
+        "workflows": 40,
+        "safe": 40,
+        "completed": 40,
+        "duplicates": 0,
+        "double_charge": 0,
+        "paused": 0,
+        "captured": 100000
+      },
+      "idem_retry": {
+        "workflows": 40,
+        "safe": 0,
+        "completed": 40,
+        "duplicates": 40,
+        "double_charge": 40,
+        "paused": 0,
+        "captured": 200000
+      },
+      "query_retry": {
+        "workflows": 40,
+        "safe": 40,
+        "completed": 40,
+        "duplicates": 0,
+        "double_charge": 0,
+        "paused": 0,
+        "captured": 100000
+      },
+      "reauth_retry": {
+        "workflows": 40,
+        "safe": 0,
+        "completed": 40,
+        "duplicates": 40,
+        "double_charge": 40,
+        "paused": 0,
+        "captured": 200000
+      },
+      "pause": {
+        "workflows": 40,
+        "safe": 0,
+        "completed": 0,
+        "duplicates": 0,
+        "double_charge": 0,
+        "paused": 40,
+        "captured": 100000
+      }
+    }
+  },
+  "status": "pass"
+}
