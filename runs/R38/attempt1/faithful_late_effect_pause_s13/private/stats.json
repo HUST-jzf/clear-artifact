@@ -1,0 +1,25 @@
+{
+  "faithful_late_effect_pause_S13": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0
+      }
+    },
+    "rejected": 0
+  }
+}
