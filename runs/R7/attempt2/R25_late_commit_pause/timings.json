@@ -1,0 +1,17 @@
+{
+  "case": "late_commit",
+  "policy": "pause",
+  "repetition": 25,
+  "terminal": "pause",
+  "reason": "single_pause",
+  "control_ns": 8800,
+  "timings": {
+    "drain_ns": 7085600
+  },
+  "counts": {},
+  "actions": 0,
+  "rows": 1,
+  "duplicate": false,
+  "stale_new": 0,
+  "safe": false
+}
