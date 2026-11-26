@@ -1,0 +1,177 @@
+{
+  "files": {
+    "scripts/r45_service.py": "ef994d7a572e804899bce6a8af9bae6b12c984f88b1d6852a35761a0df6a75c2",
+    "scripts/r45_client.py": "62e7e48e6885abeca32b60c48b7b7a89f970aa073ce1d7433481025c1c25eb24",
+    "scripts/run_r45.py": "109063e6b7f3a1d20956916a9eaf36bd114990870b68040804842e323d7c9e08",
+    "scripts/verify_r45.py": "b3dbc777a17c555fd95c0f35718a4fa58f2fb8f60d2f91960f325ceb859e5dc5",
+    "docs/R45_capability_frontier_protocol_20261029.md": "a49c610ff9553ee3ef4d249f5490f49de664f179a0b2249d2b1fa7d19a6c923f"
+  },
+  "profiles": {
+    "C0": {
+      "closure": 0,
+      "read": "unavailable",
+      "version": 0,
+      "admission": 0,
+      "staging": 0,
+      "dedup": 0
+    },
+    "C1": {
+      "closure": 1,
+      "read": "unavailable",
+      "version": 0,
+      "admission": 0,
+      "staging": 0,
+      "dedup": 0
+    },
+    "C2": {
+      "closure": 0,
+      "read": "faithful",
+      "version": 0,
+      "admission": 0,
+      "staging": 0,
+      "dedup": 0
+    },
+    "C2s": {
+      "closure": 0,
+      "read": "stale",
+      "version": 0,
+      "admission": 0,
+      "staging": 0,
+      "dedup": 0
+    },
+    "C3": {
+      "closure": 1,
+      "read": "faithful",
+      "version": 0,
+      "admission": 0,
+      "staging": 0,
+      "dedup": 0
+    },
+    "C3s": {
+      "closure": 1,
+      "read": "stale",
+      "version": 0,
+      "admission": 0,
+      "staging": 0,
+      "dedup": 0
+    },
+    "C4": {
+      "closure": 1,
+      "read": "faithful",
+      "version": 1,
+      "admission": 1,
+      "staging": 0,
+      "dedup": 0
+    },
+    "C5": {
+      "closure": 0,
+      "read": "unavailable",
+      "version": 0,
+      "admission": 0,
+      "staging": 1,
+      "dedup": 0
+    },
+    "C6": {
+      "closure": 1,
+      "read": "faithful",
+      "version": 1,
+      "admission": 1,
+      "staging": 1,
+      "dedup": 0
+    },
+    "C7": {
+      "closure": 0,
+      "read": "unavailable",
+      "version": 0,
+      "admission": 0,
+      "staging": 0,
+      "dedup": 1
+    }
+  },
+  "profile_policies": {
+    "C0": [
+      "clear_pause",
+      "timeout_retry"
+    ],
+    "C1": [
+      "clear_closure",
+      "timeout_retry"
+    ],
+    "C2": [
+      "verify_retry",
+      "timeout_retry"
+    ],
+    "C2s": [
+      "verify_retry",
+      "timeout_retry"
+    ],
+    "C3": [
+      "clear_evidence",
+      "verify_retry"
+    ],
+    "C3s": [
+      "clear_evidence",
+      "verify_retry"
+    ],
+    "C4": [
+      "clear_evidence",
+      "verify_retry",
+      "timeout_retry"
+    ],
+    "C5": [
+      "clear_fenced",
+      "timeout_retry"
+    ],
+    "C6": [
+      "clear_evidence",
+      "clear_fenced",
+      "timeout_retry"
+    ],
+    "C7": [
+      "dedup_versioned",
+      "timeout_retry"
+    ]
+  },
+  "faults": [
+    "lost_return",
+    "late_commit",
+    "lost_before_commit",
+    "revoke"
+  ],
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "steps": [
+    "create",
+    "reserve",
+    "attach",
+    "commit",
+    "notify"
+  ],
+  "post_timeout_s": 0.3,
+  "get_timeout_s": 0.6,
+  "retry_budget": 4,
+  "late_delay_s": 0.9,
+  "python": "python",
+  "python_version": "3.13.2",
+  "created_ns": 1793283482680518700
+}

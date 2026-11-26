@@ -1,0 +1,852 @@
+{
+  "checks": 273,
+  "passed": 273,
+  "status": "pass",
+  "mismatches": 0,
+  "frontier": {
+    "C0/clear_pause": {
+      "faults": {
+        "lost_return": {
+          "klass": [
+            "safe_pause"
+          ],
+          "requests": 9.0,
+          "bytes": 36864.0,
+          "elapsed_ms": 66.4542
+        },
+        "late_commit": {
+          "klass": [
+            "safe_pause"
+          ],
+          "requests": 9.0,
+          "bytes": 36864.0,
+          "elapsed_ms": 380.3514
+        },
+        "lost_before_commit": {
+          "klass": [
+            "safe_pause"
+          ],
+          "requests": 9.0,
+          "bytes": 36864.0,
+          "elapsed_ms": 78.74755
+        },
+        "revoke": {
+          "klass": [
+            "unsafe"
+          ],
+          "requests": 9.0,
+          "bytes": 36864.0,
+          "elapsed_ms": 82.4854
+        }
+      },
+      "safe_everywhere": false,
+      "complete_everywhere": false
+    },
+    "C0/timeout_retry": {
+      "faults": {
+        "lost_return": {
+          "klass": [
+            "unsafe"
+          ],
+          "requests": 16.0,
+          "bytes": 36864.0,
+          "elapsed_ms": 121.9476
+        },
+        "late_commit": {
+          "klass": [
+            "unsafe"
+          ],
+          "requests": 16.0,
+          "bytes": 36864.0,
+          "elapsed_ms": 422.36815
+        },
+        "lost_before_commit": {
+          "klass": [
+            "safe_complete"
+          ],
+          "requests": 16.0,
+          "bytes": 36864.0,
+          "elapsed_ms": 138.77300000000002
+        },
+        "revoke": {
+          "klass": [
+            "unsafe"
+          ],
+          "requests": 12.0,
+          "bytes": 36864.0,
+          "elapsed_ms": 74.6045
+        }
+      },
+      "safe_everywhere": false,
+      "complete_everywhere": false
+    },
+    "C1/clear_closure": {
+      "faults": {
+        "lost_return": {
+          "klass": [
+            "safe_complete"
+          ],
+          "requests": 16.0,
+          "bytes": 36864.0,
+          "elapsed_ms": 161.0521
+        },
+        "late_commit": {
+          "klass": [
+            "unsafe"
+          ],
+          "requests": 17.0,
+          "bytes": 36864.0,
+          "elapsed_ms": 468.63775
+        },
+        "lost_before_commit": {
+          "klass": [
+            "safe_pause"
+          ],
+          "requests": 10.0,
+          "bytes": 36864.0,
+          "elapsed_ms": 108.10845
+        },
+        "revoke": {
+          "klass": [
+            "unsafe"
+          ],
+          "requests": 10.0,
+          "bytes": 36864.0,
+          "elapsed_ms": 95.14865
+        }
+      },
+      "safe_everywhere": false,
+      "complete_everywhere": false
+    },
+    "C1/timeout_retry": {
+      "faults": {
+        "lost_return": {
+          "klass": [
+            "unsafe"
+          ],
+          "requests": 16.0,
+          "bytes": 36864.0,
+          "elapsed_ms": 158.7275
+        },
+        "late_commit": {
+          "klass": [
+            "unsafe"
+          ],
+          "requests": 16.0,
+          "bytes": 36864.0,
+          "elapsed_ms": 456.5768
+        },
+        "lost_before_commit": {
+          "klass": [
+            "safe_complete"
+          ],
+          "requests": 16.0,
+          "bytes": 36864.0,
+          "elapsed_ms": 156.01785
+        },
+        "revoke": {
+          "klass": [
+            "unsafe"
+          ],
+          "requests": 12.0,
+          "bytes": 36864.0,
+          "elapsed_ms": 112.34909999999999
+        }
+      },
+      "safe_everywhere": false,
+      "complete_everywhere": false
+    },
+    "C2/verify_retry": {
+      "faults": {
+        "lost_return": {
+          "klass": [
+            "safe_complete"
+          ],
+          "requests": 16.0,
+          "bytes": 36864.0,
+          "elapsed_ms": 155.0368
+        },
+        "late_commit": {
+          "klass": [
+            "unsafe"
+          ],
+          "requests": 17.0,
+          "bytes": 36864.0,
+          "elapsed_ms": 459.919
+        },
+        "lost_before_commit": {
+          "klass": [
+            "safe_complete"
+          ],
+          "requests": 17.0,
+          "bytes": 36864.0,
+          "elapsed_ms": 216.72895
+        },
+        "revoke": {
+          "klass": [
+            "unsafe"
+          ],
+          "requests": 12.0,
+          "bytes": 36864.0,
+          "elapsed_ms": 155.78265
+        }
+      },
+      "safe_everywhere": false,
+      "complete_everywhere": false
+    },
+    "C2/timeout_retry": {
+      "faults": {
+        "lost_return": {
+          "klass": [
+            "unsafe"
+          ],
+          "requests": 16.0,
+          "bytes": 36864.0,
+          "elapsed_ms": 164.142
+        },
+        "late_commit": {
+          "klass": [
+            "unsafe"
+          ],
+          "requests": 16.0,
+          "bytes": 36864.0,
+          "elapsed_ms": 469.7685
+        },
+        "lost_before_commit": {
+          "klass": [
+            "safe_complete"
+          ],
+          "requests": 16.0,
+          "bytes": 36864.0,
+          "elapsed_ms": 192.15030000000002
+        },
+        "revoke": {
+          "klass": [
+            "unsafe"
+          ],
+          "requests": 12.0,
+          "bytes": 36864.0,
+          "elapsed_ms": 88.0399
+        }
+      },
+      "safe_everywhere": false,
+      "complete_everywhere": false
+    },
+    "C2s/verify_retry": {
+      "faults": {
+        "lost_return": {
+          "klass": [
+            "unsafe"
+          ],
+          "requests": 17.0,
+          "bytes": 36864.0,
+          "elapsed_ms": 195.62400000000002
+        },
+        "late_commit": {
+          "klass": [
+            "unsafe"
+          ],
+          "requests": 17.0,
+          "bytes": 36864.0,
+          "elapsed_ms": 480.4174
+        },
+        "lost_before_commit": {
+          "klass": [
+            "safe_complete"
+          ],
+          "requests": 17.0,
+          "bytes": 36864.0,
+          "elapsed_ms": 191.06495
+        },
+        "revoke": {
+          "klass": [
+            "unsafe"
+          ],
+          "requests": 15.0,
+          "bytes": 36864.0,
+          "elapsed_ms": 140.34515
+        }
+      },
+      "safe_everywhere": false,
+      "complete_everywhere": false
+    },
+    "C2s/timeout_retry": {
+      "faults": {
+        "lost_return": {
+          "klass": [
+            "unsafe"
+          ],
+          "requests": 16.0,
+          "bytes": 36864.0,
+          "elapsed_ms": 147.05135
+        },
+        "late_commit": {
+          "klass": [
+            "unsafe"
+          ],
+          "requests": 16.0,
+          "bytes": 36864.0,
+          "elapsed_ms": 430.13755000000003
+        },
+        "lost_before_commit": {
+          "klass": [
+            "safe_complete"
+          ],
+          "requests": 16.0,
+          "bytes": 36864.0,
+          "elapsed_ms": 151.86079999999998
+        },
+        "revoke": {
+          "klass": [
+            "unsafe"
+          ],
+          "requests": 12.0,
+          "bytes": 36864.0,
+          "elapsed_ms": 82.79615
+        }
+      },
+      "safe_everywhere": false,
+      "complete_everywhere": false
+    },
+    "C3/clear_evidence": {
+      "faults": {
+        "lost_return": {
+          "klass": [
+            "safe_complete"
+          ],
+          "requests": 18.0,
+          "bytes": 36864.0,
+          "elapsed_ms": 198.81525
+        },
+        "late_commit": {
+          "klass": [
+            "unsafe"
+          ],
+          "requests": 20.0,
+          "bytes": 36864.0,
+          "elapsed_ms": 556.3414
+        },
+        "lost_before_commit": {
+          "klass": [
+            "safe_pause"
+          ],
+          "requests": 12.0,
+          "bytes": 36864.0,
+          "elapsed_ms": 139.45960000000002
+        },
+        "revoke": {
+          "klass": [
+            "unsafe"
+          ],
+          "requests": 10.0,
+          "bytes": 36864.0,
+          "elapsed_ms": 93.1344
+        }
+      },
+      "safe_everywhere": false,
+      "complete_everywhere": false
+    },
+    "C3/verify_retry": {
+      "faults": {
+        "lost_return": {
+          "klass": [
+            "safe_complete"
+          ],
+          "requests": 16.0,
+          "bytes": 36864.0,
+          "elapsed_ms": 164.976
+        },
+        "late_commit": {
+          "klass": [
+            "unsafe"
+          ],
+          "requests": 17.0,
+          "bytes": 36864.0,
+          "elapsed_ms": 485.62985000000003
+        },
+        "lost_before_commit": {
+          "klass": [
+            "safe_complete"
+          ],
+          "requests": 17.0,
+          "bytes": 36864.0,
+          "elapsed_ms": 171.53265
+        },
+        "revoke": {
+          "klass": [
+            "unsafe"
+          ],
+          "requests": 12.0,
+          "bytes": 36864.0,
+          "elapsed_ms": 133.72995
+        }
+      },
+      "safe_everywhere": false,
+      "complete_everywhere": false
+    },
+    "C3s/clear_evidence": {
+      "faults": {
+        "lost_return": {
+          "klass": [
+            "safe_complete"
+          ],
+          "requests": 18.0,
+          "bytes": 36864.0,
+          "elapsed_ms": 232.4254
+        },
+        "late_commit": {
+          "klass": [
+            "unsafe"
+          ],
+          "requests": 20.0,
+          "bytes": 36864.0,
+          "elapsed_ms": 503.0541
+        },
+        "lost_before_commit": {
+          "klass": [
+            "safe_pause"
+          ],
+          "requests": 12.0,
+          "bytes": 36864.0,
+          "elapsed_ms": 102.35755
+        },
+        "revoke": {
+          "klass": [
+            "unsafe"
+          ],
+          "requests": 10.0,
+          "bytes": 36864.0,
+          "elapsed_ms": 65.85435000000001
+        }
+      },
+      "safe_everywhere": false,
+      "complete_everywhere": false
+    },
+    "C3s/verify_retry": {
+      "faults": {
+        "lost_return": {
+          "klass": [
+            "unsafe"
+          ],
+          "requests": 17.0,
+          "bytes": 36864.0,
+          "elapsed_ms": 194.41430000000003
+        },
+        "late_commit": {
+          "klass": [
+            "unsafe"
+          ],
+          "requests": 17.0,
+          "bytes": 36864.0,
+          "elapsed_ms": 469.40135
+        },
+        "lost_before_commit": {
+          "klass": [
+            "safe_complete"
+          ],
+          "requests": 17.0,
+          "bytes": 36864.0,
+          "elapsed_ms": 188.77405
+        },
+        "revoke": {
+          "klass": [
+            "unsafe"
+          ],
+          "requests": 15.0,
+          "bytes": 36864.0,
+          "elapsed_ms": 142.03515
+        }
+      },
+      "safe_everywhere": false,
+      "complete_everywhere": false
+    },
+    "C4/clear_evidence": {
+      "faults": {
+        "lost_return": {
+          "klass": [
+            "safe_complete"
+          ],
+          "requests": 18.0,
+          "bytes": 36864.0,
+          "elapsed_ms": 175.4447
+        },
+        "late_commit": {
+          "klass": [
+            "safe_complete"
+          ],
+          "requests": 20.0,
+          "bytes": 36864.0,
+          "elapsed_ms": 494.84695
+        },
+        "lost_before_commit": {
+          "klass": [
+            "safe_pause"
+          ],
+          "requests": 12.0,
+          "bytes": 36864.0,
+          "elapsed_ms": 104.92865
+        },
+        "revoke": {
+          "klass": [
+            "safe_pause"
+          ],
+          "requests": 9.0,
+          "bytes": 36864.0,
+          "elapsed_ms": 125.0406
+        }
+      },
+      "safe_everywhere": true,
+      "complete_everywhere": false
+    },
+    "C4/verify_retry": {
+      "faults": {
+        "lost_return": {
+          "klass": [
+            "safe_complete"
+          ],
+          "requests": 16.0,
+          "bytes": 36864.0,
+          "elapsed_ms": 165.83605
+        },
+        "late_commit": {
+          "klass": [
+            "unsafe"
+          ],
+          "requests": 17.0,
+          "bytes": 36864.0,
+          "elapsed_ms": 498.23185
+        },
+        "lost_before_commit": {
+          "klass": [
+            "safe_complete"
+          ],
+          "requests": 17.0,
+          "bytes": 36864.0,
+          "elapsed_ms": 154.2079
+        },
+        "revoke": {
+          "klass": [
+            "safe_pause"
+          ],
+          "requests": 15.0,
+          "bytes": 36864.0,
+          "elapsed_ms": 138.88684999999998
+        }
+      },
+      "safe_everywhere": false,
+      "complete_everywhere": false
+    },
+    "C4/timeout_retry": {
+      "faults": {
+        "lost_return": {
+          "klass": [
+            "unsafe"
+          ],
+          "requests": 16.0,
+          "bytes": 36864.0,
+          "elapsed_ms": 131.81995
+        },
+        "late_commit": {
+          "klass": [
+            "unsafe"
+          ],
+          "requests": 16.0,
+          "bytes": 36864.0,
+          "elapsed_ms": 466.18185
+        },
+        "lost_before_commit": {
+          "klass": [
+            "safe_complete"
+          ],
+          "requests": 16.0,
+          "bytes": 36864.0,
+          "elapsed_ms": 157.67675
+        },
+        "revoke": {
+          "klass": [
+            "safe_pause"
+          ],
+          "requests": 12.0,
+          "bytes": 36864.0,
+          "elapsed_ms": 125.8653
+        }
+      },
+      "safe_everywhere": false,
+      "complete_everywhere": false
+    },
+    "C5/clear_fenced": {
+      "faults": {
+        "lost_return": {
+          "klass": [
+            "safe_pause"
+          ],
+          "requests": 16.0,
+          "bytes": 36864.0,
+          "elapsed_ms": 196.19995
+        },
+        "late_commit": {
+          "klass": [
+            "safe_complete"
+          ],
+          "requests": 24.0,
+          "bytes": 36864.0,
+          "elapsed_ms": 549.1061
+        },
+        "lost_before_commit": {
+          "klass": [
+            "safe_complete"
+          ],
+          "requests": 24.0,
+          "bytes": 36864.0,
+          "elapsed_ms": 224.76725
+        },
+        "revoke": {
+          "klass": [
+            "safe_pause"
+          ],
+          "requests": 12.0,
+          "bytes": 36864.0,
+          "elapsed_ms": 140.09235
+        }
+      },
+      "safe_everywhere": true,
+      "complete_everywhere": false
+    },
+    "C5/timeout_retry": {
+      "faults": {
+        "lost_return": {
+          "klass": [
+            "unsafe"
+          ],
+          "requests": 16.0,
+          "bytes": 36864.0,
+          "elapsed_ms": 160.78755
+        },
+        "late_commit": {
+          "klass": [
+            "unsafe"
+          ],
+          "requests": 16.0,
+          "bytes": 36864.0,
+          "elapsed_ms": 470.0191
+        },
+        "lost_before_commit": {
+          "klass": [
+            "safe_complete"
+          ],
+          "requests": 16.0,
+          "bytes": 36864.0,
+          "elapsed_ms": 167.01594999999998
+        },
+        "revoke": {
+          "klass": [
+            "safe_pause"
+          ],
+          "requests": 12.0,
+          "bytes": 36864.0,
+          "elapsed_ms": 113.16135
+        }
+      },
+      "safe_everywhere": false,
+      "complete_everywhere": false
+    },
+    "C6/clear_evidence": {
+      "faults": {
+        "lost_return": {
+          "klass": [
+            "safe_complete"
+          ],
+          "requests": 23.0,
+          "bytes": 36864.0,
+          "elapsed_ms": 274.05195000000003
+        },
+        "late_commit": {
+          "klass": [
+            "safe_complete"
+          ],
+          "requests": 27.0,
+          "bytes": 36864.0,
+          "elapsed_ms": 633.9432
+        },
+        "lost_before_commit": {
+          "klass": [
+            "safe_pause"
+          ],
+          "requests": 15.0,
+          "bytes": 36864.0,
+          "elapsed_ms": 203.34705
+        },
+        "revoke": {
+          "klass": [
+            "safe_pause"
+          ],
+          "requests": 12.0,
+          "bytes": 36864.0,
+          "elapsed_ms": 178.1861
+        }
+      },
+      "safe_everywhere": true,
+      "complete_everywhere": false
+    },
+    "C6/clear_fenced": {
+      "faults": {
+        "lost_return": {
+          "klass": [
+            "safe_complete"
+          ],
+          "requests": 25.0,
+          "bytes": 36864.0,
+          "elapsed_ms": 330.07764999999995
+        },
+        "late_commit": {
+          "klass": [
+            "safe_complete"
+          ],
+          "requests": 24.0,
+          "bytes": 36864.0,
+          "elapsed_ms": 620.75375
+        },
+        "lost_before_commit": {
+          "klass": [
+            "safe_complete"
+          ],
+          "requests": 24.0,
+          "bytes": 36864.0,
+          "elapsed_ms": 209.53109999999998
+        },
+        "revoke": {
+          "klass": [
+            "safe_pause"
+          ],
+          "requests": 12.0,
+          "bytes": 36864.0,
+          "elapsed_ms": 140.2908
+        }
+      },
+      "safe_everywhere": true,
+      "complete_everywhere": false
+    },
+    "C6/timeout_retry": {
+      "faults": {
+        "lost_return": {
+          "klass": [
+            "unsafe"
+          ],
+          "requests": 16.0,
+          "bytes": 36864.0,
+          "elapsed_ms": 200.93714999999997
+        },
+        "late_commit": {
+          "klass": [
+            "unsafe"
+          ],
+          "requests": 16.0,
+          "bytes": 36864.0,
+          "elapsed_ms": 522.7674
+        },
+        "lost_before_commit": {
+          "klass": [
+            "safe_complete"
+          ],
+          "requests": 16.0,
+          "bytes": 36864.0,
+          "elapsed_ms": 219.4078
+        },
+        "revoke": {
+          "klass": [
+            "safe_pause"
+          ],
+          "requests": 12.0,
+          "bytes": 36864.0,
+          "elapsed_ms": 162.758
+        }
+      },
+      "safe_everywhere": false,
+      "complete_everywhere": false
+    },
+    "C7/dedup_versioned": {
+      "faults": {
+        "lost_return": {
+          "klass": [
+            "safe_complete"
+          ],
+          "requests": 16.0,
+          "bytes": 36864.0,
+          "elapsed_ms": 180.0417
+        },
+        "late_commit": {
+          "klass": [
+            "safe_complete"
+          ],
+          "requests": 16.0,
+          "bytes": 36864.0,
+          "elapsed_ms": 500.69590000000005
+        },
+        "lost_before_commit": {
+          "klass": [
+            "safe_complete"
+          ],
+          "requests": 16.0,
+          "bytes": 36864.0,
+          "elapsed_ms": 206.62400000000002
+        },
+        "revoke": {
+          "klass": [
+            "safe_pause"
+          ],
+          "requests": 9.0,
+          "bytes": 36864.0,
+          "elapsed_ms": 70.79255
+        }
+      },
+      "safe_everywhere": true,
+      "complete_everywhere": false
+    },
+    "C7/timeout_retry": {
+      "faults": {
+        "lost_return": {
+          "klass": [
+            "unsafe"
+          ],
+          "requests": 16.0,
+          "bytes": 36864.0,
+          "elapsed_ms": 193.0562
+        },
+        "late_commit": {
+          "klass": [
+            "unsafe"
+          ],
+          "requests": 16.0,
+          "bytes": 36864.0,
+          "elapsed_ms": 470.3648
+        },
+        "lost_before_commit": {
+          "klass": [
+            "safe_complete"
+          ],
+          "requests": 16.0,
+          "bytes": 36864.0,
+          "elapsed_ms": 201.0745
+        },
+        "revoke": {
+          "klass": [
+            "safe_pause"
+          ],
+          "requests": 12.0,
+          "bytes": 36864.0,
+          "elapsed_ms": 162.60924999999997
+        }
+      },
+      "safe_everywhere": false,
+      "complete_everywhere": false
+    }
+  },
+  "safe_everywhere": [
+    "C4/clear_evidence",
+    "C5/clear_fenced",
+    "C6/clear_evidence",
+    "C6/clear_fenced",
+    "C7/dedup_versioned"
+  ],
+  "failed": []
+}
