@@ -1,0 +1,55 @@
+{
+  "policy": "pause",
+  "context": {
+    "operation_id": "C08_normal_pause",
+    "intent": "048c8931efe28cd784d1aaa5e3eba5b3b095769fc47a434a07300c2fe4bfcd76",
+    "generation": 1
+  },
+  "origin": {
+    "context": {
+      "operation_id": "C08_normal_pause",
+      "intent": "048c8931efe28cd784d1aaa5e3eba5b3b095769fc47a434a07300c2fe4bfcd76",
+      "generation": 1
+    },
+    "manifest": {
+      "adapter": "llamaindex_tool",
+      "version": "0.14.25",
+      "python": "3.13.2",
+      "framework": {
+        "llama_index.core": "1fe52fbc853c3e64c99c1d577f97b6e6c81044070900f32bf946056be04420ce"
+      },
+      "worker_sha256": "2a527692b0ebc6ff51394138d6bbde9954a2d099d4e27d73e7e89f670ba4a3bd",
+      "host_sha256": "2a527692b0ebc6ff51394138d6bbde9954a2d099d4e27d73e7e89f670ba4a3bd",
+      "observer_sha256": "2a527692b0ebc6ff51394138d6bbde9954a2d099d4e27d73e7e89f670ba4a3bd",
+      "route_sha256": "5b69705aff7cd514505540973fe3d38dbb2ff46373fd76cf69084541c41bddd9",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "commit",
+        "delayed": false,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": true,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": false,
+        "query_complete": true
+      }
+    },
+    "namespace": "effects"
+  },
+  "initial_observations": [
+    {
+      "action": "append",
+      "phase": "initial",
+      "attempt": 1,
+      "outcome": "return"
+    }
+  ],
+  "terminal": "pause",
+  "reason": "single_pause",
+  "events": [],
+  "steps": [],
+  "case": "C08_normal",
+  "elapsed_ns": 11394800
+}
