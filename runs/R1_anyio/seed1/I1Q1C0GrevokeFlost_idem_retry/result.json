@@ -1,0 +1,76 @@
+{
+  "policy": "idem_retry",
+  "context": {
+    "operation_id": "I1Q1C0GrevokeFlost_idem_retry",
+    "intent": "38d7c6e9ee9f1c1d8b7b1dbd24382d424982ce51486f3c87cf7e76b662aa298e",
+    "generation": 1
+  },
+  "origin": {
+    "context": {
+      "operation_id": "I1Q1C0GrevokeFlost_idem_retry",
+      "intent": "38d7c6e9ee9f1c1d8b7b1dbd24382d424982ce51486f3c87cf7e76b662aa298e",
+      "generation": 1
+    },
+    "manifest": {
+      "adapter": "anyio_task",
+      "version": "4.12.1",
+      "python": "3.13.2",
+      "framework": {
+        "anyio._backends._asyncio": "c46eaabfad268069cbd262bcd9dc631f66fc86590c949fb1d81a88ab7aafef46"
+      },
+      "worker_sha256": "82727821f348c521f26c19a48622ac6f7ebcb8042abb1df33b008267d39cd415",
+      "host_sha256": "82727821f348c521f26c19a48622ac6f7ebcb8042abb1df33b008267d39cd415",
+      "observer_sha256": "82727821f348c521f26c19a48622ac6f7ebcb8042abb1df33b008267d39cd415",
+      "route_sha256": "9a93f2b9b1d7b5f840c9eb319691a657ef38e5b4b4dbbd6526102e9305822eac",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "commit",
+        "delayed": false,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": false,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": true,
+        "query_complete": true
+      }
+    },
+    "namespace": "effects"
+  },
+  "initial_observations": [
+    {
+      "action": "append",
+      "phase": "initial",
+      "attempt": 1,
+      "outcome": "return_lost"
+    }
+  ],
+  "terminal": "complete",
+  "reason": "idempotent_retry",
+  "events": [
+    {
+      "seq": 0,
+      "context": {
+        "operation_id": "I1Q1C0GrevokeFlost_idem_retry",
+        "intent": "38d7c6e9ee9f1c1d8b7b1dbd24382d424982ce51486f3c87cf7e76b662aa298e",
+        "generation": 1
+      },
+      "manifest": "ebf9fc2772d0b48dc3aff348bb2af2ff80826f8cfcb46d9d12bbea6c6db5609f",
+      "action": "retry",
+      "body": {
+        "state": "committed",
+        "record_id": 1,
+        "operation_id": "I1Q1C0GrevokeFlost_idem_retry",
+        "intent": "38d7c6e9ee9f1c1d8b7b1dbd24382d424982ce51486f3c87cf7e76b662aa298e",
+        "generation": 1,
+        "effect_namespace": "effects",
+        "attempt": 2,
+        "deduplicated": true
+      }
+    }
+  ],
+  "steps": [],
+  "case": "I1Q1C0GrevokeFlost",
+  "elapsed_ns": 22171500
+}
