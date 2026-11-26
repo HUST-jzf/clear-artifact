@@ -1,0 +1,50 @@
+{
+  "files": {
+    "docs/R36_frontier_vs_fence_protocol.md": "79c80c1fdcf4fac932fa64a6ae9458522e4760e419969ed525579928659c4350",
+    "scripts/r36_service.py": "b9822092697ab000e8ec559a08f2940bbd74f9667d2e480fb7b2bc48c2c55c16",
+    "scripts/r36_client.py": "62edb3ff351733ac2d3bd85b37d8a8d07d632775c6c7657bfe2f355f4be62c91",
+    "scripts/run_r36.py": "0550480820aa7a667da5e98e9b70c9a972c499d710bbe53d2c55a403e7f143f0",
+    "scripts/verify_r36.py": "50bd38803aa826050bdef660133e1e9fada577f573c0b2715859bccd5b1091e9",
+    "scripts/r38_client.py": "55e44e1712d02c9f616e2b44f03cbb2fa50df7ce281cd9b1b09ede3c9302c437"
+  },
+  "profiles": [
+    "buffered",
+    "immediate"
+  ],
+  "faults": [
+    "late_effect",
+    "lost_before_commit"
+  ],
+  "policies": [
+    "clear",
+    "clear_fenced",
+    "frontier",
+    "blind_retry"
+  ],
+  "seeds": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "target_calls_before_freeze": 0,
+  "python": "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R1_anyio\\env\\Scripts\\python.exe",
+  "python_version": "3.13.2",
+  "created_ns": 1792639940592903200
+}
