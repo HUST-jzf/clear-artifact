@@ -1,0 +1,14 @@
+{
+  "versions": {
+    "clear-assurance": "2.0.0",
+    "llama-index-core": "0.14.25"
+  },
+  "prefix": "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R4_llamaindex\\env",
+  "package": "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R4_llamaindex\\env\\Lib\\site-packages\\clear_assurance\\__init__.py",
+  "modules": {
+    "llama_index.core": {
+      "path": "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R4_llamaindex\\env\\Lib\\site-packages\\llama_index\\core\\__init__.py",
+      "sha256": "1fe52fbc853c3e64c99c1d577f97b6e6c81044070900f32bf946056be04420ce"
+    }
+  }
+}
