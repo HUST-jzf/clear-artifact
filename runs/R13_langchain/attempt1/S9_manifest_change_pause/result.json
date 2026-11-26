@@ -1,0 +1,72 @@
+{
+  "policy": "pause",
+  "context": {
+    "operation_id": "S9_manifest_change_pause",
+    "intent": "38d7c6e9ee9f1c1d8b7b1dbd24382d424982ce51486f3c87cf7e76b662aa298e",
+    "generation": 1
+  },
+  "origin": {
+    "context": {
+      "operation_id": "S9_manifest_change_pause",
+      "intent": "38d7c6e9ee9f1c1d8b7b1dbd24382d424982ce51486f3c87cf7e76b662aa298e",
+      "generation": 1
+    },
+    "manifest": {
+      "adapter": "langchain_structured_tool",
+      "version": "1.0.0",
+      "python": "3.13.2",
+      "framework": {
+        "langchain_core.tools": "a9ed84f55c19ee1a5d913a33f7aa12274f346b475ef6843048ef453f55e798cd"
+      },
+      "worker_sha256": "82727821f348c521f26c19a48622ac6f7ebcb8042abb1df33b008267d39cd415",
+      "host_sha256": "0e0d1bd0bbadf7f68b8d8575a96e725f79f31e373d49c00787e66d790966f741",
+      "observer_sha256": "82727821f348c521f26c19a48622ac6f7ebcb8042abb1df33b008267d39cd415",
+      "route_sha256": "c62446fcb5cb27c328ced633f4a712b72376d5c023d9bd5abab5585a59a8a2d3",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "fail",
+        "delayed": false,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": true,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": false,
+        "query_complete": true,
+        "change": "manifest_change"
+      }
+    },
+    "namespace": "effects"
+  },
+  "initial_observations": [
+    {
+      "action": "append",
+      "phase": "initial",
+      "attempt": 1,
+      "outcome": "error"
+    }
+  ],
+  "terminal": "pause",
+  "reason": "single_pause",
+  "events": [],
+  "steps": [],
+  "case": "manifest_change_S9",
+  "mode": "manifest_change",
+  "seed": 9,
+  "params": {
+    "initial_timeout": 0.07141908647984899,
+    "gate": 0.0,
+    "wait_window": 0.15
+  },
+  "mutations": [
+    {
+      "changes": {
+        "worker_sha256": "redeploy"
+      },
+      "revision": 1,
+      "at_ns": 31167273600000
+    }
+  ],
+  "elapsed_ns": 22711600
+}
