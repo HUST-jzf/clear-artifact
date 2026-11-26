@@ -1,0 +1,338 @@
+{
+  "source": "pydantic_ai",
+  "versions": {
+    "clear-assurance": "2.0.0",
+    "pydantic-ai-slim": "2.59.0"
+  },
+  "prefix": "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R4_pydantic_ai\\env",
+  "guard_core_lines": 25,
+  "adapter_change_lines": 1,
+  "config_items": [
+    "budget",
+    "after_initial"
+  ],
+  "business_changes": 0,
+  "tasks": [
+    {
+      "case": "C01_fail_before",
+      "seed": 1,
+      "terminal": "complete",
+      "reason": "original_or_retry_receipt",
+      "actions": 3,
+      "elapsed_ns": 23945200
+    },
+    {
+      "case": "C02_lost_return",
+      "seed": 1,
+      "terminal": "complete",
+      "reason": "original_or_retry_receipt",
+      "actions": 1,
+      "elapsed_ns": 7094900
+    },
+    {
+      "case": "C03_late_commit",
+      "seed": 1,
+      "terminal": "complete",
+      "reason": "original_or_retry_receipt",
+      "actions": 1,
+      "elapsed_ns": 96015700
+    },
+    {
+      "case": "C04_revoke",
+      "seed": 1,
+      "terminal": "pause",
+      "reason": "budget_exhausted",
+      "actions": 4,
+      "elapsed_ns": 5928100
+    },
+    {
+      "case": "C05_query_unavailable",
+      "seed": 1,
+      "terminal": "pause",
+      "reason": "original_lifecycle_unavailable",
+      "actions": 1,
+      "elapsed_ns": 7454900
+    },
+    {
+      "case": "C06_closure_missing",
+      "seed": 1,
+      "terminal": "complete",
+      "reason": "original_or_retry_receipt",
+      "actions": 1,
+      "elapsed_ns": 7072600
+    },
+    {
+      "case": "C07_idempotent_lost",
+      "seed": 1,
+      "terminal": "complete",
+      "reason": "original_or_retry_receipt",
+      "actions": 1,
+      "elapsed_ns": 6031600
+    },
+    {
+      "case": "C08_normal",
+      "seed": 1,
+      "terminal": "complete",
+      "reason": "original_or_retry_receipt",
+      "actions": 1,
+      "elapsed_ns": 6024600
+    },
+    {
+      "case": "C01_fail_before",
+      "seed": 2,
+      "terminal": "complete",
+      "reason": "original_or_retry_receipt",
+      "actions": 3,
+      "elapsed_ns": 9291700
+    },
+    {
+      "case": "C02_lost_return",
+      "seed": 2,
+      "terminal": "complete",
+      "reason": "original_or_retry_receipt",
+      "actions": 1,
+      "elapsed_ns": 6320500
+    },
+    {
+      "case": "C03_late_commit",
+      "seed": 2,
+      "terminal": "complete",
+      "reason": "original_or_retry_receipt",
+      "actions": 1,
+      "elapsed_ns": 84366300
+    },
+    {
+      "case": "C04_revoke",
+      "seed": 2,
+      "terminal": "pause",
+      "reason": "budget_exhausted",
+      "actions": 4,
+      "elapsed_ns": 5448000
+    },
+    {
+      "case": "C05_query_unavailable",
+      "seed": 2,
+      "terminal": "pause",
+      "reason": "original_lifecycle_unavailable",
+      "actions": 1,
+      "elapsed_ns": 5819900
+    },
+    {
+      "case": "C06_closure_missing",
+      "seed": 2,
+      "terminal": "complete",
+      "reason": "original_or_retry_receipt",
+      "actions": 1,
+      "elapsed_ns": 7829300
+    },
+    {
+      "case": "C07_idempotent_lost",
+      "seed": 2,
+      "terminal": "complete",
+      "reason": "original_or_retry_receipt",
+      "actions": 1,
+      "elapsed_ns": 5932600
+    },
+    {
+      "case": "C08_normal",
+      "seed": 2,
+      "terminal": "complete",
+      "reason": "original_or_retry_receipt",
+      "actions": 1,
+      "elapsed_ns": 6442000
+    },
+    {
+      "case": "C01_fail_before",
+      "seed": 3,
+      "terminal": "complete",
+      "reason": "original_or_retry_receipt",
+      "actions": 3,
+      "elapsed_ns": 8742800
+    },
+    {
+      "case": "C02_lost_return",
+      "seed": 3,
+      "terminal": "complete",
+      "reason": "original_or_retry_receipt",
+      "actions": 1,
+      "elapsed_ns": 6456200
+    },
+    {
+      "case": "C03_late_commit",
+      "seed": 3,
+      "terminal": "complete",
+      "reason": "original_or_retry_receipt",
+      "actions": 1,
+      "elapsed_ns": 92540100
+    },
+    {
+      "case": "C04_revoke",
+      "seed": 3,
+      "terminal": "pause",
+      "reason": "budget_exhausted",
+      "actions": 4,
+      "elapsed_ns": 8369700
+    },
+    {
+      "case": "C05_query_unavailable",
+      "seed": 3,
+      "terminal": "pause",
+      "reason": "original_lifecycle_unavailable",
+      "actions": 1,
+      "elapsed_ns": 7600900
+    },
+    {
+      "case": "C06_closure_missing",
+      "seed": 3,
+      "terminal": "complete",
+      "reason": "original_or_retry_receipt",
+      "actions": 1,
+      "elapsed_ns": 7793000
+    },
+    {
+      "case": "C07_idempotent_lost",
+      "seed": 3,
+      "terminal": "complete",
+      "reason": "original_or_retry_receipt",
+      "actions": 1,
+      "elapsed_ns": 6534500
+    },
+    {
+      "case": "C08_normal",
+      "seed": 3,
+      "terminal": "complete",
+      "reason": "original_or_retry_receipt",
+      "actions": 1,
+      "elapsed_ns": 6085100
+    },
+    {
+      "case": "C01_fail_before",
+      "seed": 4,
+      "terminal": "complete",
+      "reason": "original_or_retry_receipt",
+      "actions": 3,
+      "elapsed_ns": 9259500
+    },
+    {
+      "case": "C02_lost_return",
+      "seed": 4,
+      "terminal": "complete",
+      "reason": "original_or_retry_receipt",
+      "actions": 1,
+      "elapsed_ns": 6868500
+    },
+    {
+      "case": "C03_late_commit",
+      "seed": 4,
+      "terminal": "complete",
+      "reason": "original_or_retry_receipt",
+      "actions": 1,
+      "elapsed_ns": 78087200
+    },
+    {
+      "case": "C04_revoke",
+      "seed": 4,
+      "terminal": "pause",
+      "reason": "budget_exhausted",
+      "actions": 4,
+      "elapsed_ns": 5935600
+    },
+    {
+      "case": "C05_query_unavailable",
+      "seed": 4,
+      "terminal": "pause",
+      "reason": "original_lifecycle_unavailable",
+      "actions": 1,
+      "elapsed_ns": 6219500
+    },
+    {
+      "case": "C06_closure_missing",
+      "seed": 4,
+      "terminal": "complete",
+      "reason": "original_or_retry_receipt",
+      "actions": 1,
+      "elapsed_ns": 6391800
+    },
+    {
+      "case": "C07_idempotent_lost",
+      "seed": 4,
+      "terminal": "complete",
+      "reason": "original_or_retry_receipt",
+      "actions": 1,
+      "elapsed_ns": 6251700
+    },
+    {
+      "case": "C08_normal",
+      "seed": 4,
+      "terminal": "complete",
+      "reason": "original_or_retry_receipt",
+      "actions": 1,
+      "elapsed_ns": 7399300
+    },
+    {
+      "case": "C01_fail_before",
+      "seed": 5,
+      "terminal": "complete",
+      "reason": "original_or_retry_receipt",
+      "actions": 3,
+      "elapsed_ns": 9660700
+    },
+    {
+      "case": "C02_lost_return",
+      "seed": 5,
+      "terminal": "complete",
+      "reason": "original_or_retry_receipt",
+      "actions": 1,
+      "elapsed_ns": 7017800
+    },
+    {
+      "case": "C03_late_commit",
+      "seed": 5,
+      "terminal": "complete",
+      "reason": "original_or_retry_receipt",
+      "actions": 1,
+      "elapsed_ns": 82226700
+    },
+    {
+      "case": "C04_revoke",
+      "seed": 5,
+      "terminal": "pause",
+      "reason": "budget_exhausted",
+      "actions": 4,
+      "elapsed_ns": 5337200
+    },
+    {
+      "case": "C05_query_unavailable",
+      "seed": 5,
+      "terminal": "pause",
+      "reason": "original_lifecycle_unavailable",
+      "actions": 1,
+      "elapsed_ns": 6342000
+    },
+    {
+      "case": "C06_closure_missing",
+      "seed": 5,
+      "terminal": "complete",
+      "reason": "original_or_retry_receipt",
+      "actions": 1,
+      "elapsed_ns": 6945600
+    },
+    {
+      "case": "C07_idempotent_lost",
+      "seed": 5,
+      "terminal": "complete",
+      "reason": "original_or_retry_receipt",
+      "actions": 1,
+      "elapsed_ns": 7425900
+    },
+    {
+      "case": "C08_normal",
+      "seed": 5,
+      "terminal": "complete",
+      "reason": "original_or_retry_receipt",
+      "actions": 1,
+      "elapsed_ns": 9857300
+    }
+  ],
+  "failures": []
+}

@@ -1,0 +1,58 @@
+{
+  "levels": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "policies": [
+    "clear",
+    "idem_retry",
+    "query_retry"
+  ],
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "faults": [
+    "lost_return",
+    "late_commit"
+  ],
+  "fault_step": {
+    "lost_return": "attach",
+    "late_commit": "commit"
+  },
+  "idempotency": "off",
+  "lifecycle": "faithful",
+  "query_mode": "faithful",
+  "steps": [
+    "create",
+    "reserve",
+    "attach",
+    "commit",
+    "notify"
+  ],
+  "files": {
+    "docs/R26_minimal_retrofit_ladder_protocol.md": "681a4e75b21aeda7dc703a466cc9e7362f6aa354bed5346cf365fe66e480c61e",
+    "scripts/r26_service.py": "cf019744bf535c7b2ef05fcebcf938b2bf6763b66254d01bd548aad0cb3e93ae",
+    "scripts/r19_client.py": "8693a1615fa4055f311e1189de8b8ece0a67b0099dbc1b31415435127e2a6325",
+    "scripts/run_r26.py": "624b3b5c7699366fcdb839ebe0c52070e6bb8b270044b380a423b14d5ef054fc",
+    "scripts/verify_r26.py": "997bb75942f799040b026aad1cd58770baa296708e2ee248369f5a07a5067939"
+  },
+  "post_timeout_s": 0.4,
+  "get_timeout_s": 0.5,
+  "dispatch_jitter_s": 0.015,
+  "python": "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R1_anyio\\env\\Scripts\\python.exe",
+  "python_version": "3.13.2",
+  "service": "r26_service.py",
+  "target_calls_before_freeze": 0,
+  "created_ns": 1792595145023365800
+}

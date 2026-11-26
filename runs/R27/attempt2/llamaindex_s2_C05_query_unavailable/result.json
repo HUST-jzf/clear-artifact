@@ -1,0 +1,35 @@
+{
+  "terminal": "pause",
+  "reason": "original_lifecycle_unavailable",
+  "body": {
+    "state": "unknown",
+    "complete": false,
+    "effect_namespace": "effects",
+    "operation_id": "llamaindex_s2_C05_query_unavailable",
+    "intent": "048c8931efe28cd784d1aaa5e3eba5b3b095769fc47a434a07300c2fe4bfcd76",
+    "generation": 1
+  },
+  "events": [
+    {
+      "seq": 0,
+      "context": {
+        "operation_id": "llamaindex_s2_C05_query_unavailable",
+        "intent": "048c8931efe28cd784d1aaa5e3eba5b3b095769fc47a434a07300c2fe4bfcd76",
+        "generation": 1
+      },
+      "manifest": "b5e194617c3cbb5ec8a2152d6557d72ad545ae72b57c078eb40e54c68d1e0a67",
+      "action": "query",
+      "body": {
+        "state": "unknown",
+        "complete": false,
+        "effect_namespace": "effects",
+        "operation_id": "llamaindex_s2_C05_query_unavailable",
+        "intent": "048c8931efe28cd784d1aaa5e3eba5b3b095769fc47a434a07300c2fe4bfcd76",
+        "generation": 1
+      }
+    }
+  ],
+  "steps": [],
+  "case": "C05_query_unavailable",
+  "elapsed_ns": 6355000
+}

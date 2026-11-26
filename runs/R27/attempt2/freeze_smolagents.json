@@ -1,0 +1,72 @@
+{
+  "source": "smolagents",
+  "files": {
+    "docs/R27_middleware_integration_protocol.md": "fedb36b509e3c4cae11ffc2e08707458d626110afb55e20cbbc0773c5d6b3a95",
+    "scripts/r27_guard.py": "e8bca4b1f16a5666ceb75290f5e5e054aa71d324b2c495cd563fb5b577147874",
+    "scripts/run_r27.py": "bebc8e9a031faf5bed7599e19adb059fd1aeeaaedba54eb3b33cfbe0866d91ca",
+    "scripts/verify_r27.py": "f3e05cb886d1c312e0d9e75bd6e5455b2443d76b369ea08c96d2d290ad8381ad",
+    "scripts/r4_holdout.py": "2a527692b0ebc6ff51394138d6bbde9954a2d099d4e27d73e7e89f670ba4a3bd"
+  },
+  "cases": [
+    "C01_fail_before",
+    "C02_lost_return",
+    "C03_late_commit",
+    "C04_revoke",
+    "C05_query_unavailable",
+    "C06_closure_missing",
+    "C07_idempotent_lost",
+    "C08_normal"
+  ],
+  "seeds": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "expected": {
+    "C01_fail_before": {
+      "terminal": "complete",
+      "rows": 1
+    },
+    "C02_lost_return": {
+      "terminal": "complete",
+      "rows": 1
+    },
+    "C03_late_commit": {
+      "terminal": "complete",
+      "rows": 1
+    },
+    "C04_revoke": {
+      "terminal": "pause",
+      "rows": 0
+    },
+    "C05_query_unavailable": {
+      "terminal": "pause",
+      "rows": 1
+    },
+    "C06_closure_missing": {
+      "terminal": "complete",
+      "rows": 1
+    },
+    "C07_idempotent_lost": {
+      "terminal": "complete",
+      "rows": 1
+    },
+    "C08_normal": {
+      "terminal": "complete",
+      "rows": 1
+    }
+  },
+  "guard_core_lines": 25,
+  "adapter_change_lines": 1,
+  "config_items": [
+    "budget",
+    "after_initial"
+  ],
+  "business_changes": 0,
+  "target_calls_before_freeze": 0,
+  "python": "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R4_smolagents\\env\\Scripts\\python.exe",
+  "python_version": "3.13.2",
+  "created_ns": 1792632600005858100
+}

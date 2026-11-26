@@ -1,0 +1,338 @@
+{
+  "source": "smolagents",
+  "versions": {
+    "clear-assurance": "2.0.0",
+    "smolagents": "1.26.0"
+  },
+  "prefix": "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R4_smolagents\\env",
+  "guard_core_lines": 25,
+  "adapter_change_lines": 1,
+  "config_items": [
+    "budget",
+    "after_initial"
+  ],
+  "business_changes": 0,
+  "tasks": [
+    {
+      "case": "C01_fail_before",
+      "seed": 1,
+      "terminal": "complete",
+      "reason": "original_or_retry_receipt",
+      "actions": 3,
+      "elapsed_ns": 20884400
+    },
+    {
+      "case": "C02_lost_return",
+      "seed": 1,
+      "terminal": "complete",
+      "reason": "original_or_retry_receipt",
+      "actions": 1,
+      "elapsed_ns": 7477100
+    },
+    {
+      "case": "C03_late_commit",
+      "seed": 1,
+      "terminal": "complete",
+      "reason": "original_or_retry_receipt",
+      "actions": 1,
+      "elapsed_ns": 80625000
+    },
+    {
+      "case": "C04_revoke",
+      "seed": 1,
+      "terminal": "pause",
+      "reason": "budget_exhausted",
+      "actions": 4,
+      "elapsed_ns": 7353300
+    },
+    {
+      "case": "C05_query_unavailable",
+      "seed": 1,
+      "terminal": "pause",
+      "reason": "original_lifecycle_unavailable",
+      "actions": 1,
+      "elapsed_ns": 6593200
+    },
+    {
+      "case": "C06_closure_missing",
+      "seed": 1,
+      "terminal": "complete",
+      "reason": "original_or_retry_receipt",
+      "actions": 1,
+      "elapsed_ns": 7423400
+    },
+    {
+      "case": "C07_idempotent_lost",
+      "seed": 1,
+      "terminal": "complete",
+      "reason": "original_or_retry_receipt",
+      "actions": 1,
+      "elapsed_ns": 6963200
+    },
+    {
+      "case": "C08_normal",
+      "seed": 1,
+      "terminal": "complete",
+      "reason": "original_or_retry_receipt",
+      "actions": 1,
+      "elapsed_ns": 7177800
+    },
+    {
+      "case": "C01_fail_before",
+      "seed": 2,
+      "terminal": "complete",
+      "reason": "original_or_retry_receipt",
+      "actions": 3,
+      "elapsed_ns": 10422800
+    },
+    {
+      "case": "C02_lost_return",
+      "seed": 2,
+      "terminal": "complete",
+      "reason": "original_or_retry_receipt",
+      "actions": 1,
+      "elapsed_ns": 6633700
+    },
+    {
+      "case": "C03_late_commit",
+      "seed": 2,
+      "terminal": "complete",
+      "reason": "original_or_retry_receipt",
+      "actions": 1,
+      "elapsed_ns": 87503100
+    },
+    {
+      "case": "C04_revoke",
+      "seed": 2,
+      "terminal": "pause",
+      "reason": "budget_exhausted",
+      "actions": 4,
+      "elapsed_ns": 7932300
+    },
+    {
+      "case": "C05_query_unavailable",
+      "seed": 2,
+      "terminal": "pause",
+      "reason": "original_lifecycle_unavailable",
+      "actions": 1,
+      "elapsed_ns": 7573700
+    },
+    {
+      "case": "C06_closure_missing",
+      "seed": 2,
+      "terminal": "complete",
+      "reason": "original_or_retry_receipt",
+      "actions": 1,
+      "elapsed_ns": 9820000
+    },
+    {
+      "case": "C07_idempotent_lost",
+      "seed": 2,
+      "terminal": "complete",
+      "reason": "original_or_retry_receipt",
+      "actions": 1,
+      "elapsed_ns": 9414500
+    },
+    {
+      "case": "C08_normal",
+      "seed": 2,
+      "terminal": "complete",
+      "reason": "original_or_retry_receipt",
+      "actions": 1,
+      "elapsed_ns": 11387200
+    },
+    {
+      "case": "C01_fail_before",
+      "seed": 3,
+      "terminal": "complete",
+      "reason": "original_or_retry_receipt",
+      "actions": 3,
+      "elapsed_ns": 11160900
+    },
+    {
+      "case": "C02_lost_return",
+      "seed": 3,
+      "terminal": "complete",
+      "reason": "original_or_retry_receipt",
+      "actions": 1,
+      "elapsed_ns": 7650600
+    },
+    {
+      "case": "C03_late_commit",
+      "seed": 3,
+      "terminal": "complete",
+      "reason": "original_or_retry_receipt",
+      "actions": 1,
+      "elapsed_ns": 94195200
+    },
+    {
+      "case": "C04_revoke",
+      "seed": 3,
+      "terminal": "pause",
+      "reason": "budget_exhausted",
+      "actions": 4,
+      "elapsed_ns": 12892900
+    },
+    {
+      "case": "C05_query_unavailable",
+      "seed": 3,
+      "terminal": "pause",
+      "reason": "original_lifecycle_unavailable",
+      "actions": 1,
+      "elapsed_ns": 7773400
+    },
+    {
+      "case": "C06_closure_missing",
+      "seed": 3,
+      "terminal": "complete",
+      "reason": "original_or_retry_receipt",
+      "actions": 1,
+      "elapsed_ns": 8384900
+    },
+    {
+      "case": "C07_idempotent_lost",
+      "seed": 3,
+      "terminal": "complete",
+      "reason": "original_or_retry_receipt",
+      "actions": 1,
+      "elapsed_ns": 10139500
+    },
+    {
+      "case": "C08_normal",
+      "seed": 3,
+      "terminal": "complete",
+      "reason": "original_or_retry_receipt",
+      "actions": 1,
+      "elapsed_ns": 6169300
+    },
+    {
+      "case": "C01_fail_before",
+      "seed": 4,
+      "terminal": "complete",
+      "reason": "original_or_retry_receipt",
+      "actions": 3,
+      "elapsed_ns": 9768400
+    },
+    {
+      "case": "C02_lost_return",
+      "seed": 4,
+      "terminal": "complete",
+      "reason": "original_or_retry_receipt",
+      "actions": 1,
+      "elapsed_ns": 7021000
+    },
+    {
+      "case": "C03_late_commit",
+      "seed": 4,
+      "terminal": "complete",
+      "reason": "original_or_retry_receipt",
+      "actions": 1,
+      "elapsed_ns": 75901100
+    },
+    {
+      "case": "C04_revoke",
+      "seed": 4,
+      "terminal": "pause",
+      "reason": "budget_exhausted",
+      "actions": 4,
+      "elapsed_ns": 5290400
+    },
+    {
+      "case": "C05_query_unavailable",
+      "seed": 4,
+      "terminal": "pause",
+      "reason": "original_lifecycle_unavailable",
+      "actions": 1,
+      "elapsed_ns": 6530200
+    },
+    {
+      "case": "C06_closure_missing",
+      "seed": 4,
+      "terminal": "complete",
+      "reason": "original_or_retry_receipt",
+      "actions": 1,
+      "elapsed_ns": 5943000
+    },
+    {
+      "case": "C07_idempotent_lost",
+      "seed": 4,
+      "terminal": "complete",
+      "reason": "original_or_retry_receipt",
+      "actions": 1,
+      "elapsed_ns": 8517900
+    },
+    {
+      "case": "C08_normal",
+      "seed": 4,
+      "terminal": "complete",
+      "reason": "original_or_retry_receipt",
+      "actions": 1,
+      "elapsed_ns": 6214200
+    },
+    {
+      "case": "C01_fail_before",
+      "seed": 5,
+      "terminal": "complete",
+      "reason": "original_or_retry_receipt",
+      "actions": 3,
+      "elapsed_ns": 8562300
+    },
+    {
+      "case": "C02_lost_return",
+      "seed": 5,
+      "terminal": "complete",
+      "reason": "original_or_retry_receipt",
+      "actions": 1,
+      "elapsed_ns": 6390400
+    },
+    {
+      "case": "C03_late_commit",
+      "seed": 5,
+      "terminal": "complete",
+      "reason": "original_or_retry_receipt",
+      "actions": 1,
+      "elapsed_ns": 97596600
+    },
+    {
+      "case": "C04_revoke",
+      "seed": 5,
+      "terminal": "pause",
+      "reason": "budget_exhausted",
+      "actions": 4,
+      "elapsed_ns": 5725400
+    },
+    {
+      "case": "C05_query_unavailable",
+      "seed": 5,
+      "terminal": "pause",
+      "reason": "original_lifecycle_unavailable",
+      "actions": 1,
+      "elapsed_ns": 7014900
+    },
+    {
+      "case": "C06_closure_missing",
+      "seed": 5,
+      "terminal": "complete",
+      "reason": "original_or_retry_receipt",
+      "actions": 1,
+      "elapsed_ns": 7941600
+    },
+    {
+      "case": "C07_idempotent_lost",
+      "seed": 5,
+      "terminal": "complete",
+      "reason": "original_or_retry_receipt",
+      "actions": 1,
+      "elapsed_ns": 6376100
+    },
+    {
+      "case": "C08_normal",
+      "seed": 5,
+      "terminal": "complete",
+      "reason": "original_or_retry_receipt",
+      "actions": 1,
+      "elapsed_ns": 6703300
+    }
+  ],
+  "failures": []
+}
