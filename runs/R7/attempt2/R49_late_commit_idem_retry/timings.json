@@ -1,0 +1,21 @@
+{
+  "case": "late_commit",
+  "policy": "idem_retry",
+  "repetition": 49,
+  "terminal": "complete",
+  "reason": "idempotent_retry",
+  "control_ns": 10431600,
+  "timings": {
+    "active_ns": 10296200,
+    "drain_ns": 8635600
+  },
+  "counts": {
+    "active": 1,
+    "retry": 1
+  },
+  "actions": 1,
+  "rows": 2,
+  "duplicate": true,
+  "stale_new": 0,
+  "safe": false
+}
