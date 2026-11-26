@@ -1,0 +1,55 @@
+{
+  "policy": "pause",
+  "context": {
+    "operation_id": "C07_idempotent_lost_pause",
+    "intent": "048c8931efe28cd784d1aaa5e3eba5b3b095769fc47a434a07300c2fe4bfcd76",
+    "generation": 1
+  },
+  "origin": {
+    "context": {
+      "operation_id": "C07_idempotent_lost_pause",
+      "intent": "048c8931efe28cd784d1aaa5e3eba5b3b095769fc47a434a07300c2fe4bfcd76",
+      "generation": 1
+    },
+    "manifest": {
+      "adapter": "autogen_tool",
+      "version": "0.7.5",
+      "python": "3.13.2",
+      "framework": {
+        "autogen_core": "6d5c15c16a36937c1f5dcf17a6197548227a598bce5e0070b0feabaf80aecd61"
+      },
+      "worker_sha256": "2a527692b0ebc6ff51394138d6bbde9954a2d099d4e27d73e7e89f670ba4a3bd",
+      "host_sha256": "2a527692b0ebc6ff51394138d6bbde9954a2d099d4e27d73e7e89f670ba4a3bd",
+      "observer_sha256": "2a527692b0ebc6ff51394138d6bbde9954a2d099d4e27d73e7e89f670ba4a3bd",
+      "route_sha256": "2c61e3d23c5ffe68ec16d57f6da5ee802aae1f7a030acab90820ba060f4a6b08",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "commit",
+        "delayed": false,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": true,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": true,
+        "query_complete": true
+      }
+    },
+    "namespace": "effects"
+  },
+  "initial_observations": [
+    {
+      "action": "append",
+      "phase": "initial",
+      "attempt": 1,
+      "outcome": "return"
+    }
+  ],
+  "terminal": "pause",
+  "reason": "single_pause",
+  "events": [],
+  "steps": [],
+  "case": "C07_idempotent_lost",
+  "elapsed_ns": 9016400
+}

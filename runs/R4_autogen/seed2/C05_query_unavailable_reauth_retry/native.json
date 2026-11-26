@@ -1,0 +1,212 @@
+{
+  "context": {
+    "operation_id": "C05_query_unavailable_reauth_retry",
+    "intent": "048c8931efe28cd784d1aaa5e3eba5b3b095769fc47a434a07300c2fe4bfcd76",
+    "generation": 1
+  },
+  "origin": {
+    "context": {
+      "operation_id": "C05_query_unavailable_reauth_retry",
+      "intent": "048c8931efe28cd784d1aaa5e3eba5b3b095769fc47a434a07300c2fe4bfcd76",
+      "generation": 1
+    },
+    "manifest": {
+      "adapter": "autogen_tool",
+      "version": "0.7.5",
+      "python": "3.13.2",
+      "framework": {
+        "autogen_core": "6d5c15c16a36937c1f5dcf17a6197548227a598bce5e0070b0feabaf80aecd61"
+      },
+      "worker_sha256": "2a527692b0ebc6ff51394138d6bbde9954a2d099d4e27d73e7e89f670ba4a3bd",
+      "host_sha256": "2a527692b0ebc6ff51394138d6bbde9954a2d099d4e27d73e7e89f670ba4a3bd",
+      "observer_sha256": "2a527692b0ebc6ff51394138d6bbde9954a2d099d4e27d73e7e89f670ba4a3bd",
+      "route_sha256": "fb0deadfe522c65de9877a53b296f0bc74631aefa56d787a61c8562a8e73a297",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "commit",
+        "delayed": false,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": false,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": false,
+        "query_complete": false
+      }
+    },
+    "namespace": "effects"
+  },
+  "initial_route": {
+    "revision": 1,
+    "mode": "inline",
+    "outcome": "commit",
+    "delayed": false,
+    "abandon_on_cancel": false,
+    "delegated": false,
+    "closed_registration": false,
+    "allowed": true,
+    "store": "effects",
+    "idempotency": false,
+    "query_complete": false
+  },
+  "initial_qualification": {
+    "valid": false,
+    "manifest": {
+      "adapter": "autogen_tool",
+      "version": "0.7.5",
+      "python": "3.13.2",
+      "framework": {
+        "autogen_core": "6d5c15c16a36937c1f5dcf17a6197548227a598bce5e0070b0feabaf80aecd61"
+      },
+      "worker_sha256": "2a527692b0ebc6ff51394138d6bbde9954a2d099d4e27d73e7e89f670ba4a3bd",
+      "host_sha256": "2a527692b0ebc6ff51394138d6bbde9954a2d099d4e27d73e7e89f670ba4a3bd",
+      "observer_sha256": "2a527692b0ebc6ff51394138d6bbde9954a2d099d4e27d73e7e89f670ba4a3bd",
+      "route_sha256": "fb0deadfe522c65de9877a53b296f0bc74631aefa56d787a61c8562a8e73a297",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "commit",
+        "delayed": false,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": false,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": false,
+        "query_complete": false
+      }
+    },
+    "checks": {
+      "adapter": true,
+      "version": true,
+      "python": true,
+      "framework": true,
+      "worker_sha256": true,
+      "host_sha256": true,
+      "observer_sha256": true,
+      "known_route": true,
+      "closed_registration": false,
+      "approval_allowed": true,
+      "same_effect_destination": true
+    },
+    "changed_dependencies": []
+  },
+  "initial_observations": [
+    {
+      "action": "append",
+      "phase": "initial",
+      "attempt": 1,
+      "outcome": "return"
+    }
+  ],
+  "attempt": 2,
+  "calls": [
+    {
+      "tool": "append",
+      "outcome": "return",
+      "time_ns": 33465593185900
+    },
+    {
+      "tool": "describe",
+      "outcome": "return",
+      "time_ns": 33465593192400
+    },
+    {
+      "tool": "drain",
+      "outcome": "return",
+      "time_ns": 33465599906000
+    }
+  ],
+  "capabilities": {
+    "executor_handle": true,
+    "closed_registration": false
+  },
+  "drain": {
+    "drained": true,
+    "invocations": 2,
+    "effects": 2,
+    "terminal": true
+  },
+  "final_manifest": {
+    "adapter": "autogen_tool",
+    "version": "0.7.5",
+    "python": "3.13.2",
+    "framework": {
+      "autogen_core": "6d5c15c16a36937c1f5dcf17a6197548227a598bce5e0070b0feabaf80aecd61"
+    },
+    "worker_sha256": "2a527692b0ebc6ff51394138d6bbde9954a2d099d4e27d73e7e89f670ba4a3bd",
+    "host_sha256": "2a527692b0ebc6ff51394138d6bbde9954a2d099d4e27d73e7e89f670ba4a3bd",
+    "observer_sha256": "2a527692b0ebc6ff51394138d6bbde9954a2d099d4e27d73e7e89f670ba4a3bd",
+    "route_sha256": "fb0deadfe522c65de9877a53b296f0bc74631aefa56d787a61c8562a8e73a297",
+    "route": {
+      "revision": 1,
+      "mode": "inline",
+      "outcome": "commit",
+      "delayed": false,
+      "abandon_on_cancel": false,
+      "delegated": false,
+      "closed_registration": false,
+      "allowed": true,
+      "store": "effects",
+      "idempotency": false,
+      "query_complete": false
+    }
+  },
+  "final_route": {
+    "revision": 1,
+    "mode": "inline",
+    "outcome": "commit",
+    "delayed": false,
+    "abandon_on_cancel": false,
+    "delegated": false,
+    "closed_registration": false,
+    "allowed": true,
+    "store": "effects",
+    "idempotency": false,
+    "query_complete": false
+  },
+  "current_qualification": {
+    "valid": false,
+    "manifest": {
+      "adapter": "autogen_tool",
+      "version": "0.7.5",
+      "python": "3.13.2",
+      "framework": {
+        "autogen_core": "6d5c15c16a36937c1f5dcf17a6197548227a598bce5e0070b0feabaf80aecd61"
+      },
+      "worker_sha256": "2a527692b0ebc6ff51394138d6bbde9954a2d099d4e27d73e7e89f670ba4a3bd",
+      "host_sha256": "2a527692b0ebc6ff51394138d6bbde9954a2d099d4e27d73e7e89f670ba4a3bd",
+      "observer_sha256": "2a527692b0ebc6ff51394138d6bbde9954a2d099d4e27d73e7e89f670ba4a3bd",
+      "route_sha256": "fb0deadfe522c65de9877a53b296f0bc74631aefa56d787a61c8562a8e73a297",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "commit",
+        "delayed": false,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": false,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": false,
+        "query_complete": false
+      }
+    },
+    "checks": {
+      "adapter": true,
+      "version": true,
+      "python": true,
+      "framework": true,
+      "worker_sha256": true,
+      "host_sha256": true,
+      "observer_sha256": true,
+      "known_route": true,
+      "closed_registration": false,
+      "approval_allowed": true,
+      "same_effect_destination": true
+    },
+    "changed_dependencies": []
+  },
+  "elapsed_ns": 15632900
+}
