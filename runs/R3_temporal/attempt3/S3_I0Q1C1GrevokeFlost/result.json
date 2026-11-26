@@ -1,0 +1,46 @@
+{
+  "case": "I0Q1C1GrevokeFlost",
+  "seed": 3,
+  "terminal": "complete",
+  "reason": "activity_retry",
+  "attempts": 2,
+  "rows": 2,
+  "effects": [
+    {
+      "record_id": 1,
+      "attempt": 1,
+      "allowed": true,
+      "origin": "original"
+    },
+    {
+      "record_id": 2,
+      "attempt": 2,
+      "allowed": false,
+      "origin": "retry"
+    }
+  ],
+  "duplicate": true,
+  "stale_new": 1,
+  "late_original": 0,
+  "allowed_final": false,
+  "errors": [],
+  "route": {
+    "revision": 1,
+    "mode": "inline",
+    "outcome": "commit",
+    "delayed": false,
+    "abandon_on_cancel": false,
+    "delegated": false,
+    "closed_registration": true,
+    "allowed": true,
+    "store": "effects",
+    "idempotency": false,
+    "query_complete": true
+  },
+  "operation_id": "S3_I0Q1C1GrevokeFlost",
+  "intent": "f4305fd64ba1a01c05d08870fd282fb792f4e2cfe3db4c1b1f3ddfc0e5e3baee",
+  "workflow_id": "r3t-I0Q1C1GrevokeFlost-3",
+  "gate_s": 1.54,
+  "timeout_s": 1.16,
+  "elapsed_ns": 3001187500
+}
