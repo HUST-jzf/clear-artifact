@@ -1,0 +1,94 @@
+{
+  "policy": "query_retry",
+  "context": {
+    "operation_id": "C04_revoke_query_retry",
+    "intent": "048c8931efe28cd784d1aaa5e3eba5b3b095769fc47a434a07300c2fe4bfcd76",
+    "generation": 1
+  },
+  "origin": {
+    "context": {
+      "operation_id": "C04_revoke_query_retry",
+      "intent": "048c8931efe28cd784d1aaa5e3eba5b3b095769fc47a434a07300c2fe4bfcd76",
+      "generation": 1
+    },
+    "manifest": {
+      "adapter": "llamaindex_tool",
+      "version": "0.14.25",
+      "python": "3.13.2",
+      "framework": {
+        "llama_index.core": "1fe52fbc853c3e64c99c1d577f97b6e6c81044070900f32bf946056be04420ce"
+      },
+      "worker_sha256": "2a527692b0ebc6ff51394138d6bbde9954a2d099d4e27d73e7e89f670ba4a3bd",
+      "host_sha256": "2a527692b0ebc6ff51394138d6bbde9954a2d099d4e27d73e7e89f670ba4a3bd",
+      "observer_sha256": "2a527692b0ebc6ff51394138d6bbde9954a2d099d4e27d73e7e89f670ba4a3bd",
+      "route_sha256": "697678f7b026a5f8118bc3484158f7cd65567f759d9f5352fa2eaa8ea7cff5e6",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "fail",
+        "delayed": false,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": true,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": false,
+        "query_complete": true
+      }
+    },
+    "namespace": "effects"
+  },
+  "initial_observations": [
+    {
+      "action": "append",
+      "phase": "initial",
+      "attempt": 1,
+      "outcome": "error"
+    }
+  ],
+  "terminal": "complete",
+  "reason": "query_then_retry",
+  "events": [
+    {
+      "seq": 0,
+      "context": {
+        "operation_id": "C04_revoke_query_retry",
+        "intent": "048c8931efe28cd784d1aaa5e3eba5b3b095769fc47a434a07300c2fe4bfcd76",
+        "generation": 1
+      },
+      "manifest": "a7ead3a0d336666eb96619f1bd032362216244a1e3e8fcdca90459e69e782ecb",
+      "action": "query",
+      "body": {
+        "state": "not_committed",
+        "complete": true,
+        "effect_namespace": "effects",
+        "operation_id": "C04_revoke_query_retry",
+        "intent": "048c8931efe28cd784d1aaa5e3eba5b3b095769fc47a434a07300c2fe4bfcd76",
+        "generation": 1,
+        "rows": []
+      }
+    },
+    {
+      "seq": 1,
+      "context": {
+        "operation_id": "C04_revoke_query_retry",
+        "intent": "048c8931efe28cd784d1aaa5e3eba5b3b095769fc47a434a07300c2fe4bfcd76",
+        "generation": 1
+      },
+      "manifest": "a7ead3a0d336666eb96619f1bd032362216244a1e3e8fcdca90459e69e782ecb",
+      "action": "retry",
+      "body": {
+        "state": "committed",
+        "record_id": 1,
+        "operation_id": "C04_revoke_query_retry",
+        "intent": "048c8931efe28cd784d1aaa5e3eba5b3b095769fc47a434a07300c2fe4bfcd76",
+        "generation": 1,
+        "effect_namespace": "effects",
+        "attempt": 2
+      }
+    }
+  ],
+  "steps": [],
+  "case": "C04_revoke",
+  "elapsed_ns": 13245300
+}

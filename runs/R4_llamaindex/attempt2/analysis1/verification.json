@@ -1,0 +1,1868 @@
+{
+  "checks": [
+    {
+      "name": "freeze:docs/R4_held_out_sources_protocol.md",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "freeze:docs/R14_extended_held_out_sources_protocol.md",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "freeze:scripts/r4_holdout.py",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "freeze:scripts/run_r4.py",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "freeze:scripts/verify_r4.py",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "freeze:scripts/r1_policies.py",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "freeze:sources/R4_llamaindex/wheels_sha256.json",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "freeze:sources/R4_llamaindex/static_review.md",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "version:llama-index-core",
+      "ok": true,
+      "detail": {
+        "clear-assurance": "2.0.0",
+        "llama-index-core": "0.14.25"
+      }
+    },
+    {
+      "name": "version:clear-assurance",
+      "ok": true,
+      "detail": {
+        "clear-assurance": "2.0.0",
+        "llama-index-core": "0.14.25"
+      }
+    },
+    {
+      "name": "no-run-failures",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "name": "task-count",
+      "ok": true,
+      "detail": 40
+    },
+    {
+      "name": "adapter-no-case-branches",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "adapter-used:C01_fail_before:clear",
+      "ok": true,
+      "detail": "llamaindex_tool"
+    },
+    {
+      "name": "append-called:C01_fail_before:clear",
+      "ok": true,
+      "detail": [
+        {
+          "tool": "append",
+          "outcome": "error",
+          "time_ns": 33411358571700
+        },
+        {
+          "tool": "describe",
+          "outcome": "return",
+          "time_ns": 33411358579400
+        },
+        {
+          "tool": "status",
+          "outcome": "return",
+          "time_ns": 33411358622400
+        },
+        {
+          "tool": "describe",
+          "outcome": "return",
+          "time_ns": 33411358643300
+        },
+        {
+          "tool": "effects",
+          "outcome": "return",
+          "time_ns": 33411359203000
+        },
+        {
+          "tool": "describe",
+          "outcome": "return",
+          "time_ns": 33411359229900
+        },
+        {
+          "tool": "describe",
+          "outcome": "return",
+          "time_ns": 33411366873400
+        },
+        {
+          "tool": "drain",
+          "outcome": "return",
+          "time_ns": 33411369699000
+        }
+      ]
+    },
+    {
+      "name": "clear-terminal:C01_fail_before:clear",
+      "ok": true,
+      "detail": {
+        "actual": "complete",
+        "expected": "complete"
+      }
+    },
+    {
+      "name": "clear-rows:C01_fail_before:clear",
+      "ok": true,
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "name": "clear-no-duplicate:C01_fail_before:clear",
+      "ok": true,
+      "detail": {
+        "rows": 1
+      }
+    },
+    {
+      "name": "clear-no-stale:C01_fail_before:clear",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "name": "adapter-used:C01_fail_before:idem_retry",
+      "ok": true,
+      "detail": "llamaindex_tool"
+    },
+    {
+      "name": "append-called:C01_fail_before:idem_retry",
+      "ok": true,
+      "detail": [
+        {
+          "tool": "append",
+          "outcome": "error",
+          "time_ns": 33411387568500
+        },
+        {
+          "tool": "drain",
+          "outcome": "return",
+          "time_ns": 33411394906700
+        }
+      ]
+    },
+    {
+      "name": "adapter-used:C01_fail_before:query_retry",
+      "ok": true,
+      "detail": "llamaindex_tool"
+    },
+    {
+      "name": "append-called:C01_fail_before:query_retry",
+      "ok": true,
+      "detail": [
+        {
+          "tool": "append",
+          "outcome": "error",
+          "time_ns": 33411410695100
+        },
+        {
+          "tool": "effects",
+          "outcome": "return",
+          "time_ns": 33411411305300
+        },
+        {
+          "tool": "drain",
+          "outcome": "return",
+          "time_ns": 33411419214700
+        }
+      ]
+    },
+    {
+      "name": "adapter-used:C01_fail_before:reauth_retry",
+      "ok": true,
+      "detail": "llamaindex_tool"
+    },
+    {
+      "name": "append-called:C01_fail_before:reauth_retry",
+      "ok": true,
+      "detail": [
+        {
+          "tool": "append",
+          "outcome": "error",
+          "time_ns": 33411435207100
+        },
+        {
+          "tool": "describe",
+          "outcome": "return",
+          "time_ns": 33411435213800
+        },
+        {
+          "tool": "drain",
+          "outcome": "return",
+          "time_ns": 33411442330400
+        }
+      ]
+    },
+    {
+      "name": "adapter-used:C01_fail_before:pause",
+      "ok": true,
+      "detail": "llamaindex_tool"
+    },
+    {
+      "name": "append-called:C01_fail_before:pause",
+      "ok": true,
+      "detail": [
+        {
+          "tool": "append",
+          "outcome": "error",
+          "time_ns": 33411484101700
+        },
+        {
+          "tool": "drain",
+          "outcome": "return",
+          "time_ns": 33411486021800
+        }
+      ]
+    },
+    {
+      "name": "pause-terminal:C01_fail_before:pause",
+      "ok": true,
+      "detail": "pause"
+    },
+    {
+      "name": "pause-rows:C01_fail_before:pause",
+      "ok": true,
+      "detail": {
+        "rows": 0
+      }
+    },
+    {
+      "name": "adapter-used:C02_lost_return:clear",
+      "ok": true,
+      "detail": "llamaindex_tool"
+    },
+    {
+      "name": "append-called:C02_lost_return:clear",
+      "ok": true,
+      "detail": [
+        {
+          "tool": "append",
+          "outcome": "return",
+          "time_ns": 33411507239300
+        },
+        {
+          "tool": "describe",
+          "outcome": "return",
+          "time_ns": 33411507246100
+        },
+        {
+          "tool": "status",
+          "outcome": "return",
+          "time_ns": 33411507308400
+        },
+        {
+          "tool": "describe",
+          "outcome": "return",
+          "time_ns": 33411507327400
+        },
+        {
+          "tool": "drain",
+          "outcome": "return",
+          "time_ns": 33411509004000
+        }
+      ]
+    },
+    {
+      "name": "clear-terminal:C02_lost_return:clear",
+      "ok": true,
+      "detail": {
+        "actual": "complete",
+        "expected": "complete"
+      }
+    },
+    {
+      "name": "clear-rows:C02_lost_return:clear",
+      "ok": true,
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "name": "clear-no-duplicate:C02_lost_return:clear",
+      "ok": true,
+      "detail": {
+        "rows": 1
+      }
+    },
+    {
+      "name": "clear-no-stale:C02_lost_return:clear",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "name": "adapter-used:C02_lost_return:idem_retry",
+      "ok": true,
+      "detail": "llamaindex_tool"
+    },
+    {
+      "name": "append-called:C02_lost_return:idem_retry",
+      "ok": true,
+      "detail": [
+        {
+          "tool": "append",
+          "outcome": "return",
+          "time_ns": 33411551704300
+        },
+        {
+          "tool": "drain",
+          "outcome": "return",
+          "time_ns": 33411558244400
+        }
+      ]
+    },
+    {
+      "name": "adapter-used:C02_lost_return:query_retry",
+      "ok": true,
+      "detail": "llamaindex_tool"
+    },
+    {
+      "name": "append-called:C02_lost_return:query_retry",
+      "ok": true,
+      "detail": [
+        {
+          "tool": "append",
+          "outcome": "return",
+          "time_ns": 33411578582300
+        },
+        {
+          "tool": "effects",
+          "outcome": "return",
+          "time_ns": 33411579466100
+        },
+        {
+          "tool": "drain",
+          "outcome": "return",
+          "time_ns": 33411580957500
+        }
+      ]
+    },
+    {
+      "name": "adapter-used:C02_lost_return:reauth_retry",
+      "ok": true,
+      "detail": "llamaindex_tool"
+    },
+    {
+      "name": "append-called:C02_lost_return:reauth_retry",
+      "ok": true,
+      "detail": [
+        {
+          "tool": "append",
+          "outcome": "return",
+          "time_ns": 33411601733300
+        },
+        {
+          "tool": "describe",
+          "outcome": "return",
+          "time_ns": 33411601740600
+        },
+        {
+          "tool": "drain",
+          "outcome": "return",
+          "time_ns": 33411609121600
+        }
+      ]
+    },
+    {
+      "name": "adapter-used:C02_lost_return:pause",
+      "ok": true,
+      "detail": "llamaindex_tool"
+    },
+    {
+      "name": "append-called:C02_lost_return:pause",
+      "ok": true,
+      "detail": [
+        {
+          "tool": "append",
+          "outcome": "return",
+          "time_ns": 33411631225100
+        },
+        {
+          "tool": "drain",
+          "outcome": "return",
+          "time_ns": 33411632603100
+        }
+      ]
+    },
+    {
+      "name": "pause-terminal:C02_lost_return:pause",
+      "ok": true,
+      "detail": "pause"
+    },
+    {
+      "name": "pause-rows:C02_lost_return:pause",
+      "ok": true,
+      "detail": {
+        "rows": 1
+      }
+    },
+    {
+      "name": "adapter-used:C03_late_commit:clear",
+      "ok": true,
+      "detail": "llamaindex_tool"
+    },
+    {
+      "name": "append-called:C03_late_commit:clear",
+      "ok": true,
+      "detail": [
+        {
+          "tool": "append",
+          "outcome": "timeout",
+          "time_ns": 33411720316700
+        },
+        {
+          "tool": "describe",
+          "outcome": "return",
+          "time_ns": 33411720333100
+        },
+        {
+          "tool": "status",
+          "outcome": "return",
+          "time_ns": 33411720472400
+        },
+        {
+          "tool": "status",
+          "outcome": "return",
+          "time_ns": 33411734119300
+        },
+        {
+          "tool": "describe",
+          "outcome": "return",
+          "time_ns": 33411734183700
+        },
+        {
+          "tool": "drain",
+          "outcome": "return",
+          "time_ns": 33411736471000
+        }
+      ]
+    },
+    {
+      "name": "clear-terminal:C03_late_commit:clear",
+      "ok": true,
+      "detail": {
+        "actual": "complete",
+        "expected": "complete"
+      }
+    },
+    {
+      "name": "clear-rows:C03_late_commit:clear",
+      "ok": true,
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "name": "clear-no-duplicate:C03_late_commit:clear",
+      "ok": true,
+      "detail": {
+        "rows": 1
+      }
+    },
+    {
+      "name": "clear-no-stale:C03_late_commit:clear",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "name": "adapter-used:C03_late_commit:idem_retry",
+      "ok": true,
+      "detail": "llamaindex_tool"
+    },
+    {
+      "name": "append-called:C03_late_commit:idem_retry",
+      "ok": true,
+      "detail": [
+        {
+          "tool": "append",
+          "outcome": "timeout",
+          "time_ns": 33411828619500
+        },
+        {
+          "tool": "drain",
+          "outcome": "return",
+          "time_ns": 33411862134000
+        }
+      ]
+    },
+    {
+      "name": "adapter-used:C03_late_commit:query_retry",
+      "ok": true,
+      "detail": "llamaindex_tool"
+    },
+    {
+      "name": "append-called:C03_late_commit:query_retry",
+      "ok": true,
+      "detail": [
+        {
+          "tool": "append",
+          "outcome": "timeout",
+          "time_ns": 33411953355000
+        },
+        {
+          "tool": "effects",
+          "outcome": "return",
+          "time_ns": 33411954365700
+        },
+        {
+          "tool": "drain",
+          "outcome": "return",
+          "time_ns": 33411967496600
+        }
+      ]
+    },
+    {
+      "name": "adapter-used:C03_late_commit:reauth_retry",
+      "ok": true,
+      "detail": "llamaindex_tool"
+    },
+    {
+      "name": "append-called:C03_late_commit:reauth_retry",
+      "ok": true,
+      "detail": [
+        {
+          "tool": "append",
+          "outcome": "timeout",
+          "time_ns": 33412045706500
+        },
+        {
+          "tool": "describe",
+          "outcome": "return",
+          "time_ns": 33412045720300
+        },
+        {
+          "tool": "drain",
+          "outcome": "return",
+          "time_ns": 33412073039300
+        }
+      ]
+    },
+    {
+      "name": "adapter-used:C03_late_commit:pause",
+      "ok": true,
+      "detail": "llamaindex_tool"
+    },
+    {
+      "name": "append-called:C03_late_commit:pause",
+      "ok": true,
+      "detail": [
+        {
+          "tool": "append",
+          "outcome": "timeout",
+          "time_ns": 33412172065400
+        },
+        {
+          "tool": "drain",
+          "outcome": "return",
+          "time_ns": 33412204308300
+        }
+      ]
+    },
+    {
+      "name": "pause-terminal:C03_late_commit:pause",
+      "ok": true,
+      "detail": "pause"
+    },
+    {
+      "name": "pause-rows:C03_late_commit:pause",
+      "ok": true,
+      "detail": {
+        "rows": 1
+      }
+    },
+    {
+      "name": "adapter-used:C04_revoke:clear",
+      "ok": true,
+      "detail": "llamaindex_tool"
+    },
+    {
+      "name": "append-called:C04_revoke:clear",
+      "ok": true,
+      "detail": [
+        {
+          "tool": "append",
+          "outcome": "error",
+          "time_ns": 33412223023300
+        },
+        {
+          "tool": "describe",
+          "outcome": "return",
+          "time_ns": 33412225983400
+        },
+        {
+          "tool": "status",
+          "outcome": "return",
+          "time_ns": 33412226029100
+        },
+        {
+          "tool": "describe",
+          "outcome": "return",
+          "time_ns": 33412226049700
+        },
+        {
+          "tool": "effects",
+          "outcome": "return",
+          "time_ns": 33412226550300
+        },
+        {
+          "tool": "describe",
+          "outcome": "return",
+          "time_ns": 33412226583200
+        },
+        {
+          "tool": "status",
+          "outcome": "return",
+          "time_ns": 33412226637200
+        },
+        {
+          "tool": "describe",
+          "outcome": "return",
+          "time_ns": 33412226655500
+        },
+        {
+          "tool": "effects",
+          "outcome": "return",
+          "time_ns": 33412227077000
+        },
+        {
+          "tool": "describe",
+          "outcome": "return",
+          "time_ns": 33412227102900
+        },
+        {
+          "tool": "drain",
+          "outcome": "return",
+          "time_ns": 33412229484800
+        }
+      ]
+    },
+    {
+      "name": "clear-terminal:C04_revoke:clear",
+      "ok": true,
+      "detail": {
+        "actual": "pause",
+        "expected": "pause"
+      }
+    },
+    {
+      "name": "clear-rows:C04_revoke:clear",
+      "ok": true,
+      "detail": {
+        "actual": 0,
+        "expected": 0
+      }
+    },
+    {
+      "name": "clear-no-duplicate:C04_revoke:clear",
+      "ok": true,
+      "detail": {
+        "rows": 0
+      }
+    },
+    {
+      "name": "clear-no-stale:C04_revoke:clear",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "name": "adapter-used:C04_revoke:idem_retry",
+      "ok": true,
+      "detail": "llamaindex_tool"
+    },
+    {
+      "name": "append-called:C04_revoke:idem_retry",
+      "ok": true,
+      "detail": [
+        {
+          "tool": "append",
+          "outcome": "error",
+          "time_ns": 33412244700400
+        },
+        {
+          "tool": "drain",
+          "outcome": "return",
+          "time_ns": 33412257503600
+        }
+      ]
+    },
+    {
+      "name": "adapter-used:C04_revoke:query_retry",
+      "ok": true,
+      "detail": "llamaindex_tool"
+    },
+    {
+      "name": "append-called:C04_revoke:query_retry",
+      "ok": true,
+      "detail": [
+        {
+          "tool": "append",
+          "outcome": "error",
+          "time_ns": 33412273186200
+        },
+        {
+          "tool": "effects",
+          "outcome": "return",
+          "time_ns": 33412276956800
+        },
+        {
+          "tool": "drain",
+          "outcome": "return",
+          "time_ns": 33412285301900
+        }
+      ]
+    },
+    {
+      "name": "adapter-used:C04_revoke:reauth_retry",
+      "ok": true,
+      "detail": "llamaindex_tool"
+    },
+    {
+      "name": "append-called:C04_revoke:reauth_retry",
+      "ok": true,
+      "detail": [
+        {
+          "tool": "append",
+          "outcome": "error",
+          "time_ns": 33412300717300
+        },
+        {
+          "tool": "describe",
+          "outcome": "return",
+          "time_ns": 33412303864000
+        },
+        {
+          "tool": "reauthorize",
+          "outcome": "return",
+          "time_ns": 33412306079800
+        },
+        {
+          "tool": "describe",
+          "outcome": "return",
+          "time_ns": 33412306083700
+        },
+        {
+          "tool": "drain",
+          "outcome": "return",
+          "time_ns": 33412314715900
+        }
+      ]
+    },
+    {
+      "name": "adapter-used:C04_revoke:pause",
+      "ok": true,
+      "detail": "llamaindex_tool"
+    },
+    {
+      "name": "append-called:C04_revoke:pause",
+      "ok": true,
+      "detail": [
+        {
+          "tool": "append",
+          "outcome": "error",
+          "time_ns": 33412331761400
+        },
+        {
+          "tool": "drain",
+          "outcome": "return",
+          "time_ns": 33412336112700
+        }
+      ]
+    },
+    {
+      "name": "pause-terminal:C04_revoke:pause",
+      "ok": true,
+      "detail": "pause"
+    },
+    {
+      "name": "pause-rows:C04_revoke:pause",
+      "ok": true,
+      "detail": {
+        "rows": 0
+      }
+    },
+    {
+      "name": "adapter-used:C05_query_unavailable:clear",
+      "ok": true,
+      "detail": "llamaindex_tool"
+    },
+    {
+      "name": "append-called:C05_query_unavailable:clear",
+      "ok": true,
+      "detail": [
+        {
+          "tool": "append",
+          "outcome": "return",
+          "time_ns": 33412356271600
+        },
+        {
+          "tool": "describe",
+          "outcome": "return",
+          "time_ns": 33412356283100
+        },
+        {
+          "tool": "effects",
+          "outcome": "return",
+          "time_ns": 33412356300800
+        },
+        {
+          "tool": "describe",
+          "outcome": "return",
+          "time_ns": 33412356359300
+        },
+        {
+          "tool": "drain",
+          "outcome": "return",
+          "time_ns": 33412358435200
+        }
+      ]
+    },
+    {
+      "name": "clear-terminal:C05_query_unavailable:clear",
+      "ok": true,
+      "detail": {
+        "actual": "pause",
+        "expected": "pause"
+      }
+    },
+    {
+      "name": "clear-rows:C05_query_unavailable:clear",
+      "ok": true,
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "name": "clear-no-duplicate:C05_query_unavailable:clear",
+      "ok": true,
+      "detail": {
+        "rows": 1
+      }
+    },
+    {
+      "name": "clear-no-stale:C05_query_unavailable:clear",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "name": "adapter-used:C05_query_unavailable:idem_retry",
+      "ok": true,
+      "detail": "llamaindex_tool"
+    },
+    {
+      "name": "append-called:C05_query_unavailable:idem_retry",
+      "ok": true,
+      "detail": [
+        {
+          "tool": "append",
+          "outcome": "return",
+          "time_ns": 33412378376600
+        },
+        {
+          "tool": "drain",
+          "outcome": "return",
+          "time_ns": 33412385979600
+        }
+      ]
+    },
+    {
+      "name": "adapter-used:C05_query_unavailable:query_retry",
+      "ok": true,
+      "detail": "llamaindex_tool"
+    },
+    {
+      "name": "append-called:C05_query_unavailable:query_retry",
+      "ok": true,
+      "detail": [
+        {
+          "tool": "append",
+          "outcome": "return",
+          "time_ns": 33412406825500
+        },
+        {
+          "tool": "effects",
+          "outcome": "return",
+          "time_ns": 33412406838200
+        },
+        {
+          "tool": "drain",
+          "outcome": "return",
+          "time_ns": 33412409122600
+        }
+      ]
+    },
+    {
+      "name": "adapter-used:C05_query_unavailable:reauth_retry",
+      "ok": true,
+      "detail": "llamaindex_tool"
+    },
+    {
+      "name": "append-called:C05_query_unavailable:reauth_retry",
+      "ok": true,
+      "detail": [
+        {
+          "tool": "append",
+          "outcome": "return",
+          "time_ns": 33412430757500
+        },
+        {
+          "tool": "describe",
+          "outcome": "return",
+          "time_ns": 33412430764200
+        },
+        {
+          "tool": "drain",
+          "outcome": "return",
+          "time_ns": 33412438548300
+        }
+      ]
+    },
+    {
+      "name": "adapter-used:C05_query_unavailable:pause",
+      "ok": true,
+      "detail": "llamaindex_tool"
+    },
+    {
+      "name": "append-called:C05_query_unavailable:pause",
+      "ok": true,
+      "detail": [
+        {
+          "tool": "append",
+          "outcome": "return",
+          "time_ns": 33412459692900
+        },
+        {
+          "tool": "drain",
+          "outcome": "return",
+          "time_ns": 33412461177600
+        }
+      ]
+    },
+    {
+      "name": "pause-terminal:C05_query_unavailable:pause",
+      "ok": true,
+      "detail": "pause"
+    },
+    {
+      "name": "pause-rows:C05_query_unavailable:pause",
+      "ok": true,
+      "detail": {
+        "rows": 1
+      }
+    },
+    {
+      "name": "adapter-used:C06_closure_missing:clear",
+      "ok": true,
+      "detail": "llamaindex_tool"
+    },
+    {
+      "name": "append-called:C06_closure_missing:clear",
+      "ok": true,
+      "detail": [
+        {
+          "tool": "append",
+          "outcome": "return",
+          "time_ns": 33412483133800
+        },
+        {
+          "tool": "describe",
+          "outcome": "return",
+          "time_ns": 33412483141700
+        },
+        {
+          "tool": "effects",
+          "outcome": "return",
+          "time_ns": 33412483823500
+        },
+        {
+          "tool": "describe",
+          "outcome": "return",
+          "time_ns": 33412483874600
+        },
+        {
+          "tool": "drain",
+          "outcome": "return",
+          "time_ns": 33412485667800
+        }
+      ]
+    },
+    {
+      "name": "clear-terminal:C06_closure_missing:clear",
+      "ok": true,
+      "detail": {
+        "actual": "complete",
+        "expected": "complete"
+      }
+    },
+    {
+      "name": "clear-rows:C06_closure_missing:clear",
+      "ok": true,
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "name": "clear-no-duplicate:C06_closure_missing:clear",
+      "ok": true,
+      "detail": {
+        "rows": 1
+      }
+    },
+    {
+      "name": "clear-no-stale:C06_closure_missing:clear",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "name": "adapter-used:C06_closure_missing:idem_retry",
+      "ok": true,
+      "detail": "llamaindex_tool"
+    },
+    {
+      "name": "append-called:C06_closure_missing:idem_retry",
+      "ok": true,
+      "detail": [
+        {
+          "tool": "append",
+          "outcome": "return",
+          "time_ns": 33412506527800
+        },
+        {
+          "tool": "drain",
+          "outcome": "return",
+          "time_ns": 33412514136700
+        }
+      ]
+    },
+    {
+      "name": "adapter-used:C06_closure_missing:query_retry",
+      "ok": true,
+      "detail": "llamaindex_tool"
+    },
+    {
+      "name": "append-called:C06_closure_missing:query_retry",
+      "ok": true,
+      "detail": [
+        {
+          "tool": "append",
+          "outcome": "return",
+          "time_ns": 33412536905400
+        },
+        {
+          "tool": "effects",
+          "outcome": "return",
+          "time_ns": 33412537615100
+        },
+        {
+          "tool": "drain",
+          "outcome": "return",
+          "time_ns": 33412539097900
+        }
+      ]
+    },
+    {
+      "name": "adapter-used:C06_closure_missing:reauth_retry",
+      "ok": true,
+      "detail": "llamaindex_tool"
+    },
+    {
+      "name": "append-called:C06_closure_missing:reauth_retry",
+      "ok": true,
+      "detail": [
+        {
+          "tool": "append",
+          "outcome": "return",
+          "time_ns": 33412560486300
+        },
+        {
+          "tool": "describe",
+          "outcome": "return",
+          "time_ns": 33412560493400
+        },
+        {
+          "tool": "drain",
+          "outcome": "return",
+          "time_ns": 33412567225400
+        }
+      ]
+    },
+    {
+      "name": "adapter-used:C06_closure_missing:pause",
+      "ok": true,
+      "detail": "llamaindex_tool"
+    },
+    {
+      "name": "append-called:C06_closure_missing:pause",
+      "ok": true,
+      "detail": [
+        {
+          "tool": "append",
+          "outcome": "return",
+          "time_ns": 33412589421400
+        },
+        {
+          "tool": "drain",
+          "outcome": "return",
+          "time_ns": 33412590799300
+        }
+      ]
+    },
+    {
+      "name": "pause-terminal:C06_closure_missing:pause",
+      "ok": true,
+      "detail": "pause"
+    },
+    {
+      "name": "pause-rows:C06_closure_missing:pause",
+      "ok": true,
+      "detail": {
+        "rows": 1
+      }
+    },
+    {
+      "name": "adapter-used:C07_idempotent_lost:clear",
+      "ok": true,
+      "detail": "llamaindex_tool"
+    },
+    {
+      "name": "append-called:C07_idempotent_lost:clear",
+      "ok": true,
+      "detail": [
+        {
+          "tool": "append",
+          "outcome": "return",
+          "time_ns": 33412612244600
+        },
+        {
+          "tool": "describe",
+          "outcome": "return",
+          "time_ns": 33412612256100
+        },
+        {
+          "tool": "status",
+          "outcome": "return",
+          "time_ns": 33412612363800
+        },
+        {
+          "tool": "describe",
+          "outcome": "return",
+          "time_ns": 33412612400900
+        },
+        {
+          "tool": "drain",
+          "outcome": "return",
+          "time_ns": 33412614604600
+        }
+      ]
+    },
+    {
+      "name": "clear-terminal:C07_idempotent_lost:clear",
+      "ok": true,
+      "detail": {
+        "actual": "complete",
+        "expected": "complete"
+      }
+    },
+    {
+      "name": "clear-rows:C07_idempotent_lost:clear",
+      "ok": true,
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "name": "clear-no-duplicate:C07_idempotent_lost:clear",
+      "ok": true,
+      "detail": {
+        "rows": 1
+      }
+    },
+    {
+      "name": "clear-no-stale:C07_idempotent_lost:clear",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "name": "adapter-used:C07_idempotent_lost:idem_retry",
+      "ok": true,
+      "detail": "llamaindex_tool"
+    },
+    {
+      "name": "append-called:C07_idempotent_lost:idem_retry",
+      "ok": true,
+      "detail": [
+        {
+          "tool": "append",
+          "outcome": "return",
+          "time_ns": 33412636473400
+        },
+        {
+          "tool": "drain",
+          "outcome": "return",
+          "time_ns": 33412639141100
+        }
+      ]
+    },
+    {
+      "name": "adapter-used:C07_idempotent_lost:query_retry",
+      "ok": true,
+      "detail": "llamaindex_tool"
+    },
+    {
+      "name": "append-called:C07_idempotent_lost:query_retry",
+      "ok": true,
+      "detail": [
+        {
+          "tool": "append",
+          "outcome": "return",
+          "time_ns": 33412660516900
+        },
+        {
+          "tool": "effects",
+          "outcome": "return",
+          "time_ns": 33412661056700
+        },
+        {
+          "tool": "drain",
+          "outcome": "return",
+          "time_ns": 33412662958900
+        }
+      ]
+    },
+    {
+      "name": "adapter-used:C07_idempotent_lost:reauth_retry",
+      "ok": true,
+      "detail": "llamaindex_tool"
+    },
+    {
+      "name": "append-called:C07_idempotent_lost:reauth_retry",
+      "ok": true,
+      "detail": [
+        {
+          "tool": "append",
+          "outcome": "return",
+          "time_ns": 33412683285400
+        },
+        {
+          "tool": "describe",
+          "outcome": "return",
+          "time_ns": 33412683293200
+        },
+        {
+          "tool": "drain",
+          "outcome": "return",
+          "time_ns": 33412686029000
+        }
+      ]
+    },
+    {
+      "name": "adapter-used:C07_idempotent_lost:pause",
+      "ok": true,
+      "detail": "llamaindex_tool"
+    },
+    {
+      "name": "append-called:C07_idempotent_lost:pause",
+      "ok": true,
+      "detail": [
+        {
+          "tool": "append",
+          "outcome": "return",
+          "time_ns": 33412707122300
+        },
+        {
+          "tool": "drain",
+          "outcome": "return",
+          "time_ns": 33412708571700
+        }
+      ]
+    },
+    {
+      "name": "pause-terminal:C07_idempotent_lost:pause",
+      "ok": true,
+      "detail": "pause"
+    },
+    {
+      "name": "pause-rows:C07_idempotent_lost:pause",
+      "ok": true,
+      "detail": {
+        "rows": 1
+      }
+    },
+    {
+      "name": "adapter-used:C08_normal:clear",
+      "ok": true,
+      "detail": "llamaindex_tool"
+    },
+    {
+      "name": "append-called:C08_normal:clear",
+      "ok": true,
+      "detail": [
+        {
+          "tool": "append",
+          "outcome": "return",
+          "time_ns": 33412728403200
+        },
+        {
+          "tool": "describe",
+          "outcome": "return",
+          "time_ns": 33412728409800
+        },
+        {
+          "tool": "status",
+          "outcome": "return",
+          "time_ns": 33412728480200
+        },
+        {
+          "tool": "describe",
+          "outcome": "return",
+          "time_ns": 33412728500000
+        },
+        {
+          "tool": "drain",
+          "outcome": "return",
+          "time_ns": 33412730439700
+        }
+      ]
+    },
+    {
+      "name": "clear-terminal:C08_normal:clear",
+      "ok": true,
+      "detail": {
+        "actual": "complete",
+        "expected": "complete"
+      }
+    },
+    {
+      "name": "clear-rows:C08_normal:clear",
+      "ok": true,
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "name": "clear-no-duplicate:C08_normal:clear",
+      "ok": true,
+      "detail": {
+        "rows": 1
+      }
+    },
+    {
+      "name": "clear-no-stale:C08_normal:clear",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "name": "adapter-used:C08_normal:idem_retry",
+      "ok": true,
+      "detail": "llamaindex_tool"
+    },
+    {
+      "name": "append-called:C08_normal:idem_retry",
+      "ok": true,
+      "detail": [
+        {
+          "tool": "append",
+          "outcome": "return",
+          "time_ns": 33412753497200
+        },
+        {
+          "tool": "drain",
+          "outcome": "return",
+          "time_ns": 33412760539800
+        }
+      ]
+    },
+    {
+      "name": "adapter-used:C08_normal:query_retry",
+      "ok": true,
+      "detail": "llamaindex_tool"
+    },
+    {
+      "name": "append-called:C08_normal:query_retry",
+      "ok": true,
+      "detail": [
+        {
+          "tool": "append",
+          "outcome": "return",
+          "time_ns": 33412782344700
+        },
+        {
+          "tool": "effects",
+          "outcome": "return",
+          "time_ns": 33412783044300
+        },
+        {
+          "tool": "drain",
+          "outcome": "return",
+          "time_ns": 33412784733900
+        }
+      ]
+    },
+    {
+      "name": "adapter-used:C08_normal:reauth_retry",
+      "ok": true,
+      "detail": "llamaindex_tool"
+    },
+    {
+      "name": "append-called:C08_normal:reauth_retry",
+      "ok": true,
+      "detail": [
+        {
+          "tool": "append",
+          "outcome": "return",
+          "time_ns": 33412806095600
+        },
+        {
+          "tool": "describe",
+          "outcome": "return",
+          "time_ns": 33412806102100
+        },
+        {
+          "tool": "drain",
+          "outcome": "return",
+          "time_ns": 33412813055600
+        }
+      ]
+    },
+    {
+      "name": "adapter-used:C08_normal:pause",
+      "ok": true,
+      "detail": "llamaindex_tool"
+    },
+    {
+      "name": "append-called:C08_normal:pause",
+      "ok": true,
+      "detail": [
+        {
+          "tool": "append",
+          "outcome": "return",
+          "time_ns": 33412834765500
+        },
+        {
+          "tool": "drain",
+          "outcome": "return",
+          "time_ns": 33412836226900
+        }
+      ]
+    },
+    {
+      "name": "pause-terminal:C08_normal:pause",
+      "ok": true,
+      "detail": "pause"
+    },
+    {
+      "name": "pause-rows:C08_normal:pause",
+      "ok": true,
+      "detail": {
+        "rows": 1
+      }
+    }
+  ],
+  "cells": {
+    "C01_fail_before:clear": {
+      "case": "C01_fail_before",
+      "policy": "clear",
+      "terminal": "complete",
+      "rows": 1,
+      "duplicate": false,
+      "stale_new": 0,
+      "actions": 3
+    },
+    "C01_fail_before:idem_retry": {
+      "case": "C01_fail_before",
+      "policy": "idem_retry",
+      "terminal": "complete",
+      "rows": 1,
+      "duplicate": false,
+      "stale_new": 0,
+      "actions": 1
+    },
+    "C01_fail_before:query_retry": {
+      "case": "C01_fail_before",
+      "policy": "query_retry",
+      "terminal": "complete",
+      "rows": 1,
+      "duplicate": false,
+      "stale_new": 0,
+      "actions": 2
+    },
+    "C01_fail_before:reauth_retry": {
+      "case": "C01_fail_before",
+      "policy": "reauth_retry",
+      "terminal": "complete",
+      "rows": 1,
+      "duplicate": false,
+      "stale_new": 0,
+      "actions": 1
+    },
+    "C01_fail_before:pause": {
+      "case": "C01_fail_before",
+      "policy": "pause",
+      "terminal": "pause",
+      "rows": 0,
+      "duplicate": false,
+      "stale_new": 0,
+      "actions": 0
+    },
+    "C02_lost_return:clear": {
+      "case": "C02_lost_return",
+      "policy": "clear",
+      "terminal": "complete",
+      "rows": 1,
+      "duplicate": false,
+      "stale_new": 0,
+      "actions": 1
+    },
+    "C02_lost_return:idem_retry": {
+      "case": "C02_lost_return",
+      "policy": "idem_retry",
+      "terminal": "complete",
+      "rows": 2,
+      "duplicate": true,
+      "stale_new": 0,
+      "actions": 1
+    },
+    "C02_lost_return:query_retry": {
+      "case": "C02_lost_return",
+      "policy": "query_retry",
+      "terminal": "complete",
+      "rows": 1,
+      "duplicate": false,
+      "stale_new": 0,
+      "actions": 1
+    },
+    "C02_lost_return:reauth_retry": {
+      "case": "C02_lost_return",
+      "policy": "reauth_retry",
+      "terminal": "complete",
+      "rows": 2,
+      "duplicate": true,
+      "stale_new": 0,
+      "actions": 1
+    },
+    "C02_lost_return:pause": {
+      "case": "C02_lost_return",
+      "policy": "pause",
+      "terminal": "pause",
+      "rows": 1,
+      "duplicate": false,
+      "stale_new": 0,
+      "actions": 0
+    },
+    "C03_late_commit:clear": {
+      "case": "C03_late_commit",
+      "policy": "clear",
+      "terminal": "complete",
+      "rows": 1,
+      "duplicate": false,
+      "stale_new": 0,
+      "actions": 1
+    },
+    "C03_late_commit:idem_retry": {
+      "case": "C03_late_commit",
+      "policy": "idem_retry",
+      "terminal": "complete",
+      "rows": 2,
+      "duplicate": true,
+      "stale_new": 0,
+      "actions": 1
+    },
+    "C03_late_commit:query_retry": {
+      "case": "C03_late_commit",
+      "policy": "query_retry",
+      "terminal": "complete",
+      "rows": 2,
+      "duplicate": true,
+      "stale_new": 0,
+      "actions": 2
+    },
+    "C03_late_commit:reauth_retry": {
+      "case": "C03_late_commit",
+      "policy": "reauth_retry",
+      "terminal": "complete",
+      "rows": 2,
+      "duplicate": true,
+      "stale_new": 0,
+      "actions": 1
+    },
+    "C03_late_commit:pause": {
+      "case": "C03_late_commit",
+      "policy": "pause",
+      "terminal": "pause",
+      "rows": 1,
+      "duplicate": false,
+      "stale_new": 0,
+      "actions": 0
+    },
+    "C04_revoke:clear": {
+      "case": "C04_revoke",
+      "policy": "clear",
+      "terminal": "pause",
+      "rows": 0,
+      "duplicate": false,
+      "stale_new": 0,
+      "actions": 4
+    },
+    "C04_revoke:idem_retry": {
+      "case": "C04_revoke",
+      "policy": "idem_retry",
+      "terminal": "complete",
+      "rows": 1,
+      "duplicate": false,
+      "stale_new": 1,
+      "actions": 1
+    },
+    "C04_revoke:query_retry": {
+      "case": "C04_revoke",
+      "policy": "query_retry",
+      "terminal": "complete",
+      "rows": 1,
+      "duplicate": false,
+      "stale_new": 1,
+      "actions": 2
+    },
+    "C04_revoke:reauth_retry": {
+      "case": "C04_revoke",
+      "policy": "reauth_retry",
+      "terminal": "complete",
+      "rows": 1,
+      "duplicate": false,
+      "stale_new": 0,
+      "actions": 1
+    },
+    "C04_revoke:pause": {
+      "case": "C04_revoke",
+      "policy": "pause",
+      "terminal": "pause",
+      "rows": 0,
+      "duplicate": false,
+      "stale_new": 0,
+      "actions": 0
+    },
+    "C05_query_unavailable:clear": {
+      "case": "C05_query_unavailable",
+      "policy": "clear",
+      "terminal": "pause",
+      "rows": 1,
+      "duplicate": false,
+      "stale_new": 0,
+      "actions": 1
+    },
+    "C05_query_unavailable:idem_retry": {
+      "case": "C05_query_unavailable",
+      "policy": "idem_retry",
+      "terminal": "complete",
+      "rows": 2,
+      "duplicate": true,
+      "stale_new": 0,
+      "actions": 1
+    },
+    "C05_query_unavailable:query_retry": {
+      "case": "C05_query_unavailable",
+      "policy": "query_retry",
+      "terminal": "pause",
+      "rows": 1,
+      "duplicate": false,
+      "stale_new": 0,
+      "actions": 1
+    },
+    "C05_query_unavailable:reauth_retry": {
+      "case": "C05_query_unavailable",
+      "policy": "reauth_retry",
+      "terminal": "complete",
+      "rows": 2,
+      "duplicate": true,
+      "stale_new": 0,
+      "actions": 1
+    },
+    "C05_query_unavailable:pause": {
+      "case": "C05_query_unavailable",
+      "policy": "pause",
+      "terminal": "pause",
+      "rows": 1,
+      "duplicate": false,
+      "stale_new": 0,
+      "actions": 0
+    },
+    "C06_closure_missing:clear": {
+      "case": "C06_closure_missing",
+      "policy": "clear",
+      "terminal": "complete",
+      "rows": 1,
+      "duplicate": false,
+      "stale_new": 0,
+      "actions": 1
+    },
+    "C06_closure_missing:idem_retry": {
+      "case": "C06_closure_missing",
+      "policy": "idem_retry",
+      "terminal": "complete",
+      "rows": 2,
+      "duplicate": true,
+      "stale_new": 0,
+      "actions": 1
+    },
+    "C06_closure_missing:query_retry": {
+      "case": "C06_closure_missing",
+      "policy": "query_retry",
+      "terminal": "complete",
+      "rows": 1,
+      "duplicate": false,
+      "stale_new": 0,
+      "actions": 1
+    },
+    "C06_closure_missing:reauth_retry": {
+      "case": "C06_closure_missing",
+      "policy": "reauth_retry",
+      "terminal": "complete",
+      "rows": 2,
+      "duplicate": true,
+      "stale_new": 0,
+      "actions": 1
+    },
+    "C06_closure_missing:pause": {
+      "case": "C06_closure_missing",
+      "policy": "pause",
+      "terminal": "pause",
+      "rows": 1,
+      "duplicate": false,
+      "stale_new": 0,
+      "actions": 0
+    },
+    "C07_idempotent_lost:clear": {
+      "case": "C07_idempotent_lost",
+      "policy": "clear",
+      "terminal": "complete",
+      "rows": 1,
+      "duplicate": false,
+      "stale_new": 0,
+      "actions": 1
+    },
+    "C07_idempotent_lost:idem_retry": {
+      "case": "C07_idempotent_lost",
+      "policy": "idem_retry",
+      "terminal": "complete",
+      "rows": 1,
+      "duplicate": false,
+      "stale_new": 0,
+      "actions": 1
+    },
+    "C07_idempotent_lost:query_retry": {
+      "case": "C07_idempotent_lost",
+      "policy": "query_retry",
+      "terminal": "complete",
+      "rows": 1,
+      "duplicate": false,
+      "stale_new": 0,
+      "actions": 1
+    },
+    "C07_idempotent_lost:reauth_retry": {
+      "case": "C07_idempotent_lost",
+      "policy": "reauth_retry",
+      "terminal": "complete",
+      "rows": 1,
+      "duplicate": false,
+      "stale_new": 0,
+      "actions": 1
+    },
+    "C07_idempotent_lost:pause": {
+      "case": "C07_idempotent_lost",
+      "policy": "pause",
+      "terminal": "pause",
+      "rows": 1,
+      "duplicate": false,
+      "stale_new": 0,
+      "actions": 0
+    },
+    "C08_normal:clear": {
+      "case": "C08_normal",
+      "policy": "clear",
+      "terminal": "complete",
+      "rows": 1,
+      "duplicate": false,
+      "stale_new": 0,
+      "actions": 1
+    },
+    "C08_normal:idem_retry": {
+      "case": "C08_normal",
+      "policy": "idem_retry",
+      "terminal": "complete",
+      "rows": 2,
+      "duplicate": true,
+      "stale_new": 0,
+      "actions": 1
+    },
+    "C08_normal:query_retry": {
+      "case": "C08_normal",
+      "policy": "query_retry",
+      "terminal": "complete",
+      "rows": 1,
+      "duplicate": false,
+      "stale_new": 0,
+      "actions": 1
+    },
+    "C08_normal:reauth_retry": {
+      "case": "C08_normal",
+      "policy": "reauth_retry",
+      "terminal": "complete",
+      "rows": 2,
+      "duplicate": true,
+      "stale_new": 0,
+      "actions": 1
+    },
+    "C08_normal:pause": {
+      "case": "C08_normal",
+      "policy": "pause",
+      "terminal": "pause",
+      "rows": 1,
+      "duplicate": false,
+      "stale_new": 0,
+      "actions": 0
+    }
+  },
+  "aggregate": {
+    "tasks": 40,
+    "safe": 16,
+    "complete": 29,
+    "duplicates": 11,
+    "stale": 2
+  },
+  "failed": [],
+  "source": "llamaindex",
+  "checks_total": 141,
+  "checks_passed": 141
+}
