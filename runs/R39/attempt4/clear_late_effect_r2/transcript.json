@@ -1,0 +1,155 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an execution agent for a ticket service. Complete the user task by calling the available tools. Call the tools in a sensible order. A tool may return \"timeout\", which means the outcome is unknown; decide whether to retry, verify, or stop. Do not invent tool results. When you are done, call finish with a short summary."
+    },
+    {
+      "role": "user",
+      "content": "Buy one ticket for passenger Lin, seat 12A. Steps: create the ticket, reserve the seat, attach the passenger, commit the ticket, and notify the user."
+    },
+    {
+      "role": "assistant",
+      "content": "I'll help you buy a ticket for Lin with seat 12A. Let me start by creating the ticket.",
+      "tool_calls": [
+        {
+          "index": 0,
+          "id": "call_00_fvqwqaRJziBcoP14y2TZ7160",
+          "type": "function",
+          "function": {
+            "name": "create_ticket",
+            "arguments": "{}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_00_fvqwqaRJziBcoP14y2TZ7160",
+      "content": "{\"status\": \"committed\"}"
+    },
+    {
+      "role": "assistant",
+      "content": "The ticket was created. Now let me reserve seat 12A.",
+      "tool_calls": [
+        {
+          "index": 0,
+          "id": "call_00_25NHnCJHHCfDs3BA0BGc0139",
+          "type": "function",
+          "function": {
+            "name": "reserve_seat",
+            "arguments": "{}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_00_25NHnCJHHCfDs3BA0BGc0139",
+      "content": "{\"status\": \"committed\"}"
+    },
+    {
+      "role": "assistant",
+      "content": "Seat reserved. Now let me attach passenger Lin.",
+      "tool_calls": [
+        {
+          "index": 0,
+          "id": "call_00_WdptBO3YmezLwJ7ZYbMS0701",
+          "type": "function",
+          "function": {
+            "name": "attach_passenger",
+            "arguments": "{}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_00_WdptBO3YmezLwJ7ZYbMS0701",
+      "content": "{\"status\": \"committed\", \"detail\": \"finalized\"}"
+    },
+    {
+      "role": "assistant",
+      "content": "Passenger attached. Now let me commit the ticket.",
+      "tool_calls": [
+        {
+          "index": 0,
+          "id": "call_00_J8XRRzUXFJEhEmSV08139593",
+          "type": "function",
+          "function": {
+            "name": "commit_ticket",
+            "arguments": "{}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_00_J8XRRzUXFJEhEmSV08139593",
+      "content": "{\"status\": \"committed\"}"
+    },
+    {
+      "role": "assistant",
+      "content": "Ticket committed. Finally, let me notify the user.",
+      "tool_calls": [
+        {
+          "index": 0,
+          "id": "call_00_34cp1DGIsmN6ZUSDSEM15821",
+          "type": "function",
+          "function": {
+            "name": "notify_user",
+            "arguments": "{}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_00_34cp1DGIsmN6ZUSDSEM15821",
+      "content": "{\"status\": \"committed\"}"
+    }
+  ],
+  "calls": [
+    {
+      "turn": 0,
+      "tool": "create_ticket",
+      "arguments": {},
+      "result": {
+        "status": "committed"
+      }
+    },
+    {
+      "turn": 1,
+      "tool": "reserve_seat",
+      "arguments": {},
+      "result": {
+        "status": "committed"
+      }
+    },
+    {
+      "turn": 2,
+      "tool": "attach_passenger",
+      "arguments": {},
+      "result": {
+        "status": "committed",
+        "detail": "finalized"
+      }
+    },
+    {
+      "turn": 3,
+      "tool": "commit_ticket",
+      "arguments": {},
+      "result": {
+        "status": "committed"
+      }
+    },
+    {
+      "turn": 4,
+      "tool": "notify_user",
+      "arguments": {},
+      "result": {
+        "status": "committed"
+      }
+    }
+  ]
+}

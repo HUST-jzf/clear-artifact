@@ -1,0 +1,19 @@
+{
+  "blind_lost_before_commit_R3": {
+    "steps": {
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0
+      }
+    },
+    "rejected": 0
+  }
+}
