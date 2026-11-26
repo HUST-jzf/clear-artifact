@@ -1,0 +1,462 @@
+{
+  "configs": [
+    {
+      "name": "on-faithful-faithful",
+      "idem": "on",
+      "lifecycle": "faithful",
+      "query": "faithful",
+      "campaign": "redundancy",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "faults": [
+        "lost_return",
+        "late_commit"
+      ]
+    },
+    {
+      "name": "on-faithful-stale",
+      "idem": "on",
+      "lifecycle": "faithful",
+      "query": "stale",
+      "campaign": "redundancy",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "faults": [
+        "lost_return",
+        "late_commit"
+      ]
+    },
+    {
+      "name": "on-faithful-unavailable",
+      "idem": "on",
+      "lifecycle": "faithful",
+      "query": "unavailable",
+      "campaign": "redundancy",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "faults": [
+        "lost_return",
+        "late_commit"
+      ]
+    },
+    {
+      "name": "on-lost-faithful",
+      "idem": "on",
+      "lifecycle": "lost",
+      "query": "faithful",
+      "campaign": "redundancy",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "faults": [
+        "lost_return",
+        "late_commit"
+      ]
+    },
+    {
+      "name": "on-lost-stale",
+      "idem": "on",
+      "lifecycle": "lost",
+      "query": "stale",
+      "campaign": "redundancy",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "faults": [
+        "lost_return",
+        "late_commit"
+      ]
+    },
+    {
+      "name": "on-lost-unavailable",
+      "idem": "on",
+      "lifecycle": "lost",
+      "query": "unavailable",
+      "campaign": "redundancy",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "faults": [
+        "lost_return",
+        "late_commit"
+      ]
+    },
+    {
+      "name": "off-faithful-faithful",
+      "idem": "off",
+      "lifecycle": "faithful",
+      "query": "faithful",
+      "campaign": "redundancy",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "faults": [
+        "lost_return",
+        "late_commit"
+      ]
+    },
+    {
+      "name": "off-faithful-stale",
+      "idem": "off",
+      "lifecycle": "faithful",
+      "query": "stale",
+      "campaign": "redundancy",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "faults": [
+        "lost_return",
+        "late_commit"
+      ]
+    },
+    {
+      "name": "off-faithful-unavailable",
+      "idem": "off",
+      "lifecycle": "faithful",
+      "query": "unavailable",
+      "campaign": "redundancy",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "faults": [
+        "lost_return",
+        "late_commit"
+      ]
+    },
+    {
+      "name": "off-lost-faithful",
+      "idem": "off",
+      "lifecycle": "lost",
+      "query": "faithful",
+      "campaign": "redundancy",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "faults": [
+        "lost_return",
+        "late_commit"
+      ]
+    },
+    {
+      "name": "off-lost-stale",
+      "idem": "off",
+      "lifecycle": "lost",
+      "query": "stale",
+      "campaign": "redundancy",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "faults": [
+        "lost_return",
+        "late_commit"
+      ]
+    },
+    {
+      "name": "off-lost-unavailable",
+      "idem": "off",
+      "lifecycle": "lost",
+      "query": "unavailable",
+      "campaign": "redundancy",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "faults": [
+        "lost_return",
+        "late_commit"
+      ]
+    },
+    {
+      "name": "on-faithful-forged",
+      "idem": "on",
+      "lifecycle": "faithful",
+      "query": "forged",
+      "campaign": "forged",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "faults": [
+        "lost_before_commit"
+      ]
+    },
+    {
+      "name": "on-lost-forged",
+      "idem": "on",
+      "lifecycle": "lost",
+      "query": "forged",
+      "campaign": "forged",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "faults": [
+        "lost_before_commit"
+      ]
+    },
+    {
+      "name": "off-faithful-forged",
+      "idem": "off",
+      "lifecycle": "faithful",
+      "query": "forged",
+      "campaign": "forged",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "faults": [
+        "lost_before_commit"
+      ]
+    },
+    {
+      "name": "off-lost-forged",
+      "idem": "off",
+      "lifecycle": "lost",
+      "query": "forged",
+      "campaign": "forged",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "faults": [
+        "lost_before_commit"
+      ]
+    }
+  ],
+  "capabilities": {
+    "idempotency": [
+      "on",
+      "off"
+    ],
+    "lifecycle": [
+      "faithful",
+      "lost"
+    ],
+    "query": [
+      "faithful",
+      "stale",
+      "unavailable",
+      "forged"
+    ]
+  },
+  "steps": [
+    "create",
+    "reserve",
+    "attach",
+    "commit",
+    "notify"
+  ],
+  "policies": [
+    "clear",
+    "idem_retry",
+    "query_retry",
+    "reauth_retry",
+    "pause"
+  ],
+  "files": {
+    "docs/R19_evidence_redundancy_binding_protocol.md": "0671f91fff5ce5f4b02145096636673fa89a2243cc81e630043a65d272706099",
+    "scripts/r19_service.py": "e8c7c23e90bd41124f7a900c3f7af56b2ca5232ffa323f66288af969af6a8243",
+    "scripts/r19_client.py": "8693a1615fa4055f311e1189de8b8ece0a67b0099dbc1b31415435127e2a6325",
+    "scripts/run_r19.py": "24029377adf8ee1d79687c351ac232a23d2c7a68c380bf6436e239fb219429f5",
+    "scripts/verify_r19.py": "3d41121f4d5d38c529537b84d8eecf8a40c5b3f5dbedec897ba1f48482785f1f"
+  },
+  "post_timeout_s": 0.4,
+  "get_timeout_s": 0.5,
+  "late_delay_s": 1.0,
+  "dispatch_jitter_s": 0.015,
+  "service_version": "ticket-svc-2026.10-v1",
+  "source": {
+    "adapter": "ticket-http",
+    "python": "3.13.2",
+    "framework": "stdlib-http",
+    "worker_sha256": "e8c7c23e90bd41124f7a900c3f7af56b2ca5232ffa323f66288af969af6a8243",
+    "host_sha256": "8693a1615fa4055f311e1189de8b8ece0a67b0099dbc1b31415435127e2a6325",
+    "observer_sha256": "b72a4f635585fe388564faba66a935d9e888abe14e927a060d2300a5139f5a4f"
+  },
+  "python": "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R1_anyio\\env\\Scripts\\python.exe",
+  "python_version": "3.13.2",
+  "target_calls_before_freeze": 0,
+  "created_ns": 1792588373745345300
+}

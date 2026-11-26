@@ -1,0 +1,321 @@
+{
+  "run": "F:\\desktop\\paper\\clear-artifact\\runs\\R18\\attempt1",
+  "checks": 3723,
+  "passed": 3723,
+  "failed": [],
+  "summary": {
+    "on_faithful": {
+      "clear": {
+        "workflows": 40,
+        "safe": 40,
+        "completed": 40,
+        "duplicates": 0,
+        "pauses": 0,
+        "post_calls": 200,
+        "http_calls": 760,
+        "median_ms": 419.46
+      },
+      "idem_retry": {
+        "workflows": 40,
+        "safe": 40,
+        "completed": 40,
+        "duplicates": 0,
+        "pauses": 0,
+        "post_calls": 240,
+        "http_calls": 480,
+        "median_ms": 434.87
+      },
+      "query_retry": {
+        "workflows": 40,
+        "safe": 40,
+        "completed": 40,
+        "duplicates": 0,
+        "pauses": 0,
+        "post_calls": 200,
+        "http_calls": 480,
+        "median_ms": 423.78
+      },
+      "reauth_retry": {
+        "workflows": 40,
+        "safe": 40,
+        "completed": 40,
+        "duplicates": 0,
+        "pauses": 0,
+        "post_calls": 240,
+        "http_calls": 560,
+        "median_ms": 432.95
+      },
+      "pause": {
+        "workflows": 40,
+        "safe": 0,
+        "completed": 0,
+        "duplicates": 0,
+        "pauses": 40,
+        "post_calls": 140,
+        "http_calls": 320,
+        "median_ms": 378.21
+      }
+    },
+    "on_stale": {
+      "clear": {
+        "workflows": 40,
+        "safe": 40,
+        "completed": 40,
+        "duplicates": 0,
+        "pauses": 0,
+        "post_calls": 200,
+        "http_calls": 760,
+        "median_ms": 415.29
+      },
+      "idem_retry": {
+        "workflows": 40,
+        "safe": 40,
+        "completed": 40,
+        "duplicates": 0,
+        "pauses": 0,
+        "post_calls": 240,
+        "http_calls": 480,
+        "median_ms": 383.4
+      },
+      "query_retry": {
+        "workflows": 40,
+        "safe": 40,
+        "completed": 40,
+        "duplicates": 0,
+        "pauses": 0,
+        "post_calls": 240,
+        "http_calls": 520,
+        "median_ms": 412.37
+      },
+      "reauth_retry": {
+        "workflows": 40,
+        "safe": 40,
+        "completed": 40,
+        "duplicates": 0,
+        "pauses": 0,
+        "post_calls": 240,
+        "http_calls": 560,
+        "median_ms": 413.35
+      },
+      "pause": {
+        "workflows": 40,
+        "safe": 0,
+        "completed": 0,
+        "duplicates": 0,
+        "pauses": 40,
+        "post_calls": 140,
+        "http_calls": 320,
+        "median_ms": 363.09
+      }
+    },
+    "on_unavailable": {
+      "clear": {
+        "workflows": 40,
+        "safe": 40,
+        "completed": 40,
+        "duplicates": 0,
+        "pauses": 0,
+        "post_calls": 200,
+        "http_calls": 760,
+        "median_ms": 444.34
+      },
+      "idem_retry": {
+        "workflows": 40,
+        "safe": 40,
+        "completed": 40,
+        "duplicates": 0,
+        "pauses": 0,
+        "post_calls": 240,
+        "http_calls": 480,
+        "median_ms": 439.95
+      },
+      "query_retry": {
+        "workflows": 40,
+        "safe": 0,
+        "completed": 0,
+        "duplicates": 0,
+        "pauses": 40,
+        "post_calls": 140,
+        "http_calls": 360,
+        "median_ms": 404.17
+      },
+      "reauth_retry": {
+        "workflows": 40,
+        "safe": 40,
+        "completed": 40,
+        "duplicates": 0,
+        "pauses": 0,
+        "post_calls": 240,
+        "http_calls": 560,
+        "median_ms": 463.88
+      },
+      "pause": {
+        "workflows": 40,
+        "safe": 0,
+        "completed": 0,
+        "duplicates": 0,
+        "pauses": 40,
+        "post_calls": 140,
+        "http_calls": 320,
+        "median_ms": 401.1
+      }
+    },
+    "off_faithful": {
+      "clear": {
+        "workflows": 40,
+        "safe": 40,
+        "completed": 40,
+        "duplicates": 0,
+        "pauses": 0,
+        "post_calls": 200,
+        "http_calls": 760,
+        "median_ms": 426.09
+      },
+      "idem_retry": {
+        "workflows": 40,
+        "safe": 0,
+        "completed": 40,
+        "duplicates": 40,
+        "pauses": 0,
+        "post_calls": 240,
+        "http_calls": 480,
+        "median_ms": 422.1
+      },
+      "query_retry": {
+        "workflows": 40,
+        "safe": 40,
+        "completed": 40,
+        "duplicates": 0,
+        "pauses": 0,
+        "post_calls": 200,
+        "http_calls": 480,
+        "median_ms": 433.59
+      },
+      "reauth_retry": {
+        "workflows": 40,
+        "safe": 0,
+        "completed": 40,
+        "duplicates": 40,
+        "pauses": 0,
+        "post_calls": 240,
+        "http_calls": 560,
+        "median_ms": 448.93
+      },
+      "pause": {
+        "workflows": 40,
+        "safe": 0,
+        "completed": 0,
+        "duplicates": 0,
+        "pauses": 40,
+        "post_calls": 140,
+        "http_calls": 320,
+        "median_ms": 385.46
+      }
+    },
+    "off_stale": {
+      "clear": {
+        "workflows": 40,
+        "safe": 40,
+        "completed": 40,
+        "duplicates": 0,
+        "pauses": 0,
+        "post_calls": 200,
+        "http_calls": 760,
+        "median_ms": 443.5
+      },
+      "idem_retry": {
+        "workflows": 40,
+        "safe": 0,
+        "completed": 40,
+        "duplicates": 40,
+        "pauses": 0,
+        "post_calls": 240,
+        "http_calls": 480,
+        "median_ms": 434.01
+      },
+      "query_retry": {
+        "workflows": 40,
+        "safe": 0,
+        "completed": 40,
+        "duplicates": 40,
+        "pauses": 0,
+        "post_calls": 240,
+        "http_calls": 520,
+        "median_ms": 456.49
+      },
+      "reauth_retry": {
+        "workflows": 40,
+        "safe": 0,
+        "completed": 40,
+        "duplicates": 40,
+        "pauses": 0,
+        "post_calls": 240,
+        "http_calls": 560,
+        "median_ms": 472.85
+      },
+      "pause": {
+        "workflows": 40,
+        "safe": 0,
+        "completed": 0,
+        "duplicates": 0,
+        "pauses": 40,
+        "post_calls": 140,
+        "http_calls": 320,
+        "median_ms": 409.04
+      }
+    },
+    "off_unavailable": {
+      "clear": {
+        "workflows": 40,
+        "safe": 40,
+        "completed": 40,
+        "duplicates": 0,
+        "pauses": 0,
+        "post_calls": 200,
+        "http_calls": 760,
+        "median_ms": 473.22
+      },
+      "idem_retry": {
+        "workflows": 40,
+        "safe": 0,
+        "completed": 40,
+        "duplicates": 40,
+        "pauses": 0,
+        "post_calls": 240,
+        "http_calls": 480,
+        "median_ms": 454.39
+      },
+      "query_retry": {
+        "workflows": 40,
+        "safe": 0,
+        "completed": 0,
+        "duplicates": 0,
+        "pauses": 40,
+        "post_calls": 140,
+        "http_calls": 360,
+        "median_ms": 411.32
+      },
+      "reauth_retry": {
+        "workflows": 40,
+        "safe": 0,
+        "completed": 40,
+        "duplicates": 40,
+        "pauses": 0,
+        "post_calls": 240,
+        "http_calls": 560,
+        "median_ms": 464.69
+      },
+      "pause": {
+        "workflows": 40,
+        "safe": 0,
+        "completed": 0,
+        "duplicates": 0,
+        "pauses": 40,
+        "post_calls": 140,
+        "http_calls": 320,
+        "median_ms": 396.49
+      }
+    }
+  },
+  "status": "pass"
+}
