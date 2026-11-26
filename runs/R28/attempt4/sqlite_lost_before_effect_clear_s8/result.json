@@ -1,0 +1,57 @@
+{
+  "policy": "clear",
+  "terminal": "pause",
+  "reason": "original_lifecycle_unavailable",
+  "events": [
+    {
+      "seq": 0,
+      "context": {
+        "operation_id": "sqlite_lost_before_effect_clear_s8",
+        "intent": "55f34e953c4b81b6505cc7ea4694ed85b6f643e19f5af1baa36996d83f07a844",
+        "generation": 1
+      },
+      "manifest": "915ba46bd80000dd8ca08881aed07381e661ead26651c378cf7d2ee26b13aae4",
+      "action": "query",
+      "body": {
+        "state": "not_committed",
+        "complete": true,
+        "rows": [],
+        "effect_namespace": "sqlite",
+        "operation_id": "sqlite_lost_before_effect_clear_s8",
+        "intent": "55f34e953c4b81b6505cc7ea4694ed85b6f643e19f5af1baa36996d83f07a844",
+        "generation": 1
+      }
+    }
+  ],
+  "body": {
+    "state": "not_committed",
+    "complete": true,
+    "rows": [],
+    "effect_namespace": "sqlite",
+    "operation_id": "sqlite_lost_before_effect_clear_s8",
+    "intent": "55f34e953c4b81b6505cc7ea4694ed85b6f643e19f5af1baa36996d83f07a844",
+    "generation": 1
+  },
+  "server": "sqlite",
+  "fault": "lost_before_effect",
+  "seed": 8,
+  "token": "effect:sqlite:lost_before_effect:clear:s8",
+  "context": {
+    "operation_id": "sqlite_lost_before_effect_clear_s8",
+    "intent": "55f34e953c4b81b6505cc7ea4694ed85b6f643e19f5af1baa36996d83f07a844",
+    "generation": 1
+  },
+  "calls": [
+    {
+      "tool": "execute",
+      "outcome": "timeout",
+      "elapsed_ns": 414003800
+    },
+    {
+      "tool": "observe",
+      "outcome": "return",
+      "elapsed_ns": 1896199
+    }
+  ],
+  "elapsed_ns": 1002899200
+}
