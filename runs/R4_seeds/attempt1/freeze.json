@@ -1,0 +1,81 @@
+{
+  "schema": "r4_10seed_freeze_v1",
+  "sources": {
+    "smolagents": [
+      "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R4_smolagents\\attempt1",
+      "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R4_smolagents\\seed1",
+      "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R4_smolagents\\seed2",
+      "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R4_smolagents\\seed3",
+      "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R4_smolagents\\seed4",
+      "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R4_smolagents\\seed5",
+      "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R4_smolagents\\seed6",
+      "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R4_smolagents\\seed7",
+      "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R4_smolagents\\seed8",
+      "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R4_smolagents\\seed9"
+    ],
+    "pydantic_ai": [
+      "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R4_pydantic_ai\\attempt1",
+      "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R4_pydantic_ai\\seed1",
+      "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R4_pydantic_ai\\seed2",
+      "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R4_pydantic_ai\\seed3",
+      "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R4_pydantic_ai\\seed4",
+      "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R4_pydantic_ai\\seed5",
+      "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R4_pydantic_ai\\seed6",
+      "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R4_pydantic_ai\\seed7",
+      "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R4_pydantic_ai\\seed8",
+      "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R4_pydantic_ai\\seed9"
+    ]
+  },
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "policies": [
+    "clear",
+    "idem_retry",
+    "query_retry",
+    "reauth_retry",
+    "pause"
+  ],
+  "cases": [
+    "C01_fail_before",
+    "C02_lost_return",
+    "C03_late_commit",
+    "C04_revoke",
+    "C05_query_unavailable",
+    "C06_closure_missing",
+    "C07_idempotent_lost",
+    "C08_normal"
+  ],
+  "run_hashes": {
+    "runs/R4_smolagents/attempt1": "a2fa2522993a37b5b41e815f4b652f556806c5b320228e884bcff8c8f0b8bf98",
+    "runs/R4_smolagents/seed1": "0301ba9e32737c450179061612aa049a3cbf9e9e87bcddde39b42fd24c5d2898",
+    "runs/R4_smolagents/seed2": "999e7b0ec22f3aec95fcfcdc96bd92b8c26ea3829316cfcfacf7884a461f5f4d",
+    "runs/R4_smolagents/seed3": "5939a0cb1d09ec85c450fe9e92071a7b057a6d8c06e77e34f6394505fff73d5c",
+    "runs/R4_smolagents/seed4": "eaff2d6772f96701eb4df5cf6947fa6f3968f0af0f3609f4bd9a801a73d8bbcb",
+    "runs/R4_smolagents/seed5": "396462ee5799904c19e68a599254da7396de0d3c52e0aa02cc015726a661fa08",
+    "runs/R4_smolagents/seed6": "7ed667866aacd2157d491e754ab59f5cd74dbd26bac945237048b6d1d9220a3c",
+    "runs/R4_smolagents/seed7": "9cf60c7d4dab7f85cbda58b870fb098328311527493868cb7abf3b4a32b6df89",
+    "runs/R4_smolagents/seed8": "bd6e9775710dbe9531f9663588348f1e6b1a536457d85a0b3f0446c6ad015fb0",
+    "runs/R4_smolagents/seed9": "7fe13e6435a7e8ecdf72362967c3898111a640f854cc77018435a14cd4a8f003",
+    "runs/R4_pydantic_ai/attempt1": "8d52eff7e55db1eab15354cd2441dc624bf4424df81651752e6a498d70e46920",
+    "runs/R4_pydantic_ai/seed1": "ff8df85e2bc569ef61ac2fbf48c3481cf6b8cb65da5d95d13be8e982b9ec772e",
+    "runs/R4_pydantic_ai/seed2": "5b0baf4b82e7e1bb0d7db08195730f56c5f1a84cf8739da799b1219b9ef3a8c3",
+    "runs/R4_pydantic_ai/seed3": "77bb4f2b090124d4f6b99baae1c6d2b3539f84343178413e3118acb2dd680b7e",
+    "runs/R4_pydantic_ai/seed4": "104b6a6c3004e0ff39200663c2432f1ed002fec4e89f2a1070a9a793437bc046",
+    "runs/R4_pydantic_ai/seed5": "9af84e33680364e553884bde834e86c625275900d8fb447b8ae6aca92628a065",
+    "runs/R4_pydantic_ai/seed6": "b566a4f71b320192734e04e8116c1b3d95c210c04159efa72e0b314dbdc82fd7",
+    "runs/R4_pydantic_ai/seed7": "e13bd6423ce477ba9df00e44c90316cb4a18693ca846b088aecd8c77ed2385d2",
+    "runs/R4_pydantic_ai/seed8": "f3c0f6cf3ead4ad787f2ed477babae0dea173674d76df9b48f9144813bd368e3",
+    "runs/R4_pydantic_ai/seed9": "c392443b3f39279df39c46a6f320f9ea292b89c7d1112517d2f7f80215a7f54c"
+  },
+  "created": "2026-10-21"
+}

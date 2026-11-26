@@ -1,0 +1,75 @@
+{
+  "policy": "reauth_retry",
+  "context": {
+    "operation_id": "C05_query_unavailable_reauth_retry",
+    "intent": "048c8931efe28cd784d1aaa5e3eba5b3b095769fc47a434a07300c2fe4bfcd76",
+    "generation": 1
+  },
+  "origin": {
+    "context": {
+      "operation_id": "C05_query_unavailable_reauth_retry",
+      "intent": "048c8931efe28cd784d1aaa5e3eba5b3b095769fc47a434a07300c2fe4bfcd76",
+      "generation": 1
+    },
+    "manifest": {
+      "adapter": "pydantic_ai_tool",
+      "version": "2.59.0",
+      "python": "3.13.2",
+      "framework": {
+        "pydantic_ai": "cd3e083f47be5bee4516f676818dc361dff3f7f3ca3d8a7cb36563f6783acba9"
+      },
+      "worker_sha256": "2a11567745a8bd7b521192ab3da839d2594a12d1e489a25936e1aaff88481074",
+      "host_sha256": "2a11567745a8bd7b521192ab3da839d2594a12d1e489a25936e1aaff88481074",
+      "observer_sha256": "2a11567745a8bd7b521192ab3da839d2594a12d1e489a25936e1aaff88481074",
+      "route_sha256": "fb0deadfe522c65de9877a53b296f0bc74631aefa56d787a61c8562a8e73a297",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "commit",
+        "delayed": false,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": false,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": false,
+        "query_complete": false
+      }
+    },
+    "namespace": "effects"
+  },
+  "initial_observations": [
+    {
+      "action": "append",
+      "phase": "initial",
+      "attempt": 1,
+      "outcome": "return"
+    }
+  ],
+  "terminal": "complete",
+  "reason": "reauth_retry",
+  "events": [
+    {
+      "seq": 0,
+      "context": {
+        "operation_id": "C05_query_unavailable_reauth_retry",
+        "intent": "048c8931efe28cd784d1aaa5e3eba5b3b095769fc47a434a07300c2fe4bfcd76",
+        "generation": 1
+      },
+      "manifest": "df2de3489bbf536b3b6d2baa12e33c15b0956ab91a7f02a25e6ac6c469218777",
+      "action": "retry",
+      "body": {
+        "state": "committed",
+        "record_id": 2,
+        "operation_id": "C05_query_unavailable_reauth_retry",
+        "intent": "048c8931efe28cd784d1aaa5e3eba5b3b095769fc47a434a07300c2fe4bfcd76",
+        "generation": 1,
+        "effect_namespace": "effects",
+        "attempt": 2
+      }
+    }
+  ],
+  "steps": [],
+  "case": "C05_query_unavailable",
+  "elapsed_ns": 20294200
+}

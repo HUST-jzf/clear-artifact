@@ -1,0 +1,1310 @@
+{
+  "checks": [
+    {
+      "name": "smolagents:seed0:seed-field",
+      "ok": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "smolagents:seed0:task-count-file",
+      "ok": true,
+      "actual": 40,
+      "expected": 40
+    },
+    {
+      "name": "smolagents:seed0:aggregate",
+      "ok": true,
+      "actual": {
+        "tasks": 40,
+        "safe": 16,
+        "complete": 29,
+        "duplicate": 11,
+        "stale": 2,
+        "clear_safe": 6
+      },
+      "expected": {
+        "tasks": 40,
+        "safe": 16,
+        "complete": 29,
+        "duplicate": 11,
+        "stale": 2,
+        "clear_safe": 6
+      }
+    },
+    {
+      "name": "smolagents:seed1:seed-field",
+      "ok": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "name": "smolagents:seed1:task-count-file",
+      "ok": true,
+      "actual": 40,
+      "expected": 40
+    },
+    {
+      "name": "smolagents:seed1:aggregate",
+      "ok": true,
+      "actual": {
+        "tasks": 40,
+        "safe": 16,
+        "complete": 29,
+        "duplicate": 11,
+        "stale": 2,
+        "clear_safe": 6
+      },
+      "expected": {
+        "tasks": 40,
+        "safe": 16,
+        "complete": 29,
+        "duplicate": 11,
+        "stale": 2,
+        "clear_safe": 6
+      }
+    },
+    {
+      "name": "smolagents:seed2:seed-field",
+      "ok": true,
+      "actual": 2,
+      "expected": 2
+    },
+    {
+      "name": "smolagents:seed2:task-count-file",
+      "ok": true,
+      "actual": 40,
+      "expected": 40
+    },
+    {
+      "name": "smolagents:seed2:aggregate",
+      "ok": true,
+      "actual": {
+        "tasks": 40,
+        "safe": 16,
+        "complete": 29,
+        "duplicate": 11,
+        "stale": 2,
+        "clear_safe": 6
+      },
+      "expected": {
+        "tasks": 40,
+        "safe": 16,
+        "complete": 29,
+        "duplicate": 11,
+        "stale": 2,
+        "clear_safe": 6
+      }
+    },
+    {
+      "name": "smolagents:seed3:seed-field",
+      "ok": true,
+      "actual": 3,
+      "expected": 3
+    },
+    {
+      "name": "smolagents:seed3:task-count-file",
+      "ok": true,
+      "actual": 40,
+      "expected": 40
+    },
+    {
+      "name": "smolagents:seed3:aggregate",
+      "ok": true,
+      "actual": {
+        "tasks": 40,
+        "safe": 16,
+        "complete": 29,
+        "duplicate": 11,
+        "stale": 2,
+        "clear_safe": 6
+      },
+      "expected": {
+        "tasks": 40,
+        "safe": 16,
+        "complete": 29,
+        "duplicate": 11,
+        "stale": 2,
+        "clear_safe": 6
+      }
+    },
+    {
+      "name": "smolagents:seed4:seed-field",
+      "ok": true,
+      "actual": 4,
+      "expected": 4
+    },
+    {
+      "name": "smolagents:seed4:task-count-file",
+      "ok": true,
+      "actual": 40,
+      "expected": 40
+    },
+    {
+      "name": "smolagents:seed4:aggregate",
+      "ok": true,
+      "actual": {
+        "tasks": 40,
+        "safe": 16,
+        "complete": 29,
+        "duplicate": 11,
+        "stale": 2,
+        "clear_safe": 6
+      },
+      "expected": {
+        "tasks": 40,
+        "safe": 16,
+        "complete": 29,
+        "duplicate": 11,
+        "stale": 2,
+        "clear_safe": 6
+      }
+    },
+    {
+      "name": "smolagents:seed5:seed-field",
+      "ok": true,
+      "actual": 5,
+      "expected": 5
+    },
+    {
+      "name": "smolagents:seed5:task-count-file",
+      "ok": true,
+      "actual": 40,
+      "expected": 40
+    },
+    {
+      "name": "smolagents:seed5:aggregate",
+      "ok": true,
+      "actual": {
+        "tasks": 40,
+        "safe": 16,
+        "complete": 29,
+        "duplicate": 11,
+        "stale": 2,
+        "clear_safe": 6
+      },
+      "expected": {
+        "tasks": 40,
+        "safe": 16,
+        "complete": 29,
+        "duplicate": 11,
+        "stale": 2,
+        "clear_safe": 6
+      }
+    },
+    {
+      "name": "smolagents:seed6:seed-field",
+      "ok": true,
+      "actual": 6,
+      "expected": 6
+    },
+    {
+      "name": "smolagents:seed6:task-count-file",
+      "ok": true,
+      "actual": 40,
+      "expected": 40
+    },
+    {
+      "name": "smolagents:seed6:aggregate",
+      "ok": true,
+      "actual": {
+        "tasks": 40,
+        "safe": 16,
+        "complete": 29,
+        "duplicate": 11,
+        "stale": 2,
+        "clear_safe": 6
+      },
+      "expected": {
+        "tasks": 40,
+        "safe": 16,
+        "complete": 29,
+        "duplicate": 11,
+        "stale": 2,
+        "clear_safe": 6
+      }
+    },
+    {
+      "name": "smolagents:seed7:seed-field",
+      "ok": true,
+      "actual": 7,
+      "expected": 7
+    },
+    {
+      "name": "smolagents:seed7:task-count-file",
+      "ok": true,
+      "actual": 40,
+      "expected": 40
+    },
+    {
+      "name": "smolagents:seed7:aggregate",
+      "ok": true,
+      "actual": {
+        "tasks": 40,
+        "safe": 16,
+        "complete": 29,
+        "duplicate": 11,
+        "stale": 2,
+        "clear_safe": 6
+      },
+      "expected": {
+        "tasks": 40,
+        "safe": 16,
+        "complete": 29,
+        "duplicate": 11,
+        "stale": 2,
+        "clear_safe": 6
+      }
+    },
+    {
+      "name": "smolagents:seed8:seed-field",
+      "ok": true,
+      "actual": 8,
+      "expected": 8
+    },
+    {
+      "name": "smolagents:seed8:task-count-file",
+      "ok": true,
+      "actual": 40,
+      "expected": 40
+    },
+    {
+      "name": "smolagents:seed8:aggregate",
+      "ok": true,
+      "actual": {
+        "tasks": 40,
+        "safe": 16,
+        "complete": 29,
+        "duplicate": 11,
+        "stale": 2,
+        "clear_safe": 6
+      },
+      "expected": {
+        "tasks": 40,
+        "safe": 16,
+        "complete": 29,
+        "duplicate": 11,
+        "stale": 2,
+        "clear_safe": 6
+      }
+    },
+    {
+      "name": "smolagents:seed9:seed-field",
+      "ok": true,
+      "actual": 9,
+      "expected": 9
+    },
+    {
+      "name": "smolagents:seed9:task-count-file",
+      "ok": true,
+      "actual": 40,
+      "expected": 40
+    },
+    {
+      "name": "smolagents:seed9:aggregate",
+      "ok": true,
+      "actual": {
+        "tasks": 40,
+        "safe": 16,
+        "complete": 29,
+        "duplicate": 11,
+        "stale": 2,
+        "clear_safe": 6
+      },
+      "expected": {
+        "tasks": 40,
+        "safe": 16,
+        "complete": 29,
+        "duplicate": 11,
+        "stale": 2,
+        "clear_safe": 6
+      }
+    },
+    {
+      "name": "smolagents:tasks",
+      "ok": true,
+      "actual": 400,
+      "expected": 400
+    },
+    {
+      "name": "smolagents:runs",
+      "ok": true,
+      "actual": 10,
+      "expected": 10
+    },
+    {
+      "name": "smolagents:clear:no-duplicate",
+      "ok": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "smolagents:clear:no-stale",
+      "ok": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "smolagents:C01_fail_before:terminal",
+      "ok": true,
+      "actual": {
+        "complete": 10
+      },
+      "expected": {
+        "complete": 10
+      }
+    },
+    {
+      "name": "smolagents:C01_fail_before:rows",
+      "ok": true,
+      "actual": {
+        "1": 10
+      },
+      "expected": {
+        "1": 10
+      }
+    },
+    {
+      "name": "smolagents:C01_fail_before:safe-seeds",
+      "ok": true,
+      "actual": 10,
+      "expected": 10
+    },
+    {
+      "name": "smolagents:C01_fail_before:no-duplicate",
+      "ok": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "smolagents:C01_fail_before:no-stale",
+      "ok": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "smolagents:C02_lost_return:terminal",
+      "ok": true,
+      "actual": {
+        "complete": 10
+      },
+      "expected": {
+        "complete": 10
+      }
+    },
+    {
+      "name": "smolagents:C02_lost_return:rows",
+      "ok": true,
+      "actual": {
+        "1": 10
+      },
+      "expected": {
+        "1": 10
+      }
+    },
+    {
+      "name": "smolagents:C02_lost_return:safe-seeds",
+      "ok": true,
+      "actual": 10,
+      "expected": 10
+    },
+    {
+      "name": "smolagents:C02_lost_return:no-duplicate",
+      "ok": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "smolagents:C02_lost_return:no-stale",
+      "ok": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "smolagents:C03_late_commit:terminal",
+      "ok": true,
+      "actual": {
+        "complete": 10
+      },
+      "expected": {
+        "complete": 10
+      }
+    },
+    {
+      "name": "smolagents:C03_late_commit:rows",
+      "ok": true,
+      "actual": {
+        "1": 10
+      },
+      "expected": {
+        "1": 10
+      }
+    },
+    {
+      "name": "smolagents:C03_late_commit:safe-seeds",
+      "ok": true,
+      "actual": 10,
+      "expected": 10
+    },
+    {
+      "name": "smolagents:C03_late_commit:no-duplicate",
+      "ok": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "smolagents:C03_late_commit:no-stale",
+      "ok": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "smolagents:C04_revoke:terminal",
+      "ok": true,
+      "actual": {
+        "pause": 10
+      },
+      "expected": {
+        "pause": 10
+      }
+    },
+    {
+      "name": "smolagents:C04_revoke:rows",
+      "ok": true,
+      "actual": {
+        "0": 10
+      },
+      "expected": {
+        "0": 10
+      }
+    },
+    {
+      "name": "smolagents:C04_revoke:safe-seeds",
+      "ok": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "smolagents:C04_revoke:no-duplicate",
+      "ok": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "smolagents:C04_revoke:no-stale",
+      "ok": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "smolagents:C05_query_unavailable:terminal",
+      "ok": true,
+      "actual": {
+        "pause": 10
+      },
+      "expected": {
+        "pause": 10
+      }
+    },
+    {
+      "name": "smolagents:C05_query_unavailable:rows",
+      "ok": true,
+      "actual": {
+        "1": 10
+      },
+      "expected": {
+        "1": 10
+      }
+    },
+    {
+      "name": "smolagents:C05_query_unavailable:safe-seeds",
+      "ok": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "smolagents:C05_query_unavailable:no-duplicate",
+      "ok": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "smolagents:C05_query_unavailable:no-stale",
+      "ok": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "smolagents:C06_closure_missing:terminal",
+      "ok": true,
+      "actual": {
+        "complete": 10
+      },
+      "expected": {
+        "complete": 10
+      }
+    },
+    {
+      "name": "smolagents:C06_closure_missing:rows",
+      "ok": true,
+      "actual": {
+        "1": 10
+      },
+      "expected": {
+        "1": 10
+      }
+    },
+    {
+      "name": "smolagents:C06_closure_missing:safe-seeds",
+      "ok": true,
+      "actual": 10,
+      "expected": 10
+    },
+    {
+      "name": "smolagents:C06_closure_missing:no-duplicate",
+      "ok": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "smolagents:C06_closure_missing:no-stale",
+      "ok": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "smolagents:C07_idempotent_lost:terminal",
+      "ok": true,
+      "actual": {
+        "complete": 10
+      },
+      "expected": {
+        "complete": 10
+      }
+    },
+    {
+      "name": "smolagents:C07_idempotent_lost:rows",
+      "ok": true,
+      "actual": {
+        "1": 10
+      },
+      "expected": {
+        "1": 10
+      }
+    },
+    {
+      "name": "smolagents:C07_idempotent_lost:safe-seeds",
+      "ok": true,
+      "actual": 10,
+      "expected": 10
+    },
+    {
+      "name": "smolagents:C07_idempotent_lost:no-duplicate",
+      "ok": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "smolagents:C07_idempotent_lost:no-stale",
+      "ok": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "smolagents:C08_normal:terminal",
+      "ok": true,
+      "actual": {
+        "complete": 10
+      },
+      "expected": {
+        "complete": 10
+      }
+    },
+    {
+      "name": "smolagents:C08_normal:rows",
+      "ok": true,
+      "actual": {
+        "1": 10
+      },
+      "expected": {
+        "1": 10
+      }
+    },
+    {
+      "name": "smolagents:C08_normal:safe-seeds",
+      "ok": true,
+      "actual": 10,
+      "expected": 10
+    },
+    {
+      "name": "smolagents:C08_normal:no-duplicate",
+      "ok": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "smolagents:C08_normal:no-stale",
+      "ok": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "pydantic_ai:seed0:seed-field",
+      "ok": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "pydantic_ai:seed0:task-count-file",
+      "ok": true,
+      "actual": 40,
+      "expected": 40
+    },
+    {
+      "name": "pydantic_ai:seed0:aggregate",
+      "ok": true,
+      "actual": {
+        "tasks": 40,
+        "safe": 16,
+        "complete": 29,
+        "duplicate": 11,
+        "stale": 2,
+        "clear_safe": 6
+      },
+      "expected": {
+        "tasks": 40,
+        "safe": 16,
+        "complete": 29,
+        "duplicate": 11,
+        "stale": 2,
+        "clear_safe": 6
+      }
+    },
+    {
+      "name": "pydantic_ai:seed1:seed-field",
+      "ok": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "name": "pydantic_ai:seed1:task-count-file",
+      "ok": true,
+      "actual": 40,
+      "expected": 40
+    },
+    {
+      "name": "pydantic_ai:seed1:aggregate",
+      "ok": true,
+      "actual": {
+        "tasks": 40,
+        "safe": 16,
+        "complete": 29,
+        "duplicate": 11,
+        "stale": 2,
+        "clear_safe": 6
+      },
+      "expected": {
+        "tasks": 40,
+        "safe": 16,
+        "complete": 29,
+        "duplicate": 11,
+        "stale": 2,
+        "clear_safe": 6
+      }
+    },
+    {
+      "name": "pydantic_ai:seed2:seed-field",
+      "ok": true,
+      "actual": 2,
+      "expected": 2
+    },
+    {
+      "name": "pydantic_ai:seed2:task-count-file",
+      "ok": true,
+      "actual": 40,
+      "expected": 40
+    },
+    {
+      "name": "pydantic_ai:seed2:aggregate",
+      "ok": true,
+      "actual": {
+        "tasks": 40,
+        "safe": 16,
+        "complete": 29,
+        "duplicate": 11,
+        "stale": 2,
+        "clear_safe": 6
+      },
+      "expected": {
+        "tasks": 40,
+        "safe": 16,
+        "complete": 29,
+        "duplicate": 11,
+        "stale": 2,
+        "clear_safe": 6
+      }
+    },
+    {
+      "name": "pydantic_ai:seed3:seed-field",
+      "ok": true,
+      "actual": 3,
+      "expected": 3
+    },
+    {
+      "name": "pydantic_ai:seed3:task-count-file",
+      "ok": true,
+      "actual": 40,
+      "expected": 40
+    },
+    {
+      "name": "pydantic_ai:seed3:aggregate",
+      "ok": true,
+      "actual": {
+        "tasks": 40,
+        "safe": 16,
+        "complete": 29,
+        "duplicate": 11,
+        "stale": 2,
+        "clear_safe": 6
+      },
+      "expected": {
+        "tasks": 40,
+        "safe": 16,
+        "complete": 29,
+        "duplicate": 11,
+        "stale": 2,
+        "clear_safe": 6
+      }
+    },
+    {
+      "name": "pydantic_ai:seed4:seed-field",
+      "ok": true,
+      "actual": 4,
+      "expected": 4
+    },
+    {
+      "name": "pydantic_ai:seed4:task-count-file",
+      "ok": true,
+      "actual": 40,
+      "expected": 40
+    },
+    {
+      "name": "pydantic_ai:seed4:aggregate",
+      "ok": true,
+      "actual": {
+        "tasks": 40,
+        "safe": 16,
+        "complete": 29,
+        "duplicate": 11,
+        "stale": 2,
+        "clear_safe": 6
+      },
+      "expected": {
+        "tasks": 40,
+        "safe": 16,
+        "complete": 29,
+        "duplicate": 11,
+        "stale": 2,
+        "clear_safe": 6
+      }
+    },
+    {
+      "name": "pydantic_ai:seed5:seed-field",
+      "ok": true,
+      "actual": 5,
+      "expected": 5
+    },
+    {
+      "name": "pydantic_ai:seed5:task-count-file",
+      "ok": true,
+      "actual": 40,
+      "expected": 40
+    },
+    {
+      "name": "pydantic_ai:seed5:aggregate",
+      "ok": true,
+      "actual": {
+        "tasks": 40,
+        "safe": 16,
+        "complete": 29,
+        "duplicate": 11,
+        "stale": 2,
+        "clear_safe": 6
+      },
+      "expected": {
+        "tasks": 40,
+        "safe": 16,
+        "complete": 29,
+        "duplicate": 11,
+        "stale": 2,
+        "clear_safe": 6
+      }
+    },
+    {
+      "name": "pydantic_ai:seed6:seed-field",
+      "ok": true,
+      "actual": 6,
+      "expected": 6
+    },
+    {
+      "name": "pydantic_ai:seed6:task-count-file",
+      "ok": true,
+      "actual": 40,
+      "expected": 40
+    },
+    {
+      "name": "pydantic_ai:seed6:aggregate",
+      "ok": true,
+      "actual": {
+        "tasks": 40,
+        "safe": 16,
+        "complete": 29,
+        "duplicate": 11,
+        "stale": 2,
+        "clear_safe": 6
+      },
+      "expected": {
+        "tasks": 40,
+        "safe": 16,
+        "complete": 29,
+        "duplicate": 11,
+        "stale": 2,
+        "clear_safe": 6
+      }
+    },
+    {
+      "name": "pydantic_ai:seed7:seed-field",
+      "ok": true,
+      "actual": 7,
+      "expected": 7
+    },
+    {
+      "name": "pydantic_ai:seed7:task-count-file",
+      "ok": true,
+      "actual": 40,
+      "expected": 40
+    },
+    {
+      "name": "pydantic_ai:seed7:aggregate",
+      "ok": true,
+      "actual": {
+        "tasks": 40,
+        "safe": 16,
+        "complete": 29,
+        "duplicate": 11,
+        "stale": 2,
+        "clear_safe": 6
+      },
+      "expected": {
+        "tasks": 40,
+        "safe": 16,
+        "complete": 29,
+        "duplicate": 11,
+        "stale": 2,
+        "clear_safe": 6
+      }
+    },
+    {
+      "name": "pydantic_ai:seed8:seed-field",
+      "ok": true,
+      "actual": 8,
+      "expected": 8
+    },
+    {
+      "name": "pydantic_ai:seed8:task-count-file",
+      "ok": true,
+      "actual": 40,
+      "expected": 40
+    },
+    {
+      "name": "pydantic_ai:seed8:aggregate",
+      "ok": true,
+      "actual": {
+        "tasks": 40,
+        "safe": 16,
+        "complete": 29,
+        "duplicate": 11,
+        "stale": 2,
+        "clear_safe": 6
+      },
+      "expected": {
+        "tasks": 40,
+        "safe": 16,
+        "complete": 29,
+        "duplicate": 11,
+        "stale": 2,
+        "clear_safe": 6
+      }
+    },
+    {
+      "name": "pydantic_ai:seed9:seed-field",
+      "ok": true,
+      "actual": 9,
+      "expected": 9
+    },
+    {
+      "name": "pydantic_ai:seed9:task-count-file",
+      "ok": true,
+      "actual": 40,
+      "expected": 40
+    },
+    {
+      "name": "pydantic_ai:seed9:aggregate",
+      "ok": true,
+      "actual": {
+        "tasks": 40,
+        "safe": 16,
+        "complete": 29,
+        "duplicate": 11,
+        "stale": 2,
+        "clear_safe": 6
+      },
+      "expected": {
+        "tasks": 40,
+        "safe": 16,
+        "complete": 29,
+        "duplicate": 11,
+        "stale": 2,
+        "clear_safe": 6
+      }
+    },
+    {
+      "name": "pydantic_ai:tasks",
+      "ok": true,
+      "actual": 400,
+      "expected": 400
+    },
+    {
+      "name": "pydantic_ai:runs",
+      "ok": true,
+      "actual": 10,
+      "expected": 10
+    },
+    {
+      "name": "pydantic_ai:clear:no-duplicate",
+      "ok": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "pydantic_ai:clear:no-stale",
+      "ok": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "pydantic_ai:C01_fail_before:terminal",
+      "ok": true,
+      "actual": {
+        "complete": 10
+      },
+      "expected": {
+        "complete": 10
+      }
+    },
+    {
+      "name": "pydantic_ai:C01_fail_before:rows",
+      "ok": true,
+      "actual": {
+        "1": 10
+      },
+      "expected": {
+        "1": 10
+      }
+    },
+    {
+      "name": "pydantic_ai:C01_fail_before:safe-seeds",
+      "ok": true,
+      "actual": 10,
+      "expected": 10
+    },
+    {
+      "name": "pydantic_ai:C01_fail_before:no-duplicate",
+      "ok": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "pydantic_ai:C01_fail_before:no-stale",
+      "ok": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "pydantic_ai:C02_lost_return:terminal",
+      "ok": true,
+      "actual": {
+        "complete": 10
+      },
+      "expected": {
+        "complete": 10
+      }
+    },
+    {
+      "name": "pydantic_ai:C02_lost_return:rows",
+      "ok": true,
+      "actual": {
+        "1": 10
+      },
+      "expected": {
+        "1": 10
+      }
+    },
+    {
+      "name": "pydantic_ai:C02_lost_return:safe-seeds",
+      "ok": true,
+      "actual": 10,
+      "expected": 10
+    },
+    {
+      "name": "pydantic_ai:C02_lost_return:no-duplicate",
+      "ok": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "pydantic_ai:C02_lost_return:no-stale",
+      "ok": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "pydantic_ai:C03_late_commit:terminal",
+      "ok": true,
+      "actual": {
+        "complete": 10
+      },
+      "expected": {
+        "complete": 10
+      }
+    },
+    {
+      "name": "pydantic_ai:C03_late_commit:rows",
+      "ok": true,
+      "actual": {
+        "1": 10
+      },
+      "expected": {
+        "1": 10
+      }
+    },
+    {
+      "name": "pydantic_ai:C03_late_commit:safe-seeds",
+      "ok": true,
+      "actual": 10,
+      "expected": 10
+    },
+    {
+      "name": "pydantic_ai:C03_late_commit:no-duplicate",
+      "ok": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "pydantic_ai:C03_late_commit:no-stale",
+      "ok": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "pydantic_ai:C04_revoke:terminal",
+      "ok": true,
+      "actual": {
+        "pause": 10
+      },
+      "expected": {
+        "pause": 10
+      }
+    },
+    {
+      "name": "pydantic_ai:C04_revoke:rows",
+      "ok": true,
+      "actual": {
+        "0": 10
+      },
+      "expected": {
+        "0": 10
+      }
+    },
+    {
+      "name": "pydantic_ai:C04_revoke:safe-seeds",
+      "ok": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "pydantic_ai:C04_revoke:no-duplicate",
+      "ok": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "pydantic_ai:C04_revoke:no-stale",
+      "ok": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "pydantic_ai:C05_query_unavailable:terminal",
+      "ok": true,
+      "actual": {
+        "pause": 10
+      },
+      "expected": {
+        "pause": 10
+      }
+    },
+    {
+      "name": "pydantic_ai:C05_query_unavailable:rows",
+      "ok": true,
+      "actual": {
+        "1": 10
+      },
+      "expected": {
+        "1": 10
+      }
+    },
+    {
+      "name": "pydantic_ai:C05_query_unavailable:safe-seeds",
+      "ok": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "pydantic_ai:C05_query_unavailable:no-duplicate",
+      "ok": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "pydantic_ai:C05_query_unavailable:no-stale",
+      "ok": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "pydantic_ai:C06_closure_missing:terminal",
+      "ok": true,
+      "actual": {
+        "complete": 10
+      },
+      "expected": {
+        "complete": 10
+      }
+    },
+    {
+      "name": "pydantic_ai:C06_closure_missing:rows",
+      "ok": true,
+      "actual": {
+        "1": 10
+      },
+      "expected": {
+        "1": 10
+      }
+    },
+    {
+      "name": "pydantic_ai:C06_closure_missing:safe-seeds",
+      "ok": true,
+      "actual": 10,
+      "expected": 10
+    },
+    {
+      "name": "pydantic_ai:C06_closure_missing:no-duplicate",
+      "ok": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "pydantic_ai:C06_closure_missing:no-stale",
+      "ok": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "pydantic_ai:C07_idempotent_lost:terminal",
+      "ok": true,
+      "actual": {
+        "complete": 10
+      },
+      "expected": {
+        "complete": 10
+      }
+    },
+    {
+      "name": "pydantic_ai:C07_idempotent_lost:rows",
+      "ok": true,
+      "actual": {
+        "1": 10
+      },
+      "expected": {
+        "1": 10
+      }
+    },
+    {
+      "name": "pydantic_ai:C07_idempotent_lost:safe-seeds",
+      "ok": true,
+      "actual": 10,
+      "expected": 10
+    },
+    {
+      "name": "pydantic_ai:C07_idempotent_lost:no-duplicate",
+      "ok": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "pydantic_ai:C07_idempotent_lost:no-stale",
+      "ok": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "pydantic_ai:C08_normal:terminal",
+      "ok": true,
+      "actual": {
+        "complete": 10
+      },
+      "expected": {
+        "complete": 10
+      }
+    },
+    {
+      "name": "pydantic_ai:C08_normal:rows",
+      "ok": true,
+      "actual": {
+        "1": 10
+      },
+      "expected": {
+        "1": 10
+      }
+    },
+    {
+      "name": "pydantic_ai:C08_normal:safe-seeds",
+      "ok": true,
+      "actual": 10,
+      "expected": 10
+    },
+    {
+      "name": "pydantic_ai:C08_normal:no-duplicate",
+      "ok": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "pydantic_ai:C08_normal:no-stale",
+      "ok": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "total-tasks",
+      "ok": true,
+      "actual": 800,
+      "expected": 800
+    }
+  ],
+  "checks_total": 149,
+  "checks_passed": 149,
+  "failed": [],
+  "status": "pass"
+}

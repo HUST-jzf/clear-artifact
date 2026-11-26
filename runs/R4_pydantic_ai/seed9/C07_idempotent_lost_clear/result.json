@@ -1,0 +1,244 @@
+{
+  "policy": "clear",
+  "context": {
+    "operation_id": "C07_idempotent_lost_clear",
+    "intent": "048c8931efe28cd784d1aaa5e3eba5b3b095769fc47a434a07300c2fe4bfcd76",
+    "generation": 1
+  },
+  "origin": {
+    "context": {
+      "operation_id": "C07_idempotent_lost_clear",
+      "intent": "048c8931efe28cd784d1aaa5e3eba5b3b095769fc47a434a07300c2fe4bfcd76",
+      "generation": 1
+    },
+    "manifest": {
+      "adapter": "pydantic_ai_tool",
+      "version": "2.59.0",
+      "python": "3.13.2",
+      "framework": {
+        "pydantic_ai": "cd3e083f47be5bee4516f676818dc361dff3f7f3ca3d8a7cb36563f6783acba9"
+      },
+      "worker_sha256": "2a11567745a8bd7b521192ab3da839d2594a12d1e489a25936e1aaff88481074",
+      "host_sha256": "2a11567745a8bd7b521192ab3da839d2594a12d1e489a25936e1aaff88481074",
+      "observer_sha256": "2a11567745a8bd7b521192ab3da839d2594a12d1e489a25936e1aaff88481074",
+      "route_sha256": "2c61e3d23c5ffe68ec16d57f6da5ee802aae1f7a030acab90820ba060f4a6b08",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "commit",
+        "delayed": false,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": true,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": true,
+        "query_complete": true
+      }
+    },
+    "namespace": "effects"
+  },
+  "initial_observations": [
+    {
+      "action": "append",
+      "phase": "initial",
+      "attempt": 1,
+      "outcome": "return"
+    }
+  ],
+  "terminal": "complete",
+  "reason": "original_or_retry_receipt",
+  "events": [
+    {
+      "seq": 0,
+      "context": {
+        "operation_id": "C07_idempotent_lost_clear",
+        "intent": "048c8931efe28cd784d1aaa5e3eba5b3b095769fc47a434a07300c2fe4bfcd76",
+        "generation": 1
+      },
+      "manifest": "29e6fd8134951a100b9617afc5fc336147ba3fb17f9c734d60c842f4390c94cb",
+      "action": "wait",
+      "body": {
+        "root": "root",
+        "members": [
+          {
+            "handle": "root",
+            "parent": null,
+            "terminal": true,
+            "error_type": null,
+            "receipt": {
+              "state": "committed",
+              "record_id": 1,
+              "operation_id": "C07_idempotent_lost_clear",
+              "intent": "048c8931efe28cd784d1aaa5e3eba5b3b095769fc47a434a07300c2fe4bfcd76",
+              "generation": 1,
+              "effect_namespace": "effects",
+              "attempt": 1
+            }
+          }
+        ],
+        "attempt": 1,
+        "registration_complete": true,
+        "effect_namespace": "effects",
+        "launch_manifest": "29e6fd8134951a100b9617afc5fc336147ba3fb17f9c734d60c842f4390c94cb",
+        "closed_registration": true
+      }
+    }
+  ],
+  "steps": [
+    {
+      "observation_count": 0,
+      "manifest": {
+        "adapter": "pydantic_ai_tool",
+        "version": "2.59.0",
+        "python": "3.13.2",
+        "framework": {
+          "pydantic_ai": "cd3e083f47be5bee4516f676818dc361dff3f7f3ca3d8a7cb36563f6783acba9"
+        },
+        "worker_sha256": "2a11567745a8bd7b521192ab3da839d2594a12d1e489a25936e1aaff88481074",
+        "host_sha256": "2a11567745a8bd7b521192ab3da839d2594a12d1e489a25936e1aaff88481074",
+        "observer_sha256": "2a11567745a8bd7b521192ab3da839d2594a12d1e489a25936e1aaff88481074",
+        "route_sha256": "2c61e3d23c5ffe68ec16d57f6da5ee802aae1f7a030acab90820ba060f4a6b08",
+        "route": {
+          "revision": 1,
+          "mode": "inline",
+          "outcome": "commit",
+          "delayed": false,
+          "abandon_on_cancel": false,
+          "delegated": false,
+          "closed_registration": true,
+          "allowed": true,
+          "store": "effects",
+          "idempotency": true,
+          "query_complete": true
+        }
+      },
+      "qualification": {
+        "valid": true,
+        "manifest": {
+          "adapter": "pydantic_ai_tool",
+          "version": "2.59.0",
+          "python": "3.13.2",
+          "framework": {
+            "pydantic_ai": "cd3e083f47be5bee4516f676818dc361dff3f7f3ca3d8a7cb36563f6783acba9"
+          },
+          "worker_sha256": "2a11567745a8bd7b521192ab3da839d2594a12d1e489a25936e1aaff88481074",
+          "host_sha256": "2a11567745a8bd7b521192ab3da839d2594a12d1e489a25936e1aaff88481074",
+          "observer_sha256": "2a11567745a8bd7b521192ab3da839d2594a12d1e489a25936e1aaff88481074",
+          "route_sha256": "2c61e3d23c5ffe68ec16d57f6da5ee802aae1f7a030acab90820ba060f4a6b08",
+          "route": {
+            "revision": 1,
+            "mode": "inline",
+            "outcome": "commit",
+            "delayed": false,
+            "abandon_on_cancel": false,
+            "delegated": false,
+            "closed_registration": true,
+            "allowed": true,
+            "store": "effects",
+            "idempotency": true,
+            "query_complete": true
+          }
+        },
+        "checks": {
+          "adapter": true,
+          "version": true,
+          "python": true,
+          "framework": true,
+          "worker_sha256": true,
+          "host_sha256": true,
+          "observer_sha256": true,
+          "known_route": true,
+          "closed_registration": true,
+          "approval_allowed": true,
+          "same_effect_destination": true
+        },
+        "changed_dependencies": []
+      },
+      "decision": {
+        "action": "wait",
+        "reason": "observe_original_lifecycle",
+        "support": []
+      }
+    },
+    {
+      "observation_count": 1,
+      "manifest": {
+        "adapter": "pydantic_ai_tool",
+        "version": "2.59.0",
+        "python": "3.13.2",
+        "framework": {
+          "pydantic_ai": "cd3e083f47be5bee4516f676818dc361dff3f7f3ca3d8a7cb36563f6783acba9"
+        },
+        "worker_sha256": "2a11567745a8bd7b521192ab3da839d2594a12d1e489a25936e1aaff88481074",
+        "host_sha256": "2a11567745a8bd7b521192ab3da839d2594a12d1e489a25936e1aaff88481074",
+        "observer_sha256": "2a11567745a8bd7b521192ab3da839d2594a12d1e489a25936e1aaff88481074",
+        "route_sha256": "2c61e3d23c5ffe68ec16d57f6da5ee802aae1f7a030acab90820ba060f4a6b08",
+        "route": {
+          "revision": 1,
+          "mode": "inline",
+          "outcome": "commit",
+          "delayed": false,
+          "abandon_on_cancel": false,
+          "delegated": false,
+          "closed_registration": true,
+          "allowed": true,
+          "store": "effects",
+          "idempotency": true,
+          "query_complete": true
+        }
+      },
+      "qualification": {
+        "valid": true,
+        "manifest": {
+          "adapter": "pydantic_ai_tool",
+          "version": "2.59.0",
+          "python": "3.13.2",
+          "framework": {
+            "pydantic_ai": "cd3e083f47be5bee4516f676818dc361dff3f7f3ca3d8a7cb36563f6783acba9"
+          },
+          "worker_sha256": "2a11567745a8bd7b521192ab3da839d2594a12d1e489a25936e1aaff88481074",
+          "host_sha256": "2a11567745a8bd7b521192ab3da839d2594a12d1e489a25936e1aaff88481074",
+          "observer_sha256": "2a11567745a8bd7b521192ab3da839d2594a12d1e489a25936e1aaff88481074",
+          "route_sha256": "2c61e3d23c5ffe68ec16d57f6da5ee802aae1f7a030acab90820ba060f4a6b08",
+          "route": {
+            "revision": 1,
+            "mode": "inline",
+            "outcome": "commit",
+            "delayed": false,
+            "abandon_on_cancel": false,
+            "delegated": false,
+            "closed_registration": true,
+            "allowed": true,
+            "store": "effects",
+            "idempotency": true,
+            "query_complete": true
+          }
+        },
+        "checks": {
+          "adapter": true,
+          "version": true,
+          "python": true,
+          "framework": true,
+          "worker_sha256": true,
+          "host_sha256": true,
+          "observer_sha256": true,
+          "known_route": true,
+          "closed_registration": true,
+          "approval_allowed": true,
+          "same_effect_destination": true
+        },
+        "changed_dependencies": []
+      },
+      "decision": {
+        "action": "complete",
+        "reason": "original_or_retry_receipt",
+        "support": [
+          0
+        ]
+      }
+    }
+  ],
+  "case": "C07_idempotent_lost",
+  "elapsed_ns": 13053500
+}
