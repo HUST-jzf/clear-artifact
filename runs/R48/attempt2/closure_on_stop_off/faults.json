@@ -1,0 +1,482 @@
+{
+  "R_on_C_on_S_off_L_on_lost_return_s0": {
+    "attach": {
+      "kind": "lost_return",
+      "delay": 0.9
+    }
+  },
+  "R_on_C_on_S_off_L_on_lost_return_s1": {
+    "attach": {
+      "kind": "lost_return",
+      "delay": 0.9
+    }
+  },
+  "R_on_C_on_S_off_L_on_lost_return_s2": {
+    "attach": {
+      "kind": "lost_return",
+      "delay": 0.9
+    }
+  },
+  "R_on_C_on_S_off_L_on_lost_return_s3": {
+    "attach": {
+      "kind": "lost_return",
+      "delay": 0.9
+    }
+  },
+  "R_on_C_on_S_off_L_on_lost_return_s4": {
+    "attach": {
+      "kind": "lost_return",
+      "delay": 0.9
+    }
+  },
+  "R_on_C_on_S_off_L_on_lost_return_s5": {
+    "attach": {
+      "kind": "lost_return",
+      "delay": 0.9
+    }
+  },
+  "R_on_C_on_S_off_L_on_lost_return_s6": {
+    "attach": {
+      "kind": "lost_return",
+      "delay": 0.9
+    }
+  },
+  "R_on_C_on_S_off_L_on_lost_return_s7": {
+    "attach": {
+      "kind": "lost_return",
+      "delay": 0.9
+    }
+  },
+  "R_on_C_on_S_off_L_on_lost_return_s8": {
+    "attach": {
+      "kind": "lost_return",
+      "delay": 0.9
+    }
+  },
+  "R_on_C_on_S_off_L_on_lost_return_s9": {
+    "attach": {
+      "kind": "lost_return",
+      "delay": 0.9
+    }
+  },
+  "R_on_C_on_S_off_L_on_late_commit_s0": {
+    "attach": {
+      "kind": "late_commit",
+      "delay": 0.9
+    }
+  },
+  "R_on_C_on_S_off_L_on_late_commit_s1": {
+    "attach": {
+      "kind": "late_commit",
+      "delay": 0.9
+    }
+  },
+  "R_on_C_on_S_off_L_on_late_commit_s2": {
+    "attach": {
+      "kind": "late_commit",
+      "delay": 0.9
+    }
+  },
+  "R_on_C_on_S_off_L_on_late_commit_s3": {
+    "attach": {
+      "kind": "late_commit",
+      "delay": 0.9
+    }
+  },
+  "R_on_C_on_S_off_L_on_late_commit_s4": {
+    "attach": {
+      "kind": "late_commit",
+      "delay": 0.9
+    }
+  },
+  "R_on_C_on_S_off_L_on_late_commit_s5": {
+    "attach": {
+      "kind": "late_commit",
+      "delay": 0.9
+    }
+  },
+  "R_on_C_on_S_off_L_on_late_commit_s6": {
+    "attach": {
+      "kind": "late_commit",
+      "delay": 0.9
+    }
+  },
+  "R_on_C_on_S_off_L_on_late_commit_s7": {
+    "attach": {
+      "kind": "late_commit",
+      "delay": 0.9
+    }
+  },
+  "R_on_C_on_S_off_L_on_late_commit_s8": {
+    "attach": {
+      "kind": "late_commit",
+      "delay": 0.9
+    }
+  },
+  "R_on_C_on_S_off_L_on_late_commit_s9": {
+    "attach": {
+      "kind": "late_commit",
+      "delay": 0.9
+    }
+  },
+  "R_on_C_off_S_off_L_on_lost_return_s0": {
+    "attach": {
+      "kind": "lost_return",
+      "delay": 0.9
+    }
+  },
+  "R_on_C_off_S_off_L_on_lost_return_s1": {
+    "attach": {
+      "kind": "lost_return",
+      "delay": 0.9
+    }
+  },
+  "R_on_C_off_S_off_L_on_lost_return_s2": {
+    "attach": {
+      "kind": "lost_return",
+      "delay": 0.9
+    }
+  },
+  "R_on_C_off_S_off_L_on_lost_return_s3": {
+    "attach": {
+      "kind": "lost_return",
+      "delay": 0.9
+    }
+  },
+  "R_on_C_off_S_off_L_on_lost_return_s4": {
+    "attach": {
+      "kind": "lost_return",
+      "delay": 0.9
+    }
+  },
+  "R_on_C_off_S_off_L_on_lost_return_s5": {
+    "attach": {
+      "kind": "lost_return",
+      "delay": 0.9
+    }
+  },
+  "R_on_C_off_S_off_L_on_lost_return_s6": {
+    "attach": {
+      "kind": "lost_return",
+      "delay": 0.9
+    }
+  },
+  "R_on_C_off_S_off_L_on_lost_return_s7": {
+    "attach": {
+      "kind": "lost_return",
+      "delay": 0.9
+    }
+  },
+  "R_on_C_off_S_off_L_on_lost_return_s8": {
+    "attach": {
+      "kind": "lost_return",
+      "delay": 0.9
+    }
+  },
+  "R_on_C_off_S_off_L_on_lost_return_s9": {
+    "attach": {
+      "kind": "lost_return",
+      "delay": 0.9
+    }
+  },
+  "R_on_C_off_S_off_L_on_late_commit_s0": {
+    "attach": {
+      "kind": "late_commit",
+      "delay": 0.9
+    }
+  },
+  "R_on_C_off_S_off_L_on_late_commit_s1": {
+    "attach": {
+      "kind": "late_commit",
+      "delay": 0.9
+    }
+  },
+  "R_on_C_off_S_off_L_on_late_commit_s2": {
+    "attach": {
+      "kind": "late_commit",
+      "delay": 0.9
+    }
+  },
+  "R_on_C_off_S_off_L_on_late_commit_s3": {
+    "attach": {
+      "kind": "late_commit",
+      "delay": 0.9
+    }
+  },
+  "R_on_C_off_S_off_L_on_late_commit_s4": {
+    "attach": {
+      "kind": "late_commit",
+      "delay": 0.9
+    }
+  },
+  "R_on_C_off_S_off_L_on_late_commit_s5": {
+    "attach": {
+      "kind": "late_commit",
+      "delay": 0.9
+    }
+  },
+  "R_on_C_off_S_off_L_on_late_commit_s6": {
+    "attach": {
+      "kind": "late_commit",
+      "delay": 0.9
+    }
+  },
+  "R_on_C_off_S_off_L_on_late_commit_s7": {
+    "attach": {
+      "kind": "late_commit",
+      "delay": 0.9
+    }
+  },
+  "R_on_C_off_S_off_L_on_late_commit_s8": {
+    "attach": {
+      "kind": "late_commit",
+      "delay": 0.9
+    }
+  },
+  "R_on_C_off_S_off_L_on_late_commit_s9": {
+    "attach": {
+      "kind": "late_commit",
+      "delay": 0.9
+    }
+  },
+  "R_off_C_on_S_off_L_on_lost_return_s0": {
+    "attach": {
+      "kind": "lost_return",
+      "delay": 0.9
+    }
+  },
+  "R_off_C_on_S_off_L_on_lost_return_s1": {
+    "attach": {
+      "kind": "lost_return",
+      "delay": 0.9
+    }
+  },
+  "R_off_C_on_S_off_L_on_lost_return_s2": {
+    "attach": {
+      "kind": "lost_return",
+      "delay": 0.9
+    }
+  },
+  "R_off_C_on_S_off_L_on_lost_return_s3": {
+    "attach": {
+      "kind": "lost_return",
+      "delay": 0.9
+    }
+  },
+  "R_off_C_on_S_off_L_on_lost_return_s4": {
+    "attach": {
+      "kind": "lost_return",
+      "delay": 0.9
+    }
+  },
+  "R_off_C_on_S_off_L_on_lost_return_s5": {
+    "attach": {
+      "kind": "lost_return",
+      "delay": 0.9
+    }
+  },
+  "R_off_C_on_S_off_L_on_lost_return_s6": {
+    "attach": {
+      "kind": "lost_return",
+      "delay": 0.9
+    }
+  },
+  "R_off_C_on_S_off_L_on_lost_return_s7": {
+    "attach": {
+      "kind": "lost_return",
+      "delay": 0.9
+    }
+  },
+  "R_off_C_on_S_off_L_on_lost_return_s8": {
+    "attach": {
+      "kind": "lost_return",
+      "delay": 0.9
+    }
+  },
+  "R_off_C_on_S_off_L_on_lost_return_s9": {
+    "attach": {
+      "kind": "lost_return",
+      "delay": 0.9
+    }
+  },
+  "R_off_C_on_S_off_L_on_late_commit_s0": {
+    "attach": {
+      "kind": "late_commit",
+      "delay": 0.9
+    }
+  },
+  "R_off_C_on_S_off_L_on_late_commit_s1": {
+    "attach": {
+      "kind": "late_commit",
+      "delay": 0.9
+    }
+  },
+  "R_off_C_on_S_off_L_on_late_commit_s2": {
+    "attach": {
+      "kind": "late_commit",
+      "delay": 0.9
+    }
+  },
+  "R_off_C_on_S_off_L_on_late_commit_s3": {
+    "attach": {
+      "kind": "late_commit",
+      "delay": 0.9
+    }
+  },
+  "R_off_C_on_S_off_L_on_late_commit_s4": {
+    "attach": {
+      "kind": "late_commit",
+      "delay": 0.9
+    }
+  },
+  "R_off_C_on_S_off_L_on_late_commit_s5": {
+    "attach": {
+      "kind": "late_commit",
+      "delay": 0.9
+    }
+  },
+  "R_off_C_on_S_off_L_on_late_commit_s6": {
+    "attach": {
+      "kind": "late_commit",
+      "delay": 0.9
+    }
+  },
+  "R_off_C_on_S_off_L_on_late_commit_s7": {
+    "attach": {
+      "kind": "late_commit",
+      "delay": 0.9
+    }
+  },
+  "R_off_C_on_S_off_L_on_late_commit_s8": {
+    "attach": {
+      "kind": "late_commit",
+      "delay": 0.9
+    }
+  },
+  "R_off_C_on_S_off_L_on_late_commit_s9": {
+    "attach": {
+      "kind": "late_commit",
+      "delay": 0.9
+    }
+  },
+  "R_off_C_off_S_off_L_on_lost_return_s0": {
+    "attach": {
+      "kind": "lost_return",
+      "delay": 0.9
+    }
+  },
+  "R_off_C_off_S_off_L_on_lost_return_s1": {
+    "attach": {
+      "kind": "lost_return",
+      "delay": 0.9
+    }
+  },
+  "R_off_C_off_S_off_L_on_lost_return_s2": {
+    "attach": {
+      "kind": "lost_return",
+      "delay": 0.9
+    }
+  },
+  "R_off_C_off_S_off_L_on_lost_return_s3": {
+    "attach": {
+      "kind": "lost_return",
+      "delay": 0.9
+    }
+  },
+  "R_off_C_off_S_off_L_on_lost_return_s4": {
+    "attach": {
+      "kind": "lost_return",
+      "delay": 0.9
+    }
+  },
+  "R_off_C_off_S_off_L_on_lost_return_s5": {
+    "attach": {
+      "kind": "lost_return",
+      "delay": 0.9
+    }
+  },
+  "R_off_C_off_S_off_L_on_lost_return_s6": {
+    "attach": {
+      "kind": "lost_return",
+      "delay": 0.9
+    }
+  },
+  "R_off_C_off_S_off_L_on_lost_return_s7": {
+    "attach": {
+      "kind": "lost_return",
+      "delay": 0.9
+    }
+  },
+  "R_off_C_off_S_off_L_on_lost_return_s8": {
+    "attach": {
+      "kind": "lost_return",
+      "delay": 0.9
+    }
+  },
+  "R_off_C_off_S_off_L_on_lost_return_s9": {
+    "attach": {
+      "kind": "lost_return",
+      "delay": 0.9
+    }
+  },
+  "R_off_C_off_S_off_L_on_late_commit_s0": {
+    "attach": {
+      "kind": "late_commit",
+      "delay": 0.9
+    }
+  },
+  "R_off_C_off_S_off_L_on_late_commit_s1": {
+    "attach": {
+      "kind": "late_commit",
+      "delay": 0.9
+    }
+  },
+  "R_off_C_off_S_off_L_on_late_commit_s2": {
+    "attach": {
+      "kind": "late_commit",
+      "delay": 0.9
+    }
+  },
+  "R_off_C_off_S_off_L_on_late_commit_s3": {
+    "attach": {
+      "kind": "late_commit",
+      "delay": 0.9
+    }
+  },
+  "R_off_C_off_S_off_L_on_late_commit_s4": {
+    "attach": {
+      "kind": "late_commit",
+      "delay": 0.9
+    }
+  },
+  "R_off_C_off_S_off_L_on_late_commit_s5": {
+    "attach": {
+      "kind": "late_commit",
+      "delay": 0.9
+    }
+  },
+  "R_off_C_off_S_off_L_on_late_commit_s6": {
+    "attach": {
+      "kind": "late_commit",
+      "delay": 0.9
+    }
+  },
+  "R_off_C_off_S_off_L_on_late_commit_s7": {
+    "attach": {
+      "kind": "late_commit",
+      "delay": 0.9
+    }
+  },
+  "R_off_C_off_S_off_L_on_late_commit_s8": {
+    "attach": {
+      "kind": "late_commit",
+      "delay": 0.9
+    }
+  },
+  "R_off_C_off_S_off_L_on_late_commit_s9": {
+    "attach": {
+      "kind": "late_commit",
+      "delay": 0.9
+    }
+  }
+}

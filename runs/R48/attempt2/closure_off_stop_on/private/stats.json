@@ -1,0 +1,402 @@
+{
+  "R_on_C_on_S_on_L_off_lost_return_s0": {
+    "effects": 2,
+    "terminal": true,
+    "state": "committed"
+  },
+  "R_on_C_on_S_on_L_off_lost_return_s1": {
+    "effects": 2,
+    "terminal": true,
+    "state": "committed"
+  },
+  "R_on_C_on_S_on_L_off_lost_return_s2": {
+    "effects": 2,
+    "terminal": true,
+    "state": "committed"
+  },
+  "R_on_C_on_S_on_L_off_lost_return_s3": {
+    "effects": 2,
+    "terminal": true,
+    "state": "committed"
+  },
+  "R_on_C_on_S_on_L_off_lost_return_s4": {
+    "effects": 2,
+    "terminal": true,
+    "state": "committed"
+  },
+  "R_on_C_on_S_on_L_off_lost_return_s5": {
+    "effects": 2,
+    "terminal": true,
+    "state": "committed"
+  },
+  "R_on_C_on_S_on_L_off_lost_return_s6": {
+    "effects": 2,
+    "terminal": true,
+    "state": "committed"
+  },
+  "R_on_C_on_S_on_L_off_lost_return_s7": {
+    "effects": 2,
+    "terminal": true,
+    "state": "committed"
+  },
+  "R_on_C_on_S_on_L_off_lost_return_s8": {
+    "effects": 2,
+    "terminal": true,
+    "state": "committed"
+  },
+  "R_on_C_on_S_on_L_off_lost_return_s9": {
+    "effects": 2,
+    "terminal": true,
+    "state": "committed"
+  },
+  "R_on_C_on_S_on_L_off_late_commit_s0": {
+    "effects": 1,
+    "terminal": true,
+    "state": "cancelled"
+  },
+  "R_on_C_on_S_on_L_off_late_commit_s1": {
+    "effects": 1,
+    "terminal": true,
+    "state": "cancelled"
+  },
+  "R_on_C_on_S_on_L_off_late_commit_s2": {
+    "effects": 1,
+    "terminal": true,
+    "state": "cancelled"
+  },
+  "R_on_C_on_S_on_L_off_late_commit_s3": {
+    "effects": 1,
+    "terminal": true,
+    "state": "cancelled"
+  },
+  "R_on_C_on_S_on_L_off_late_commit_s4": {
+    "effects": 1,
+    "terminal": true,
+    "state": "cancelled"
+  },
+  "R_on_C_on_S_on_L_off_late_commit_s5": {
+    "effects": 1,
+    "terminal": true,
+    "state": "cancelled"
+  },
+  "R_on_C_on_S_on_L_off_late_commit_s6": {
+    "effects": 1,
+    "terminal": true,
+    "state": "cancelled"
+  },
+  "R_on_C_on_S_on_L_off_late_commit_s7": {
+    "effects": 1,
+    "terminal": true,
+    "state": "cancelled"
+  },
+  "R_on_C_on_S_on_L_off_late_commit_s8": {
+    "effects": 1,
+    "terminal": true,
+    "state": "cancelled"
+  },
+  "R_on_C_on_S_on_L_off_late_commit_s9": {
+    "effects": 1,
+    "terminal": true,
+    "state": "cancelled"
+  },
+  "R_on_C_off_S_on_L_off_lost_return_s0": {
+    "effects": 2,
+    "terminal": true,
+    "state": "committed"
+  },
+  "R_on_C_off_S_on_L_off_lost_return_s1": {
+    "effects": 2,
+    "terminal": true,
+    "state": "committed"
+  },
+  "R_on_C_off_S_on_L_off_lost_return_s2": {
+    "effects": 2,
+    "terminal": true,
+    "state": "committed"
+  },
+  "R_on_C_off_S_on_L_off_lost_return_s3": {
+    "effects": 2,
+    "terminal": true,
+    "state": "committed"
+  },
+  "R_on_C_off_S_on_L_off_lost_return_s4": {
+    "effects": 2,
+    "terminal": true,
+    "state": "committed"
+  },
+  "R_on_C_off_S_on_L_off_lost_return_s5": {
+    "effects": 2,
+    "terminal": true,
+    "state": "committed"
+  },
+  "R_on_C_off_S_on_L_off_lost_return_s6": {
+    "effects": 2,
+    "terminal": true,
+    "state": "committed"
+  },
+  "R_on_C_off_S_on_L_off_lost_return_s7": {
+    "effects": 2,
+    "terminal": true,
+    "state": "committed"
+  },
+  "R_on_C_off_S_on_L_off_lost_return_s8": {
+    "effects": 2,
+    "terminal": true,
+    "state": "committed"
+  },
+  "R_on_C_off_S_on_L_off_lost_return_s9": {
+    "effects": 2,
+    "terminal": true,
+    "state": "committed"
+  },
+  "R_on_C_off_S_on_L_off_late_commit_s0": {
+    "effects": 2,
+    "terminal": true,
+    "state": "committed"
+  },
+  "R_on_C_off_S_on_L_off_late_commit_s1": {
+    "effects": 2,
+    "terminal": true,
+    "state": "committed"
+  },
+  "R_on_C_off_S_on_L_off_late_commit_s2": {
+    "effects": 2,
+    "terminal": true,
+    "state": "committed"
+  },
+  "R_on_C_off_S_on_L_off_late_commit_s3": {
+    "effects": 2,
+    "terminal": true,
+    "state": "committed"
+  },
+  "R_on_C_off_S_on_L_off_late_commit_s4": {
+    "effects": 2,
+    "terminal": true,
+    "state": "committed"
+  },
+  "R_on_C_off_S_on_L_off_late_commit_s5": {
+    "effects": 2,
+    "terminal": true,
+    "state": "committed"
+  },
+  "R_on_C_off_S_on_L_off_late_commit_s6": {
+    "effects": 2,
+    "terminal": true,
+    "state": "committed"
+  },
+  "R_on_C_off_S_on_L_off_late_commit_s7": {
+    "effects": 2,
+    "terminal": true,
+    "state": "committed"
+  },
+  "R_on_C_off_S_on_L_off_late_commit_s8": {
+    "effects": 2,
+    "terminal": true,
+    "state": "committed"
+  },
+  "R_on_C_off_S_on_L_off_late_commit_s9": {
+    "effects": 2,
+    "terminal": true,
+    "state": "committed"
+  },
+  "R_off_C_on_S_on_L_off_lost_return_s0": {
+    "effects": 1,
+    "terminal": true,
+    "state": "committed"
+  },
+  "R_off_C_on_S_on_L_off_lost_return_s1": {
+    "effects": 1,
+    "terminal": true,
+    "state": "committed"
+  },
+  "R_off_C_on_S_on_L_off_lost_return_s2": {
+    "effects": 1,
+    "terminal": true,
+    "state": "committed"
+  },
+  "R_off_C_on_S_on_L_off_lost_return_s3": {
+    "effects": 1,
+    "terminal": true,
+    "state": "committed"
+  },
+  "R_off_C_on_S_on_L_off_lost_return_s4": {
+    "effects": 1,
+    "terminal": true,
+    "state": "committed"
+  },
+  "R_off_C_on_S_on_L_off_lost_return_s5": {
+    "effects": 1,
+    "terminal": true,
+    "state": "committed"
+  },
+  "R_off_C_on_S_on_L_off_lost_return_s6": {
+    "effects": 1,
+    "terminal": true,
+    "state": "committed"
+  },
+  "R_off_C_on_S_on_L_off_lost_return_s7": {
+    "effects": 1,
+    "terminal": true,
+    "state": "committed"
+  },
+  "R_off_C_on_S_on_L_off_lost_return_s8": {
+    "effects": 1,
+    "terminal": true,
+    "state": "committed"
+  },
+  "R_off_C_on_S_on_L_off_lost_return_s9": {
+    "effects": 1,
+    "terminal": true,
+    "state": "committed"
+  },
+  "R_off_C_on_S_on_L_off_late_commit_s0": {
+    "effects": 0,
+    "terminal": true,
+    "state": "cancelled"
+  },
+  "R_off_C_on_S_on_L_off_late_commit_s1": {
+    "effects": 0,
+    "terminal": true,
+    "state": "cancelled"
+  },
+  "R_off_C_on_S_on_L_off_late_commit_s2": {
+    "effects": 0,
+    "terminal": true,
+    "state": "cancelled"
+  },
+  "R_off_C_on_S_on_L_off_late_commit_s3": {
+    "effects": 0,
+    "terminal": true,
+    "state": "cancelled"
+  },
+  "R_off_C_on_S_on_L_off_late_commit_s4": {
+    "effects": 0,
+    "terminal": true,
+    "state": "cancelled"
+  },
+  "R_off_C_on_S_on_L_off_late_commit_s5": {
+    "effects": 0,
+    "terminal": true,
+    "state": "cancelled"
+  },
+  "R_off_C_on_S_on_L_off_late_commit_s6": {
+    "effects": 0,
+    "terminal": true,
+    "state": "cancelled"
+  },
+  "R_off_C_on_S_on_L_off_late_commit_s7": {
+    "effects": 0,
+    "terminal": true,
+    "state": "cancelled"
+  },
+  "R_off_C_on_S_on_L_off_late_commit_s8": {
+    "effects": 0,
+    "terminal": true,
+    "state": "cancelled"
+  },
+  "R_off_C_on_S_on_L_off_late_commit_s9": {
+    "effects": 0,
+    "terminal": true,
+    "state": "cancelled"
+  },
+  "R_off_C_off_S_on_L_off_lost_return_s0": {
+    "effects": 1,
+    "terminal": true,
+    "state": "committed"
+  },
+  "R_off_C_off_S_on_L_off_lost_return_s1": {
+    "effects": 1,
+    "terminal": true,
+    "state": "committed"
+  },
+  "R_off_C_off_S_on_L_off_lost_return_s2": {
+    "effects": 1,
+    "terminal": true,
+    "state": "committed"
+  },
+  "R_off_C_off_S_on_L_off_lost_return_s3": {
+    "effects": 1,
+    "terminal": true,
+    "state": "committed"
+  },
+  "R_off_C_off_S_on_L_off_lost_return_s4": {
+    "effects": 1,
+    "terminal": true,
+    "state": "committed"
+  },
+  "R_off_C_off_S_on_L_off_lost_return_s5": {
+    "effects": 1,
+    "terminal": true,
+    "state": "committed"
+  },
+  "R_off_C_off_S_on_L_off_lost_return_s6": {
+    "effects": 1,
+    "terminal": true,
+    "state": "committed"
+  },
+  "R_off_C_off_S_on_L_off_lost_return_s7": {
+    "effects": 1,
+    "terminal": true,
+    "state": "committed"
+  },
+  "R_off_C_off_S_on_L_off_lost_return_s8": {
+    "effects": 1,
+    "terminal": true,
+    "state": "committed"
+  },
+  "R_off_C_off_S_on_L_off_lost_return_s9": {
+    "effects": 1,
+    "terminal": true,
+    "state": "committed"
+  },
+  "R_off_C_off_S_on_L_off_late_commit_s0": {
+    "effects": 1,
+    "terminal": true,
+    "state": "committed"
+  },
+  "R_off_C_off_S_on_L_off_late_commit_s1": {
+    "effects": 1,
+    "terminal": true,
+    "state": "committed"
+  },
+  "R_off_C_off_S_on_L_off_late_commit_s2": {
+    "effects": 1,
+    "terminal": true,
+    "state": "committed"
+  },
+  "R_off_C_off_S_on_L_off_late_commit_s3": {
+    "effects": 1,
+    "terminal": true,
+    "state": "committed"
+  },
+  "R_off_C_off_S_on_L_off_late_commit_s4": {
+    "effects": 1,
+    "terminal": true,
+    "state": "committed"
+  },
+  "R_off_C_off_S_on_L_off_late_commit_s5": {
+    "effects": 1,
+    "terminal": true,
+    "state": "committed"
+  },
+  "R_off_C_off_S_on_L_off_late_commit_s6": {
+    "effects": 1,
+    "terminal": true,
+    "state": "committed"
+  },
+  "R_off_C_off_S_on_L_off_late_commit_s7": {
+    "effects": 1,
+    "terminal": true,
+    "state": "committed"
+  },
+  "R_off_C_off_S_on_L_off_late_commit_s8": {
+    "effects": 1,
+    "terminal": true,
+    "state": "committed"
+  },
+  "R_off_C_off_S_on_L_off_late_commit_s9": {
+    "effects": 1,
+    "terminal": true,
+    "state": "committed"
+  }
+}
