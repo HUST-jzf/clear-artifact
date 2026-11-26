@@ -1,0 +1,202 @@
+2026-10-20T14:55:03,366 Using pip 24.3.1 from <repo>\sources\U02_langchain_core_1_0_0\env\Lib\site-packages\pip (python 3.13)
+2026-10-20T14:55:03,376 Non-user install because user site-packages disabled
+2026-10-20T14:55:03,931 Ignoring indexes: https://pypi.org/simple
+2026-10-20T14:55:03,933 Created temporary directory: <user>\AppData\Local\Temp\pip-build-tracker-r91fqpje
+2026-10-20T14:55:03,934 Initialized build tracking at <user>\AppData\Local\Temp\pip-build-tracker-r91fqpje
+2026-10-20T14:55:03,934 Created build tracker: <user>\AppData\Local\Temp\pip-build-tracker-r91fqpje
+2026-10-20T14:55:03,934 Entered build tracker: <user>\AppData\Local\Temp\pip-build-tracker-r91fqpje
+2026-10-20T14:55:03,943 Created temporary directory: <user>\AppData\Local\Temp\pip-install-zzzdoudm
+2026-10-20T14:55:03,944 Created temporary directory: <user>\AppData\Local\Temp\pip-ephem-wheel-cache-w_y7uj36
+2026-10-20T14:55:03,996 Looking in links: <repo>\sources\U02_langchain_core_1_0_0\wheels
+2026-10-20T14:55:03,999 0 location(s) to search for versions of langchain-core:
+2026-10-20T14:55:04,078 Found link file:///<repo>/sources/U02_langchain_core_1_0_0/wheels/langchain_core-1.0.0-py3-none-any.whl, version: 1.0.0
+2026-10-20T14:55:04,078 Local files found: <repo>\sources\U02_langchain_core_1_0_0\wheels\langchain_core-1.0.0-py3-none-any.whl
+2026-10-20T14:55:04,078 Given no hashes to check 1 links for project 'langchain-core': discarding no candidates
+2026-10-20T14:55:04,087 Processing <repo>\sources\u02_langchain_core_1_0_0\wheels\langchain_core-1.0.0-py3-none-any.whl
+2026-10-20T14:55:04,092 0 location(s) to search for versions of jsonpatch:
+2026-10-20T14:55:04,092 Found link file:///<repo>/sources/U02_langchain_core_1_0_0/wheels/jsonpatch-1.36-py3-none-any.whl, version: 1.36
+2026-10-20T14:55:04,093 Local files found: <repo>\sources\U02_langchain_core_1_0_0\wheels\jsonpatch-1.36-py3-none-any.whl
+2026-10-20T14:55:04,093 Given no hashes to check 1 links for project 'jsonpatch': discarding no candidates
+2026-10-20T14:55:04,093 Processing <repo>\sources\u02_langchain_core_1_0_0\wheels\jsonpatch-1.36-py3-none-any.whl (from langchain-core==1.0.0)
+2026-10-20T14:55:04,096 0 location(s) to search for versions of langsmith:
+2026-10-20T14:55:04,096 Found link file:///<repo>/sources/U02_langchain_core_1_0_0/wheels/langsmith-0.14.11-py3-none-any.whl, version: 0.14.11
+2026-10-20T14:55:04,096 Local files found: <repo>\sources\U02_langchain_core_1_0_0\wheels\langsmith-0.14.11-py3-none-any.whl
+2026-10-20T14:55:04,096 Given no hashes to check 1 links for project 'langsmith': discarding no candidates
+2026-10-20T14:55:04,096 Processing <repo>\sources\u02_langchain_core_1_0_0\wheels\langsmith-0.14.11-py3-none-any.whl (from langchain-core==1.0.0)
+2026-10-20T14:55:04,109 0 location(s) to search for versions of packaging:
+2026-10-20T14:55:04,109 Found link file:///<repo>/sources/U02_langchain_core_1_0_0/wheels/packaging-25.0-py3-none-any.whl, version: 25.0
+2026-10-20T14:55:04,109 Local files found: <repo>\sources\U02_langchain_core_1_0_0\wheels\packaging-25.0-py3-none-any.whl
+2026-10-20T14:55:04,109 Given no hashes to check 1 links for project 'packaging': discarding no candidates
+2026-10-20T14:55:04,110 Processing <repo>\sources\u02_langchain_core_1_0_0\wheels\packaging-25.0-py3-none-any.whl (from langchain-core==1.0.0)
+2026-10-20T14:55:04,113 0 location(s) to search for versions of pydantic:
+2026-10-20T14:55:04,113 Found link file:///<repo>/sources/U02_langchain_core_1_0_0/wheels/pydantic-2.14.1-py3-none-any.whl, version: 2.14.1
+2026-10-20T14:55:04,113 Local files found: <repo>\sources\U02_langchain_core_1_0_0\wheels\pydantic-2.14.1-py3-none-any.whl
+2026-10-20T14:55:04,113 Given no hashes to check 1 links for project 'pydantic': discarding no candidates
+2026-10-20T14:55:04,114 Processing <repo>\sources\u02_langchain_core_1_0_0\wheels\pydantic-2.14.1-py3-none-any.whl (from langchain-core==1.0.0)
+2026-10-20T14:55:04,121 0 location(s) to search for versions of pyyaml:
+2026-10-20T14:55:04,121 Found link file:///<repo>/sources/U02_langchain_core_1_0_0/wheels/pyyaml-6.0.3-cp313-cp313-win_amd64.whl, version: 6.0.3
+2026-10-20T14:55:04,121 Local files found: <repo>\sources\U02_langchain_core_1_0_0\wheels\pyyaml-6.0.3-cp313-cp313-win_amd64.whl
+2026-10-20T14:55:04,122 Given no hashes to check 1 links for project 'pyyaml': discarding no candidates
+2026-10-20T14:55:04,122 Processing <repo>\sources\u02_langchain_core_1_0_0\wheels\pyyaml-6.0.3-cp313-cp313-win_amd64.whl (from langchain-core==1.0.0)
+2026-10-20T14:55:04,125 0 location(s) to search for versions of tenacity:
+2026-10-20T14:55:04,125 Found link file:///<repo>/sources/U02_langchain_core_1_0_0/wheels/tenacity-9.2.1-py3-none-any.whl, version: 9.2.1
+2026-10-20T14:55:04,125 Local files found: <repo>\sources\U02_langchain_core_1_0_0\wheels\tenacity-9.2.1-py3-none-any.whl
+2026-10-20T14:55:04,126 Given no hashes to check 1 links for project 'tenacity': discarding no candidates
+2026-10-20T14:55:04,126 Processing <repo>\sources\u02_langchain_core_1_0_0\wheels\tenacity-9.2.1-py3-none-any.whl (from langchain-core==1.0.0)
+2026-10-20T14:55:04,129 0 location(s) to search for versions of typing-extensions:
+2026-10-20T14:55:04,129 Found link file:///<repo>/sources/U02_langchain_core_1_0_0/wheels/typing_extensions-4.16.0-py3-none-any.whl, version: 4.16.0
+2026-10-20T14:55:04,129 Local files found: <repo>\sources\U02_langchain_core_1_0_0\wheels\typing_extensions-4.16.0-py3-none-any.whl
+2026-10-20T14:55:04,129 Given no hashes to check 1 links for project 'typing-extensions': discarding no candidates
+2026-10-20T14:55:04,130 Processing <repo>\sources\u02_langchain_core_1_0_0\wheels\typing_extensions-4.16.0-py3-none-any.whl (from langchain-core==1.0.0)
+2026-10-20T14:55:04,132 0 location(s) to search for versions of jsonpointer:
+2026-10-20T14:55:04,132 Found link file:///<repo>/sources/U02_langchain_core_1_0_0/wheels/jsonpointer-3.4-py3-none-any.whl, version: 3.4
+2026-10-20T14:55:04,132 Local files found: <repo>\sources\U02_langchain_core_1_0_0\wheels\jsonpointer-3.4-py3-none-any.whl
+2026-10-20T14:55:04,132 Given no hashes to check 1 links for project 'jsonpointer': discarding no candidates
+2026-10-20T14:55:04,133 Processing <repo>\sources\u02_langchain_core_1_0_0\wheels\jsonpointer-3.4-py3-none-any.whl (from jsonpatch<2.0.0,>=1.33.0->langchain-core==1.0.0)
+2026-10-20T14:55:04,136 0 location(s) to search for versions of anyio:
+2026-10-20T14:55:04,136 Found link file:///<repo>/sources/U02_langchain_core_1_0_0/wheels/anyio-4.15.1-py3-none-any.whl, version: 4.15.1
+2026-10-20T14:55:04,136 Local files found: <repo>\sources\U02_langchain_core_1_0_0\wheels\anyio-4.15.1-py3-none-any.whl
+2026-10-20T14:55:04,136 Given no hashes to check 1 links for project 'anyio': discarding no candidates
+2026-10-20T14:55:04,137 Processing <repo>\sources\u02_langchain_core_1_0_0\wheels\anyio-4.15.1-py3-none-any.whl (from langsmith<1.0.0,>=0.3.45->langchain-core==1.0.0)
+2026-10-20T14:55:04,140 0 location(s) to search for versions of distro:
+2026-10-20T14:55:04,140 Found link file:///<repo>/sources/U02_langchain_core_1_0_0/wheels/distro-1.9.0-py3-none-any.whl, version: 1.9.0
+2026-10-20T14:55:04,140 Local files found: <repo>\sources\U02_langchain_core_1_0_0\wheels\distro-1.9.0-py3-none-any.whl
+2026-10-20T14:55:04,140 Given no hashes to check 1 links for project 'distro': discarding no candidates
+2026-10-20T14:55:04,140 Processing <repo>\sources\u02_langchain_core_1_0_0\wheels\distro-1.9.0-py3-none-any.whl (from langsmith<1.0.0,>=0.3.45->langchain-core==1.0.0)
+2026-10-20T14:55:04,143 0 location(s) to search for versions of httpx2:
+2026-10-20T14:55:04,143 Found link file:///<repo>/sources/U02_langchain_core_1_0_0/wheels/httpx2-2.15.1-py3-none-any.whl, version: 2.15.1
+2026-10-20T14:55:04,143 Local files found: <repo>\sources\U02_langchain_core_1_0_0\wheels\httpx2-2.15.1-py3-none-any.whl
+2026-10-20T14:55:04,144 Given no hashes to check 1 links for project 'httpx2': discarding no candidates
+2026-10-20T14:55:04,144 Processing <repo>\sources\u02_langchain_core_1_0_0\wheels\httpx2-2.15.1-py3-none-any.whl (from langsmith<1.0.0,>=0.3.45->langchain-core==1.0.0)
+2026-10-20T14:55:04,149 0 location(s) to search for versions of orjson:
+2026-10-20T14:55:04,149 Found link file:///<repo>/sources/U02_langchain_core_1_0_0/wheels/orjson-3.13.0-cp313-cp313-win_amd64.whl, version: 3.13.0
+2026-10-20T14:55:04,150 Local files found: <repo>\sources\U02_langchain_core_1_0_0\wheels\orjson-3.13.0-cp313-cp313-win_amd64.whl
+2026-10-20T14:55:04,150 Given no hashes to check 1 links for project 'orjson': discarding no candidates
+2026-10-20T14:55:04,150 Processing <repo>\sources\u02_langchain_core_1_0_0\wheels\orjson-3.13.0-cp313-cp313-win_amd64.whl (from langsmith<1.0.0,>=0.3.45->langchain-core==1.0.0)
+2026-10-20T14:55:04,156 Given no hashes to check 1 links for project 'pydantic': discarding no candidates
+2026-10-20T14:55:04,156 0 location(s) to search for versions of requests-toolbelt:
+2026-10-20T14:55:04,156 Found link file:///<repo>/sources/U02_langchain_core_1_0_0/wheels/requests_toolbelt-1.0.0-py2.py3-none-any.whl, version: 1.0.0
+2026-10-20T14:55:04,156 Local files found: <repo>\sources\U02_langchain_core_1_0_0\wheels\requests_toolbelt-1.0.0-py2.py3-none-any.whl
+2026-10-20T14:55:04,156 Given no hashes to check 1 links for project 'requests-toolbelt': discarding no candidates
+2026-10-20T14:55:04,157 Processing <repo>\sources\u02_langchain_core_1_0_0\wheels\requests_toolbelt-1.0.0-py2.py3-none-any.whl (from langsmith<1.0.0,>=0.3.45->langchain-core==1.0.0)
+2026-10-20T14:55:04,160 0 location(s) to search for versions of requests:
+2026-10-20T14:55:04,160 Found link file:///<repo>/sources/U02_langchain_core_1_0_0/wheels/requests-2.34.2-py3-none-any.whl, version: 2.34.2
+2026-10-20T14:55:04,160 Local files found: <repo>\sources\U02_langchain_core_1_0_0\wheels\requests-2.34.2-py3-none-any.whl
+2026-10-20T14:55:04,160 Given no hashes to check 1 links for project 'requests': discarding no candidates
+2026-10-20T14:55:04,161 Processing <repo>\sources\u02_langchain_core_1_0_0\wheels\requests-2.34.2-py3-none-any.whl (from langsmith<1.0.0,>=0.3.45->langchain-core==1.0.0)
+2026-10-20T14:55:04,164 0 location(s) to search for versions of sniffio:
+2026-10-20T14:55:04,164 Found link file:///<repo>/sources/U02_langchain_core_1_0_0/wheels/sniffio-1.3.1-py3-none-any.whl, version: 1.3.1
+2026-10-20T14:55:04,164 Local files found: <repo>\sources\U02_langchain_core_1_0_0\wheels\sniffio-1.3.1-py3-none-any.whl
+2026-10-20T14:55:04,164 Given no hashes to check 1 links for project 'sniffio': discarding no candidates
+2026-10-20T14:55:04,164 Processing <repo>\sources\u02_langchain_core_1_0_0\wheels\sniffio-1.3.1-py3-none-any.whl (from langsmith<1.0.0,>=0.3.45->langchain-core==1.0.0)
+2026-10-20T14:55:04,167 Given no hashes to check 1 links for project 'typing-extensions': discarding no candidates
+2026-10-20T14:55:04,167 0 location(s) to search for versions of uuid-utils:
+2026-10-20T14:55:04,167 Found link file:///<repo>/sources/U02_langchain_core_1_0_0/wheels/uuid_utils-0.18.0-cp313-cp313-win_amd64.whl, version: 0.18.0
+2026-10-20T14:55:04,167 Local files found: <repo>\sources\U02_langchain_core_1_0_0\wheels\uuid_utils-0.18.0-cp313-cp313-win_amd64.whl
+2026-10-20T14:55:04,167 Given no hashes to check 1 links for project 'uuid-utils': discarding no candidates
+2026-10-20T14:55:04,167 Processing <repo>\sources\u02_langchain_core_1_0_0\wheels\uuid_utils-0.18.0-cp313-cp313-win_amd64.whl (from langsmith<1.0.0,>=0.3.45->langchain-core==1.0.0)
+2026-10-20T14:55:04,170 0 location(s) to search for versions of websockets:
+2026-10-20T14:55:04,170 Found link file:///<repo>/sources/U02_langchain_core_1_0_0/wheels/websockets-17.3-cp313-cp313-win_amd64.whl, version: 17.3
+2026-10-20T14:55:04,170 Local files found: <repo>\sources\U02_langchain_core_1_0_0\wheels\websockets-17.3-cp313-cp313-win_amd64.whl
+2026-10-20T14:55:04,170 Given no hashes to check 1 links for project 'websockets': discarding no candidates
+2026-10-20T14:55:04,171 Processing <repo>\sources\u02_langchain_core_1_0_0\wheels\websockets-17.3-cp313-cp313-win_amd64.whl (from langsmith<1.0.0,>=0.3.45->langchain-core==1.0.0)
+2026-10-20T14:55:04,173 0 location(s) to search for versions of xxhash:
+2026-10-20T14:55:04,173 Found link file:///<repo>/sources/U02_langchain_core_1_0_0/wheels/xxhash-4.0.2-cp313-cp313-win_amd64.whl, version: 4.0.2
+2026-10-20T14:55:04,173 Local files found: <repo>\sources\U02_langchain_core_1_0_0\wheels\xxhash-4.0.2-cp313-cp313-win_amd64.whl
+2026-10-20T14:55:04,174 Given no hashes to check 1 links for project 'xxhash': discarding no candidates
+2026-10-20T14:55:04,174 Processing <repo>\sources\u02_langchain_core_1_0_0\wheels\xxhash-4.0.2-cp313-cp313-win_amd64.whl (from langsmith<1.0.0,>=0.3.45->langchain-core==1.0.0)
+2026-10-20T14:55:04,178 0 location(s) to search for versions of zstandard:
+2026-10-20T14:55:04,178 Found link file:///<repo>/sources/U02_langchain_core_1_0_0/wheels/zstandard-0.25.0-cp313-cp313-win_amd64.whl, version: 0.25.0
+2026-10-20T14:55:04,178 Local files found: <repo>\sources\U02_langchain_core_1_0_0\wheels\zstandard-0.25.0-cp313-cp313-win_amd64.whl
+2026-10-20T14:55:04,178 Given no hashes to check 1 links for project 'zstandard': discarding no candidates
+2026-10-20T14:55:04,179 Processing <repo>\sources\u02_langchain_core_1_0_0\wheels\zstandard-0.25.0-cp313-cp313-win_amd64.whl (from langsmith<1.0.0,>=0.3.45->langchain-core==1.0.0)
+2026-10-20T14:55:04,183 0 location(s) to search for versions of annotated-types:
+2026-10-20T14:55:04,183 Found link file:///<repo>/sources/U02_langchain_core_1_0_0/wheels/annotated_types-0.8.0-py3-none-any.whl, version: 0.8.0
+2026-10-20T14:55:04,183 Local files found: <repo>\sources\U02_langchain_core_1_0_0\wheels\annotated_types-0.8.0-py3-none-any.whl
+2026-10-20T14:55:04,184 Given no hashes to check 1 links for project 'annotated-types': discarding no candidates
+2026-10-20T14:55:04,184 Processing <repo>\sources\u02_langchain_core_1_0_0\wheels\annotated_types-0.8.0-py3-none-any.whl (from pydantic<3.0.0,>=2.7.4->langchain-core==1.0.0)
+2026-10-20T14:55:04,187 0 location(s) to search for versions of pydantic-core:
+2026-10-20T14:55:04,187 Found link file:///<repo>/sources/U02_langchain_core_1_0_0/wheels/pydantic_core-2.50.1-cp313-cp313-win_amd64.whl, version: 2.50.1
+2026-10-20T14:55:04,187 Local files found: <repo>\sources\U02_langchain_core_1_0_0\wheels\pydantic_core-2.50.1-cp313-cp313-win_amd64.whl
+2026-10-20T14:55:04,187 Given no hashes to check 1 links for project 'pydantic-core': discarding no candidates
+2026-10-20T14:55:04,187 Processing <repo>\sources\u02_langchain_core_1_0_0\wheels\pydantic_core-2.50.1-cp313-cp313-win_amd64.whl (from pydantic<3.0.0,>=2.7.4->langchain-core==1.0.0)
+2026-10-20T14:55:04,192 Given no hashes to check 1 links for project 'typing-extensions': discarding no candidates
+2026-10-20T14:55:04,192 0 location(s) to search for versions of typing-inspection:
+2026-10-20T14:55:04,192 Found link file:///<repo>/sources/U02_langchain_core_1_0_0/wheels/typing_inspection-0.4.4-py3-none-any.whl, version: 0.4.4
+2026-10-20T14:55:04,192 Local files found: <repo>\sources\U02_langchain_core_1_0_0\wheels\typing_inspection-0.4.4-py3-none-any.whl
+2026-10-20T14:55:04,192 Given no hashes to check 1 links for project 'typing-inspection': discarding no candidates
+2026-10-20T14:55:04,193 Processing <repo>\sources\u02_langchain_core_1_0_0\wheels\typing_inspection-0.4.4-py3-none-any.whl (from pydantic<3.0.0,>=2.7.4->langchain-core==1.0.0)
+2026-10-20T14:55:04,199 0 location(s) to search for versions of idna:
+2026-10-20T14:55:04,199 Found link file:///<repo>/sources/U02_langchain_core_1_0_0/wheels/idna-3.20-py3-none-any.whl, version: 3.20
+2026-10-20T14:55:04,199 Local files found: <repo>\sources\U02_langchain_core_1_0_0\wheels\idna-3.20-py3-none-any.whl
+2026-10-20T14:55:04,200 Given no hashes to check 1 links for project 'idna': discarding no candidates
+2026-10-20T14:55:04,200 Processing <repo>\sources\u02_langchain_core_1_0_0\wheels\idna-3.20-py3-none-any.whl (from anyio<5,>=3.5.0->langsmith<1.0.0,>=0.3.45->langchain-core==1.0.0)
+2026-10-20T14:55:04,206 Given no hashes to check 1 links for project 'anyio': discarding no candidates
+2026-10-20T14:55:04,206 0 location(s) to search for versions of httpcore2:
+2026-10-20T14:55:04,207 Found link file:///<repo>/sources/U02_langchain_core_1_0_0/wheels/httpcore2-2.15.1-py3-none-any.whl, version: 2.15.1
+2026-10-20T14:55:04,207 Local files found: <repo>\sources\U02_langchain_core_1_0_0\wheels\httpcore2-2.15.1-py3-none-any.whl
+2026-10-20T14:55:04,207 Given no hashes to check 1 links for project 'httpcore2': discarding no candidates
+2026-10-20T14:55:04,207 Processing <repo>\sources\u02_langchain_core_1_0_0\wheels\httpcore2-2.15.1-py3-none-any.whl (from httpx2<3,>=2->langsmith<1.0.0,>=0.3.45->langchain-core==1.0.0)
+2026-10-20T14:55:04,211 Given no hashes to check 1 links for project 'idna': discarding no candidates
+2026-10-20T14:55:04,212 0 location(s) to search for versions of truststore:
+2026-10-20T14:55:04,212 Found link file:///<repo>/sources/U02_langchain_core_1_0_0/wheels/truststore-0.10.5-py3-none-any.whl, version: 0.10.5
+2026-10-20T14:55:04,212 Local files found: <repo>\sources\U02_langchain_core_1_0_0\wheels\truststore-0.10.5-py3-none-any.whl
+2026-10-20T14:55:04,212 Given no hashes to check 1 links for project 'truststore': discarding no candidates
+2026-10-20T14:55:04,212 Processing <repo>\sources\u02_langchain_core_1_0_0\wheels\truststore-0.10.5-py3-none-any.whl (from httpx2<3,>=2->langsmith<1.0.0,>=0.3.45->langchain-core==1.0.0)
+2026-10-20T14:55:04,215 0 location(s) to search for versions of h11:
+2026-10-20T14:55:04,215 Found link file:///<repo>/sources/U02_langchain_core_1_0_0/wheels/h11-0.16.0-py3-none-any.whl, version: 0.16.0
+2026-10-20T14:55:04,215 Local files found: <repo>\sources\U02_langchain_core_1_0_0\wheels\h11-0.16.0-py3-none-any.whl
+2026-10-20T14:55:04,215 Given no hashes to check 1 links for project 'h11': discarding no candidates
+2026-10-20T14:55:04,216 Processing <repo>\sources\u02_langchain_core_1_0_0\wheels\h11-0.16.0-py3-none-any.whl (from httpcore2==2.15.1->httpx2<3,>=2->langsmith<1.0.0,>=0.3.45->langchain-core==1.0.0)
+2026-10-20T14:55:04,220 0 location(s) to search for versions of charset-normalizer:
+2026-10-20T14:55:04,220 Found link file:///<repo>/sources/U02_langchain_core_1_0_0/wheels/charset_normalizer-3.5.2-cp313-cp313-win_amd64.whl, version: 3.5.2
+2026-10-20T14:55:04,220 Local files found: <repo>\sources\U02_langchain_core_1_0_0\wheels\charset_normalizer-3.5.2-cp313-cp313-win_amd64.whl
+2026-10-20T14:55:04,220 Given no hashes to check 1 links for project 'charset-normalizer': discarding no candidates
+2026-10-20T14:55:04,221 Processing <repo>\sources\u02_langchain_core_1_0_0\wheels\charset_normalizer-3.5.2-cp313-cp313-win_amd64.whl (from requests>=2.0.0->langsmith<1.0.0,>=0.3.45->langchain-core==1.0.0)
+2026-10-20T14:55:04,225 Given no hashes to check 1 links for project 'idna': discarding no candidates
+2026-10-20T14:55:04,226 0 location(s) to search for versions of urllib3:
+2026-10-20T14:55:04,226 Found link file:///<repo>/sources/U02_langchain_core_1_0_0/wheels/urllib3-2.8.0-py3-none-any.whl, version: 2.8.0
+2026-10-20T14:55:04,226 Local files found: <repo>\sources\U02_langchain_core_1_0_0\wheels\urllib3-2.8.0-py3-none-any.whl
+2026-10-20T14:55:04,226 Given no hashes to check 1 links for project 'urllib3': discarding no candidates
+2026-10-20T14:55:04,226 Processing <repo>\sources\u02_langchain_core_1_0_0\wheels\urllib3-2.8.0-py3-none-any.whl (from requests>=2.0.0->langsmith<1.0.0,>=0.3.45->langchain-core==1.0.0)
+2026-10-20T14:55:04,230 0 location(s) to search for versions of certifi:
+2026-10-20T14:55:04,230 Found link file:///<repo>/sources/U02_langchain_core_1_0_0/wheels/certifi-2026.10.19-py3-none-any.whl, version: 2026.10.19
+2026-10-20T14:55:04,230 Local files found: <repo>\sources\U02_langchain_core_1_0_0\wheels\certifi-2026.10.19-py3-none-any.whl
+2026-10-20T14:55:04,230 Given no hashes to check 1 links for project 'certifi': discarding no candidates
+2026-10-20T14:55:04,230 Processing <repo>\sources\u02_langchain_core_1_0_0\wheels\certifi-2026.10.19-py3-none-any.whl (from requests>=2.0.0->langsmith<1.0.0,>=0.3.45->langchain-core==1.0.0)
+2026-10-20T14:55:04,233 Given no hashes to check 1 links for project 'requests': discarding no candidates
+2026-10-20T14:55:04,234 Given no hashes to check 1 links for project 'typing-extensions': discarding no candidates
+2026-10-20T14:55:04,244 Created temporary directory: <user>\AppData\Local\Temp\pip-unpack-vuclrldp
+2026-10-20T14:55:04,296 Installing collected packages: zstandard, xxhash, websockets, uuid-utils, urllib3, typing-extensions, truststore, tenacity, sniffio, pyyaml, packaging, orjson, jsonpointer, idna, h11, distro, charset_normalizer, certifi, annotated-types, typing-inspection, requests, pydantic-core, jsonpatch, httpcore2, anyio, requests-toolbelt, pydantic, httpx2, langsmith, langchain-core
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2026-10-20T14:55:14,429 Successfully installed annotated-types-0.8.0 anyio-4.15.1 certifi-2026.10.19 charset_normalizer-3.5.2 distro-1.9.0 h11-0.16.0 httpcore2-2.15.1 httpx2-2.15.1 idna-3.20 jsonpatch-1.36 jsonpointer-3.4 langchain-core-1.0.0 langsmith-0.14.11 orjson-3.13.0 packaging-25.0 pydantic-2.14.1 pydantic-core-2.50.1 pyyaml-6.0.3 requests-2.34.2 requests-toolbelt-1.0.0 sniffio-1.3.1 tenacity-9.2.1 truststore-0.10.5 typing-extensions-4.16.0 typing-inspection-0.4.4 urllib3-2.8.0 uuid-utils-0.18.0 websockets-17.3 xxhash-4.0.2 zstandard-0.25.0
+2026-10-20T14:55:14,430 Removed build tracker: '<user>\\AppData\\Local\\Temp\\pip-build-tracker-r91fqpje'

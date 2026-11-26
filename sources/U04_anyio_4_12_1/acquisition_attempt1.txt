@@ -1,0 +1,1 @@
+2026-10-20 sandboxed pip download failed before target execution: no version found and temporary tracker cleanup warning. Same fixed AnyIO 4.12.1 request will be retried with approved execution permission; no target code ran.

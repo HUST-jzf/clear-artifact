@@ -1,0 +1,6 @@
+2026-10-20 sandboxed pip download, no third-party target execution.
+Command: python -m pip download --only-binary=:all: --dest sources/U02_langchain_core_1_0_0/wheels --proxy http://127.0.0.1:18800 --index-url https://pypi.org/simple langchain-core==1.0.0
+Exit 1. ERROR: Could not find a version that satisfies the requirement langchain-core==1.0.0 (from versions: none)
+ERROR: No matching distribution found for langchain-core==1.0.0
+WARNING: Failed to remove contents in <user>/AppData/Local/Temp/pip-build-tracker-v95di8w_ and pip-download-7zdzo953.
+Retry same source with execution permission because sandbox denied temporary directory cleanup and may restrict network. Not evidence of unavailable package.

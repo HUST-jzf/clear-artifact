@@ -1,0 +1,26 @@
+2026-10-20T19:01:52,888 Using pip 24.3.1 from <repo>\sources\U04_anyio_4_12_1\env\Lib\site-packages\pip (python 3.13)
+2026-10-20T19:01:52,889 Non-user install because user site-packages disabled
+2026-10-20T19:01:53,363 Ignoring indexes: https://pypi.org/simple
+2026-10-20T19:01:53,365 Created temporary directory: <user>\AppData\Local\Temp\pip-build-tracker-o3_m7o84
+2026-10-20T19:01:53,365 Initialized build tracking at <user>\AppData\Local\Temp\pip-build-tracker-o3_m7o84
+2026-10-20T19:01:53,365 Created build tracker: <user>\AppData\Local\Temp\pip-build-tracker-o3_m7o84
+2026-10-20T19:01:53,365 Entered build tracker: <user>\AppData\Local\Temp\pip-build-tracker-o3_m7o84
+2026-10-20T19:01:53,372 Created temporary directory: <user>\AppData\Local\Temp\pip-install-j7jf4i0u
+2026-10-20T19:01:53,373 Created temporary directory: <user>\AppData\Local\Temp\pip-ephem-wheel-cache-d_tm1gxv
+2026-10-20T19:01:53,420 Looking in links: <repo>\sources\U04_anyio_4_12_1\wheels
+2026-10-20T19:01:53,423 0 location(s) to search for versions of anyio:
+2026-10-20T19:01:53,487 Found link file:///<repo>/sources/U04_anyio_4_12_1/wheels/anyio-4.12.1-py3-none-any.whl, version: 4.12.1
+2026-10-20T19:01:53,488 Local files found: <repo>\sources\U04_anyio_4_12_1\wheels\anyio-4.12.1-py3-none-any.whl
+2026-10-20T19:01:53,488 Given no hashes to check 1 links for project 'anyio': discarding no candidates
+2026-10-20T19:01:53,488 Processing <repo>\sources\u04_anyio_4_12_1\wheels\anyio-4.12.1-py3-none-any.whl
+2026-10-20T19:01:53,494 0 location(s) to search for versions of idna:
+2026-10-20T19:01:53,494 Found link file:///<repo>/sources/U04_anyio_4_12_1/wheels/idna-3.20-py3-none-any.whl, version: 3.20
+2026-10-20T19:01:53,494 Local files found: <repo>\sources\U04_anyio_4_12_1\wheels\idna-3.20-py3-none-any.whl
+2026-10-20T19:01:53,494 Given no hashes to check 1 links for project 'idna': discarding no candidates
+2026-10-20T19:01:53,495 Processing <repo>\sources\u04_anyio_4_12_1\wheels\idna-3.20-py3-none-any.whl (from anyio==4.12.1)
+2026-10-20T19:01:53,499 Created temporary directory: <user>\AppData\Local\Temp\pip-unpack-22q2nwta
+2026-10-20T19:01:53,504 Installing collected packages: idna, anyio
+
+
+2026-10-20T19:01:53,900 Successfully installed anyio-4.12.1 idna-3.20
+2026-10-20T19:01:53,901 Removed build tracker: '<user>\\AppData\\Local\\Temp\\pip-build-tracker-o3_m7o84'

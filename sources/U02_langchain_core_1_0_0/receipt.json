@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-20",
+  "selected_package": "langchain-core==1.0.0",
+  "project_url": "https://pypi.org/project/langchain-core/1.0.0/",
+  "index": "https://pypi.org/simple",
+  "proxy": "http://127.0.0.1:18800",
+  "acquisition": "pip download --only-binary=:all:; 30 total wheels including dependencies; hashes in wheels_sha256.json",
+  "wheel_bytes": 6482753,
+  "static_review": "review/langchain_core/tools/structured.py, tools/base.py, runnables/config.py and all wheel METADATA before target import",
+  "installation": "offline --no-index --find-links wheels into env; install.log retained",
+  "failed_acquisition": "acquisition_attempt1.txt; sandbox temp/network failure; same version retried after execution approval",
+  "target_execution": "runs/U02/attempt1 failed before target due to local offline hook; attempt2 complete; attempt3 R3 primary complete",
+  "source_count": 1,
+  "limits": "Fixed reproducible version, not latest; dependencies resolved at acquisition time then hash pinned; adapted after source reading, not blind holdout"
+}
