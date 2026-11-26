@@ -1,0 +1,9 @@
+{
+  "versions": {
+    "clear-assurance": "2.0.0",
+    "anyio": "4.12.1"
+  },
+  "prefix": "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R1_anyio\\env",
+  "package": "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R1_anyio\\env\\Lib\\site-packages\\clear_assurance\\__init__.py",
+  "anyio": "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R1_anyio\\env\\Lib\\site-packages\\anyio\\__init__.py"
+}

@@ -1,0 +1,126 @@
+{
+  "files": {
+    "docs/R7_overhead_protocol.md": "02c7fbb9ff7f03136bcb44466b52175d050c055ed03ed1f4eb0b3a4ea880fcb7",
+    "scripts/r7_overhead.py": "403285a0e0601fdb95175bb5abe0a1609080e459cff29f31e9ffa826e6cd7a56",
+    "scripts/run_r7.py": "9154d14f5e6895d5bfe6629a08f9c5b6dc4069e3d20694cce7a615a26e1088e4",
+    "scripts/verify_r7.py": "12e6a2296eb344ef81b03c8259414bb439322a40521e551cb5b2c0bb86d18637",
+    "scripts/r1_policies.py": "09664043a3e4ed3f2765f645fcea5587c2f6dfc6a336eea8e3c65e9c9393531f",
+    "scripts/r1_anyio.py": "82727821f348c521f26c19a48622ac6f7ebcb8042abb1df33b008267d39cd415"
+  },
+  "cases": [
+    {
+      "id": "normal",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "commit",
+        "delayed": false,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": true,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": false,
+        "query_complete": true
+      },
+      "patch": null
+    },
+    {
+      "id": "fail_before",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "fail",
+        "delayed": false,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": true,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": false,
+        "query_complete": true
+      },
+      "patch": null
+    },
+    {
+      "id": "lost_return",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "commit",
+        "delayed": false,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": true,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": false,
+        "query_complete": true
+      },
+      "patch": null
+    },
+    {
+      "id": "late_commit",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "commit",
+        "delayed": true,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": true,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": false,
+        "query_complete": true
+      },
+      "patch": null
+    },
+    {
+      "id": "revoke",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "fail",
+        "delayed": false,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": true,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": false,
+        "query_complete": true
+      },
+      "patch": {
+        "allowed": false
+      }
+    },
+    {
+      "id": "closure_missing",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "commit",
+        "delayed": false,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": false,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": false,
+        "query_complete": true
+      },
+      "patch": null
+    }
+  ],
+  "policies": [
+    "clear",
+    "idem_retry",
+    "query_retry",
+    "pause"
+  ],
+  "repetitions": 50,
+  "python": "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R1_anyio\\env\\Scripts\\python.exe",
+  "python_version": "3.13.2",
+  "created_ns": 1792572599329991800
+}
