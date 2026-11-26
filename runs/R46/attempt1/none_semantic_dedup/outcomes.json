@@ -1,0 +1,1502 @@
+[
+  {
+    "regime": "none",
+    "policy": "semantic_dedup",
+    "cell": "A_lost_return_exact",
+    "fault": "lost_return",
+    "variant": "exact",
+    "seed": 0,
+    "workflow": "none_semantic_dedup_A_lost_return_exact_S0",
+    "op": "none_semantic_dedup_A_lost_return_exact_S0:attach",
+    "first": {
+      "terminal": "pause",
+      "reason": "dedup_failed"
+    },
+    "second": {
+      "terminal": "complete",
+      "reason": "deduplicated"
+    },
+    "requests": 2,
+    "elapsed_ns": 55305000,
+    "effects": 1,
+    "intents": [
+      "seat:12A"
+    ],
+    "duplicate": false,
+    "false_split": false,
+    "false_merge": false,
+    "correct": true,
+    "safe_complete": true,
+    "paused": false
+  },
+  {
+    "regime": "none",
+    "policy": "semantic_dedup",
+    "cell": "A_lost_return_exact",
+    "fault": "lost_return",
+    "variant": "exact",
+    "seed": 1,
+    "workflow": "none_semantic_dedup_A_lost_return_exact_S1",
+    "op": "none_semantic_dedup_A_lost_return_exact_S1:attach",
+    "first": {
+      "terminal": "pause",
+      "reason": "dedup_failed"
+    },
+    "second": {
+      "terminal": "complete",
+      "reason": "deduplicated"
+    },
+    "requests": 2,
+    "elapsed_ns": 47061900,
+    "effects": 1,
+    "intents": [
+      "seat:12A"
+    ],
+    "duplicate": false,
+    "false_split": false,
+    "false_merge": false,
+    "correct": true,
+    "safe_complete": true,
+    "paused": false
+  },
+  {
+    "regime": "none",
+    "policy": "semantic_dedup",
+    "cell": "A_lost_return_exact",
+    "fault": "lost_return",
+    "variant": "exact",
+    "seed": 2,
+    "workflow": "none_semantic_dedup_A_lost_return_exact_S2",
+    "op": "none_semantic_dedup_A_lost_return_exact_S2:attach",
+    "first": {
+      "terminal": "pause",
+      "reason": "dedup_failed"
+    },
+    "second": {
+      "terminal": "complete",
+      "reason": "deduplicated"
+    },
+    "requests": 2,
+    "elapsed_ns": 29232000,
+    "effects": 1,
+    "intents": [
+      "seat:12A"
+    ],
+    "duplicate": false,
+    "false_split": false,
+    "false_merge": false,
+    "correct": true,
+    "safe_complete": true,
+    "paused": false
+  },
+  {
+    "regime": "none",
+    "policy": "semantic_dedup",
+    "cell": "A_lost_return_exact",
+    "fault": "lost_return",
+    "variant": "exact",
+    "seed": 3,
+    "workflow": "none_semantic_dedup_A_lost_return_exact_S3",
+    "op": "none_semantic_dedup_A_lost_return_exact_S3:attach",
+    "first": {
+      "terminal": "pause",
+      "reason": "dedup_failed"
+    },
+    "second": {
+      "terminal": "complete",
+      "reason": "deduplicated"
+    },
+    "requests": 2,
+    "elapsed_ns": 49540000,
+    "effects": 1,
+    "intents": [
+      "seat:12A"
+    ],
+    "duplicate": false,
+    "false_split": false,
+    "false_merge": false,
+    "correct": true,
+    "safe_complete": true,
+    "paused": false
+  },
+  {
+    "regime": "none",
+    "policy": "semantic_dedup",
+    "cell": "A_lost_return_exact",
+    "fault": "lost_return",
+    "variant": "exact",
+    "seed": 4,
+    "workflow": "none_semantic_dedup_A_lost_return_exact_S4",
+    "op": "none_semantic_dedup_A_lost_return_exact_S4:attach",
+    "first": {
+      "terminal": "pause",
+      "reason": "dedup_failed"
+    },
+    "second": {
+      "terminal": "complete",
+      "reason": "deduplicated"
+    },
+    "requests": 2,
+    "elapsed_ns": 39555000,
+    "effects": 1,
+    "intents": [
+      "seat:12A"
+    ],
+    "duplicate": false,
+    "false_split": false,
+    "false_merge": false,
+    "correct": true,
+    "safe_complete": true,
+    "paused": false
+  },
+  {
+    "regime": "none",
+    "policy": "semantic_dedup",
+    "cell": "A_lost_return_exact",
+    "fault": "lost_return",
+    "variant": "exact",
+    "seed": 5,
+    "workflow": "none_semantic_dedup_A_lost_return_exact_S5",
+    "op": "none_semantic_dedup_A_lost_return_exact_S5:attach",
+    "first": {
+      "terminal": "pause",
+      "reason": "dedup_failed"
+    },
+    "second": {
+      "terminal": "complete",
+      "reason": "deduplicated"
+    },
+    "requests": 2,
+    "elapsed_ns": 16924400,
+    "effects": 1,
+    "intents": [
+      "seat:12A"
+    ],
+    "duplicate": false,
+    "false_split": false,
+    "false_merge": false,
+    "correct": true,
+    "safe_complete": true,
+    "paused": false
+  },
+  {
+    "regime": "none",
+    "policy": "semantic_dedup",
+    "cell": "A_lost_return_exact",
+    "fault": "lost_return",
+    "variant": "exact",
+    "seed": 6,
+    "workflow": "none_semantic_dedup_A_lost_return_exact_S6",
+    "op": "none_semantic_dedup_A_lost_return_exact_S6:attach",
+    "first": {
+      "terminal": "pause",
+      "reason": "dedup_failed"
+    },
+    "second": {
+      "terminal": "complete",
+      "reason": "deduplicated"
+    },
+    "requests": 2,
+    "elapsed_ns": 36213000,
+    "effects": 1,
+    "intents": [
+      "seat:12A"
+    ],
+    "duplicate": false,
+    "false_split": false,
+    "false_merge": false,
+    "correct": true,
+    "safe_complete": true,
+    "paused": false
+  },
+  {
+    "regime": "none",
+    "policy": "semantic_dedup",
+    "cell": "A_lost_return_exact",
+    "fault": "lost_return",
+    "variant": "exact",
+    "seed": 7,
+    "workflow": "none_semantic_dedup_A_lost_return_exact_S7",
+    "op": "none_semantic_dedup_A_lost_return_exact_S7:attach",
+    "first": {
+      "terminal": "pause",
+      "reason": "dedup_failed"
+    },
+    "second": {
+      "terminal": "complete",
+      "reason": "deduplicated"
+    },
+    "requests": 2,
+    "elapsed_ns": 18377200,
+    "effects": 1,
+    "intents": [
+      "seat:12A"
+    ],
+    "duplicate": false,
+    "false_split": false,
+    "false_merge": false,
+    "correct": true,
+    "safe_complete": true,
+    "paused": false
+  },
+  {
+    "regime": "none",
+    "policy": "semantic_dedup",
+    "cell": "A_lost_return_exact",
+    "fault": "lost_return",
+    "variant": "exact",
+    "seed": 8,
+    "workflow": "none_semantic_dedup_A_lost_return_exact_S8",
+    "op": "none_semantic_dedup_A_lost_return_exact_S8:attach",
+    "first": {
+      "terminal": "pause",
+      "reason": "dedup_failed"
+    },
+    "second": {
+      "terminal": "complete",
+      "reason": "deduplicated"
+    },
+    "requests": 2,
+    "elapsed_ns": 19443600,
+    "effects": 1,
+    "intents": [
+      "seat:12A"
+    ],
+    "duplicate": false,
+    "false_split": false,
+    "false_merge": false,
+    "correct": true,
+    "safe_complete": true,
+    "paused": false
+  },
+  {
+    "regime": "none",
+    "policy": "semantic_dedup",
+    "cell": "A_lost_return_exact",
+    "fault": "lost_return",
+    "variant": "exact",
+    "seed": 9,
+    "workflow": "none_semantic_dedup_A_lost_return_exact_S9",
+    "op": "none_semantic_dedup_A_lost_return_exact_S9:attach",
+    "first": {
+      "terminal": "pause",
+      "reason": "dedup_failed"
+    },
+    "second": {
+      "terminal": "complete",
+      "reason": "deduplicated"
+    },
+    "requests": 2,
+    "elapsed_ns": 18597100,
+    "effects": 1,
+    "intents": [
+      "seat:12A"
+    ],
+    "duplicate": false,
+    "false_split": false,
+    "false_merge": false,
+    "correct": true,
+    "safe_complete": true,
+    "paused": false
+  },
+  {
+    "regime": "none",
+    "policy": "semantic_dedup",
+    "cell": "A_lost_return_paraphrase",
+    "fault": "lost_return",
+    "variant": "paraphrase",
+    "seed": 0,
+    "workflow": "none_semantic_dedup_A_lost_return_paraphrase_S0",
+    "op": "none_semantic_dedup_A_lost_return_paraphrase_S0:attach",
+    "first": {
+      "terminal": "pause",
+      "reason": "dedup_failed"
+    },
+    "second": {
+      "terminal": "complete",
+      "reason": "deduplicated"
+    },
+    "requests": 2,
+    "elapsed_ns": 37900900,
+    "effects": 1,
+    "intents": [
+      "seat:12A"
+    ],
+    "duplicate": false,
+    "false_split": false,
+    "false_merge": false,
+    "correct": true,
+    "safe_complete": true,
+    "paused": false
+  },
+  {
+    "regime": "none",
+    "policy": "semantic_dedup",
+    "cell": "A_lost_return_paraphrase",
+    "fault": "lost_return",
+    "variant": "paraphrase",
+    "seed": 1,
+    "workflow": "none_semantic_dedup_A_lost_return_paraphrase_S1",
+    "op": "none_semantic_dedup_A_lost_return_paraphrase_S1:attach",
+    "first": {
+      "terminal": "pause",
+      "reason": "dedup_failed"
+    },
+    "second": {
+      "terminal": "complete",
+      "reason": "deduplicated"
+    },
+    "requests": 2,
+    "elapsed_ns": 16422800,
+    "effects": 1,
+    "intents": [
+      "seat:12A"
+    ],
+    "duplicate": false,
+    "false_split": false,
+    "false_merge": false,
+    "correct": true,
+    "safe_complete": true,
+    "paused": false
+  },
+  {
+    "regime": "none",
+    "policy": "semantic_dedup",
+    "cell": "A_lost_return_paraphrase",
+    "fault": "lost_return",
+    "variant": "paraphrase",
+    "seed": 2,
+    "workflow": "none_semantic_dedup_A_lost_return_paraphrase_S2",
+    "op": "none_semantic_dedup_A_lost_return_paraphrase_S2:attach",
+    "first": {
+      "terminal": "pause",
+      "reason": "dedup_failed"
+    },
+    "second": {
+      "terminal": "complete",
+      "reason": "deduplicated"
+    },
+    "requests": 2,
+    "elapsed_ns": 28884200,
+    "effects": 1,
+    "intents": [
+      "seat:12A"
+    ],
+    "duplicate": false,
+    "false_split": false,
+    "false_merge": false,
+    "correct": true,
+    "safe_complete": true,
+    "paused": false
+  },
+  {
+    "regime": "none",
+    "policy": "semantic_dedup",
+    "cell": "A_lost_return_paraphrase",
+    "fault": "lost_return",
+    "variant": "paraphrase",
+    "seed": 3,
+    "workflow": "none_semantic_dedup_A_lost_return_paraphrase_S3",
+    "op": "none_semantic_dedup_A_lost_return_paraphrase_S3:attach",
+    "first": {
+      "terminal": "pause",
+      "reason": "dedup_failed"
+    },
+    "second": {
+      "terminal": "complete",
+      "reason": "deduplicated"
+    },
+    "requests": 2,
+    "elapsed_ns": 18538900,
+    "effects": 1,
+    "intents": [
+      "seat:12A"
+    ],
+    "duplicate": false,
+    "false_split": false,
+    "false_merge": false,
+    "correct": true,
+    "safe_complete": true,
+    "paused": false
+  },
+  {
+    "regime": "none",
+    "policy": "semantic_dedup",
+    "cell": "A_lost_return_paraphrase",
+    "fault": "lost_return",
+    "variant": "paraphrase",
+    "seed": 4,
+    "workflow": "none_semantic_dedup_A_lost_return_paraphrase_S4",
+    "op": "none_semantic_dedup_A_lost_return_paraphrase_S4:attach",
+    "first": {
+      "terminal": "pause",
+      "reason": "dedup_failed"
+    },
+    "second": {
+      "terminal": "complete",
+      "reason": "deduplicated"
+    },
+    "requests": 2,
+    "elapsed_ns": 17551100,
+    "effects": 1,
+    "intents": [
+      "seat:12A"
+    ],
+    "duplicate": false,
+    "false_split": false,
+    "false_merge": false,
+    "correct": true,
+    "safe_complete": true,
+    "paused": false
+  },
+  {
+    "regime": "none",
+    "policy": "semantic_dedup",
+    "cell": "A_lost_return_paraphrase",
+    "fault": "lost_return",
+    "variant": "paraphrase",
+    "seed": 5,
+    "workflow": "none_semantic_dedup_A_lost_return_paraphrase_S5",
+    "op": "none_semantic_dedup_A_lost_return_paraphrase_S5:attach",
+    "first": {
+      "terminal": "pause",
+      "reason": "dedup_failed"
+    },
+    "second": {
+      "terminal": "complete",
+      "reason": "deduplicated"
+    },
+    "requests": 2,
+    "elapsed_ns": 58134100,
+    "effects": 1,
+    "intents": [
+      "seat:12A"
+    ],
+    "duplicate": false,
+    "false_split": false,
+    "false_merge": false,
+    "correct": true,
+    "safe_complete": true,
+    "paused": false
+  },
+  {
+    "regime": "none",
+    "policy": "semantic_dedup",
+    "cell": "A_lost_return_paraphrase",
+    "fault": "lost_return",
+    "variant": "paraphrase",
+    "seed": 6,
+    "workflow": "none_semantic_dedup_A_lost_return_paraphrase_S6",
+    "op": "none_semantic_dedup_A_lost_return_paraphrase_S6:attach",
+    "first": {
+      "terminal": "pause",
+      "reason": "dedup_failed"
+    },
+    "second": {
+      "terminal": "complete",
+      "reason": "deduplicated"
+    },
+    "requests": 2,
+    "elapsed_ns": 15258300,
+    "effects": 1,
+    "intents": [
+      "seat:12A"
+    ],
+    "duplicate": false,
+    "false_split": false,
+    "false_merge": false,
+    "correct": true,
+    "safe_complete": true,
+    "paused": false
+  },
+  {
+    "regime": "none",
+    "policy": "semantic_dedup",
+    "cell": "A_lost_return_paraphrase",
+    "fault": "lost_return",
+    "variant": "paraphrase",
+    "seed": 7,
+    "workflow": "none_semantic_dedup_A_lost_return_paraphrase_S7",
+    "op": "none_semantic_dedup_A_lost_return_paraphrase_S7:attach",
+    "first": {
+      "terminal": "pause",
+      "reason": "dedup_failed"
+    },
+    "second": {
+      "terminal": "complete",
+      "reason": "deduplicated"
+    },
+    "requests": 2,
+    "elapsed_ns": 17586600,
+    "effects": 1,
+    "intents": [
+      "seat:12A"
+    ],
+    "duplicate": false,
+    "false_split": false,
+    "false_merge": false,
+    "correct": true,
+    "safe_complete": true,
+    "paused": false
+  },
+  {
+    "regime": "none",
+    "policy": "semantic_dedup",
+    "cell": "A_lost_return_paraphrase",
+    "fault": "lost_return",
+    "variant": "paraphrase",
+    "seed": 8,
+    "workflow": "none_semantic_dedup_A_lost_return_paraphrase_S8",
+    "op": "none_semantic_dedup_A_lost_return_paraphrase_S8:attach",
+    "first": {
+      "terminal": "pause",
+      "reason": "dedup_failed"
+    },
+    "second": {
+      "terminal": "complete",
+      "reason": "deduplicated"
+    },
+    "requests": 2,
+    "elapsed_ns": 27296800,
+    "effects": 1,
+    "intents": [
+      "seat:12A"
+    ],
+    "duplicate": false,
+    "false_split": false,
+    "false_merge": false,
+    "correct": true,
+    "safe_complete": true,
+    "paused": false
+  },
+  {
+    "regime": "none",
+    "policy": "semantic_dedup",
+    "cell": "A_lost_return_paraphrase",
+    "fault": "lost_return",
+    "variant": "paraphrase",
+    "seed": 9,
+    "workflow": "none_semantic_dedup_A_lost_return_paraphrase_S9",
+    "op": "none_semantic_dedup_A_lost_return_paraphrase_S9:attach",
+    "first": {
+      "terminal": "pause",
+      "reason": "dedup_failed"
+    },
+    "second": {
+      "terminal": "complete",
+      "reason": "deduplicated"
+    },
+    "requests": 2,
+    "elapsed_ns": 31277300,
+    "effects": 1,
+    "intents": [
+      "seat:12A"
+    ],
+    "duplicate": false,
+    "false_split": false,
+    "false_merge": false,
+    "correct": true,
+    "safe_complete": true,
+    "paused": false
+  },
+  {
+    "regime": "none",
+    "policy": "semantic_dedup",
+    "cell": "A_late_commit_exact",
+    "fault": "late_commit",
+    "variant": "exact",
+    "seed": 0,
+    "workflow": "none_semantic_dedup_A_late_commit_exact_S0",
+    "op": "none_semantic_dedup_A_late_commit_exact_S0:attach",
+    "first": {
+      "terminal": "pause",
+      "reason": "dedup_failed"
+    },
+    "second": {
+      "terminal": "complete",
+      "reason": "committed"
+    },
+    "requests": 2,
+    "elapsed_ns": 344514400,
+    "effects": 1,
+    "intents": [
+      "seat:12A"
+    ],
+    "duplicate": false,
+    "false_split": false,
+    "false_merge": false,
+    "correct": true,
+    "safe_complete": true,
+    "paused": false
+  },
+  {
+    "regime": "none",
+    "policy": "semantic_dedup",
+    "cell": "A_late_commit_exact",
+    "fault": "late_commit",
+    "variant": "exact",
+    "seed": 1,
+    "workflow": "none_semantic_dedup_A_late_commit_exact_S1",
+    "op": "none_semantic_dedup_A_late_commit_exact_S1:attach",
+    "first": {
+      "terminal": "pause",
+      "reason": "dedup_failed"
+    },
+    "second": {
+      "terminal": "complete",
+      "reason": "committed"
+    },
+    "requests": 2,
+    "elapsed_ns": 320048200,
+    "effects": 1,
+    "intents": [
+      "seat:12A"
+    ],
+    "duplicate": false,
+    "false_split": false,
+    "false_merge": false,
+    "correct": true,
+    "safe_complete": true,
+    "paused": false
+  },
+  {
+    "regime": "none",
+    "policy": "semantic_dedup",
+    "cell": "A_late_commit_exact",
+    "fault": "late_commit",
+    "variant": "exact",
+    "seed": 2,
+    "workflow": "none_semantic_dedup_A_late_commit_exact_S2",
+    "op": "none_semantic_dedup_A_late_commit_exact_S2:attach",
+    "first": {
+      "terminal": "pause",
+      "reason": "dedup_failed"
+    },
+    "second": {
+      "terminal": "complete",
+      "reason": "committed"
+    },
+    "requests": 2,
+    "elapsed_ns": 345625500,
+    "effects": 1,
+    "intents": [
+      "seat:12A"
+    ],
+    "duplicate": false,
+    "false_split": false,
+    "false_merge": false,
+    "correct": true,
+    "safe_complete": true,
+    "paused": false
+  },
+  {
+    "regime": "none",
+    "policy": "semantic_dedup",
+    "cell": "A_late_commit_exact",
+    "fault": "late_commit",
+    "variant": "exact",
+    "seed": 3,
+    "workflow": "none_semantic_dedup_A_late_commit_exact_S3",
+    "op": "none_semantic_dedup_A_late_commit_exact_S3:attach",
+    "first": {
+      "terminal": "pause",
+      "reason": "dedup_failed"
+    },
+    "second": {
+      "terminal": "complete",
+      "reason": "committed"
+    },
+    "requests": 2,
+    "elapsed_ns": 345528400,
+    "effects": 1,
+    "intents": [
+      "seat:12A"
+    ],
+    "duplicate": false,
+    "false_split": false,
+    "false_merge": false,
+    "correct": true,
+    "safe_complete": true,
+    "paused": false
+  },
+  {
+    "regime": "none",
+    "policy": "semantic_dedup",
+    "cell": "A_late_commit_exact",
+    "fault": "late_commit",
+    "variant": "exact",
+    "seed": 4,
+    "workflow": "none_semantic_dedup_A_late_commit_exact_S4",
+    "op": "none_semantic_dedup_A_late_commit_exact_S4:attach",
+    "first": {
+      "terminal": "pause",
+      "reason": "dedup_failed"
+    },
+    "second": {
+      "terminal": "complete",
+      "reason": "committed"
+    },
+    "requests": 2,
+    "elapsed_ns": 328255000,
+    "effects": 1,
+    "intents": [
+      "seat:12A"
+    ],
+    "duplicate": false,
+    "false_split": false,
+    "false_merge": false,
+    "correct": true,
+    "safe_complete": true,
+    "paused": false
+  },
+  {
+    "regime": "none",
+    "policy": "semantic_dedup",
+    "cell": "A_late_commit_exact",
+    "fault": "late_commit",
+    "variant": "exact",
+    "seed": 5,
+    "workflow": "none_semantic_dedup_A_late_commit_exact_S5",
+    "op": "none_semantic_dedup_A_late_commit_exact_S5:attach",
+    "first": {
+      "terminal": "pause",
+      "reason": "dedup_failed"
+    },
+    "second": {
+      "terminal": "complete",
+      "reason": "committed"
+    },
+    "requests": 2,
+    "elapsed_ns": 328924800,
+    "effects": 1,
+    "intents": [
+      "seat:12A"
+    ],
+    "duplicate": false,
+    "false_split": false,
+    "false_merge": false,
+    "correct": true,
+    "safe_complete": true,
+    "paused": false
+  },
+  {
+    "regime": "none",
+    "policy": "semantic_dedup",
+    "cell": "A_late_commit_exact",
+    "fault": "late_commit",
+    "variant": "exact",
+    "seed": 6,
+    "workflow": "none_semantic_dedup_A_late_commit_exact_S6",
+    "op": "none_semantic_dedup_A_late_commit_exact_S6:attach",
+    "first": {
+      "terminal": "pause",
+      "reason": "dedup_failed"
+    },
+    "second": {
+      "terminal": "complete",
+      "reason": "committed"
+    },
+    "requests": 2,
+    "elapsed_ns": 343718300,
+    "effects": 1,
+    "intents": [
+      "seat:12A"
+    ],
+    "duplicate": false,
+    "false_split": false,
+    "false_merge": false,
+    "correct": true,
+    "safe_complete": true,
+    "paused": false
+  },
+  {
+    "regime": "none",
+    "policy": "semantic_dedup",
+    "cell": "A_late_commit_exact",
+    "fault": "late_commit",
+    "variant": "exact",
+    "seed": 7,
+    "workflow": "none_semantic_dedup_A_late_commit_exact_S7",
+    "op": "none_semantic_dedup_A_late_commit_exact_S7:attach",
+    "first": {
+      "terminal": "pause",
+      "reason": "dedup_failed"
+    },
+    "second": {
+      "terminal": "complete",
+      "reason": "committed"
+    },
+    "requests": 2,
+    "elapsed_ns": 313965800,
+    "effects": 1,
+    "intents": [
+      "seat:12A"
+    ],
+    "duplicate": false,
+    "false_split": false,
+    "false_merge": false,
+    "correct": true,
+    "safe_complete": true,
+    "paused": false
+  },
+  {
+    "regime": "none",
+    "policy": "semantic_dedup",
+    "cell": "A_late_commit_exact",
+    "fault": "late_commit",
+    "variant": "exact",
+    "seed": 8,
+    "workflow": "none_semantic_dedup_A_late_commit_exact_S8",
+    "op": "none_semantic_dedup_A_late_commit_exact_S8:attach",
+    "first": {
+      "terminal": "pause",
+      "reason": "dedup_failed"
+    },
+    "second": {
+      "terminal": "complete",
+      "reason": "committed"
+    },
+    "requests": 2,
+    "elapsed_ns": 330807800,
+    "effects": 1,
+    "intents": [
+      "seat:12A"
+    ],
+    "duplicate": false,
+    "false_split": false,
+    "false_merge": false,
+    "correct": true,
+    "safe_complete": true,
+    "paused": false
+  },
+  {
+    "regime": "none",
+    "policy": "semantic_dedup",
+    "cell": "A_late_commit_exact",
+    "fault": "late_commit",
+    "variant": "exact",
+    "seed": 9,
+    "workflow": "none_semantic_dedup_A_late_commit_exact_S9",
+    "op": "none_semantic_dedup_A_late_commit_exact_S9:attach",
+    "first": {
+      "terminal": "pause",
+      "reason": "dedup_failed"
+    },
+    "second": {
+      "terminal": "complete",
+      "reason": "committed"
+    },
+    "requests": 2,
+    "elapsed_ns": 330701000,
+    "effects": 1,
+    "intents": [
+      "seat:12A"
+    ],
+    "duplicate": false,
+    "false_split": false,
+    "false_merge": false,
+    "correct": true,
+    "safe_complete": true,
+    "paused": false
+  },
+  {
+    "regime": "none",
+    "policy": "semantic_dedup",
+    "cell": "A_late_commit_paraphrase",
+    "fault": "late_commit",
+    "variant": "paraphrase",
+    "seed": 0,
+    "workflow": "none_semantic_dedup_A_late_commit_paraphrase_S0",
+    "op": "none_semantic_dedup_A_late_commit_paraphrase_S0:attach",
+    "first": {
+      "terminal": "pause",
+      "reason": "dedup_failed"
+    },
+    "second": {
+      "terminal": "complete",
+      "reason": "committed"
+    },
+    "requests": 2,
+    "elapsed_ns": 325764100,
+    "effects": 1,
+    "intents": [
+      "assign seat 12A"
+    ],
+    "duplicate": false,
+    "false_split": false,
+    "false_merge": false,
+    "correct": true,
+    "safe_complete": true,
+    "paused": false
+  },
+  {
+    "regime": "none",
+    "policy": "semantic_dedup",
+    "cell": "A_late_commit_paraphrase",
+    "fault": "late_commit",
+    "variant": "paraphrase",
+    "seed": 1,
+    "workflow": "none_semantic_dedup_A_late_commit_paraphrase_S1",
+    "op": "none_semantic_dedup_A_late_commit_paraphrase_S1:attach",
+    "first": {
+      "terminal": "pause",
+      "reason": "dedup_failed"
+    },
+    "second": {
+      "terminal": "complete",
+      "reason": "committed"
+    },
+    "requests": 2,
+    "elapsed_ns": 331827400,
+    "effects": 1,
+    "intents": [
+      "assign seat 12A"
+    ],
+    "duplicate": false,
+    "false_split": false,
+    "false_merge": false,
+    "correct": true,
+    "safe_complete": true,
+    "paused": false
+  },
+  {
+    "regime": "none",
+    "policy": "semantic_dedup",
+    "cell": "A_late_commit_paraphrase",
+    "fault": "late_commit",
+    "variant": "paraphrase",
+    "seed": 2,
+    "workflow": "none_semantic_dedup_A_late_commit_paraphrase_S2",
+    "op": "none_semantic_dedup_A_late_commit_paraphrase_S2:attach",
+    "first": {
+      "terminal": "pause",
+      "reason": "dedup_failed"
+    },
+    "second": {
+      "terminal": "complete",
+      "reason": "committed"
+    },
+    "requests": 2,
+    "elapsed_ns": 326958700,
+    "effects": 1,
+    "intents": [
+      "assign seat 12A"
+    ],
+    "duplicate": false,
+    "false_split": false,
+    "false_merge": false,
+    "correct": true,
+    "safe_complete": true,
+    "paused": false
+  },
+  {
+    "regime": "none",
+    "policy": "semantic_dedup",
+    "cell": "A_late_commit_paraphrase",
+    "fault": "late_commit",
+    "variant": "paraphrase",
+    "seed": 3,
+    "workflow": "none_semantic_dedup_A_late_commit_paraphrase_S3",
+    "op": "none_semantic_dedup_A_late_commit_paraphrase_S3:attach",
+    "first": {
+      "terminal": "pause",
+      "reason": "dedup_failed"
+    },
+    "second": {
+      "terminal": "complete",
+      "reason": "committed"
+    },
+    "requests": 2,
+    "elapsed_ns": 327710400,
+    "effects": 1,
+    "intents": [
+      "assign seat 12A"
+    ],
+    "duplicate": false,
+    "false_split": false,
+    "false_merge": false,
+    "correct": true,
+    "safe_complete": true,
+    "paused": false
+  },
+  {
+    "regime": "none",
+    "policy": "semantic_dedup",
+    "cell": "A_late_commit_paraphrase",
+    "fault": "late_commit",
+    "variant": "paraphrase",
+    "seed": 4,
+    "workflow": "none_semantic_dedup_A_late_commit_paraphrase_S4",
+    "op": "none_semantic_dedup_A_late_commit_paraphrase_S4:attach",
+    "first": {
+      "terminal": "pause",
+      "reason": "dedup_failed"
+    },
+    "second": {
+      "terminal": "complete",
+      "reason": "committed"
+    },
+    "requests": 2,
+    "elapsed_ns": 310343300,
+    "effects": 1,
+    "intents": [
+      "assign seat 12A"
+    ],
+    "duplicate": false,
+    "false_split": false,
+    "false_merge": false,
+    "correct": true,
+    "safe_complete": true,
+    "paused": false
+  },
+  {
+    "regime": "none",
+    "policy": "semantic_dedup",
+    "cell": "A_late_commit_paraphrase",
+    "fault": "late_commit",
+    "variant": "paraphrase",
+    "seed": 5,
+    "workflow": "none_semantic_dedup_A_late_commit_paraphrase_S5",
+    "op": "none_semantic_dedup_A_late_commit_paraphrase_S5:attach",
+    "first": {
+      "terminal": "pause",
+      "reason": "dedup_failed"
+    },
+    "second": {
+      "terminal": "complete",
+      "reason": "committed"
+    },
+    "requests": 2,
+    "elapsed_ns": 313367400,
+    "effects": 1,
+    "intents": [
+      "assign seat 12A"
+    ],
+    "duplicate": false,
+    "false_split": false,
+    "false_merge": false,
+    "correct": true,
+    "safe_complete": true,
+    "paused": false
+  },
+  {
+    "regime": "none",
+    "policy": "semantic_dedup",
+    "cell": "A_late_commit_paraphrase",
+    "fault": "late_commit",
+    "variant": "paraphrase",
+    "seed": 6,
+    "workflow": "none_semantic_dedup_A_late_commit_paraphrase_S6",
+    "op": "none_semantic_dedup_A_late_commit_paraphrase_S6:attach",
+    "first": {
+      "terminal": "pause",
+      "reason": "dedup_failed"
+    },
+    "second": {
+      "terminal": "complete",
+      "reason": "committed"
+    },
+    "requests": 2,
+    "elapsed_ns": 326924600,
+    "effects": 1,
+    "intents": [
+      "assign seat 12A"
+    ],
+    "duplicate": false,
+    "false_split": false,
+    "false_merge": false,
+    "correct": true,
+    "safe_complete": true,
+    "paused": false
+  },
+  {
+    "regime": "none",
+    "policy": "semantic_dedup",
+    "cell": "A_late_commit_paraphrase",
+    "fault": "late_commit",
+    "variant": "paraphrase",
+    "seed": 7,
+    "workflow": "none_semantic_dedup_A_late_commit_paraphrase_S7",
+    "op": "none_semantic_dedup_A_late_commit_paraphrase_S7:attach",
+    "first": {
+      "terminal": "pause",
+      "reason": "dedup_failed"
+    },
+    "second": {
+      "terminal": "complete",
+      "reason": "committed"
+    },
+    "requests": 2,
+    "elapsed_ns": 312184500,
+    "effects": 1,
+    "intents": [
+      "assign seat 12A"
+    ],
+    "duplicate": false,
+    "false_split": false,
+    "false_merge": false,
+    "correct": true,
+    "safe_complete": true,
+    "paused": false
+  },
+  {
+    "regime": "none",
+    "policy": "semantic_dedup",
+    "cell": "A_late_commit_paraphrase",
+    "fault": "late_commit",
+    "variant": "paraphrase",
+    "seed": 8,
+    "workflow": "none_semantic_dedup_A_late_commit_paraphrase_S8",
+    "op": "none_semantic_dedup_A_late_commit_paraphrase_S8:attach",
+    "first": {
+      "terminal": "pause",
+      "reason": "dedup_failed"
+    },
+    "second": {
+      "terminal": "complete",
+      "reason": "committed"
+    },
+    "requests": 2,
+    "elapsed_ns": 325927900,
+    "effects": 1,
+    "intents": [
+      "assign seat 12A"
+    ],
+    "duplicate": false,
+    "false_split": false,
+    "false_merge": false,
+    "correct": true,
+    "safe_complete": true,
+    "paused": false
+  },
+  {
+    "regime": "none",
+    "policy": "semantic_dedup",
+    "cell": "A_late_commit_paraphrase",
+    "fault": "late_commit",
+    "variant": "paraphrase",
+    "seed": 9,
+    "workflow": "none_semantic_dedup_A_late_commit_paraphrase_S9",
+    "op": "none_semantic_dedup_A_late_commit_paraphrase_S9:attach",
+    "first": {
+      "terminal": "pause",
+      "reason": "dedup_failed"
+    },
+    "second": {
+      "terminal": "complete",
+      "reason": "committed"
+    },
+    "requests": 2,
+    "elapsed_ns": 329052100,
+    "effects": 1,
+    "intents": [
+      "assign seat 12A"
+    ],
+    "duplicate": false,
+    "false_split": false,
+    "false_merge": false,
+    "correct": true,
+    "safe_complete": true,
+    "paused": false
+  },
+  {
+    "regime": "none",
+    "policy": "semantic_dedup",
+    "cell": "B",
+    "fault": "none",
+    "variant": "B",
+    "seed": 0,
+    "workflow": "none_semantic_dedup_B_S0",
+    "op": "none_semantic_dedup_B_S0:attach",
+    "first": {
+      "terminal": "complete",
+      "reason": "committed"
+    },
+    "second": {
+      "terminal": "complete",
+      "reason": "deduplicated"
+    },
+    "requests": 2,
+    "elapsed_ns": 13377700,
+    "effects": 1,
+    "intents": [
+      "seat:12A"
+    ],
+    "false_merge": true,
+    "duplicate": false,
+    "false_split": false,
+    "correct": false,
+    "safe_complete": false,
+    "paused": false
+  },
+  {
+    "regime": "none",
+    "policy": "semantic_dedup",
+    "cell": "B",
+    "fault": "none",
+    "variant": "B",
+    "seed": 1,
+    "workflow": "none_semantic_dedup_B_S1",
+    "op": "none_semantic_dedup_B_S1:attach",
+    "first": {
+      "terminal": "complete",
+      "reason": "committed"
+    },
+    "second": {
+      "terminal": "complete",
+      "reason": "deduplicated"
+    },
+    "requests": 2,
+    "elapsed_ns": 105032100,
+    "effects": 1,
+    "intents": [
+      "seat:12A"
+    ],
+    "false_merge": true,
+    "duplicate": false,
+    "false_split": false,
+    "correct": false,
+    "safe_complete": false,
+    "paused": false
+  },
+  {
+    "regime": "none",
+    "policy": "semantic_dedup",
+    "cell": "B",
+    "fault": "none",
+    "variant": "B",
+    "seed": 2,
+    "workflow": "none_semantic_dedup_B_S2",
+    "op": "none_semantic_dedup_B_S2:attach",
+    "first": {
+      "terminal": "complete",
+      "reason": "committed"
+    },
+    "second": {
+      "terminal": "complete",
+      "reason": "deduplicated"
+    },
+    "requests": 2,
+    "elapsed_ns": 28751800,
+    "effects": 1,
+    "intents": [
+      "seat:12A"
+    ],
+    "false_merge": true,
+    "duplicate": false,
+    "false_split": false,
+    "correct": false,
+    "safe_complete": false,
+    "paused": false
+  },
+  {
+    "regime": "none",
+    "policy": "semantic_dedup",
+    "cell": "B",
+    "fault": "none",
+    "variant": "B",
+    "seed": 3,
+    "workflow": "none_semantic_dedup_B_S3",
+    "op": "none_semantic_dedup_B_S3:attach",
+    "first": {
+      "terminal": "complete",
+      "reason": "committed"
+    },
+    "second": {
+      "terminal": "complete",
+      "reason": "deduplicated"
+    },
+    "requests": 2,
+    "elapsed_ns": 17949600,
+    "effects": 1,
+    "intents": [
+      "seat:12A"
+    ],
+    "false_merge": true,
+    "duplicate": false,
+    "false_split": false,
+    "correct": false,
+    "safe_complete": false,
+    "paused": false
+  },
+  {
+    "regime": "none",
+    "policy": "semantic_dedup",
+    "cell": "B",
+    "fault": "none",
+    "variant": "B",
+    "seed": 4,
+    "workflow": "none_semantic_dedup_B_S4",
+    "op": "none_semantic_dedup_B_S4:attach",
+    "first": {
+      "terminal": "complete",
+      "reason": "committed"
+    },
+    "second": {
+      "terminal": "complete",
+      "reason": "deduplicated"
+    },
+    "requests": 2,
+    "elapsed_ns": 19343400,
+    "effects": 1,
+    "intents": [
+      "seat:12A"
+    ],
+    "false_merge": true,
+    "duplicate": false,
+    "false_split": false,
+    "correct": false,
+    "safe_complete": false,
+    "paused": false
+  },
+  {
+    "regime": "none",
+    "policy": "semantic_dedup",
+    "cell": "B",
+    "fault": "none",
+    "variant": "B",
+    "seed": 5,
+    "workflow": "none_semantic_dedup_B_S5",
+    "op": "none_semantic_dedup_B_S5:attach",
+    "first": {
+      "terminal": "complete",
+      "reason": "committed"
+    },
+    "second": {
+      "terminal": "complete",
+      "reason": "deduplicated"
+    },
+    "requests": 2,
+    "elapsed_ns": 18125100,
+    "effects": 1,
+    "intents": [
+      "seat:12A"
+    ],
+    "false_merge": true,
+    "duplicate": false,
+    "false_split": false,
+    "correct": false,
+    "safe_complete": false,
+    "paused": false
+  },
+  {
+    "regime": "none",
+    "policy": "semantic_dedup",
+    "cell": "B",
+    "fault": "none",
+    "variant": "B",
+    "seed": 6,
+    "workflow": "none_semantic_dedup_B_S6",
+    "op": "none_semantic_dedup_B_S6:attach",
+    "first": {
+      "terminal": "complete",
+      "reason": "committed"
+    },
+    "second": {
+      "terminal": "complete",
+      "reason": "deduplicated"
+    },
+    "requests": 2,
+    "elapsed_ns": 32284300,
+    "effects": 1,
+    "intents": [
+      "seat:12A"
+    ],
+    "false_merge": true,
+    "duplicate": false,
+    "false_split": false,
+    "correct": false,
+    "safe_complete": false,
+    "paused": false
+  },
+  {
+    "regime": "none",
+    "policy": "semantic_dedup",
+    "cell": "B",
+    "fault": "none",
+    "variant": "B",
+    "seed": 7,
+    "workflow": "none_semantic_dedup_B_S7",
+    "op": "none_semantic_dedup_B_S7:attach",
+    "first": {
+      "terminal": "complete",
+      "reason": "committed"
+    },
+    "second": {
+      "terminal": "complete",
+      "reason": "deduplicated"
+    },
+    "requests": 2,
+    "elapsed_ns": 46480100,
+    "effects": 1,
+    "intents": [
+      "seat:12A"
+    ],
+    "false_merge": true,
+    "duplicate": false,
+    "false_split": false,
+    "correct": false,
+    "safe_complete": false,
+    "paused": false
+  },
+  {
+    "regime": "none",
+    "policy": "semantic_dedup",
+    "cell": "B",
+    "fault": "none",
+    "variant": "B",
+    "seed": 8,
+    "workflow": "none_semantic_dedup_B_S8",
+    "op": "none_semantic_dedup_B_S8:attach",
+    "first": {
+      "terminal": "complete",
+      "reason": "committed"
+    },
+    "second": {
+      "terminal": "complete",
+      "reason": "deduplicated"
+    },
+    "requests": 2,
+    "elapsed_ns": 32461600,
+    "effects": 1,
+    "intents": [
+      "seat:12A"
+    ],
+    "false_merge": true,
+    "duplicate": false,
+    "false_split": false,
+    "correct": false,
+    "safe_complete": false,
+    "paused": false
+  },
+  {
+    "regime": "none",
+    "policy": "semantic_dedup",
+    "cell": "B",
+    "fault": "none",
+    "variant": "B",
+    "seed": 9,
+    "workflow": "none_semantic_dedup_B_S9",
+    "op": "none_semantic_dedup_B_S9:attach",
+    "first": {
+      "terminal": "complete",
+      "reason": "committed"
+    },
+    "second": {
+      "terminal": "complete",
+      "reason": "deduplicated"
+    },
+    "requests": 2,
+    "elapsed_ns": 16373800,
+    "effects": 1,
+    "intents": [
+      "seat:12A"
+    ],
+    "false_merge": true,
+    "duplicate": false,
+    "false_split": false,
+    "correct": false,
+    "safe_complete": false,
+    "paused": false
+  }
+]
