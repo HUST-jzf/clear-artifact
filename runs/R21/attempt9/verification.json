@@ -1,0 +1,223 @@
+{
+  "run": "F:\\desktop\\paper\\clear-artifact\\runs\\R21\\attempt9",
+  "checks": 2489,
+  "passed": 2489,
+  "failed": [],
+  "systems": [
+    {
+      "config": "c8-on",
+      "concurrency": 8,
+      "idem": "on",
+      "workflows": 200,
+      "wall_s": 22.541,
+      "throughput": 8.873,
+      "p50_ms": 1546.85,
+      "p95_ms": 1636.51,
+      "failures": 0
+    },
+    {
+      "config": "c8-off",
+      "concurrency": 8,
+      "idem": "off",
+      "workflows": 200,
+      "wall_s": 22.852,
+      "throughput": 8.752,
+      "p50_ms": 1545.63,
+      "p95_ms": 1668.39,
+      "failures": 0
+    },
+    {
+      "config": "c32-on",
+      "concurrency": 32,
+      "idem": "on",
+      "workflows": 200,
+      "wall_s": 8.72,
+      "throughput": 22.935,
+      "p50_ms": 1559.64,
+      "p95_ms": 1900.88,
+      "failures": 0
+    },
+    {
+      "config": "c32-off",
+      "concurrency": 32,
+      "idem": "off",
+      "workflows": 200,
+      "wall_s": 8.523,
+      "throughput": 23.466,
+      "p50_ms": 1543.49,
+      "p95_ms": 1975.81,
+      "failures": 0
+    }
+  ],
+  "summary": {
+    "c8-on": {
+      "clear": {
+        "workflows": 40,
+        "safe": 40,
+        "completed": 40,
+        "duplicates": 0,
+        "pauses": 0,
+        "median_ms": 1577.49
+      },
+      "idem_retry": {
+        "workflows": 40,
+        "safe": 40,
+        "completed": 40,
+        "duplicates": 0,
+        "pauses": 0,
+        "median_ms": 1569.21
+      },
+      "query_retry": {
+        "workflows": 40,
+        "safe": 40,
+        "completed": 40,
+        "duplicates": 0,
+        "pauses": 0,
+        "median_ms": 1556.65
+      },
+      "reauth_retry": {
+        "workflows": 40,
+        "safe": 40,
+        "completed": 40,
+        "duplicates": 0,
+        "pauses": 0,
+        "median_ms": 1561.8
+      },
+      "pause": {
+        "workflows": 40,
+        "safe": 0,
+        "completed": 0,
+        "duplicates": 0,
+        "pauses": 40,
+        "median_ms": 1546.85
+      }
+    },
+    "c8-off": {
+      "clear": {
+        "workflows": 40,
+        "safe": 40,
+        "completed": 40,
+        "duplicates": 0,
+        "pauses": 0,
+        "median_ms": 1571.36
+      },
+      "idem_retry": {
+        "workflows": 40,
+        "safe": 0,
+        "completed": 40,
+        "duplicates": 40,
+        "pauses": 0,
+        "median_ms": 1571.03
+      },
+      "query_retry": {
+        "workflows": 40,
+        "safe": 40,
+        "completed": 40,
+        "duplicates": 0,
+        "pauses": 0,
+        "median_ms": 1583.59
+      },
+      "reauth_retry": {
+        "workflows": 40,
+        "safe": 0,
+        "completed": 40,
+        "duplicates": 40,
+        "pauses": 0,
+        "median_ms": 1552.16
+      },
+      "pause": {
+        "workflows": 40,
+        "safe": 0,
+        "completed": 0,
+        "duplicates": 0,
+        "pauses": 40,
+        "median_ms": 1545.63
+      }
+    },
+    "c32-on": {
+      "clear": {
+        "workflows": 40,
+        "safe": 40,
+        "completed": 40,
+        "duplicates": 0,
+        "pauses": 0,
+        "median_ms": 1755.71
+      },
+      "idem_retry": {
+        "workflows": 40,
+        "safe": 40,
+        "completed": 40,
+        "duplicates": 0,
+        "pauses": 0,
+        "median_ms": 1584.17
+      },
+      "query_retry": {
+        "workflows": 40,
+        "safe": 40,
+        "completed": 40,
+        "duplicates": 0,
+        "pauses": 0,
+        "median_ms": 1728.65
+      },
+      "reauth_retry": {
+        "workflows": 40,
+        "safe": 40,
+        "completed": 40,
+        "duplicates": 0,
+        "pauses": 0,
+        "median_ms": 1574.68
+      },
+      "pause": {
+        "workflows": 40,
+        "safe": 0,
+        "completed": 0,
+        "duplicates": 0,
+        "pauses": 40,
+        "median_ms": 1559.64
+      }
+    },
+    "c32-off": {
+      "clear": {
+        "workflows": 40,
+        "safe": 40,
+        "completed": 40,
+        "duplicates": 0,
+        "pauses": 0,
+        "median_ms": 1820.47
+      },
+      "idem_retry": {
+        "workflows": 40,
+        "safe": 0,
+        "completed": 40,
+        "duplicates": 40,
+        "pauses": 0,
+        "median_ms": 1585.38
+      },
+      "query_retry": {
+        "workflows": 40,
+        "safe": 40,
+        "completed": 40,
+        "duplicates": 0,
+        "pauses": 0,
+        "median_ms": 1684.24
+      },
+      "reauth_retry": {
+        "workflows": 40,
+        "safe": 0,
+        "completed": 40,
+        "duplicates": 40,
+        "pauses": 0,
+        "median_ms": 1590.6
+      },
+      "pause": {
+        "workflows": 40,
+        "safe": 0,
+        "completed": 0,
+        "duplicates": 0,
+        "pauses": 40,
+        "median_ms": 1543.49
+      }
+    }
+  },
+  "status": "pass"
+}

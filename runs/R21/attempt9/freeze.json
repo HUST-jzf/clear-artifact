@@ -1,0 +1,87 @@
+{
+  "configs": [
+    {
+      "name": "c8-on",
+      "concurrency": 8,
+      "idem": "on"
+    },
+    {
+      "name": "c8-off",
+      "concurrency": 8,
+      "idem": "off"
+    },
+    {
+      "name": "c32-on",
+      "concurrency": 32,
+      "idem": "on"
+    },
+    {
+      "name": "c32-off",
+      "concurrency": 32,
+      "idem": "off"
+    }
+  ],
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "policies": [
+    "clear",
+    "idem_retry",
+    "query_retry",
+    "reauth_retry",
+    "pause"
+  ],
+  "faults": [
+    "lost_return",
+    "late_commit"
+  ],
+  "fault_step": {
+    "lost_return": "attach",
+    "late_commit": "commit"
+  },
+  "steps": [
+    "create",
+    "reserve",
+    "attach",
+    "commit",
+    "notify"
+  ],
+  "files": {
+    "docs/R21_concurrency_throughput_protocol.md": "2fe117cb29966481ac3c11669d82dfd58f5da1e067b96ccf43ab5c9007f21eea",
+    "scripts/r21_service.py": "8307c086d6699d212ec5f85825820f5f3c93a0ead98e1eb128142989332dd14b",
+    "scripts/r19_client.py": "8693a1615fa4055f311e1189de8b8ece0a67b0099dbc1b31415435127e2a6325",
+    "scripts/r21_client.py": "1b41a3f4eb810fe0c62f4ba2d4577f5a42357d746606937c13ed4d07de06801d",
+    "scripts/run_r21.py": "70847167dc272719d5ec7c1e9dc3704d6f540ea320a6509fbedd6f903d3957f9",
+    "scripts/verify_r21.py": "4a011f9fb6676cd780ed2a2ea77054aafe2b9ad2718c618e1f54686643a00c9f"
+  },
+  "post_timeout_s": 1.5,
+  "read_timeout_s": 2.0,
+  "late_delay_s": 2.5,
+  "measure_timeout_s": 5.0,
+  "measure_attempts": 3,
+  "dispatch_jitter_s": 0.015,
+  "python": "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R1_anyio\\env\\Scripts\\python.exe",
+  "python_version": "3.13.2",
+  "service": "r21_service.py faithful",
+  "target_calls_before_freeze": 0,
+  "created_ns": 1792596580071021000
+}
