@@ -1,0 +1,32 @@
+{
+  "immediate_late_effect_blind_retry_S5": {
+    "steps": {
+      "attach": {
+        "rows": 2,
+        "stale": 0,
+        "committed": 2
+      },
+      "commit": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1
+      },
+      "notify": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1
+      }
+    },
+    "rejected": 0
+  }
+}
