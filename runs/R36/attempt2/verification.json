@@ -1,0 +1,120 @@
+{
+  "checks": 1602,
+  "passed": 1602,
+  "status": "pass",
+  "cells": {
+    "buffered/late_effect/clear": {
+      "rows": 1,
+      "completed": false,
+      "rejected": 0,
+      "terminal": "pause",
+      "safe": false
+    },
+    "buffered/late_effect/clear_fenced": {
+      "rows": 1,
+      "completed": true,
+      "rejected": 1,
+      "terminal": "complete",
+      "safe": true
+    },
+    "buffered/late_effect/frontier": {
+      "rows": 1,
+      "completed": true,
+      "rejected": 1,
+      "terminal": "complete",
+      "safe": true
+    },
+    "buffered/late_effect/blind_retry": {
+      "rows": 2,
+      "completed": true,
+      "rejected": 0,
+      "terminal": "complete",
+      "safe": false
+    },
+    "buffered/lost_before_commit/clear": {
+      "rows": 0,
+      "completed": false,
+      "rejected": 0,
+      "terminal": "pause",
+      "safe": false
+    },
+    "buffered/lost_before_commit/clear_fenced": {
+      "rows": 1,
+      "completed": true,
+      "rejected": 0,
+      "terminal": "complete",
+      "safe": true
+    },
+    "buffered/lost_before_commit/frontier": {
+      "rows": 1,
+      "completed": true,
+      "rejected": 0,
+      "terminal": "complete",
+      "safe": true
+    },
+    "buffered/lost_before_commit/blind_retry": {
+      "rows": 1,
+      "completed": true,
+      "rejected": 0,
+      "terminal": "complete",
+      "safe": true
+    },
+    "immediate/late_effect/clear": {
+      "rows": 1,
+      "completed": false,
+      "rejected": 0,
+      "terminal": "pause",
+      "safe": false
+    },
+    "immediate/late_effect/clear_fenced": {
+      "rows": 1,
+      "completed": true,
+      "rejected": 1,
+      "terminal": "complete",
+      "safe": true
+    },
+    "immediate/late_effect/frontier": {
+      "rows": 1,
+      "completed": false,
+      "rejected": 0,
+      "terminal": "pause",
+      "safe": false
+    },
+    "immediate/late_effect/blind_retry": {
+      "rows": 2,
+      "completed": true,
+      "rejected": 0,
+      "terminal": "complete",
+      "safe": false
+    },
+    "immediate/lost_before_commit/clear": {
+      "rows": 0,
+      "completed": false,
+      "rejected": 0,
+      "terminal": "pause",
+      "safe": false
+    },
+    "immediate/lost_before_commit/clear_fenced": {
+      "rows": 1,
+      "completed": true,
+      "rejected": 0,
+      "terminal": "complete",
+      "safe": true
+    },
+    "immediate/lost_before_commit/frontier": {
+      "rows": 0,
+      "completed": false,
+      "rejected": 0,
+      "terminal": "pause",
+      "safe": false
+    },
+    "immediate/lost_before_commit/blind_retry": {
+      "rows": 1,
+      "completed": true,
+      "rejected": 0,
+      "terminal": "complete",
+      "safe": true
+    }
+  },
+  "failed": []
+}

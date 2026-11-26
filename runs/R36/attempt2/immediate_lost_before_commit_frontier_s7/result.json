@@ -1,0 +1,28 @@
+{
+  "profile": "immediate",
+  "fault": "lost_before_commit",
+  "policy": "frontier",
+  "seed": 7,
+  "workflow": "immediate_lost_before_commit_frontier_S7",
+  "terminal": "pause",
+  "reason": "buffer_unavailable",
+  "rows": {
+    "create": 1,
+    "reserve": 1,
+    "attach": 0,
+    "commit": 0,
+    "notify": 0
+  },
+  "stale": {
+    "create": 0,
+    "reserve": 0,
+    "attach": 0,
+    "commit": 0,
+    "notify": 0
+  },
+  "rejected": 0,
+  "duplicates": 0,
+  "completed": false,
+  "safe": false,
+  "elapsed_ns": 381882100
+}
