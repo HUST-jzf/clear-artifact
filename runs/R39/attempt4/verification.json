@@ -1,0 +1,38 @@
+{
+  "checks": 431,
+  "passed": 431,
+  "status": "pass",
+  "totals": {
+    "blind": {
+      "duplicates": 17,
+      "stale": 0,
+      "completed": 21,
+      "runs": 24,
+      "lost_duplicates": 5,
+      "late_duplicates": 6,
+      "slow_duplicates": 6,
+      "retries": 21
+    },
+    "evidence": {
+      "duplicates": 1,
+      "stale": 0,
+      "completed": 16,
+      "runs": 24,
+      "lost_duplicates": 0,
+      "late_duplicates": 0,
+      "slow_duplicates": 1,
+      "retries": 4
+    },
+    "clear": {
+      "duplicates": 0,
+      "stale": 0,
+      "completed": 24,
+      "runs": 24,
+      "lost_duplicates": 0,
+      "late_duplicates": 0,
+      "slow_duplicates": 0,
+      "retries": 0
+    }
+  },
+  "failed": []
+}

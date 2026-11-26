@@ -1,0 +1,39 @@
+{
+  "case": "I1Q1C1GrevokeFfail",
+  "seed": 3,
+  "terminal": "complete",
+  "reason": "checkpoint_resume",
+  "attempts": 2,
+  "rows": 1,
+  "effects": [
+    {
+      "record_id": 1,
+      "attempt": 2
+    }
+  ],
+  "duplicate": false,
+  "stale_new": 1,
+  "errors": [
+    {
+      "phase": "first",
+      "type": "RuntimeError",
+      "message": "injected_failure_before_commit"
+    }
+  ],
+  "route": {
+    "revision": 2,
+    "mode": "inline",
+    "outcome": "fail",
+    "delayed": false,
+    "abandon_on_cancel": false,
+    "delegated": false,
+    "closed_registration": true,
+    "allowed": false,
+    "store": "effects",
+    "idempotency": true,
+    "query_complete": true
+  },
+  "operation_id": "S3_I1Q1C1GrevokeFfail",
+  "intent": "f97f387b39cb739fd3557673032752f367c35ea429378d6ee491b3a9af810898",
+  "elapsed_ns": 35949000
+}

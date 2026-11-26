@@ -1,0 +1,38 @@
+{
+  "files": {
+    "docs/R39_real_llm_protocol.md": "51b3cd4f6c922a6ed71ac06f967d10188a2f39cc5b54fed4c3a5f7c2ad2141e7",
+    "scripts/r39_agent.py": "c5e6708f138a77cfae2cb23d111bb859e55cf8b6e28fb668c562d73c9c0a18ff",
+    "scripts/run_r39.py": "aa79eee1e30c3c30d1cf1d182e1fbaa27f4b283f690d64d5a8ebcc208fe6235a",
+    "scripts/verify_r39.py": "ac0a405db008335193ce7b424322beaef95a3581eb2c03be5e96a047202b4819",
+    "scripts/r38_service.py": "9d51f7da07a74a370743c0e41f2d8d404d5942f821ac2ca6994450c8c23e693d",
+    "scripts/r38_client.py": "55e44e1712d02c9f616e2b44f03cbb2fa50df7ce281cd9b1b09ede3c9302c437"
+  },
+  "guards": [
+    "blind",
+    "evidence",
+    "clear"
+  ],
+  "faults": [
+    "none",
+    "lost_return",
+    "late_effect",
+    "late_effect_slow",
+    "lost_before_commit"
+  ],
+  "runs": {
+    "none": 4,
+    "lost_return": 6,
+    "late_effect": 6,
+    "late_effect_slow": 6,
+    "lost_before_commit": 6
+  },
+  "model": "deepseek-flash",
+  "temperature": 0.7,
+  "max_tokens": 300,
+  "max_turns": 20,
+  "drain_seconds": 6.0,
+  "target_calls_before_freeze": 0,
+  "python": "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R1_anyio\\env\\Scripts\\python.exe",
+  "python_version": "3.13.2",
+  "created_ns": 1792645139879911300
+}

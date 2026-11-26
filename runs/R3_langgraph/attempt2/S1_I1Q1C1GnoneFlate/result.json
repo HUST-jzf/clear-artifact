@@ -1,0 +1,39 @@
+{
+  "case": "I1Q1C1GnoneFlate",
+  "seed": 1,
+  "terminal": "complete",
+  "reason": "checkpoint_resume",
+  "attempts": 2,
+  "rows": 1,
+  "effects": [
+    {
+      "record_id": 1,
+      "attempt": 2
+    }
+  ],
+  "duplicate": false,
+  "stale_new": 0,
+  "errors": [
+    {
+      "phase": "first",
+      "type": "TimeoutError",
+      "message": "original effect delayed beyond caller timeout"
+    }
+  ],
+  "route": {
+    "revision": 1,
+    "mode": "inline",
+    "outcome": "commit",
+    "delayed": true,
+    "abandon_on_cancel": false,
+    "delegated": false,
+    "closed_registration": true,
+    "allowed": true,
+    "store": "effects",
+    "idempotency": true,
+    "query_complete": true
+  },
+  "operation_id": "S1_I1Q1C1GnoneFlate",
+  "intent": "f97f387b39cb739fd3557673032752f367c35ea429378d6ee491b3a9af810898",
+  "elapsed_ns": 93361000
+}
