@@ -1,0 +1,82 @@
+{
+  "policy": "query_retry",
+  "context": {
+    "operation_id": "C06_closure_missing_query_retry",
+    "intent": "048c8931efe28cd784d1aaa5e3eba5b3b095769fc47a434a07300c2fe4bfcd76",
+    "generation": 1
+  },
+  "origin": {
+    "context": {
+      "operation_id": "C06_closure_missing_query_retry",
+      "intent": "048c8931efe28cd784d1aaa5e3eba5b3b095769fc47a434a07300c2fe4bfcd76",
+      "generation": 1
+    },
+    "manifest": {
+      "adapter": "smolagents_tool",
+      "version": "1.26.0",
+      "python": "3.13.2",
+      "framework": {
+        "smolagents": "11b53a260cae0d0c3306d8ae6730309aa1928d9372e7dee8bc356c18994ebfda"
+      },
+      "worker_sha256": "2a11567745a8bd7b521192ab3da839d2594a12d1e489a25936e1aaff88481074",
+      "host_sha256": "2a11567745a8bd7b521192ab3da839d2594a12d1e489a25936e1aaff88481074",
+      "observer_sha256": "2a11567745a8bd7b521192ab3da839d2594a12d1e489a25936e1aaff88481074",
+      "route_sha256": "6619fae39c2b72a3f04ca97da9390474bc9651939987f45a9180482708dc1584",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "commit",
+        "delayed": false,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": false,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": false,
+        "query_complete": true
+      }
+    },
+    "namespace": "effects"
+  },
+  "initial_observations": [
+    {
+      "action": "append",
+      "phase": "initial",
+      "attempt": 1,
+      "outcome": "return"
+    }
+  ],
+  "terminal": "complete",
+  "reason": "query_receipt",
+  "events": [
+    {
+      "seq": 0,
+      "context": {
+        "operation_id": "C06_closure_missing_query_retry",
+        "intent": "048c8931efe28cd784d1aaa5e3eba5b3b095769fc47a434a07300c2fe4bfcd76",
+        "generation": 1
+      },
+      "manifest": "4b126b934a56302423f03c3278fa8bca5169d7f3850dfca894d7df0ffe79b5ba",
+      "action": "query",
+      "body": {
+        "state": "committed",
+        "complete": true,
+        "effect_namespace": "effects",
+        "operation_id": "C06_closure_missing_query_retry",
+        "intent": "048c8931efe28cd784d1aaa5e3eba5b3b095769fc47a434a07300c2fe4bfcd76",
+        "generation": 1,
+        "rows": [
+          {
+            "record_id": 1,
+            "origin": "original",
+            "attempt": 1
+          }
+        ],
+        "record_id": 1
+      }
+    }
+  ],
+  "steps": [],
+  "case": "C06_closure_missing",
+  "elapsed_ns": 9353500
+}
