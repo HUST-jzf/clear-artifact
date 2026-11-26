@@ -1,0 +1,222 @@
+{
+  "context": {
+    "operation_id": "C07_idempotent_lost_clear",
+    "intent": "048c8931efe28cd784d1aaa5e3eba5b3b095769fc47a434a07300c2fe4bfcd76",
+    "generation": 1
+  },
+  "origin": {
+    "context": {
+      "operation_id": "C07_idempotent_lost_clear",
+      "intent": "048c8931efe28cd784d1aaa5e3eba5b3b095769fc47a434a07300c2fe4bfcd76",
+      "generation": 1
+    },
+    "manifest": {
+      "adapter": "llamaindex_tool",
+      "version": "0.14.25",
+      "python": "3.13.2",
+      "framework": {
+        "llama_index.core": "1fe52fbc853c3e64c99c1d577f97b6e6c81044070900f32bf946056be04420ce"
+      },
+      "worker_sha256": "2a527692b0ebc6ff51394138d6bbde9954a2d099d4e27d73e7e89f670ba4a3bd",
+      "host_sha256": "2a527692b0ebc6ff51394138d6bbde9954a2d099d4e27d73e7e89f670ba4a3bd",
+      "observer_sha256": "2a527692b0ebc6ff51394138d6bbde9954a2d099d4e27d73e7e89f670ba4a3bd",
+      "route_sha256": "2c61e3d23c5ffe68ec16d57f6da5ee802aae1f7a030acab90820ba060f4a6b08",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "commit",
+        "delayed": false,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": true,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": true,
+        "query_complete": true
+      }
+    },
+    "namespace": "effects"
+  },
+  "initial_route": {
+    "revision": 1,
+    "mode": "inline",
+    "outcome": "commit",
+    "delayed": false,
+    "abandon_on_cancel": false,
+    "delegated": false,
+    "closed_registration": true,
+    "allowed": true,
+    "store": "effects",
+    "idempotency": true,
+    "query_complete": true
+  },
+  "initial_qualification": {
+    "valid": true,
+    "manifest": {
+      "adapter": "llamaindex_tool",
+      "version": "0.14.25",
+      "python": "3.13.2",
+      "framework": {
+        "llama_index.core": "1fe52fbc853c3e64c99c1d577f97b6e6c81044070900f32bf946056be04420ce"
+      },
+      "worker_sha256": "2a527692b0ebc6ff51394138d6bbde9954a2d099d4e27d73e7e89f670ba4a3bd",
+      "host_sha256": "2a527692b0ebc6ff51394138d6bbde9954a2d099d4e27d73e7e89f670ba4a3bd",
+      "observer_sha256": "2a527692b0ebc6ff51394138d6bbde9954a2d099d4e27d73e7e89f670ba4a3bd",
+      "route_sha256": "2c61e3d23c5ffe68ec16d57f6da5ee802aae1f7a030acab90820ba060f4a6b08",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "commit",
+        "delayed": false,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": true,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": true,
+        "query_complete": true
+      }
+    },
+    "checks": {
+      "adapter": true,
+      "version": true,
+      "python": true,
+      "framework": true,
+      "worker_sha256": true,
+      "host_sha256": true,
+      "observer_sha256": true,
+      "known_route": true,
+      "closed_registration": true,
+      "approval_allowed": true,
+      "same_effect_destination": true
+    },
+    "changed_dependencies": []
+  },
+  "initial_observations": [
+    {
+      "action": "append",
+      "phase": "initial",
+      "attempt": 1,
+      "outcome": "return"
+    }
+  ],
+  "attempt": 1,
+  "calls": [
+    {
+      "tool": "append",
+      "outcome": "return",
+      "time_ns": 33449586309400
+    },
+    {
+      "tool": "describe",
+      "outcome": "return",
+      "time_ns": 33449586317500
+    },
+    {
+      "tool": "status",
+      "outcome": "return",
+      "time_ns": 33449586401600
+    },
+    {
+      "tool": "describe",
+      "outcome": "return",
+      "time_ns": 33449586423800
+    },
+    {
+      "tool": "drain",
+      "outcome": "return",
+      "time_ns": 33449588514000
+    }
+  ],
+  "capabilities": {
+    "executor_handle": true,
+    "closed_registration": true
+  },
+  "drain": {
+    "drained": true,
+    "invocations": 1,
+    "effects": 1,
+    "terminal": true
+  },
+  "final_manifest": {
+    "adapter": "llamaindex_tool",
+    "version": "0.14.25",
+    "python": "3.13.2",
+    "framework": {
+      "llama_index.core": "1fe52fbc853c3e64c99c1d577f97b6e6c81044070900f32bf946056be04420ce"
+    },
+    "worker_sha256": "2a527692b0ebc6ff51394138d6bbde9954a2d099d4e27d73e7e89f670ba4a3bd",
+    "host_sha256": "2a527692b0ebc6ff51394138d6bbde9954a2d099d4e27d73e7e89f670ba4a3bd",
+    "observer_sha256": "2a527692b0ebc6ff51394138d6bbde9954a2d099d4e27d73e7e89f670ba4a3bd",
+    "route_sha256": "2c61e3d23c5ffe68ec16d57f6da5ee802aae1f7a030acab90820ba060f4a6b08",
+    "route": {
+      "revision": 1,
+      "mode": "inline",
+      "outcome": "commit",
+      "delayed": false,
+      "abandon_on_cancel": false,
+      "delegated": false,
+      "closed_registration": true,
+      "allowed": true,
+      "store": "effects",
+      "idempotency": true,
+      "query_complete": true
+    }
+  },
+  "final_route": {
+    "revision": 1,
+    "mode": "inline",
+    "outcome": "commit",
+    "delayed": false,
+    "abandon_on_cancel": false,
+    "delegated": false,
+    "closed_registration": true,
+    "allowed": true,
+    "store": "effects",
+    "idempotency": true,
+    "query_complete": true
+  },
+  "current_qualification": {
+    "valid": true,
+    "manifest": {
+      "adapter": "llamaindex_tool",
+      "version": "0.14.25",
+      "python": "3.13.2",
+      "framework": {
+        "llama_index.core": "1fe52fbc853c3e64c99c1d577f97b6e6c81044070900f32bf946056be04420ce"
+      },
+      "worker_sha256": "2a527692b0ebc6ff51394138d6bbde9954a2d099d4e27d73e7e89f670ba4a3bd",
+      "host_sha256": "2a527692b0ebc6ff51394138d6bbde9954a2d099d4e27d73e7e89f670ba4a3bd",
+      "observer_sha256": "2a527692b0ebc6ff51394138d6bbde9954a2d099d4e27d73e7e89f670ba4a3bd",
+      "route_sha256": "2c61e3d23c5ffe68ec16d57f6da5ee802aae1f7a030acab90820ba060f4a6b08",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "commit",
+        "delayed": false,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": true,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": true,
+        "query_complete": true
+      }
+    },
+    "checks": {
+      "adapter": true,
+      "version": true,
+      "python": true,
+      "framework": true,
+      "worker_sha256": true,
+      "host_sha256": true,
+      "observer_sha256": true,
+      "known_route": true,
+      "closed_registration": true,
+      "approval_allowed": true,
+      "same_effect_destination": true
+    },
+    "changed_dependencies": []
+  },
+  "elapsed_ns": 13405300
+}
