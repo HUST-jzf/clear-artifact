@@ -1,0 +1,44 @@
+{
+  "writes": [
+    {
+      "attempt": 2,
+      "record_id": 1,
+      "allowed": false,
+      "at_ns": 29308294067800
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "allowed": true,
+      "at_ns": 29308288244500
+    },
+    {
+      "attempt": 2,
+      "allowed": false,
+      "at_ns": 29308292043600
+    }
+  ],
+  "entries": {
+    "1": {
+      "attempt": 1,
+      "terminal": true,
+      "receipt": null,
+      "error": "injected_failure"
+    },
+    "2": {
+      "attempt": 2,
+      "terminal": true,
+      "receipt": {
+        "state": "committed",
+        "record_id": 1,
+        "operation_id": "C04_revoke_query_retry",
+        "intent": "048c8931efe28cd784d1aaa5e3eba5b3b095769fc47a434a07300c2fe4bfcd76",
+        "generation": 1,
+        "effect_namespace": "effects",
+        "attempt": 2
+      },
+      "error": null
+    }
+  }
+}
