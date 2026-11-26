@@ -1,0 +1,25 @@
+{
+  "case": "lost_return",
+  "policy": "clear",
+  "repetition": 46,
+  "terminal": "complete",
+  "reason": "original_or_retry_receipt",
+  "control_ns": 5625600,
+  "timings": {
+    "active_ns": 5281300,
+    "wait_ns": 268700,
+    "drain_ns": 917000
+  },
+  "counts": {
+    "describe": 2,
+    "active": 2,
+    "refresh": 2,
+    "status": 1,
+    "wait": 2
+  },
+  "actions": 1,
+  "rows": 1,
+  "duplicate": false,
+  "stale_new": 0,
+  "safe": true
+}
