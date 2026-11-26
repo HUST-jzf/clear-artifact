@@ -1,0 +1,12 @@
+{
+  "revoke_race_clear_S6": {
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  }
+}
