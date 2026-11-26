@@ -1,0 +1,174 @@
+{
+  "context": {
+    "operation_id": "I0Q1C1GnoneFlost_query_retry",
+    "intent": "38d7c6e9ee9f1c1d8b7b1dbd24382d424982ce51486f3c87cf7e76b662aa298e",
+    "generation": 1
+  },
+  "origin": {
+    "context": {
+      "operation_id": "I0Q1C1GnoneFlost_query_retry",
+      "intent": "38d7c6e9ee9f1c1d8b7b1dbd24382d424982ce51486f3c87cf7e76b662aa298e",
+      "generation": 1
+    },
+    "manifest": {
+      "adapter": "mcp_stdio_fastmcp",
+      "version": "1.26.0",
+      "python": "3.13.2",
+      "framework": {
+        "mcp.client.session": "037d437b93b086c0510fe885df696b680ac943fbd81c9624618ac8fd7b9d017f",
+        "mcp.shared.session": "3792799b86369a7632d6e8f2efecb118bbbc7cd69abb54bb14f6b079cb09d7f4",
+        "mcp.server.lowlevel.server": "910890555395de8303deaef64963b056443f0e0bdd1d22f61a51481d70c3bdaa"
+      },
+      "worker_sha256": "1a23764d01b00dbb29559783bc63f655bd454e3eed0bee7cf0737ac690613882",
+      "host_sha256": "3e93f2e1b51cb71beb296965e08d2883992c7b2a8720569476242e6dad9356d9",
+      "observer_sha256": "1a23764d01b00dbb29559783bc63f655bd454e3eed0bee7cf0737ac690613882",
+      "route_sha256": "11854477a0ebc5ac6efd8190bcbcfc41a4c92b68325e1c868061f6a9dd2f1377"
+    },
+    "namespace": "effects"
+  },
+  "initial_route": {
+    "revision": 1,
+    "mode": "inline",
+    "outcome": "commit",
+    "delayed": false,
+    "abandon_on_cancel": false,
+    "delegated": false,
+    "closed_registration": true,
+    "allowed": true,
+    "store": "effects",
+    "idempotency": false,
+    "query_complete": true
+  },
+  "initial_qualification": {
+    "valid": true,
+    "manifest": {
+      "adapter": "mcp_stdio_fastmcp",
+      "version": "1.26.0",
+      "python": "3.13.2",
+      "framework": {
+        "mcp.client.session": "037d437b93b086c0510fe885df696b680ac943fbd81c9624618ac8fd7b9d017f",
+        "mcp.shared.session": "3792799b86369a7632d6e8f2efecb118bbbc7cd69abb54bb14f6b079cb09d7f4",
+        "mcp.server.lowlevel.server": "910890555395de8303deaef64963b056443f0e0bdd1d22f61a51481d70c3bdaa"
+      },
+      "worker_sha256": "1a23764d01b00dbb29559783bc63f655bd454e3eed0bee7cf0737ac690613882",
+      "host_sha256": "3e93f2e1b51cb71beb296965e08d2883992c7b2a8720569476242e6dad9356d9",
+      "observer_sha256": "1a23764d01b00dbb29559783bc63f655bd454e3eed0bee7cf0737ac690613882",
+      "route_sha256": "11854477a0ebc5ac6efd8190bcbcfc41a4c92b68325e1c868061f6a9dd2f1377"
+    },
+    "checks": {
+      "adapter": true,
+      "version": true,
+      "python": true,
+      "framework": true,
+      "worker_sha256": true,
+      "host_sha256": true,
+      "observer_sha256": true,
+      "known_route": true,
+      "closed_registration": true,
+      "approval_allowed": true,
+      "same_effect_destination": true
+    },
+    "changed_dependencies": []
+  },
+  "initial_observations": [
+    {
+      "action": "append",
+      "phase": "initial",
+      "attempt": 1,
+      "outcome": "return_lost"
+    }
+  ],
+  "attempt": 1,
+  "calls": [
+    {
+      "tool": "describe",
+      "outcome": "return",
+      "time_ns": 19534074468400
+    },
+    {
+      "tool": "append",
+      "outcome": "return",
+      "time_ns": 19534111166400
+    },
+    {
+      "tool": "effects",
+      "outcome": "return",
+      "time_ns": 19534126588700
+    },
+    {
+      "tool": "drain",
+      "outcome": "return",
+      "time_ns": 19534130924700
+    }
+  ],
+  "capabilities": {
+    "executor_handle": true,
+    "closed_registration": true
+  },
+  "drain": {
+    "drained": true,
+    "invocations": 1,
+    "effects": 1,
+    "terminal": true
+  },
+  "close_error": null,
+  "final_manifest": {
+    "adapter": "mcp_stdio_fastmcp",
+    "version": "1.26.0",
+    "python": "3.13.2",
+    "framework": {
+      "mcp.client.session": "037d437b93b086c0510fe885df696b680ac943fbd81c9624618ac8fd7b9d017f",
+      "mcp.shared.session": "3792799b86369a7632d6e8f2efecb118bbbc7cd69abb54bb14f6b079cb09d7f4",
+      "mcp.server.lowlevel.server": "910890555395de8303deaef64963b056443f0e0bdd1d22f61a51481d70c3bdaa"
+    },
+    "worker_sha256": "1a23764d01b00dbb29559783bc63f655bd454e3eed0bee7cf0737ac690613882",
+    "host_sha256": "3e93f2e1b51cb71beb296965e08d2883992c7b2a8720569476242e6dad9356d9",
+    "observer_sha256": "1a23764d01b00dbb29559783bc63f655bd454e3eed0bee7cf0737ac690613882",
+    "route_sha256": "11854477a0ebc5ac6efd8190bcbcfc41a4c92b68325e1c868061f6a9dd2f1377"
+  },
+  "final_route": {
+    "revision": 1,
+    "mode": "inline",
+    "outcome": "commit",
+    "delayed": false,
+    "abandon_on_cancel": false,
+    "delegated": false,
+    "closed_registration": true,
+    "allowed": true,
+    "store": "effects",
+    "idempotency": false,
+    "query_complete": true
+  },
+  "current_qualification": {
+    "valid": true,
+    "manifest": {
+      "adapter": "mcp_stdio_fastmcp",
+      "version": "1.26.0",
+      "python": "3.13.2",
+      "framework": {
+        "mcp.client.session": "037d437b93b086c0510fe885df696b680ac943fbd81c9624618ac8fd7b9d017f",
+        "mcp.shared.session": "3792799b86369a7632d6e8f2efecb118bbbc7cd69abb54bb14f6b079cb09d7f4",
+        "mcp.server.lowlevel.server": "910890555395de8303deaef64963b056443f0e0bdd1d22f61a51481d70c3bdaa"
+      },
+      "worker_sha256": "1a23764d01b00dbb29559783bc63f655bd454e3eed0bee7cf0737ac690613882",
+      "host_sha256": "3e93f2e1b51cb71beb296965e08d2883992c7b2a8720569476242e6dad9356d9",
+      "observer_sha256": "1a23764d01b00dbb29559783bc63f655bd454e3eed0bee7cf0737ac690613882",
+      "route_sha256": "11854477a0ebc5ac6efd8190bcbcfc41a4c92b68325e1c868061f6a9dd2f1377"
+    },
+    "checks": {
+      "adapter": true,
+      "version": true,
+      "python": true,
+      "framework": true,
+      "worker_sha256": true,
+      "host_sha256": true,
+      "observer_sha256": true,
+      "known_route": true,
+      "closed_registration": true,
+      "approval_allowed": true,
+      "same_effect_destination": true
+    },
+    "changed_dependencies": []
+  },
+  "elapsed_ns": 1070740200
+}
