@@ -1,0 +1,12 @@
+{
+  "base_url": "http://127.0.0.1:60297",
+  "profile": "C5",
+  "axes": {
+    "closure": 0,
+    "read": "unavailable",
+    "version": 0,
+    "admission": 0,
+    "staging": 1,
+    "dedup": 0
+  }
+}
