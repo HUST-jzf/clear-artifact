@@ -1,0 +1,18 @@
+{
+  "versions": {
+    "langgraph": "1.2.16",
+    "langgraph-checkpoint-sqlite": "3.1.2",
+    "langchain-core": "1.6.12"
+  },
+  "prefix": "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R3_langgraph\\env",
+  "modules": {
+    "langgraph.checkpoint.sqlite": {
+      "path": "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R3_langgraph\\env\\Lib\\site-packages\\langgraph\\checkpoint\\sqlite\\__init__.py",
+      "sha256": "13829d2b3961129e13ee3113a6674bff790181d26e5cae83c3bfabd6cca9074c"
+    },
+    "langchain_core": {
+      "path": "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R3_langgraph\\env\\Lib\\site-packages\\langchain_core\\__init__.py",
+      "sha256": "fa4e54cbdf24eb2cfc4fd24776115853a9bc7977447b4d072a470f6765d2a781"
+    }
+  }
+}

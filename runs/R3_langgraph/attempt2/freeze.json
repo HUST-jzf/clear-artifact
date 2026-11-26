@@ -1,0 +1,283 @@
+{
+  "files": {
+    "scripts/run_r3_langgraph.py": "6ff6386f917cd419d6ded3603b59610f4721bd528412bff2564f03f960790a82",
+    "scripts/r3_langgraph.py": "dbe781d426e4938ee5d410195f6d6c8c48dffdf5485a800977343acb5f91231c",
+    "docs/R3_LangGraph_baseline_protocol.md": "8620736a6de1e0e46dbc0e80507fe674208bb54e76aedcf9e84677982706b071"
+  },
+  "cases": [
+    {
+      "id": "I0Q1C1GnoneFfail",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "fail",
+        "delayed": false,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": true,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": false,
+        "query_complete": true
+      },
+      "change": "none",
+      "fault": "fail"
+    },
+    {
+      "id": "I0Q1C1GnoneFlost",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "commit",
+        "delayed": false,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": true,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": false,
+        "query_complete": true
+      },
+      "change": "none",
+      "fault": "lost"
+    },
+    {
+      "id": "I0Q1C1GnoneFlate",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "commit",
+        "delayed": true,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": true,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": false,
+        "query_complete": true
+      },
+      "change": "none",
+      "fault": "late"
+    },
+    {
+      "id": "I0Q1C1GrevokeFfail",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "fail",
+        "delayed": false,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": true,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": false,
+        "query_complete": true
+      },
+      "change": "revoke",
+      "fault": "fail"
+    },
+    {
+      "id": "I0Q1C1GrevokeFlost",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "commit",
+        "delayed": false,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": true,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": false,
+        "query_complete": true
+      },
+      "change": "revoke",
+      "fault": "lost"
+    },
+    {
+      "id": "I0Q1C1GrevokeFlate",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "commit",
+        "delayed": true,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": true,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": false,
+        "query_complete": true
+      },
+      "change": "revoke",
+      "fault": "late"
+    },
+    {
+      "id": "I1Q1C1GnoneFfail",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "fail",
+        "delayed": false,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": true,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": true,
+        "query_complete": true
+      },
+      "change": "none",
+      "fault": "fail"
+    },
+    {
+      "id": "I1Q1C1GnoneFlost",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "commit",
+        "delayed": false,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": true,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": true,
+        "query_complete": true
+      },
+      "change": "none",
+      "fault": "lost"
+    },
+    {
+      "id": "I1Q1C1GnoneFlate",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "commit",
+        "delayed": true,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": true,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": true,
+        "query_complete": true
+      },
+      "change": "none",
+      "fault": "late"
+    },
+    {
+      "id": "I1Q1C1GrevokeFfail",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "fail",
+        "delayed": false,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": true,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": true,
+        "query_complete": true
+      },
+      "change": "revoke",
+      "fault": "fail"
+    },
+    {
+      "id": "I1Q1C1GrevokeFlost",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "commit",
+        "delayed": false,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": true,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": true,
+        "query_complete": true
+      },
+      "change": "revoke",
+      "fault": "lost"
+    },
+    {
+      "id": "I1Q1C1GrevokeFlate",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "commit",
+        "delayed": true,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": true,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": true,
+        "query_complete": true
+      },
+      "change": "revoke",
+      "fault": "late"
+    }
+  ],
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "jitter": {
+    "0": {
+      "gate": 0.08,
+      "initial_timeout": 0.06
+    },
+    "1": {
+      "gate": 0.072,
+      "initial_timeout": 0.052
+    },
+    "2": {
+      "gate": 0.076,
+      "initial_timeout": 0.054
+    },
+    "3": {
+      "gate": 0.084,
+      "initial_timeout": 0.056
+    },
+    "4": {
+      "gate": 0.068,
+      "initial_timeout": 0.05
+    },
+    "5": {
+      "gate": 0.074,
+      "initial_timeout": 0.053
+    },
+    "6": {
+      "gate": 0.078,
+      "initial_timeout": 0.055
+    },
+    "7": {
+      "gate": 0.082,
+      "initial_timeout": 0.057
+    },
+    "8": {
+      "gate": 0.086,
+      "initial_timeout": 0.058
+    },
+    "9": {
+      "gate": 0.09,
+      "initial_timeout": 0.059
+    }
+  },
+  "target_calls_before_freeze": 0,
+  "python": "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R3_langgraph\\env\\Scripts\\python.exe",
+  "python_version": "3.13.2",
+  "created_ns": 1792567263189142000
+}

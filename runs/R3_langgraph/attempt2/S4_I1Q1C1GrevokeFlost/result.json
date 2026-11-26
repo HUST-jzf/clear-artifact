@@ -1,0 +1,39 @@
+{
+  "case": "I1Q1C1GrevokeFlost",
+  "seed": 4,
+  "terminal": "complete",
+  "reason": "checkpoint_resume",
+  "attempts": 2,
+  "rows": 1,
+  "effects": [
+    {
+      "record_id": 1,
+      "attempt": 1
+    }
+  ],
+  "duplicate": false,
+  "stale_new": 1,
+  "errors": [
+    {
+      "phase": "first",
+      "type": "RuntimeError",
+      "message": "crash_after_commit_before_checkpoint"
+    }
+  ],
+  "route": {
+    "revision": 2,
+    "mode": "inline",
+    "outcome": "commit",
+    "delayed": false,
+    "abandon_on_cancel": false,
+    "delegated": false,
+    "closed_registration": true,
+    "allowed": false,
+    "store": "effects",
+    "idempotency": true,
+    "query_complete": true
+  },
+  "operation_id": "S4_I1Q1C1GrevokeFlost",
+  "intent": "f97f387b39cb739fd3557673032752f367c35ea429378d6ee491b3a9af810898",
+  "elapsed_ns": 29224300
+}
