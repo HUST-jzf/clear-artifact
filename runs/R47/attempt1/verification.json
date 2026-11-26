@@ -1,0 +1,153 @@
+{
+  "checks": 59,
+  "passed": 59,
+  "status": "pass",
+  "mismatches": 0,
+  "completion": {
+    "none": 0,
+    "compensate_after_commit": 6,
+    "ownership_transfer": 9,
+    "pause_escalate": 0
+  },
+  "table": {
+    "none": {
+      "change_before_commit": {
+        "residual": [
+          1
+        ],
+        "complete": 0,
+        "escalated": 0,
+        "writes": [
+          2
+        ]
+      },
+      "change_after_commit": {
+        "residual": [
+          1
+        ],
+        "complete": 0,
+        "escalated": 0,
+        "writes": [
+          2
+        ]
+      },
+      "late_after_b": {
+        "residual": [
+          1
+        ],
+        "complete": 0,
+        "escalated": 0,
+        "writes": [
+          2
+        ]
+      }
+    },
+    "compensate_after_commit": {
+      "change_before_commit": {
+        "residual": [
+          0,
+          1
+        ],
+        "complete": 3,
+        "escalated": 0,
+        "writes": [
+          2,
+          3
+        ]
+      },
+      "change_after_commit": {
+        "residual": [
+          0,
+          1
+        ],
+        "complete": 3,
+        "escalated": 0,
+        "writes": [
+          2,
+          3
+        ]
+      },
+      "late_after_b": {
+        "residual": [
+          1
+        ],
+        "complete": 0,
+        "escalated": 0,
+        "writes": [
+          2,
+          3
+        ]
+      }
+    },
+    "ownership_transfer": {
+      "change_before_commit": {
+        "residual": [
+          0,
+          1
+        ],
+        "complete": 3,
+        "escalated": 0,
+        "writes": [
+          1,
+          2
+        ]
+      },
+      "change_after_commit": {
+        "residual": [
+          0,
+          1
+        ],
+        "complete": 3,
+        "escalated": 0,
+        "writes": [
+          1,
+          2
+        ]
+      },
+      "late_after_b": {
+        "residual": [
+          0,
+          1
+        ],
+        "complete": 3,
+        "escalated": 0,
+        "writes": [
+          1
+        ]
+      }
+    },
+    "pause_escalate": {
+      "change_before_commit": {
+        "residual": [
+          1
+        ],
+        "complete": 0,
+        "escalated": 6,
+        "writes": [
+          1
+        ]
+      },
+      "change_after_commit": {
+        "residual": [
+          1
+        ],
+        "complete": 0,
+        "escalated": 6,
+        "writes": [
+          1
+        ]
+      },
+      "late_after_b": {
+        "residual": [
+          1
+        ],
+        "complete": 0,
+        "escalated": 0,
+        "writes": [
+          2
+        ]
+      }
+    }
+  },
+  "failed": []
+}

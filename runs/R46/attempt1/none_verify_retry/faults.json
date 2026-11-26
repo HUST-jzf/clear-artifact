@@ -1,0 +1,242 @@
+{
+  "none_verify_retry_A_lost_return_exact_S0": {
+    "attach": {
+      "kind": "lost_return",
+      "delay": 0.9
+    }
+  },
+  "none_verify_retry_A_lost_return_exact_S1": {
+    "attach": {
+      "kind": "lost_return",
+      "delay": 0.9
+    }
+  },
+  "none_verify_retry_A_lost_return_exact_S2": {
+    "attach": {
+      "kind": "lost_return",
+      "delay": 0.9
+    }
+  },
+  "none_verify_retry_A_lost_return_exact_S3": {
+    "attach": {
+      "kind": "lost_return",
+      "delay": 0.9
+    }
+  },
+  "none_verify_retry_A_lost_return_exact_S4": {
+    "attach": {
+      "kind": "lost_return",
+      "delay": 0.9
+    }
+  },
+  "none_verify_retry_A_lost_return_exact_S5": {
+    "attach": {
+      "kind": "lost_return",
+      "delay": 0.9
+    }
+  },
+  "none_verify_retry_A_lost_return_exact_S6": {
+    "attach": {
+      "kind": "lost_return",
+      "delay": 0.9
+    }
+  },
+  "none_verify_retry_A_lost_return_exact_S7": {
+    "attach": {
+      "kind": "lost_return",
+      "delay": 0.9
+    }
+  },
+  "none_verify_retry_A_lost_return_exact_S8": {
+    "attach": {
+      "kind": "lost_return",
+      "delay": 0.9
+    }
+  },
+  "none_verify_retry_A_lost_return_exact_S9": {
+    "attach": {
+      "kind": "lost_return",
+      "delay": 0.9
+    }
+  },
+  "none_verify_retry_A_lost_return_paraphrase_S0": {
+    "attach": {
+      "kind": "lost_return",
+      "delay": 0.9
+    }
+  },
+  "none_verify_retry_A_lost_return_paraphrase_S1": {
+    "attach": {
+      "kind": "lost_return",
+      "delay": 0.9
+    }
+  },
+  "none_verify_retry_A_lost_return_paraphrase_S2": {
+    "attach": {
+      "kind": "lost_return",
+      "delay": 0.9
+    }
+  },
+  "none_verify_retry_A_lost_return_paraphrase_S3": {
+    "attach": {
+      "kind": "lost_return",
+      "delay": 0.9
+    }
+  },
+  "none_verify_retry_A_lost_return_paraphrase_S4": {
+    "attach": {
+      "kind": "lost_return",
+      "delay": 0.9
+    }
+  },
+  "none_verify_retry_A_lost_return_paraphrase_S5": {
+    "attach": {
+      "kind": "lost_return",
+      "delay": 0.9
+    }
+  },
+  "none_verify_retry_A_lost_return_paraphrase_S6": {
+    "attach": {
+      "kind": "lost_return",
+      "delay": 0.9
+    }
+  },
+  "none_verify_retry_A_lost_return_paraphrase_S7": {
+    "attach": {
+      "kind": "lost_return",
+      "delay": 0.9
+    }
+  },
+  "none_verify_retry_A_lost_return_paraphrase_S8": {
+    "attach": {
+      "kind": "lost_return",
+      "delay": 0.9
+    }
+  },
+  "none_verify_retry_A_lost_return_paraphrase_S9": {
+    "attach": {
+      "kind": "lost_return",
+      "delay": 0.9
+    }
+  },
+  "none_verify_retry_A_late_commit_exact_S0": {
+    "attach": {
+      "kind": "late_commit",
+      "delay": 0.9
+    }
+  },
+  "none_verify_retry_A_late_commit_exact_S1": {
+    "attach": {
+      "kind": "late_commit",
+      "delay": 0.9
+    }
+  },
+  "none_verify_retry_A_late_commit_exact_S2": {
+    "attach": {
+      "kind": "late_commit",
+      "delay": 0.9
+    }
+  },
+  "none_verify_retry_A_late_commit_exact_S3": {
+    "attach": {
+      "kind": "late_commit",
+      "delay": 0.9
+    }
+  },
+  "none_verify_retry_A_late_commit_exact_S4": {
+    "attach": {
+      "kind": "late_commit",
+      "delay": 0.9
+    }
+  },
+  "none_verify_retry_A_late_commit_exact_S5": {
+    "attach": {
+      "kind": "late_commit",
+      "delay": 0.9
+    }
+  },
+  "none_verify_retry_A_late_commit_exact_S6": {
+    "attach": {
+      "kind": "late_commit",
+      "delay": 0.9
+    }
+  },
+  "none_verify_retry_A_late_commit_exact_S7": {
+    "attach": {
+      "kind": "late_commit",
+      "delay": 0.9
+    }
+  },
+  "none_verify_retry_A_late_commit_exact_S8": {
+    "attach": {
+      "kind": "late_commit",
+      "delay": 0.9
+    }
+  },
+  "none_verify_retry_A_late_commit_exact_S9": {
+    "attach": {
+      "kind": "late_commit",
+      "delay": 0.9
+    }
+  },
+  "none_verify_retry_A_late_commit_paraphrase_S0": {
+    "attach": {
+      "kind": "late_commit",
+      "delay": 0.9
+    }
+  },
+  "none_verify_retry_A_late_commit_paraphrase_S1": {
+    "attach": {
+      "kind": "late_commit",
+      "delay": 0.9
+    }
+  },
+  "none_verify_retry_A_late_commit_paraphrase_S2": {
+    "attach": {
+      "kind": "late_commit",
+      "delay": 0.9
+    }
+  },
+  "none_verify_retry_A_late_commit_paraphrase_S3": {
+    "attach": {
+      "kind": "late_commit",
+      "delay": 0.9
+    }
+  },
+  "none_verify_retry_A_late_commit_paraphrase_S4": {
+    "attach": {
+      "kind": "late_commit",
+      "delay": 0.9
+    }
+  },
+  "none_verify_retry_A_late_commit_paraphrase_S5": {
+    "attach": {
+      "kind": "late_commit",
+      "delay": 0.9
+    }
+  },
+  "none_verify_retry_A_late_commit_paraphrase_S6": {
+    "attach": {
+      "kind": "late_commit",
+      "delay": 0.9
+    }
+  },
+  "none_verify_retry_A_late_commit_paraphrase_S7": {
+    "attach": {
+      "kind": "late_commit",
+      "delay": 0.9
+    }
+  },
+  "none_verify_retry_A_late_commit_paraphrase_S8": {
+    "attach": {
+      "kind": "late_commit",
+      "delay": 0.9
+    }
+  },
+  "none_verify_retry_A_late_commit_paraphrase_S9": {
+    "attach": {
+      "kind": "late_commit",
+      "delay": 0.9
+    }
+  }
+}

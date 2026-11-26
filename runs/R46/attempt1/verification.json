@@ -1,0 +1,737 @@
+{
+  "checks": 111,
+  "passed": 111,
+  "status": "pass",
+  "mismatches": 0,
+  "cells": {
+    "fixed/dedup_versioned": {
+      "A_late_commit_exact": {
+        "effects": [
+          1
+        ],
+        "duplicate": 0,
+        "false_split": 0,
+        "false_merge": 0,
+        "paused": 0,
+        "requests": 4.0
+      },
+      "A_late_commit_paraphrase": {
+        "effects": [
+          2
+        ],
+        "duplicate": 0,
+        "false_split": 10,
+        "false_merge": 0,
+        "paused": 0,
+        "requests": 4.0
+      },
+      "A_lost_return_exact": {
+        "effects": [
+          1
+        ],
+        "duplicate": 0,
+        "false_split": 0,
+        "false_merge": 0,
+        "paused": 0,
+        "requests": 4.0
+      },
+      "A_lost_return_paraphrase": {
+        "effects": [
+          2
+        ],
+        "duplicate": 0,
+        "false_split": 10,
+        "false_merge": 0,
+        "paused": 0,
+        "requests": 4.0
+      },
+      "B": {
+        "effects": [
+          2
+        ],
+        "duplicate": 0,
+        "false_split": 0,
+        "false_merge": 0,
+        "paused": 0,
+        "requests": 4.0
+      }
+    },
+    "fixed/semantic_dedup": {
+      "A_late_commit_exact": {
+        "effects": [
+          1
+        ],
+        "duplicate": 0,
+        "false_split": 0,
+        "false_merge": 0,
+        "paused": 0,
+        "requests": 2.0
+      },
+      "A_late_commit_paraphrase": {
+        "effects": [
+          1
+        ],
+        "duplicate": 0,
+        "false_split": 0,
+        "false_merge": 0,
+        "paused": 0,
+        "requests": 2.0
+      },
+      "A_lost_return_exact": {
+        "effects": [
+          1
+        ],
+        "duplicate": 0,
+        "false_split": 0,
+        "false_merge": 0,
+        "paused": 0,
+        "requests": 2.0
+      },
+      "A_lost_return_paraphrase": {
+        "effects": [
+          1
+        ],
+        "duplicate": 0,
+        "false_split": 0,
+        "false_merge": 0,
+        "paused": 0,
+        "requests": 2.0
+      },
+      "B": {
+        "effects": [
+          1
+        ],
+        "duplicate": 0,
+        "false_split": 0,
+        "false_merge": 10,
+        "paused": 0,
+        "requests": 2.0
+      }
+    },
+    "fixed/verify_retry": {
+      "A_late_commit_exact": {
+        "effects": [
+          2
+        ],
+        "duplicate": 10,
+        "false_split": 0,
+        "false_merge": 0,
+        "paused": 0,
+        "requests": 3.0
+      },
+      "A_late_commit_paraphrase": {
+        "effects": [
+          2
+        ],
+        "duplicate": 0,
+        "false_split": 10,
+        "false_merge": 0,
+        "paused": 0,
+        "requests": 3.0
+      },
+      "A_lost_return_exact": {
+        "effects": [
+          1
+        ],
+        "duplicate": 0,
+        "false_split": 0,
+        "false_merge": 0,
+        "paused": 0,
+        "requests": 2.0
+      },
+      "A_lost_return_paraphrase": {
+        "effects": [
+          1
+        ],
+        "duplicate": 0,
+        "false_split": 0,
+        "false_merge": 0,
+        "paused": 0,
+        "requests": 2.0
+      },
+      "B": {
+        "effects": [
+          2
+        ],
+        "duplicate": 0,
+        "false_split": 0,
+        "false_merge": 0,
+        "paused": 0,
+        "requests": 2.0
+      }
+    },
+    "fixed/clear_fenced": {
+      "A_late_commit_exact": {
+        "effects": [
+          1
+        ],
+        "duplicate": 0,
+        "false_split": 0,
+        "false_merge": 0,
+        "paused": 0,
+        "requests": 5.0
+      },
+      "A_late_commit_paraphrase": {
+        "effects": [
+          1
+        ],
+        "duplicate": 0,
+        "false_split": 0,
+        "false_merge": 0,
+        "paused": 0,
+        "requests": 5.0
+      },
+      "A_lost_return_exact": {
+        "effects": [
+          1
+        ],
+        "duplicate": 0,
+        "false_split": 0,
+        "false_merge": 0,
+        "paused": 0,
+        "requests": 6.0
+      },
+      "A_lost_return_paraphrase": {
+        "effects": [
+          1
+        ],
+        "duplicate": 0,
+        "false_split": 0,
+        "false_merge": 0,
+        "paused": 0,
+        "requests": 6.0
+      },
+      "B": {
+        "effects": [
+          2
+        ],
+        "duplicate": 0,
+        "false_split": 0,
+        "false_merge": 0,
+        "paused": 0,
+        "requests": 4.0
+      }
+    },
+    "fixed/clear_evidence": {
+      "A_late_commit_exact": {
+        "effects": [
+          1
+        ],
+        "duplicate": 0,
+        "false_split": 0,
+        "false_merge": 0,
+        "paused": 0,
+        "requests": 3.0
+      },
+      "A_late_commit_paraphrase": {
+        "effects": [
+          1
+        ],
+        "duplicate": 0,
+        "false_split": 0,
+        "false_merge": 0,
+        "paused": 0,
+        "requests": 3.0
+      },
+      "A_lost_return_exact": {
+        "effects": [
+          1
+        ],
+        "duplicate": 0,
+        "false_split": 0,
+        "false_merge": 0,
+        "paused": 0,
+        "requests": 2.0
+      },
+      "A_lost_return_paraphrase": {
+        "effects": [
+          1
+        ],
+        "duplicate": 0,
+        "false_split": 0,
+        "false_merge": 0,
+        "paused": 10,
+        "requests": 2.0
+      },
+      "B": {
+        "effects": [
+          1
+        ],
+        "duplicate": 0,
+        "false_split": 0,
+        "false_merge": 0,
+        "paused": 10,
+        "requests": 2.0
+      }
+    },
+    "fresh/dedup_fresh": {
+      "A_late_commit_exact": {
+        "effects": [
+          2
+        ],
+        "duplicate": 10,
+        "false_split": 0,
+        "false_merge": 0,
+        "paused": 0,
+        "requests": 4.0
+      },
+      "A_late_commit_paraphrase": {
+        "effects": [
+          2
+        ],
+        "duplicate": 0,
+        "false_split": 10,
+        "false_merge": 0,
+        "paused": 0,
+        "requests": 4.0
+      },
+      "A_lost_return_exact": {
+        "effects": [
+          2
+        ],
+        "duplicate": 10,
+        "false_split": 0,
+        "false_merge": 0,
+        "paused": 0,
+        "requests": 4.0
+      },
+      "A_lost_return_paraphrase": {
+        "effects": [
+          2
+        ],
+        "duplicate": 0,
+        "false_split": 10,
+        "false_merge": 0,
+        "paused": 0,
+        "requests": 4.0
+      },
+      "B": {
+        "effects": [
+          2
+        ],
+        "duplicate": 0,
+        "false_split": 0,
+        "false_merge": 0,
+        "paused": 0,
+        "requests": 4.0
+      }
+    },
+    "fresh/semantic_dedup": {
+      "A_late_commit_exact": {
+        "effects": [
+          1
+        ],
+        "duplicate": 0,
+        "false_split": 0,
+        "false_merge": 0,
+        "paused": 0,
+        "requests": 2.0
+      },
+      "A_late_commit_paraphrase": {
+        "effects": [
+          1
+        ],
+        "duplicate": 0,
+        "false_split": 0,
+        "false_merge": 0,
+        "paused": 0,
+        "requests": 2.0
+      },
+      "A_lost_return_exact": {
+        "effects": [
+          1
+        ],
+        "duplicate": 0,
+        "false_split": 0,
+        "false_merge": 0,
+        "paused": 0,
+        "requests": 2.0
+      },
+      "A_lost_return_paraphrase": {
+        "effects": [
+          1
+        ],
+        "duplicate": 0,
+        "false_split": 0,
+        "false_merge": 0,
+        "paused": 0,
+        "requests": 2.0
+      },
+      "B": {
+        "effects": [
+          1
+        ],
+        "duplicate": 0,
+        "false_split": 0,
+        "false_merge": 10,
+        "paused": 0,
+        "requests": 2.0
+      }
+    },
+    "fresh/verify_retry": {
+      "A_late_commit_exact": {
+        "effects": [
+          2
+        ],
+        "duplicate": 10,
+        "false_split": 0,
+        "false_merge": 0,
+        "paused": 0,
+        "requests": 3.0
+      },
+      "A_late_commit_paraphrase": {
+        "effects": [
+          2
+        ],
+        "duplicate": 0,
+        "false_split": 10,
+        "false_merge": 0,
+        "paused": 0,
+        "requests": 3.0
+      },
+      "A_lost_return_exact": {
+        "effects": [
+          1
+        ],
+        "duplicate": 0,
+        "false_split": 0,
+        "false_merge": 0,
+        "paused": 0,
+        "requests": 2.0
+      },
+      "A_lost_return_paraphrase": {
+        "effects": [
+          1
+        ],
+        "duplicate": 0,
+        "false_split": 0,
+        "false_merge": 0,
+        "paused": 0,
+        "requests": 2.0
+      },
+      "B": {
+        "effects": [
+          2
+        ],
+        "duplicate": 0,
+        "false_split": 0,
+        "false_merge": 0,
+        "paused": 0,
+        "requests": 2.0
+      }
+    },
+    "fresh/clear_fenced": {
+      "A_late_commit_exact": {
+        "effects": [
+          1
+        ],
+        "duplicate": 0,
+        "false_split": 0,
+        "false_merge": 0,
+        "paused": 0,
+        "requests": 5.0
+      },
+      "A_late_commit_paraphrase": {
+        "effects": [
+          1
+        ],
+        "duplicate": 0,
+        "false_split": 0,
+        "false_merge": 0,
+        "paused": 0,
+        "requests": 5.0
+      },
+      "A_lost_return_exact": {
+        "effects": [
+          1
+        ],
+        "duplicate": 0,
+        "false_split": 0,
+        "false_merge": 0,
+        "paused": 0,
+        "requests": 6.0
+      },
+      "A_lost_return_paraphrase": {
+        "effects": [
+          1
+        ],
+        "duplicate": 0,
+        "false_split": 0,
+        "false_merge": 0,
+        "paused": 0,
+        "requests": 6.0
+      },
+      "B": {
+        "effects": [
+          2
+        ],
+        "duplicate": 0,
+        "false_split": 0,
+        "false_merge": 0,
+        "paused": 0,
+        "requests": 4.0
+      }
+    },
+    "fresh/clear_evidence": {
+      "A_late_commit_exact": {
+        "effects": [
+          1
+        ],
+        "duplicate": 0,
+        "false_split": 0,
+        "false_merge": 0,
+        "paused": 0,
+        "requests": 3.0
+      },
+      "A_late_commit_paraphrase": {
+        "effects": [
+          1
+        ],
+        "duplicate": 0,
+        "false_split": 0,
+        "false_merge": 0,
+        "paused": 0,
+        "requests": 3.0
+      },
+      "A_lost_return_exact": {
+        "effects": [
+          1
+        ],
+        "duplicate": 0,
+        "false_split": 0,
+        "false_merge": 0,
+        "paused": 0,
+        "requests": 2.0
+      },
+      "A_lost_return_paraphrase": {
+        "effects": [
+          1
+        ],
+        "duplicate": 0,
+        "false_split": 0,
+        "false_merge": 0,
+        "paused": 10,
+        "requests": 2.0
+      },
+      "B": {
+        "effects": [
+          1
+        ],
+        "duplicate": 0,
+        "false_split": 0,
+        "false_merge": 0,
+        "paused": 10,
+        "requests": 2.0
+      }
+    },
+    "none/semantic_dedup": {
+      "A_late_commit_exact": {
+        "effects": [
+          1
+        ],
+        "duplicate": 0,
+        "false_split": 0,
+        "false_merge": 0,
+        "paused": 0,
+        "requests": 2.0
+      },
+      "A_late_commit_paraphrase": {
+        "effects": [
+          1
+        ],
+        "duplicate": 0,
+        "false_split": 0,
+        "false_merge": 0,
+        "paused": 0,
+        "requests": 2.0
+      },
+      "A_lost_return_exact": {
+        "effects": [
+          1
+        ],
+        "duplicate": 0,
+        "false_split": 0,
+        "false_merge": 0,
+        "paused": 0,
+        "requests": 2.0
+      },
+      "A_lost_return_paraphrase": {
+        "effects": [
+          1
+        ],
+        "duplicate": 0,
+        "false_split": 0,
+        "false_merge": 0,
+        "paused": 0,
+        "requests": 2.0
+      },
+      "B": {
+        "effects": [
+          1
+        ],
+        "duplicate": 0,
+        "false_split": 0,
+        "false_merge": 10,
+        "paused": 0,
+        "requests": 2.0
+      }
+    },
+    "none/verify_retry": {
+      "A_late_commit_exact": {
+        "effects": [
+          2
+        ],
+        "duplicate": 10,
+        "false_split": 0,
+        "false_merge": 0,
+        "paused": 0,
+        "requests": 3.0
+      },
+      "A_late_commit_paraphrase": {
+        "effects": [
+          2
+        ],
+        "duplicate": 0,
+        "false_split": 10,
+        "false_merge": 0,
+        "paused": 0,
+        "requests": 3.0
+      },
+      "A_lost_return_exact": {
+        "effects": [
+          1
+        ],
+        "duplicate": 0,
+        "false_split": 0,
+        "false_merge": 0,
+        "paused": 0,
+        "requests": 2.0
+      },
+      "A_lost_return_paraphrase": {
+        "effects": [
+          1
+        ],
+        "duplicate": 0,
+        "false_split": 0,
+        "false_merge": 0,
+        "paused": 0,
+        "requests": 2.0
+      },
+      "B": {
+        "effects": [
+          2
+        ],
+        "duplicate": 0,
+        "false_split": 0,
+        "false_merge": 0,
+        "paused": 0,
+        "requests": 2.0
+      }
+    },
+    "none/clear_fenced": {
+      "A_late_commit_exact": {
+        "effects": [
+          1
+        ],
+        "duplicate": 0,
+        "false_split": 0,
+        "false_merge": 0,
+        "paused": 0,
+        "requests": 5.0
+      },
+      "A_late_commit_paraphrase": {
+        "effects": [
+          1
+        ],
+        "duplicate": 0,
+        "false_split": 0,
+        "false_merge": 0,
+        "paused": 0,
+        "requests": 5.0
+      },
+      "A_lost_return_exact": {
+        "effects": [
+          1
+        ],
+        "duplicate": 0,
+        "false_split": 0,
+        "false_merge": 0,
+        "paused": 0,
+        "requests": 6.0
+      },
+      "A_lost_return_paraphrase": {
+        "effects": [
+          1
+        ],
+        "duplicate": 0,
+        "false_split": 0,
+        "false_merge": 0,
+        "paused": 0,
+        "requests": 6.0
+      },
+      "B": {
+        "effects": [
+          2
+        ],
+        "duplicate": 0,
+        "false_split": 0,
+        "false_merge": 0,
+        "paused": 0,
+        "requests": 4.0
+      }
+    },
+    "none/clear_evidence": {
+      "A_late_commit_exact": {
+        "effects": [
+          1
+        ],
+        "duplicate": 0,
+        "false_split": 0,
+        "false_merge": 0,
+        "paused": 0,
+        "requests": 3.0
+      },
+      "A_late_commit_paraphrase": {
+        "effects": [
+          1
+        ],
+        "duplicate": 0,
+        "false_split": 0,
+        "false_merge": 0,
+        "paused": 0,
+        "requests": 3.0
+      },
+      "A_lost_return_exact": {
+        "effects": [
+          1
+        ],
+        "duplicate": 0,
+        "false_split": 0,
+        "false_merge": 0,
+        "paused": 0,
+        "requests": 2.0
+      },
+      "A_lost_return_paraphrase": {
+        "effects": [
+          1
+        ],
+        "duplicate": 0,
+        "false_split": 0,
+        "false_merge": 0,
+        "paused": 10,
+        "requests": 2.0
+      },
+      "B": {
+        "effects": [
+          1
+        ],
+        "duplicate": 0,
+        "false_split": 0,
+        "false_merge": 0,
+        "paused": 10,
+        "requests": 2.0
+      }
+    }
+  },
+  "failed": []
+}

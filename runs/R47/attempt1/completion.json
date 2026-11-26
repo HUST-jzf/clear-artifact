@@ -1,0 +1,2285 @@
+{
+  "tasks": [
+    {
+      "first_ok": false,
+      "old_active": 1,
+      "escalated": false,
+      "outcome": "written",
+      "case": "change_before_commit",
+      "disposal": "none",
+      "run": 1,
+      "workflow": "change_before_commit_none_R1",
+      "residual": 1,
+      "new_effects": 1,
+      "duplicates": 0,
+      "task_complete": false,
+      "writes": 2,
+      "visible_inconsistency": true,
+      "effects": [
+        {
+          "op": "change_before_commit_none_R1:attach:12A",
+          "intent": "seat:12A",
+          "seat": "12A",
+          "kind": "effect",
+          "state": "active"
+        },
+        {
+          "op": "change_before_commit_none_R1:attach:14C",
+          "intent": "seat:14C",
+          "seat": "14C",
+          "kind": "effect",
+          "state": "active"
+        }
+      ],
+      "epochs": {}
+    },
+    {
+      "first_ok": false,
+      "old_active": 1,
+      "escalated": false,
+      "outcome": "written",
+      "case": "change_before_commit",
+      "disposal": "none",
+      "run": 2,
+      "workflow": "change_before_commit_none_R2",
+      "residual": 1,
+      "new_effects": 1,
+      "duplicates": 0,
+      "task_complete": false,
+      "writes": 2,
+      "visible_inconsistency": true,
+      "effects": [
+        {
+          "op": "change_before_commit_none_R2:attach:12A",
+          "intent": "seat:12A",
+          "seat": "12A",
+          "kind": "effect",
+          "state": "active"
+        },
+        {
+          "op": "change_before_commit_none_R2:attach:14C",
+          "intent": "seat:14C",
+          "seat": "14C",
+          "kind": "effect",
+          "state": "active"
+        }
+      ],
+      "epochs": {}
+    },
+    {
+      "first_ok": false,
+      "old_active": 1,
+      "escalated": false,
+      "outcome": "written",
+      "case": "change_before_commit",
+      "disposal": "none",
+      "run": 3,
+      "workflow": "change_before_commit_none_R3",
+      "residual": 1,
+      "new_effects": 1,
+      "duplicates": 0,
+      "task_complete": false,
+      "writes": 2,
+      "visible_inconsistency": true,
+      "effects": [
+        {
+          "op": "change_before_commit_none_R3:attach:12A",
+          "intent": "seat:12A",
+          "seat": "12A",
+          "kind": "effect",
+          "state": "active"
+        },
+        {
+          "op": "change_before_commit_none_R3:attach:14C",
+          "intent": "seat:14C",
+          "seat": "14C",
+          "kind": "effect",
+          "state": "active"
+        }
+      ],
+      "epochs": {}
+    },
+    {
+      "first_ok": false,
+      "old_active": 1,
+      "escalated": false,
+      "outcome": "written",
+      "case": "change_before_commit",
+      "disposal": "none",
+      "run": 4,
+      "workflow": "change_before_commit_none_R4",
+      "residual": 1,
+      "new_effects": 1,
+      "duplicates": 0,
+      "task_complete": false,
+      "writes": 2,
+      "visible_inconsistency": true,
+      "effects": [
+        {
+          "op": "change_before_commit_none_R4:attach:12A",
+          "intent": "seat:12A",
+          "seat": "12A",
+          "kind": "effect",
+          "state": "active"
+        },
+        {
+          "op": "change_before_commit_none_R4:attach:14C",
+          "intent": "seat:14C",
+          "seat": "14C",
+          "kind": "effect",
+          "state": "active"
+        }
+      ],
+      "epochs": {}
+    },
+    {
+      "first_ok": false,
+      "old_active": 1,
+      "escalated": false,
+      "outcome": "written",
+      "case": "change_before_commit",
+      "disposal": "none",
+      "run": 5,
+      "workflow": "change_before_commit_none_R5",
+      "residual": 1,
+      "new_effects": 1,
+      "duplicates": 0,
+      "task_complete": false,
+      "writes": 2,
+      "visible_inconsistency": true,
+      "effects": [
+        {
+          "op": "change_before_commit_none_R5:attach:12A",
+          "intent": "seat:12A",
+          "seat": "12A",
+          "kind": "effect",
+          "state": "active"
+        },
+        {
+          "op": "change_before_commit_none_R5:attach:14C",
+          "intent": "seat:14C",
+          "seat": "14C",
+          "kind": "effect",
+          "state": "active"
+        }
+      ],
+      "epochs": {}
+    },
+    {
+      "first_ok": false,
+      "old_active": 1,
+      "escalated": false,
+      "outcome": "written",
+      "case": "change_before_commit",
+      "disposal": "none",
+      "run": 6,
+      "workflow": "change_before_commit_none_R6",
+      "residual": 1,
+      "new_effects": 1,
+      "duplicates": 0,
+      "task_complete": false,
+      "writes": 2,
+      "visible_inconsistency": true,
+      "effects": [
+        {
+          "op": "change_before_commit_none_R6:attach:12A",
+          "intent": "seat:12A",
+          "seat": "12A",
+          "kind": "effect",
+          "state": "active"
+        },
+        {
+          "op": "change_before_commit_none_R6:attach:14C",
+          "intent": "seat:14C",
+          "seat": "14C",
+          "kind": "effect",
+          "state": "active"
+        }
+      ],
+      "epochs": {}
+    },
+    {
+      "first_ok": false,
+      "old_active": 1,
+      "escalated": false,
+      "outcome": "compensated",
+      "case": "change_before_commit",
+      "disposal": "compensate_after_commit",
+      "run": 1,
+      "workflow": "change_before_commit_compensate_after_commit_R1",
+      "residual": 0,
+      "new_effects": 1,
+      "duplicates": 0,
+      "task_complete": true,
+      "writes": 3,
+      "visible_inconsistency": false,
+      "effects": [
+        {
+          "op": "change_before_commit_compensate_after_commit_R1:attach:12A",
+          "intent": "seat:12A",
+          "seat": "12A",
+          "kind": "effect",
+          "state": "compensated"
+        },
+        {
+          "op": "change_before_commit_compensate_after_commit_R1:attach:14C",
+          "intent": "seat:14C",
+          "seat": "14C",
+          "kind": "effect",
+          "state": "active"
+        },
+        {
+          "op": "change_before_commit_compensate_after_commit_R1:attach:12A",
+          "intent": "seat:12A",
+          "seat": "",
+          "kind": "compensation",
+          "state": "done"
+        }
+      ],
+      "epochs": {}
+    },
+    {
+      "first_ok": false,
+      "old_active": 1,
+      "escalated": false,
+      "outcome": "compensated",
+      "case": "change_before_commit",
+      "disposal": "compensate_after_commit",
+      "run": 2,
+      "workflow": "change_before_commit_compensate_after_commit_R2",
+      "residual": 0,
+      "new_effects": 1,
+      "duplicates": 0,
+      "task_complete": true,
+      "writes": 3,
+      "visible_inconsistency": false,
+      "effects": [
+        {
+          "op": "change_before_commit_compensate_after_commit_R2:attach:12A",
+          "intent": "seat:12A",
+          "seat": "12A",
+          "kind": "effect",
+          "state": "compensated"
+        },
+        {
+          "op": "change_before_commit_compensate_after_commit_R2:attach:14C",
+          "intent": "seat:14C",
+          "seat": "14C",
+          "kind": "effect",
+          "state": "active"
+        },
+        {
+          "op": "change_before_commit_compensate_after_commit_R2:attach:12A",
+          "intent": "seat:12A",
+          "seat": "",
+          "kind": "compensation",
+          "state": "done"
+        }
+      ],
+      "epochs": {}
+    },
+    {
+      "first_ok": false,
+      "old_active": 1,
+      "escalated": false,
+      "outcome": "compensated",
+      "case": "change_before_commit",
+      "disposal": "compensate_after_commit",
+      "run": 3,
+      "workflow": "change_before_commit_compensate_after_commit_R3",
+      "residual": 0,
+      "new_effects": 1,
+      "duplicates": 0,
+      "task_complete": true,
+      "writes": 3,
+      "visible_inconsistency": false,
+      "effects": [
+        {
+          "op": "change_before_commit_compensate_after_commit_R3:attach:12A",
+          "intent": "seat:12A",
+          "seat": "12A",
+          "kind": "effect",
+          "state": "compensated"
+        },
+        {
+          "op": "change_before_commit_compensate_after_commit_R3:attach:14C",
+          "intent": "seat:14C",
+          "seat": "14C",
+          "kind": "effect",
+          "state": "active"
+        },
+        {
+          "op": "change_before_commit_compensate_after_commit_R3:attach:12A",
+          "intent": "seat:12A",
+          "seat": "",
+          "kind": "compensation",
+          "state": "done"
+        }
+      ],
+      "epochs": {}
+    },
+    {
+      "first_ok": false,
+      "old_active": 1,
+      "escalated": false,
+      "outcome": "compensated",
+      "case": "change_before_commit",
+      "disposal": "compensate_after_commit",
+      "run": 4,
+      "workflow": "change_before_commit_compensate_after_commit_R4",
+      "residual": 1,
+      "new_effects": 1,
+      "duplicates": 0,
+      "task_complete": false,
+      "writes": 2,
+      "visible_inconsistency": true,
+      "effects": [
+        {
+          "op": "change_before_commit_compensate_after_commit_R4:attach:12A",
+          "intent": "seat:12A",
+          "seat": "12A",
+          "kind": "effect",
+          "state": "active"
+        },
+        {
+          "op": "change_before_commit_compensate_after_commit_R4:attach:14C",
+          "intent": "seat:14C",
+          "seat": "14C",
+          "kind": "effect",
+          "state": "active"
+        }
+      ],
+      "epochs": {}
+    },
+    {
+      "first_ok": false,
+      "old_active": 1,
+      "escalated": false,
+      "outcome": "compensated",
+      "case": "change_before_commit",
+      "disposal": "compensate_after_commit",
+      "run": 5,
+      "workflow": "change_before_commit_compensate_after_commit_R5",
+      "residual": 1,
+      "new_effects": 1,
+      "duplicates": 0,
+      "task_complete": false,
+      "writes": 2,
+      "visible_inconsistency": true,
+      "effects": [
+        {
+          "op": "change_before_commit_compensate_after_commit_R5:attach:12A",
+          "intent": "seat:12A",
+          "seat": "12A",
+          "kind": "effect",
+          "state": "active"
+        },
+        {
+          "op": "change_before_commit_compensate_after_commit_R5:attach:14C",
+          "intent": "seat:14C",
+          "seat": "14C",
+          "kind": "effect",
+          "state": "active"
+        }
+      ],
+      "epochs": {}
+    },
+    {
+      "first_ok": false,
+      "old_active": 1,
+      "escalated": false,
+      "outcome": "compensated",
+      "case": "change_before_commit",
+      "disposal": "compensate_after_commit",
+      "run": 6,
+      "workflow": "change_before_commit_compensate_after_commit_R6",
+      "residual": 1,
+      "new_effects": 1,
+      "duplicates": 0,
+      "task_complete": false,
+      "writes": 2,
+      "visible_inconsistency": true,
+      "effects": [
+        {
+          "op": "change_before_commit_compensate_after_commit_R6:attach:12A",
+          "intent": "seat:12A",
+          "seat": "12A",
+          "kind": "effect",
+          "state": "active"
+        },
+        {
+          "op": "change_before_commit_compensate_after_commit_R6:attach:14C",
+          "intent": "seat:14C",
+          "seat": "14C",
+          "kind": "effect",
+          "state": "active"
+        }
+      ],
+      "epochs": {}
+    },
+    {
+      "first_ok": false,
+      "old_active": 1,
+      "escalated": false,
+      "outcome": "transferred",
+      "case": "change_before_commit",
+      "disposal": "ownership_transfer",
+      "run": 1,
+      "workflow": "change_before_commit_ownership_transfer_R1",
+      "residual": 0,
+      "new_effects": 1,
+      "duplicates": 0,
+      "task_complete": true,
+      "writes": 2,
+      "visible_inconsistency": false,
+      "effects": [
+        {
+          "op": "change_before_commit_ownership_transfer_R1:attach:12A",
+          "intent": "seat:12A",
+          "seat": "12A",
+          "kind": "effect",
+          "state": "transferred"
+        },
+        {
+          "op": "change_before_commit_ownership_transfer_R1:attach:14C",
+          "intent": "seat:14C",
+          "seat": "14C",
+          "kind": "effect",
+          "state": "active"
+        }
+      ],
+      "epochs": {
+        "change_before_commit_ownership_transfer_R1:attach:12A": 2
+      }
+    },
+    {
+      "first_ok": false,
+      "old_active": 1,
+      "escalated": false,
+      "outcome": "transferred",
+      "case": "change_before_commit",
+      "disposal": "ownership_transfer",
+      "run": 2,
+      "workflow": "change_before_commit_ownership_transfer_R2",
+      "residual": 0,
+      "new_effects": 1,
+      "duplicates": 0,
+      "task_complete": true,
+      "writes": 2,
+      "visible_inconsistency": false,
+      "effects": [
+        {
+          "op": "change_before_commit_ownership_transfer_R2:attach:12A",
+          "intent": "seat:12A",
+          "seat": "12A",
+          "kind": "effect",
+          "state": "transferred"
+        },
+        {
+          "op": "change_before_commit_ownership_transfer_R2:attach:14C",
+          "intent": "seat:14C",
+          "seat": "14C",
+          "kind": "effect",
+          "state": "active"
+        }
+      ],
+      "epochs": {
+        "change_before_commit_ownership_transfer_R2:attach:12A": 2
+      }
+    },
+    {
+      "first_ok": false,
+      "old_active": 1,
+      "escalated": false,
+      "outcome": "transferred",
+      "case": "change_before_commit",
+      "disposal": "ownership_transfer",
+      "run": 3,
+      "workflow": "change_before_commit_ownership_transfer_R3",
+      "residual": 0,
+      "new_effects": 1,
+      "duplicates": 0,
+      "task_complete": true,
+      "writes": 2,
+      "visible_inconsistency": false,
+      "effects": [
+        {
+          "op": "change_before_commit_ownership_transfer_R3:attach:12A",
+          "intent": "seat:12A",
+          "seat": "12A",
+          "kind": "effect",
+          "state": "transferred"
+        },
+        {
+          "op": "change_before_commit_ownership_transfer_R3:attach:14C",
+          "intent": "seat:14C",
+          "seat": "14C",
+          "kind": "effect",
+          "state": "active"
+        }
+      ],
+      "epochs": {
+        "change_before_commit_ownership_transfer_R3:attach:12A": 2
+      }
+    },
+    {
+      "first_ok": false,
+      "old_active": 1,
+      "escalated": false,
+      "outcome": "transferred",
+      "case": "change_before_commit",
+      "disposal": "ownership_transfer",
+      "run": 4,
+      "workflow": "change_before_commit_ownership_transfer_R4",
+      "residual": 1,
+      "new_effects": 0,
+      "duplicates": 0,
+      "task_complete": false,
+      "writes": 1,
+      "visible_inconsistency": true,
+      "effects": [
+        {
+          "op": "change_before_commit_ownership_transfer_R4:attach:12A",
+          "intent": "seat:12A",
+          "seat": "12A",
+          "kind": "effect",
+          "state": "active"
+        }
+      ],
+      "epochs": {}
+    },
+    {
+      "first_ok": false,
+      "old_active": 1,
+      "escalated": false,
+      "outcome": "transferred",
+      "case": "change_before_commit",
+      "disposal": "ownership_transfer",
+      "run": 5,
+      "workflow": "change_before_commit_ownership_transfer_R5",
+      "residual": 1,
+      "new_effects": 0,
+      "duplicates": 0,
+      "task_complete": false,
+      "writes": 1,
+      "visible_inconsistency": true,
+      "effects": [
+        {
+          "op": "change_before_commit_ownership_transfer_R5:attach:12A",
+          "intent": "seat:12A",
+          "seat": "12A",
+          "kind": "effect",
+          "state": "active"
+        }
+      ],
+      "epochs": {}
+    },
+    {
+      "first_ok": false,
+      "old_active": 1,
+      "escalated": false,
+      "outcome": "transferred",
+      "case": "change_before_commit",
+      "disposal": "ownership_transfer",
+      "run": 6,
+      "workflow": "change_before_commit_ownership_transfer_R6",
+      "residual": 1,
+      "new_effects": 0,
+      "duplicates": 0,
+      "task_complete": false,
+      "writes": 1,
+      "visible_inconsistency": true,
+      "effects": [
+        {
+          "op": "change_before_commit_ownership_transfer_R6:attach:12A",
+          "intent": "seat:12A",
+          "seat": "12A",
+          "kind": "effect",
+          "state": "active"
+        }
+      ],
+      "epochs": {}
+    },
+    {
+      "first_ok": false,
+      "old_active": 1,
+      "escalated": true,
+      "outcome": "escalated",
+      "case": "change_before_commit",
+      "disposal": "pause_escalate",
+      "run": 1,
+      "workflow": "change_before_commit_pause_escalate_R1",
+      "residual": 1,
+      "new_effects": 0,
+      "duplicates": 0,
+      "task_complete": false,
+      "writes": 1,
+      "visible_inconsistency": true,
+      "effects": [
+        {
+          "op": "change_before_commit_pause_escalate_R1:attach:12A",
+          "intent": "seat:12A",
+          "seat": "12A",
+          "kind": "effect",
+          "state": "active"
+        }
+      ],
+      "epochs": {}
+    },
+    {
+      "first_ok": false,
+      "old_active": 1,
+      "escalated": true,
+      "outcome": "escalated",
+      "case": "change_before_commit",
+      "disposal": "pause_escalate",
+      "run": 2,
+      "workflow": "change_before_commit_pause_escalate_R2",
+      "residual": 1,
+      "new_effects": 0,
+      "duplicates": 0,
+      "task_complete": false,
+      "writes": 1,
+      "visible_inconsistency": true,
+      "effects": [
+        {
+          "op": "change_before_commit_pause_escalate_R2:attach:12A",
+          "intent": "seat:12A",
+          "seat": "12A",
+          "kind": "effect",
+          "state": "active"
+        }
+      ],
+      "epochs": {}
+    },
+    {
+      "first_ok": false,
+      "old_active": 1,
+      "escalated": true,
+      "outcome": "escalated",
+      "case": "change_before_commit",
+      "disposal": "pause_escalate",
+      "run": 3,
+      "workflow": "change_before_commit_pause_escalate_R3",
+      "residual": 1,
+      "new_effects": 0,
+      "duplicates": 0,
+      "task_complete": false,
+      "writes": 1,
+      "visible_inconsistency": true,
+      "effects": [
+        {
+          "op": "change_before_commit_pause_escalate_R3:attach:12A",
+          "intent": "seat:12A",
+          "seat": "12A",
+          "kind": "effect",
+          "state": "active"
+        }
+      ],
+      "epochs": {}
+    },
+    {
+      "first_ok": false,
+      "old_active": 1,
+      "escalated": true,
+      "outcome": "escalated",
+      "case": "change_before_commit",
+      "disposal": "pause_escalate",
+      "run": 4,
+      "workflow": "change_before_commit_pause_escalate_R4",
+      "residual": 1,
+      "new_effects": 0,
+      "duplicates": 0,
+      "task_complete": false,
+      "writes": 1,
+      "visible_inconsistency": true,
+      "effects": [
+        {
+          "op": "change_before_commit_pause_escalate_R4:attach:12A",
+          "intent": "seat:12A",
+          "seat": "12A",
+          "kind": "effect",
+          "state": "active"
+        }
+      ],
+      "epochs": {}
+    },
+    {
+      "first_ok": false,
+      "old_active": 1,
+      "escalated": true,
+      "outcome": "escalated",
+      "case": "change_before_commit",
+      "disposal": "pause_escalate",
+      "run": 5,
+      "workflow": "change_before_commit_pause_escalate_R5",
+      "residual": 1,
+      "new_effects": 0,
+      "duplicates": 0,
+      "task_complete": false,
+      "writes": 1,
+      "visible_inconsistency": true,
+      "effects": [
+        {
+          "op": "change_before_commit_pause_escalate_R5:attach:12A",
+          "intent": "seat:12A",
+          "seat": "12A",
+          "kind": "effect",
+          "state": "active"
+        }
+      ],
+      "epochs": {}
+    },
+    {
+      "first_ok": false,
+      "old_active": 1,
+      "escalated": true,
+      "outcome": "escalated",
+      "case": "change_before_commit",
+      "disposal": "pause_escalate",
+      "run": 6,
+      "workflow": "change_before_commit_pause_escalate_R6",
+      "residual": 1,
+      "new_effects": 0,
+      "duplicates": 0,
+      "task_complete": false,
+      "writes": 1,
+      "visible_inconsistency": true,
+      "effects": [
+        {
+          "op": "change_before_commit_pause_escalate_R6:attach:12A",
+          "intent": "seat:12A",
+          "seat": "12A",
+          "kind": "effect",
+          "state": "active"
+        }
+      ],
+      "epochs": {}
+    },
+    {
+      "first_ok": true,
+      "old_active": 1,
+      "escalated": false,
+      "outcome": "written",
+      "case": "change_after_commit",
+      "disposal": "none",
+      "run": 1,
+      "workflow": "change_after_commit_none_R1",
+      "residual": 1,
+      "new_effects": 1,
+      "duplicates": 0,
+      "task_complete": false,
+      "writes": 2,
+      "visible_inconsistency": true,
+      "effects": [
+        {
+          "op": "change_after_commit_none_R1:attach:12A",
+          "intent": "seat:12A",
+          "seat": "12A",
+          "kind": "effect",
+          "state": "active"
+        },
+        {
+          "op": "change_after_commit_none_R1:attach:14C",
+          "intent": "seat:14C",
+          "seat": "14C",
+          "kind": "effect",
+          "state": "active"
+        }
+      ],
+      "epochs": {}
+    },
+    {
+      "first_ok": true,
+      "old_active": 1,
+      "escalated": false,
+      "outcome": "written",
+      "case": "change_after_commit",
+      "disposal": "none",
+      "run": 2,
+      "workflow": "change_after_commit_none_R2",
+      "residual": 1,
+      "new_effects": 1,
+      "duplicates": 0,
+      "task_complete": false,
+      "writes": 2,
+      "visible_inconsistency": true,
+      "effects": [
+        {
+          "op": "change_after_commit_none_R2:attach:12A",
+          "intent": "seat:12A",
+          "seat": "12A",
+          "kind": "effect",
+          "state": "active"
+        },
+        {
+          "op": "change_after_commit_none_R2:attach:14C",
+          "intent": "seat:14C",
+          "seat": "14C",
+          "kind": "effect",
+          "state": "active"
+        }
+      ],
+      "epochs": {}
+    },
+    {
+      "first_ok": true,
+      "old_active": 1,
+      "escalated": false,
+      "outcome": "written",
+      "case": "change_after_commit",
+      "disposal": "none",
+      "run": 3,
+      "workflow": "change_after_commit_none_R3",
+      "residual": 1,
+      "new_effects": 1,
+      "duplicates": 0,
+      "task_complete": false,
+      "writes": 2,
+      "visible_inconsistency": true,
+      "effects": [
+        {
+          "op": "change_after_commit_none_R3:attach:12A",
+          "intent": "seat:12A",
+          "seat": "12A",
+          "kind": "effect",
+          "state": "active"
+        },
+        {
+          "op": "change_after_commit_none_R3:attach:14C",
+          "intent": "seat:14C",
+          "seat": "14C",
+          "kind": "effect",
+          "state": "active"
+        }
+      ],
+      "epochs": {}
+    },
+    {
+      "first_ok": true,
+      "old_active": 1,
+      "escalated": false,
+      "outcome": "written",
+      "case": "change_after_commit",
+      "disposal": "none",
+      "run": 4,
+      "workflow": "change_after_commit_none_R4",
+      "residual": 1,
+      "new_effects": 1,
+      "duplicates": 0,
+      "task_complete": false,
+      "writes": 2,
+      "visible_inconsistency": true,
+      "effects": [
+        {
+          "op": "change_after_commit_none_R4:attach:12A",
+          "intent": "seat:12A",
+          "seat": "12A",
+          "kind": "effect",
+          "state": "active"
+        },
+        {
+          "op": "change_after_commit_none_R4:attach:14C",
+          "intent": "seat:14C",
+          "seat": "14C",
+          "kind": "effect",
+          "state": "active"
+        }
+      ],
+      "epochs": {}
+    },
+    {
+      "first_ok": true,
+      "old_active": 1,
+      "escalated": false,
+      "outcome": "written",
+      "case": "change_after_commit",
+      "disposal": "none",
+      "run": 5,
+      "workflow": "change_after_commit_none_R5",
+      "residual": 1,
+      "new_effects": 1,
+      "duplicates": 0,
+      "task_complete": false,
+      "writes": 2,
+      "visible_inconsistency": true,
+      "effects": [
+        {
+          "op": "change_after_commit_none_R5:attach:12A",
+          "intent": "seat:12A",
+          "seat": "12A",
+          "kind": "effect",
+          "state": "active"
+        },
+        {
+          "op": "change_after_commit_none_R5:attach:14C",
+          "intent": "seat:14C",
+          "seat": "14C",
+          "kind": "effect",
+          "state": "active"
+        }
+      ],
+      "epochs": {}
+    },
+    {
+      "first_ok": true,
+      "old_active": 1,
+      "escalated": false,
+      "outcome": "written",
+      "case": "change_after_commit",
+      "disposal": "none",
+      "run": 6,
+      "workflow": "change_after_commit_none_R6",
+      "residual": 1,
+      "new_effects": 1,
+      "duplicates": 0,
+      "task_complete": false,
+      "writes": 2,
+      "visible_inconsistency": true,
+      "effects": [
+        {
+          "op": "change_after_commit_none_R6:attach:12A",
+          "intent": "seat:12A",
+          "seat": "12A",
+          "kind": "effect",
+          "state": "active"
+        },
+        {
+          "op": "change_after_commit_none_R6:attach:14C",
+          "intent": "seat:14C",
+          "seat": "14C",
+          "kind": "effect",
+          "state": "active"
+        }
+      ],
+      "epochs": {}
+    },
+    {
+      "first_ok": true,
+      "old_active": 1,
+      "escalated": false,
+      "outcome": "compensated",
+      "case": "change_after_commit",
+      "disposal": "compensate_after_commit",
+      "run": 1,
+      "workflow": "change_after_commit_compensate_after_commit_R1",
+      "residual": 0,
+      "new_effects": 1,
+      "duplicates": 0,
+      "task_complete": true,
+      "writes": 3,
+      "visible_inconsistency": false,
+      "effects": [
+        {
+          "op": "change_after_commit_compensate_after_commit_R1:attach:12A",
+          "intent": "seat:12A",
+          "seat": "12A",
+          "kind": "effect",
+          "state": "compensated"
+        },
+        {
+          "op": "change_after_commit_compensate_after_commit_R1:attach:14C",
+          "intent": "seat:14C",
+          "seat": "14C",
+          "kind": "effect",
+          "state": "active"
+        },
+        {
+          "op": "change_after_commit_compensate_after_commit_R1:attach:12A",
+          "intent": "seat:12A",
+          "seat": "",
+          "kind": "compensation",
+          "state": "done"
+        }
+      ],
+      "epochs": {}
+    },
+    {
+      "first_ok": true,
+      "old_active": 1,
+      "escalated": false,
+      "outcome": "compensated",
+      "case": "change_after_commit",
+      "disposal": "compensate_after_commit",
+      "run": 2,
+      "workflow": "change_after_commit_compensate_after_commit_R2",
+      "residual": 0,
+      "new_effects": 1,
+      "duplicates": 0,
+      "task_complete": true,
+      "writes": 3,
+      "visible_inconsistency": false,
+      "effects": [
+        {
+          "op": "change_after_commit_compensate_after_commit_R2:attach:12A",
+          "intent": "seat:12A",
+          "seat": "12A",
+          "kind": "effect",
+          "state": "compensated"
+        },
+        {
+          "op": "change_after_commit_compensate_after_commit_R2:attach:14C",
+          "intent": "seat:14C",
+          "seat": "14C",
+          "kind": "effect",
+          "state": "active"
+        },
+        {
+          "op": "change_after_commit_compensate_after_commit_R2:attach:12A",
+          "intent": "seat:12A",
+          "seat": "",
+          "kind": "compensation",
+          "state": "done"
+        }
+      ],
+      "epochs": {}
+    },
+    {
+      "first_ok": true,
+      "old_active": 1,
+      "escalated": false,
+      "outcome": "compensated",
+      "case": "change_after_commit",
+      "disposal": "compensate_after_commit",
+      "run": 3,
+      "workflow": "change_after_commit_compensate_after_commit_R3",
+      "residual": 0,
+      "new_effects": 1,
+      "duplicates": 0,
+      "task_complete": true,
+      "writes": 3,
+      "visible_inconsistency": false,
+      "effects": [
+        {
+          "op": "change_after_commit_compensate_after_commit_R3:attach:12A",
+          "intent": "seat:12A",
+          "seat": "12A",
+          "kind": "effect",
+          "state": "compensated"
+        },
+        {
+          "op": "change_after_commit_compensate_after_commit_R3:attach:14C",
+          "intent": "seat:14C",
+          "seat": "14C",
+          "kind": "effect",
+          "state": "active"
+        },
+        {
+          "op": "change_after_commit_compensate_after_commit_R3:attach:12A",
+          "intent": "seat:12A",
+          "seat": "",
+          "kind": "compensation",
+          "state": "done"
+        }
+      ],
+      "epochs": {}
+    },
+    {
+      "first_ok": true,
+      "old_active": 1,
+      "escalated": false,
+      "outcome": "compensated",
+      "case": "change_after_commit",
+      "disposal": "compensate_after_commit",
+      "run": 4,
+      "workflow": "change_after_commit_compensate_after_commit_R4",
+      "residual": 1,
+      "new_effects": 1,
+      "duplicates": 0,
+      "task_complete": false,
+      "writes": 2,
+      "visible_inconsistency": true,
+      "effects": [
+        {
+          "op": "change_after_commit_compensate_after_commit_R4:attach:12A",
+          "intent": "seat:12A",
+          "seat": "12A",
+          "kind": "effect",
+          "state": "active"
+        },
+        {
+          "op": "change_after_commit_compensate_after_commit_R4:attach:14C",
+          "intent": "seat:14C",
+          "seat": "14C",
+          "kind": "effect",
+          "state": "active"
+        }
+      ],
+      "epochs": {}
+    },
+    {
+      "first_ok": true,
+      "old_active": 1,
+      "escalated": false,
+      "outcome": "compensated",
+      "case": "change_after_commit",
+      "disposal": "compensate_after_commit",
+      "run": 5,
+      "workflow": "change_after_commit_compensate_after_commit_R5",
+      "residual": 1,
+      "new_effects": 1,
+      "duplicates": 0,
+      "task_complete": false,
+      "writes": 2,
+      "visible_inconsistency": true,
+      "effects": [
+        {
+          "op": "change_after_commit_compensate_after_commit_R5:attach:12A",
+          "intent": "seat:12A",
+          "seat": "12A",
+          "kind": "effect",
+          "state": "active"
+        },
+        {
+          "op": "change_after_commit_compensate_after_commit_R5:attach:14C",
+          "intent": "seat:14C",
+          "seat": "14C",
+          "kind": "effect",
+          "state": "active"
+        }
+      ],
+      "epochs": {}
+    },
+    {
+      "first_ok": true,
+      "old_active": 1,
+      "escalated": false,
+      "outcome": "compensated",
+      "case": "change_after_commit",
+      "disposal": "compensate_after_commit",
+      "run": 6,
+      "workflow": "change_after_commit_compensate_after_commit_R6",
+      "residual": 1,
+      "new_effects": 1,
+      "duplicates": 0,
+      "task_complete": false,
+      "writes": 2,
+      "visible_inconsistency": true,
+      "effects": [
+        {
+          "op": "change_after_commit_compensate_after_commit_R6:attach:12A",
+          "intent": "seat:12A",
+          "seat": "12A",
+          "kind": "effect",
+          "state": "active"
+        },
+        {
+          "op": "change_after_commit_compensate_after_commit_R6:attach:14C",
+          "intent": "seat:14C",
+          "seat": "14C",
+          "kind": "effect",
+          "state": "active"
+        }
+      ],
+      "epochs": {}
+    },
+    {
+      "first_ok": true,
+      "old_active": 1,
+      "escalated": false,
+      "outcome": "transferred",
+      "case": "change_after_commit",
+      "disposal": "ownership_transfer",
+      "run": 1,
+      "workflow": "change_after_commit_ownership_transfer_R1",
+      "residual": 0,
+      "new_effects": 1,
+      "duplicates": 0,
+      "task_complete": true,
+      "writes": 2,
+      "visible_inconsistency": false,
+      "effects": [
+        {
+          "op": "change_after_commit_ownership_transfer_R1:attach:12A",
+          "intent": "seat:12A",
+          "seat": "12A",
+          "kind": "effect",
+          "state": "transferred"
+        },
+        {
+          "op": "change_after_commit_ownership_transfer_R1:attach:14C",
+          "intent": "seat:14C",
+          "seat": "14C",
+          "kind": "effect",
+          "state": "active"
+        }
+      ],
+      "epochs": {
+        "change_after_commit_ownership_transfer_R1:attach:12A": 2
+      }
+    },
+    {
+      "first_ok": true,
+      "old_active": 1,
+      "escalated": false,
+      "outcome": "transferred",
+      "case": "change_after_commit",
+      "disposal": "ownership_transfer",
+      "run": 2,
+      "workflow": "change_after_commit_ownership_transfer_R2",
+      "residual": 0,
+      "new_effects": 1,
+      "duplicates": 0,
+      "task_complete": true,
+      "writes": 2,
+      "visible_inconsistency": false,
+      "effects": [
+        {
+          "op": "change_after_commit_ownership_transfer_R2:attach:12A",
+          "intent": "seat:12A",
+          "seat": "12A",
+          "kind": "effect",
+          "state": "transferred"
+        },
+        {
+          "op": "change_after_commit_ownership_transfer_R2:attach:14C",
+          "intent": "seat:14C",
+          "seat": "14C",
+          "kind": "effect",
+          "state": "active"
+        }
+      ],
+      "epochs": {
+        "change_after_commit_ownership_transfer_R2:attach:12A": 2
+      }
+    },
+    {
+      "first_ok": true,
+      "old_active": 1,
+      "escalated": false,
+      "outcome": "transferred",
+      "case": "change_after_commit",
+      "disposal": "ownership_transfer",
+      "run": 3,
+      "workflow": "change_after_commit_ownership_transfer_R3",
+      "residual": 0,
+      "new_effects": 1,
+      "duplicates": 0,
+      "task_complete": true,
+      "writes": 2,
+      "visible_inconsistency": false,
+      "effects": [
+        {
+          "op": "change_after_commit_ownership_transfer_R3:attach:12A",
+          "intent": "seat:12A",
+          "seat": "12A",
+          "kind": "effect",
+          "state": "transferred"
+        },
+        {
+          "op": "change_after_commit_ownership_transfer_R3:attach:14C",
+          "intent": "seat:14C",
+          "seat": "14C",
+          "kind": "effect",
+          "state": "active"
+        }
+      ],
+      "epochs": {
+        "change_after_commit_ownership_transfer_R3:attach:12A": 2
+      }
+    },
+    {
+      "first_ok": true,
+      "old_active": 1,
+      "escalated": false,
+      "outcome": "transferred",
+      "case": "change_after_commit",
+      "disposal": "ownership_transfer",
+      "run": 4,
+      "workflow": "change_after_commit_ownership_transfer_R4",
+      "residual": 1,
+      "new_effects": 0,
+      "duplicates": 0,
+      "task_complete": false,
+      "writes": 1,
+      "visible_inconsistency": true,
+      "effects": [
+        {
+          "op": "change_after_commit_ownership_transfer_R4:attach:12A",
+          "intent": "seat:12A",
+          "seat": "12A",
+          "kind": "effect",
+          "state": "active"
+        }
+      ],
+      "epochs": {}
+    },
+    {
+      "first_ok": true,
+      "old_active": 1,
+      "escalated": false,
+      "outcome": "transferred",
+      "case": "change_after_commit",
+      "disposal": "ownership_transfer",
+      "run": 5,
+      "workflow": "change_after_commit_ownership_transfer_R5",
+      "residual": 1,
+      "new_effects": 0,
+      "duplicates": 0,
+      "task_complete": false,
+      "writes": 1,
+      "visible_inconsistency": true,
+      "effects": [
+        {
+          "op": "change_after_commit_ownership_transfer_R5:attach:12A",
+          "intent": "seat:12A",
+          "seat": "12A",
+          "kind": "effect",
+          "state": "active"
+        }
+      ],
+      "epochs": {}
+    },
+    {
+      "first_ok": true,
+      "old_active": 1,
+      "escalated": false,
+      "outcome": "transferred",
+      "case": "change_after_commit",
+      "disposal": "ownership_transfer",
+      "run": 6,
+      "workflow": "change_after_commit_ownership_transfer_R6",
+      "residual": 1,
+      "new_effects": 0,
+      "duplicates": 0,
+      "task_complete": false,
+      "writes": 1,
+      "visible_inconsistency": true,
+      "effects": [
+        {
+          "op": "change_after_commit_ownership_transfer_R6:attach:12A",
+          "intent": "seat:12A",
+          "seat": "12A",
+          "kind": "effect",
+          "state": "active"
+        }
+      ],
+      "epochs": {}
+    },
+    {
+      "first_ok": true,
+      "old_active": 1,
+      "escalated": true,
+      "outcome": "escalated",
+      "case": "change_after_commit",
+      "disposal": "pause_escalate",
+      "run": 1,
+      "workflow": "change_after_commit_pause_escalate_R1",
+      "residual": 1,
+      "new_effects": 0,
+      "duplicates": 0,
+      "task_complete": false,
+      "writes": 1,
+      "visible_inconsistency": true,
+      "effects": [
+        {
+          "op": "change_after_commit_pause_escalate_R1:attach:12A",
+          "intent": "seat:12A",
+          "seat": "12A",
+          "kind": "effect",
+          "state": "active"
+        }
+      ],
+      "epochs": {}
+    },
+    {
+      "first_ok": true,
+      "old_active": 1,
+      "escalated": true,
+      "outcome": "escalated",
+      "case": "change_after_commit",
+      "disposal": "pause_escalate",
+      "run": 2,
+      "workflow": "change_after_commit_pause_escalate_R2",
+      "residual": 1,
+      "new_effects": 0,
+      "duplicates": 0,
+      "task_complete": false,
+      "writes": 1,
+      "visible_inconsistency": true,
+      "effects": [
+        {
+          "op": "change_after_commit_pause_escalate_R2:attach:12A",
+          "intent": "seat:12A",
+          "seat": "12A",
+          "kind": "effect",
+          "state": "active"
+        }
+      ],
+      "epochs": {}
+    },
+    {
+      "first_ok": true,
+      "old_active": 1,
+      "escalated": true,
+      "outcome": "escalated",
+      "case": "change_after_commit",
+      "disposal": "pause_escalate",
+      "run": 3,
+      "workflow": "change_after_commit_pause_escalate_R3",
+      "residual": 1,
+      "new_effects": 0,
+      "duplicates": 0,
+      "task_complete": false,
+      "writes": 1,
+      "visible_inconsistency": true,
+      "effects": [
+        {
+          "op": "change_after_commit_pause_escalate_R3:attach:12A",
+          "intent": "seat:12A",
+          "seat": "12A",
+          "kind": "effect",
+          "state": "active"
+        }
+      ],
+      "epochs": {}
+    },
+    {
+      "first_ok": true,
+      "old_active": 1,
+      "escalated": true,
+      "outcome": "escalated",
+      "case": "change_after_commit",
+      "disposal": "pause_escalate",
+      "run": 4,
+      "workflow": "change_after_commit_pause_escalate_R4",
+      "residual": 1,
+      "new_effects": 0,
+      "duplicates": 0,
+      "task_complete": false,
+      "writes": 1,
+      "visible_inconsistency": true,
+      "effects": [
+        {
+          "op": "change_after_commit_pause_escalate_R4:attach:12A",
+          "intent": "seat:12A",
+          "seat": "12A",
+          "kind": "effect",
+          "state": "active"
+        }
+      ],
+      "epochs": {}
+    },
+    {
+      "first_ok": true,
+      "old_active": 1,
+      "escalated": true,
+      "outcome": "escalated",
+      "case": "change_after_commit",
+      "disposal": "pause_escalate",
+      "run": 5,
+      "workflow": "change_after_commit_pause_escalate_R5",
+      "residual": 1,
+      "new_effects": 0,
+      "duplicates": 0,
+      "task_complete": false,
+      "writes": 1,
+      "visible_inconsistency": true,
+      "effects": [
+        {
+          "op": "change_after_commit_pause_escalate_R5:attach:12A",
+          "intent": "seat:12A",
+          "seat": "12A",
+          "kind": "effect",
+          "state": "active"
+        }
+      ],
+      "epochs": {}
+    },
+    {
+      "first_ok": true,
+      "old_active": 1,
+      "escalated": true,
+      "outcome": "escalated",
+      "case": "change_after_commit",
+      "disposal": "pause_escalate",
+      "run": 6,
+      "workflow": "change_after_commit_pause_escalate_R6",
+      "residual": 1,
+      "new_effects": 0,
+      "duplicates": 0,
+      "task_complete": false,
+      "writes": 1,
+      "visible_inconsistency": true,
+      "effects": [
+        {
+          "op": "change_after_commit_pause_escalate_R6:attach:12A",
+          "intent": "seat:12A",
+          "seat": "12A",
+          "kind": "effect",
+          "state": "active"
+        }
+      ],
+      "epochs": {}
+    },
+    {
+      "first_ok": false,
+      "old_active": 0,
+      "escalated": false,
+      "outcome": "written",
+      "case": "late_after_b",
+      "disposal": "none",
+      "run": 1,
+      "workflow": "late_after_b_none_R1",
+      "residual": 1,
+      "new_effects": 1,
+      "duplicates": 0,
+      "task_complete": false,
+      "writes": 2,
+      "visible_inconsistency": true,
+      "effects": [
+        {
+          "op": "late_after_b_none_R1:attach:14C",
+          "intent": "seat:14C",
+          "seat": "14C",
+          "kind": "effect",
+          "state": "active"
+        },
+        {
+          "op": "late_after_b_none_R1:attach:12A",
+          "intent": "seat:12A",
+          "seat": "12A",
+          "kind": "effect",
+          "state": "active"
+        }
+      ],
+      "epochs": {}
+    },
+    {
+      "first_ok": false,
+      "old_active": 0,
+      "escalated": false,
+      "outcome": "written",
+      "case": "late_after_b",
+      "disposal": "none",
+      "run": 2,
+      "workflow": "late_after_b_none_R2",
+      "residual": 1,
+      "new_effects": 1,
+      "duplicates": 0,
+      "task_complete": false,
+      "writes": 2,
+      "visible_inconsistency": true,
+      "effects": [
+        {
+          "op": "late_after_b_none_R2:attach:14C",
+          "intent": "seat:14C",
+          "seat": "14C",
+          "kind": "effect",
+          "state": "active"
+        },
+        {
+          "op": "late_after_b_none_R2:attach:12A",
+          "intent": "seat:12A",
+          "seat": "12A",
+          "kind": "effect",
+          "state": "active"
+        }
+      ],
+      "epochs": {}
+    },
+    {
+      "first_ok": false,
+      "old_active": 0,
+      "escalated": false,
+      "outcome": "written",
+      "case": "late_after_b",
+      "disposal": "none",
+      "run": 3,
+      "workflow": "late_after_b_none_R3",
+      "residual": 1,
+      "new_effects": 1,
+      "duplicates": 0,
+      "task_complete": false,
+      "writes": 2,
+      "visible_inconsistency": true,
+      "effects": [
+        {
+          "op": "late_after_b_none_R3:attach:14C",
+          "intent": "seat:14C",
+          "seat": "14C",
+          "kind": "effect",
+          "state": "active"
+        },
+        {
+          "op": "late_after_b_none_R3:attach:12A",
+          "intent": "seat:12A",
+          "seat": "12A",
+          "kind": "effect",
+          "state": "active"
+        }
+      ],
+      "epochs": {}
+    },
+    {
+      "first_ok": false,
+      "old_active": 0,
+      "escalated": false,
+      "outcome": "written",
+      "case": "late_after_b",
+      "disposal": "none",
+      "run": 4,
+      "workflow": "late_after_b_none_R4",
+      "residual": 1,
+      "new_effects": 1,
+      "duplicates": 0,
+      "task_complete": false,
+      "writes": 2,
+      "visible_inconsistency": true,
+      "effects": [
+        {
+          "op": "late_after_b_none_R4:attach:14C",
+          "intent": "seat:14C",
+          "seat": "14C",
+          "kind": "effect",
+          "state": "active"
+        },
+        {
+          "op": "late_after_b_none_R4:attach:12A",
+          "intent": "seat:12A",
+          "seat": "12A",
+          "kind": "effect",
+          "state": "active"
+        }
+      ],
+      "epochs": {}
+    },
+    {
+      "first_ok": false,
+      "old_active": 0,
+      "escalated": false,
+      "outcome": "written",
+      "case": "late_after_b",
+      "disposal": "none",
+      "run": 5,
+      "workflow": "late_after_b_none_R5",
+      "residual": 1,
+      "new_effects": 1,
+      "duplicates": 0,
+      "task_complete": false,
+      "writes": 2,
+      "visible_inconsistency": true,
+      "effects": [
+        {
+          "op": "late_after_b_none_R5:attach:14C",
+          "intent": "seat:14C",
+          "seat": "14C",
+          "kind": "effect",
+          "state": "active"
+        },
+        {
+          "op": "late_after_b_none_R5:attach:12A",
+          "intent": "seat:12A",
+          "seat": "12A",
+          "kind": "effect",
+          "state": "active"
+        }
+      ],
+      "epochs": {}
+    },
+    {
+      "first_ok": false,
+      "old_active": 0,
+      "escalated": false,
+      "outcome": "written",
+      "case": "late_after_b",
+      "disposal": "none",
+      "run": 6,
+      "workflow": "late_after_b_none_R6",
+      "residual": 1,
+      "new_effects": 1,
+      "duplicates": 0,
+      "task_complete": false,
+      "writes": 2,
+      "visible_inconsistency": true,
+      "effects": [
+        {
+          "op": "late_after_b_none_R6:attach:14C",
+          "intent": "seat:14C",
+          "seat": "14C",
+          "kind": "effect",
+          "state": "active"
+        },
+        {
+          "op": "late_after_b_none_R6:attach:12A",
+          "intent": "seat:12A",
+          "seat": "12A",
+          "kind": "effect",
+          "state": "active"
+        }
+      ],
+      "epochs": {}
+    },
+    {
+      "first_ok": false,
+      "old_active": 0,
+      "escalated": false,
+      "outcome": "compensated",
+      "case": "late_after_b",
+      "disposal": "compensate_after_commit",
+      "run": 1,
+      "workflow": "late_after_b_compensate_after_commit_R1",
+      "residual": 1,
+      "new_effects": 1,
+      "duplicates": 0,
+      "task_complete": false,
+      "writes": 3,
+      "visible_inconsistency": true,
+      "effects": [
+        {
+          "op": "late_after_b_compensate_after_commit_R1:attach:14C",
+          "intent": "seat:14C",
+          "seat": "14C",
+          "kind": "effect",
+          "state": "active"
+        },
+        {
+          "op": "late_after_b_compensate_after_commit_R1:attach:12A",
+          "intent": "seat:12A",
+          "seat": "12A",
+          "kind": "effect",
+          "state": "active"
+        }
+      ],
+      "epochs": {}
+    },
+    {
+      "first_ok": false,
+      "old_active": 0,
+      "escalated": false,
+      "outcome": "compensated",
+      "case": "late_after_b",
+      "disposal": "compensate_after_commit",
+      "run": 2,
+      "workflow": "late_after_b_compensate_after_commit_R2",
+      "residual": 1,
+      "new_effects": 1,
+      "duplicates": 0,
+      "task_complete": false,
+      "writes": 3,
+      "visible_inconsistency": true,
+      "effects": [
+        {
+          "op": "late_after_b_compensate_after_commit_R2:attach:14C",
+          "intent": "seat:14C",
+          "seat": "14C",
+          "kind": "effect",
+          "state": "active"
+        },
+        {
+          "op": "late_after_b_compensate_after_commit_R2:attach:12A",
+          "intent": "seat:12A",
+          "seat": "12A",
+          "kind": "effect",
+          "state": "active"
+        }
+      ],
+      "epochs": {}
+    },
+    {
+      "first_ok": false,
+      "old_active": 0,
+      "escalated": false,
+      "outcome": "compensated",
+      "case": "late_after_b",
+      "disposal": "compensate_after_commit",
+      "run": 3,
+      "workflow": "late_after_b_compensate_after_commit_R3",
+      "residual": 1,
+      "new_effects": 1,
+      "duplicates": 0,
+      "task_complete": false,
+      "writes": 3,
+      "visible_inconsistency": true,
+      "effects": [
+        {
+          "op": "late_after_b_compensate_after_commit_R3:attach:14C",
+          "intent": "seat:14C",
+          "seat": "14C",
+          "kind": "effect",
+          "state": "active"
+        },
+        {
+          "op": "late_after_b_compensate_after_commit_R3:attach:12A",
+          "intent": "seat:12A",
+          "seat": "12A",
+          "kind": "effect",
+          "state": "active"
+        }
+      ],
+      "epochs": {}
+    },
+    {
+      "first_ok": false,
+      "old_active": 0,
+      "escalated": false,
+      "outcome": "compensated",
+      "case": "late_after_b",
+      "disposal": "compensate_after_commit",
+      "run": 4,
+      "workflow": "late_after_b_compensate_after_commit_R4",
+      "residual": 1,
+      "new_effects": 1,
+      "duplicates": 0,
+      "task_complete": false,
+      "writes": 2,
+      "visible_inconsistency": true,
+      "effects": [
+        {
+          "op": "late_after_b_compensate_after_commit_R4:attach:14C",
+          "intent": "seat:14C",
+          "seat": "14C",
+          "kind": "effect",
+          "state": "active"
+        },
+        {
+          "op": "late_after_b_compensate_after_commit_R4:attach:12A",
+          "intent": "seat:12A",
+          "seat": "12A",
+          "kind": "effect",
+          "state": "active"
+        }
+      ],
+      "epochs": {}
+    },
+    {
+      "first_ok": false,
+      "old_active": 0,
+      "escalated": false,
+      "outcome": "compensated",
+      "case": "late_after_b",
+      "disposal": "compensate_after_commit",
+      "run": 5,
+      "workflow": "late_after_b_compensate_after_commit_R5",
+      "residual": 1,
+      "new_effects": 1,
+      "duplicates": 0,
+      "task_complete": false,
+      "writes": 2,
+      "visible_inconsistency": true,
+      "effects": [
+        {
+          "op": "late_after_b_compensate_after_commit_R5:attach:14C",
+          "intent": "seat:14C",
+          "seat": "14C",
+          "kind": "effect",
+          "state": "active"
+        },
+        {
+          "op": "late_after_b_compensate_after_commit_R5:attach:12A",
+          "intent": "seat:12A",
+          "seat": "12A",
+          "kind": "effect",
+          "state": "active"
+        }
+      ],
+      "epochs": {}
+    },
+    {
+      "first_ok": false,
+      "old_active": 0,
+      "escalated": false,
+      "outcome": "compensated",
+      "case": "late_after_b",
+      "disposal": "compensate_after_commit",
+      "run": 6,
+      "workflow": "late_after_b_compensate_after_commit_R6",
+      "residual": 1,
+      "new_effects": 1,
+      "duplicates": 0,
+      "task_complete": false,
+      "writes": 2,
+      "visible_inconsistency": true,
+      "effects": [
+        {
+          "op": "late_after_b_compensate_after_commit_R6:attach:14C",
+          "intent": "seat:14C",
+          "seat": "14C",
+          "kind": "effect",
+          "state": "active"
+        },
+        {
+          "op": "late_after_b_compensate_after_commit_R6:attach:12A",
+          "intent": "seat:12A",
+          "seat": "12A",
+          "kind": "effect",
+          "state": "active"
+        }
+      ],
+      "epochs": {}
+    },
+    {
+      "first_ok": false,
+      "old_active": 0,
+      "escalated": false,
+      "outcome": "transferred",
+      "case": "late_after_b",
+      "disposal": "ownership_transfer",
+      "run": 1,
+      "workflow": "late_after_b_ownership_transfer_R1",
+      "residual": 0,
+      "new_effects": 1,
+      "duplicates": 0,
+      "task_complete": true,
+      "writes": 1,
+      "visible_inconsistency": false,
+      "effects": [
+        {
+          "op": "late_after_b_ownership_transfer_R1:attach:14C",
+          "intent": "seat:14C",
+          "seat": "14C",
+          "kind": "effect",
+          "state": "active"
+        }
+      ],
+      "epochs": {
+        "late_after_b_ownership_transfer_R1:attach:12A": 2
+      }
+    },
+    {
+      "first_ok": false,
+      "old_active": 0,
+      "escalated": false,
+      "outcome": "transferred",
+      "case": "late_after_b",
+      "disposal": "ownership_transfer",
+      "run": 2,
+      "workflow": "late_after_b_ownership_transfer_R2",
+      "residual": 0,
+      "new_effects": 1,
+      "duplicates": 0,
+      "task_complete": true,
+      "writes": 1,
+      "visible_inconsistency": false,
+      "effects": [
+        {
+          "op": "late_after_b_ownership_transfer_R2:attach:14C",
+          "intent": "seat:14C",
+          "seat": "14C",
+          "kind": "effect",
+          "state": "active"
+        }
+      ],
+      "epochs": {
+        "late_after_b_ownership_transfer_R2:attach:12A": 2
+      }
+    },
+    {
+      "first_ok": false,
+      "old_active": 0,
+      "escalated": false,
+      "outcome": "transferred",
+      "case": "late_after_b",
+      "disposal": "ownership_transfer",
+      "run": 3,
+      "workflow": "late_after_b_ownership_transfer_R3",
+      "residual": 0,
+      "new_effects": 1,
+      "duplicates": 0,
+      "task_complete": true,
+      "writes": 1,
+      "visible_inconsistency": false,
+      "effects": [
+        {
+          "op": "late_after_b_ownership_transfer_R3:attach:14C",
+          "intent": "seat:14C",
+          "seat": "14C",
+          "kind": "effect",
+          "state": "active"
+        }
+      ],
+      "epochs": {
+        "late_after_b_ownership_transfer_R3:attach:12A": 2
+      }
+    },
+    {
+      "first_ok": false,
+      "old_active": 0,
+      "escalated": false,
+      "outcome": "transferred",
+      "case": "late_after_b",
+      "disposal": "ownership_transfer",
+      "run": 4,
+      "workflow": "late_after_b_ownership_transfer_R4",
+      "residual": 1,
+      "new_effects": 0,
+      "duplicates": 0,
+      "task_complete": false,
+      "writes": 1,
+      "visible_inconsistency": true,
+      "effects": [
+        {
+          "op": "late_after_b_ownership_transfer_R4:attach:12A",
+          "intent": "seat:12A",
+          "seat": "12A",
+          "kind": "effect",
+          "state": "active"
+        }
+      ],
+      "epochs": {}
+    },
+    {
+      "first_ok": false,
+      "old_active": 0,
+      "escalated": false,
+      "outcome": "transferred",
+      "case": "late_after_b",
+      "disposal": "ownership_transfer",
+      "run": 5,
+      "workflow": "late_after_b_ownership_transfer_R5",
+      "residual": 1,
+      "new_effects": 0,
+      "duplicates": 0,
+      "task_complete": false,
+      "writes": 1,
+      "visible_inconsistency": true,
+      "effects": [
+        {
+          "op": "late_after_b_ownership_transfer_R5:attach:12A",
+          "intent": "seat:12A",
+          "seat": "12A",
+          "kind": "effect",
+          "state": "active"
+        }
+      ],
+      "epochs": {}
+    },
+    {
+      "first_ok": false,
+      "old_active": 0,
+      "escalated": false,
+      "outcome": "transferred",
+      "case": "late_after_b",
+      "disposal": "ownership_transfer",
+      "run": 6,
+      "workflow": "late_after_b_ownership_transfer_R6",
+      "residual": 1,
+      "new_effects": 0,
+      "duplicates": 0,
+      "task_complete": false,
+      "writes": 1,
+      "visible_inconsistency": true,
+      "effects": [
+        {
+          "op": "late_after_b_ownership_transfer_R6:attach:12A",
+          "intent": "seat:12A",
+          "seat": "12A",
+          "kind": "effect",
+          "state": "active"
+        }
+      ],
+      "epochs": {}
+    },
+    {
+      "first_ok": false,
+      "old_active": 0,
+      "escalated": false,
+      "outcome": "written_after_check",
+      "case": "late_after_b",
+      "disposal": "pause_escalate",
+      "run": 1,
+      "workflow": "late_after_b_pause_escalate_R1",
+      "residual": 1,
+      "new_effects": 1,
+      "duplicates": 0,
+      "task_complete": false,
+      "writes": 2,
+      "visible_inconsistency": true,
+      "effects": [
+        {
+          "op": "late_after_b_pause_escalate_R1:attach:14C",
+          "intent": "seat:14C",
+          "seat": "14C",
+          "kind": "effect",
+          "state": "active"
+        },
+        {
+          "op": "late_after_b_pause_escalate_R1:attach:12A",
+          "intent": "seat:12A",
+          "seat": "12A",
+          "kind": "effect",
+          "state": "active"
+        }
+      ],
+      "epochs": {}
+    },
+    {
+      "first_ok": false,
+      "old_active": 0,
+      "escalated": false,
+      "outcome": "written_after_check",
+      "case": "late_after_b",
+      "disposal": "pause_escalate",
+      "run": 2,
+      "workflow": "late_after_b_pause_escalate_R2",
+      "residual": 1,
+      "new_effects": 1,
+      "duplicates": 0,
+      "task_complete": false,
+      "writes": 2,
+      "visible_inconsistency": true,
+      "effects": [
+        {
+          "op": "late_after_b_pause_escalate_R2:attach:14C",
+          "intent": "seat:14C",
+          "seat": "14C",
+          "kind": "effect",
+          "state": "active"
+        },
+        {
+          "op": "late_after_b_pause_escalate_R2:attach:12A",
+          "intent": "seat:12A",
+          "seat": "12A",
+          "kind": "effect",
+          "state": "active"
+        }
+      ],
+      "epochs": {}
+    },
+    {
+      "first_ok": false,
+      "old_active": 0,
+      "escalated": false,
+      "outcome": "written_after_check",
+      "case": "late_after_b",
+      "disposal": "pause_escalate",
+      "run": 3,
+      "workflow": "late_after_b_pause_escalate_R3",
+      "residual": 1,
+      "new_effects": 1,
+      "duplicates": 0,
+      "task_complete": false,
+      "writes": 2,
+      "visible_inconsistency": true,
+      "effects": [
+        {
+          "op": "late_after_b_pause_escalate_R3:attach:14C",
+          "intent": "seat:14C",
+          "seat": "14C",
+          "kind": "effect",
+          "state": "active"
+        },
+        {
+          "op": "late_after_b_pause_escalate_R3:attach:12A",
+          "intent": "seat:12A",
+          "seat": "12A",
+          "kind": "effect",
+          "state": "active"
+        }
+      ],
+      "epochs": {}
+    },
+    {
+      "first_ok": false,
+      "old_active": 0,
+      "escalated": false,
+      "outcome": "written_after_check",
+      "case": "late_after_b",
+      "disposal": "pause_escalate",
+      "run": 4,
+      "workflow": "late_after_b_pause_escalate_R4",
+      "residual": 1,
+      "new_effects": 1,
+      "duplicates": 0,
+      "task_complete": false,
+      "writes": 2,
+      "visible_inconsistency": true,
+      "effects": [
+        {
+          "op": "late_after_b_pause_escalate_R4:attach:14C",
+          "intent": "seat:14C",
+          "seat": "14C",
+          "kind": "effect",
+          "state": "active"
+        },
+        {
+          "op": "late_after_b_pause_escalate_R4:attach:12A",
+          "intent": "seat:12A",
+          "seat": "12A",
+          "kind": "effect",
+          "state": "active"
+        }
+      ],
+      "epochs": {}
+    },
+    {
+      "first_ok": false,
+      "old_active": 0,
+      "escalated": false,
+      "outcome": "written_after_check",
+      "case": "late_after_b",
+      "disposal": "pause_escalate",
+      "run": 5,
+      "workflow": "late_after_b_pause_escalate_R5",
+      "residual": 1,
+      "new_effects": 1,
+      "duplicates": 0,
+      "task_complete": false,
+      "writes": 2,
+      "visible_inconsistency": true,
+      "effects": [
+        {
+          "op": "late_after_b_pause_escalate_R5:attach:14C",
+          "intent": "seat:14C",
+          "seat": "14C",
+          "kind": "effect",
+          "state": "active"
+        },
+        {
+          "op": "late_after_b_pause_escalate_R5:attach:12A",
+          "intent": "seat:12A",
+          "seat": "12A",
+          "kind": "effect",
+          "state": "active"
+        }
+      ],
+      "epochs": {}
+    },
+    {
+      "first_ok": false,
+      "old_active": 0,
+      "escalated": false,
+      "outcome": "written_after_check",
+      "case": "late_after_b",
+      "disposal": "pause_escalate",
+      "run": 6,
+      "workflow": "late_after_b_pause_escalate_R6",
+      "residual": 1,
+      "new_effects": 1,
+      "duplicates": 0,
+      "task_complete": false,
+      "writes": 2,
+      "visible_inconsistency": true,
+      "effects": [
+        {
+          "op": "late_after_b_pause_escalate_R6:attach:14C",
+          "intent": "seat:14C",
+          "seat": "14C",
+          "kind": "effect",
+          "state": "active"
+        },
+        {
+          "op": "late_after_b_pause_escalate_R6:attach:12A",
+          "intent": "seat:12A",
+          "seat": "12A",
+          "kind": "effect",
+          "state": "active"
+        }
+      ],
+      "epochs": {}
+    }
+  ],
+  "failures": [],
+  "cases": [
+    "change_before_commit",
+    "change_after_commit",
+    "late_after_b"
+  ],
+  "disposals": [
+    "none",
+    "compensate_after_commit",
+    "ownership_transfer",
+    "pause_escalate"
+  ],
+  "runs": 6
+}

@@ -1,0 +1,350 @@
+{
+  "change_before_commit_none_R1": {
+    "A": {
+      "kind": "lost_return"
+    }
+  },
+  "change_before_commit_none_R2": {
+    "A": {
+      "kind": "lost_return"
+    }
+  },
+  "change_before_commit_none_R3": {
+    "A": {
+      "kind": "lost_return"
+    }
+  },
+  "change_before_commit_none_R4": {
+    "A": {
+      "kind": "lost_return"
+    }
+  },
+  "change_before_commit_none_R5": {
+    "A": {
+      "kind": "lost_return"
+    }
+  },
+  "change_before_commit_none_R6": {
+    "A": {
+      "kind": "lost_return"
+    }
+  },
+  "change_before_commit_compensate_after_commit_R1": {
+    "A": {
+      "kind": "lost_return"
+    }
+  },
+  "change_before_commit_compensate_after_commit_R2": {
+    "A": {
+      "kind": "lost_return"
+    }
+  },
+  "change_before_commit_compensate_after_commit_R3": {
+    "A": {
+      "kind": "lost_return"
+    }
+  },
+  "change_before_commit_compensate_after_commit_R4": {
+    "A": {
+      "kind": "lost_return"
+    },
+    "dispose": {
+      "kind": "lost_before_commit"
+    }
+  },
+  "change_before_commit_compensate_after_commit_R5": {
+    "A": {
+      "kind": "lost_return"
+    },
+    "dispose": {
+      "kind": "lost_before_commit"
+    }
+  },
+  "change_before_commit_compensate_after_commit_R6": {
+    "A": {
+      "kind": "lost_return"
+    },
+    "dispose": {
+      "kind": "lost_before_commit"
+    }
+  },
+  "change_before_commit_ownership_transfer_R1": {
+    "A": {
+      "kind": "lost_return"
+    }
+  },
+  "change_before_commit_ownership_transfer_R2": {
+    "A": {
+      "kind": "lost_return"
+    }
+  },
+  "change_before_commit_ownership_transfer_R3": {
+    "A": {
+      "kind": "lost_return"
+    }
+  },
+  "change_before_commit_ownership_transfer_R4": {
+    "A": {
+      "kind": "lost_return"
+    },
+    "dispose": {
+      "kind": "lost_before_commit"
+    }
+  },
+  "change_before_commit_ownership_transfer_R5": {
+    "A": {
+      "kind": "lost_return"
+    },
+    "dispose": {
+      "kind": "lost_before_commit"
+    }
+  },
+  "change_before_commit_ownership_transfer_R6": {
+    "A": {
+      "kind": "lost_return"
+    },
+    "dispose": {
+      "kind": "lost_before_commit"
+    }
+  },
+  "change_before_commit_pause_escalate_R1": {
+    "A": {
+      "kind": "lost_return"
+    }
+  },
+  "change_before_commit_pause_escalate_R2": {
+    "A": {
+      "kind": "lost_return"
+    }
+  },
+  "change_before_commit_pause_escalate_R3": {
+    "A": {
+      "kind": "lost_return"
+    }
+  },
+  "change_before_commit_pause_escalate_R4": {
+    "A": {
+      "kind": "lost_return"
+    }
+  },
+  "change_before_commit_pause_escalate_R5": {
+    "A": {
+      "kind": "lost_return"
+    }
+  },
+  "change_before_commit_pause_escalate_R6": {
+    "A": {
+      "kind": "lost_return"
+    }
+  },
+  "change_after_commit_none_R1": {},
+  "change_after_commit_none_R2": {},
+  "change_after_commit_none_R3": {},
+  "change_after_commit_none_R4": {},
+  "change_after_commit_none_R5": {},
+  "change_after_commit_none_R6": {},
+  "change_after_commit_compensate_after_commit_R1": {},
+  "change_after_commit_compensate_after_commit_R2": {},
+  "change_after_commit_compensate_after_commit_R3": {},
+  "change_after_commit_compensate_after_commit_R4": {
+    "dispose": {
+      "kind": "lost_before_commit"
+    }
+  },
+  "change_after_commit_compensate_after_commit_R5": {
+    "dispose": {
+      "kind": "lost_before_commit"
+    }
+  },
+  "change_after_commit_compensate_after_commit_R6": {
+    "dispose": {
+      "kind": "lost_before_commit"
+    }
+  },
+  "change_after_commit_ownership_transfer_R1": {},
+  "change_after_commit_ownership_transfer_R2": {},
+  "change_after_commit_ownership_transfer_R3": {},
+  "change_after_commit_ownership_transfer_R4": {
+    "dispose": {
+      "kind": "lost_before_commit"
+    }
+  },
+  "change_after_commit_ownership_transfer_R5": {
+    "dispose": {
+      "kind": "lost_before_commit"
+    }
+  },
+  "change_after_commit_ownership_transfer_R6": {
+    "dispose": {
+      "kind": "lost_before_commit"
+    }
+  },
+  "change_after_commit_pause_escalate_R1": {},
+  "change_after_commit_pause_escalate_R2": {},
+  "change_after_commit_pause_escalate_R3": {},
+  "change_after_commit_pause_escalate_R4": {},
+  "change_after_commit_pause_escalate_R5": {},
+  "change_after_commit_pause_escalate_R6": {},
+  "late_after_b_none_R1": {
+    "A": {
+      "kind": "late_commit",
+      "delay": 0.9
+    }
+  },
+  "late_after_b_none_R2": {
+    "A": {
+      "kind": "late_commit",
+      "delay": 0.9
+    }
+  },
+  "late_after_b_none_R3": {
+    "A": {
+      "kind": "late_commit",
+      "delay": 0.9
+    }
+  },
+  "late_after_b_none_R4": {
+    "A": {
+      "kind": "late_commit",
+      "delay": 0.9
+    }
+  },
+  "late_after_b_none_R5": {
+    "A": {
+      "kind": "late_commit",
+      "delay": 0.9
+    }
+  },
+  "late_after_b_none_R6": {
+    "A": {
+      "kind": "late_commit",
+      "delay": 0.9
+    }
+  },
+  "late_after_b_compensate_after_commit_R1": {
+    "A": {
+      "kind": "late_commit",
+      "delay": 0.9
+    }
+  },
+  "late_after_b_compensate_after_commit_R2": {
+    "A": {
+      "kind": "late_commit",
+      "delay": 0.9
+    }
+  },
+  "late_after_b_compensate_after_commit_R3": {
+    "A": {
+      "kind": "late_commit",
+      "delay": 0.9
+    }
+  },
+  "late_after_b_compensate_after_commit_R4": {
+    "A": {
+      "kind": "late_commit",
+      "delay": 0.9
+    },
+    "dispose": {
+      "kind": "lost_before_commit"
+    }
+  },
+  "late_after_b_compensate_after_commit_R5": {
+    "A": {
+      "kind": "late_commit",
+      "delay": 0.9
+    },
+    "dispose": {
+      "kind": "lost_before_commit"
+    }
+  },
+  "late_after_b_compensate_after_commit_R6": {
+    "A": {
+      "kind": "late_commit",
+      "delay": 0.9
+    },
+    "dispose": {
+      "kind": "lost_before_commit"
+    }
+  },
+  "late_after_b_ownership_transfer_R1": {
+    "A": {
+      "kind": "late_commit",
+      "delay": 0.9
+    }
+  },
+  "late_after_b_ownership_transfer_R2": {
+    "A": {
+      "kind": "late_commit",
+      "delay": 0.9
+    }
+  },
+  "late_after_b_ownership_transfer_R3": {
+    "A": {
+      "kind": "late_commit",
+      "delay": 0.9
+    }
+  },
+  "late_after_b_ownership_transfer_R4": {
+    "A": {
+      "kind": "late_commit",
+      "delay": 0.9
+    },
+    "dispose": {
+      "kind": "lost_before_commit"
+    }
+  },
+  "late_after_b_ownership_transfer_R5": {
+    "A": {
+      "kind": "late_commit",
+      "delay": 0.9
+    },
+    "dispose": {
+      "kind": "lost_before_commit"
+    }
+  },
+  "late_after_b_ownership_transfer_R6": {
+    "A": {
+      "kind": "late_commit",
+      "delay": 0.9
+    },
+    "dispose": {
+      "kind": "lost_before_commit"
+    }
+  },
+  "late_after_b_pause_escalate_R1": {
+    "A": {
+      "kind": "late_commit",
+      "delay": 0.9
+    }
+  },
+  "late_after_b_pause_escalate_R2": {
+    "A": {
+      "kind": "late_commit",
+      "delay": 0.9
+    }
+  },
+  "late_after_b_pause_escalate_R3": {
+    "A": {
+      "kind": "late_commit",
+      "delay": 0.9
+    }
+  },
+  "late_after_b_pause_escalate_R4": {
+    "A": {
+      "kind": "late_commit",
+      "delay": 0.9
+    }
+  },
+  "late_after_b_pause_escalate_R5": {
+    "A": {
+      "kind": "late_commit",
+      "delay": 0.9
+    }
+  },
+  "late_after_b_pause_escalate_R6": {
+    "A": {
+      "kind": "late_commit",
+      "delay": 0.9
+    }
+  }
+}

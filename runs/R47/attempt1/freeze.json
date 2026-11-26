@@ -1,0 +1,26 @@
+{
+  "files": {
+    "scripts/r47_service.py": "4fb8cfc3de2ed31ff8cb0a1e7962834c17ae4f9ed95d1376eaa2b93be6f13cbd",
+    "scripts/r47_client.py": "705d1226ebafa7f5a75885ac920487992012358d7ed93dce28461983191f9e9b",
+    "scripts/run_r47.py": "c8dc71eb66534c555be36d4683aba5a201afc1376ef501835c1ec65f34ea3b02",
+    "scripts/verify_r47.py": "b74df8d61980de3ba2c0118a6a7dd53d881a64e8d3a99faed1546be0ac29a688",
+    "docs/R47_task_level_intent_protocol_20261029.md": "aa1824c97c49287b8814a962a3d11cadf60ec2b407ed7d01566f425fd27f018b"
+  },
+  "cases": [
+    "change_before_commit",
+    "change_after_commit",
+    "late_after_b"
+  ],
+  "disposals": [
+    "none",
+    "compensate_after_commit",
+    "ownership_transfer",
+    "pause_escalate"
+  ],
+  "runs": 6,
+  "late_delay_s": 0.9,
+  "post_timeout_s": 0.3,
+  "python": "python",
+  "python_version": "3.13.2",
+  "created_ns": 1793284302353609200
+}

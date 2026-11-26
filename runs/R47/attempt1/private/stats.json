@@ -1,0 +1,1334 @@
+{
+  "change_before_commit_none_R1": {
+    "effects": [
+      {
+        "op": "change_before_commit_none_R1:attach:12A",
+        "intent": "seat:12A",
+        "seat": "12A",
+        "kind": "effect",
+        "state": "active"
+      },
+      {
+        "op": "change_before_commit_none_R1:attach:14C",
+        "intent": "seat:14C",
+        "seat": "14C",
+        "kind": "effect",
+        "state": "active"
+      }
+    ],
+    "mutations": 2,
+    "epochs": {}
+  },
+  "change_before_commit_none_R2": {
+    "effects": [
+      {
+        "op": "change_before_commit_none_R2:attach:12A",
+        "intent": "seat:12A",
+        "seat": "12A",
+        "kind": "effect",
+        "state": "active"
+      },
+      {
+        "op": "change_before_commit_none_R2:attach:14C",
+        "intent": "seat:14C",
+        "seat": "14C",
+        "kind": "effect",
+        "state": "active"
+      }
+    ],
+    "mutations": 2,
+    "epochs": {}
+  },
+  "change_before_commit_none_R3": {
+    "effects": [
+      {
+        "op": "change_before_commit_none_R3:attach:12A",
+        "intent": "seat:12A",
+        "seat": "12A",
+        "kind": "effect",
+        "state": "active"
+      },
+      {
+        "op": "change_before_commit_none_R3:attach:14C",
+        "intent": "seat:14C",
+        "seat": "14C",
+        "kind": "effect",
+        "state": "active"
+      }
+    ],
+    "mutations": 2,
+    "epochs": {}
+  },
+  "change_before_commit_none_R4": {
+    "effects": [
+      {
+        "op": "change_before_commit_none_R4:attach:12A",
+        "intent": "seat:12A",
+        "seat": "12A",
+        "kind": "effect",
+        "state": "active"
+      },
+      {
+        "op": "change_before_commit_none_R4:attach:14C",
+        "intent": "seat:14C",
+        "seat": "14C",
+        "kind": "effect",
+        "state": "active"
+      }
+    ],
+    "mutations": 2,
+    "epochs": {}
+  },
+  "change_before_commit_none_R5": {
+    "effects": [
+      {
+        "op": "change_before_commit_none_R5:attach:12A",
+        "intent": "seat:12A",
+        "seat": "12A",
+        "kind": "effect",
+        "state": "active"
+      },
+      {
+        "op": "change_before_commit_none_R5:attach:14C",
+        "intent": "seat:14C",
+        "seat": "14C",
+        "kind": "effect",
+        "state": "active"
+      }
+    ],
+    "mutations": 2,
+    "epochs": {}
+  },
+  "change_before_commit_none_R6": {
+    "effects": [
+      {
+        "op": "change_before_commit_none_R6:attach:12A",
+        "intent": "seat:12A",
+        "seat": "12A",
+        "kind": "effect",
+        "state": "active"
+      },
+      {
+        "op": "change_before_commit_none_R6:attach:14C",
+        "intent": "seat:14C",
+        "seat": "14C",
+        "kind": "effect",
+        "state": "active"
+      }
+    ],
+    "mutations": 2,
+    "epochs": {}
+  },
+  "change_before_commit_compensate_after_commit_R1": {
+    "effects": [
+      {
+        "op": "change_before_commit_compensate_after_commit_R1:attach:12A",
+        "intent": "seat:12A",
+        "seat": "12A",
+        "kind": "effect",
+        "state": "compensated"
+      },
+      {
+        "op": "change_before_commit_compensate_after_commit_R1:attach:14C",
+        "intent": "seat:14C",
+        "seat": "14C",
+        "kind": "effect",
+        "state": "active"
+      },
+      {
+        "op": "change_before_commit_compensate_after_commit_R1:attach:12A",
+        "intent": "seat:12A",
+        "seat": "",
+        "kind": "compensation",
+        "state": "done"
+      }
+    ],
+    "mutations": 3,
+    "epochs": {}
+  },
+  "change_before_commit_compensate_after_commit_R2": {
+    "effects": [
+      {
+        "op": "change_before_commit_compensate_after_commit_R2:attach:12A",
+        "intent": "seat:12A",
+        "seat": "12A",
+        "kind": "effect",
+        "state": "compensated"
+      },
+      {
+        "op": "change_before_commit_compensate_after_commit_R2:attach:14C",
+        "intent": "seat:14C",
+        "seat": "14C",
+        "kind": "effect",
+        "state": "active"
+      },
+      {
+        "op": "change_before_commit_compensate_after_commit_R2:attach:12A",
+        "intent": "seat:12A",
+        "seat": "",
+        "kind": "compensation",
+        "state": "done"
+      }
+    ],
+    "mutations": 3,
+    "epochs": {}
+  },
+  "change_before_commit_compensate_after_commit_R3": {
+    "effects": [
+      {
+        "op": "change_before_commit_compensate_after_commit_R3:attach:12A",
+        "intent": "seat:12A",
+        "seat": "12A",
+        "kind": "effect",
+        "state": "compensated"
+      },
+      {
+        "op": "change_before_commit_compensate_after_commit_R3:attach:14C",
+        "intent": "seat:14C",
+        "seat": "14C",
+        "kind": "effect",
+        "state": "active"
+      },
+      {
+        "op": "change_before_commit_compensate_after_commit_R3:attach:12A",
+        "intent": "seat:12A",
+        "seat": "",
+        "kind": "compensation",
+        "state": "done"
+      }
+    ],
+    "mutations": 3,
+    "epochs": {}
+  },
+  "change_before_commit_compensate_after_commit_R4": {
+    "effects": [
+      {
+        "op": "change_before_commit_compensate_after_commit_R4:attach:12A",
+        "intent": "seat:12A",
+        "seat": "12A",
+        "kind": "effect",
+        "state": "active"
+      },
+      {
+        "op": "change_before_commit_compensate_after_commit_R4:attach:14C",
+        "intent": "seat:14C",
+        "seat": "14C",
+        "kind": "effect",
+        "state": "active"
+      }
+    ],
+    "mutations": 2,
+    "epochs": {}
+  },
+  "change_before_commit_compensate_after_commit_R5": {
+    "effects": [
+      {
+        "op": "change_before_commit_compensate_after_commit_R5:attach:12A",
+        "intent": "seat:12A",
+        "seat": "12A",
+        "kind": "effect",
+        "state": "active"
+      },
+      {
+        "op": "change_before_commit_compensate_after_commit_R5:attach:14C",
+        "intent": "seat:14C",
+        "seat": "14C",
+        "kind": "effect",
+        "state": "active"
+      }
+    ],
+    "mutations": 2,
+    "epochs": {}
+  },
+  "change_before_commit_compensate_after_commit_R6": {
+    "effects": [
+      {
+        "op": "change_before_commit_compensate_after_commit_R6:attach:12A",
+        "intent": "seat:12A",
+        "seat": "12A",
+        "kind": "effect",
+        "state": "active"
+      },
+      {
+        "op": "change_before_commit_compensate_after_commit_R6:attach:14C",
+        "intent": "seat:14C",
+        "seat": "14C",
+        "kind": "effect",
+        "state": "active"
+      }
+    ],
+    "mutations": 2,
+    "epochs": {}
+  },
+  "change_before_commit_ownership_transfer_R1": {
+    "effects": [
+      {
+        "op": "change_before_commit_ownership_transfer_R1:attach:12A",
+        "intent": "seat:12A",
+        "seat": "12A",
+        "kind": "effect",
+        "state": "transferred"
+      },
+      {
+        "op": "change_before_commit_ownership_transfer_R1:attach:14C",
+        "intent": "seat:14C",
+        "seat": "14C",
+        "kind": "effect",
+        "state": "active"
+      }
+    ],
+    "mutations": 2,
+    "epochs": {
+      "change_before_commit_ownership_transfer_R1:attach:12A": 2
+    }
+  },
+  "change_before_commit_ownership_transfer_R2": {
+    "effects": [
+      {
+        "op": "change_before_commit_ownership_transfer_R2:attach:12A",
+        "intent": "seat:12A",
+        "seat": "12A",
+        "kind": "effect",
+        "state": "transferred"
+      },
+      {
+        "op": "change_before_commit_ownership_transfer_R2:attach:14C",
+        "intent": "seat:14C",
+        "seat": "14C",
+        "kind": "effect",
+        "state": "active"
+      }
+    ],
+    "mutations": 2,
+    "epochs": {
+      "change_before_commit_ownership_transfer_R2:attach:12A": 2
+    }
+  },
+  "change_before_commit_ownership_transfer_R3": {
+    "effects": [
+      {
+        "op": "change_before_commit_ownership_transfer_R3:attach:12A",
+        "intent": "seat:12A",
+        "seat": "12A",
+        "kind": "effect",
+        "state": "transferred"
+      },
+      {
+        "op": "change_before_commit_ownership_transfer_R3:attach:14C",
+        "intent": "seat:14C",
+        "seat": "14C",
+        "kind": "effect",
+        "state": "active"
+      }
+    ],
+    "mutations": 2,
+    "epochs": {
+      "change_before_commit_ownership_transfer_R3:attach:12A": 2
+    }
+  },
+  "change_before_commit_ownership_transfer_R4": {
+    "effects": [
+      {
+        "op": "change_before_commit_ownership_transfer_R4:attach:12A",
+        "intent": "seat:12A",
+        "seat": "12A",
+        "kind": "effect",
+        "state": "active"
+      }
+    ],
+    "mutations": 1,
+    "epochs": {}
+  },
+  "change_before_commit_ownership_transfer_R5": {
+    "effects": [
+      {
+        "op": "change_before_commit_ownership_transfer_R5:attach:12A",
+        "intent": "seat:12A",
+        "seat": "12A",
+        "kind": "effect",
+        "state": "active"
+      }
+    ],
+    "mutations": 1,
+    "epochs": {}
+  },
+  "change_before_commit_ownership_transfer_R6": {
+    "effects": [
+      {
+        "op": "change_before_commit_ownership_transfer_R6:attach:12A",
+        "intent": "seat:12A",
+        "seat": "12A",
+        "kind": "effect",
+        "state": "active"
+      }
+    ],
+    "mutations": 1,
+    "epochs": {}
+  },
+  "change_before_commit_pause_escalate_R1": {
+    "effects": [
+      {
+        "op": "change_before_commit_pause_escalate_R1:attach:12A",
+        "intent": "seat:12A",
+        "seat": "12A",
+        "kind": "effect",
+        "state": "active"
+      }
+    ],
+    "mutations": 1,
+    "epochs": {}
+  },
+  "change_before_commit_pause_escalate_R2": {
+    "effects": [
+      {
+        "op": "change_before_commit_pause_escalate_R2:attach:12A",
+        "intent": "seat:12A",
+        "seat": "12A",
+        "kind": "effect",
+        "state": "active"
+      }
+    ],
+    "mutations": 1,
+    "epochs": {}
+  },
+  "change_before_commit_pause_escalate_R3": {
+    "effects": [
+      {
+        "op": "change_before_commit_pause_escalate_R3:attach:12A",
+        "intent": "seat:12A",
+        "seat": "12A",
+        "kind": "effect",
+        "state": "active"
+      }
+    ],
+    "mutations": 1,
+    "epochs": {}
+  },
+  "change_before_commit_pause_escalate_R4": {
+    "effects": [
+      {
+        "op": "change_before_commit_pause_escalate_R4:attach:12A",
+        "intent": "seat:12A",
+        "seat": "12A",
+        "kind": "effect",
+        "state": "active"
+      }
+    ],
+    "mutations": 1,
+    "epochs": {}
+  },
+  "change_before_commit_pause_escalate_R5": {
+    "effects": [
+      {
+        "op": "change_before_commit_pause_escalate_R5:attach:12A",
+        "intent": "seat:12A",
+        "seat": "12A",
+        "kind": "effect",
+        "state": "active"
+      }
+    ],
+    "mutations": 1,
+    "epochs": {}
+  },
+  "change_before_commit_pause_escalate_R6": {
+    "effects": [
+      {
+        "op": "change_before_commit_pause_escalate_R6:attach:12A",
+        "intent": "seat:12A",
+        "seat": "12A",
+        "kind": "effect",
+        "state": "active"
+      }
+    ],
+    "mutations": 1,
+    "epochs": {}
+  },
+  "change_after_commit_none_R1": {
+    "effects": [
+      {
+        "op": "change_after_commit_none_R1:attach:12A",
+        "intent": "seat:12A",
+        "seat": "12A",
+        "kind": "effect",
+        "state": "active"
+      },
+      {
+        "op": "change_after_commit_none_R1:attach:14C",
+        "intent": "seat:14C",
+        "seat": "14C",
+        "kind": "effect",
+        "state": "active"
+      }
+    ],
+    "mutations": 2,
+    "epochs": {}
+  },
+  "change_after_commit_none_R2": {
+    "effects": [
+      {
+        "op": "change_after_commit_none_R2:attach:12A",
+        "intent": "seat:12A",
+        "seat": "12A",
+        "kind": "effect",
+        "state": "active"
+      },
+      {
+        "op": "change_after_commit_none_R2:attach:14C",
+        "intent": "seat:14C",
+        "seat": "14C",
+        "kind": "effect",
+        "state": "active"
+      }
+    ],
+    "mutations": 2,
+    "epochs": {}
+  },
+  "change_after_commit_none_R3": {
+    "effects": [
+      {
+        "op": "change_after_commit_none_R3:attach:12A",
+        "intent": "seat:12A",
+        "seat": "12A",
+        "kind": "effect",
+        "state": "active"
+      },
+      {
+        "op": "change_after_commit_none_R3:attach:14C",
+        "intent": "seat:14C",
+        "seat": "14C",
+        "kind": "effect",
+        "state": "active"
+      }
+    ],
+    "mutations": 2,
+    "epochs": {}
+  },
+  "change_after_commit_none_R4": {
+    "effects": [
+      {
+        "op": "change_after_commit_none_R4:attach:12A",
+        "intent": "seat:12A",
+        "seat": "12A",
+        "kind": "effect",
+        "state": "active"
+      },
+      {
+        "op": "change_after_commit_none_R4:attach:14C",
+        "intent": "seat:14C",
+        "seat": "14C",
+        "kind": "effect",
+        "state": "active"
+      }
+    ],
+    "mutations": 2,
+    "epochs": {}
+  },
+  "change_after_commit_none_R5": {
+    "effects": [
+      {
+        "op": "change_after_commit_none_R5:attach:12A",
+        "intent": "seat:12A",
+        "seat": "12A",
+        "kind": "effect",
+        "state": "active"
+      },
+      {
+        "op": "change_after_commit_none_R5:attach:14C",
+        "intent": "seat:14C",
+        "seat": "14C",
+        "kind": "effect",
+        "state": "active"
+      }
+    ],
+    "mutations": 2,
+    "epochs": {}
+  },
+  "change_after_commit_none_R6": {
+    "effects": [
+      {
+        "op": "change_after_commit_none_R6:attach:12A",
+        "intent": "seat:12A",
+        "seat": "12A",
+        "kind": "effect",
+        "state": "active"
+      },
+      {
+        "op": "change_after_commit_none_R6:attach:14C",
+        "intent": "seat:14C",
+        "seat": "14C",
+        "kind": "effect",
+        "state": "active"
+      }
+    ],
+    "mutations": 2,
+    "epochs": {}
+  },
+  "change_after_commit_compensate_after_commit_R1": {
+    "effects": [
+      {
+        "op": "change_after_commit_compensate_after_commit_R1:attach:12A",
+        "intent": "seat:12A",
+        "seat": "12A",
+        "kind": "effect",
+        "state": "compensated"
+      },
+      {
+        "op": "change_after_commit_compensate_after_commit_R1:attach:14C",
+        "intent": "seat:14C",
+        "seat": "14C",
+        "kind": "effect",
+        "state": "active"
+      },
+      {
+        "op": "change_after_commit_compensate_after_commit_R1:attach:12A",
+        "intent": "seat:12A",
+        "seat": "",
+        "kind": "compensation",
+        "state": "done"
+      }
+    ],
+    "mutations": 3,
+    "epochs": {}
+  },
+  "change_after_commit_compensate_after_commit_R2": {
+    "effects": [
+      {
+        "op": "change_after_commit_compensate_after_commit_R2:attach:12A",
+        "intent": "seat:12A",
+        "seat": "12A",
+        "kind": "effect",
+        "state": "compensated"
+      },
+      {
+        "op": "change_after_commit_compensate_after_commit_R2:attach:14C",
+        "intent": "seat:14C",
+        "seat": "14C",
+        "kind": "effect",
+        "state": "active"
+      },
+      {
+        "op": "change_after_commit_compensate_after_commit_R2:attach:12A",
+        "intent": "seat:12A",
+        "seat": "",
+        "kind": "compensation",
+        "state": "done"
+      }
+    ],
+    "mutations": 3,
+    "epochs": {}
+  },
+  "change_after_commit_compensate_after_commit_R3": {
+    "effects": [
+      {
+        "op": "change_after_commit_compensate_after_commit_R3:attach:12A",
+        "intent": "seat:12A",
+        "seat": "12A",
+        "kind": "effect",
+        "state": "compensated"
+      },
+      {
+        "op": "change_after_commit_compensate_after_commit_R3:attach:14C",
+        "intent": "seat:14C",
+        "seat": "14C",
+        "kind": "effect",
+        "state": "active"
+      },
+      {
+        "op": "change_after_commit_compensate_after_commit_R3:attach:12A",
+        "intent": "seat:12A",
+        "seat": "",
+        "kind": "compensation",
+        "state": "done"
+      }
+    ],
+    "mutations": 3,
+    "epochs": {}
+  },
+  "change_after_commit_compensate_after_commit_R4": {
+    "effects": [
+      {
+        "op": "change_after_commit_compensate_after_commit_R4:attach:12A",
+        "intent": "seat:12A",
+        "seat": "12A",
+        "kind": "effect",
+        "state": "active"
+      },
+      {
+        "op": "change_after_commit_compensate_after_commit_R4:attach:14C",
+        "intent": "seat:14C",
+        "seat": "14C",
+        "kind": "effect",
+        "state": "active"
+      }
+    ],
+    "mutations": 2,
+    "epochs": {}
+  },
+  "change_after_commit_compensate_after_commit_R5": {
+    "effects": [
+      {
+        "op": "change_after_commit_compensate_after_commit_R5:attach:12A",
+        "intent": "seat:12A",
+        "seat": "12A",
+        "kind": "effect",
+        "state": "active"
+      },
+      {
+        "op": "change_after_commit_compensate_after_commit_R5:attach:14C",
+        "intent": "seat:14C",
+        "seat": "14C",
+        "kind": "effect",
+        "state": "active"
+      }
+    ],
+    "mutations": 2,
+    "epochs": {}
+  },
+  "change_after_commit_compensate_after_commit_R6": {
+    "effects": [
+      {
+        "op": "change_after_commit_compensate_after_commit_R6:attach:12A",
+        "intent": "seat:12A",
+        "seat": "12A",
+        "kind": "effect",
+        "state": "active"
+      },
+      {
+        "op": "change_after_commit_compensate_after_commit_R6:attach:14C",
+        "intent": "seat:14C",
+        "seat": "14C",
+        "kind": "effect",
+        "state": "active"
+      }
+    ],
+    "mutations": 2,
+    "epochs": {}
+  },
+  "change_after_commit_ownership_transfer_R1": {
+    "effects": [
+      {
+        "op": "change_after_commit_ownership_transfer_R1:attach:12A",
+        "intent": "seat:12A",
+        "seat": "12A",
+        "kind": "effect",
+        "state": "transferred"
+      },
+      {
+        "op": "change_after_commit_ownership_transfer_R1:attach:14C",
+        "intent": "seat:14C",
+        "seat": "14C",
+        "kind": "effect",
+        "state": "active"
+      }
+    ],
+    "mutations": 2,
+    "epochs": {
+      "change_after_commit_ownership_transfer_R1:attach:12A": 2
+    }
+  },
+  "change_after_commit_ownership_transfer_R2": {
+    "effects": [
+      {
+        "op": "change_after_commit_ownership_transfer_R2:attach:12A",
+        "intent": "seat:12A",
+        "seat": "12A",
+        "kind": "effect",
+        "state": "transferred"
+      },
+      {
+        "op": "change_after_commit_ownership_transfer_R2:attach:14C",
+        "intent": "seat:14C",
+        "seat": "14C",
+        "kind": "effect",
+        "state": "active"
+      }
+    ],
+    "mutations": 2,
+    "epochs": {
+      "change_after_commit_ownership_transfer_R2:attach:12A": 2
+    }
+  },
+  "change_after_commit_ownership_transfer_R3": {
+    "effects": [
+      {
+        "op": "change_after_commit_ownership_transfer_R3:attach:12A",
+        "intent": "seat:12A",
+        "seat": "12A",
+        "kind": "effect",
+        "state": "transferred"
+      },
+      {
+        "op": "change_after_commit_ownership_transfer_R3:attach:14C",
+        "intent": "seat:14C",
+        "seat": "14C",
+        "kind": "effect",
+        "state": "active"
+      }
+    ],
+    "mutations": 2,
+    "epochs": {
+      "change_after_commit_ownership_transfer_R3:attach:12A": 2
+    }
+  },
+  "change_after_commit_ownership_transfer_R4": {
+    "effects": [
+      {
+        "op": "change_after_commit_ownership_transfer_R4:attach:12A",
+        "intent": "seat:12A",
+        "seat": "12A",
+        "kind": "effect",
+        "state": "active"
+      }
+    ],
+    "mutations": 1,
+    "epochs": {}
+  },
+  "change_after_commit_ownership_transfer_R5": {
+    "effects": [
+      {
+        "op": "change_after_commit_ownership_transfer_R5:attach:12A",
+        "intent": "seat:12A",
+        "seat": "12A",
+        "kind": "effect",
+        "state": "active"
+      }
+    ],
+    "mutations": 1,
+    "epochs": {}
+  },
+  "change_after_commit_ownership_transfer_R6": {
+    "effects": [
+      {
+        "op": "change_after_commit_ownership_transfer_R6:attach:12A",
+        "intent": "seat:12A",
+        "seat": "12A",
+        "kind": "effect",
+        "state": "active"
+      }
+    ],
+    "mutations": 1,
+    "epochs": {}
+  },
+  "change_after_commit_pause_escalate_R1": {
+    "effects": [
+      {
+        "op": "change_after_commit_pause_escalate_R1:attach:12A",
+        "intent": "seat:12A",
+        "seat": "12A",
+        "kind": "effect",
+        "state": "active"
+      }
+    ],
+    "mutations": 1,
+    "epochs": {}
+  },
+  "change_after_commit_pause_escalate_R2": {
+    "effects": [
+      {
+        "op": "change_after_commit_pause_escalate_R2:attach:12A",
+        "intent": "seat:12A",
+        "seat": "12A",
+        "kind": "effect",
+        "state": "active"
+      }
+    ],
+    "mutations": 1,
+    "epochs": {}
+  },
+  "change_after_commit_pause_escalate_R3": {
+    "effects": [
+      {
+        "op": "change_after_commit_pause_escalate_R3:attach:12A",
+        "intent": "seat:12A",
+        "seat": "12A",
+        "kind": "effect",
+        "state": "active"
+      }
+    ],
+    "mutations": 1,
+    "epochs": {}
+  },
+  "change_after_commit_pause_escalate_R4": {
+    "effects": [
+      {
+        "op": "change_after_commit_pause_escalate_R4:attach:12A",
+        "intent": "seat:12A",
+        "seat": "12A",
+        "kind": "effect",
+        "state": "active"
+      }
+    ],
+    "mutations": 1,
+    "epochs": {}
+  },
+  "change_after_commit_pause_escalate_R5": {
+    "effects": [
+      {
+        "op": "change_after_commit_pause_escalate_R5:attach:12A",
+        "intent": "seat:12A",
+        "seat": "12A",
+        "kind": "effect",
+        "state": "active"
+      }
+    ],
+    "mutations": 1,
+    "epochs": {}
+  },
+  "change_after_commit_pause_escalate_R6": {
+    "effects": [
+      {
+        "op": "change_after_commit_pause_escalate_R6:attach:12A",
+        "intent": "seat:12A",
+        "seat": "12A",
+        "kind": "effect",
+        "state": "active"
+      }
+    ],
+    "mutations": 1,
+    "epochs": {}
+  },
+  "late_after_b_none_R1": {
+    "effects": [
+      {
+        "op": "late_after_b_none_R1:attach:14C",
+        "intent": "seat:14C",
+        "seat": "14C",
+        "kind": "effect",
+        "state": "active"
+      },
+      {
+        "op": "late_after_b_none_R1:attach:12A",
+        "intent": "seat:12A",
+        "seat": "12A",
+        "kind": "effect",
+        "state": "active"
+      }
+    ],
+    "mutations": 2,
+    "epochs": {}
+  },
+  "late_after_b_none_R2": {
+    "effects": [
+      {
+        "op": "late_after_b_none_R2:attach:14C",
+        "intent": "seat:14C",
+        "seat": "14C",
+        "kind": "effect",
+        "state": "active"
+      },
+      {
+        "op": "late_after_b_none_R2:attach:12A",
+        "intent": "seat:12A",
+        "seat": "12A",
+        "kind": "effect",
+        "state": "active"
+      }
+    ],
+    "mutations": 2,
+    "epochs": {}
+  },
+  "late_after_b_none_R3": {
+    "effects": [
+      {
+        "op": "late_after_b_none_R3:attach:14C",
+        "intent": "seat:14C",
+        "seat": "14C",
+        "kind": "effect",
+        "state": "active"
+      },
+      {
+        "op": "late_after_b_none_R3:attach:12A",
+        "intent": "seat:12A",
+        "seat": "12A",
+        "kind": "effect",
+        "state": "active"
+      }
+    ],
+    "mutations": 2,
+    "epochs": {}
+  },
+  "late_after_b_none_R4": {
+    "effects": [
+      {
+        "op": "late_after_b_none_R4:attach:14C",
+        "intent": "seat:14C",
+        "seat": "14C",
+        "kind": "effect",
+        "state": "active"
+      },
+      {
+        "op": "late_after_b_none_R4:attach:12A",
+        "intent": "seat:12A",
+        "seat": "12A",
+        "kind": "effect",
+        "state": "active"
+      }
+    ],
+    "mutations": 2,
+    "epochs": {}
+  },
+  "late_after_b_none_R5": {
+    "effects": [
+      {
+        "op": "late_after_b_none_R5:attach:14C",
+        "intent": "seat:14C",
+        "seat": "14C",
+        "kind": "effect",
+        "state": "active"
+      },
+      {
+        "op": "late_after_b_none_R5:attach:12A",
+        "intent": "seat:12A",
+        "seat": "12A",
+        "kind": "effect",
+        "state": "active"
+      }
+    ],
+    "mutations": 2,
+    "epochs": {}
+  },
+  "late_after_b_none_R6": {
+    "effects": [
+      {
+        "op": "late_after_b_none_R6:attach:14C",
+        "intent": "seat:14C",
+        "seat": "14C",
+        "kind": "effect",
+        "state": "active"
+      },
+      {
+        "op": "late_after_b_none_R6:attach:12A",
+        "intent": "seat:12A",
+        "seat": "12A",
+        "kind": "effect",
+        "state": "active"
+      }
+    ],
+    "mutations": 2,
+    "epochs": {}
+  },
+  "late_after_b_compensate_after_commit_R1": {
+    "effects": [
+      {
+        "op": "late_after_b_compensate_after_commit_R1:attach:14C",
+        "intent": "seat:14C",
+        "seat": "14C",
+        "kind": "effect",
+        "state": "active"
+      },
+      {
+        "op": "late_after_b_compensate_after_commit_R1:attach:12A",
+        "intent": "seat:12A",
+        "seat": "12A",
+        "kind": "effect",
+        "state": "active"
+      }
+    ],
+    "mutations": 3,
+    "epochs": {}
+  },
+  "late_after_b_compensate_after_commit_R2": {
+    "effects": [
+      {
+        "op": "late_after_b_compensate_after_commit_R2:attach:14C",
+        "intent": "seat:14C",
+        "seat": "14C",
+        "kind": "effect",
+        "state": "active"
+      },
+      {
+        "op": "late_after_b_compensate_after_commit_R2:attach:12A",
+        "intent": "seat:12A",
+        "seat": "12A",
+        "kind": "effect",
+        "state": "active"
+      }
+    ],
+    "mutations": 3,
+    "epochs": {}
+  },
+  "late_after_b_compensate_after_commit_R3": {
+    "effects": [
+      {
+        "op": "late_after_b_compensate_after_commit_R3:attach:14C",
+        "intent": "seat:14C",
+        "seat": "14C",
+        "kind": "effect",
+        "state": "active"
+      },
+      {
+        "op": "late_after_b_compensate_after_commit_R3:attach:12A",
+        "intent": "seat:12A",
+        "seat": "12A",
+        "kind": "effect",
+        "state": "active"
+      }
+    ],
+    "mutations": 3,
+    "epochs": {}
+  },
+  "late_after_b_compensate_after_commit_R4": {
+    "effects": [
+      {
+        "op": "late_after_b_compensate_after_commit_R4:attach:14C",
+        "intent": "seat:14C",
+        "seat": "14C",
+        "kind": "effect",
+        "state": "active"
+      },
+      {
+        "op": "late_after_b_compensate_after_commit_R4:attach:12A",
+        "intent": "seat:12A",
+        "seat": "12A",
+        "kind": "effect",
+        "state": "active"
+      }
+    ],
+    "mutations": 2,
+    "epochs": {}
+  },
+  "late_after_b_compensate_after_commit_R5": {
+    "effects": [
+      {
+        "op": "late_after_b_compensate_after_commit_R5:attach:14C",
+        "intent": "seat:14C",
+        "seat": "14C",
+        "kind": "effect",
+        "state": "active"
+      },
+      {
+        "op": "late_after_b_compensate_after_commit_R5:attach:12A",
+        "intent": "seat:12A",
+        "seat": "12A",
+        "kind": "effect",
+        "state": "active"
+      }
+    ],
+    "mutations": 2,
+    "epochs": {}
+  },
+  "late_after_b_compensate_after_commit_R6": {
+    "effects": [
+      {
+        "op": "late_after_b_compensate_after_commit_R6:attach:14C",
+        "intent": "seat:14C",
+        "seat": "14C",
+        "kind": "effect",
+        "state": "active"
+      },
+      {
+        "op": "late_after_b_compensate_after_commit_R6:attach:12A",
+        "intent": "seat:12A",
+        "seat": "12A",
+        "kind": "effect",
+        "state": "active"
+      }
+    ],
+    "mutations": 2,
+    "epochs": {}
+  },
+  "late_after_b_ownership_transfer_R1": {
+    "effects": [
+      {
+        "op": "late_after_b_ownership_transfer_R1:attach:14C",
+        "intent": "seat:14C",
+        "seat": "14C",
+        "kind": "effect",
+        "state": "active"
+      }
+    ],
+    "mutations": 1,
+    "epochs": {
+      "late_after_b_ownership_transfer_R1:attach:12A": 2
+    }
+  },
+  "late_after_b_ownership_transfer_R2": {
+    "effects": [
+      {
+        "op": "late_after_b_ownership_transfer_R2:attach:14C",
+        "intent": "seat:14C",
+        "seat": "14C",
+        "kind": "effect",
+        "state": "active"
+      }
+    ],
+    "mutations": 1,
+    "epochs": {
+      "late_after_b_ownership_transfer_R2:attach:12A": 2
+    }
+  },
+  "late_after_b_ownership_transfer_R3": {
+    "effects": [
+      {
+        "op": "late_after_b_ownership_transfer_R3:attach:14C",
+        "intent": "seat:14C",
+        "seat": "14C",
+        "kind": "effect",
+        "state": "active"
+      }
+    ],
+    "mutations": 1,
+    "epochs": {
+      "late_after_b_ownership_transfer_R3:attach:12A": 2
+    }
+  },
+  "late_after_b_ownership_transfer_R4": {
+    "effects": [
+      {
+        "op": "late_after_b_ownership_transfer_R4:attach:12A",
+        "intent": "seat:12A",
+        "seat": "12A",
+        "kind": "effect",
+        "state": "active"
+      }
+    ],
+    "mutations": 1,
+    "epochs": {}
+  },
+  "late_after_b_ownership_transfer_R5": {
+    "effects": [
+      {
+        "op": "late_after_b_ownership_transfer_R5:attach:12A",
+        "intent": "seat:12A",
+        "seat": "12A",
+        "kind": "effect",
+        "state": "active"
+      }
+    ],
+    "mutations": 1,
+    "epochs": {}
+  },
+  "late_after_b_ownership_transfer_R6": {
+    "effects": [
+      {
+        "op": "late_after_b_ownership_transfer_R6:attach:12A",
+        "intent": "seat:12A",
+        "seat": "12A",
+        "kind": "effect",
+        "state": "active"
+      }
+    ],
+    "mutations": 1,
+    "epochs": {}
+  },
+  "late_after_b_pause_escalate_R1": {
+    "effects": [
+      {
+        "op": "late_after_b_pause_escalate_R1:attach:14C",
+        "intent": "seat:14C",
+        "seat": "14C",
+        "kind": "effect",
+        "state": "active"
+      },
+      {
+        "op": "late_after_b_pause_escalate_R1:attach:12A",
+        "intent": "seat:12A",
+        "seat": "12A",
+        "kind": "effect",
+        "state": "active"
+      }
+    ],
+    "mutations": 2,
+    "epochs": {}
+  },
+  "late_after_b_pause_escalate_R2": {
+    "effects": [
+      {
+        "op": "late_after_b_pause_escalate_R2:attach:14C",
+        "intent": "seat:14C",
+        "seat": "14C",
+        "kind": "effect",
+        "state": "active"
+      },
+      {
+        "op": "late_after_b_pause_escalate_R2:attach:12A",
+        "intent": "seat:12A",
+        "seat": "12A",
+        "kind": "effect",
+        "state": "active"
+      }
+    ],
+    "mutations": 2,
+    "epochs": {}
+  },
+  "late_after_b_pause_escalate_R3": {
+    "effects": [
+      {
+        "op": "late_after_b_pause_escalate_R3:attach:14C",
+        "intent": "seat:14C",
+        "seat": "14C",
+        "kind": "effect",
+        "state": "active"
+      },
+      {
+        "op": "late_after_b_pause_escalate_R3:attach:12A",
+        "intent": "seat:12A",
+        "seat": "12A",
+        "kind": "effect",
+        "state": "active"
+      }
+    ],
+    "mutations": 2,
+    "epochs": {}
+  },
+  "late_after_b_pause_escalate_R4": {
+    "effects": [
+      {
+        "op": "late_after_b_pause_escalate_R4:attach:14C",
+        "intent": "seat:14C",
+        "seat": "14C",
+        "kind": "effect",
+        "state": "active"
+      },
+      {
+        "op": "late_after_b_pause_escalate_R4:attach:12A",
+        "intent": "seat:12A",
+        "seat": "12A",
+        "kind": "effect",
+        "state": "active"
+      }
+    ],
+    "mutations": 2,
+    "epochs": {}
+  },
+  "late_after_b_pause_escalate_R5": {
+    "effects": [
+      {
+        "op": "late_after_b_pause_escalate_R5:attach:14C",
+        "intent": "seat:14C",
+        "seat": "14C",
+        "kind": "effect",
+        "state": "active"
+      },
+      {
+        "op": "late_after_b_pause_escalate_R5:attach:12A",
+        "intent": "seat:12A",
+        "seat": "12A",
+        "kind": "effect",
+        "state": "active"
+      }
+    ],
+    "mutations": 2,
+    "epochs": {}
+  },
+  "late_after_b_pause_escalate_R6": {
+    "effects": [
+      {
+        "op": "late_after_b_pause_escalate_R6:attach:14C",
+        "intent": "seat:14C",
+        "seat": "14C",
+        "kind": "effect",
+        "state": "active"
+      },
+      {
+        "op": "late_after_b_pause_escalate_R6:attach:12A",
+        "intent": "seat:12A",
+        "seat": "12A",
+        "kind": "effect",
+        "state": "active"
+      }
+    ],
+    "mutations": 2,
+    "epochs": {}
+  }
+}
