@@ -1,0 +1,75 @@
+{
+  "policy": "reauth_retry",
+  "context": {
+    "operation_id": "I1Q0C0GrevokeFfail_reauth_retry",
+    "intent": "38d7c6e9ee9f1c1d8b7b1dbd24382d424982ce51486f3c87cf7e76b662aa298e",
+    "generation": 1
+  },
+  "origin": {
+    "context": {
+      "operation_id": "I1Q0C0GrevokeFfail_reauth_retry",
+      "intent": "38d7c6e9ee9f1c1d8b7b1dbd24382d424982ce51486f3c87cf7e76b662aa298e",
+      "generation": 1
+    },
+    "manifest": {
+      "adapter": "anyio_task",
+      "version": "4.12.1",
+      "python": "3.13.2",
+      "framework": {
+        "anyio._backends._asyncio": "c46eaabfad268069cbd262bcd9dc631f66fc86590c949fb1d81a88ab7aafef46"
+      },
+      "worker_sha256": "70a62d93215ef685cfb41009335bf26df3cb7dc57e4f6d4850058d0759c98d20",
+      "host_sha256": "70a62d93215ef685cfb41009335bf26df3cb7dc57e4f6d4850058d0759c98d20",
+      "observer_sha256": "70a62d93215ef685cfb41009335bf26df3cb7dc57e4f6d4850058d0759c98d20",
+      "route_sha256": "121a00259aeddc5d30daf7ce1a5b3817d4ba980e721c9e066ff4d871e2729359",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "fail",
+        "delayed": false,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": false,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": true,
+        "query_complete": false
+      }
+    },
+    "namespace": "effects"
+  },
+  "initial_observations": [
+    {
+      "action": "append",
+      "phase": "initial",
+      "attempt": 1,
+      "outcome": "error"
+    }
+  ],
+  "terminal": "complete",
+  "reason": "reauth_retry",
+  "events": [
+    {
+      "seq": 0,
+      "context": {
+        "operation_id": "I1Q0C0GrevokeFfail_reauth_retry",
+        "intent": "38d7c6e9ee9f1c1d8b7b1dbd24382d424982ce51486f3c87cf7e76b662aa298e",
+        "generation": 1
+      },
+      "manifest": "a5b556acbfc17f3a80d9e0a59523dc82f8c34d2c9adbec0510008abaa8cc1618",
+      "action": "retry",
+      "body": {
+        "state": "committed",
+        "record_id": 1,
+        "operation_id": "I1Q0C0GrevokeFfail_reauth_retry",
+        "intent": "38d7c6e9ee9f1c1d8b7b1dbd24382d424982ce51486f3c87cf7e76b662aa298e",
+        "generation": 1,
+        "effect_namespace": "effects",
+        "attempt": 2
+      }
+    }
+  ],
+  "steps": [],
+  "case": "I1Q0C0GrevokeFfail",
+  "elapsed_ns": 15187900
+}
