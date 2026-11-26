@@ -1,0 +1,58 @@
+{
+  "writes": [
+    {
+      "attempt": 2,
+      "record_id": 1,
+      "allowed": true,
+      "at_ns": 33411956518700
+    },
+    {
+      "attempt": 1,
+      "record_id": 2,
+      "allowed": true,
+      "at_ns": 33411962993500
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "allowed": true,
+      "at_ns": 33411879272000
+    },
+    {
+      "attempt": 2,
+      "allowed": true,
+      "at_ns": 33411954967400
+    }
+  ],
+  "entries": {
+    "1": {
+      "attempt": 1,
+      "terminal": true,
+      "receipt": {
+        "state": "committed",
+        "record_id": 2,
+        "operation_id": "C03_late_commit_query_retry",
+        "intent": "048c8931efe28cd784d1aaa5e3eba5b3b095769fc47a434a07300c2fe4bfcd76",
+        "generation": 1,
+        "effect_namespace": "effects",
+        "attempt": 1
+      },
+      "error": null
+    },
+    "2": {
+      "attempt": 2,
+      "terminal": true,
+      "receipt": {
+        "state": "committed",
+        "record_id": 1,
+        "operation_id": "C03_late_commit_query_retry",
+        "intent": "048c8931efe28cd784d1aaa5e3eba5b3b095769fc47a434a07300c2fe4bfcd76",
+        "generation": 1,
+        "effect_namespace": "effects",
+        "attempt": 2
+      },
+      "error": null
+    }
+  }
+}
