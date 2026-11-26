@@ -1,0 +1,69 @@
+{
+  "domain": "payments",
+  "steps": [
+    "authorize",
+    "capture",
+    "settle",
+    "notify"
+  ],
+  "policies": [
+    "clear",
+    "idem_retry",
+    "query_retry",
+    "reauth_retry",
+    "pause"
+  ],
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "faults": [
+    "lost_return",
+    "late_commit"
+  ],
+  "fault_step": {
+    "lost_return": "capture",
+    "late_commit": "capture"
+  },
+  "idempotency": [
+    "on",
+    "off"
+  ],
+  "lifecycle": "faithful",
+  "query_mode": "faithful",
+  "charge": 2500,
+  "files": {
+    "docs/R25_payment_domain_protocol.md": "a55dceec78ecf2387d0e4551672aba72446bc6380b3022b1af6279f40e396852",
+    "scripts/r25_service.py": "85ec8322e538f383118d8347254a900e06f21860229562c23bd40b178fe86d5e",
+    "scripts/r19_client.py": "8693a1615fa4055f311e1189de8b8ece0a67b0099dbc1b31415435127e2a6325",
+    "scripts/r25_client.py": "7577f5f8e59adc1a780d1ff131fc68833c641172ac4c74c74b46389849878808",
+    "scripts/run_r25.py": "59614e28f41f64afc564bc92ba39d05d831e2f3a4572f6263ea41bca85df83a8",
+    "scripts/verify_r25.py": "dbf7f529b66cc642a25b23b3f28d213db49bd6dd16e68a49720aea82b572d6cb"
+  },
+  "post_timeout_s": 0.4,
+  "get_timeout_s": 0.5,
+  "dispatch_jitter_s": 0.015,
+  "python": "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R1_anyio\\env\\Scripts\\python.exe",
+  "python_version": "3.13.2",
+  "service": "r25_service.py",
+  "target_calls_before_freeze": 0,
+  "created_ns": 1792594992165391400
+}

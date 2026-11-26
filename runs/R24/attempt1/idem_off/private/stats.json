@@ -1,0 +1,3122 @@
+{
+  "revoke_at_attach_S0_clear": {
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "revoke_at_attach_S1_clear": {
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "revoke_at_attach_S2_clear": {
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "revoke_at_attach_S3_clear": {
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "revoke_at_attach_S4_clear": {
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "revoke_at_attach_S5_clear": {
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "revoke_at_attach_S6_clear": {
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "revoke_at_attach_S7_clear": {
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "revoke_at_attach_S8_clear": {
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "revoke_at_attach_S9_clear": {
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "revoke_at_attach_S10_clear": {
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "revoke_at_attach_S11_clear": {
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "revoke_at_attach_S12_clear": {
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "revoke_at_attach_S13_clear": {
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "revoke_at_attach_S14_clear": {
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "revoke_at_attach_S15_clear": {
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "revoke_at_attach_S16_clear": {
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "revoke_at_attach_S17_clear": {
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "revoke_at_attach_S18_clear": {
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "revoke_at_attach_S19_clear": {
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "revoke_at_attach_S0_clear_replay": {
+    "attach": {
+      "rows": 1,
+      "stale": 0
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "revoke_at_attach_S1_clear_replay": {
+    "attach": {
+      "rows": 1,
+      "stale": 0
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "revoke_at_attach_S2_clear_replay": {
+    "attach": {
+      "rows": 1,
+      "stale": 0
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "revoke_at_attach_S3_clear_replay": {
+    "attach": {
+      "rows": 1,
+      "stale": 0
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "revoke_at_attach_S4_clear_replay": {
+    "attach": {
+      "rows": 1,
+      "stale": 0
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "revoke_at_attach_S5_clear_replay": {
+    "attach": {
+      "rows": 1,
+      "stale": 0
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "revoke_at_attach_S6_clear_replay": {
+    "attach": {
+      "rows": 1,
+      "stale": 0
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "revoke_at_attach_S7_clear_replay": {
+    "attach": {
+      "rows": 1,
+      "stale": 0
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "revoke_at_attach_S8_clear_replay": {
+    "attach": {
+      "rows": 1,
+      "stale": 0
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "revoke_at_attach_S9_clear_replay": {
+    "attach": {
+      "rows": 1,
+      "stale": 0
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "revoke_at_attach_S10_clear_replay": {
+    "attach": {
+      "rows": 1,
+      "stale": 0
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "revoke_at_attach_S11_clear_replay": {
+    "attach": {
+      "rows": 1,
+      "stale": 0
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "revoke_at_attach_S12_clear_replay": {
+    "attach": {
+      "rows": 1,
+      "stale": 0
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "revoke_at_attach_S13_clear_replay": {
+    "attach": {
+      "rows": 1,
+      "stale": 0
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "revoke_at_attach_S14_clear_replay": {
+    "attach": {
+      "rows": 1,
+      "stale": 0
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "revoke_at_attach_S15_clear_replay": {
+    "attach": {
+      "rows": 1,
+      "stale": 0
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "revoke_at_attach_S16_clear_replay": {
+    "attach": {
+      "rows": 1,
+      "stale": 0
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "revoke_at_attach_S17_clear_replay": {
+    "attach": {
+      "rows": 1,
+      "stale": 0
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "revoke_at_attach_S18_clear_replay": {
+    "attach": {
+      "rows": 1,
+      "stale": 0
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "revoke_at_attach_S19_clear_replay": {
+    "attach": {
+      "rows": 1,
+      "stale": 0
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "revoke_at_attach_S0_clear_resume": {
+    "attach": {
+      "rows": 1,
+      "stale": 0
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "revoke_at_attach_S1_clear_resume": {
+    "attach": {
+      "rows": 1,
+      "stale": 0
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "revoke_at_attach_S2_clear_resume": {
+    "attach": {
+      "rows": 1,
+      "stale": 0
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "revoke_at_attach_S3_clear_resume": {
+    "attach": {
+      "rows": 1,
+      "stale": 0
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "revoke_at_attach_S4_clear_resume": {
+    "attach": {
+      "rows": 1,
+      "stale": 0
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "revoke_at_attach_S5_clear_resume": {
+    "attach": {
+      "rows": 1,
+      "stale": 0
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "revoke_at_attach_S6_clear_resume": {
+    "attach": {
+      "rows": 1,
+      "stale": 0
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "revoke_at_attach_S7_clear_resume": {
+    "attach": {
+      "rows": 1,
+      "stale": 0
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "revoke_at_attach_S8_clear_resume": {
+    "attach": {
+      "rows": 1,
+      "stale": 0
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "revoke_at_attach_S9_clear_resume": {
+    "attach": {
+      "rows": 1,
+      "stale": 0
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "revoke_at_attach_S10_clear_resume": {
+    "attach": {
+      "rows": 1,
+      "stale": 0
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "revoke_at_attach_S11_clear_resume": {
+    "attach": {
+      "rows": 1,
+      "stale": 0
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "revoke_at_attach_S12_clear_resume": {
+    "attach": {
+      "rows": 1,
+      "stale": 0
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "revoke_at_attach_S13_clear_resume": {
+    "attach": {
+      "rows": 1,
+      "stale": 0
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "revoke_at_attach_S14_clear_resume": {
+    "attach": {
+      "rows": 1,
+      "stale": 0
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "revoke_at_attach_S15_clear_resume": {
+    "attach": {
+      "rows": 1,
+      "stale": 0
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "revoke_at_attach_S16_clear_resume": {
+    "attach": {
+      "rows": 1,
+      "stale": 0
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "revoke_at_attach_S17_clear_resume": {
+    "attach": {
+      "rows": 1,
+      "stale": 0
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "revoke_at_attach_S18_clear_resume": {
+    "attach": {
+      "rows": 1,
+      "stale": 0
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "revoke_at_attach_S19_clear_resume": {
+    "attach": {
+      "rows": 1,
+      "stale": 0
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "revoke_at_attach_S0_idem_retry": {
+    "attach": {
+      "rows": 1,
+      "stale": 1
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 1
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 1
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "revoke_at_attach_S1_idem_retry": {
+    "attach": {
+      "rows": 1,
+      "stale": 1
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 1
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 1
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "revoke_at_attach_S2_idem_retry": {
+    "attach": {
+      "rows": 1,
+      "stale": 1
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 1
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 1
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "revoke_at_attach_S3_idem_retry": {
+    "attach": {
+      "rows": 1,
+      "stale": 1
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 1
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 1
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "revoke_at_attach_S4_idem_retry": {
+    "attach": {
+      "rows": 1,
+      "stale": 1
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 1
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 1
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "revoke_at_attach_S5_idem_retry": {
+    "attach": {
+      "rows": 1,
+      "stale": 1
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 1
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 1
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "revoke_at_attach_S6_idem_retry": {
+    "attach": {
+      "rows": 1,
+      "stale": 1
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 1
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 1
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "revoke_at_attach_S7_idem_retry": {
+    "attach": {
+      "rows": 1,
+      "stale": 1
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 1
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 1
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "revoke_at_attach_S8_idem_retry": {
+    "attach": {
+      "rows": 1,
+      "stale": 1
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 1
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 1
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "revoke_at_attach_S9_idem_retry": {
+    "attach": {
+      "rows": 1,
+      "stale": 1
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 1
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 1
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "revoke_at_attach_S10_idem_retry": {
+    "attach": {
+      "rows": 1,
+      "stale": 1
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 1
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 1
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "revoke_at_attach_S11_idem_retry": {
+    "attach": {
+      "rows": 1,
+      "stale": 1
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 1
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 1
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "revoke_at_attach_S12_idem_retry": {
+    "attach": {
+      "rows": 1,
+      "stale": 1
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 1
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 1
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "revoke_at_attach_S13_idem_retry": {
+    "attach": {
+      "rows": 1,
+      "stale": 1
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 1
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 1
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "revoke_at_attach_S14_idem_retry": {
+    "attach": {
+      "rows": 1,
+      "stale": 1
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 1
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 1
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "revoke_at_attach_S15_idem_retry": {
+    "attach": {
+      "rows": 1,
+      "stale": 1
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 1
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 1
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "revoke_at_attach_S16_idem_retry": {
+    "attach": {
+      "rows": 1,
+      "stale": 1
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 1
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 1
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "revoke_at_attach_S17_idem_retry": {
+    "attach": {
+      "rows": 1,
+      "stale": 1
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 1
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 1
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "revoke_at_attach_S18_idem_retry": {
+    "attach": {
+      "rows": 1,
+      "stale": 1
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 1
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 1
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "revoke_at_attach_S19_idem_retry": {
+    "attach": {
+      "rows": 1,
+      "stale": 1
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 1
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 1
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "blackout_at_attach_S0_clear": {
+    "attach": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "blackout_at_attach_S1_clear": {
+    "attach": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "blackout_at_attach_S2_clear": {
+    "attach": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "blackout_at_attach_S3_clear": {
+    "attach": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "blackout_at_attach_S4_clear": {
+    "attach": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "blackout_at_attach_S5_clear": {
+    "attach": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "blackout_at_attach_S6_clear": {
+    "attach": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "blackout_at_attach_S7_clear": {
+    "attach": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "blackout_at_attach_S8_clear": {
+    "attach": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "blackout_at_attach_S9_clear": {
+    "attach": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "blackout_at_attach_S10_clear": {
+    "attach": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "blackout_at_attach_S11_clear": {
+    "attach": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "blackout_at_attach_S12_clear": {
+    "attach": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "blackout_at_attach_S13_clear": {
+    "attach": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "blackout_at_attach_S14_clear": {
+    "attach": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "blackout_at_attach_S15_clear": {
+    "attach": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "blackout_at_attach_S16_clear": {
+    "attach": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "blackout_at_attach_S17_clear": {
+    "attach": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "blackout_at_attach_S18_clear": {
+    "attach": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "blackout_at_attach_S19_clear": {
+    "attach": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "blackout_at_attach_S0_clear_replay": {
+    "attach": {
+      "rows": 2,
+      "stale": 0
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "blackout_at_attach_S1_clear_replay": {
+    "attach": {
+      "rows": 2,
+      "stale": 0
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "blackout_at_attach_S2_clear_replay": {
+    "attach": {
+      "rows": 2,
+      "stale": 0
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "blackout_at_attach_S3_clear_replay": {
+    "attach": {
+      "rows": 2,
+      "stale": 0
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "blackout_at_attach_S4_clear_replay": {
+    "attach": {
+      "rows": 2,
+      "stale": 0
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "blackout_at_attach_S5_clear_replay": {
+    "attach": {
+      "rows": 2,
+      "stale": 0
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "blackout_at_attach_S6_clear_replay": {
+    "attach": {
+      "rows": 2,
+      "stale": 0
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "blackout_at_attach_S7_clear_replay": {
+    "attach": {
+      "rows": 2,
+      "stale": 0
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "blackout_at_attach_S8_clear_replay": {
+    "attach": {
+      "rows": 2,
+      "stale": 0
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "blackout_at_attach_S9_clear_replay": {
+    "attach": {
+      "rows": 2,
+      "stale": 0
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "blackout_at_attach_S10_clear_replay": {
+    "attach": {
+      "rows": 2,
+      "stale": 0
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "blackout_at_attach_S11_clear_replay": {
+    "attach": {
+      "rows": 2,
+      "stale": 0
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "blackout_at_attach_S12_clear_replay": {
+    "attach": {
+      "rows": 2,
+      "stale": 0
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "blackout_at_attach_S13_clear_replay": {
+    "attach": {
+      "rows": 2,
+      "stale": 0
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "blackout_at_attach_S14_clear_replay": {
+    "attach": {
+      "rows": 2,
+      "stale": 0
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "blackout_at_attach_S15_clear_replay": {
+    "attach": {
+      "rows": 2,
+      "stale": 0
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "blackout_at_attach_S16_clear_replay": {
+    "attach": {
+      "rows": 2,
+      "stale": 0
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "blackout_at_attach_S17_clear_replay": {
+    "attach": {
+      "rows": 2,
+      "stale": 0
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "blackout_at_attach_S18_clear_replay": {
+    "attach": {
+      "rows": 2,
+      "stale": 0
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "blackout_at_attach_S19_clear_replay": {
+    "attach": {
+      "rows": 2,
+      "stale": 0
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "blackout_at_attach_S0_clear_resume": {
+    "attach": {
+      "rows": 1,
+      "stale": 0
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "blackout_at_attach_S1_clear_resume": {
+    "attach": {
+      "rows": 1,
+      "stale": 0
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "blackout_at_attach_S2_clear_resume": {
+    "attach": {
+      "rows": 1,
+      "stale": 0
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "blackout_at_attach_S3_clear_resume": {
+    "attach": {
+      "rows": 1,
+      "stale": 0
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "blackout_at_attach_S4_clear_resume": {
+    "attach": {
+      "rows": 1,
+      "stale": 0
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "blackout_at_attach_S5_clear_resume": {
+    "attach": {
+      "rows": 1,
+      "stale": 0
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "blackout_at_attach_S6_clear_resume": {
+    "attach": {
+      "rows": 1,
+      "stale": 0
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "blackout_at_attach_S7_clear_resume": {
+    "attach": {
+      "rows": 1,
+      "stale": 0
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "blackout_at_attach_S8_clear_resume": {
+    "attach": {
+      "rows": 1,
+      "stale": 0
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "blackout_at_attach_S9_clear_resume": {
+    "attach": {
+      "rows": 1,
+      "stale": 0
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "blackout_at_attach_S10_clear_resume": {
+    "attach": {
+      "rows": 1,
+      "stale": 0
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "blackout_at_attach_S11_clear_resume": {
+    "attach": {
+      "rows": 1,
+      "stale": 0
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "blackout_at_attach_S12_clear_resume": {
+    "attach": {
+      "rows": 1,
+      "stale": 0
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "blackout_at_attach_S13_clear_resume": {
+    "attach": {
+      "rows": 1,
+      "stale": 0
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "blackout_at_attach_S14_clear_resume": {
+    "attach": {
+      "rows": 1,
+      "stale": 0
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "blackout_at_attach_S15_clear_resume": {
+    "attach": {
+      "rows": 1,
+      "stale": 0
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "blackout_at_attach_S16_clear_resume": {
+    "attach": {
+      "rows": 1,
+      "stale": 0
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "blackout_at_attach_S17_clear_resume": {
+    "attach": {
+      "rows": 1,
+      "stale": 0
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "blackout_at_attach_S18_clear_resume": {
+    "attach": {
+      "rows": 1,
+      "stale": 0
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "blackout_at_attach_S19_clear_resume": {
+    "attach": {
+      "rows": 1,
+      "stale": 0
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "blackout_at_attach_S0_idem_retry": {
+    "attach": {
+      "rows": 2,
+      "stale": 0
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "blackout_at_attach_S1_idem_retry": {
+    "attach": {
+      "rows": 2,
+      "stale": 0
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "blackout_at_attach_S2_idem_retry": {
+    "attach": {
+      "rows": 2,
+      "stale": 0
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "blackout_at_attach_S3_idem_retry": {
+    "attach": {
+      "rows": 2,
+      "stale": 0
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "blackout_at_attach_S4_idem_retry": {
+    "attach": {
+      "rows": 2,
+      "stale": 0
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "blackout_at_attach_S5_idem_retry": {
+    "attach": {
+      "rows": 2,
+      "stale": 0
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "blackout_at_attach_S6_idem_retry": {
+    "attach": {
+      "rows": 2,
+      "stale": 0
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "blackout_at_attach_S7_idem_retry": {
+    "attach": {
+      "rows": 2,
+      "stale": 0
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "blackout_at_attach_S8_idem_retry": {
+    "attach": {
+      "rows": 2,
+      "stale": 0
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "blackout_at_attach_S9_idem_retry": {
+    "attach": {
+      "rows": 2,
+      "stale": 0
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "blackout_at_attach_S10_idem_retry": {
+    "attach": {
+      "rows": 2,
+      "stale": 0
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "blackout_at_attach_S11_idem_retry": {
+    "attach": {
+      "rows": 2,
+      "stale": 0
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "blackout_at_attach_S12_idem_retry": {
+    "attach": {
+      "rows": 2,
+      "stale": 0
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "blackout_at_attach_S13_idem_retry": {
+    "attach": {
+      "rows": 2,
+      "stale": 0
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "blackout_at_attach_S14_idem_retry": {
+    "attach": {
+      "rows": 2,
+      "stale": 0
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "blackout_at_attach_S15_idem_retry": {
+    "attach": {
+      "rows": 2,
+      "stale": 0
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "blackout_at_attach_S16_idem_retry": {
+    "attach": {
+      "rows": 2,
+      "stale": 0
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "blackout_at_attach_S17_idem_retry": {
+    "attach": {
+      "rows": 2,
+      "stale": 0
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "blackout_at_attach_S18_idem_retry": {
+    "attach": {
+      "rows": 2,
+      "stale": 0
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  },
+  "blackout_at_attach_S19_idem_retry": {
+    "attach": {
+      "rows": 2,
+      "stale": 0
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  }
+}

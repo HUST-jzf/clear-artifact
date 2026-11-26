@@ -1,0 +1,85 @@
+{
+  "run": "F:\\desktop\\paper\\clear-artifact\\runs\\R24\\attempt1",
+  "checks": 512,
+  "passed": 512,
+  "failed": [],
+  "summary": {
+    "revoke_at_attach": {
+      "clear": {
+        "workflows": 20,
+        "completed": 0,
+        "safe": 0,
+        "duplicates": 0,
+        "stale_rows": 0,
+        "paused": 20,
+        "repairs": 0
+      },
+      "clear_replay": {
+        "workflows": 20,
+        "completed": 20,
+        "safe": 20,
+        "duplicates": 0,
+        "stale_rows": 0,
+        "paused": 0,
+        "repairs": 20
+      },
+      "clear_resume": {
+        "workflows": 20,
+        "completed": 20,
+        "safe": 20,
+        "duplicates": 0,
+        "stale_rows": 0,
+        "paused": 0,
+        "repairs": 20
+      },
+      "idem_retry": {
+        "workflows": 20,
+        "completed": 20,
+        "safe": 0,
+        "duplicates": 0,
+        "stale_rows": 60,
+        "paused": 0,
+        "repairs": 0
+      }
+    },
+    "blackout_at_attach": {
+      "clear": {
+        "workflows": 20,
+        "completed": 0,
+        "safe": 0,
+        "duplicates": 0,
+        "stale_rows": 0,
+        "paused": 20,
+        "repairs": 0
+      },
+      "clear_replay": {
+        "workflows": 20,
+        "completed": 20,
+        "safe": 0,
+        "duplicates": 20,
+        "stale_rows": 0,
+        "paused": 0,
+        "repairs": 20
+      },
+      "clear_resume": {
+        "workflows": 20,
+        "completed": 20,
+        "safe": 20,
+        "duplicates": 0,
+        "stale_rows": 0,
+        "paused": 0,
+        "repairs": 20
+      },
+      "idem_retry": {
+        "workflows": 20,
+        "completed": 20,
+        "safe": 0,
+        "duplicates": 20,
+        "stale_rows": 0,
+        "paused": 0,
+        "repairs": 0
+      }
+    }
+  },
+  "status": "pass"
+}
