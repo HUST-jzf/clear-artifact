@@ -1,0 +1,1878 @@
+{
+  "checks": [
+    {
+      "name": "freeze:docs/R4_held_out_sources_protocol.md",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "freeze:docs/R14_extended_held_out_sources_protocol.md",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "freeze:scripts/r4_holdout.py",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "freeze:scripts/run_r4.py",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "freeze:scripts/verify_r4.py",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "freeze:scripts/r1_policies.py",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "freeze:sources/R4_autogen/wheels_sha256.json",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "freeze:sources/R4_autogen/static_review.md",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "version:autogen-core",
+      "ok": true,
+      "detail": {
+        "clear-assurance": "2.0.0",
+        "autogen-core": "0.7.5"
+      }
+    },
+    {
+      "name": "version:clear-assurance",
+      "ok": true,
+      "detail": {
+        "clear-assurance": "2.0.0",
+        "autogen-core": "0.7.5"
+      }
+    },
+    {
+      "name": "no-run-failures",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "name": "task-count",
+      "ok": true,
+      "detail": 40
+    },
+    {
+      "name": "adapter-no-case-branches",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "adapter-used:C01_fail_before:clear",
+      "ok": true,
+      "detail": "autogen_tool"
+    },
+    {
+      "name": "append-called:C01_fail_before:clear",
+      "ok": true,
+      "detail": [
+        {
+          "tool": "append",
+          "outcome": "error",
+          "time_ns": 33466924523400
+        },
+        {
+          "tool": "describe",
+          "outcome": "return",
+          "time_ns": 33466924530300
+        },
+        {
+          "tool": "status",
+          "outcome": "return",
+          "time_ns": 33466924581500
+        },
+        {
+          "tool": "describe",
+          "outcome": "return",
+          "time_ns": 33466924612600
+        },
+        {
+          "tool": "effects",
+          "outcome": "return",
+          "time_ns": 33466925311200
+        },
+        {
+          "tool": "describe",
+          "outcome": "return",
+          "time_ns": 33466925342100
+        },
+        {
+          "tool": "describe",
+          "outcome": "return",
+          "time_ns": 33466935751700
+        },
+        {
+          "tool": "drain",
+          "outcome": "return",
+          "time_ns": 33466938771000
+        }
+      ]
+    },
+    {
+      "name": "clear-terminal:C01_fail_before:clear",
+      "ok": true,
+      "detail": {
+        "actual": "complete",
+        "expected": "complete"
+      }
+    },
+    {
+      "name": "clear-rows:C01_fail_before:clear",
+      "ok": true,
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "name": "clear-no-duplicate:C01_fail_before:clear",
+      "ok": true,
+      "detail": {
+        "rows": 1
+      }
+    },
+    {
+      "name": "clear-no-stale:C01_fail_before:clear",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "name": "adapter-used:C01_fail_before:idem_retry",
+      "ok": true,
+      "detail": "autogen_tool"
+    },
+    {
+      "name": "append-called:C01_fail_before:idem_retry",
+      "ok": true,
+      "detail": [
+        {
+          "tool": "append",
+          "outcome": "error",
+          "time_ns": 33466964514800
+        },
+        {
+          "tool": "drain",
+          "outcome": "return",
+          "time_ns": 33466974780600
+        }
+      ]
+    },
+    {
+      "name": "adapter-used:C01_fail_before:query_retry",
+      "ok": true,
+      "detail": "autogen_tool"
+    },
+    {
+      "name": "append-called:C01_fail_before:query_retry",
+      "ok": true,
+      "detail": [
+        {
+          "tool": "append",
+          "outcome": "error",
+          "time_ns": 33466997092100
+        },
+        {
+          "tool": "effects",
+          "outcome": "return",
+          "time_ns": 33466998007400
+        },
+        {
+          "tool": "drain",
+          "outcome": "return",
+          "time_ns": 33467008030900
+        }
+      ]
+    },
+    {
+      "name": "adapter-used:C01_fail_before:reauth_retry",
+      "ok": true,
+      "detail": "autogen_tool"
+    },
+    {
+      "name": "append-called:C01_fail_before:reauth_retry",
+      "ok": true,
+      "detail": [
+        {
+          "tool": "append",
+          "outcome": "error",
+          "time_ns": 33467031118200
+        },
+        {
+          "tool": "describe",
+          "outcome": "return",
+          "time_ns": 33467031125600
+        },
+        {
+          "tool": "drain",
+          "outcome": "return",
+          "time_ns": 33467044640000
+        }
+      ]
+    },
+    {
+      "name": "adapter-used:C01_fail_before:pause",
+      "ok": true,
+      "detail": "autogen_tool"
+    },
+    {
+      "name": "append-called:C01_fail_before:pause",
+      "ok": true,
+      "detail": [
+        {
+          "tool": "append",
+          "outcome": "error",
+          "time_ns": 33467066182500
+        },
+        {
+          "tool": "drain",
+          "outcome": "return",
+          "time_ns": 33467068745500
+        }
+      ]
+    },
+    {
+      "name": "pause-terminal:C01_fail_before:pause",
+      "ok": true,
+      "detail": "pause"
+    },
+    {
+      "name": "pause-rows:C01_fail_before:pause",
+      "ok": true,
+      "detail": {
+        "rows": 0
+      }
+    },
+    {
+      "name": "adapter-used:C02_lost_return:clear",
+      "ok": true,
+      "detail": "autogen_tool"
+    },
+    {
+      "name": "append-called:C02_lost_return:clear",
+      "ok": true,
+      "detail": [
+        {
+          "tool": "append",
+          "outcome": "return",
+          "time_ns": 33467099313400
+        },
+        {
+          "tool": "describe",
+          "outcome": "return",
+          "time_ns": 33467099320400
+        },
+        {
+          "tool": "status",
+          "outcome": "return",
+          "time_ns": 33467099402700
+        },
+        {
+          "tool": "describe",
+          "outcome": "return",
+          "time_ns": 33467099423200
+        },
+        {
+          "tool": "drain",
+          "outcome": "return",
+          "time_ns": 33467101664700
+        }
+      ]
+    },
+    {
+      "name": "clear-terminal:C02_lost_return:clear",
+      "ok": true,
+      "detail": {
+        "actual": "complete",
+        "expected": "complete"
+      }
+    },
+    {
+      "name": "clear-rows:C02_lost_return:clear",
+      "ok": true,
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "name": "clear-no-duplicate:C02_lost_return:clear",
+      "ok": true,
+      "detail": {
+        "rows": 1
+      }
+    },
+    {
+      "name": "clear-no-stale:C02_lost_return:clear",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "name": "adapter-used:C02_lost_return:idem_retry",
+      "ok": true,
+      "detail": "autogen_tool"
+    },
+    {
+      "name": "append-called:C02_lost_return:idem_retry",
+      "ok": true,
+      "detail": [
+        {
+          "tool": "append",
+          "outcome": "return",
+          "time_ns": 33467141239300
+        },
+        {
+          "tool": "drain",
+          "outcome": "return",
+          "time_ns": 33467153763100
+        }
+      ]
+    },
+    {
+      "name": "adapter-used:C02_lost_return:query_retry",
+      "ok": true,
+      "detail": "autogen_tool"
+    },
+    {
+      "name": "append-called:C02_lost_return:query_retry",
+      "ok": true,
+      "detail": [
+        {
+          "tool": "append",
+          "outcome": "return",
+          "time_ns": 33467182009300
+        },
+        {
+          "tool": "effects",
+          "outcome": "return",
+          "time_ns": 33467183330500
+        },
+        {
+          "tool": "drain",
+          "outcome": "return",
+          "time_ns": 33467186414400
+        }
+      ]
+    },
+    {
+      "name": "adapter-used:C02_lost_return:reauth_retry",
+      "ok": true,
+      "detail": "autogen_tool"
+    },
+    {
+      "name": "append-called:C02_lost_return:reauth_retry",
+      "ok": true,
+      "detail": [
+        {
+          "tool": "append",
+          "outcome": "return",
+          "time_ns": 33467212543300
+        },
+        {
+          "tool": "describe",
+          "outcome": "return",
+          "time_ns": 33467212556700
+        },
+        {
+          "tool": "drain",
+          "outcome": "return",
+          "time_ns": 33467221559000
+        }
+      ]
+    },
+    {
+      "name": "adapter-used:C02_lost_return:pause",
+      "ok": true,
+      "detail": "autogen_tool"
+    },
+    {
+      "name": "append-called:C02_lost_return:pause",
+      "ok": true,
+      "detail": [
+        {
+          "tool": "append",
+          "outcome": "return",
+          "time_ns": 33467249351800
+        },
+        {
+          "tool": "drain",
+          "outcome": "return",
+          "time_ns": 33467251229400
+        }
+      ]
+    },
+    {
+      "name": "pause-terminal:C02_lost_return:pause",
+      "ok": true,
+      "detail": "pause"
+    },
+    {
+      "name": "pause-rows:C02_lost_return:pause",
+      "ok": true,
+      "detail": {
+        "rows": 1
+      }
+    },
+    {
+      "name": "adapter-used:C03_late_commit:clear",
+      "ok": true,
+      "detail": "autogen_tool"
+    },
+    {
+      "name": "append-called:C03_late_commit:clear",
+      "ok": true,
+      "detail": [
+        {
+          "tool": "append",
+          "outcome": "timeout",
+          "time_ns": 33467329749900
+        },
+        {
+          "tool": "describe",
+          "outcome": "return",
+          "time_ns": 33467329763800
+        },
+        {
+          "tool": "status",
+          "outcome": "return",
+          "time_ns": 33467329891600
+        },
+        {
+          "tool": "status",
+          "outcome": "return",
+          "time_ns": 33467344942300
+        },
+        {
+          "tool": "status",
+          "outcome": "return",
+          "time_ns": 33467360388400
+        },
+        {
+          "tool": "status",
+          "outcome": "return",
+          "time_ns": 33467364237200
+        },
+        {
+          "tool": "describe",
+          "outcome": "return",
+          "time_ns": 33467364286500
+        },
+        {
+          "tool": "drain",
+          "outcome": "return",
+          "time_ns": 33467366668400
+        }
+      ]
+    },
+    {
+      "name": "clear-terminal:C03_late_commit:clear",
+      "ok": true,
+      "detail": {
+        "actual": "complete",
+        "expected": "complete"
+      }
+    },
+    {
+      "name": "clear-rows:C03_late_commit:clear",
+      "ok": true,
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "name": "clear-no-duplicate:C03_late_commit:clear",
+      "ok": true,
+      "detail": {
+        "rows": 1
+      }
+    },
+    {
+      "name": "clear-no-stale:C03_late_commit:clear",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "name": "adapter-used:C03_late_commit:idem_retry",
+      "ok": true,
+      "detail": "autogen_tool"
+    },
+    {
+      "name": "append-called:C03_late_commit:idem_retry",
+      "ok": true,
+      "detail": [
+        {
+          "tool": "append",
+          "outcome": "timeout",
+          "time_ns": 33467454614600
+        },
+        {
+          "tool": "drain",
+          "outcome": "return",
+          "time_ns": 33467477493300
+        }
+      ]
+    },
+    {
+      "name": "adapter-used:C03_late_commit:query_retry",
+      "ok": true,
+      "detail": "autogen_tool"
+    },
+    {
+      "name": "append-called:C03_late_commit:query_retry",
+      "ok": true,
+      "detail": [
+        {
+          "tool": "append",
+          "outcome": "timeout",
+          "time_ns": 33467564523300
+        },
+        {
+          "tool": "effects",
+          "outcome": "return",
+          "time_ns": 33467565849400
+        },
+        {
+          "tool": "drain",
+          "outcome": "return",
+          "time_ns": 33467591139600
+        }
+      ]
+    },
+    {
+      "name": "adapter-used:C03_late_commit:reauth_retry",
+      "ok": true,
+      "detail": "autogen_tool"
+    },
+    {
+      "name": "append-called:C03_late_commit:reauth_retry",
+      "ok": true,
+      "detail": [
+        {
+          "tool": "append",
+          "outcome": "timeout",
+          "time_ns": 33467673286600
+        },
+        {
+          "tool": "describe",
+          "outcome": "return",
+          "time_ns": 33467673305600
+        },
+        {
+          "tool": "drain",
+          "outcome": "return",
+          "time_ns": 33467703662400
+        }
+      ]
+    },
+    {
+      "name": "adapter-used:C03_late_commit:pause",
+      "ok": true,
+      "detail": "autogen_tool"
+    },
+    {
+      "name": "append-called:C03_late_commit:pause",
+      "ok": true,
+      "detail": [
+        {
+          "tool": "append",
+          "outcome": "timeout",
+          "time_ns": 33467782542100
+        },
+        {
+          "tool": "drain",
+          "outcome": "return",
+          "time_ns": 33467812475900
+        }
+      ]
+    },
+    {
+      "name": "pause-terminal:C03_late_commit:pause",
+      "ok": true,
+      "detail": "pause"
+    },
+    {
+      "name": "pause-rows:C03_late_commit:pause",
+      "ok": true,
+      "detail": {
+        "rows": 1
+      }
+    },
+    {
+      "name": "adapter-used:C04_revoke:clear",
+      "ok": true,
+      "detail": "autogen_tool"
+    },
+    {
+      "name": "append-called:C04_revoke:clear",
+      "ok": true,
+      "detail": [
+        {
+          "tool": "append",
+          "outcome": "error",
+          "time_ns": 33467843645700
+        },
+        {
+          "tool": "describe",
+          "outcome": "return",
+          "time_ns": 33467846217200
+        },
+        {
+          "tool": "status",
+          "outcome": "return",
+          "time_ns": 33467846261800
+        },
+        {
+          "tool": "describe",
+          "outcome": "return",
+          "time_ns": 33467846284000
+        },
+        {
+          "tool": "effects",
+          "outcome": "return",
+          "time_ns": 33467846814500
+        },
+        {
+          "tool": "describe",
+          "outcome": "return",
+          "time_ns": 33467846844900
+        },
+        {
+          "tool": "status",
+          "outcome": "return",
+          "time_ns": 33467846897900
+        },
+        {
+          "tool": "describe",
+          "outcome": "return",
+          "time_ns": 33467846915800
+        },
+        {
+          "tool": "effects",
+          "outcome": "return",
+          "time_ns": 33467847384600
+        },
+        {
+          "tool": "describe",
+          "outcome": "return",
+          "time_ns": 33467847411700
+        },
+        {
+          "tool": "drain",
+          "outcome": "return",
+          "time_ns": 33467849428100
+        }
+      ]
+    },
+    {
+      "name": "clear-terminal:C04_revoke:clear",
+      "ok": true,
+      "detail": {
+        "actual": "pause",
+        "expected": "pause"
+      }
+    },
+    {
+      "name": "clear-rows:C04_revoke:clear",
+      "ok": true,
+      "detail": {
+        "actual": 0,
+        "expected": 0
+      }
+    },
+    {
+      "name": "clear-no-duplicate:C04_revoke:clear",
+      "ok": true,
+      "detail": {
+        "rows": 0
+      }
+    },
+    {
+      "name": "clear-no-stale:C04_revoke:clear",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "name": "adapter-used:C04_revoke:idem_retry",
+      "ok": true,
+      "detail": "autogen_tool"
+    },
+    {
+      "name": "append-called:C04_revoke:idem_retry",
+      "ok": true,
+      "detail": [
+        {
+          "tool": "append",
+          "outcome": "error",
+          "time_ns": 33467863867200
+        },
+        {
+          "tool": "drain",
+          "outcome": "return",
+          "time_ns": 33467875325300
+        }
+      ]
+    },
+    {
+      "name": "adapter-used:C04_revoke:query_retry",
+      "ok": true,
+      "detail": "autogen_tool"
+    },
+    {
+      "name": "append-called:C04_revoke:query_retry",
+      "ok": true,
+      "detail": [
+        {
+          "tool": "append",
+          "outcome": "error",
+          "time_ns": 33467890010700
+        },
+        {
+          "tool": "effects",
+          "outcome": "return",
+          "time_ns": 33467894649600
+        },
+        {
+          "tool": "drain",
+          "outcome": "return",
+          "time_ns": 33467902519900
+        }
+      ]
+    },
+    {
+      "name": "adapter-used:C04_revoke:reauth_retry",
+      "ok": true,
+      "detail": "autogen_tool"
+    },
+    {
+      "name": "append-called:C04_revoke:reauth_retry",
+      "ok": true,
+      "detail": [
+        {
+          "tool": "append",
+          "outcome": "error",
+          "time_ns": 33467915887200
+        },
+        {
+          "tool": "describe",
+          "outcome": "return",
+          "time_ns": 33467918641700
+        },
+        {
+          "tool": "reauthorize",
+          "outcome": "return",
+          "time_ns": 33467920728300
+        },
+        {
+          "tool": "describe",
+          "outcome": "return",
+          "time_ns": 33467920732600
+        },
+        {
+          "tool": "drain",
+          "outcome": "return",
+          "time_ns": 33467927660400
+        }
+      ]
+    },
+    {
+      "name": "adapter-used:C04_revoke:pause",
+      "ok": true,
+      "detail": "autogen_tool"
+    },
+    {
+      "name": "append-called:C04_revoke:pause",
+      "ok": true,
+      "detail": [
+        {
+          "tool": "append",
+          "outcome": "error",
+          "time_ns": 33467942983200
+        },
+        {
+          "tool": "drain",
+          "outcome": "return",
+          "time_ns": 33467947749500
+        }
+      ]
+    },
+    {
+      "name": "pause-terminal:C04_revoke:pause",
+      "ok": true,
+      "detail": "pause"
+    },
+    {
+      "name": "pause-rows:C04_revoke:pause",
+      "ok": true,
+      "detail": {
+        "rows": 0
+      }
+    },
+    {
+      "name": "adapter-used:C05_query_unavailable:clear",
+      "ok": true,
+      "detail": "autogen_tool"
+    },
+    {
+      "name": "append-called:C05_query_unavailable:clear",
+      "ok": true,
+      "detail": [
+        {
+          "tool": "append",
+          "outcome": "return",
+          "time_ns": 33467968620000
+        },
+        {
+          "tool": "describe",
+          "outcome": "return",
+          "time_ns": 33467968630700
+        },
+        {
+          "tool": "effects",
+          "outcome": "return",
+          "time_ns": 33467968649500
+        },
+        {
+          "tool": "describe",
+          "outcome": "return",
+          "time_ns": 33467968711600
+        },
+        {
+          "tool": "drain",
+          "outcome": "return",
+          "time_ns": 33467970036300
+        }
+      ]
+    },
+    {
+      "name": "clear-terminal:C05_query_unavailable:clear",
+      "ok": true,
+      "detail": {
+        "actual": "pause",
+        "expected": "pause"
+      }
+    },
+    {
+      "name": "clear-rows:C05_query_unavailable:clear",
+      "ok": true,
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "name": "clear-no-duplicate:C05_query_unavailable:clear",
+      "ok": true,
+      "detail": {
+        "rows": 1
+      }
+    },
+    {
+      "name": "clear-no-stale:C05_query_unavailable:clear",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "name": "adapter-used:C05_query_unavailable:idem_retry",
+      "ok": true,
+      "detail": "autogen_tool"
+    },
+    {
+      "name": "append-called:C05_query_unavailable:idem_retry",
+      "ok": true,
+      "detail": [
+        {
+          "tool": "append",
+          "outcome": "return",
+          "time_ns": 33467989898700
+        },
+        {
+          "tool": "drain",
+          "outcome": "return",
+          "time_ns": 33467996401000
+        }
+      ]
+    },
+    {
+      "name": "adapter-used:C05_query_unavailable:query_retry",
+      "ok": true,
+      "detail": "autogen_tool"
+    },
+    {
+      "name": "append-called:C05_query_unavailable:query_retry",
+      "ok": true,
+      "detail": [
+        {
+          "tool": "append",
+          "outcome": "return",
+          "time_ns": 33468014779900
+        },
+        {
+          "tool": "effects",
+          "outcome": "return",
+          "time_ns": 33468014787500
+        },
+        {
+          "tool": "drain",
+          "outcome": "return",
+          "time_ns": 33468016211300
+        }
+      ]
+    },
+    {
+      "name": "adapter-used:C05_query_unavailable:reauth_retry",
+      "ok": true,
+      "detail": "autogen_tool"
+    },
+    {
+      "name": "append-called:C05_query_unavailable:reauth_retry",
+      "ok": true,
+      "detail": [
+        {
+          "tool": "append",
+          "outcome": "return",
+          "time_ns": 33468037882800
+        },
+        {
+          "tool": "describe",
+          "outcome": "return",
+          "time_ns": 33468037895000
+        },
+        {
+          "tool": "drain",
+          "outcome": "return",
+          "time_ns": 33468044290000
+        }
+      ]
+    },
+    {
+      "name": "adapter-used:C05_query_unavailable:pause",
+      "ok": true,
+      "detail": "autogen_tool"
+    },
+    {
+      "name": "append-called:C05_query_unavailable:pause",
+      "ok": true,
+      "detail": [
+        {
+          "tool": "append",
+          "outcome": "return",
+          "time_ns": 33468065595500
+        },
+        {
+          "tool": "drain",
+          "outcome": "return",
+          "time_ns": 33468066828300
+        }
+      ]
+    },
+    {
+      "name": "pause-terminal:C05_query_unavailable:pause",
+      "ok": true,
+      "detail": "pause"
+    },
+    {
+      "name": "pause-rows:C05_query_unavailable:pause",
+      "ok": true,
+      "detail": {
+        "rows": 1
+      }
+    },
+    {
+      "name": "adapter-used:C06_closure_missing:clear",
+      "ok": true,
+      "detail": "autogen_tool"
+    },
+    {
+      "name": "append-called:C06_closure_missing:clear",
+      "ok": true,
+      "detail": [
+        {
+          "tool": "append",
+          "outcome": "return",
+          "time_ns": 33468085819200
+        },
+        {
+          "tool": "describe",
+          "outcome": "return",
+          "time_ns": 33468085825600
+        },
+        {
+          "tool": "effects",
+          "outcome": "return",
+          "time_ns": 33468086341200
+        },
+        {
+          "tool": "describe",
+          "outcome": "return",
+          "time_ns": 33468086382200
+        },
+        {
+          "tool": "drain",
+          "outcome": "return",
+          "time_ns": 33468088243500
+        }
+      ]
+    },
+    {
+      "name": "clear-terminal:C06_closure_missing:clear",
+      "ok": true,
+      "detail": {
+        "actual": "complete",
+        "expected": "complete"
+      }
+    },
+    {
+      "name": "clear-rows:C06_closure_missing:clear",
+      "ok": true,
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "name": "clear-no-duplicate:C06_closure_missing:clear",
+      "ok": true,
+      "detail": {
+        "rows": 1
+      }
+    },
+    {
+      "name": "clear-no-stale:C06_closure_missing:clear",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "name": "adapter-used:C06_closure_missing:idem_retry",
+      "ok": true,
+      "detail": "autogen_tool"
+    },
+    {
+      "name": "append-called:C06_closure_missing:idem_retry",
+      "ok": true,
+      "detail": [
+        {
+          "tool": "append",
+          "outcome": "return",
+          "time_ns": 33468109742700
+        },
+        {
+          "tool": "drain",
+          "outcome": "return",
+          "time_ns": 33468117197000
+        }
+      ]
+    },
+    {
+      "name": "adapter-used:C06_closure_missing:query_retry",
+      "ok": true,
+      "detail": "autogen_tool"
+    },
+    {
+      "name": "append-called:C06_closure_missing:query_retry",
+      "ok": true,
+      "detail": [
+        {
+          "tool": "append",
+          "outcome": "return",
+          "time_ns": 33468136371300
+        },
+        {
+          "tool": "effects",
+          "outcome": "return",
+          "time_ns": 33468137323200
+        },
+        {
+          "tool": "drain",
+          "outcome": "return",
+          "time_ns": 33468138655900
+        }
+      ]
+    },
+    {
+      "name": "adapter-used:C06_closure_missing:reauth_retry",
+      "ok": true,
+      "detail": "autogen_tool"
+    },
+    {
+      "name": "append-called:C06_closure_missing:reauth_retry",
+      "ok": true,
+      "detail": [
+        {
+          "tool": "append",
+          "outcome": "return",
+          "time_ns": 33468159804400
+        },
+        {
+          "tool": "describe",
+          "outcome": "return",
+          "time_ns": 33468159815400
+        },
+        {
+          "tool": "drain",
+          "outcome": "return",
+          "time_ns": 33468167607200
+        }
+      ]
+    },
+    {
+      "name": "adapter-used:C06_closure_missing:pause",
+      "ok": true,
+      "detail": "autogen_tool"
+    },
+    {
+      "name": "append-called:C06_closure_missing:pause",
+      "ok": true,
+      "detail": [
+        {
+          "tool": "append",
+          "outcome": "return",
+          "time_ns": 33468188599100
+        },
+        {
+          "tool": "drain",
+          "outcome": "return",
+          "time_ns": 33468191110600
+        }
+      ]
+    },
+    {
+      "name": "pause-terminal:C06_closure_missing:pause",
+      "ok": true,
+      "detail": "pause"
+    },
+    {
+      "name": "pause-rows:C06_closure_missing:pause",
+      "ok": true,
+      "detail": {
+        "rows": 1
+      }
+    },
+    {
+      "name": "adapter-used:C07_idempotent_lost:clear",
+      "ok": true,
+      "detail": "autogen_tool"
+    },
+    {
+      "name": "append-called:C07_idempotent_lost:clear",
+      "ok": true,
+      "detail": [
+        {
+          "tool": "append",
+          "outcome": "return",
+          "time_ns": 33468218173200
+        },
+        {
+          "tool": "describe",
+          "outcome": "return",
+          "time_ns": 33468218185500
+        },
+        {
+          "tool": "status",
+          "outcome": "return",
+          "time_ns": 33468218301000
+        },
+        {
+          "tool": "describe",
+          "outcome": "return",
+          "time_ns": 33468218340000
+        },
+        {
+          "tool": "drain",
+          "outcome": "return",
+          "time_ns": 33468219994700
+        }
+      ]
+    },
+    {
+      "name": "clear-terminal:C07_idempotent_lost:clear",
+      "ok": true,
+      "detail": {
+        "actual": "complete",
+        "expected": "complete"
+      }
+    },
+    {
+      "name": "clear-rows:C07_idempotent_lost:clear",
+      "ok": true,
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "name": "clear-no-duplicate:C07_idempotent_lost:clear",
+      "ok": true,
+      "detail": {
+        "rows": 1
+      }
+    },
+    {
+      "name": "clear-no-stale:C07_idempotent_lost:clear",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "name": "adapter-used:C07_idempotent_lost:idem_retry",
+      "ok": true,
+      "detail": "autogen_tool"
+    },
+    {
+      "name": "append-called:C07_idempotent_lost:idem_retry",
+      "ok": true,
+      "detail": [
+        {
+          "tool": "append",
+          "outcome": "return",
+          "time_ns": 33468239518400
+        },
+        {
+          "tool": "drain",
+          "outcome": "return",
+          "time_ns": 33468242007100
+        }
+      ]
+    },
+    {
+      "name": "adapter-used:C07_idempotent_lost:query_retry",
+      "ok": true,
+      "detail": "autogen_tool"
+    },
+    {
+      "name": "append-called:C07_idempotent_lost:query_retry",
+      "ok": true,
+      "detail": [
+        {
+          "tool": "append",
+          "outcome": "return",
+          "time_ns": 33468284157600
+        },
+        {
+          "tool": "effects",
+          "outcome": "return",
+          "time_ns": 33468285027700
+        },
+        {
+          "tool": "drain",
+          "outcome": "return",
+          "time_ns": 33468286547600
+        }
+      ]
+    },
+    {
+      "name": "adapter-used:C07_idempotent_lost:reauth_retry",
+      "ok": true,
+      "detail": "autogen_tool"
+    },
+    {
+      "name": "append-called:C07_idempotent_lost:reauth_retry",
+      "ok": true,
+      "detail": [
+        {
+          "tool": "append",
+          "outcome": "return",
+          "time_ns": 33468307781200
+        },
+        {
+          "tool": "describe",
+          "outcome": "return",
+          "time_ns": 33468307790500
+        },
+        {
+          "tool": "drain",
+          "outcome": "return",
+          "time_ns": 33468310238600
+        }
+      ]
+    },
+    {
+      "name": "adapter-used:C07_idempotent_lost:pause",
+      "ok": true,
+      "detail": "autogen_tool"
+    },
+    {
+      "name": "append-called:C07_idempotent_lost:pause",
+      "ok": true,
+      "detail": [
+        {
+          "tool": "append",
+          "outcome": "return",
+          "time_ns": 33468333391000
+        },
+        {
+          "tool": "drain",
+          "outcome": "return",
+          "time_ns": 33468334819600
+        }
+      ]
+    },
+    {
+      "name": "pause-terminal:C07_idempotent_lost:pause",
+      "ok": true,
+      "detail": "pause"
+    },
+    {
+      "name": "pause-rows:C07_idempotent_lost:pause",
+      "ok": true,
+      "detail": {
+        "rows": 1
+      }
+    },
+    {
+      "name": "adapter-used:C08_normal:clear",
+      "ok": true,
+      "detail": "autogen_tool"
+    },
+    {
+      "name": "append-called:C08_normal:clear",
+      "ok": true,
+      "detail": [
+        {
+          "tool": "append",
+          "outcome": "return",
+          "time_ns": 33468355273700
+        },
+        {
+          "tool": "describe",
+          "outcome": "return",
+          "time_ns": 33468355280200
+        },
+        {
+          "tool": "status",
+          "outcome": "return",
+          "time_ns": 33468355349600
+        },
+        {
+          "tool": "describe",
+          "outcome": "return",
+          "time_ns": 33468355368600
+        },
+        {
+          "tool": "drain",
+          "outcome": "return",
+          "time_ns": 33468356882300
+        }
+      ]
+    },
+    {
+      "name": "clear-terminal:C08_normal:clear",
+      "ok": true,
+      "detail": {
+        "actual": "complete",
+        "expected": "complete"
+      }
+    },
+    {
+      "name": "clear-rows:C08_normal:clear",
+      "ok": true,
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "name": "clear-no-duplicate:C08_normal:clear",
+      "ok": true,
+      "detail": {
+        "rows": 1
+      }
+    },
+    {
+      "name": "clear-no-stale:C08_normal:clear",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "name": "adapter-used:C08_normal:idem_retry",
+      "ok": true,
+      "detail": "autogen_tool"
+    },
+    {
+      "name": "append-called:C08_normal:idem_retry",
+      "ok": true,
+      "detail": [
+        {
+          "tool": "append",
+          "outcome": "return",
+          "time_ns": 33468376271900
+        },
+        {
+          "tool": "drain",
+          "outcome": "return",
+          "time_ns": 33468383161100
+        }
+      ]
+    },
+    {
+      "name": "adapter-used:C08_normal:query_retry",
+      "ok": true,
+      "detail": "autogen_tool"
+    },
+    {
+      "name": "append-called:C08_normal:query_retry",
+      "ok": true,
+      "detail": [
+        {
+          "tool": "append",
+          "outcome": "return",
+          "time_ns": 33468403519800
+        },
+        {
+          "tool": "effects",
+          "outcome": "return",
+          "time_ns": 33468404047300
+        },
+        {
+          "tool": "drain",
+          "outcome": "return",
+          "time_ns": 33468405407900
+        }
+      ]
+    },
+    {
+      "name": "adapter-used:C08_normal:reauth_retry",
+      "ok": true,
+      "detail": "autogen_tool"
+    },
+    {
+      "name": "append-called:C08_normal:reauth_retry",
+      "ok": true,
+      "detail": [
+        {
+          "tool": "append",
+          "outcome": "return",
+          "time_ns": 33468430029000
+        },
+        {
+          "tool": "describe",
+          "outcome": "return",
+          "time_ns": 33468430036600
+        },
+        {
+          "tool": "drain",
+          "outcome": "return",
+          "time_ns": 33468437290500
+        }
+      ]
+    },
+    {
+      "name": "adapter-used:C08_normal:pause",
+      "ok": true,
+      "detail": "autogen_tool"
+    },
+    {
+      "name": "append-called:C08_normal:pause",
+      "ok": true,
+      "detail": [
+        {
+          "tool": "append",
+          "outcome": "return",
+          "time_ns": 33468464939800
+        },
+        {
+          "tool": "drain",
+          "outcome": "return",
+          "time_ns": 33468468139000
+        }
+      ]
+    },
+    {
+      "name": "pause-terminal:C08_normal:pause",
+      "ok": true,
+      "detail": "pause"
+    },
+    {
+      "name": "pause-rows:C08_normal:pause",
+      "ok": true,
+      "detail": {
+        "rows": 1
+      }
+    }
+  ],
+  "cells": {
+    "C01_fail_before:clear": {
+      "case": "C01_fail_before",
+      "policy": "clear",
+      "terminal": "complete",
+      "rows": 1,
+      "duplicate": false,
+      "stale_new": 0,
+      "actions": 3
+    },
+    "C01_fail_before:idem_retry": {
+      "case": "C01_fail_before",
+      "policy": "idem_retry",
+      "terminal": "complete",
+      "rows": 1,
+      "duplicate": false,
+      "stale_new": 0,
+      "actions": 1
+    },
+    "C01_fail_before:query_retry": {
+      "case": "C01_fail_before",
+      "policy": "query_retry",
+      "terminal": "complete",
+      "rows": 1,
+      "duplicate": false,
+      "stale_new": 0,
+      "actions": 2
+    },
+    "C01_fail_before:reauth_retry": {
+      "case": "C01_fail_before",
+      "policy": "reauth_retry",
+      "terminal": "complete",
+      "rows": 1,
+      "duplicate": false,
+      "stale_new": 0,
+      "actions": 1
+    },
+    "C01_fail_before:pause": {
+      "case": "C01_fail_before",
+      "policy": "pause",
+      "terminal": "pause",
+      "rows": 0,
+      "duplicate": false,
+      "stale_new": 0,
+      "actions": 0
+    },
+    "C02_lost_return:clear": {
+      "case": "C02_lost_return",
+      "policy": "clear",
+      "terminal": "complete",
+      "rows": 1,
+      "duplicate": false,
+      "stale_new": 0,
+      "actions": 1
+    },
+    "C02_lost_return:idem_retry": {
+      "case": "C02_lost_return",
+      "policy": "idem_retry",
+      "terminal": "complete",
+      "rows": 2,
+      "duplicate": true,
+      "stale_new": 0,
+      "actions": 1
+    },
+    "C02_lost_return:query_retry": {
+      "case": "C02_lost_return",
+      "policy": "query_retry",
+      "terminal": "complete",
+      "rows": 1,
+      "duplicate": false,
+      "stale_new": 0,
+      "actions": 1
+    },
+    "C02_lost_return:reauth_retry": {
+      "case": "C02_lost_return",
+      "policy": "reauth_retry",
+      "terminal": "complete",
+      "rows": 2,
+      "duplicate": true,
+      "stale_new": 0,
+      "actions": 1
+    },
+    "C02_lost_return:pause": {
+      "case": "C02_lost_return",
+      "policy": "pause",
+      "terminal": "pause",
+      "rows": 1,
+      "duplicate": false,
+      "stale_new": 0,
+      "actions": 0
+    },
+    "C03_late_commit:clear": {
+      "case": "C03_late_commit",
+      "policy": "clear",
+      "terminal": "complete",
+      "rows": 1,
+      "duplicate": false,
+      "stale_new": 0,
+      "actions": 1
+    },
+    "C03_late_commit:idem_retry": {
+      "case": "C03_late_commit",
+      "policy": "idem_retry",
+      "terminal": "complete",
+      "rows": 2,
+      "duplicate": true,
+      "stale_new": 0,
+      "actions": 1
+    },
+    "C03_late_commit:query_retry": {
+      "case": "C03_late_commit",
+      "policy": "query_retry",
+      "terminal": "complete",
+      "rows": 2,
+      "duplicate": true,
+      "stale_new": 0,
+      "actions": 2
+    },
+    "C03_late_commit:reauth_retry": {
+      "case": "C03_late_commit",
+      "policy": "reauth_retry",
+      "terminal": "complete",
+      "rows": 2,
+      "duplicate": true,
+      "stale_new": 0,
+      "actions": 1
+    },
+    "C03_late_commit:pause": {
+      "case": "C03_late_commit",
+      "policy": "pause",
+      "terminal": "pause",
+      "rows": 1,
+      "duplicate": false,
+      "stale_new": 0,
+      "actions": 0
+    },
+    "C04_revoke:clear": {
+      "case": "C04_revoke",
+      "policy": "clear",
+      "terminal": "pause",
+      "rows": 0,
+      "duplicate": false,
+      "stale_new": 0,
+      "actions": 4
+    },
+    "C04_revoke:idem_retry": {
+      "case": "C04_revoke",
+      "policy": "idem_retry",
+      "terminal": "complete",
+      "rows": 1,
+      "duplicate": false,
+      "stale_new": 1,
+      "actions": 1
+    },
+    "C04_revoke:query_retry": {
+      "case": "C04_revoke",
+      "policy": "query_retry",
+      "terminal": "complete",
+      "rows": 1,
+      "duplicate": false,
+      "stale_new": 1,
+      "actions": 2
+    },
+    "C04_revoke:reauth_retry": {
+      "case": "C04_revoke",
+      "policy": "reauth_retry",
+      "terminal": "complete",
+      "rows": 1,
+      "duplicate": false,
+      "stale_new": 0,
+      "actions": 1
+    },
+    "C04_revoke:pause": {
+      "case": "C04_revoke",
+      "policy": "pause",
+      "terminal": "pause",
+      "rows": 0,
+      "duplicate": false,
+      "stale_new": 0,
+      "actions": 0
+    },
+    "C05_query_unavailable:clear": {
+      "case": "C05_query_unavailable",
+      "policy": "clear",
+      "terminal": "pause",
+      "rows": 1,
+      "duplicate": false,
+      "stale_new": 0,
+      "actions": 1
+    },
+    "C05_query_unavailable:idem_retry": {
+      "case": "C05_query_unavailable",
+      "policy": "idem_retry",
+      "terminal": "complete",
+      "rows": 2,
+      "duplicate": true,
+      "stale_new": 0,
+      "actions": 1
+    },
+    "C05_query_unavailable:query_retry": {
+      "case": "C05_query_unavailable",
+      "policy": "query_retry",
+      "terminal": "pause",
+      "rows": 1,
+      "duplicate": false,
+      "stale_new": 0,
+      "actions": 1
+    },
+    "C05_query_unavailable:reauth_retry": {
+      "case": "C05_query_unavailable",
+      "policy": "reauth_retry",
+      "terminal": "complete",
+      "rows": 2,
+      "duplicate": true,
+      "stale_new": 0,
+      "actions": 1
+    },
+    "C05_query_unavailable:pause": {
+      "case": "C05_query_unavailable",
+      "policy": "pause",
+      "terminal": "pause",
+      "rows": 1,
+      "duplicate": false,
+      "stale_new": 0,
+      "actions": 0
+    },
+    "C06_closure_missing:clear": {
+      "case": "C06_closure_missing",
+      "policy": "clear",
+      "terminal": "complete",
+      "rows": 1,
+      "duplicate": false,
+      "stale_new": 0,
+      "actions": 1
+    },
+    "C06_closure_missing:idem_retry": {
+      "case": "C06_closure_missing",
+      "policy": "idem_retry",
+      "terminal": "complete",
+      "rows": 2,
+      "duplicate": true,
+      "stale_new": 0,
+      "actions": 1
+    },
+    "C06_closure_missing:query_retry": {
+      "case": "C06_closure_missing",
+      "policy": "query_retry",
+      "terminal": "complete",
+      "rows": 1,
+      "duplicate": false,
+      "stale_new": 0,
+      "actions": 1
+    },
+    "C06_closure_missing:reauth_retry": {
+      "case": "C06_closure_missing",
+      "policy": "reauth_retry",
+      "terminal": "complete",
+      "rows": 2,
+      "duplicate": true,
+      "stale_new": 0,
+      "actions": 1
+    },
+    "C06_closure_missing:pause": {
+      "case": "C06_closure_missing",
+      "policy": "pause",
+      "terminal": "pause",
+      "rows": 1,
+      "duplicate": false,
+      "stale_new": 0,
+      "actions": 0
+    },
+    "C07_idempotent_lost:clear": {
+      "case": "C07_idempotent_lost",
+      "policy": "clear",
+      "terminal": "complete",
+      "rows": 1,
+      "duplicate": false,
+      "stale_new": 0,
+      "actions": 1
+    },
+    "C07_idempotent_lost:idem_retry": {
+      "case": "C07_idempotent_lost",
+      "policy": "idem_retry",
+      "terminal": "complete",
+      "rows": 1,
+      "duplicate": false,
+      "stale_new": 0,
+      "actions": 1
+    },
+    "C07_idempotent_lost:query_retry": {
+      "case": "C07_idempotent_lost",
+      "policy": "query_retry",
+      "terminal": "complete",
+      "rows": 1,
+      "duplicate": false,
+      "stale_new": 0,
+      "actions": 1
+    },
+    "C07_idempotent_lost:reauth_retry": {
+      "case": "C07_idempotent_lost",
+      "policy": "reauth_retry",
+      "terminal": "complete",
+      "rows": 1,
+      "duplicate": false,
+      "stale_new": 0,
+      "actions": 1
+    },
+    "C07_idempotent_lost:pause": {
+      "case": "C07_idempotent_lost",
+      "policy": "pause",
+      "terminal": "pause",
+      "rows": 1,
+      "duplicate": false,
+      "stale_new": 0,
+      "actions": 0
+    },
+    "C08_normal:clear": {
+      "case": "C08_normal",
+      "policy": "clear",
+      "terminal": "complete",
+      "rows": 1,
+      "duplicate": false,
+      "stale_new": 0,
+      "actions": 1
+    },
+    "C08_normal:idem_retry": {
+      "case": "C08_normal",
+      "policy": "idem_retry",
+      "terminal": "complete",
+      "rows": 2,
+      "duplicate": true,
+      "stale_new": 0,
+      "actions": 1
+    },
+    "C08_normal:query_retry": {
+      "case": "C08_normal",
+      "policy": "query_retry",
+      "terminal": "complete",
+      "rows": 1,
+      "duplicate": false,
+      "stale_new": 0,
+      "actions": 1
+    },
+    "C08_normal:reauth_retry": {
+      "case": "C08_normal",
+      "policy": "reauth_retry",
+      "terminal": "complete",
+      "rows": 2,
+      "duplicate": true,
+      "stale_new": 0,
+      "actions": 1
+    },
+    "C08_normal:pause": {
+      "case": "C08_normal",
+      "policy": "pause",
+      "terminal": "pause",
+      "rows": 1,
+      "duplicate": false,
+      "stale_new": 0,
+      "actions": 0
+    }
+  },
+  "aggregate": {
+    "tasks": 40,
+    "safe": 16,
+    "complete": 29,
+    "duplicates": 11,
+    "stale": 2
+  },
+  "failed": [],
+  "source": "autogen",
+  "checks_total": 141,
+  "checks_passed": 141
+}
