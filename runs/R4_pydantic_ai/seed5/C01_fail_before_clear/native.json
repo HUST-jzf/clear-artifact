@@ -1,0 +1,237 @@
+{
+  "context": {
+    "operation_id": "C01_fail_before_clear",
+    "intent": "048c8931efe28cd784d1aaa5e3eba5b3b095769fc47a434a07300c2fe4bfcd76",
+    "generation": 1
+  },
+  "origin": {
+    "context": {
+      "operation_id": "C01_fail_before_clear",
+      "intent": "048c8931efe28cd784d1aaa5e3eba5b3b095769fc47a434a07300c2fe4bfcd76",
+      "generation": 1
+    },
+    "manifest": {
+      "adapter": "pydantic_ai_tool",
+      "version": "2.59.0",
+      "python": "3.13.2",
+      "framework": {
+        "pydantic_ai": "cd3e083f47be5bee4516f676818dc361dff3f7f3ca3d8a7cb36563f6783acba9"
+      },
+      "worker_sha256": "2a11567745a8bd7b521192ab3da839d2594a12d1e489a25936e1aaff88481074",
+      "host_sha256": "2a11567745a8bd7b521192ab3da839d2594a12d1e489a25936e1aaff88481074",
+      "observer_sha256": "2a11567745a8bd7b521192ab3da839d2594a12d1e489a25936e1aaff88481074",
+      "route_sha256": "697678f7b026a5f8118bc3484158f7cd65567f759d9f5352fa2eaa8ea7cff5e6",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "fail",
+        "delayed": false,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": true,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": false,
+        "query_complete": true
+      }
+    },
+    "namespace": "effects"
+  },
+  "initial_route": {
+    "revision": 1,
+    "mode": "inline",
+    "outcome": "fail",
+    "delayed": false,
+    "abandon_on_cancel": false,
+    "delegated": false,
+    "closed_registration": true,
+    "allowed": true,
+    "store": "effects",
+    "idempotency": false,
+    "query_complete": true
+  },
+  "initial_qualification": {
+    "valid": true,
+    "manifest": {
+      "adapter": "pydantic_ai_tool",
+      "version": "2.59.0",
+      "python": "3.13.2",
+      "framework": {
+        "pydantic_ai": "cd3e083f47be5bee4516f676818dc361dff3f7f3ca3d8a7cb36563f6783acba9"
+      },
+      "worker_sha256": "2a11567745a8bd7b521192ab3da839d2594a12d1e489a25936e1aaff88481074",
+      "host_sha256": "2a11567745a8bd7b521192ab3da839d2594a12d1e489a25936e1aaff88481074",
+      "observer_sha256": "2a11567745a8bd7b521192ab3da839d2594a12d1e489a25936e1aaff88481074",
+      "route_sha256": "697678f7b026a5f8118bc3484158f7cd65567f759d9f5352fa2eaa8ea7cff5e6",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "fail",
+        "delayed": false,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": true,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": false,
+        "query_complete": true
+      }
+    },
+    "checks": {
+      "adapter": true,
+      "version": true,
+      "python": true,
+      "framework": true,
+      "worker_sha256": true,
+      "host_sha256": true,
+      "observer_sha256": true,
+      "known_route": true,
+      "closed_registration": true,
+      "approval_allowed": true,
+      "same_effect_destination": true
+    },
+    "changed_dependencies": []
+  },
+  "initial_observations": [
+    {
+      "action": "append",
+      "phase": "initial",
+      "attempt": 1,
+      "outcome": "error"
+    }
+  ],
+  "attempt": 2,
+  "calls": [
+    {
+      "tool": "append",
+      "outcome": "error",
+      "time_ns": 29340428605500
+    },
+    {
+      "tool": "describe",
+      "outcome": "return",
+      "time_ns": 29340428614100
+    },
+    {
+      "tool": "status",
+      "outcome": "return",
+      "time_ns": 29340428661300
+    },
+    {
+      "tool": "describe",
+      "outcome": "return",
+      "time_ns": 29340428682400
+    },
+    {
+      "tool": "effects",
+      "outcome": "return",
+      "time_ns": 29340429446200
+    },
+    {
+      "tool": "describe",
+      "outcome": "return",
+      "time_ns": 29340429472700
+    },
+    {
+      "tool": "describe",
+      "outcome": "return",
+      "time_ns": 29340438796300
+    },
+    {
+      "tool": "drain",
+      "outcome": "return",
+      "time_ns": 29340441539300
+    }
+  ],
+  "capabilities": {
+    "executor_handle": true,
+    "closed_registration": true
+  },
+  "drain": {
+    "drained": true,
+    "invocations": 2,
+    "effects": 1,
+    "terminal": true
+  },
+  "final_manifest": {
+    "adapter": "pydantic_ai_tool",
+    "version": "2.59.0",
+    "python": "3.13.2",
+    "framework": {
+      "pydantic_ai": "cd3e083f47be5bee4516f676818dc361dff3f7f3ca3d8a7cb36563f6783acba9"
+    },
+    "worker_sha256": "2a11567745a8bd7b521192ab3da839d2594a12d1e489a25936e1aaff88481074",
+    "host_sha256": "2a11567745a8bd7b521192ab3da839d2594a12d1e489a25936e1aaff88481074",
+    "observer_sha256": "2a11567745a8bd7b521192ab3da839d2594a12d1e489a25936e1aaff88481074",
+    "route_sha256": "697678f7b026a5f8118bc3484158f7cd65567f759d9f5352fa2eaa8ea7cff5e6",
+    "route": {
+      "revision": 1,
+      "mode": "inline",
+      "outcome": "fail",
+      "delayed": false,
+      "abandon_on_cancel": false,
+      "delegated": false,
+      "closed_registration": true,
+      "allowed": true,
+      "store": "effects",
+      "idempotency": false,
+      "query_complete": true
+    }
+  },
+  "final_route": {
+    "revision": 1,
+    "mode": "inline",
+    "outcome": "fail",
+    "delayed": false,
+    "abandon_on_cancel": false,
+    "delegated": false,
+    "closed_registration": true,
+    "allowed": true,
+    "store": "effects",
+    "idempotency": false,
+    "query_complete": true
+  },
+  "current_qualification": {
+    "valid": true,
+    "manifest": {
+      "adapter": "pydantic_ai_tool",
+      "version": "2.59.0",
+      "python": "3.13.2",
+      "framework": {
+        "pydantic_ai": "cd3e083f47be5bee4516f676818dc361dff3f7f3ca3d8a7cb36563f6783acba9"
+      },
+      "worker_sha256": "2a11567745a8bd7b521192ab3da839d2594a12d1e489a25936e1aaff88481074",
+      "host_sha256": "2a11567745a8bd7b521192ab3da839d2594a12d1e489a25936e1aaff88481074",
+      "observer_sha256": "2a11567745a8bd7b521192ab3da839d2594a12d1e489a25936e1aaff88481074",
+      "route_sha256": "697678f7b026a5f8118bc3484158f7cd65567f759d9f5352fa2eaa8ea7cff5e6",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "fail",
+        "delayed": false,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": true,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": false,
+        "query_complete": true
+      }
+    },
+    "checks": {
+      "adapter": true,
+      "version": true,
+      "python": true,
+      "framework": true,
+      "worker_sha256": true,
+      "host_sha256": true,
+      "observer_sha256": true,
+      "known_route": true,
+      "closed_registration": true,
+      "approval_allowed": true,
+      "same_effect_destination": true
+    },
+    "changed_dependencies": []
+  },
+  "elapsed_ns": 17337600
+}

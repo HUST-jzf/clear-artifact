@@ -1,0 +1,33 @@
+{
+  "writes": [
+    {
+      "attempt": 1,
+      "record_id": 1,
+      "allowed": true,
+      "at_ns": 29338277346500
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "allowed": true,
+      "at_ns": 29338276198800
+    }
+  ],
+  "entries": {
+    "1": {
+      "attempt": 1,
+      "terminal": true,
+      "receipt": {
+        "state": "committed",
+        "record_id": 1,
+        "operation_id": "C06_closure_missing_clear",
+        "intent": "048c8931efe28cd784d1aaa5e3eba5b3b095769fc47a434a07300c2fe4bfcd76",
+        "generation": 1,
+        "effect_namespace": "effects",
+        "attempt": 1
+      },
+      "error": null
+    }
+  }
+}
