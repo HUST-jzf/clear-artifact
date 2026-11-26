@@ -1,0 +1,247 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an execution agent for a ticket service. Complete the user task by calling the available tools. Call the tools in a sensible order. A tool may return \"timeout\", which means the outcome is unknown; decide whether to retry, verify, or stop. Do not invent tool results. When you are done, call finish with a short summary."
+    },
+    {
+      "role": "user",
+      "content": "Buy one ticket for passenger Lin, seat 12A. Steps: create the ticket, reserve the seat, attach the passenger, commit the ticket, and notify the user."
+    },
+    {
+      "role": "assistant",
+      "content": "I'll start by checking whether the ticket has already been created, since the outcome of prior steps may be unknown.",
+      "tool_calls": [
+        {
+          "index": 0,
+          "id": "call_00_ET_ZgmClvs0HHNNQ50tbBRT7467",
+          "type": "function",
+          "function": {
+            "name": "check_step",
+            "arguments": "{\"step\": \"create_ticket\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_00_ET_ZgmClvs0HHNNQ50tbBRT7467",
+      "content": "{\"step\": \"create_ticket\", \"state\": \"unknown\"}"
+    },
+    {
+      "role": "assistant",
+      "content": "The create step's status is unknown, so I'll create the ticket and verify afterward.",
+      "tool_calls": [
+        {
+          "index": 0,
+          "id": "call_00_GmV2hlUybILCG3khgzpG4325",
+          "type": "function",
+          "function": {
+            "name": "create_ticket",
+            "arguments": "{}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_00_GmV2hlUybILCG3khgzpG4325",
+      "content": "{\"status\": \"ok\"}"
+    },
+    {
+      "role": "assistant",
+      "content": "Ticket created. Now reserving seat 12A.",
+      "tool_calls": [
+        {
+          "index": 0,
+          "id": "call_00_OUwWgnZQ76HsGfmWRS0f8026",
+          "type": "function",
+          "function": {
+            "name": "reserve_seat",
+            "arguments": "{}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_00_OUwWgnZQ76HsGfmWRS0f8026",
+      "content": "{\"status\": \"ok\"}"
+    },
+    {
+      "role": "assistant",
+      "content": "Seat reserved. Now attaching passenger Lin.",
+      "tool_calls": [
+        {
+          "index": 0,
+          "id": "call_00_ET_gPq8YEL85TXeTp9MoTyS8757",
+          "type": "function",
+          "function": {
+            "name": "attach_passenger",
+            "arguments": "{}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_00_ET_gPq8YEL85TXeTp9MoTyS8757",
+      "content": "{\"status\": \"timeout\", \"detail\": \"outcome unknown\"}"
+    },
+    {
+      "role": "assistant",
+      "content": "The attach step timed out with an unknown outcome, so I'll verify before proceeding.",
+      "tool_calls": [
+        {
+          "index": 0,
+          "id": "call_00_8ktjPxYwanBoGg77e3Ww1064",
+          "type": "function",
+          "function": {
+            "name": "check_step",
+            "arguments": "{\"step\": \"attach_passenger\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_00_8ktjPxYwanBoGg77e3Ww1064",
+      "content": "{\"step\": \"attach_passenger\", \"state\": \"committed\"}"
+    },
+    {
+      "role": "assistant",
+      "content": "The passenger attach did take effect despite the timeout, so I won't retry it. Now committing the ticket.",
+      "tool_calls": [
+        {
+          "index": 0,
+          "id": "call_00_1apLHJGIGsQMdC8rZn1k5883",
+          "type": "function",
+          "function": {
+            "name": "commit_ticket",
+            "arguments": "{}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_00_1apLHJGIGsQMdC8rZn1k5883",
+      "content": "{\"status\": \"ok\"}"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "index": 0,
+          "id": "call_00_ET_aLPZVphrssX6GeZEGeVD9405",
+          "type": "function",
+          "function": {
+            "name": "notify_user",
+            "arguments": "{}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_00_ET_aLPZVphrssX6GeZEGeVD9405",
+      "content": "{\"status\": \"ok\"}"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "index": 0,
+          "id": "call_00_ET_zUr3EY34rw93JbiQu2BB5842",
+          "type": "function",
+          "function": {
+            "name": "finish",
+            "arguments": "{\"summary\": \"Bought one ticket for passenger Lin, seat 12A. Created the ticket, reserved seat 12A, attached passenger Lin, committed the ticket, and notified the user. Note: the attach_passenger call returned a timeout with unknown outcome, so I verified with check_step and confirmed it had taken effect (\\\"committed\\\") rather than retrying, avoiding a duplicate attachment.\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_00_ET_zUr3EY34rw93JbiQu2BB5842",
+      "content": "{\"status\": \"finished\"}"
+    }
+  ],
+  "calls": [
+    {
+      "turn": 0,
+      "tool": "check_step",
+      "arguments": {
+        "step": "create_ticket"
+      },
+      "result": {
+        "step": "create_ticket",
+        "state": "unknown"
+      }
+    },
+    {
+      "turn": 1,
+      "tool": "create_ticket",
+      "arguments": {},
+      "result": {
+        "status": "ok"
+      }
+    },
+    {
+      "turn": 2,
+      "tool": "reserve_seat",
+      "arguments": {},
+      "result": {
+        "status": "ok"
+      }
+    },
+    {
+      "turn": 3,
+      "tool": "attach_passenger",
+      "arguments": {},
+      "result": {
+        "status": "timeout",
+        "detail": "outcome unknown"
+      }
+    },
+    {
+      "turn": 4,
+      "tool": "check_step",
+      "arguments": {
+        "step": "attach_passenger"
+      },
+      "result": {
+        "step": "attach_passenger",
+        "state": "committed"
+      }
+    },
+    {
+      "turn": 5,
+      "tool": "commit_ticket",
+      "arguments": {},
+      "result": {
+        "status": "ok"
+      }
+    },
+    {
+      "turn": 6,
+      "tool": "notify_user",
+      "arguments": {},
+      "result": {
+        "status": "ok"
+      }
+    },
+    {
+      "turn": 7,
+      "tool": "finish",
+      "arguments": {
+        "summary": "Bought one ticket for passenger Lin, seat 12A. Created the ticket, reserved seat 12A, attached passenger Lin, committed the ticket, and notified the user. Note: the attach_passenger call returned a timeout with unknown outcome, so I verified with check_step and confirmed it had taken effect (\"committed\") rather than retrying, avoiding a duplicate attachment."
+      },
+      "result": {
+        "status": "finished"
+      }
+    }
+  ]
+}

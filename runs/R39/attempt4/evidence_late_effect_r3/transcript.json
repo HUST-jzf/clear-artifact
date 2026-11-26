@@ -1,0 +1,216 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an execution agent for a ticket service. Complete the user task by calling the available tools. Call the tools in a sensible order. A tool may return \"timeout\", which means the outcome is unknown; decide whether to retry, verify, or stop. Do not invent tool results. When you are done, call finish with a short summary."
+    },
+    {
+      "role": "user",
+      "content": "Buy one ticket for passenger Lin, seat 12A. Steps: create the ticket, reserve the seat, attach the passenger, commit the ticket, and notify the user."
+    },
+    {
+      "role": "assistant",
+      "content": "I'll start the ticket workflow.",
+      "tool_calls": [
+        {
+          "index": 0,
+          "id": "call_00_Hii1aa2aaisoQx7mffRE6812",
+          "type": "function",
+          "function": {
+            "name": "create_ticket",
+            "arguments": "{}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_00_Hii1aa2aaisoQx7mffRE6812",
+      "content": "{\"status\": \"ok\"}"
+    },
+    {
+      "role": "assistant",
+      "content": "Ticket created. Now reserving the seat.",
+      "tool_calls": [
+        {
+          "index": 0,
+          "id": "call_00_U7Zoy2OpoIcH9gGAavtH4408",
+          "type": "function",
+          "function": {
+            "name": "reserve_seat",
+            "arguments": "{}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_00_U7Zoy2OpoIcH9gGAavtH4408",
+      "content": "{\"status\": \"ok\"}"
+    },
+    {
+      "role": "assistant",
+      "content": "Seat reserved. Now attaching the passenger.",
+      "tool_calls": [
+        {
+          "index": 0,
+          "id": "call_00_ET_c761Re9hoqeQ7lT1Y7129766",
+          "type": "function",
+          "function": {
+            "name": "attach_passenger",
+            "arguments": "{}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_00_ET_c761Re9hoqeQ7lT1Y7129766",
+      "content": "{\"status\": \"timeout\", \"detail\": \"outcome unknown\"}"
+    },
+    {
+      "role": "assistant",
+      "content": "The passenger attachment returned a timeout. Let me verify whether it actually took effect before retrying.",
+      "tool_calls": [
+        {
+          "index": 0,
+          "id": "call_00_FuoPb58lz8rIBuC7UROI6473",
+          "type": "function",
+          "function": {
+            "name": "check_step",
+            "arguments": "{\"step\": \"attach_passenger\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_00_FuoPb58lz8rIBuC7UROI6473",
+      "content": "{\"step\": \"attach_passenger\", \"state\": \"committed\"}"
+    },
+    {
+      "role": "assistant",
+      "content": "The passenger attachment did take effect despite the timeout, so I won't retry it. Now committing the ticket.",
+      "tool_calls": [
+        {
+          "index": 0,
+          "id": "call_00_m6rtOTy7CFRqTqPPzJEA4690",
+          "type": "function",
+          "function": {
+            "name": "commit_ticket",
+            "arguments": "{}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_00_m6rtOTy7CFRqTqPPzJEA4690",
+      "content": "{\"status\": \"ok\"}"
+    },
+    {
+      "role": "assistant",
+      "content": "Ticket committed. Now notifying the user.",
+      "tool_calls": [
+        {
+          "index": 0,
+          "id": "call_00_ET_UYjM0XlRx1jvNOt2kQff6569",
+          "type": "function",
+          "function": {
+            "name": "notify_user",
+            "arguments": "{}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_00_ET_UYjM0XlRx1jvNOt2kQff6569",
+      "content": "{\"status\": \"ok\"}"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "index": 0,
+          "id": "call_00_ET_UXpqZtw5ayIKZvocBHLA0480",
+          "type": "function",
+          "function": {
+            "name": "finish",
+            "arguments": "{\"summary\": \"Completed the ticket workflow for passenger Lin, seat 12A. Created the ticket, reserved seat 12A, attached passenger Lin (this call returned a timeout, but a check_step verification confirmed the step had taken effect, so it was not retried), committed the ticket, and notified the user. All steps are done.\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_00_ET_UXpqZtw5ayIKZvocBHLA0480",
+      "content": "{\"status\": \"finished\"}"
+    }
+  ],
+  "calls": [
+    {
+      "turn": 0,
+      "tool": "create_ticket",
+      "arguments": {},
+      "result": {
+        "status": "ok"
+      }
+    },
+    {
+      "turn": 1,
+      "tool": "reserve_seat",
+      "arguments": {},
+      "result": {
+        "status": "ok"
+      }
+    },
+    {
+      "turn": 2,
+      "tool": "attach_passenger",
+      "arguments": {},
+      "result": {
+        "status": "timeout",
+        "detail": "outcome unknown"
+      }
+    },
+    {
+      "turn": 3,
+      "tool": "check_step",
+      "arguments": {
+        "step": "attach_passenger"
+      },
+      "result": {
+        "step": "attach_passenger",
+        "state": "committed"
+      }
+    },
+    {
+      "turn": 4,
+      "tool": "commit_ticket",
+      "arguments": {},
+      "result": {
+        "status": "ok"
+      }
+    },
+    {
+      "turn": 5,
+      "tool": "notify_user",
+      "arguments": {},
+      "result": {
+        "status": "ok"
+      }
+    },
+    {
+      "turn": 6,
+      "tool": "finish",
+      "arguments": {
+        "summary": "Completed the ticket workflow for passenger Lin, seat 12A. Created the ticket, reserved seat 12A, attached passenger Lin (this call returned a timeout, but a check_step verification confirmed the step had taken effect, so it was not retried), committed the ticket, and notified the user. All steps are done."
+      },
+      "result": {
+        "status": "finished"
+      }
+    }
+  ]
+}

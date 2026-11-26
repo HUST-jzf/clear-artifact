@@ -1,0 +1,36 @@
+{
+  "guard": "evidence",
+  "fault": "lost_return",
+  "run": 5,
+  "workflow": "evidence_lost_return_R5",
+  "rows": {
+    "create": 1,
+    "reserve": 1,
+    "attach": 1,
+    "commit": 1,
+    "notify": 1
+  },
+  "stale": {
+    "create": 0,
+    "reserve": 0,
+    "attach": 0,
+    "commit": 0,
+    "notify": 0
+  },
+  "duplicates": 0,
+  "completed": true,
+  "finished": true,
+  "tool_calls": 12,
+  "retries_after_timeout": 0,
+  "ledger": {
+    "create_ticket": "committed",
+    "reserve_seat": "committed",
+    "commit_ticket": "committed",
+    "notify_user": "committed"
+  },
+  "model": "deepseek-flash",
+  "temperature": 0.7,
+  "drain_seconds": 6.0,
+  "key_leak": false,
+  "elapsed_ns": 14288456800
+}
