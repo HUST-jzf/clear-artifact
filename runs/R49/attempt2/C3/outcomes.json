@@ -1,0 +1,3122 @@
+[
+  {
+    "ownership": "self",
+    "level": "L1",
+    "fault": "lost_return",
+    "seed": 0,
+    "profile": "C3",
+    "policy": "clear_evidence",
+    "workflow": "self_L1_lost_return_S0",
+    "terminal": "complete",
+    "reason": "initial_receipt",
+    "committed": true,
+    "steps_run": 5,
+    "requests": 18,
+    "transport_errors": [
+      {
+        "method": "POST",
+        "path": "/w/self_L1_lost_return_S0/attach",
+        "status": null,
+        "error": "RemoteDisconnected",
+        "step": "attach"
+      }
+    ],
+    "elapsed_ns": 90629200,
+    "rows": {
+      "create": 1,
+      "reserve": 1,
+      "attach": 1,
+      "commit": 1,
+      "notify": 1
+    },
+    "stale": 0,
+    "provisional": 0,
+    "duplicates": 0,
+    "completed": true,
+    "safe": true,
+    "false_complete": false,
+    "rejected": 0,
+    "bytes": 36864
+  },
+  {
+    "ownership": "self",
+    "level": "L1",
+    "fault": "lost_return",
+    "seed": 1,
+    "profile": "C3",
+    "policy": "clear_evidence",
+    "workflow": "self_L1_lost_return_S1",
+    "terminal": "complete",
+    "reason": "initial_receipt",
+    "committed": true,
+    "steps_run": 5,
+    "requests": 18,
+    "transport_errors": [
+      {
+        "method": "POST",
+        "path": "/w/self_L1_lost_return_S1/attach",
+        "status": null,
+        "error": "RemoteDisconnected",
+        "step": "attach"
+      }
+    ],
+    "elapsed_ns": 180922200,
+    "rows": {
+      "create": 1,
+      "reserve": 1,
+      "attach": 1,
+      "commit": 1,
+      "notify": 1
+    },
+    "stale": 0,
+    "provisional": 0,
+    "duplicates": 0,
+    "completed": true,
+    "safe": true,
+    "false_complete": false,
+    "rejected": 0,
+    "bytes": 36864
+  },
+  {
+    "ownership": "self",
+    "level": "L1",
+    "fault": "lost_return",
+    "seed": 2,
+    "profile": "C3",
+    "policy": "clear_evidence",
+    "workflow": "self_L1_lost_return_S2",
+    "terminal": "complete",
+    "reason": "initial_receipt",
+    "committed": true,
+    "steps_run": 5,
+    "requests": 18,
+    "transport_errors": [
+      {
+        "method": "POST",
+        "path": "/w/self_L1_lost_return_S2/attach",
+        "status": null,
+        "error": "RemoteDisconnected",
+        "step": "attach"
+      }
+    ],
+    "elapsed_ns": 262989400,
+    "rows": {
+      "create": 1,
+      "reserve": 1,
+      "attach": 1,
+      "commit": 1,
+      "notify": 1
+    },
+    "stale": 0,
+    "provisional": 0,
+    "duplicates": 0,
+    "completed": true,
+    "safe": true,
+    "false_complete": false,
+    "rejected": 0,
+    "bytes": 36864
+  },
+  {
+    "ownership": "self",
+    "level": "L1",
+    "fault": "lost_return",
+    "seed": 3,
+    "profile": "C3",
+    "policy": "clear_evidence",
+    "workflow": "self_L1_lost_return_S3",
+    "terminal": "complete",
+    "reason": "initial_receipt",
+    "committed": true,
+    "steps_run": 5,
+    "requests": 18,
+    "transport_errors": [
+      {
+        "method": "POST",
+        "path": "/w/self_L1_lost_return_S3/attach",
+        "status": null,
+        "error": "RemoteDisconnected",
+        "step": "attach"
+      }
+    ],
+    "elapsed_ns": 204975500,
+    "rows": {
+      "create": 1,
+      "reserve": 1,
+      "attach": 1,
+      "commit": 1,
+      "notify": 1
+    },
+    "stale": 0,
+    "provisional": 0,
+    "duplicates": 0,
+    "completed": true,
+    "safe": true,
+    "false_complete": false,
+    "rejected": 0,
+    "bytes": 36864
+  },
+  {
+    "ownership": "self",
+    "level": "L1",
+    "fault": "lost_return",
+    "seed": 4,
+    "profile": "C3",
+    "policy": "clear_evidence",
+    "workflow": "self_L1_lost_return_S4",
+    "terminal": "complete",
+    "reason": "initial_receipt",
+    "committed": true,
+    "steps_run": 5,
+    "requests": 18,
+    "transport_errors": [
+      {
+        "method": "POST",
+        "path": "/w/self_L1_lost_return_S4/attach",
+        "status": null,
+        "error": "RemoteDisconnected",
+        "step": "attach"
+      }
+    ],
+    "elapsed_ns": 200940200,
+    "rows": {
+      "create": 1,
+      "reserve": 1,
+      "attach": 1,
+      "commit": 1,
+      "notify": 1
+    },
+    "stale": 0,
+    "provisional": 0,
+    "duplicates": 0,
+    "completed": true,
+    "safe": true,
+    "false_complete": false,
+    "rejected": 0,
+    "bytes": 36864
+  },
+  {
+    "ownership": "self",
+    "level": "L1",
+    "fault": "lost_return",
+    "seed": 5,
+    "profile": "C3",
+    "policy": "clear_evidence",
+    "workflow": "self_L1_lost_return_S5",
+    "terminal": "complete",
+    "reason": "initial_receipt",
+    "committed": true,
+    "steps_run": 5,
+    "requests": 18,
+    "transport_errors": [
+      {
+        "method": "POST",
+        "path": "/w/self_L1_lost_return_S5/attach",
+        "status": null,
+        "error": "RemoteDisconnected",
+        "step": "attach"
+      }
+    ],
+    "elapsed_ns": 189039400,
+    "rows": {
+      "create": 1,
+      "reserve": 1,
+      "attach": 1,
+      "commit": 1,
+      "notify": 1
+    },
+    "stale": 0,
+    "provisional": 0,
+    "duplicates": 0,
+    "completed": true,
+    "safe": true,
+    "false_complete": false,
+    "rejected": 0,
+    "bytes": 36864
+  },
+  {
+    "ownership": "self",
+    "level": "L1",
+    "fault": "lost_return",
+    "seed": 6,
+    "profile": "C3",
+    "policy": "clear_evidence",
+    "workflow": "self_L1_lost_return_S6",
+    "terminal": "complete",
+    "reason": "initial_receipt",
+    "committed": true,
+    "steps_run": 5,
+    "requests": 18,
+    "transport_errors": [
+      {
+        "method": "POST",
+        "path": "/w/self_L1_lost_return_S6/attach",
+        "status": null,
+        "error": "RemoteDisconnected",
+        "step": "attach"
+      }
+    ],
+    "elapsed_ns": 235664200,
+    "rows": {
+      "create": 1,
+      "reserve": 1,
+      "attach": 1,
+      "commit": 1,
+      "notify": 1
+    },
+    "stale": 0,
+    "provisional": 0,
+    "duplicates": 0,
+    "completed": true,
+    "safe": true,
+    "false_complete": false,
+    "rejected": 0,
+    "bytes": 36864
+  },
+  {
+    "ownership": "self",
+    "level": "L1",
+    "fault": "lost_return",
+    "seed": 7,
+    "profile": "C3",
+    "policy": "clear_evidence",
+    "workflow": "self_L1_lost_return_S7",
+    "terminal": "complete",
+    "reason": "initial_receipt",
+    "committed": true,
+    "steps_run": 5,
+    "requests": 18,
+    "transport_errors": [
+      {
+        "method": "POST",
+        "path": "/w/self_L1_lost_return_S7/attach",
+        "status": null,
+        "error": "RemoteDisconnected",
+        "step": "attach"
+      }
+    ],
+    "elapsed_ns": 154311900,
+    "rows": {
+      "create": 1,
+      "reserve": 1,
+      "attach": 1,
+      "commit": 1,
+      "notify": 1
+    },
+    "stale": 0,
+    "provisional": 0,
+    "duplicates": 0,
+    "completed": true,
+    "safe": true,
+    "false_complete": false,
+    "rejected": 0,
+    "bytes": 36864
+  },
+  {
+    "ownership": "self",
+    "level": "L1",
+    "fault": "lost_return",
+    "seed": 8,
+    "profile": "C3",
+    "policy": "clear_evidence",
+    "workflow": "self_L1_lost_return_S8",
+    "terminal": "complete",
+    "reason": "initial_receipt",
+    "committed": true,
+    "steps_run": 5,
+    "requests": 18,
+    "transport_errors": [
+      {
+        "method": "POST",
+        "path": "/w/self_L1_lost_return_S8/attach",
+        "status": null,
+        "error": "RemoteDisconnected",
+        "step": "attach"
+      }
+    ],
+    "elapsed_ns": 264727900,
+    "rows": {
+      "create": 1,
+      "reserve": 1,
+      "attach": 1,
+      "commit": 1,
+      "notify": 1
+    },
+    "stale": 0,
+    "provisional": 0,
+    "duplicates": 0,
+    "completed": true,
+    "safe": true,
+    "false_complete": false,
+    "rejected": 0,
+    "bytes": 36864
+  },
+  {
+    "ownership": "self",
+    "level": "L1",
+    "fault": "lost_return",
+    "seed": 9,
+    "profile": "C3",
+    "policy": "clear_evidence",
+    "workflow": "self_L1_lost_return_S9",
+    "terminal": "complete",
+    "reason": "initial_receipt",
+    "committed": true,
+    "steps_run": 5,
+    "requests": 18,
+    "transport_errors": [
+      {
+        "method": "POST",
+        "path": "/w/self_L1_lost_return_S9/attach",
+        "status": null,
+        "error": "RemoteDisconnected",
+        "step": "attach"
+      }
+    ],
+    "elapsed_ns": 185891600,
+    "rows": {
+      "create": 1,
+      "reserve": 1,
+      "attach": 1,
+      "commit": 1,
+      "notify": 1
+    },
+    "stale": 0,
+    "provisional": 0,
+    "duplicates": 0,
+    "completed": true,
+    "safe": true,
+    "false_complete": false,
+    "rejected": 0,
+    "bytes": 36864
+  },
+  {
+    "ownership": "self",
+    "level": "L1",
+    "fault": "late_commit",
+    "seed": 0,
+    "profile": "C3",
+    "policy": "clear_evidence",
+    "workflow": "self_L1_late_commit_S0",
+    "terminal": "complete",
+    "reason": "initial_receipt",
+    "committed": true,
+    "steps_run": 5,
+    "requests": 20,
+    "transport_errors": [
+      {
+        "method": "POST",
+        "path": "/w/self_L1_late_commit_S0/attach",
+        "status": null,
+        "error": "TimeoutError",
+        "step": "attach"
+      }
+    ],
+    "elapsed_ns": 504168200,
+    "rows": {
+      "create": 1,
+      "reserve": 1,
+      "attach": 2,
+      "commit": 1,
+      "notify": 1
+    },
+    "stale": 0,
+    "provisional": 0,
+    "duplicates": 1,
+    "completed": true,
+    "safe": false,
+    "false_complete": true,
+    "rejected": 0,
+    "bytes": 36864
+  },
+  {
+    "ownership": "self",
+    "level": "L1",
+    "fault": "late_commit",
+    "seed": 1,
+    "profile": "C3",
+    "policy": "clear_evidence",
+    "workflow": "self_L1_late_commit_S1",
+    "terminal": "complete",
+    "reason": "initial_receipt",
+    "committed": true,
+    "steps_run": 5,
+    "requests": 20,
+    "transport_errors": [
+      {
+        "method": "POST",
+        "path": "/w/self_L1_late_commit_S1/attach",
+        "status": null,
+        "error": "TimeoutError",
+        "step": "attach"
+      }
+    ],
+    "elapsed_ns": 532057500,
+    "rows": {
+      "create": 1,
+      "reserve": 1,
+      "attach": 2,
+      "commit": 1,
+      "notify": 1
+    },
+    "stale": 0,
+    "provisional": 0,
+    "duplicates": 1,
+    "completed": true,
+    "safe": false,
+    "false_complete": true,
+    "rejected": 0,
+    "bytes": 36864
+  },
+  {
+    "ownership": "self",
+    "level": "L1",
+    "fault": "late_commit",
+    "seed": 2,
+    "profile": "C3",
+    "policy": "clear_evidence",
+    "workflow": "self_L1_late_commit_S2",
+    "terminal": "complete",
+    "reason": "initial_receipt",
+    "committed": true,
+    "steps_run": 5,
+    "requests": 20,
+    "transport_errors": [
+      {
+        "method": "POST",
+        "path": "/w/self_L1_late_commit_S2/attach",
+        "status": null,
+        "error": "TimeoutError",
+        "step": "attach"
+      }
+    ],
+    "elapsed_ns": 511791800,
+    "rows": {
+      "create": 1,
+      "reserve": 1,
+      "attach": 2,
+      "commit": 1,
+      "notify": 1
+    },
+    "stale": 0,
+    "provisional": 0,
+    "duplicates": 1,
+    "completed": true,
+    "safe": false,
+    "false_complete": true,
+    "rejected": 0,
+    "bytes": 36864
+  },
+  {
+    "ownership": "self",
+    "level": "L1",
+    "fault": "late_commit",
+    "seed": 3,
+    "profile": "C3",
+    "policy": "clear_evidence",
+    "workflow": "self_L1_late_commit_S3",
+    "terminal": "complete",
+    "reason": "initial_receipt",
+    "committed": true,
+    "steps_run": 5,
+    "requests": 20,
+    "transport_errors": [
+      {
+        "method": "POST",
+        "path": "/w/self_L1_late_commit_S3/attach",
+        "status": null,
+        "error": "TimeoutError",
+        "step": "attach"
+      }
+    ],
+    "elapsed_ns": 518500900,
+    "rows": {
+      "create": 1,
+      "reserve": 1,
+      "attach": 2,
+      "commit": 1,
+      "notify": 1
+    },
+    "stale": 0,
+    "provisional": 0,
+    "duplicates": 1,
+    "completed": true,
+    "safe": false,
+    "false_complete": true,
+    "rejected": 0,
+    "bytes": 36864
+  },
+  {
+    "ownership": "self",
+    "level": "L1",
+    "fault": "late_commit",
+    "seed": 4,
+    "profile": "C3",
+    "policy": "clear_evidence",
+    "workflow": "self_L1_late_commit_S4",
+    "terminal": "complete",
+    "reason": "initial_receipt",
+    "committed": true,
+    "steps_run": 5,
+    "requests": 20,
+    "transport_errors": [
+      {
+        "method": "POST",
+        "path": "/w/self_L1_late_commit_S4/attach",
+        "status": null,
+        "error": "TimeoutError",
+        "step": "attach"
+      }
+    ],
+    "elapsed_ns": 476383400,
+    "rows": {
+      "create": 1,
+      "reserve": 1,
+      "attach": 2,
+      "commit": 1,
+      "notify": 1
+    },
+    "stale": 0,
+    "provisional": 0,
+    "duplicates": 1,
+    "completed": true,
+    "safe": false,
+    "false_complete": true,
+    "rejected": 0,
+    "bytes": 36864
+  },
+  {
+    "ownership": "self",
+    "level": "L1",
+    "fault": "late_commit",
+    "seed": 5,
+    "profile": "C3",
+    "policy": "clear_evidence",
+    "workflow": "self_L1_late_commit_S5",
+    "terminal": "complete",
+    "reason": "initial_receipt",
+    "committed": true,
+    "steps_run": 5,
+    "requests": 20,
+    "transport_errors": [
+      {
+        "method": "POST",
+        "path": "/w/self_L1_late_commit_S5/attach",
+        "status": null,
+        "error": "TimeoutError",
+        "step": "attach"
+      }
+    ],
+    "elapsed_ns": 482374800,
+    "rows": {
+      "create": 1,
+      "reserve": 1,
+      "attach": 2,
+      "commit": 1,
+      "notify": 1
+    },
+    "stale": 0,
+    "provisional": 0,
+    "duplicates": 1,
+    "completed": true,
+    "safe": false,
+    "false_complete": true,
+    "rejected": 0,
+    "bytes": 36864
+  },
+  {
+    "ownership": "self",
+    "level": "L1",
+    "fault": "late_commit",
+    "seed": 6,
+    "profile": "C3",
+    "policy": "clear_evidence",
+    "workflow": "self_L1_late_commit_S6",
+    "terminal": "complete",
+    "reason": "initial_receipt",
+    "committed": true,
+    "steps_run": 5,
+    "requests": 20,
+    "transport_errors": [
+      {
+        "method": "POST",
+        "path": "/w/self_L1_late_commit_S6/attach",
+        "status": null,
+        "error": "TimeoutError",
+        "step": "attach"
+      }
+    ],
+    "elapsed_ns": 457385600,
+    "rows": {
+      "create": 1,
+      "reserve": 1,
+      "attach": 2,
+      "commit": 1,
+      "notify": 1
+    },
+    "stale": 0,
+    "provisional": 0,
+    "duplicates": 1,
+    "completed": true,
+    "safe": false,
+    "false_complete": true,
+    "rejected": 0,
+    "bytes": 36864
+  },
+  {
+    "ownership": "self",
+    "level": "L1",
+    "fault": "late_commit",
+    "seed": 7,
+    "profile": "C3",
+    "policy": "clear_evidence",
+    "workflow": "self_L1_late_commit_S7",
+    "terminal": "complete",
+    "reason": "initial_receipt",
+    "committed": true,
+    "steps_run": 5,
+    "requests": 20,
+    "transport_errors": [
+      {
+        "method": "POST",
+        "path": "/w/self_L1_late_commit_S7/attach",
+        "status": null,
+        "error": "TimeoutError",
+        "step": "attach"
+      }
+    ],
+    "elapsed_ns": 474153700,
+    "rows": {
+      "create": 1,
+      "reserve": 1,
+      "attach": 2,
+      "commit": 1,
+      "notify": 1
+    },
+    "stale": 0,
+    "provisional": 0,
+    "duplicates": 1,
+    "completed": true,
+    "safe": false,
+    "false_complete": true,
+    "rejected": 0,
+    "bytes": 36864
+  },
+  {
+    "ownership": "self",
+    "level": "L1",
+    "fault": "late_commit",
+    "seed": 8,
+    "profile": "C3",
+    "policy": "clear_evidence",
+    "workflow": "self_L1_late_commit_S8",
+    "terminal": "complete",
+    "reason": "initial_receipt",
+    "committed": true,
+    "steps_run": 5,
+    "requests": 20,
+    "transport_errors": [
+      {
+        "method": "POST",
+        "path": "/w/self_L1_late_commit_S8/attach",
+        "status": null,
+        "error": "TimeoutError",
+        "step": "attach"
+      }
+    ],
+    "elapsed_ns": 484293400,
+    "rows": {
+      "create": 1,
+      "reserve": 1,
+      "attach": 2,
+      "commit": 1,
+      "notify": 1
+    },
+    "stale": 0,
+    "provisional": 0,
+    "duplicates": 1,
+    "completed": true,
+    "safe": false,
+    "false_complete": true,
+    "rejected": 0,
+    "bytes": 36864
+  },
+  {
+    "ownership": "self",
+    "level": "L1",
+    "fault": "late_commit",
+    "seed": 9,
+    "profile": "C3",
+    "policy": "clear_evidence",
+    "workflow": "self_L1_late_commit_S9",
+    "terminal": "complete",
+    "reason": "initial_receipt",
+    "committed": true,
+    "steps_run": 5,
+    "requests": 20,
+    "transport_errors": [
+      {
+        "method": "POST",
+        "path": "/w/self_L1_late_commit_S9/attach",
+        "status": null,
+        "error": "TimeoutError",
+        "step": "attach"
+      }
+    ],
+    "elapsed_ns": 457617600,
+    "rows": {
+      "create": 1,
+      "reserve": 1,
+      "attach": 2,
+      "commit": 1,
+      "notify": 1
+    },
+    "stale": 0,
+    "provisional": 0,
+    "duplicates": 1,
+    "completed": true,
+    "safe": false,
+    "false_complete": true,
+    "rejected": 0,
+    "bytes": 36864
+  },
+  {
+    "ownership": "read_only",
+    "level": "L1",
+    "fault": "lost_return",
+    "seed": 0,
+    "profile": "C3",
+    "policy": "clear_evidence",
+    "workflow": "read_only_L1_lost_return_S0",
+    "terminal": "complete",
+    "reason": "initial_receipt",
+    "committed": true,
+    "steps_run": 5,
+    "requests": 18,
+    "transport_errors": [
+      {
+        "method": "POST",
+        "path": "/w/read_only_L1_lost_return_S0/attach",
+        "status": null,
+        "error": "RemoteDisconnected",
+        "step": "attach"
+      }
+    ],
+    "elapsed_ns": 232066800,
+    "rows": {
+      "create": 1,
+      "reserve": 1,
+      "attach": 1,
+      "commit": 1,
+      "notify": 1
+    },
+    "stale": 0,
+    "provisional": 0,
+    "duplicates": 0,
+    "completed": true,
+    "safe": true,
+    "false_complete": false,
+    "rejected": 0,
+    "bytes": 36864
+  },
+  {
+    "ownership": "read_only",
+    "level": "L1",
+    "fault": "lost_return",
+    "seed": 1,
+    "profile": "C3",
+    "policy": "clear_evidence",
+    "workflow": "read_only_L1_lost_return_S1",
+    "terminal": "complete",
+    "reason": "initial_receipt",
+    "committed": true,
+    "steps_run": 5,
+    "requests": 18,
+    "transport_errors": [
+      {
+        "method": "POST",
+        "path": "/w/read_only_L1_lost_return_S1/attach",
+        "status": null,
+        "error": "RemoteDisconnected",
+        "step": "attach"
+      }
+    ],
+    "elapsed_ns": 203776600,
+    "rows": {
+      "create": 1,
+      "reserve": 1,
+      "attach": 1,
+      "commit": 1,
+      "notify": 1
+    },
+    "stale": 0,
+    "provisional": 0,
+    "duplicates": 0,
+    "completed": true,
+    "safe": true,
+    "false_complete": false,
+    "rejected": 0,
+    "bytes": 36864
+  },
+  {
+    "ownership": "read_only",
+    "level": "L1",
+    "fault": "lost_return",
+    "seed": 2,
+    "profile": "C3",
+    "policy": "clear_evidence",
+    "workflow": "read_only_L1_lost_return_S2",
+    "terminal": "complete",
+    "reason": "initial_receipt",
+    "committed": true,
+    "steps_run": 5,
+    "requests": 18,
+    "transport_errors": [
+      {
+        "method": "POST",
+        "path": "/w/read_only_L1_lost_return_S2/attach",
+        "status": null,
+        "error": "RemoteDisconnected",
+        "step": "attach"
+      }
+    ],
+    "elapsed_ns": 143444900,
+    "rows": {
+      "create": 1,
+      "reserve": 1,
+      "attach": 1,
+      "commit": 1,
+      "notify": 1
+    },
+    "stale": 0,
+    "provisional": 0,
+    "duplicates": 0,
+    "completed": true,
+    "safe": true,
+    "false_complete": false,
+    "rejected": 0,
+    "bytes": 36864
+  },
+  {
+    "ownership": "read_only",
+    "level": "L1",
+    "fault": "lost_return",
+    "seed": 3,
+    "profile": "C3",
+    "policy": "clear_evidence",
+    "workflow": "read_only_L1_lost_return_S3",
+    "terminal": "complete",
+    "reason": "initial_receipt",
+    "committed": true,
+    "steps_run": 5,
+    "requests": 18,
+    "transport_errors": [
+      {
+        "method": "POST",
+        "path": "/w/read_only_L1_lost_return_S3/attach",
+        "status": null,
+        "error": "RemoteDisconnected",
+        "step": "attach"
+      }
+    ],
+    "elapsed_ns": 130428600,
+    "rows": {
+      "create": 1,
+      "reserve": 1,
+      "attach": 1,
+      "commit": 1,
+      "notify": 1
+    },
+    "stale": 0,
+    "provisional": 0,
+    "duplicates": 0,
+    "completed": true,
+    "safe": true,
+    "false_complete": false,
+    "rejected": 0,
+    "bytes": 36864
+  },
+  {
+    "ownership": "read_only",
+    "level": "L1",
+    "fault": "lost_return",
+    "seed": 4,
+    "profile": "C3",
+    "policy": "clear_evidence",
+    "workflow": "read_only_L1_lost_return_S4",
+    "terminal": "complete",
+    "reason": "initial_receipt",
+    "committed": true,
+    "steps_run": 5,
+    "requests": 18,
+    "transport_errors": [
+      {
+        "method": "POST",
+        "path": "/w/read_only_L1_lost_return_S4/attach",
+        "status": null,
+        "error": "RemoteDisconnected",
+        "step": "attach"
+      }
+    ],
+    "elapsed_ns": 264614800,
+    "rows": {
+      "create": 1,
+      "reserve": 1,
+      "attach": 1,
+      "commit": 1,
+      "notify": 1
+    },
+    "stale": 0,
+    "provisional": 0,
+    "duplicates": 0,
+    "completed": true,
+    "safe": true,
+    "false_complete": false,
+    "rejected": 0,
+    "bytes": 36864
+  },
+  {
+    "ownership": "read_only",
+    "level": "L1",
+    "fault": "lost_return",
+    "seed": 5,
+    "profile": "C3",
+    "policy": "clear_evidence",
+    "workflow": "read_only_L1_lost_return_S5",
+    "terminal": "complete",
+    "reason": "initial_receipt",
+    "committed": true,
+    "steps_run": 5,
+    "requests": 18,
+    "transport_errors": [
+      {
+        "method": "POST",
+        "path": "/w/read_only_L1_lost_return_S5/attach",
+        "status": null,
+        "error": "RemoteDisconnected",
+        "step": "attach"
+      }
+    ],
+    "elapsed_ns": 219541000,
+    "rows": {
+      "create": 1,
+      "reserve": 1,
+      "attach": 1,
+      "commit": 1,
+      "notify": 1
+    },
+    "stale": 0,
+    "provisional": 0,
+    "duplicates": 0,
+    "completed": true,
+    "safe": true,
+    "false_complete": false,
+    "rejected": 0,
+    "bytes": 36864
+  },
+  {
+    "ownership": "read_only",
+    "level": "L1",
+    "fault": "lost_return",
+    "seed": 6,
+    "profile": "C3",
+    "policy": "clear_evidence",
+    "workflow": "read_only_L1_lost_return_S6",
+    "terminal": "complete",
+    "reason": "initial_receipt",
+    "committed": true,
+    "steps_run": 5,
+    "requests": 18,
+    "transport_errors": [
+      {
+        "method": "POST",
+        "path": "/w/read_only_L1_lost_return_S6/attach",
+        "status": null,
+        "error": "RemoteDisconnected",
+        "step": "attach"
+      }
+    ],
+    "elapsed_ns": 160511100,
+    "rows": {
+      "create": 1,
+      "reserve": 1,
+      "attach": 1,
+      "commit": 1,
+      "notify": 1
+    },
+    "stale": 0,
+    "provisional": 0,
+    "duplicates": 0,
+    "completed": true,
+    "safe": true,
+    "false_complete": false,
+    "rejected": 0,
+    "bytes": 36864
+  },
+  {
+    "ownership": "read_only",
+    "level": "L1",
+    "fault": "lost_return",
+    "seed": 7,
+    "profile": "C3",
+    "policy": "clear_evidence",
+    "workflow": "read_only_L1_lost_return_S7",
+    "terminal": "complete",
+    "reason": "initial_receipt",
+    "committed": true,
+    "steps_run": 5,
+    "requests": 18,
+    "transport_errors": [
+      {
+        "method": "POST",
+        "path": "/w/read_only_L1_lost_return_S7/attach",
+        "status": null,
+        "error": "RemoteDisconnected",
+        "step": "attach"
+      }
+    ],
+    "elapsed_ns": 217687100,
+    "rows": {
+      "create": 1,
+      "reserve": 1,
+      "attach": 1,
+      "commit": 1,
+      "notify": 1
+    },
+    "stale": 0,
+    "provisional": 0,
+    "duplicates": 0,
+    "completed": true,
+    "safe": true,
+    "false_complete": false,
+    "rejected": 0,
+    "bytes": 36864
+  },
+  {
+    "ownership": "read_only",
+    "level": "L1",
+    "fault": "lost_return",
+    "seed": 8,
+    "profile": "C3",
+    "policy": "clear_evidence",
+    "workflow": "read_only_L1_lost_return_S8",
+    "terminal": "complete",
+    "reason": "initial_receipt",
+    "committed": true,
+    "steps_run": 5,
+    "requests": 18,
+    "transport_errors": [
+      {
+        "method": "POST",
+        "path": "/w/read_only_L1_lost_return_S8/attach",
+        "status": null,
+        "error": "RemoteDisconnected",
+        "step": "attach"
+      }
+    ],
+    "elapsed_ns": 205937100,
+    "rows": {
+      "create": 1,
+      "reserve": 1,
+      "attach": 1,
+      "commit": 1,
+      "notify": 1
+    },
+    "stale": 0,
+    "provisional": 0,
+    "duplicates": 0,
+    "completed": true,
+    "safe": true,
+    "false_complete": false,
+    "rejected": 0,
+    "bytes": 36864
+  },
+  {
+    "ownership": "read_only",
+    "level": "L1",
+    "fault": "lost_return",
+    "seed": 9,
+    "profile": "C3",
+    "policy": "clear_evidence",
+    "workflow": "read_only_L1_lost_return_S9",
+    "terminal": "complete",
+    "reason": "initial_receipt",
+    "committed": true,
+    "steps_run": 5,
+    "requests": 18,
+    "transport_errors": [
+      {
+        "method": "POST",
+        "path": "/w/read_only_L1_lost_return_S9/attach",
+        "status": null,
+        "error": "RemoteDisconnected",
+        "step": "attach"
+      }
+    ],
+    "elapsed_ns": 203706700,
+    "rows": {
+      "create": 1,
+      "reserve": 1,
+      "attach": 1,
+      "commit": 1,
+      "notify": 1
+    },
+    "stale": 0,
+    "provisional": 0,
+    "duplicates": 0,
+    "completed": true,
+    "safe": true,
+    "false_complete": false,
+    "rejected": 0,
+    "bytes": 36864
+  },
+  {
+    "ownership": "read_only",
+    "level": "L1",
+    "fault": "late_commit",
+    "seed": 0,
+    "profile": "C3",
+    "policy": "clear_evidence",
+    "workflow": "read_only_L1_late_commit_S0",
+    "terminal": "complete",
+    "reason": "initial_receipt",
+    "committed": true,
+    "steps_run": 5,
+    "requests": 20,
+    "transport_errors": [
+      {
+        "method": "POST",
+        "path": "/w/read_only_L1_late_commit_S0/attach",
+        "status": null,
+        "error": "TimeoutError",
+        "step": "attach"
+      }
+    ],
+    "elapsed_ns": 501647300,
+    "rows": {
+      "create": 1,
+      "reserve": 1,
+      "attach": 2,
+      "commit": 1,
+      "notify": 1
+    },
+    "stale": 0,
+    "provisional": 0,
+    "duplicates": 1,
+    "completed": true,
+    "safe": false,
+    "false_complete": true,
+    "rejected": 0,
+    "bytes": 36864
+  },
+  {
+    "ownership": "read_only",
+    "level": "L1",
+    "fault": "late_commit",
+    "seed": 1,
+    "profile": "C3",
+    "policy": "clear_evidence",
+    "workflow": "read_only_L1_late_commit_S1",
+    "terminal": "complete",
+    "reason": "initial_receipt",
+    "committed": true,
+    "steps_run": 5,
+    "requests": 20,
+    "transport_errors": [
+      {
+        "method": "POST",
+        "path": "/w/read_only_L1_late_commit_S1/attach",
+        "status": null,
+        "error": "TimeoutError",
+        "step": "attach"
+      }
+    ],
+    "elapsed_ns": 448857200,
+    "rows": {
+      "create": 1,
+      "reserve": 1,
+      "attach": 2,
+      "commit": 1,
+      "notify": 1
+    },
+    "stale": 0,
+    "provisional": 0,
+    "duplicates": 1,
+    "completed": true,
+    "safe": false,
+    "false_complete": true,
+    "rejected": 0,
+    "bytes": 36864
+  },
+  {
+    "ownership": "read_only",
+    "level": "L1",
+    "fault": "late_commit",
+    "seed": 2,
+    "profile": "C3",
+    "policy": "clear_evidence",
+    "workflow": "read_only_L1_late_commit_S2",
+    "terminal": "complete",
+    "reason": "initial_receipt",
+    "committed": true,
+    "steps_run": 5,
+    "requests": 20,
+    "transport_errors": [
+      {
+        "method": "POST",
+        "path": "/w/read_only_L1_late_commit_S2/attach",
+        "status": null,
+        "error": "TimeoutError",
+        "step": "attach"
+      }
+    ],
+    "elapsed_ns": 513040000,
+    "rows": {
+      "create": 1,
+      "reserve": 1,
+      "attach": 2,
+      "commit": 1,
+      "notify": 1
+    },
+    "stale": 0,
+    "provisional": 0,
+    "duplicates": 1,
+    "completed": true,
+    "safe": false,
+    "false_complete": true,
+    "rejected": 0,
+    "bytes": 36864
+  },
+  {
+    "ownership": "read_only",
+    "level": "L1",
+    "fault": "late_commit",
+    "seed": 3,
+    "profile": "C3",
+    "policy": "clear_evidence",
+    "workflow": "read_only_L1_late_commit_S3",
+    "terminal": "complete",
+    "reason": "initial_receipt",
+    "committed": true,
+    "steps_run": 5,
+    "requests": 20,
+    "transport_errors": [
+      {
+        "method": "POST",
+        "path": "/w/read_only_L1_late_commit_S3/attach",
+        "status": null,
+        "error": "TimeoutError",
+        "step": "attach"
+      }
+    ],
+    "elapsed_ns": 475368100,
+    "rows": {
+      "create": 1,
+      "reserve": 1,
+      "attach": 2,
+      "commit": 1,
+      "notify": 1
+    },
+    "stale": 0,
+    "provisional": 0,
+    "duplicates": 1,
+    "completed": true,
+    "safe": false,
+    "false_complete": true,
+    "rejected": 0,
+    "bytes": 36864
+  },
+  {
+    "ownership": "read_only",
+    "level": "L1",
+    "fault": "late_commit",
+    "seed": 4,
+    "profile": "C3",
+    "policy": "clear_evidence",
+    "workflow": "read_only_L1_late_commit_S4",
+    "terminal": "complete",
+    "reason": "initial_receipt",
+    "committed": true,
+    "steps_run": 5,
+    "requests": 20,
+    "transport_errors": [
+      {
+        "method": "POST",
+        "path": "/w/read_only_L1_late_commit_S4/attach",
+        "status": null,
+        "error": "TimeoutError",
+        "step": "attach"
+      }
+    ],
+    "elapsed_ns": 467359300,
+    "rows": {
+      "create": 1,
+      "reserve": 1,
+      "attach": 2,
+      "commit": 1,
+      "notify": 1
+    },
+    "stale": 0,
+    "provisional": 0,
+    "duplicates": 1,
+    "completed": true,
+    "safe": false,
+    "false_complete": true,
+    "rejected": 0,
+    "bytes": 36864
+  },
+  {
+    "ownership": "read_only",
+    "level": "L1",
+    "fault": "late_commit",
+    "seed": 5,
+    "profile": "C3",
+    "policy": "clear_evidence",
+    "workflow": "read_only_L1_late_commit_S5",
+    "terminal": "complete",
+    "reason": "initial_receipt",
+    "committed": true,
+    "steps_run": 5,
+    "requests": 20,
+    "transport_errors": [
+      {
+        "method": "POST",
+        "path": "/w/read_only_L1_late_commit_S5/attach",
+        "status": null,
+        "error": "TimeoutError",
+        "step": "attach"
+      }
+    ],
+    "elapsed_ns": 532487900,
+    "rows": {
+      "create": 1,
+      "reserve": 1,
+      "attach": 2,
+      "commit": 1,
+      "notify": 1
+    },
+    "stale": 0,
+    "provisional": 0,
+    "duplicates": 1,
+    "completed": true,
+    "safe": false,
+    "false_complete": true,
+    "rejected": 0,
+    "bytes": 36864
+  },
+  {
+    "ownership": "read_only",
+    "level": "L1",
+    "fault": "late_commit",
+    "seed": 6,
+    "profile": "C3",
+    "policy": "clear_evidence",
+    "workflow": "read_only_L1_late_commit_S6",
+    "terminal": "complete",
+    "reason": "initial_receipt",
+    "committed": true,
+    "steps_run": 5,
+    "requests": 20,
+    "transport_errors": [
+      {
+        "method": "POST",
+        "path": "/w/read_only_L1_late_commit_S6/attach",
+        "status": null,
+        "error": "TimeoutError",
+        "step": "attach"
+      }
+    ],
+    "elapsed_ns": 528364100,
+    "rows": {
+      "create": 1,
+      "reserve": 1,
+      "attach": 2,
+      "commit": 1,
+      "notify": 1
+    },
+    "stale": 0,
+    "provisional": 0,
+    "duplicates": 1,
+    "completed": true,
+    "safe": false,
+    "false_complete": true,
+    "rejected": 0,
+    "bytes": 36864
+  },
+  {
+    "ownership": "read_only",
+    "level": "L1",
+    "fault": "late_commit",
+    "seed": 7,
+    "profile": "C3",
+    "policy": "clear_evidence",
+    "workflow": "read_only_L1_late_commit_S7",
+    "terminal": "complete",
+    "reason": "initial_receipt",
+    "committed": true,
+    "steps_run": 5,
+    "requests": 20,
+    "transport_errors": [
+      {
+        "method": "POST",
+        "path": "/w/read_only_L1_late_commit_S7/attach",
+        "status": null,
+        "error": "TimeoutError",
+        "step": "attach"
+      }
+    ],
+    "elapsed_ns": 528302100,
+    "rows": {
+      "create": 1,
+      "reserve": 1,
+      "attach": 2,
+      "commit": 1,
+      "notify": 1
+    },
+    "stale": 0,
+    "provisional": 0,
+    "duplicates": 1,
+    "completed": true,
+    "safe": false,
+    "false_complete": true,
+    "rejected": 0,
+    "bytes": 36864
+  },
+  {
+    "ownership": "read_only",
+    "level": "L1",
+    "fault": "late_commit",
+    "seed": 8,
+    "profile": "C3",
+    "policy": "clear_evidence",
+    "workflow": "read_only_L1_late_commit_S8",
+    "terminal": "complete",
+    "reason": "initial_receipt",
+    "committed": true,
+    "steps_run": 5,
+    "requests": 20,
+    "transport_errors": [
+      {
+        "method": "POST",
+        "path": "/w/read_only_L1_late_commit_S8/attach",
+        "status": null,
+        "error": "TimeoutError",
+        "step": "attach"
+      }
+    ],
+    "elapsed_ns": 495188500,
+    "rows": {
+      "create": 1,
+      "reserve": 1,
+      "attach": 2,
+      "commit": 1,
+      "notify": 1
+    },
+    "stale": 0,
+    "provisional": 0,
+    "duplicates": 1,
+    "completed": true,
+    "safe": false,
+    "false_complete": true,
+    "rejected": 0,
+    "bytes": 36864
+  },
+  {
+    "ownership": "read_only",
+    "level": "L1",
+    "fault": "late_commit",
+    "seed": 9,
+    "profile": "C3",
+    "policy": "clear_evidence",
+    "workflow": "read_only_L1_late_commit_S9",
+    "terminal": "complete",
+    "reason": "initial_receipt",
+    "committed": true,
+    "steps_run": 5,
+    "requests": 20,
+    "transport_errors": [
+      {
+        "method": "POST",
+        "path": "/w/read_only_L1_late_commit_S9/attach",
+        "status": null,
+        "error": "TimeoutError",
+        "step": "attach"
+      }
+    ],
+    "elapsed_ns": 539469200,
+    "rows": {
+      "create": 1,
+      "reserve": 1,
+      "attach": 2,
+      "commit": 1,
+      "notify": 1
+    },
+    "stale": 0,
+    "provisional": 0,
+    "duplicates": 1,
+    "completed": true,
+    "safe": false,
+    "false_complete": true,
+    "rejected": 0,
+    "bytes": 36864
+  },
+  {
+    "ownership": "read_only",
+    "level": "L2",
+    "fault": "lost_return",
+    "seed": 0,
+    "profile": "C3",
+    "policy": "clear_evidence",
+    "workflow": "read_only_L2_lost_return_S0",
+    "terminal": "complete",
+    "reason": "initial_receipt",
+    "committed": true,
+    "steps_run": 5,
+    "requests": 18,
+    "transport_errors": [
+      {
+        "method": "POST",
+        "path": "/w/read_only_L2_lost_return_S0/attach",
+        "status": null,
+        "error": "RemoteDisconnected",
+        "step": "attach"
+      }
+    ],
+    "elapsed_ns": 178540600,
+    "rows": {
+      "create": 1,
+      "reserve": 1,
+      "attach": 1,
+      "commit": 1,
+      "notify": 1
+    },
+    "stale": 0,
+    "provisional": 0,
+    "duplicates": 0,
+    "completed": true,
+    "safe": true,
+    "false_complete": false,
+    "rejected": 0,
+    "bytes": 36864
+  },
+  {
+    "ownership": "read_only",
+    "level": "L2",
+    "fault": "lost_return",
+    "seed": 1,
+    "profile": "C3",
+    "policy": "clear_evidence",
+    "workflow": "read_only_L2_lost_return_S1",
+    "terminal": "complete",
+    "reason": "initial_receipt",
+    "committed": true,
+    "steps_run": 5,
+    "requests": 18,
+    "transport_errors": [
+      {
+        "method": "POST",
+        "path": "/w/read_only_L2_lost_return_S1/attach",
+        "status": null,
+        "error": "RemoteDisconnected",
+        "step": "attach"
+      }
+    ],
+    "elapsed_ns": 194796200,
+    "rows": {
+      "create": 1,
+      "reserve": 1,
+      "attach": 1,
+      "commit": 1,
+      "notify": 1
+    },
+    "stale": 0,
+    "provisional": 0,
+    "duplicates": 0,
+    "completed": true,
+    "safe": true,
+    "false_complete": false,
+    "rejected": 0,
+    "bytes": 36864
+  },
+  {
+    "ownership": "read_only",
+    "level": "L2",
+    "fault": "lost_return",
+    "seed": 2,
+    "profile": "C3",
+    "policy": "clear_evidence",
+    "workflow": "read_only_L2_lost_return_S2",
+    "terminal": "complete",
+    "reason": "initial_receipt",
+    "committed": true,
+    "steps_run": 5,
+    "requests": 18,
+    "transport_errors": [
+      {
+        "method": "POST",
+        "path": "/w/read_only_L2_lost_return_S2/attach",
+        "status": null,
+        "error": "RemoteDisconnected",
+        "step": "attach"
+      }
+    ],
+    "elapsed_ns": 161038900,
+    "rows": {
+      "create": 1,
+      "reserve": 1,
+      "attach": 1,
+      "commit": 1,
+      "notify": 1
+    },
+    "stale": 0,
+    "provisional": 0,
+    "duplicates": 0,
+    "completed": true,
+    "safe": true,
+    "false_complete": false,
+    "rejected": 0,
+    "bytes": 36864
+  },
+  {
+    "ownership": "read_only",
+    "level": "L2",
+    "fault": "lost_return",
+    "seed": 3,
+    "profile": "C3",
+    "policy": "clear_evidence",
+    "workflow": "read_only_L2_lost_return_S3",
+    "terminal": "complete",
+    "reason": "initial_receipt",
+    "committed": true,
+    "steps_run": 5,
+    "requests": 18,
+    "transport_errors": [
+      {
+        "method": "POST",
+        "path": "/w/read_only_L2_lost_return_S3/attach",
+        "status": null,
+        "error": "RemoteDisconnected",
+        "step": "attach"
+      }
+    ],
+    "elapsed_ns": 134777800,
+    "rows": {
+      "create": 1,
+      "reserve": 1,
+      "attach": 1,
+      "commit": 1,
+      "notify": 1
+    },
+    "stale": 0,
+    "provisional": 0,
+    "duplicates": 0,
+    "completed": true,
+    "safe": true,
+    "false_complete": false,
+    "rejected": 0,
+    "bytes": 36864
+  },
+  {
+    "ownership": "read_only",
+    "level": "L2",
+    "fault": "lost_return",
+    "seed": 4,
+    "profile": "C3",
+    "policy": "clear_evidence",
+    "workflow": "read_only_L2_lost_return_S4",
+    "terminal": "complete",
+    "reason": "initial_receipt",
+    "committed": true,
+    "steps_run": 5,
+    "requests": 18,
+    "transport_errors": [
+      {
+        "method": "POST",
+        "path": "/w/read_only_L2_lost_return_S4/attach",
+        "status": null,
+        "error": "RemoteDisconnected",
+        "step": "attach"
+      }
+    ],
+    "elapsed_ns": 204705400,
+    "rows": {
+      "create": 1,
+      "reserve": 1,
+      "attach": 1,
+      "commit": 1,
+      "notify": 1
+    },
+    "stale": 0,
+    "provisional": 0,
+    "duplicates": 0,
+    "completed": true,
+    "safe": true,
+    "false_complete": false,
+    "rejected": 0,
+    "bytes": 36864
+  },
+  {
+    "ownership": "read_only",
+    "level": "L2",
+    "fault": "lost_return",
+    "seed": 5,
+    "profile": "C3",
+    "policy": "clear_evidence",
+    "workflow": "read_only_L2_lost_return_S5",
+    "terminal": "complete",
+    "reason": "initial_receipt",
+    "committed": true,
+    "steps_run": 5,
+    "requests": 18,
+    "transport_errors": [
+      {
+        "method": "POST",
+        "path": "/w/read_only_L2_lost_return_S5/attach",
+        "status": null,
+        "error": "RemoteDisconnected",
+        "step": "attach"
+      }
+    ],
+    "elapsed_ns": 156445500,
+    "rows": {
+      "create": 1,
+      "reserve": 1,
+      "attach": 1,
+      "commit": 1,
+      "notify": 1
+    },
+    "stale": 0,
+    "provisional": 0,
+    "duplicates": 0,
+    "completed": true,
+    "safe": true,
+    "false_complete": false,
+    "rejected": 0,
+    "bytes": 36864
+  },
+  {
+    "ownership": "read_only",
+    "level": "L2",
+    "fault": "lost_return",
+    "seed": 6,
+    "profile": "C3",
+    "policy": "clear_evidence",
+    "workflow": "read_only_L2_lost_return_S6",
+    "terminal": "complete",
+    "reason": "initial_receipt",
+    "committed": true,
+    "steps_run": 5,
+    "requests": 18,
+    "transport_errors": [
+      {
+        "method": "POST",
+        "path": "/w/read_only_L2_lost_return_S6/attach",
+        "status": null,
+        "error": "RemoteDisconnected",
+        "step": "attach"
+      }
+    ],
+    "elapsed_ns": 230698600,
+    "rows": {
+      "create": 1,
+      "reserve": 1,
+      "attach": 1,
+      "commit": 1,
+      "notify": 1
+    },
+    "stale": 0,
+    "provisional": 0,
+    "duplicates": 0,
+    "completed": true,
+    "safe": true,
+    "false_complete": false,
+    "rejected": 0,
+    "bytes": 36864
+  },
+  {
+    "ownership": "read_only",
+    "level": "L2",
+    "fault": "lost_return",
+    "seed": 7,
+    "profile": "C3",
+    "policy": "clear_evidence",
+    "workflow": "read_only_L2_lost_return_S7",
+    "terminal": "complete",
+    "reason": "initial_receipt",
+    "committed": true,
+    "steps_run": 5,
+    "requests": 18,
+    "transport_errors": [
+      {
+        "method": "POST",
+        "path": "/w/read_only_L2_lost_return_S7/attach",
+        "status": null,
+        "error": "RemoteDisconnected",
+        "step": "attach"
+      }
+    ],
+    "elapsed_ns": 219518300,
+    "rows": {
+      "create": 1,
+      "reserve": 1,
+      "attach": 1,
+      "commit": 1,
+      "notify": 1
+    },
+    "stale": 0,
+    "provisional": 0,
+    "duplicates": 0,
+    "completed": true,
+    "safe": true,
+    "false_complete": false,
+    "rejected": 0,
+    "bytes": 36864
+  },
+  {
+    "ownership": "read_only",
+    "level": "L2",
+    "fault": "lost_return",
+    "seed": 8,
+    "profile": "C3",
+    "policy": "clear_evidence",
+    "workflow": "read_only_L2_lost_return_S8",
+    "terminal": "complete",
+    "reason": "initial_receipt",
+    "committed": true,
+    "steps_run": 5,
+    "requests": 18,
+    "transport_errors": [
+      {
+        "method": "POST",
+        "path": "/w/read_only_L2_lost_return_S8/attach",
+        "status": null,
+        "error": "RemoteDisconnected",
+        "step": "attach"
+      }
+    ],
+    "elapsed_ns": 217475400,
+    "rows": {
+      "create": 1,
+      "reserve": 1,
+      "attach": 1,
+      "commit": 1,
+      "notify": 1
+    },
+    "stale": 0,
+    "provisional": 0,
+    "duplicates": 0,
+    "completed": true,
+    "safe": true,
+    "false_complete": false,
+    "rejected": 0,
+    "bytes": 36864
+  },
+  {
+    "ownership": "read_only",
+    "level": "L2",
+    "fault": "lost_return",
+    "seed": 9,
+    "profile": "C3",
+    "policy": "clear_evidence",
+    "workflow": "read_only_L2_lost_return_S9",
+    "terminal": "complete",
+    "reason": "initial_receipt",
+    "committed": true,
+    "steps_run": 5,
+    "requests": 18,
+    "transport_errors": [
+      {
+        "method": "POST",
+        "path": "/w/read_only_L2_lost_return_S9/attach",
+        "status": null,
+        "error": "RemoteDisconnected",
+        "step": "attach"
+      }
+    ],
+    "elapsed_ns": 140217700,
+    "rows": {
+      "create": 1,
+      "reserve": 1,
+      "attach": 1,
+      "commit": 1,
+      "notify": 1
+    },
+    "stale": 0,
+    "provisional": 0,
+    "duplicates": 0,
+    "completed": true,
+    "safe": true,
+    "false_complete": false,
+    "rejected": 0,
+    "bytes": 36864
+  },
+  {
+    "ownership": "read_only",
+    "level": "L2",
+    "fault": "late_commit",
+    "seed": 0,
+    "profile": "C3",
+    "policy": "clear_evidence",
+    "workflow": "read_only_L2_late_commit_S0",
+    "terminal": "complete",
+    "reason": "initial_receipt",
+    "committed": true,
+    "steps_run": 5,
+    "requests": 20,
+    "transport_errors": [
+      {
+        "method": "POST",
+        "path": "/w/read_only_L2_late_commit_S0/attach",
+        "status": null,
+        "error": "TimeoutError",
+        "step": "attach"
+      }
+    ],
+    "elapsed_ns": 488687800,
+    "rows": {
+      "create": 1,
+      "reserve": 1,
+      "attach": 2,
+      "commit": 1,
+      "notify": 1
+    },
+    "stale": 0,
+    "provisional": 0,
+    "duplicates": 1,
+    "completed": true,
+    "safe": false,
+    "false_complete": true,
+    "rejected": 0,
+    "bytes": 36864
+  },
+  {
+    "ownership": "read_only",
+    "level": "L2",
+    "fault": "late_commit",
+    "seed": 1,
+    "profile": "C3",
+    "policy": "clear_evidence",
+    "workflow": "read_only_L2_late_commit_S1",
+    "terminal": "complete",
+    "reason": "initial_receipt",
+    "committed": true,
+    "steps_run": 5,
+    "requests": 20,
+    "transport_errors": [
+      {
+        "method": "POST",
+        "path": "/w/read_only_L2_late_commit_S1/attach",
+        "status": null,
+        "error": "TimeoutError",
+        "step": "attach"
+      }
+    ],
+    "elapsed_ns": 433498700,
+    "rows": {
+      "create": 1,
+      "reserve": 1,
+      "attach": 2,
+      "commit": 1,
+      "notify": 1
+    },
+    "stale": 0,
+    "provisional": 0,
+    "duplicates": 1,
+    "completed": true,
+    "safe": false,
+    "false_complete": true,
+    "rejected": 0,
+    "bytes": 36864
+  },
+  {
+    "ownership": "read_only",
+    "level": "L2",
+    "fault": "late_commit",
+    "seed": 2,
+    "profile": "C3",
+    "policy": "clear_evidence",
+    "workflow": "read_only_L2_late_commit_S2",
+    "terminal": "complete",
+    "reason": "initial_receipt",
+    "committed": true,
+    "steps_run": 5,
+    "requests": 20,
+    "transport_errors": [
+      {
+        "method": "POST",
+        "path": "/w/read_only_L2_late_commit_S2/attach",
+        "status": null,
+        "error": "TimeoutError",
+        "step": "attach"
+      }
+    ],
+    "elapsed_ns": 407398200,
+    "rows": {
+      "create": 1,
+      "reserve": 1,
+      "attach": 2,
+      "commit": 1,
+      "notify": 1
+    },
+    "stale": 0,
+    "provisional": 0,
+    "duplicates": 1,
+    "completed": true,
+    "safe": false,
+    "false_complete": true,
+    "rejected": 0,
+    "bytes": 36864
+  },
+  {
+    "ownership": "read_only",
+    "level": "L2",
+    "fault": "late_commit",
+    "seed": 3,
+    "profile": "C3",
+    "policy": "clear_evidence",
+    "workflow": "read_only_L2_late_commit_S3",
+    "terminal": "complete",
+    "reason": "initial_receipt",
+    "committed": true,
+    "steps_run": 5,
+    "requests": 20,
+    "transport_errors": [
+      {
+        "method": "POST",
+        "path": "/w/read_only_L2_late_commit_S3/attach",
+        "status": null,
+        "error": "TimeoutError",
+        "step": "attach"
+      }
+    ],
+    "elapsed_ns": 441011400,
+    "rows": {
+      "create": 1,
+      "reserve": 1,
+      "attach": 2,
+      "commit": 1,
+      "notify": 1
+    },
+    "stale": 0,
+    "provisional": 0,
+    "duplicates": 1,
+    "completed": true,
+    "safe": false,
+    "false_complete": true,
+    "rejected": 0,
+    "bytes": 36864
+  },
+  {
+    "ownership": "read_only",
+    "level": "L2",
+    "fault": "late_commit",
+    "seed": 4,
+    "profile": "C3",
+    "policy": "clear_evidence",
+    "workflow": "read_only_L2_late_commit_S4",
+    "terminal": "complete",
+    "reason": "initial_receipt",
+    "committed": true,
+    "steps_run": 5,
+    "requests": 20,
+    "transport_errors": [
+      {
+        "method": "POST",
+        "path": "/w/read_only_L2_late_commit_S4/attach",
+        "status": null,
+        "error": "TimeoutError",
+        "step": "attach"
+      }
+    ],
+    "elapsed_ns": 453053800,
+    "rows": {
+      "create": 1,
+      "reserve": 1,
+      "attach": 2,
+      "commit": 1,
+      "notify": 1
+    },
+    "stale": 0,
+    "provisional": 0,
+    "duplicates": 1,
+    "completed": true,
+    "safe": false,
+    "false_complete": true,
+    "rejected": 0,
+    "bytes": 36864
+  },
+  {
+    "ownership": "read_only",
+    "level": "L2",
+    "fault": "late_commit",
+    "seed": 5,
+    "profile": "C3",
+    "policy": "clear_evidence",
+    "workflow": "read_only_L2_late_commit_S5",
+    "terminal": "complete",
+    "reason": "initial_receipt",
+    "committed": true,
+    "steps_run": 5,
+    "requests": 20,
+    "transport_errors": [
+      {
+        "method": "POST",
+        "path": "/w/read_only_L2_late_commit_S5/attach",
+        "status": null,
+        "error": "TimeoutError",
+        "step": "attach"
+      }
+    ],
+    "elapsed_ns": 482095200,
+    "rows": {
+      "create": 1,
+      "reserve": 1,
+      "attach": 2,
+      "commit": 1,
+      "notify": 1
+    },
+    "stale": 0,
+    "provisional": 0,
+    "duplicates": 1,
+    "completed": true,
+    "safe": false,
+    "false_complete": true,
+    "rejected": 0,
+    "bytes": 36864
+  },
+  {
+    "ownership": "read_only",
+    "level": "L2",
+    "fault": "late_commit",
+    "seed": 6,
+    "profile": "C3",
+    "policy": "clear_evidence",
+    "workflow": "read_only_L2_late_commit_S6",
+    "terminal": "complete",
+    "reason": "initial_receipt",
+    "committed": true,
+    "steps_run": 5,
+    "requests": 20,
+    "transport_errors": [
+      {
+        "method": "POST",
+        "path": "/w/read_only_L2_late_commit_S6/attach",
+        "status": null,
+        "error": "TimeoutError",
+        "step": "attach"
+      }
+    ],
+    "elapsed_ns": 532414400,
+    "rows": {
+      "create": 1,
+      "reserve": 1,
+      "attach": 2,
+      "commit": 1,
+      "notify": 1
+    },
+    "stale": 0,
+    "provisional": 0,
+    "duplicates": 1,
+    "completed": true,
+    "safe": false,
+    "false_complete": true,
+    "rejected": 0,
+    "bytes": 36864
+  },
+  {
+    "ownership": "read_only",
+    "level": "L2",
+    "fault": "late_commit",
+    "seed": 7,
+    "profile": "C3",
+    "policy": "clear_evidence",
+    "workflow": "read_only_L2_late_commit_S7",
+    "terminal": "complete",
+    "reason": "initial_receipt",
+    "committed": true,
+    "steps_run": 5,
+    "requests": 20,
+    "transport_errors": [
+      {
+        "method": "POST",
+        "path": "/w/read_only_L2_late_commit_S7/attach",
+        "status": null,
+        "error": "TimeoutError",
+        "step": "attach"
+      }
+    ],
+    "elapsed_ns": 478873200,
+    "rows": {
+      "create": 1,
+      "reserve": 1,
+      "attach": 2,
+      "commit": 1,
+      "notify": 1
+    },
+    "stale": 0,
+    "provisional": 0,
+    "duplicates": 1,
+    "completed": true,
+    "safe": false,
+    "false_complete": true,
+    "rejected": 0,
+    "bytes": 36864
+  },
+  {
+    "ownership": "read_only",
+    "level": "L2",
+    "fault": "late_commit",
+    "seed": 8,
+    "profile": "C3",
+    "policy": "clear_evidence",
+    "workflow": "read_only_L2_late_commit_S8",
+    "terminal": "complete",
+    "reason": "initial_receipt",
+    "committed": true,
+    "steps_run": 5,
+    "requests": 20,
+    "transport_errors": [
+      {
+        "method": "POST",
+        "path": "/w/read_only_L2_late_commit_S8/attach",
+        "status": null,
+        "error": "TimeoutError",
+        "step": "attach"
+      }
+    ],
+    "elapsed_ns": 421169400,
+    "rows": {
+      "create": 1,
+      "reserve": 1,
+      "attach": 2,
+      "commit": 1,
+      "notify": 1
+    },
+    "stale": 0,
+    "provisional": 0,
+    "duplicates": 1,
+    "completed": true,
+    "safe": false,
+    "false_complete": true,
+    "rejected": 0,
+    "bytes": 36864
+  },
+  {
+    "ownership": "read_only",
+    "level": "L2",
+    "fault": "late_commit",
+    "seed": 9,
+    "profile": "C3",
+    "policy": "clear_evidence",
+    "workflow": "read_only_L2_late_commit_S9",
+    "terminal": "complete",
+    "reason": "initial_receipt",
+    "committed": true,
+    "steps_run": 5,
+    "requests": 20,
+    "transport_errors": [
+      {
+        "method": "POST",
+        "path": "/w/read_only_L2_late_commit_S9/attach",
+        "status": null,
+        "error": "TimeoutError",
+        "step": "attach"
+      }
+    ],
+    "elapsed_ns": 414240200,
+    "rows": {
+      "create": 1,
+      "reserve": 1,
+      "attach": 2,
+      "commit": 1,
+      "notify": 1
+    },
+    "stale": 0,
+    "provisional": 0,
+    "duplicates": 1,
+    "completed": true,
+    "safe": false,
+    "false_complete": true,
+    "rejected": 0,
+    "bytes": 36864
+  },
+  {
+    "ownership": "read_only",
+    "level": "L3",
+    "fault": "lost_return",
+    "seed": 0,
+    "profile": "C3",
+    "policy": "clear_evidence",
+    "workflow": "read_only_L3_lost_return_S0",
+    "terminal": "complete",
+    "reason": "initial_receipt",
+    "committed": true,
+    "steps_run": 5,
+    "requests": 18,
+    "transport_errors": [
+      {
+        "method": "POST",
+        "path": "/w/read_only_L3_lost_return_S0/attach",
+        "status": null,
+        "error": "RemoteDisconnected",
+        "step": "attach"
+      }
+    ],
+    "elapsed_ns": 202690900,
+    "rows": {
+      "create": 1,
+      "reserve": 1,
+      "attach": 1,
+      "commit": 1,
+      "notify": 1
+    },
+    "stale": 0,
+    "provisional": 0,
+    "duplicates": 0,
+    "completed": true,
+    "safe": true,
+    "false_complete": false,
+    "rejected": 0,
+    "bytes": 36864
+  },
+  {
+    "ownership": "read_only",
+    "level": "L3",
+    "fault": "lost_return",
+    "seed": 1,
+    "profile": "C3",
+    "policy": "clear_evidence",
+    "workflow": "read_only_L3_lost_return_S1",
+    "terminal": "complete",
+    "reason": "initial_receipt",
+    "committed": true,
+    "steps_run": 5,
+    "requests": 18,
+    "transport_errors": [
+      {
+        "method": "POST",
+        "path": "/w/read_only_L3_lost_return_S1/attach",
+        "status": null,
+        "error": "RemoteDisconnected",
+        "step": "attach"
+      }
+    ],
+    "elapsed_ns": 174393800,
+    "rows": {
+      "create": 1,
+      "reserve": 1,
+      "attach": 1,
+      "commit": 1,
+      "notify": 1
+    },
+    "stale": 0,
+    "provisional": 0,
+    "duplicates": 0,
+    "completed": true,
+    "safe": true,
+    "false_complete": false,
+    "rejected": 0,
+    "bytes": 36864
+  },
+  {
+    "ownership": "read_only",
+    "level": "L3",
+    "fault": "lost_return",
+    "seed": 2,
+    "profile": "C3",
+    "policy": "clear_evidence",
+    "workflow": "read_only_L3_lost_return_S2",
+    "terminal": "complete",
+    "reason": "initial_receipt",
+    "committed": true,
+    "steps_run": 5,
+    "requests": 18,
+    "transport_errors": [
+      {
+        "method": "POST",
+        "path": "/w/read_only_L3_lost_return_S2/attach",
+        "status": null,
+        "error": "RemoteDisconnected",
+        "step": "attach"
+      }
+    ],
+    "elapsed_ns": 183407700,
+    "rows": {
+      "create": 1,
+      "reserve": 1,
+      "attach": 1,
+      "commit": 1,
+      "notify": 1
+    },
+    "stale": 0,
+    "provisional": 0,
+    "duplicates": 0,
+    "completed": true,
+    "safe": true,
+    "false_complete": false,
+    "rejected": 0,
+    "bytes": 36864
+  },
+  {
+    "ownership": "read_only",
+    "level": "L3",
+    "fault": "lost_return",
+    "seed": 3,
+    "profile": "C3",
+    "policy": "clear_evidence",
+    "workflow": "read_only_L3_lost_return_S3",
+    "terminal": "complete",
+    "reason": "initial_receipt",
+    "committed": true,
+    "steps_run": 5,
+    "requests": 18,
+    "transport_errors": [
+      {
+        "method": "POST",
+        "path": "/w/read_only_L3_lost_return_S3/attach",
+        "status": null,
+        "error": "RemoteDisconnected",
+        "step": "attach"
+      }
+    ],
+    "elapsed_ns": 150242400,
+    "rows": {
+      "create": 1,
+      "reserve": 1,
+      "attach": 1,
+      "commit": 1,
+      "notify": 1
+    },
+    "stale": 0,
+    "provisional": 0,
+    "duplicates": 0,
+    "completed": true,
+    "safe": true,
+    "false_complete": false,
+    "rejected": 0,
+    "bytes": 36864
+  },
+  {
+    "ownership": "read_only",
+    "level": "L3",
+    "fault": "lost_return",
+    "seed": 4,
+    "profile": "C3",
+    "policy": "clear_evidence",
+    "workflow": "read_only_L3_lost_return_S4",
+    "terminal": "complete",
+    "reason": "initial_receipt",
+    "committed": true,
+    "steps_run": 5,
+    "requests": 18,
+    "transport_errors": [
+      {
+        "method": "POST",
+        "path": "/w/read_only_L3_lost_return_S4/attach",
+        "status": null,
+        "error": "RemoteDisconnected",
+        "step": "attach"
+      }
+    ],
+    "elapsed_ns": 122382100,
+    "rows": {
+      "create": 1,
+      "reserve": 1,
+      "attach": 1,
+      "commit": 1,
+      "notify": 1
+    },
+    "stale": 0,
+    "provisional": 0,
+    "duplicates": 0,
+    "completed": true,
+    "safe": true,
+    "false_complete": false,
+    "rejected": 0,
+    "bytes": 36864
+  },
+  {
+    "ownership": "read_only",
+    "level": "L3",
+    "fault": "lost_return",
+    "seed": 5,
+    "profile": "C3",
+    "policy": "clear_evidence",
+    "workflow": "read_only_L3_lost_return_S5",
+    "terminal": "complete",
+    "reason": "initial_receipt",
+    "committed": true,
+    "steps_run": 5,
+    "requests": 18,
+    "transport_errors": [
+      {
+        "method": "POST",
+        "path": "/w/read_only_L3_lost_return_S5/attach",
+        "status": null,
+        "error": "RemoteDisconnected",
+        "step": "attach"
+      }
+    ],
+    "elapsed_ns": 178839700,
+    "rows": {
+      "create": 1,
+      "reserve": 1,
+      "attach": 1,
+      "commit": 1,
+      "notify": 1
+    },
+    "stale": 0,
+    "provisional": 0,
+    "duplicates": 0,
+    "completed": true,
+    "safe": true,
+    "false_complete": false,
+    "rejected": 0,
+    "bytes": 36864
+  },
+  {
+    "ownership": "read_only",
+    "level": "L3",
+    "fault": "lost_return",
+    "seed": 6,
+    "profile": "C3",
+    "policy": "clear_evidence",
+    "workflow": "read_only_L3_lost_return_S6",
+    "terminal": "complete",
+    "reason": "initial_receipt",
+    "committed": true,
+    "steps_run": 5,
+    "requests": 18,
+    "transport_errors": [
+      {
+        "method": "POST",
+        "path": "/w/read_only_L3_lost_return_S6/attach",
+        "status": null,
+        "error": "RemoteDisconnected",
+        "step": "attach"
+      }
+    ],
+    "elapsed_ns": 145415800,
+    "rows": {
+      "create": 1,
+      "reserve": 1,
+      "attach": 1,
+      "commit": 1,
+      "notify": 1
+    },
+    "stale": 0,
+    "provisional": 0,
+    "duplicates": 0,
+    "completed": true,
+    "safe": true,
+    "false_complete": false,
+    "rejected": 0,
+    "bytes": 36864
+  },
+  {
+    "ownership": "read_only",
+    "level": "L3",
+    "fault": "lost_return",
+    "seed": 7,
+    "profile": "C3",
+    "policy": "clear_evidence",
+    "workflow": "read_only_L3_lost_return_S7",
+    "terminal": "complete",
+    "reason": "initial_receipt",
+    "committed": true,
+    "steps_run": 5,
+    "requests": 18,
+    "transport_errors": [
+      {
+        "method": "POST",
+        "path": "/w/read_only_L3_lost_return_S7/attach",
+        "status": null,
+        "error": "RemoteDisconnected",
+        "step": "attach"
+      }
+    ],
+    "elapsed_ns": 181718800,
+    "rows": {
+      "create": 1,
+      "reserve": 1,
+      "attach": 1,
+      "commit": 1,
+      "notify": 1
+    },
+    "stale": 0,
+    "provisional": 0,
+    "duplicates": 0,
+    "completed": true,
+    "safe": true,
+    "false_complete": false,
+    "rejected": 0,
+    "bytes": 36864
+  },
+  {
+    "ownership": "read_only",
+    "level": "L3",
+    "fault": "lost_return",
+    "seed": 8,
+    "profile": "C3",
+    "policy": "clear_evidence",
+    "workflow": "read_only_L3_lost_return_S8",
+    "terminal": "complete",
+    "reason": "initial_receipt",
+    "committed": true,
+    "steps_run": 5,
+    "requests": 18,
+    "transport_errors": [
+      {
+        "method": "POST",
+        "path": "/w/read_only_L3_lost_return_S8/attach",
+        "status": null,
+        "error": "RemoteDisconnected",
+        "step": "attach"
+      }
+    ],
+    "elapsed_ns": 234344800,
+    "rows": {
+      "create": 1,
+      "reserve": 1,
+      "attach": 1,
+      "commit": 1,
+      "notify": 1
+    },
+    "stale": 0,
+    "provisional": 0,
+    "duplicates": 0,
+    "completed": true,
+    "safe": true,
+    "false_complete": false,
+    "rejected": 0,
+    "bytes": 36864
+  },
+  {
+    "ownership": "read_only",
+    "level": "L3",
+    "fault": "lost_return",
+    "seed": 9,
+    "profile": "C3",
+    "policy": "clear_evidence",
+    "workflow": "read_only_L3_lost_return_S9",
+    "terminal": "complete",
+    "reason": "initial_receipt",
+    "committed": true,
+    "steps_run": 5,
+    "requests": 18,
+    "transport_errors": [
+      {
+        "method": "POST",
+        "path": "/w/read_only_L3_lost_return_S9/attach",
+        "status": null,
+        "error": "RemoteDisconnected",
+        "step": "attach"
+      }
+    ],
+    "elapsed_ns": 187261300,
+    "rows": {
+      "create": 1,
+      "reserve": 1,
+      "attach": 1,
+      "commit": 1,
+      "notify": 1
+    },
+    "stale": 0,
+    "provisional": 0,
+    "duplicates": 0,
+    "completed": true,
+    "safe": true,
+    "false_complete": false,
+    "rejected": 0,
+    "bytes": 36864
+  },
+  {
+    "ownership": "read_only",
+    "level": "L3",
+    "fault": "late_commit",
+    "seed": 0,
+    "profile": "C3",
+    "policy": "clear_evidence",
+    "workflow": "read_only_L3_late_commit_S0",
+    "terminal": "complete",
+    "reason": "initial_receipt",
+    "committed": true,
+    "steps_run": 5,
+    "requests": 20,
+    "transport_errors": [
+      {
+        "method": "POST",
+        "path": "/w/read_only_L3_late_commit_S0/attach",
+        "status": null,
+        "error": "TimeoutError",
+        "step": "attach"
+      }
+    ],
+    "elapsed_ns": 560599700,
+    "rows": {
+      "create": 1,
+      "reserve": 1,
+      "attach": 2,
+      "commit": 1,
+      "notify": 1
+    },
+    "stale": 0,
+    "provisional": 0,
+    "duplicates": 1,
+    "completed": true,
+    "safe": false,
+    "false_complete": true,
+    "rejected": 0,
+    "bytes": 36864
+  },
+  {
+    "ownership": "read_only",
+    "level": "L3",
+    "fault": "late_commit",
+    "seed": 1,
+    "profile": "C3",
+    "policy": "clear_evidence",
+    "workflow": "read_only_L3_late_commit_S1",
+    "terminal": "complete",
+    "reason": "initial_receipt",
+    "committed": true,
+    "steps_run": 5,
+    "requests": 20,
+    "transport_errors": [
+      {
+        "method": "POST",
+        "path": "/w/read_only_L3_late_commit_S1/attach",
+        "status": null,
+        "error": "TimeoutError",
+        "step": "attach"
+      }
+    ],
+    "elapsed_ns": 609531500,
+    "rows": {
+      "create": 1,
+      "reserve": 1,
+      "attach": 2,
+      "commit": 1,
+      "notify": 1
+    },
+    "stale": 0,
+    "provisional": 0,
+    "duplicates": 1,
+    "completed": true,
+    "safe": false,
+    "false_complete": true,
+    "rejected": 0,
+    "bytes": 36864
+  },
+  {
+    "ownership": "read_only",
+    "level": "L3",
+    "fault": "late_commit",
+    "seed": 2,
+    "profile": "C3",
+    "policy": "clear_evidence",
+    "workflow": "read_only_L3_late_commit_S2",
+    "terminal": "complete",
+    "reason": "initial_receipt",
+    "committed": true,
+    "steps_run": 5,
+    "requests": 20,
+    "transport_errors": [
+      {
+        "method": "POST",
+        "path": "/w/read_only_L3_late_commit_S2/attach",
+        "status": null,
+        "error": "TimeoutError",
+        "step": "attach"
+      }
+    ],
+    "elapsed_ns": 611048600,
+    "rows": {
+      "create": 1,
+      "reserve": 1,
+      "attach": 2,
+      "commit": 1,
+      "notify": 1
+    },
+    "stale": 0,
+    "provisional": 0,
+    "duplicates": 1,
+    "completed": true,
+    "safe": false,
+    "false_complete": true,
+    "rejected": 0,
+    "bytes": 36864
+  },
+  {
+    "ownership": "read_only",
+    "level": "L3",
+    "fault": "late_commit",
+    "seed": 3,
+    "profile": "C3",
+    "policy": "clear_evidence",
+    "workflow": "read_only_L3_late_commit_S3",
+    "terminal": "complete",
+    "reason": "initial_receipt",
+    "committed": true,
+    "steps_run": 5,
+    "requests": 20,
+    "transport_errors": [
+      {
+        "method": "POST",
+        "path": "/w/read_only_L3_late_commit_S3/attach",
+        "status": null,
+        "error": "TimeoutError",
+        "step": "attach"
+      }
+    ],
+    "elapsed_ns": 515969800,
+    "rows": {
+      "create": 1,
+      "reserve": 1,
+      "attach": 2,
+      "commit": 1,
+      "notify": 1
+    },
+    "stale": 0,
+    "provisional": 0,
+    "duplicates": 1,
+    "completed": true,
+    "safe": false,
+    "false_complete": true,
+    "rejected": 0,
+    "bytes": 36864
+  },
+  {
+    "ownership": "read_only",
+    "level": "L3",
+    "fault": "late_commit",
+    "seed": 4,
+    "profile": "C3",
+    "policy": "clear_evidence",
+    "workflow": "read_only_L3_late_commit_S4",
+    "terminal": "complete",
+    "reason": "initial_receipt",
+    "committed": true,
+    "steps_run": 5,
+    "requests": 20,
+    "transport_errors": [
+      {
+        "method": "POST",
+        "path": "/w/read_only_L3_late_commit_S4/attach",
+        "status": null,
+        "error": "TimeoutError",
+        "step": "attach"
+      }
+    ],
+    "elapsed_ns": 459168700,
+    "rows": {
+      "create": 1,
+      "reserve": 1,
+      "attach": 2,
+      "commit": 1,
+      "notify": 1
+    },
+    "stale": 0,
+    "provisional": 0,
+    "duplicates": 1,
+    "completed": true,
+    "safe": false,
+    "false_complete": true,
+    "rejected": 0,
+    "bytes": 36864
+  },
+  {
+    "ownership": "read_only",
+    "level": "L3",
+    "fault": "late_commit",
+    "seed": 5,
+    "profile": "C3",
+    "policy": "clear_evidence",
+    "workflow": "read_only_L3_late_commit_S5",
+    "terminal": "complete",
+    "reason": "initial_receipt",
+    "committed": true,
+    "steps_run": 5,
+    "requests": 20,
+    "transport_errors": [
+      {
+        "method": "POST",
+        "path": "/w/read_only_L3_late_commit_S5/attach",
+        "status": null,
+        "error": "TimeoutError",
+        "step": "attach"
+      }
+    ],
+    "elapsed_ns": 559526000,
+    "rows": {
+      "create": 1,
+      "reserve": 1,
+      "attach": 2,
+      "commit": 1,
+      "notify": 1
+    },
+    "stale": 0,
+    "provisional": 0,
+    "duplicates": 1,
+    "completed": true,
+    "safe": false,
+    "false_complete": true,
+    "rejected": 0,
+    "bytes": 36864
+  },
+  {
+    "ownership": "read_only",
+    "level": "L3",
+    "fault": "late_commit",
+    "seed": 6,
+    "profile": "C3",
+    "policy": "clear_evidence",
+    "workflow": "read_only_L3_late_commit_S6",
+    "terminal": "complete",
+    "reason": "initial_receipt",
+    "committed": true,
+    "steps_run": 5,
+    "requests": 20,
+    "transport_errors": [
+      {
+        "method": "POST",
+        "path": "/w/read_only_L3_late_commit_S6/attach",
+        "status": null,
+        "error": "TimeoutError",
+        "step": "attach"
+      }
+    ],
+    "elapsed_ns": 561788200,
+    "rows": {
+      "create": 1,
+      "reserve": 1,
+      "attach": 2,
+      "commit": 1,
+      "notify": 1
+    },
+    "stale": 0,
+    "provisional": 0,
+    "duplicates": 1,
+    "completed": true,
+    "safe": false,
+    "false_complete": true,
+    "rejected": 0,
+    "bytes": 36864
+  },
+  {
+    "ownership": "read_only",
+    "level": "L3",
+    "fault": "late_commit",
+    "seed": 7,
+    "profile": "C3",
+    "policy": "clear_evidence",
+    "workflow": "read_only_L3_late_commit_S7",
+    "terminal": "complete",
+    "reason": "initial_receipt",
+    "committed": true,
+    "steps_run": 5,
+    "requests": 20,
+    "transport_errors": [
+      {
+        "method": "POST",
+        "path": "/w/read_only_L3_late_commit_S7/attach",
+        "status": null,
+        "error": "TimeoutError",
+        "step": "attach"
+      }
+    ],
+    "elapsed_ns": 608924300,
+    "rows": {
+      "create": 1,
+      "reserve": 1,
+      "attach": 2,
+      "commit": 1,
+      "notify": 1
+    },
+    "stale": 0,
+    "provisional": 0,
+    "duplicates": 1,
+    "completed": true,
+    "safe": false,
+    "false_complete": true,
+    "rejected": 0,
+    "bytes": 36864
+  },
+  {
+    "ownership": "read_only",
+    "level": "L3",
+    "fault": "late_commit",
+    "seed": 8,
+    "profile": "C3",
+    "policy": "clear_evidence",
+    "workflow": "read_only_L3_late_commit_S8",
+    "terminal": "complete",
+    "reason": "initial_receipt",
+    "committed": true,
+    "steps_run": 5,
+    "requests": 20,
+    "transport_errors": [
+      {
+        "method": "POST",
+        "path": "/w/read_only_L3_late_commit_S8/attach",
+        "status": null,
+        "error": "TimeoutError",
+        "step": "attach"
+      }
+    ],
+    "elapsed_ns": 561764300,
+    "rows": {
+      "create": 1,
+      "reserve": 1,
+      "attach": 2,
+      "commit": 1,
+      "notify": 1
+    },
+    "stale": 0,
+    "provisional": 0,
+    "duplicates": 1,
+    "completed": true,
+    "safe": false,
+    "false_complete": true,
+    "rejected": 0,
+    "bytes": 36864
+  },
+  {
+    "ownership": "read_only",
+    "level": "L3",
+    "fault": "late_commit",
+    "seed": 9,
+    "profile": "C3",
+    "policy": "clear_evidence",
+    "workflow": "read_only_L3_late_commit_S9",
+    "terminal": "complete",
+    "reason": "initial_receipt",
+    "committed": true,
+    "steps_run": 5,
+    "requests": 20,
+    "transport_errors": [
+      {
+        "method": "POST",
+        "path": "/w/read_only_L3_late_commit_S9/attach",
+        "status": null,
+        "error": "TimeoutError",
+        "step": "attach"
+      }
+    ],
+    "elapsed_ns": 493566300,
+    "rows": {
+      "create": 1,
+      "reserve": 1,
+      "attach": 2,
+      "commit": 1,
+      "notify": 1
+    },
+    "stale": 0,
+    "provisional": 0,
+    "duplicates": 1,
+    "completed": true,
+    "safe": false,
+    "false_complete": true,
+    "rejected": 0,
+    "bytes": 36864
+  }
+]

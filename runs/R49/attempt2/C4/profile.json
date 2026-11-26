@@ -1,0 +1,34 @@
+{
+  "profile": "C4",
+  "axes": {
+    "closure": 1,
+    "read": "faithful",
+    "version": 1,
+    "admission": 1,
+    "staging": 0,
+    "dedup": 0
+  },
+  "policy": "clear_evidence",
+  "workflows": [
+    "self_L2_late_commit_S0",
+    "self_L2_late_commit_S1",
+    "self_L2_late_commit_S2",
+    "self_L2_late_commit_S3",
+    "self_L2_late_commit_S4",
+    "self_L2_late_commit_S5",
+    "self_L2_late_commit_S6",
+    "self_L2_late_commit_S7",
+    "self_L2_late_commit_S8",
+    "self_L2_late_commit_S9",
+    "self_L2_lost_return_S0",
+    "self_L2_lost_return_S1",
+    "self_L2_lost_return_S2",
+    "self_L2_lost_return_S3",
+    "self_L2_lost_return_S4",
+    "self_L2_lost_return_S5",
+    "self_L2_lost_return_S6",
+    "self_L2_lost_return_S7",
+    "self_L2_lost_return_S8",
+    "self_L2_lost_return_S9"
+  ]
+}

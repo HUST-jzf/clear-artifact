@@ -1,0 +1,12 @@
+{
+  "base_url": "http://127.0.0.1:57121",
+  "profile": "C3",
+  "axes": {
+    "closure": 1,
+    "read": "faithful",
+    "version": 0,
+    "admission": 0,
+    "staging": 0,
+    "dedup": 0
+  }
+}

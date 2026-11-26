@@ -1,0 +1,12 @@
+{
+  "base_url": "http://127.0.0.1:59968",
+  "profile": "C6",
+  "axes": {
+    "closure": 1,
+    "read": "faithful",
+    "version": 1,
+    "admission": 1,
+    "staging": 1,
+    "dedup": 0
+  }
+}

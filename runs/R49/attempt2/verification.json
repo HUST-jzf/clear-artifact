@@ -1,0 +1,341 @@
+{
+  "checks": 121,
+  "passed": 121,
+  "status": "pass",
+  "mismatches": 0,
+  "table": {
+    "self": {
+      "L0": {
+        "lost_return": {
+          "klass": [
+            "safe_pause"
+          ],
+          "duplicates": 0,
+          "stale": 0,
+          "pauses": 10,
+          "requests": 9.0
+        },
+        "late_commit": {
+          "klass": [
+            "safe_pause"
+          ],
+          "duplicates": 0,
+          "stale": 0,
+          "pauses": 10,
+          "requests": 9.0
+        }
+      },
+      "L1": {
+        "lost_return": {
+          "klass": [
+            "safe_complete"
+          ],
+          "duplicates": 0,
+          "stale": 0,
+          "pauses": 0,
+          "requests": 18.0
+        },
+        "late_commit": {
+          "klass": [
+            "unsafe"
+          ],
+          "duplicates": 10,
+          "stale": 0,
+          "pauses": 0,
+          "requests": 20.0
+        }
+      },
+      "L2": {
+        "lost_return": {
+          "klass": [
+            "safe_complete"
+          ],
+          "duplicates": 0,
+          "stale": 0,
+          "pauses": 0,
+          "requests": 18.0
+        },
+        "late_commit": {
+          "klass": [
+            "safe_complete"
+          ],
+          "duplicates": 0,
+          "stale": 0,
+          "pauses": 0,
+          "requests": 20.0
+        }
+      },
+      "L3": {
+        "lost_return": {
+          "klass": [
+            "safe_complete"
+          ],
+          "duplicates": 0,
+          "stale": 0,
+          "pauses": 0,
+          "requests": 25.0
+        },
+        "late_commit": {
+          "klass": [
+            "safe_complete"
+          ],
+          "duplicates": 0,
+          "stale": 0,
+          "pauses": 0,
+          "requests": 24.0
+        }
+      }
+    },
+    "read_only": {
+      "L0": {
+        "lost_return": {
+          "klass": [
+            "safe_pause"
+          ],
+          "duplicates": 0,
+          "stale": 0,
+          "pauses": 10,
+          "requests": 9.0
+        },
+        "late_commit": {
+          "klass": [
+            "safe_pause"
+          ],
+          "duplicates": 0,
+          "stale": 0,
+          "pauses": 10,
+          "requests": 9.0
+        }
+      },
+      "L1": {
+        "lost_return": {
+          "klass": [
+            "safe_complete"
+          ],
+          "duplicates": 0,
+          "stale": 0,
+          "pauses": 0,
+          "requests": 18.0
+        },
+        "late_commit": {
+          "klass": [
+            "unsafe"
+          ],
+          "duplicates": 10,
+          "stale": 0,
+          "pauses": 0,
+          "requests": 20.0
+        }
+      },
+      "L2": {
+        "lost_return": {
+          "klass": [
+            "safe_complete"
+          ],
+          "duplicates": 0,
+          "stale": 0,
+          "pauses": 0,
+          "requests": 18.0
+        },
+        "late_commit": {
+          "klass": [
+            "unsafe"
+          ],
+          "duplicates": 10,
+          "stale": 0,
+          "pauses": 0,
+          "requests": 20.0
+        }
+      },
+      "L3": {
+        "lost_return": {
+          "klass": [
+            "safe_complete"
+          ],
+          "duplicates": 0,
+          "stale": 0,
+          "pauses": 0,
+          "requests": 18.0
+        },
+        "late_commit": {
+          "klass": [
+            "unsafe"
+          ],
+          "duplicates": 10,
+          "stale": 0,
+          "pauses": 0,
+          "requests": 20.0
+        }
+      }
+    },
+    "unmodifiable": {
+      "L0": {
+        "lost_return": {
+          "klass": [
+            "safe_pause"
+          ],
+          "duplicates": 0,
+          "stale": 0,
+          "pauses": 10,
+          "requests": 9.0
+        },
+        "late_commit": {
+          "klass": [
+            "safe_pause"
+          ],
+          "duplicates": 0,
+          "stale": 0,
+          "pauses": 10,
+          "requests": 9.0
+        }
+      },
+      "L1": {
+        "lost_return": {
+          "klass": [
+            "safe_pause"
+          ],
+          "duplicates": 0,
+          "stale": 0,
+          "pauses": 10,
+          "requests": 9.0
+        },
+        "late_commit": {
+          "klass": [
+            "safe_pause"
+          ],
+          "duplicates": 0,
+          "stale": 0,
+          "pauses": 10,
+          "requests": 9.0
+        }
+      },
+      "L2": {
+        "lost_return": {
+          "klass": [
+            "safe_pause"
+          ],
+          "duplicates": 0,
+          "stale": 0,
+          "pauses": 10,
+          "requests": 9.0
+        },
+        "late_commit": {
+          "klass": [
+            "safe_pause"
+          ],
+          "duplicates": 0,
+          "stale": 0,
+          "pauses": 10,
+          "requests": 9.0
+        }
+      },
+      "L3": {
+        "lost_return": {
+          "klass": [
+            "safe_pause"
+          ],
+          "duplicates": 0,
+          "stale": 0,
+          "pauses": 10,
+          "requests": 9.0
+        },
+        "late_commit": {
+          "klass": [
+            "safe_pause"
+          ],
+          "duplicates": 0,
+          "stale": 0,
+          "pauses": 10,
+          "requests": 9.0
+        }
+      }
+    }
+  },
+  "cost": {
+    "L0": {
+      "requested_level": "L0",
+      "effective_profile": "C0",
+      "controller": "clear_pause",
+      "endpoints": 5,
+      "endpoints_over_l0": 0,
+      "service_lines_added": 0,
+      "service_lines_cumulative": 0,
+      "controller_lines": 7,
+      "config_items": 2,
+      "requests_median": 9.0,
+      "bytes_median": 36864.0,
+      "class_lost_return": [
+        "safe_pause"
+      ],
+      "class_late_commit": [
+        "safe_pause"
+      ],
+      "pause_rate": 1.0
+    },
+    "L1": {
+      "requested_level": "L1",
+      "effective_profile": "C3",
+      "controller": "clear_evidence",
+      "endpoints": 7,
+      "endpoints_over_l0": 2,
+      "service_lines_added": 35,
+      "service_lines_cumulative": 35,
+      "controller_lines": 90,
+      "config_items": 2,
+      "requests_median": 19.0,
+      "bytes_median": 36864.0,
+      "class_lost_return": [
+        "safe_complete"
+      ],
+      "class_late_commit": [
+        "unsafe"
+      ],
+      "pause_rate": 0.0
+    },
+    "L2": {
+      "requested_level": "L2",
+      "effective_profile": "C4",
+      "controller": "clear_evidence",
+      "endpoints": 8,
+      "endpoints_over_l0": 3,
+      "service_lines_added": 22,
+      "service_lines_cumulative": 57,
+      "controller_lines": 90,
+      "config_items": 2,
+      "requests_median": 19.0,
+      "bytes_median": 36864.0,
+      "class_lost_return": [
+        "safe_complete"
+      ],
+      "class_late_commit": [
+        "safe_complete"
+      ],
+      "pause_rate": 0.0
+    },
+    "L3": {
+      "requested_level": "L3",
+      "effective_profile": "C6",
+      "controller": "clear_fenced",
+      "endpoints": 11,
+      "endpoints_over_l0": 6,
+      "service_lines_added": 48,
+      "service_lines_cumulative": 105,
+      "controller_lines": 41,
+      "config_items": 2,
+      "requests_median": 24.5,
+      "bytes_median": 36864.0,
+      "class_lost_return": [
+        "safe_complete"
+      ],
+      "class_late_commit": [
+        "safe_complete"
+      ],
+      "pause_rate": 0.0
+    }
+  },
+  "safe_levels_self": [
+    "L2",
+    "L3"
+  ],
+  "failed": []
+}
