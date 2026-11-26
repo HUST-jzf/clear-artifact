@@ -1,0 +1,168 @@
+{
+  "max_depth": 14,
+  "configs": {
+    "A1-A4": {
+      "plain": {
+        "violation": [],
+        "trace": [],
+        "states": 96
+      },
+      "registered_pending": {
+        "violation": [],
+        "trace": [],
+        "states": 144
+      },
+      "unregistered_pending": {
+        "violation": [],
+        "trace": [],
+        "states": 84
+      }
+    },
+    "no_A1_faithful_effect": {
+      "plain": {
+        "violation": [
+          "S1_duplicate"
+        ],
+        "trace": [
+          "commit_original",
+          "wait",
+          "query_empty",
+          "retry"
+        ],
+        "states": 51
+      },
+      "registered_pending": {
+        "violation": [
+          "S1_duplicate"
+        ],
+        "trace": [
+          "commit_original",
+          "finish_child",
+          "wait",
+          "query_empty",
+          "retry"
+        ],
+        "states": 96
+      },
+      "unregistered_pending": {
+        "violation": [],
+        "trace": [],
+        "states": 84
+      }
+    },
+    "no_A2_lifecycle_closure": {
+      "plain": {
+        "violation": [],
+        "trace": [],
+        "states": 96
+      },
+      "registered_pending": {
+        "violation": [
+          "S1_duplicate"
+        ],
+        "trace": [
+          "fail_original",
+          "wait",
+          "query",
+          "retry",
+          "late_commit_duplicate"
+        ],
+        "states": 145
+      },
+      "unregistered_pending": {
+        "violation": [
+          "S1_duplicate"
+        ],
+        "trace": [
+          "fail_original",
+          "wait",
+          "query",
+          "retry",
+          "late_commit_duplicate"
+        ],
+        "states": 145
+      }
+    },
+    "no_A3_version_binding": {
+      "plain": {
+        "violation": [
+          "S2_stale_permit_or_manifest"
+        ],
+        "trace": [
+          "fail_original",
+          "change_manifest",
+          "wait",
+          "query",
+          "retry"
+        ],
+        "states": 55
+      },
+      "registered_pending": {
+        "violation": [
+          "S2_stale_permit_or_manifest"
+        ],
+        "trace": [
+          "fail_original",
+          "finish_child",
+          "change_manifest",
+          "wait",
+          "query",
+          "retry"
+        ],
+        "states": 87
+      },
+      "unregistered_pending": {
+        "violation": [],
+        "trace": [],
+        "states": 56
+      }
+    },
+    "no_A4_atomic_admission": {
+      "plain": {
+        "violation": [
+          "S2_stale_permit_or_manifest"
+        ],
+        "trace": [
+          "fail_original",
+          "wait",
+          "query",
+          "retry_check",
+          "revoke_permit",
+          "retry_write"
+        ],
+        "states": 90
+      },
+      "registered_pending": {
+        "violation": [
+          "S2_stale_permit_or_manifest"
+        ],
+        "trace": [
+          "fail_original",
+          "finish_child",
+          "wait",
+          "query",
+          "retry_check",
+          "revoke_permit",
+          "retry_write"
+        ],
+        "states": 138
+      },
+      "unregistered_pending": {
+        "violation": [],
+        "trace": [],
+        "states": 84
+      }
+    }
+  },
+  "summary": {
+    "safe_under_all_assumptions": true,
+    "counterexample_for_each_removed_assumption": true,
+    "has_violation": {
+      "A1-A4": false,
+      "no_A1_faithful_effect": true,
+      "no_A2_lifecycle_closure": true,
+      "no_A3_version_binding": true,
+      "no_A4_atomic_admission": true
+    }
+  }
+}

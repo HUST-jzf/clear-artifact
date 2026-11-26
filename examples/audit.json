@@ -1,0 +1,24 @@
+{
+  "schema": "clear-assurance/1",
+  "kind": "audit",
+  "context": {
+    "operation_id": "synthetic-example",
+    "intent": "0000000000000000000000000000000000000000000000000000000000000000",
+    "generation": 1,
+    "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+    "policy_revision": "example-1"
+  },
+  "completeness": {"guard": true, "effect": true},
+  "events": [
+    {
+      "seq": 0,
+      "context": {"operation_id": "synthetic-example", "intent": "0000000000000000000000000000000000000000000000000000000000000000", "generation": 1, "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000", "policy_revision": "example-1"},
+      "kind": "guard", "resource": "plan.item", "principal": "owner", "allowed": true
+    },
+    {
+      "seq": 1,
+      "context": {"operation_id": "synthetic-example", "intent": "0000000000000000000000000000000000000000000000000000000000000000", "generation": 1, "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000", "policy_revision": "example-1"},
+      "kind": "effect", "resource": "plan.item", "principal": "owner"
+    }
+  ]
+}

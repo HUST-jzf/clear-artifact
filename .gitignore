@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+runs/R10/table4-check/
+*.sqlite-journal
+.env
+sources/R3_temporal/cli/temporal.exe
+sources/R3_temporal/cli/parts/

@@ -1,0 +1,185 @@
+{
+  "checks": [
+    {
+      "name": "tool-is-z3",
+      "ok": true,
+      "detail": "z3"
+    },
+    {
+      "name": "summary-pass",
+      "ok": true,
+      "detail": {
+        "expected": {
+          "T1": true,
+          "T2": true,
+          "T3": true,
+          "T4": true,
+          "all_safe": true,
+          "base": true,
+          "each_ablation_sat": true
+        },
+        "status": "pass"
+      }
+    },
+    {
+      "name": "unsat:T1_retry_soundness",
+      "ok": true,
+      "detail": {
+        "result": "unsat",
+        "counterexample": null
+      }
+    },
+    {
+      "name": "unsat:T2_admission_atomicity",
+      "ok": true,
+      "detail": {
+        "result": "unsat",
+        "counterexample": null
+      }
+    },
+    {
+      "name": "unsat:T4_requalification",
+      "ok": true,
+      "detail": {
+        "result": "unsat",
+        "counterexample": null
+      }
+    },
+    {
+      "name": "unsat:all_assumptions_safe",
+      "ok": true,
+      "detail": {
+        "result": "unsat",
+        "counterexample": null
+      }
+    },
+    {
+      "name": "unsat:T3",
+      "ok": true,
+      "detail": {
+        "name": "T3_incomplete_evidence_impossibility",
+        "claim": "no single action is both safe and completing in two worlds that share the same incomplete observation (unknown query, unobserved closure)",
+        "result": "unsat"
+      }
+    },
+    {
+      "name": "unsat:base",
+      "ok": true,
+      "detail": {
+        "result": "unsat"
+      }
+    },
+    {
+      "name": "ablation-count",
+      "ok": true,
+      "detail": 4
+    },
+    {
+      "name": "sat:no_A1_faithful_query",
+      "ok": true,
+      "detail": "sat"
+    },
+    {
+      "name": "trace:no_A1_faithful_query",
+      "ok": true,
+      "detail": {
+        "trace": [
+          "start",
+          "commit_original",
+          "wait",
+          "qualify",
+          "query_empty",
+          "admit_retry_atomic"
+        ],
+        "expected_last": "admit_retry_atomic"
+      }
+    },
+    {
+      "name": "depth:no_A1_faithful_query",
+      "ok": true,
+      "detail": 6
+    },
+    {
+      "name": "sat:no_A2_lifecycle_closure",
+      "ok": true,
+      "detail": "sat"
+    },
+    {
+      "name": "trace:no_A2_lifecycle_closure",
+      "ok": true,
+      "detail": {
+        "trace": [
+          "start",
+          "fail_original",
+          "wait",
+          "query_faithful",
+          "late_commit",
+          "qualify",
+          "admit_retry_atomic"
+        ],
+        "expected_last": "admit_retry_atomic"
+      }
+    },
+    {
+      "name": "depth:no_A2_lifecycle_closure",
+      "ok": true,
+      "detail": 7
+    },
+    {
+      "name": "sat:no_A3_version_binding",
+      "ok": true,
+      "detail": "sat"
+    },
+    {
+      "name": "trace:no_A3_version_binding",
+      "ok": true,
+      "detail": {
+        "trace": [
+          "start",
+          "fail_original",
+          "wait",
+          "query_faithful",
+          "qualify_stale_view",
+          "change_manifest",
+          "admit_retry_atomic"
+        ],
+        "expected_last": "admit_retry_atomic"
+      }
+    },
+    {
+      "name": "depth:no_A3_version_binding",
+      "ok": true,
+      "detail": 7
+    },
+    {
+      "name": "sat:no_A4_atomic_admission",
+      "ok": true,
+      "detail": "sat"
+    },
+    {
+      "name": "trace:no_A4_atomic_admission",
+      "ok": true,
+      "detail": {
+        "trace": [
+          "start",
+          "fail_original",
+          "wait",
+          "query_faithful",
+          "qualify",
+          "retry_check",
+          "revoke",
+          "retry_write"
+        ],
+        "expected_last": "retry_write"
+      }
+    },
+    {
+      "name": "depth:no_A4_atomic_admission",
+      "ok": true,
+      "detail": 8
+    }
+  ],
+  "checks_total": 21,
+  "checks_passed": 21,
+  "failed": []
+}

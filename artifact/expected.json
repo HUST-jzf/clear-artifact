@@ -1,0 +1,3990 @@
+{
+  "schema": "r10_expected_v1",
+  "created": "2026-10-21",
+  "note": "Expected values are transcribed from the frozen result documents. reproduce.py recomputes them from raw run artifacts and fails on any mismatch.",
+  "r1": {
+    "tasks": 7200,
+    "verification_checks": 57230,
+    "sources": {
+      "mcp": {
+        "clear": {
+          "safe": 224,
+          "duplicate": 0,
+          "stale": 0
+        },
+        "idem_retry": {
+          "safe": 160,
+          "duplicate": 160,
+          "stale": 240
+        },
+        "query_retry": {
+          "safe": 149,
+          "duplicate": 37,
+          "stale": 72
+        },
+        "reauth_retry": {
+          "safe": 318,
+          "duplicate": 160,
+          "stale": 0
+        },
+        "pause": {
+          "safe": 0,
+          "duplicate": 0,
+          "stale": 0
+        }
+      },
+      "anyio": {
+        "clear": {
+          "safe": 220,
+          "duplicate": 0,
+          "stale": 0
+        },
+        "idem_retry": {
+          "safe": 160,
+          "duplicate": 160,
+          "stale": 240
+        },
+        "query_retry": {
+          "safe": 140,
+          "duplicate": 40,
+          "stale": 80
+        },
+        "reauth_retry": {
+          "safe": 320,
+          "duplicate": 160,
+          "stale": 0
+        },
+        "pause": {
+          "safe": 0,
+          "duplicate": 0,
+          "stale": 0
+        }
+      },
+      "langchain": {
+        "clear": {
+          "safe": 220,
+          "duplicate": 0,
+          "stale": 0
+        },
+        "idem_retry": {
+          "safe": 160,
+          "duplicate": 160,
+          "stale": 240
+        },
+        "query_retry": {
+          "safe": 140,
+          "duplicate": 40,
+          "stale": 80
+        },
+        "reauth_retry": {
+          "safe": 320,
+          "duplicate": 160,
+          "stale": 0
+        },
+        "pause": {
+          "safe": 0,
+          "duplicate": 0,
+          "stale": 0
+        }
+      }
+    }
+  },
+  "r2": {
+    "sources": {
+      "mcp": {
+        "tasks": 500,
+        "safe": 200,
+        "complete": 380,
+        "duplicate": 180,
+        "stale": 0,
+        "pause": 120,
+        "pause_with_effect": 100,
+        "clear_safe": 100,
+        "clear_duplicate": 0
+      },
+      "anyio": {
+        "tasks": 500,
+        "safe": 200,
+        "complete": 380,
+        "duplicate": 180,
+        "stale": 0,
+        "pause": 120,
+        "pause_with_effect": 100,
+        "clear_safe": 100,
+        "clear_duplicate": 0
+      },
+      "langchain": {
+        "tasks": 500,
+        "safe": 200,
+        "complete": 380,
+        "duplicate": 180,
+        "stale": 0,
+        "pause": 120,
+        "pause_with_effect": 100,
+        "clear_safe": 100,
+        "clear_duplicate": 0
+      }
+    },
+    "verification": {
+      "mcp": 2512,
+      "anyio": 2511,
+      "langchain": 2513
+    }
+  },
+  "r3": {
+    "langgraph": {
+      "tasks": 120,
+      "complete": 120,
+      "safe": 40,
+      "duplicate": 40,
+      "stale": 60
+    },
+    "temporal": {
+      "tasks": 120,
+      "complete": 120,
+      "safe": 40,
+      "duplicate": 40,
+      "stale": 60
+    },
+    "verification": {
+      "langgraph": 848,
+      "temporal": 910
+    }
+  },
+  "r4": {
+    "sources": {
+      "smolagents": {
+        "tasks": 40,
+        "safe": 16,
+        "complete": 29,
+        "duplicate": 11,
+        "stale": 2,
+        "clear_safe": 6,
+        "clear_pause": 2,
+        "clear_terminal": {
+          "C04_revoke": "pause",
+          "C05_query_unavailable": "pause"
+        },
+        "clear_rows": {
+          "C04_revoke": 0,
+          "C05_query_unavailable": 1
+        }
+      },
+      "pydantic_ai": {
+        "tasks": 40,
+        "safe": 16,
+        "complete": 29,
+        "duplicate": 11,
+        "stale": 2,
+        "clear_safe": 6,
+        "clear_pause": 2,
+        "clear_terminal": {
+          "C04_revoke": "pause",
+          "C05_query_unavailable": "pause"
+        },
+        "clear_rows": {
+          "C04_revoke": 0,
+          "C05_query_unavailable": 1
+        }
+      }
+    },
+    "verification": {
+      "smolagents": 140,
+      "pydantic_ai": 140
+    }
+  },
+  "r5": {
+    "policies": {
+      "clear": {
+        "tasks": 80,
+        "safe": 40,
+        "complete": 40,
+        "duplicate": 0,
+        "stale": 0,
+        "aborted": 80
+      },
+      "idem_retry": {
+        "tasks": 80,
+        "safe": 20,
+        "complete": 40,
+        "duplicate": 40,
+        "stale": 40,
+        "aborted": 0
+      },
+      "query_retry": {
+        "tasks": 80,
+        "safe": 20,
+        "complete": 40,
+        "duplicate": 40,
+        "stale": 40,
+        "aborted": 0
+      },
+      "reauth_retry": {
+        "tasks": 80,
+        "safe": 40,
+        "complete": 40,
+        "duplicate": 40,
+        "stale": 0,
+        "aborted": 0
+      },
+      "pause": {
+        "tasks": 80,
+        "safe": 0,
+        "complete": 0,
+        "duplicate": 0,
+        "stale": 0,
+        "aborted": 0
+      }
+    },
+    "verification": 2005
+  },
+  "r7": {
+    "policies": {
+      "clear": {
+        "tasks": 300,
+        "safe": 250,
+        "complete": 250,
+        "duplicate": 0,
+        "stale": 0,
+        "control_p50_ms": 7.58,
+        "control_p95_ms": 29.12,
+        "active_p50_ms": 6.6,
+        "wait_p50_ms": 0.21,
+        "actions": 1.83,
+        "queries": 0.67,
+        "status": 1.37,
+        "describe": 3.0
+      },
+      "idem_retry": {
+        "tasks": 300,
+        "safe": 50,
+        "complete": 300,
+        "duplicate": 200,
+        "stale": 50,
+        "control_p50_ms": 7.22,
+        "control_p95_ms": 9.76,
+        "active_p50_ms": 7.12,
+        "wait_p50_ms": 0.0,
+        "actions": 1.0,
+        "queries": 0.0
+      },
+      "query_retry": {
+        "tasks": 300,
+        "safe": 200,
+        "complete": 300,
+        "duplicate": 50,
+        "stale": 50,
+        "control_p50_ms": 4.37,
+        "control_p95_ms": 11.61,
+        "active_p50_ms": 4.29,
+        "wait_p50_ms": 0.0,
+        "actions": 1.5,
+        "queries": 1.0
+      },
+      "pause": {
+        "tasks": 300,
+        "safe": 0,
+        "complete": 0,
+        "duplicate": 0,
+        "stale": 0,
+        "control_p50_ms": 0.006,
+        "control_p95_ms": 0.01,
+        "active_p50_ms": 0.0,
+        "wait_p50_ms": 0.0,
+        "actions": 0.0,
+        "queries": 0.0
+      }
+    },
+    "clear_case_p50_ms": {
+      "normal": 5.69,
+      "fail_before": 21.69,
+      "lost_return": 5.66,
+      "late_commit": 28.08,
+      "revoke": 15.08,
+      "closure_missing": 6.47
+    },
+    "verification": 3609
+  },
+  "r8": {
+    "variants": {
+      "full": {
+        "tasks": 90,
+        "safe": 50,
+        "complete": 50,
+        "duplicate": 0,
+        "pause": 40,
+        "stale_permit": 0,
+        "stale_manifest": 0
+      },
+      "no_closure": {
+        "tasks": 90,
+        "safe": 30,
+        "complete": 50,
+        "duplicate": 20,
+        "pause": 40,
+        "stale_permit": 0,
+        "stale_manifest": 0
+      },
+      "no_query": {
+        "tasks": 90,
+        "safe": 30,
+        "complete": 60,
+        "duplicate": 30,
+        "pause": 30,
+        "stale_permit": 0,
+        "stale_manifest": 0
+      },
+      "no_version": {
+        "tasks": 90,
+        "safe": 50,
+        "complete": 60,
+        "duplicate": 0,
+        "pause": 30,
+        "stale_permit": 0,
+        "stale_manifest": 10
+      },
+      "no_atomic": {
+        "tasks": 90,
+        "safe": 50,
+        "complete": 60,
+        "duplicate": 0,
+        "pause": 30,
+        "stale_permit": 10,
+        "stale_manifest": 0
+      }
+    },
+    "verification": 35
+  },
+  "r9": {
+    "sources": {
+      "mcp": {
+        "loc": 149,
+        "methods": 11
+      },
+      "anyio": {
+        "loc": 138,
+        "methods": 11
+      },
+      "langchain": {
+        "loc": 57,
+        "methods": 3
+      },
+      "smolagents": {
+        "loc": 22,
+        "methods": 2
+      },
+      "pydantic_ai": {
+        "loc": 16,
+        "methods": 2
+      }
+    },
+    "total_adapter_loc": 382,
+    "shared_control_loc": 209,
+    "config_fields": 12,
+    "host_shims": 5,
+    "issues": 16,
+    "unresolved": 0,
+    "acceptance": {
+      "zero_condition_branches": true,
+      "shims_documented": true,
+      "no_unresolved": true,
+      "frozen_unchanged": true
+    }
+  },
+  "r4_seeds": {
+    "sources": {
+      "smolagents": {
+        "runs": 10,
+        "tasks": 400,
+        "verification_per_run": 140,
+        "policies": {
+          "clear": {
+            "tasks": 80,
+            "safe": 60,
+            "complete": 60,
+            "duplicate": 0,
+            "stale": 0,
+            "pause": 20
+          },
+          "idem_retry": {
+            "tasks": 80,
+            "safe": 20,
+            "complete": 80,
+            "duplicate": 50,
+            "stale": 10,
+            "pause": 0
+          },
+          "query_retry": {
+            "tasks": 80,
+            "safe": 50,
+            "complete": 70,
+            "duplicate": 10,
+            "stale": 10,
+            "pause": 10
+          },
+          "reauth_retry": {
+            "tasks": 80,
+            "safe": 30,
+            "complete": 80,
+            "duplicate": 50,
+            "stale": 0,
+            "pause": 0
+          },
+          "pause": {
+            "tasks": 80,
+            "safe": 0,
+            "complete": 0,
+            "duplicate": 0,
+            "stale": 0,
+            "pause": 80
+          }
+        },
+        "clear_conditions": {
+          "C01_fail_before": {
+            "count": 10,
+            "terminal": "complete",
+            "rows": 1
+          },
+          "C02_lost_return": {
+            "count": 10,
+            "terminal": "complete",
+            "rows": 1
+          },
+          "C03_late_commit": {
+            "count": 10,
+            "terminal": "complete",
+            "rows": 1
+          },
+          "C04_revoke": {
+            "count": 10,
+            "terminal": "pause",
+            "rows": 0
+          },
+          "C05_query_unavailable": {
+            "count": 10,
+            "terminal": "pause",
+            "rows": 1
+          },
+          "C06_closure_missing": {
+            "count": 10,
+            "terminal": "complete",
+            "rows": 1
+          },
+          "C07_idempotent_lost": {
+            "count": 10,
+            "terminal": "complete",
+            "rows": 1
+          },
+          "C08_normal": {
+            "count": 10,
+            "terminal": "complete",
+            "rows": 1
+          }
+        }
+      },
+      "pydantic_ai": {
+        "runs": 10,
+        "tasks": 400,
+        "verification_per_run": 140,
+        "policies": {
+          "clear": {
+            "tasks": 80,
+            "safe": 60,
+            "complete": 60,
+            "duplicate": 0,
+            "stale": 0,
+            "pause": 20
+          },
+          "idem_retry": {
+            "tasks": 80,
+            "safe": 20,
+            "complete": 80,
+            "duplicate": 50,
+            "stale": 10,
+            "pause": 0
+          },
+          "query_retry": {
+            "tasks": 80,
+            "safe": 50,
+            "complete": 70,
+            "duplicate": 10,
+            "stale": 10,
+            "pause": 10
+          },
+          "reauth_retry": {
+            "tasks": 80,
+            "safe": 30,
+            "complete": 80,
+            "duplicate": 50,
+            "stale": 0,
+            "pause": 0
+          },
+          "pause": {
+            "tasks": 80,
+            "safe": 0,
+            "complete": 0,
+            "duplicate": 0,
+            "stale": 0,
+            "pause": 80
+          }
+        },
+        "clear_conditions": {
+          "C01_fail_before": {
+            "count": 10,
+            "terminal": "complete",
+            "rows": 1
+          },
+          "C02_lost_return": {
+            "count": 10,
+            "terminal": "complete",
+            "rows": 1
+          },
+          "C03_late_commit": {
+            "count": 10,
+            "terminal": "complete",
+            "rows": 1
+          },
+          "C04_revoke": {
+            "count": 10,
+            "terminal": "pause",
+            "rows": 0
+          },
+          "C05_query_unavailable": {
+            "count": 10,
+            "terminal": "pause",
+            "rows": 1
+          },
+          "C06_closure_missing": {
+            "count": 10,
+            "terminal": "complete",
+            "rows": 1
+          },
+          "C07_idempotent_lost": {
+            "count": 10,
+            "terminal": "complete",
+            "rows": 1
+          },
+          "C08_normal": {
+            "count": 10,
+            "terminal": "complete",
+            "rows": 1
+          }
+        }
+      }
+    },
+    "total_tasks": 800,
+    "checks_total": 149
+  },
+  "r14": {
+    "sources": {
+      "llamaindex": {
+        "runs": 10,
+        "tasks": 400,
+        "verification_per_run": 141,
+        "policies": {
+          "clear": {
+            "tasks": 80,
+            "safe": 60,
+            "complete": 60,
+            "duplicate": 0,
+            "stale": 0,
+            "pause": 20
+          },
+          "idem_retry": {
+            "tasks": 80,
+            "safe": 20,
+            "complete": 80,
+            "duplicate": 50,
+            "stale": 10,
+            "pause": 0
+          },
+          "query_retry": {
+            "tasks": 80,
+            "safe": 50,
+            "complete": 70,
+            "duplicate": 10,
+            "stale": 10,
+            "pause": 10
+          },
+          "reauth_retry": {
+            "tasks": 80,
+            "safe": 30,
+            "complete": 80,
+            "duplicate": 50,
+            "stale": 0,
+            "pause": 0
+          },
+          "pause": {
+            "tasks": 80,
+            "safe": 0,
+            "complete": 0,
+            "duplicate": 0,
+            "stale": 0,
+            "pause": 80
+          }
+        },
+        "clear_conditions": {
+          "C01_fail_before": {
+            "count": 10,
+            "terminal": "complete",
+            "rows": 1
+          },
+          "C02_lost_return": {
+            "count": 10,
+            "terminal": "complete",
+            "rows": 1
+          },
+          "C03_late_commit": {
+            "count": 10,
+            "terminal": "complete",
+            "rows": 1
+          },
+          "C04_revoke": {
+            "count": 10,
+            "terminal": "pause",
+            "rows": 0
+          },
+          "C05_query_unavailable": {
+            "count": 10,
+            "terminal": "pause",
+            "rows": 1
+          },
+          "C06_closure_missing": {
+            "count": 10,
+            "terminal": "complete",
+            "rows": 1
+          },
+          "C07_idempotent_lost": {
+            "count": 10,
+            "terminal": "complete",
+            "rows": 1
+          },
+          "C08_normal": {
+            "count": 10,
+            "terminal": "complete",
+            "rows": 1
+          }
+        }
+      },
+      "autogen": {
+        "runs": 10,
+        "tasks": 400,
+        "verification_per_run": 141,
+        "policies": {
+          "clear": {
+            "tasks": 80,
+            "safe": 60,
+            "complete": 60,
+            "duplicate": 0,
+            "stale": 0,
+            "pause": 20
+          },
+          "idem_retry": {
+            "tasks": 80,
+            "safe": 20,
+            "complete": 80,
+            "duplicate": 50,
+            "stale": 10,
+            "pause": 0
+          },
+          "query_retry": {
+            "tasks": 80,
+            "safe": 50,
+            "complete": 70,
+            "duplicate": 10,
+            "stale": 10,
+            "pause": 10
+          },
+          "reauth_retry": {
+            "tasks": 80,
+            "safe": 30,
+            "complete": 80,
+            "duplicate": 50,
+            "stale": 0,
+            "pause": 0
+          },
+          "pause": {
+            "tasks": 80,
+            "safe": 0,
+            "complete": 0,
+            "duplicate": 0,
+            "stale": 0,
+            "pause": 80
+          }
+        },
+        "clear_conditions": {
+          "C01_fail_before": {
+            "count": 10,
+            "terminal": "complete",
+            "rows": 1
+          },
+          "C02_lost_return": {
+            "count": 10,
+            "terminal": "complete",
+            "rows": 1
+          },
+          "C03_late_commit": {
+            "count": 10,
+            "terminal": "complete",
+            "rows": 1
+          },
+          "C04_revoke": {
+            "count": 10,
+            "terminal": "pause",
+            "rows": 0
+          },
+          "C05_query_unavailable": {
+            "count": 10,
+            "terminal": "pause",
+            "rows": 1
+          },
+          "C06_closure_missing": {
+            "count": 10,
+            "terminal": "complete",
+            "rows": 1
+          },
+          "C07_idempotent_lost": {
+            "count": 10,
+            "terminal": "complete",
+            "rows": 1
+          },
+          "C08_normal": {
+            "count": 10,
+            "terminal": "complete",
+            "rows": 1
+          }
+        }
+      }
+    },
+    "total_tasks": 800,
+    "checks_total": 149
+  },
+  "r11": {
+    "tasks": 250,
+    "verification": 522,
+    "crash_markers": 250,
+    "policies": {
+      "clear": {
+        "tasks": 50,
+        "safe": 20,
+        "complete": 20,
+        "duplicate": 0,
+        "stale": 0,
+        "pause": 30
+      },
+      "idem_retry": {
+        "tasks": 50,
+        "safe": 10,
+        "complete": 50,
+        "duplicate": 30,
+        "stale": 20,
+        "pause": 0
+      },
+      "query_retry": {
+        "tasks": 50,
+        "safe": 30,
+        "complete": 40,
+        "duplicate": 0,
+        "stale": 10,
+        "pause": 10
+      },
+      "reauth_retry": {
+        "tasks": 50,
+        "safe": 20,
+        "complete": 50,
+        "duplicate": 30,
+        "stale": 0,
+        "pause": 0
+      },
+      "pause": {
+        "tasks": 50,
+        "safe": 0,
+        "complete": 0,
+        "duplicate": 0,
+        "stale": 0,
+        "pause": 50
+      }
+    },
+    "clear_cells": {
+      "crash_after_commit": {
+        "terminal": "complete",
+        "rows": 1
+      },
+      "crash_before_commit": {
+        "terminal": "pause",
+        "rows": 0
+      },
+      "crash_after_commit_revoke": {
+        "terminal": "complete",
+        "rows": 1
+      },
+      "crash_before_commit_revoke": {
+        "terminal": "pause",
+        "rows": 0
+      },
+      "crash_after_commit_no_query": {
+        "terminal": "pause",
+        "rows": 1
+      }
+    }
+  },
+  "r13": {
+    "sources": {
+      "anyio": {
+        "tasks": 400,
+        "safe": 120,
+        "complete": 240,
+        "duplicate": 0,
+        "stale": 60,
+        "pause": 160,
+        "pause_with_effect": 0,
+        "unqualified_write": 60,
+        "atomic_rejected": 20
+      },
+      "langchain": {
+        "tasks": 400,
+        "safe": 120,
+        "complete": 240,
+        "duplicate": 0,
+        "stale": 60,
+        "pause": 160,
+        "pause_with_effect": 0,
+        "unqualified_write": 60,
+        "atomic_rejected": 20
+      }
+    },
+    "verification": {
+      "anyio": 1859,
+      "langchain": 1861
+    }
+  },
+  "r15": {
+    "tasks": 800,
+    "verification": 5669,
+    "configs": {
+      "idem_on": {
+        "clear": {
+          "workflows": 80,
+          "safe": 40,
+          "completed": 40,
+          "duplicates": 0,
+          "stale_rows": 0,
+          "pauses": 40,
+          "orphan": 40,
+          "post_calls": 320
+        },
+        "idem_retry": {
+          "workflows": 80,
+          "safe": 40,
+          "completed": 80,
+          "duplicates": 0,
+          "stale_rows": 80,
+          "pauses": 0,
+          "orphan": 0,
+          "post_calls": 440
+        },
+        "query_retry": {
+          "workflows": 80,
+          "safe": 40,
+          "completed": 80,
+          "duplicates": 0,
+          "stale_rows": 80,
+          "pauses": 0,
+          "orphan": 0,
+          "post_calls": 400
+        },
+        "reauth_retry": {
+          "workflows": 80,
+          "safe": 40,
+          "completed": 80,
+          "duplicates": 0,
+          "stale_rows": 80,
+          "pauses": 0,
+          "orphan": 0,
+          "post_calls": 440
+        },
+        "pause": {
+          "workflows": 80,
+          "safe": 0,
+          "completed": 40,
+          "duplicates": 0,
+          "stale_rows": 80,
+          "pauses": 40,
+          "orphan": 40,
+          "post_calls": 340
+        }
+      },
+      "idem_off": {
+        "clear": {
+          "workflows": 80,
+          "safe": 40,
+          "completed": 40,
+          "duplicates": 0,
+          "stale_rows": 0,
+          "pauses": 40,
+          "orphan": 40,
+          "post_calls": 320
+        },
+        "idem_retry": {
+          "workflows": 80,
+          "safe": 0,
+          "completed": 80,
+          "duplicates": 40,
+          "stale_rows": 80,
+          "pauses": 0,
+          "orphan": 0,
+          "post_calls": 440
+        },
+        "query_retry": {
+          "workflows": 80,
+          "safe": 40,
+          "completed": 80,
+          "duplicates": 0,
+          "stale_rows": 80,
+          "pauses": 0,
+          "orphan": 0,
+          "post_calls": 400
+        },
+        "reauth_retry": {
+          "workflows": 80,
+          "safe": 0,
+          "completed": 80,
+          "duplicates": 40,
+          "stale_rows": 80,
+          "pauses": 0,
+          "orphan": 0,
+          "post_calls": 440
+        },
+        "pause": {
+          "workflows": 80,
+          "safe": 0,
+          "completed": 40,
+          "duplicates": 0,
+          "stale_rows": 80,
+          "pauses": 40,
+          "orphan": 40,
+          "post_calls": 340
+        }
+      }
+    },
+    "faults": {
+      "idem_on": {
+        "lost_return": {
+          "workflows": 100,
+          "safe": 80,
+          "completed": 80,
+          "duplicates": 0,
+          "stale_rows": 0
+        },
+        "late_commit": {
+          "workflows": 100,
+          "safe": 80,
+          "completed": 80,
+          "duplicates": 0,
+          "stale_rows": 0
+        },
+        "revoke_after_reserve": {
+          "workflows": 100,
+          "safe": 0,
+          "completed": 80,
+          "duplicates": 0,
+          "stale_rows": 240
+        },
+        "revoke_after_commit": {
+          "workflows": 100,
+          "safe": 0,
+          "completed": 80,
+          "duplicates": 0,
+          "stale_rows": 80
+        }
+      },
+      "idem_off": {
+        "lost_return": {
+          "workflows": 100,
+          "safe": 40,
+          "completed": 80,
+          "duplicates": 40,
+          "stale_rows": 0
+        },
+        "late_commit": {
+          "workflows": 100,
+          "safe": 40,
+          "completed": 80,
+          "duplicates": 40,
+          "stale_rows": 0
+        },
+        "revoke_after_reserve": {
+          "workflows": 100,
+          "safe": 0,
+          "completed": 80,
+          "duplicates": 0,
+          "stale_rows": 240
+        },
+        "revoke_after_commit": {
+          "workflows": 100,
+          "safe": 0,
+          "completed": 80,
+          "duplicates": 0,
+          "stale_rows": 80
+        }
+      }
+    }
+  },
+  "r16": {
+    "tasks": 320,
+    "verification": 1027,
+    "baselines": {
+      "temporal": {
+        "idem_on": {
+          "workflows": 80,
+          "safe": 40,
+          "completed": 80,
+          "duplicates": 0,
+          "stale_rows": 80
+        },
+        "idem_off": {
+          "workflows": 80,
+          "safe": 0,
+          "completed": 80,
+          "duplicates": 40,
+          "stale_rows": 80
+        }
+      },
+      "langgraph": {
+        "idem_on": {
+          "workflows": 80,
+          "safe": 40,
+          "completed": 80,
+          "duplicates": 0,
+          "stale_rows": 80
+        },
+        "idem_off": {
+          "workflows": 80,
+          "safe": 0,
+          "completed": 80,
+          "duplicates": 40,
+          "stale_rows": 80
+        }
+      }
+    }
+  },
+  "r17": {
+    "verification": 21,
+    "theorems": {
+      "T1": "unsat",
+      "T2": "unsat",
+      "T3": "unsat",
+      "T4": "unsat"
+    },
+    "ablations": {
+      "no_A1": "sat",
+      "no_A2": "sat",
+      "no_A3": "sat",
+      "no_A4": "sat"
+    }
+  },
+  "r18": {
+    "tasks": 1200,
+    "verification": 3723,
+    "configs": {
+      "on_faithful": {
+        "clear": {
+          "workflows": 40,
+          "safe": 40,
+          "completed": 40,
+          "duplicates": 0,
+          "pauses": 0
+        },
+        "idem_retry": {
+          "workflows": 40,
+          "safe": 40,
+          "completed": 40,
+          "duplicates": 0,
+          "pauses": 0
+        },
+        "query_retry": {
+          "workflows": 40,
+          "safe": 40,
+          "completed": 40,
+          "duplicates": 0,
+          "pauses": 0
+        },
+        "reauth_retry": {
+          "workflows": 40,
+          "safe": 40,
+          "completed": 40,
+          "duplicates": 0,
+          "pauses": 0
+        },
+        "pause": {
+          "workflows": 40,
+          "safe": 0,
+          "completed": 0,
+          "duplicates": 0,
+          "pauses": 40
+        }
+      },
+      "on_stale": {
+        "clear": {
+          "workflows": 40,
+          "safe": 40,
+          "completed": 40,
+          "duplicates": 0,
+          "pauses": 0
+        },
+        "idem_retry": {
+          "workflows": 40,
+          "safe": 40,
+          "completed": 40,
+          "duplicates": 0,
+          "pauses": 0
+        },
+        "query_retry": {
+          "workflows": 40,
+          "safe": 40,
+          "completed": 40,
+          "duplicates": 0,
+          "pauses": 0
+        },
+        "reauth_retry": {
+          "workflows": 40,
+          "safe": 40,
+          "completed": 40,
+          "duplicates": 0,
+          "pauses": 0
+        },
+        "pause": {
+          "workflows": 40,
+          "safe": 0,
+          "completed": 0,
+          "duplicates": 0,
+          "pauses": 40
+        }
+      },
+      "on_unavailable": {
+        "clear": {
+          "workflows": 40,
+          "safe": 40,
+          "completed": 40,
+          "duplicates": 0,
+          "pauses": 0
+        },
+        "idem_retry": {
+          "workflows": 40,
+          "safe": 40,
+          "completed": 40,
+          "duplicates": 0,
+          "pauses": 0
+        },
+        "query_retry": {
+          "workflows": 40,
+          "safe": 0,
+          "completed": 0,
+          "duplicates": 0,
+          "pauses": 40
+        },
+        "reauth_retry": {
+          "workflows": 40,
+          "safe": 40,
+          "completed": 40,
+          "duplicates": 0,
+          "pauses": 0
+        },
+        "pause": {
+          "workflows": 40,
+          "safe": 0,
+          "completed": 0,
+          "duplicates": 0,
+          "pauses": 40
+        }
+      },
+      "off_faithful": {
+        "clear": {
+          "workflows": 40,
+          "safe": 40,
+          "completed": 40,
+          "duplicates": 0,
+          "pauses": 0
+        },
+        "idem_retry": {
+          "workflows": 40,
+          "safe": 0,
+          "completed": 40,
+          "duplicates": 40,
+          "pauses": 0
+        },
+        "query_retry": {
+          "workflows": 40,
+          "safe": 40,
+          "completed": 40,
+          "duplicates": 0,
+          "pauses": 0
+        },
+        "reauth_retry": {
+          "workflows": 40,
+          "safe": 0,
+          "completed": 40,
+          "duplicates": 40,
+          "pauses": 0
+        },
+        "pause": {
+          "workflows": 40,
+          "safe": 0,
+          "completed": 0,
+          "duplicates": 0,
+          "pauses": 40
+        }
+      },
+      "off_stale": {
+        "clear": {
+          "workflows": 40,
+          "safe": 40,
+          "completed": 40,
+          "duplicates": 0,
+          "pauses": 0
+        },
+        "idem_retry": {
+          "workflows": 40,
+          "safe": 0,
+          "completed": 40,
+          "duplicates": 40,
+          "pauses": 0
+        },
+        "query_retry": {
+          "workflows": 40,
+          "safe": 0,
+          "completed": 40,
+          "duplicates": 40,
+          "pauses": 0
+        },
+        "reauth_retry": {
+          "workflows": 40,
+          "safe": 0,
+          "completed": 40,
+          "duplicates": 40,
+          "pauses": 0
+        },
+        "pause": {
+          "workflows": 40,
+          "safe": 0,
+          "completed": 0,
+          "duplicates": 0,
+          "pauses": 40
+        }
+      },
+      "off_unavailable": {
+        "clear": {
+          "workflows": 40,
+          "safe": 40,
+          "completed": 40,
+          "duplicates": 0,
+          "pauses": 0
+        },
+        "idem_retry": {
+          "workflows": 40,
+          "safe": 0,
+          "completed": 40,
+          "duplicates": 40,
+          "pauses": 0
+        },
+        "query_retry": {
+          "workflows": 40,
+          "safe": 0,
+          "completed": 0,
+          "duplicates": 0,
+          "pauses": 40
+        },
+        "reauth_retry": {
+          "workflows": 40,
+          "safe": 0,
+          "completed": 40,
+          "duplicates": 40,
+          "pauses": 0
+        },
+        "pause": {
+          "workflows": 40,
+          "safe": 0,
+          "completed": 0,
+          "duplicates": 0,
+          "pauses": 40
+        }
+      }
+    }
+  },
+  "r19": {
+    "tasks": 1600,
+    "verification": 5089,
+    "configs": {
+      "on-faithful-faithful": {
+        "clear": {
+          "workflows": 20,
+          "safe": 20,
+          "completed": 20,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "idem_retry": {
+          "workflows": 20,
+          "safe": 20,
+          "completed": 20,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "query_retry": {
+          "workflows": 20,
+          "safe": 20,
+          "completed": 20,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "reauth_retry": {
+          "workflows": 20,
+          "safe": 20,
+          "completed": 20,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "pause": {
+          "workflows": 20,
+          "safe": 0,
+          "completed": 0,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 20
+        }
+      },
+      "on-faithful-stale": {
+        "clear": {
+          "workflows": 20,
+          "safe": 20,
+          "completed": 20,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "idem_retry": {
+          "workflows": 20,
+          "safe": 20,
+          "completed": 20,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "query_retry": {
+          "workflows": 20,
+          "safe": 20,
+          "completed": 20,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "reauth_retry": {
+          "workflows": 20,
+          "safe": 20,
+          "completed": 20,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "pause": {
+          "workflows": 20,
+          "safe": 0,
+          "completed": 0,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 20
+        }
+      },
+      "on-faithful-unavailable": {
+        "clear": {
+          "workflows": 20,
+          "safe": 20,
+          "completed": 20,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "idem_retry": {
+          "workflows": 20,
+          "safe": 20,
+          "completed": 20,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "query_retry": {
+          "workflows": 20,
+          "safe": 0,
+          "completed": 0,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 20
+        },
+        "reauth_retry": {
+          "workflows": 20,
+          "safe": 20,
+          "completed": 20,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "pause": {
+          "workflows": 20,
+          "safe": 0,
+          "completed": 0,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 20
+        }
+      },
+      "on-lost-faithful": {
+        "clear": {
+          "workflows": 20,
+          "safe": 20,
+          "completed": 20,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "idem_retry": {
+          "workflows": 20,
+          "safe": 20,
+          "completed": 20,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "query_retry": {
+          "workflows": 20,
+          "safe": 20,
+          "completed": 20,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "reauth_retry": {
+          "workflows": 20,
+          "safe": 20,
+          "completed": 20,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "pause": {
+          "workflows": 20,
+          "safe": 0,
+          "completed": 0,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 20
+        }
+      },
+      "on-lost-stale": {
+        "clear": {
+          "workflows": 20,
+          "safe": 0,
+          "completed": 0,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 20
+        },
+        "idem_retry": {
+          "workflows": 20,
+          "safe": 20,
+          "completed": 20,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "query_retry": {
+          "workflows": 20,
+          "safe": 20,
+          "completed": 20,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "reauth_retry": {
+          "workflows": 20,
+          "safe": 20,
+          "completed": 20,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "pause": {
+          "workflows": 20,
+          "safe": 0,
+          "completed": 0,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 20
+        }
+      },
+      "on-lost-unavailable": {
+        "clear": {
+          "workflows": 20,
+          "safe": 0,
+          "completed": 0,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 20
+        },
+        "idem_retry": {
+          "workflows": 20,
+          "safe": 20,
+          "completed": 20,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "query_retry": {
+          "workflows": 20,
+          "safe": 0,
+          "completed": 0,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 20
+        },
+        "reauth_retry": {
+          "workflows": 20,
+          "safe": 20,
+          "completed": 20,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "pause": {
+          "workflows": 20,
+          "safe": 0,
+          "completed": 0,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 20
+        }
+      },
+      "off-faithful-faithful": {
+        "clear": {
+          "workflows": 20,
+          "safe": 20,
+          "completed": 20,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "idem_retry": {
+          "workflows": 20,
+          "safe": 0,
+          "completed": 20,
+          "duplicates": 20,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "query_retry": {
+          "workflows": 20,
+          "safe": 20,
+          "completed": 20,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "reauth_retry": {
+          "workflows": 20,
+          "safe": 0,
+          "completed": 20,
+          "duplicates": 20,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "pause": {
+          "workflows": 20,
+          "safe": 0,
+          "completed": 0,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 20
+        }
+      },
+      "off-faithful-stale": {
+        "clear": {
+          "workflows": 20,
+          "safe": 20,
+          "completed": 20,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "idem_retry": {
+          "workflows": 20,
+          "safe": 0,
+          "completed": 20,
+          "duplicates": 20,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "query_retry": {
+          "workflows": 20,
+          "safe": 0,
+          "completed": 20,
+          "duplicates": 20,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "reauth_retry": {
+          "workflows": 20,
+          "safe": 0,
+          "completed": 20,
+          "duplicates": 20,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "pause": {
+          "workflows": 20,
+          "safe": 0,
+          "completed": 0,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 20
+        }
+      },
+      "off-faithful-unavailable": {
+        "clear": {
+          "workflows": 20,
+          "safe": 20,
+          "completed": 20,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "idem_retry": {
+          "workflows": 20,
+          "safe": 0,
+          "completed": 20,
+          "duplicates": 20,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "query_retry": {
+          "workflows": 20,
+          "safe": 0,
+          "completed": 0,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 20
+        },
+        "reauth_retry": {
+          "workflows": 20,
+          "safe": 0,
+          "completed": 20,
+          "duplicates": 20,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "pause": {
+          "workflows": 20,
+          "safe": 0,
+          "completed": 0,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 20
+        }
+      },
+      "off-lost-faithful": {
+        "clear": {
+          "workflows": 20,
+          "safe": 20,
+          "completed": 20,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "idem_retry": {
+          "workflows": 20,
+          "safe": 0,
+          "completed": 20,
+          "duplicates": 20,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "query_retry": {
+          "workflows": 20,
+          "safe": 20,
+          "completed": 20,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "reauth_retry": {
+          "workflows": 20,
+          "safe": 0,
+          "completed": 20,
+          "duplicates": 20,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "pause": {
+          "workflows": 20,
+          "safe": 0,
+          "completed": 0,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 20
+        }
+      },
+      "off-lost-stale": {
+        "clear": {
+          "workflows": 20,
+          "safe": 0,
+          "completed": 0,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 20
+        },
+        "idem_retry": {
+          "workflows": 20,
+          "safe": 0,
+          "completed": 20,
+          "duplicates": 20,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "query_retry": {
+          "workflows": 20,
+          "safe": 0,
+          "completed": 20,
+          "duplicates": 20,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "reauth_retry": {
+          "workflows": 20,
+          "safe": 0,
+          "completed": 20,
+          "duplicates": 20,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "pause": {
+          "workflows": 20,
+          "safe": 0,
+          "completed": 0,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 20
+        }
+      },
+      "off-lost-unavailable": {
+        "clear": {
+          "workflows": 20,
+          "safe": 0,
+          "completed": 0,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 20
+        },
+        "idem_retry": {
+          "workflows": 20,
+          "safe": 0,
+          "completed": 20,
+          "duplicates": 20,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "query_retry": {
+          "workflows": 20,
+          "safe": 0,
+          "completed": 0,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 20
+        },
+        "reauth_retry": {
+          "workflows": 20,
+          "safe": 0,
+          "completed": 20,
+          "duplicates": 20,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "pause": {
+          "workflows": 20,
+          "safe": 0,
+          "completed": 0,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 20
+        }
+      },
+      "on-faithful-forged": {
+        "clear": {
+          "workflows": 20,
+          "safe": 0,
+          "completed": 0,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 20
+        },
+        "idem_retry": {
+          "workflows": 20,
+          "safe": 20,
+          "completed": 20,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "query_retry": {
+          "workflows": 20,
+          "safe": 0,
+          "completed": 0,
+          "duplicates": 0,
+          "false_complete": 20,
+          "pauses": 0
+        },
+        "reauth_retry": {
+          "workflows": 20,
+          "safe": 20,
+          "completed": 20,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "pause": {
+          "workflows": 20,
+          "safe": 0,
+          "completed": 0,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 20
+        }
+      },
+      "on-lost-forged": {
+        "clear": {
+          "workflows": 20,
+          "safe": 0,
+          "completed": 0,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 20
+        },
+        "idem_retry": {
+          "workflows": 20,
+          "safe": 20,
+          "completed": 20,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "query_retry": {
+          "workflows": 20,
+          "safe": 0,
+          "completed": 0,
+          "duplicates": 0,
+          "false_complete": 20,
+          "pauses": 0
+        },
+        "reauth_retry": {
+          "workflows": 20,
+          "safe": 20,
+          "completed": 20,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "pause": {
+          "workflows": 20,
+          "safe": 0,
+          "completed": 0,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 20
+        }
+      },
+      "off-faithful-forged": {
+        "clear": {
+          "workflows": 20,
+          "safe": 0,
+          "completed": 0,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 20
+        },
+        "idem_retry": {
+          "workflows": 20,
+          "safe": 20,
+          "completed": 20,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "query_retry": {
+          "workflows": 20,
+          "safe": 0,
+          "completed": 0,
+          "duplicates": 0,
+          "false_complete": 20,
+          "pauses": 0
+        },
+        "reauth_retry": {
+          "workflows": 20,
+          "safe": 20,
+          "completed": 20,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "pause": {
+          "workflows": 20,
+          "safe": 0,
+          "completed": 0,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 20
+        }
+      },
+      "off-lost-forged": {
+        "clear": {
+          "workflows": 20,
+          "safe": 0,
+          "completed": 0,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 20
+        },
+        "idem_retry": {
+          "workflows": 20,
+          "safe": 20,
+          "completed": 20,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "query_retry": {
+          "workflows": 20,
+          "safe": 0,
+          "completed": 0,
+          "duplicates": 0,
+          "false_complete": 20,
+          "pauses": 0
+        },
+        "reauth_retry": {
+          "workflows": 20,
+          "safe": 20,
+          "completed": 20,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "pause": {
+          "workflows": 20,
+          "safe": 0,
+          "completed": 0,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 20
+        }
+      }
+    }
+  },
+  "r20": {
+    "tasks": 600,
+    "verification": 2821,
+    "configs": {
+      "single_lost-on": {
+        "clear": {
+          "workflows": 20,
+          "safe": 20,
+          "completed": 20,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "idem_retry": {
+          "workflows": 20,
+          "safe": 20,
+          "completed": 20,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "query_retry": {
+          "workflows": 20,
+          "safe": 20,
+          "completed": 20,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "reauth_retry": {
+          "workflows": 20,
+          "safe": 20,
+          "completed": 20,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "pause": {
+          "workflows": 20,
+          "safe": 0,
+          "completed": 0,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 20
+        }
+      },
+      "single_lost-off": {
+        "clear": {
+          "workflows": 20,
+          "safe": 20,
+          "completed": 20,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "idem_retry": {
+          "workflows": 20,
+          "safe": 0,
+          "completed": 20,
+          "duplicates": 20,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "query_retry": {
+          "workflows": 20,
+          "safe": 20,
+          "completed": 20,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "reauth_retry": {
+          "workflows": 20,
+          "safe": 0,
+          "completed": 20,
+          "duplicates": 20,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "pause": {
+          "workflows": 20,
+          "safe": 0,
+          "completed": 0,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 20
+        }
+      },
+      "single_late-on": {
+        "clear": {
+          "workflows": 20,
+          "safe": 20,
+          "completed": 20,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "idem_retry": {
+          "workflows": 20,
+          "safe": 20,
+          "completed": 20,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "query_retry": {
+          "workflows": 20,
+          "safe": 20,
+          "completed": 20,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "reauth_retry": {
+          "workflows": 20,
+          "safe": 20,
+          "completed": 20,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "pause": {
+          "workflows": 20,
+          "safe": 0,
+          "completed": 0,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 20
+        }
+      },
+      "single_late-off": {
+        "clear": {
+          "workflows": 20,
+          "safe": 20,
+          "completed": 20,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "idem_retry": {
+          "workflows": 20,
+          "safe": 0,
+          "completed": 20,
+          "duplicates": 20,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "query_retry": {
+          "workflows": 20,
+          "safe": 20,
+          "completed": 20,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "reauth_retry": {
+          "workflows": 20,
+          "safe": 0,
+          "completed": 20,
+          "duplicates": 20,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "pause": {
+          "workflows": 20,
+          "safe": 0,
+          "completed": 0,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 20
+        }
+      },
+      "double_lost-on": {
+        "clear": {
+          "workflows": 20,
+          "safe": 20,
+          "completed": 20,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "idem_retry": {
+          "workflows": 20,
+          "safe": 20,
+          "completed": 20,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "query_retry": {
+          "workflows": 20,
+          "safe": 20,
+          "completed": 20,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "reauth_retry": {
+          "workflows": 20,
+          "safe": 20,
+          "completed": 20,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "pause": {
+          "workflows": 20,
+          "safe": 0,
+          "completed": 0,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 20
+        }
+      },
+      "double_lost-off": {
+        "clear": {
+          "workflows": 20,
+          "safe": 20,
+          "completed": 20,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "idem_retry": {
+          "workflows": 20,
+          "safe": 0,
+          "completed": 20,
+          "duplicates": 40,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "query_retry": {
+          "workflows": 20,
+          "safe": 20,
+          "completed": 20,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "reauth_retry": {
+          "workflows": 20,
+          "safe": 0,
+          "completed": 20,
+          "duplicates": 40,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "pause": {
+          "workflows": 20,
+          "safe": 0,
+          "completed": 0,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 20
+        }
+      }
+    }
+  },
+  "r21": {
+    "tasks": 800,
+    "verification": 2489,
+    "configs": {
+      "c8-on": {
+        "clear": {
+          "workflows": 40,
+          "safe": 40,
+          "completed": 40,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "idem_retry": {
+          "workflows": 40,
+          "safe": 40,
+          "completed": 40,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "query_retry": {
+          "workflows": 40,
+          "safe": 40,
+          "completed": 40,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "reauth_retry": {
+          "workflows": 40,
+          "safe": 40,
+          "completed": 40,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "pause": {
+          "workflows": 40,
+          "safe": 0,
+          "completed": 0,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 40
+        }
+      },
+      "c8-off": {
+        "clear": {
+          "workflows": 40,
+          "safe": 40,
+          "completed": 40,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "idem_retry": {
+          "workflows": 40,
+          "safe": 0,
+          "completed": 40,
+          "duplicates": 40,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "query_retry": {
+          "workflows": 40,
+          "safe": 40,
+          "completed": 40,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "reauth_retry": {
+          "workflows": 40,
+          "safe": 0,
+          "completed": 40,
+          "duplicates": 40,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "pause": {
+          "workflows": 40,
+          "safe": 0,
+          "completed": 0,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 40
+        }
+      },
+      "c32-on": {
+        "clear": {
+          "workflows": 40,
+          "safe": 40,
+          "completed": 40,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "idem_retry": {
+          "workflows": 40,
+          "safe": 40,
+          "completed": 40,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "query_retry": {
+          "workflows": 40,
+          "safe": 40,
+          "completed": 40,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "reauth_retry": {
+          "workflows": 40,
+          "safe": 40,
+          "completed": 40,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "pause": {
+          "workflows": 40,
+          "safe": 0,
+          "completed": 0,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 40
+        }
+      },
+      "c32-off": {
+        "clear": {
+          "workflows": 40,
+          "safe": 40,
+          "completed": 40,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "idem_retry": {
+          "workflows": 40,
+          "safe": 0,
+          "completed": 40,
+          "duplicates": 40,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "query_retry": {
+          "workflows": 40,
+          "safe": 40,
+          "completed": 40,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "reauth_retry": {
+          "workflows": 40,
+          "safe": 0,
+          "completed": 40,
+          "duplicates": 40,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "pause": {
+          "workflows": 40,
+          "safe": 0,
+          "completed": 0,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 40
+        }
+      }
+    },
+    "systems": {
+      "c8-on": {
+        "concurrency": 8,
+        "wall_s": 22.541,
+        "throughput": 8.873,
+        "p50_ms": 1546.85,
+        "p95_ms": 1636.51
+      },
+      "c8-off": {
+        "concurrency": 8,
+        "wall_s": 22.852,
+        "throughput": 8.752,
+        "p50_ms": 1545.63,
+        "p95_ms": 1668.39
+      },
+      "c32-on": {
+        "concurrency": 32,
+        "wall_s": 8.72,
+        "throughput": 22.935,
+        "p50_ms": 1559.64,
+        "p95_ms": 1900.88
+      },
+      "c32-off": {
+        "concurrency": 32,
+        "wall_s": 8.523,
+        "throughput": 23.466,
+        "p50_ms": 1543.49,
+        "p95_ms": 1975.81
+      }
+    }
+  },
+  "r22": {
+    "tasks": 200,
+    "verification": 252,
+    "configs": {
+      "serial": {
+        "clear": {
+          "workflows": 40,
+          "safe": 40,
+          "completed": 40,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "idem_retry": {
+          "workflows": 40,
+          "safe": 40,
+          "completed": 40,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "query_retry": {
+          "workflows": 40,
+          "safe": 40,
+          "completed": 40,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "reauth_retry": {
+          "workflows": 40,
+          "safe": 40,
+          "completed": 40,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "pause": {
+          "workflows": 40,
+          "safe": 40,
+          "completed": 40,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        }
+      }
+    },
+    "http_calls": {
+      "pause": 11,
+      "reauth_retry": 11,
+      "idem_retry": 11,
+      "query_retry": 11,
+      "clear": 16
+    },
+    "systems": {
+      "serial": {
+        "throughput": 14.686,
+        "p50_ms": 66.44,
+        "p95_ms": 91.74
+      }
+    }
+  },
+  "r23": {
+    "tasks": 160,
+    "verification": 512,
+    "configs": {
+      "idem_on": {
+        "clear": {
+          "workflows": 40,
+          "safe": 40,
+          "completed": 40,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "idem_retry": {
+          "workflows": 40,
+          "safe": 40,
+          "completed": 40,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "idem_fresh": {
+          "workflows": 40,
+          "safe": 0,
+          "completed": 40,
+          "duplicates": 40,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "pause": {
+          "workflows": 40,
+          "safe": 0,
+          "completed": 0,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 40
+        }
+      }
+    }
+  },
+  "r24": {
+    "tasks": 160,
+    "verification": 512,
+    "configs": {
+      "revoke_at_attach": {
+        "clear": {
+          "workflows": 20,
+          "safe": 0,
+          "completed": 0,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 20
+        },
+        "clear_replay": {
+          "workflows": 20,
+          "safe": 20,
+          "completed": 20,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "clear_resume": {
+          "workflows": 20,
+          "safe": 20,
+          "completed": 20,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "idem_retry": {
+          "workflows": 20,
+          "safe": 0,
+          "completed": 20,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        }
+      },
+      "blackout_at_attach": {
+        "clear": {
+          "workflows": 20,
+          "safe": 0,
+          "completed": 0,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 20
+        },
+        "clear_replay": {
+          "workflows": 20,
+          "safe": 0,
+          "completed": 20,
+          "duplicates": 20,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "clear_resume": {
+          "workflows": 20,
+          "safe": 20,
+          "completed": 20,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "idem_retry": {
+          "workflows": 20,
+          "safe": 0,
+          "completed": 20,
+          "duplicates": 20,
+          "false_complete": 0,
+          "pauses": 0
+        }
+      }
+    }
+  },
+  "r29": {
+    "tasks": 175,
+    "verification": 566,
+    "configs": {
+      "n25": {
+        "clear": {
+          "workflows": 25,
+          "safe": 25,
+          "completed": 25,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        }
+      },
+      "n50": {
+        "clear": {
+          "workflows": 50,
+          "safe": 50,
+          "completed": 50,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        }
+      },
+      "n100": {
+        "clear": {
+          "workflows": 100,
+          "safe": 100,
+          "completed": 100,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        }
+      }
+    },
+    "storage": {
+      "n25": {
+        "bytes_per_workflow": 24576.0,
+        "receipts": 125,
+        "effect_rows": 125
+      },
+      "n50": {
+        "bytes_per_workflow": 24576.0,
+        "receipts": 250,
+        "effect_rows": 250
+      },
+      "n100": {
+        "bytes_per_workflow": 24576.0,
+        "receipts": 500,
+        "effect_rows": 500
+      }
+    }
+  },
+  "r30": {
+    "tasks": 400,
+    "verification": 1289,
+    "configs": {
+      "lifecycle_down-on": {
+        "clear": {
+          "workflows": 20,
+          "safe": 20,
+          "completed": 20,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "idem_retry": {
+          "workflows": 20,
+          "safe": 20,
+          "completed": 20,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "query_retry": {
+          "workflows": 20,
+          "safe": 20,
+          "completed": 20,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "reauth_retry": {
+          "workflows": 20,
+          "safe": 20,
+          "completed": 20,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "pause": {
+          "workflows": 20,
+          "safe": 0,
+          "completed": 0,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 20
+        }
+      },
+      "lifecycle_down-off": {
+        "clear": {
+          "workflows": 20,
+          "safe": 20,
+          "completed": 20,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "idem_retry": {
+          "workflows": 20,
+          "safe": 0,
+          "completed": 20,
+          "duplicates": 20,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "query_retry": {
+          "workflows": 20,
+          "safe": 20,
+          "completed": 20,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "reauth_retry": {
+          "workflows": 20,
+          "safe": 0,
+          "completed": 20,
+          "duplicates": 20,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "pause": {
+          "workflows": 20,
+          "safe": 0,
+          "completed": 0,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 20
+        }
+      },
+      "all_down-on": {
+        "clear": {
+          "workflows": 20,
+          "safe": 0,
+          "completed": 0,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 20
+        },
+        "idem_retry": {
+          "workflows": 20,
+          "safe": 20,
+          "completed": 20,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "query_retry": {
+          "workflows": 20,
+          "safe": 0,
+          "completed": 0,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 20
+        },
+        "reauth_retry": {
+          "workflows": 20,
+          "safe": 20,
+          "completed": 20,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "pause": {
+          "workflows": 20,
+          "safe": 0,
+          "completed": 0,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 20
+        }
+      },
+      "all_down-off": {
+        "clear": {
+          "workflows": 20,
+          "safe": 0,
+          "completed": 0,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 20
+        },
+        "idem_retry": {
+          "workflows": 20,
+          "safe": 0,
+          "completed": 20,
+          "duplicates": 20,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "query_retry": {
+          "workflows": 20,
+          "safe": 0,
+          "completed": 0,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 20
+        },
+        "reauth_retry": {
+          "workflows": 20,
+          "safe": 0,
+          "completed": 20,
+          "duplicates": 20,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "pause": {
+          "workflows": 20,
+          "safe": 0,
+          "completed": 0,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 20
+        }
+      }
+    }
+  },
+  "r33": {
+    "tasks": 150,
+    "verification": 127,
+    "configs": {
+      "rtt1": {
+        "clear": {
+          "workflows": 10,
+          "safe": 10,
+          "completed": 10,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "idem_retry": {
+          "workflows": 10,
+          "safe": 10,
+          "completed": 10,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "query_retry": {
+          "workflows": 10,
+          "safe": 10,
+          "completed": 10,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "reauth_retry": {
+          "workflows": 10,
+          "safe": 10,
+          "completed": 10,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "pause": {
+          "workflows": 10,
+          "safe": 10,
+          "completed": 10,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        }
+      },
+      "rtt20": {
+        "clear": {
+          "workflows": 10,
+          "safe": 10,
+          "completed": 10,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "idem_retry": {
+          "workflows": 10,
+          "safe": 10,
+          "completed": 10,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "query_retry": {
+          "workflows": 10,
+          "safe": 10,
+          "completed": 10,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "reauth_retry": {
+          "workflows": 10,
+          "safe": 10,
+          "completed": 10,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "pause": {
+          "workflows": 10,
+          "safe": 10,
+          "completed": 10,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        }
+      },
+      "rtt80": {
+        "clear": {
+          "workflows": 10,
+          "safe": 10,
+          "completed": 10,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "idem_retry": {
+          "workflows": 10,
+          "safe": 10,
+          "completed": 10,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "query_retry": {
+          "workflows": 10,
+          "safe": 10,
+          "completed": 10,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "reauth_retry": {
+          "workflows": 10,
+          "safe": 10,
+          "completed": 10,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "pause": {
+          "workflows": 10,
+          "safe": 10,
+          "completed": 10,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        }
+      }
+    },
+    "systems": {
+      "rtt1": {
+        "rtt": 1,
+        "workflows": 50,
+        "failures": 0
+      },
+      "rtt20": {
+        "rtt": 20,
+        "workflows": 50,
+        "failures": 0
+      },
+      "rtt80": {
+        "rtt": 80,
+        "workflows": 50,
+        "failures": 0
+      }
+    }
+  },
+  "r25": {
+    "tasks": 400,
+    "verification": 1571,
+    "configs": {
+      "idem_on": {
+        "clear": {
+          "workflows": 40,
+          "safe": 40,
+          "completed": 40,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "idem_retry": {
+          "workflows": 40,
+          "safe": 40,
+          "completed": 40,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "query_retry": {
+          "workflows": 40,
+          "safe": 40,
+          "completed": 40,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "reauth_retry": {
+          "workflows": 40,
+          "safe": 40,
+          "completed": 40,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "pause": {
+          "workflows": 40,
+          "safe": 0,
+          "completed": 0,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 40
+        }
+      },
+      "idem_off": {
+        "clear": {
+          "workflows": 40,
+          "safe": 40,
+          "completed": 40,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "idem_retry": {
+          "workflows": 40,
+          "safe": 0,
+          "completed": 40,
+          "duplicates": 40,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "query_retry": {
+          "workflows": 40,
+          "safe": 40,
+          "completed": 40,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "reauth_retry": {
+          "workflows": 40,
+          "safe": 0,
+          "completed": 40,
+          "duplicates": 40,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "pause": {
+          "workflows": 40,
+          "safe": 0,
+          "completed": 0,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 40
+        }
+      }
+    },
+    "double_charge": {
+      "idem_on": {
+        "clear": 0,
+        "idem_retry": 0,
+        "query_retry": 0,
+        "reauth_retry": 0,
+        "pause": 0
+      },
+      "idem_off": {
+        "clear": 0,
+        "idem_retry": 40,
+        "query_retry": 0,
+        "reauth_retry": 40,
+        "pause": 0
+      }
+    }
+  },
+  "r26": {
+    "tasks": 240,
+    "verification": 797,
+    "configs": {
+      "L0": {
+        "clear": {
+          "workflows": 20,
+          "safe": 0,
+          "completed": 0,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 20
+        },
+        "idem_retry": {
+          "workflows": 20,
+          "safe": 0,
+          "completed": 20,
+          "duplicates": 20,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "query_retry": {
+          "workflows": 20,
+          "safe": 0,
+          "completed": 0,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 20
+        }
+      },
+      "L1": {
+        "clear": {
+          "workflows": 20,
+          "safe": 0,
+          "completed": 0,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 20
+        },
+        "idem_retry": {
+          "workflows": 20,
+          "safe": 0,
+          "completed": 20,
+          "duplicates": 20,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "query_retry": {
+          "workflows": 20,
+          "safe": 0,
+          "completed": 0,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 20
+        }
+      },
+      "L2": {
+        "clear": {
+          "workflows": 20,
+          "safe": 20,
+          "completed": 20,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "idem_retry": {
+          "workflows": 20,
+          "safe": 0,
+          "completed": 20,
+          "duplicates": 20,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "query_retry": {
+          "workflows": 20,
+          "safe": 0,
+          "completed": 0,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 20
+        }
+      },
+      "L3": {
+        "clear": {
+          "workflows": 20,
+          "safe": 20,
+          "completed": 20,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "idem_retry": {
+          "workflows": 20,
+          "safe": 0,
+          "completed": 20,
+          "duplicates": 20,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "query_retry": {
+          "workflows": 20,
+          "safe": 20,
+          "completed": 20,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        }
+      }
+    }
+  },
+  "r31": {
+    "tasks": 101,
+    "verification": 328,
+    "configs": {
+      "tenant": {
+        "donor": {
+          "workflows": 1,
+          "safe": 1,
+          "completed": 1,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "clear": {
+          "workflows": 20,
+          "safe": 0,
+          "completed": 0,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 20
+        },
+        "idem_retry": {
+          "workflows": 20,
+          "safe": 20,
+          "completed": 20,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "query_retry": {
+          "workflows": 20,
+          "safe": 0,
+          "completed": 0,
+          "duplicates": 0,
+          "false_complete": 20,
+          "pauses": 0
+        },
+        "reauth_retry": {
+          "workflows": 20,
+          "safe": 20,
+          "completed": 20,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 0
+        },
+        "pause": {
+          "workflows": 20,
+          "safe": 0,
+          "completed": 0,
+          "duplicates": 0,
+          "false_complete": 0,
+          "pauses": 20
+        }
+      }
+    }
+  },
+  "r32": {
+    "tasks": 1001,
+    "verification": 48,
+    "pairs": {
+      "R15/attempt2/idem_off": {
+        "workflows": 400,
+        "duplicates": 80,
+        "stale": 320,
+        "unbound": 0,
+        "inconsistent": 0,
+        "false_complete_like": 0
+      },
+      "R18/attempt1/off_stale": {
+        "workflows": 200,
+        "duplicates": 120,
+        "stale": 0,
+        "unbound": 0,
+        "inconsistent": 0,
+        "false_complete_like": 0
+      },
+      "R19/attempt2/off-faithful-forged": {
+        "workflows": 100,
+        "duplicates": 0,
+        "stale": 0,
+        "unbound": 0,
+        "inconsistent": 60,
+        "false_complete_like": 20
+      },
+      "R21/attempt9/c32-off": {
+        "workflows": 200,
+        "duplicates": 80,
+        "stale": 0,
+        "unbound": 0,
+        "inconsistent": 0,
+        "false_complete_like": 0
+      },
+      "R31/attempt1/tenant": {
+        "workflows": 101,
+        "duplicates": 0,
+        "stale": 0,
+        "unbound": 0,
+        "inconsistent": 60,
+        "false_complete_like": 20
+      }
+    },
+    "totals": {
+      "workflows": 1001,
+      "duplicates": 280,
+      "stale": 320,
+      "unbound": 0,
+      "inconsistent": 120,
+      "false_complete_like": 40
+    }
+  },
+  "r27": {
+    "tasks": 120,
+    "verification": 617,
+    "guard_core_lines": 25,
+    "sources": [
+      "smolagents",
+      "pydantic_ai",
+      "llamaindex"
+    ],
+    "seeds": 5
+  },
+  "r28": {
+    "tasks": 320,
+    "verification": 1922,
+    "cells": {
+      "memory/lost_response/clear": {
+        "terminal": "complete",
+        "rows": 1,
+        "duplicates": 0
+      },
+      "memory/lost_response/blind_retry": {
+        "terminal": "complete",
+        "rows": 1,
+        "duplicates": 0
+      },
+      "memory/lost_response/query_retry": {
+        "terminal": "complete",
+        "rows": 1,
+        "duplicates": 0
+      },
+      "memory/lost_response/pause": {
+        "terminal": "pause",
+        "rows": 1,
+        "duplicates": 0
+      },
+      "memory/lost_before_effect/clear": {
+        "terminal": "pause",
+        "rows": 0,
+        "duplicates": 0
+      },
+      "memory/lost_before_effect/blind_retry": {
+        "terminal": "complete",
+        "rows": 1,
+        "duplicates": 0
+      },
+      "memory/lost_before_effect/query_retry": {
+        "terminal": "complete",
+        "rows": 1,
+        "duplicates": 0
+      },
+      "memory/lost_before_effect/pause": {
+        "terminal": "pause",
+        "rows": 0,
+        "duplicates": 0
+      },
+      "sqlite/lost_response/clear": {
+        "terminal": "complete",
+        "rows": 1,
+        "duplicates": 0
+      },
+      "sqlite/lost_response/blind_retry": {
+        "terminal": "complete",
+        "rows": 2,
+        "duplicates": 1
+      },
+      "sqlite/lost_response/query_retry": {
+        "terminal": "complete",
+        "rows": 1,
+        "duplicates": 0
+      },
+      "sqlite/lost_response/pause": {
+        "terminal": "pause",
+        "rows": 1,
+        "duplicates": 0
+      },
+      "sqlite/lost_before_effect/clear": {
+        "terminal": "pause",
+        "rows": 0,
+        "duplicates": 0
+      },
+      "sqlite/lost_before_effect/blind_retry": {
+        "terminal": "complete",
+        "rows": 1,
+        "duplicates": 0
+      },
+      "sqlite/lost_before_effect/query_retry": {
+        "terminal": "complete",
+        "rows": 1,
+        "duplicates": 0
+      },
+      "sqlite/lost_before_effect/pause": {
+        "terminal": "pause",
+        "rows": 0,
+        "duplicates": 0
+      }
+    }
+  },
+  "r34": {
+    "tasks": 120,
+    "verification": 602,
+    "cells": {
+      "lost_return/none": {
+        "rows": 1,
+        "duplicates": 0,
+        "safe": true,
+        "writes": 0
+      },
+      "lost_return/lease": {
+        "rows": 1,
+        "duplicates": 0,
+        "safe": true,
+        "writes": 0
+      },
+      "lost_return/unique": {
+        "rows": 1,
+        "duplicates": 0,
+        "safe": true,
+        "writes": 0
+      },
+      "lost_before_commit/none": {
+        "rows": 2,
+        "duplicates": 1,
+        "safe": false,
+        "writes": 2
+      },
+      "lost_before_commit/lease": {
+        "rows": 1,
+        "duplicates": 0,
+        "safe": true,
+        "writes": 1
+      },
+      "lost_before_commit/unique": {
+        "rows": 1,
+        "duplicates": 0,
+        "safe": true,
+        "writes": 1
+      }
+    }
+  },
+  "r35": {
+    "tasks": 120,
+    "verification": 602,
+    "cells": {
+      "lost_return/clear": {
+        "rows": 1,
+        "stale": 0,
+        "completed": true,
+        "terminal": "complete"
+      },
+      "lost_return/verify_retry": {
+        "rows": 1,
+        "stale": 0,
+        "completed": true,
+        "terminal": "complete"
+      },
+      "lost_before_commit/clear": {
+        "rows": 1,
+        "stale": 0,
+        "completed": true,
+        "terminal": "complete"
+      },
+      "lost_before_commit/verify_retry": {
+        "rows": 1,
+        "stale": 0,
+        "completed": true,
+        "terminal": "complete"
+      },
+      "revoke_race/clear": {
+        "rows": 0,
+        "stale": 0,
+        "completed": false,
+        "terminal": "pause"
+      },
+      "revoke_race/verify_retry": {
+        "rows": 1,
+        "stale": 1,
+        "completed": true,
+        "terminal": "complete"
+      }
+    }
+  },
+  "r38": {
+    "tasks": 280,
+    "verification": 1405,
+    "cells": {
+      "faithful/late_effect/clear": {
+        "rows": 1,
+        "completed": true,
+        "rejected": 0,
+        "terminal": "complete",
+        "safe": true
+      },
+      "faithful/late_effect/blind_retry": {
+        "rows": 2,
+        "completed": true,
+        "rejected": 0,
+        "terminal": "complete",
+        "safe": false
+      },
+      "faithful/late_effect/pause": {
+        "rows": 1,
+        "completed": false,
+        "rejected": 0,
+        "terminal": "pause",
+        "safe": false
+      },
+      "faithful/lost_before_commit/clear": {
+        "rows": 1,
+        "completed": true,
+        "rejected": 0,
+        "terminal": "complete",
+        "safe": true
+      },
+      "faithful/lost_before_commit/blind_retry": {
+        "rows": 1,
+        "completed": true,
+        "rejected": 0,
+        "terminal": "complete",
+        "safe": true
+      },
+      "faithful/lost_before_commit/pause": {
+        "rows": 0,
+        "completed": false,
+        "rejected": 0,
+        "terminal": "pause",
+        "safe": false
+      },
+      "absent/late_effect/clear": {
+        "rows": 1,
+        "completed": false,
+        "rejected": 0,
+        "terminal": "pause",
+        "safe": false
+      },
+      "absent/late_effect/clear_fenced": {
+        "rows": 1,
+        "completed": true,
+        "rejected": 1,
+        "terminal": "complete",
+        "safe": true
+      },
+      "absent/late_effect/blind_retry": {
+        "rows": 2,
+        "completed": true,
+        "rejected": 0,
+        "terminal": "complete",
+        "safe": false
+      },
+      "absent/late_effect/pause": {
+        "rows": 1,
+        "completed": false,
+        "rejected": 0,
+        "terminal": "pause",
+        "safe": false
+      },
+      "absent/lost_before_commit/clear": {
+        "rows": 0,
+        "completed": false,
+        "rejected": 0,
+        "terminal": "pause",
+        "safe": false
+      },
+      "absent/lost_before_commit/clear_fenced": {
+        "rows": 1,
+        "completed": true,
+        "rejected": 0,
+        "terminal": "complete",
+        "safe": true
+      },
+      "absent/lost_before_commit/blind_retry": {
+        "rows": 1,
+        "completed": true,
+        "rejected": 0,
+        "terminal": "complete",
+        "safe": true
+      },
+      "absent/lost_before_commit/pause": {
+        "rows": 0,
+        "completed": false,
+        "rejected": 0,
+        "terminal": "pause",
+        "safe": false
+      }
+    },
+    "fence_check": {
+      "both": false,
+      "fence_only": true,
+      "finalize_only": true
+    }
+  },
+  "r36": {
+    "tasks": 320,
+    "verification": 1602,
+    "cells": {
+      "buffered/late_effect/clear": {
+        "rows": 1,
+        "completed": false,
+        "rejected": 0,
+        "terminal": "pause",
+        "safe": false
+      },
+      "buffered/late_effect/clear_fenced": {
+        "rows": 1,
+        "completed": true,
+        "rejected": 1,
+        "terminal": "complete",
+        "safe": true
+      },
+      "buffered/late_effect/frontier": {
+        "rows": 1,
+        "completed": true,
+        "rejected": 1,
+        "terminal": "complete",
+        "safe": true
+      },
+      "buffered/late_effect/blind_retry": {
+        "rows": 2,
+        "completed": true,
+        "rejected": 0,
+        "terminal": "complete",
+        "safe": false
+      },
+      "buffered/lost_before_commit/clear": {
+        "rows": 0,
+        "completed": false,
+        "rejected": 0,
+        "terminal": "pause",
+        "safe": false
+      },
+      "buffered/lost_before_commit/clear_fenced": {
+        "rows": 1,
+        "completed": true,
+        "rejected": 0,
+        "terminal": "complete",
+        "safe": true
+      },
+      "buffered/lost_before_commit/frontier": {
+        "rows": 1,
+        "completed": true,
+        "rejected": 0,
+        "terminal": "complete",
+        "safe": true
+      },
+      "buffered/lost_before_commit/blind_retry": {
+        "rows": 1,
+        "completed": true,
+        "rejected": 0,
+        "terminal": "complete",
+        "safe": true
+      },
+      "immediate/late_effect/clear": {
+        "rows": 1,
+        "completed": false,
+        "rejected": 0,
+        "terminal": "pause",
+        "safe": false
+      },
+      "immediate/late_effect/clear_fenced": {
+        "rows": 1,
+        "completed": true,
+        "rejected": 1,
+        "terminal": "complete",
+        "safe": true
+      },
+      "immediate/late_effect/frontier": {
+        "rows": 1,
+        "completed": false,
+        "rejected": 0,
+        "terminal": "pause",
+        "safe": false
+      },
+      "immediate/late_effect/blind_retry": {
+        "rows": 2,
+        "completed": true,
+        "rejected": 0,
+        "terminal": "complete",
+        "safe": false
+      },
+      "immediate/lost_before_commit/clear": {
+        "rows": 0,
+        "completed": false,
+        "rejected": 0,
+        "terminal": "pause",
+        "safe": false
+      },
+      "immediate/lost_before_commit/clear_fenced": {
+        "rows": 1,
+        "completed": true,
+        "rejected": 0,
+        "terminal": "complete",
+        "safe": true
+      },
+      "immediate/lost_before_commit/frontier": {
+        "rows": 0,
+        "completed": false,
+        "rejected": 0,
+        "terminal": "pause",
+        "safe": false
+      },
+      "immediate/lost_before_commit/blind_retry": {
+        "rows": 1,
+        "completed": true,
+        "rejected": 0,
+        "terminal": "complete",
+        "safe": true
+      }
+    }
+  },
+  "r39": {
+    "tasks": 84,
+    "verification": 431,
+    "model": "deepseek-flash",
+    "drain_seconds": 6.0,
+    "runs": {
+      "none": 4,
+      "lost_return": 6,
+      "late_effect": 6,
+      "late_effect_slow": 6,
+      "lost_before_commit": 6
+    },
+    "cells": {
+      "blind/none": {
+        "duplicates": 0,
+        "rejected": 0,
+        "completed": 4
+      },
+      "blind/lost_return": {
+        "duplicates": 5,
+        "rejected": 0,
+        "completed": 5
+      },
+      "blind/late_effect": {
+        "duplicates": 6,
+        "rejected": 0,
+        "completed": 6
+      },
+      "blind/late_effect_slow": {
+        "duplicates": 6,
+        "rejected": 0,
+        "completed": 6
+      },
+      "blind/lost_before_commit": {
+        "duplicates": 0,
+        "rejected": 0,
+        "completed": 4
+      },
+      "evidence/none": {
+        "duplicates": 0,
+        "rejected": 0,
+        "completed": 4
+      },
+      "evidence/lost_return": {
+        "duplicates": 0,
+        "rejected": 0,
+        "completed": 6
+      },
+      "evidence/late_effect": {
+        "duplicates": 0,
+        "rejected": 0,
+        "completed": 6
+      },
+      "evidence/late_effect_slow": {
+        "duplicates": 1,
+        "rejected": 0,
+        "completed": 1
+      },
+      "evidence/lost_before_commit": {
+        "duplicates": 0,
+        "rejected": 0,
+        "completed": 3
+      },
+      "clear/none": {
+        "duplicates": 0,
+        "rejected": 0,
+        "completed": 4
+      },
+      "clear/lost_return": {
+        "duplicates": 0,
+        "rejected": 0,
+        "completed": 6
+      },
+      "clear/late_effect": {
+        "duplicates": 0,
+        "rejected": 6,
+        "completed": 6
+      },
+      "clear/late_effect_slow": {
+        "duplicates": 0,
+        "rejected": 6,
+        "completed": 6
+      },
+      "clear/lost_before_commit": {
+        "duplicates": 0,
+        "rejected": 0,
+        "completed": 6
+      }
+    }
+  },
+  "r40": {
+    "tasks": 36,
+    "verification": 304,
+    "model": "deepseek-flash",
+    "drain_seconds": 6.0,
+    "runs": 6,
+    "cells": {
+      "intent_change/blind": {
+        "runs": 6,
+        "duplicates": 12,
+        "mixed": 12,
+        "stale": 0,
+        "residual": 6,
+        "followed": 6,
+        "completed": 6,
+        "paused": 0,
+        "repaired": 0,
+        "recovered": 0,
+        "phase1_completed": 6
+      },
+      "intent_change/evidence": {
+        "runs": 6,
+        "duplicates": 11,
+        "mixed": 11,
+        "stale": 0,
+        "residual": 6,
+        "followed": 6,
+        "completed": 6,
+        "paused": 0,
+        "repaired": 0,
+        "recovered": 0,
+        "phase1_completed": 6
+      },
+      "intent_change/clear": {
+        "runs": 6,
+        "duplicates": 0,
+        "mixed": 0,
+        "stale": 0,
+        "residual": 6,
+        "followed": 6,
+        "completed": 6,
+        "paused": 0,
+        "repaired": 0,
+        "recovered": 0,
+        "phase1_completed": 6
+      },
+      "no_fence_repair/blind": {
+        "runs": 6,
+        "duplicates": 0,
+        "mixed": 0,
+        "stale": 0,
+        "residual": 0,
+        "followed": 0,
+        "completed": 6,
+        "paused": 0,
+        "repaired": 0,
+        "recovered": 0,
+        "phase1_completed": 6
+      },
+      "no_fence_repair/evidence": {
+        "runs": 6,
+        "duplicates": 0,
+        "mixed": 0,
+        "stale": 0,
+        "residual": 0,
+        "followed": 0,
+        "completed": 6,
+        "paused": 0,
+        "repaired": 0,
+        "recovered": 0,
+        "phase1_completed": 6
+      },
+      "no_fence_repair/clear": {
+        "runs": 6,
+        "duplicates": 0,
+        "mixed": 0,
+        "stale": 0,
+        "residual": 0,
+        "followed": 0,
+        "completed": 6,
+        "paused": 6,
+        "repaired": 6,
+        "recovered": 6,
+        "phase1_completed": 0
+      }
+    }
+  },
+  "r41": {
+    "configs": 7,
+    "t5_depth": 8,
+    "t6_depth": 6,
+    "duplicate": {
+      "t5_no_a6": true,
+      "t5_lease": false,
+      "t5_atomic_admit": false,
+      "t6_both": false,
+      "t6_fence_only": true,
+      "t6_finalize_only": true,
+      "t6_neither": true
+    }
+  },
+  "r42": {
+    "checks": 43,
+    "safe": {
+      "t5": {
+        "t5_no_a6": false,
+        "t5_lease_naive": false,
+        "t5_lease_closed": true,
+        "t5_atomic_admit": true
+      },
+      "t6": {
+        "t6_both": true,
+        "t6_fence_only": false,
+        "t6_finalize_only": false,
+        "t6_neither": false
+      }
+    },
+    "t5_trace": ["query0", "query1", "issue0", "issue1", "commit0", "commit1"]
+  },
+  "r43": {
+    "checks": 62,
+    "commit": "61e411be662bb021634f0e84bc184bf6074905b4",
+    "tests": {
+      "passed": 187,
+      "failed": 2,
+      "skipped": 1
+    },
+    "b3_leaks": {
+      "Tx-Full": 0,
+      "TCC-Confirm": 0,
+      "Mutex+WAL+Rollback": 0,
+      "Saga-Compensation": 400,
+      "Atomix-MisclassifiedIrreversible": 300,
+      "Checkpoint-Replay": 200,
+      "No-Tx": 500
+    }
+  },
+  "r44": {
+    "checks": 49,
+    "tasks": 198,
+    "scenario_a": 180,
+    "scenario_b": 18,
+    "safe": {
+      "fenced": 60,
+      "dedup_versioned": 60,
+      "dedup_fresh": 20
+    },
+    "duplicates": {
+      "dedup_fresh": {
+        "lost_return": 20,
+        "late_effect": 20,
+        "lost_before_commit": 0
+      }
+    },
+    "false_complete": {
+      "fenced": 0,
+      "dedup_versioned": 0,
+      "dedup_unversioned": 6
+    }
+  }
+}

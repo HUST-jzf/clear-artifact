@@ -1,0 +1,3 @@
+# Only needed to regenerate the Z3 model reports (R17, R42).
+# The 6,749-check reproduction replays the frozen reports and does not import z3.
+z3-solver==5.3.1.0

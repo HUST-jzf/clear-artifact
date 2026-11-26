@@ -1,0 +1,172 @@
+{
+  "tool": "z3",
+  "depth": 10,
+  "theorems": {
+    "T1_retry_soundness": {
+      "result": "unsat",
+      "counterexample": null
+    },
+    "T2_admission_atomicity": {
+      "result": "unsat",
+      "counterexample": null
+    },
+    "T4_requalification": {
+      "result": "unsat",
+      "counterexample": null
+    },
+    "all_assumptions_safe": {
+      "result": "unsat",
+      "counterexample": null
+    },
+    "T3_incomplete_evidence_impossibility": {
+      "name": "T3_incomplete_evidence_impossibility",
+      "claim": "no single action is both safe and completing in two worlds that share the same incomplete observation (unknown query, unobserved closure)",
+      "result": "unsat"
+    }
+  },
+  "ablations": {
+    "no_A1_faithful_query": {
+      "result": "sat",
+      "counterexample": {
+        "trace": [
+          "start",
+          "commit_original",
+          "wait",
+          "qualify",
+          "query_empty",
+          "admit_retry_atomic"
+        ],
+        "state": {
+          "phase": 2,
+          "store": 1,
+          "permit": 1,
+          "manifest": 0,
+          "qual": 0,
+          "obs": 2,
+          "closed": 1,
+          "child": 0,
+          "attempts": 1,
+          "armed": 0,
+          "dup": 1,
+          "stale_permit": 0,
+          "stale_manifest": 0,
+          "false_complete": 0,
+          "terminal": 0
+        },
+        "depth": 6
+      }
+    },
+    "no_A2_lifecycle_closure": {
+      "result": "sat",
+      "counterexample": {
+        "trace": [
+          "start",
+          "fail_original",
+          "wait",
+          "query_faithful",
+          "late_commit",
+          "qualify",
+          "admit_retry_atomic"
+        ],
+        "state": {
+          "phase": 3,
+          "store": 1,
+          "permit": 1,
+          "manifest": 0,
+          "qual": 0,
+          "obs": 2,
+          "closed": 1,
+          "child": 0,
+          "attempts": 1,
+          "armed": 0,
+          "dup": 1,
+          "stale_permit": 0,
+          "stale_manifest": 0,
+          "false_complete": 0,
+          "terminal": 0
+        },
+        "depth": 7
+      }
+    },
+    "no_A3_version_binding": {
+      "result": "sat",
+      "counterexample": {
+        "trace": [
+          "start",
+          "fail_original",
+          "wait",
+          "query_faithful",
+          "qualify_stale_view",
+          "change_manifest",
+          "admit_retry_atomic"
+        ],
+        "state": {
+          "phase": 3,
+          "store": 1,
+          "permit": 1,
+          "manifest": 1,
+          "qual": 0,
+          "obs": 2,
+          "closed": 1,
+          "child": 0,
+          "attempts": 1,
+          "armed": 0,
+          "dup": 0,
+          "stale_permit": 0,
+          "stale_manifest": 1,
+          "false_complete": 0,
+          "terminal": 0
+        },
+        "depth": 7
+      }
+    },
+    "no_A4_atomic_admission": {
+      "result": "sat",
+      "counterexample": {
+        "trace": [
+          "start",
+          "fail_original",
+          "wait",
+          "query_faithful",
+          "qualify",
+          "retry_check",
+          "revoke",
+          "retry_write"
+        ],
+        "state": {
+          "phase": 3,
+          "store": 1,
+          "permit": 0,
+          "manifest": 0,
+          "qual": 0,
+          "obs": 2,
+          "closed": 1,
+          "child": 0,
+          "attempts": 1,
+          "armed": 0,
+          "dup": 0,
+          "stale_permit": 1,
+          "stale_manifest": 0,
+          "false_complete": 0,
+          "terminal": 0
+        },
+        "depth": 8
+      }
+    }
+  },
+  "base": {
+    "result": "unsat"
+  },
+  "summary": {
+    "expected": {
+      "T1": true,
+      "T2": true,
+      "T3": true,
+      "T4": true,
+      "all_safe": true,
+      "base": true,
+      "each_ablation_sat": true
+    },
+    "status": "pass"
+  }
+}
