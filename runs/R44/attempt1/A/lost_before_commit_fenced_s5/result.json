@@ -1,0 +1,36 @@
+{
+  "scenario": "A",
+  "fault": "lost_before_commit",
+  "policy": "fenced",
+  "seed": 5,
+  "workflow": "A_lost_before_commit_fenced_S5",
+  "terminal": "complete",
+  "rows": {
+    "create": 1,
+    "reserve": 1,
+    "attach": 1,
+    "commit": 1,
+    "notify": 1
+  },
+  "stale": {
+    "create": 0,
+    "reserve": 0,
+    "attach": 0,
+    "commit": 0,
+    "notify": 0
+  },
+  "deduplicated": {
+    "create": 0,
+    "reserve": 0,
+    "attach": 0,
+    "commit": 0,
+    "notify": 0
+  },
+  "duplicates": 0,
+  "completed": true,
+  "safe": true,
+  "rejected": 0,
+  "requests": 22,
+  "bytes": 36864,
+  "elapsed_ns": 724896900
+}

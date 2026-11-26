@@ -1,0 +1,57 @@
+{
+  "A_lost_before_commit_dedup_versioned_S8": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0,
+        "intents": [
+          "ticket:attach"
+        ]
+      },
+      "commit": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0,
+        "intents": [
+          "ticket:commit"
+        ]
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0,
+        "intents": [
+          "ticket:create"
+        ]
+      },
+      "notify": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0,
+        "intents": [
+          "ticket:notify"
+        ]
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0,
+        "intents": [
+          "ticket:reserve"
+        ]
+      }
+    },
+    "rejected": 0
+  }
+}
