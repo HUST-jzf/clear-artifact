@@ -1,0 +1,9 @@
+{
+  "base_url": "http://127.0.0.1:59732",
+  "pid": 34812,
+  "returncode": 0,
+  "idempotency": "on",
+  "lifecycle": "lost",
+  "query": "forged",
+  "campaign": "forged"
+}
