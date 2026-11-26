@@ -1,0 +1,5 @@
+Temporal CLI 1.9.1 (Server 1.32.0, UI 2.54.1)
+
+Temporal Server:      localhost:17233
+Temporal Persistence: F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\attempt3\temporal.db
+Temporal Metrics:     http://localhost:52927/metrics

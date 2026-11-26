@@ -1,0 +1,113 @@
+{
+  "intent_change_blind_R3": {
+    "steps": {
+      "attach": {
+        "rows": 2,
+        "stale": 0,
+        "committed": 2,
+        "provisional": 0,
+        "intents": [
+          "ticket:attach:12A",
+          "ticket:attach:14C"
+        ]
+      },
+      "commit": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "intents": [
+          "ticket:commit"
+        ]
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "intents": [
+          "ticket:create"
+        ]
+      },
+      "notify": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "intents": [
+          "ticket:notify"
+        ]
+      },
+      "reserve": {
+        "rows": 2,
+        "stale": 0,
+        "committed": 2,
+        "provisional": 0,
+        "intents": [
+          "ticket:reserve:12A",
+          "ticket:reserve:14C"
+        ]
+      }
+    },
+    "ops": [
+      {
+        "step": "attach",
+        "op": "intent_change_blind_R3:attach",
+        "rows": 2,
+        "stale": 0,
+        "committed": 2,
+        "provisional": 0,
+        "intents": [
+          "ticket:attach:12A",
+          "ticket:attach:14C"
+        ]
+      },
+      {
+        "step": "commit",
+        "op": "intent_change_blind_R3:commit",
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "intents": [
+          "ticket:commit"
+        ]
+      },
+      {
+        "step": "create",
+        "op": "intent_change_blind_R3:create",
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "intents": [
+          "ticket:create"
+        ]
+      },
+      {
+        "step": "notify",
+        "op": "intent_change_blind_R3:notify",
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "intents": [
+          "ticket:notify"
+        ]
+      },
+      {
+        "step": "reserve",
+        "op": "intent_change_blind_R3:reserve",
+        "rows": 2,
+        "stale": 0,
+        "committed": 2,
+        "provisional": 0,
+        "intents": [
+          "ticket:reserve:12A",
+          "ticket:reserve:14C"
+        ]
+      }
+    ],
+    "rejected": 0
+  }
+}

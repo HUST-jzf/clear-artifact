@@ -1,0 +1,35 @@
+{
+  "files": {
+    "docs/R40_intent_change_pause_repair_protocol.md": "25000e97c82521bc362a99c27b578f9225a599c36f2a6c9092f4121d4ccbdf42",
+    "scripts/r40_agent.py": "3e9014f40eba9c6225ce6906fa65b43715846ac614c22faeacb2a9f3a293f55b",
+    "scripts/r40_client.py": "137d976dc1f4de5c3140e551bf1edd4c8f2b0e5765d00f39108222206fc41248",
+    "scripts/r40_service.py": "2109f3233f72b49c8ba144fd78f201df99af56a8b9845e7f2f0e18db122e93c7",
+    "scripts/run_r40.py": "feac05c63f29da9554df28af34a2e6123772d43930644d86240b89fffa487fb5",
+    "scripts/verify_r40.py": "a119d8b3405daa5c630c382da743bb26718a11686a87800f894ae5893dee1bf1"
+  },
+  "scenarios": [
+    "intent_change",
+    "no_fence_repair"
+  ],
+  "guards": [
+    "blind",
+    "evidence",
+    "clear"
+  ],
+  "runs": 6,
+  "model": "deepseek-flash",
+  "temperature": 0.7,
+  "max_tokens": 300,
+  "max_turns": 20,
+  "drain_seconds": 6.0,
+  "faults": {
+    "intent_change": [
+      "lost_return",
+      1.0
+    ],
+    "no_fence_repair": null
+  },
+  "python": "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R1_anyio\\env\\Scripts\\python.exe",
+  "python_version": "3.13.2",
+  "created_ns": 1792648835794733200
+}
