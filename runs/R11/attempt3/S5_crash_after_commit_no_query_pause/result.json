@@ -1,0 +1,39 @@
+{
+  "policy": "pause",
+  "context": {
+    "operation_id": "S5_crash_after_commit_no_query_pause",
+    "intent": "03aef85917ac2c869c5d99c33c9c9a4cd9cbb62e6f0a9a6f6e35be0f2fa7b8fc",
+    "generation": 1
+  },
+  "origin": {
+    "context": {
+      "operation_id": "S5_crash_after_commit_no_query_pause",
+      "intent": "03aef85917ac2c869c5d99c33c9c9a4cd9cbb62e6f0a9a6f6e35be0f2fa7b8fc",
+      "generation": 1
+    },
+    "manifest": {
+      "adapter": "local_subprocess_json",
+      "version": "r11",
+      "python": "3.13.2",
+      "worker_sha256": "e66a82c9a6f893db8c04829ab0f28a4bb2b91c1b3c275d0fa9b388a6da39d9fc",
+      "route_sha256": "772c140d3c6b112d09863654ea106a39c5071c811d910c33d4de7d692cdc56b0"
+    },
+    "namespace": "effects"
+  },
+  "initial_observations": [
+    {
+      "action": "append",
+      "phase": "initial",
+      "attempt": 1,
+      "outcome": "lost_return",
+      "timeout": 0.07
+    }
+  ],
+  "terminal": "pause",
+  "reason": "single_pause",
+  "events": [],
+  "steps": [],
+  "case": "crash_after_commit_no_query",
+  "seed": 5,
+  "elapsed_ns": 229756100
+}
