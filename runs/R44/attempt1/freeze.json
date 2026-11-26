@@ -1,0 +1,57 @@
+{
+  "files": {
+    "docs/R44_equal_capability_protocol.md": "8557734320e826fb83646f56c17de1e366730bfb6e32cd3ad322506fa1a32cb7",
+    "scripts/r44_service.py": "a6c5d4bd4b4f640fe1f151e61b69faa41c3cf7496f57b11173f5fb2cd68c47fc",
+    "scripts/r44_client.py": "982d9d12101a8da531a8be723d63ee75909714aa2e3df444fe93b0467ea6205a",
+    "scripts/run_r44.py": "70a0ddb6ca65197e8306f5680ca40c7d484c7a45f18af5bbed66cbea7c623983",
+    "scripts/verify_r44.py": "46a712ea64fda6468240f8601aaefc700013f5777e1c8f7f1d66e50e4b62bb1b"
+  },
+  "faults": [
+    "lost_return",
+    "late_effect",
+    "lost_before_commit"
+  ],
+  "policies_a": [
+    "fenced",
+    "dedup_versioned",
+    "dedup_fresh"
+  ],
+  "policies_b": [
+    "fenced",
+    "dedup_versioned",
+    "dedup_unversioned"
+  ],
+  "seeds_a": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "seeds_b": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "python": "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R17\\env\\Scripts\\python.exe",
+  "python_version": "3.13.2",
+  "created_ns": 1792665774145244900
+}

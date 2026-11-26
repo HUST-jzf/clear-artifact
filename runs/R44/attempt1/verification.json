@@ -1,0 +1,28 @@
+{
+  "checks": 49,
+  "passed": 49,
+  "status": "pass",
+  "metrics": {
+    "a": {
+      "fenced": {
+        "requests": 22.0,
+        "bytes": 36864.0,
+        "elapsed_ms": 538.51945
+      },
+      "dedup_versioned": {
+        "requests": 14.0,
+        "bytes": 28672.0,
+        "elapsed_ms": 481.19685000000004
+      }
+    },
+    "b": {
+      "fenced": {
+        "requests": 8.0
+      },
+      "dedup_versioned": {
+        "requests": 6.0
+      }
+    }
+  },
+  "failed": []
+}

@@ -1,0 +1,18 @@
+{
+  "scenario": "B",
+  "policy": "dedup_versioned",
+  "seed": 2,
+  "workflow": "B_dedup_versioned_S2",
+  "old_terminal": "complete",
+  "new_terminal": "complete",
+  "total_rows": 2,
+  "intents": [
+    "seat:12A",
+    "seat:14C"
+  ],
+  "binding_ok": true,
+  "false_complete": false,
+  "requests": 6,
+  "bytes": 28672,
+  "elapsed_ns": 320008000
+}

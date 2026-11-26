@@ -1,0 +1,18 @@
+{
+  "B_dedup_versioned_S5": {
+    "steps": {
+      "attach": {
+        "rows": 2,
+        "stale": 0,
+        "committed": 2,
+        "provisional": 0,
+        "duplicates": 0,
+        "intents": [
+          "seat:12A",
+          "seat:14C"
+        ]
+      }
+    },
+    "rejected": 0
+  }
+}

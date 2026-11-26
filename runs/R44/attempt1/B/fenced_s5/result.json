@@ -1,0 +1,18 @@
+{
+  "scenario": "B",
+  "policy": "fenced",
+  "seed": 5,
+  "workflow": "B_fenced_S5",
+  "old_terminal": "complete",
+  "new_terminal": "complete",
+  "total_rows": 2,
+  "intents": [
+    "seat:12A",
+    "seat:14C"
+  ],
+  "binding_ok": true,
+  "false_complete": false,
+  "requests": 8,
+  "bytes": 36864,
+  "elapsed_ns": 440716500
+}

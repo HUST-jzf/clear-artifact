@@ -1,0 +1,6803 @@
+{
+  "tasks": [
+    {
+      "scenario": "A",
+      "fault": "lost_return",
+      "policy": "fenced",
+      "seed": 1,
+      "workflow": "A_lost_return_fenced_S1",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 19,
+      "bytes": 36864,
+      "elapsed_ns": 494217300
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_return",
+      "policy": "fenced",
+      "seed": 2,
+      "workflow": "A_lost_return_fenced_S2",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 19,
+      "bytes": 36864,
+      "elapsed_ns": 477696500
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_return",
+      "policy": "fenced",
+      "seed": 3,
+      "workflow": "A_lost_return_fenced_S3",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 19,
+      "bytes": 36864,
+      "elapsed_ns": 518010500
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_return",
+      "policy": "fenced",
+      "seed": 4,
+      "workflow": "A_lost_return_fenced_S4",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 19,
+      "bytes": 36864,
+      "elapsed_ns": 624630500
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_return",
+      "policy": "fenced",
+      "seed": 5,
+      "workflow": "A_lost_return_fenced_S5",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 19,
+      "bytes": 36864,
+      "elapsed_ns": 519899000
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_return",
+      "policy": "fenced",
+      "seed": 6,
+      "workflow": "A_lost_return_fenced_S6",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 19,
+      "bytes": 36864,
+      "elapsed_ns": 405120600
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_return",
+      "policy": "fenced",
+      "seed": 7,
+      "workflow": "A_lost_return_fenced_S7",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 19,
+      "bytes": 36864,
+      "elapsed_ns": 390458200
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_return",
+      "policy": "fenced",
+      "seed": 8,
+      "workflow": "A_lost_return_fenced_S8",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 19,
+      "bytes": 36864,
+      "elapsed_ns": 484017000
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_return",
+      "policy": "fenced",
+      "seed": 9,
+      "workflow": "A_lost_return_fenced_S9",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 19,
+      "bytes": 36864,
+      "elapsed_ns": 472317500
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_return",
+      "policy": "fenced",
+      "seed": 10,
+      "workflow": "A_lost_return_fenced_S10",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 19,
+      "bytes": 36864,
+      "elapsed_ns": 648389700
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_return",
+      "policy": "fenced",
+      "seed": 11,
+      "workflow": "A_lost_return_fenced_S11",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 19,
+      "bytes": 36864,
+      "elapsed_ns": 353991800
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_return",
+      "policy": "fenced",
+      "seed": 12,
+      "workflow": "A_lost_return_fenced_S12",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 19,
+      "bytes": 36864,
+      "elapsed_ns": 489200800
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_return",
+      "policy": "fenced",
+      "seed": 13,
+      "workflow": "A_lost_return_fenced_S13",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 19,
+      "bytes": 36864,
+      "elapsed_ns": 346936500
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_return",
+      "policy": "fenced",
+      "seed": 14,
+      "workflow": "A_lost_return_fenced_S14",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 19,
+      "bytes": 36864,
+      "elapsed_ns": 384355300
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_return",
+      "policy": "fenced",
+      "seed": 15,
+      "workflow": "A_lost_return_fenced_S15",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 19,
+      "bytes": 36864,
+      "elapsed_ns": 534988900
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_return",
+      "policy": "fenced",
+      "seed": 16,
+      "workflow": "A_lost_return_fenced_S16",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 19,
+      "bytes": 36864,
+      "elapsed_ns": 482375400
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_return",
+      "policy": "fenced",
+      "seed": 17,
+      "workflow": "A_lost_return_fenced_S17",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 19,
+      "bytes": 36864,
+      "elapsed_ns": 672096600
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_return",
+      "policy": "fenced",
+      "seed": 18,
+      "workflow": "A_lost_return_fenced_S18",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 19,
+      "bytes": 36864,
+      "elapsed_ns": 407573000
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_return",
+      "policy": "fenced",
+      "seed": 19,
+      "workflow": "A_lost_return_fenced_S19",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 19,
+      "bytes": 36864,
+      "elapsed_ns": 346630500
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_return",
+      "policy": "fenced",
+      "seed": 20,
+      "workflow": "A_lost_return_fenced_S20",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 19,
+      "bytes": 36864,
+      "elapsed_ns": 325711800
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_return",
+      "policy": "dedup_versioned",
+      "seed": 1,
+      "workflow": "A_lost_return_dedup_versioned_S1",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 1,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 353830700
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_return",
+      "policy": "dedup_versioned",
+      "seed": 2,
+      "workflow": "A_lost_return_dedup_versioned_S2",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 1,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 354132700
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_return",
+      "policy": "dedup_versioned",
+      "seed": 3,
+      "workflow": "A_lost_return_dedup_versioned_S3",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 1,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 351250200
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_return",
+      "policy": "dedup_versioned",
+      "seed": 4,
+      "workflow": "A_lost_return_dedup_versioned_S4",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 1,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 484399200
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_return",
+      "policy": "dedup_versioned",
+      "seed": 5,
+      "workflow": "A_lost_return_dedup_versioned_S5",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 1,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 522789400
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_return",
+      "policy": "dedup_versioned",
+      "seed": 6,
+      "workflow": "A_lost_return_dedup_versioned_S6",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 1,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 488856400
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_return",
+      "policy": "dedup_versioned",
+      "seed": 7,
+      "workflow": "A_lost_return_dedup_versioned_S7",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 1,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 344234200
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_return",
+      "policy": "dedup_versioned",
+      "seed": 8,
+      "workflow": "A_lost_return_dedup_versioned_S8",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 1,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 301891400
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_return",
+      "policy": "dedup_versioned",
+      "seed": 9,
+      "workflow": "A_lost_return_dedup_versioned_S9",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 1,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 355960900
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_return",
+      "policy": "dedup_versioned",
+      "seed": 10,
+      "workflow": "A_lost_return_dedup_versioned_S10",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 1,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 382220700
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_return",
+      "policy": "dedup_versioned",
+      "seed": 11,
+      "workflow": "A_lost_return_dedup_versioned_S11",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 1,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 330604600
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_return",
+      "policy": "dedup_versioned",
+      "seed": 12,
+      "workflow": "A_lost_return_dedup_versioned_S12",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 1,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 353027700
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_return",
+      "policy": "dedup_versioned",
+      "seed": 13,
+      "workflow": "A_lost_return_dedup_versioned_S13",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 1,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 304158900
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_return",
+      "policy": "dedup_versioned",
+      "seed": 14,
+      "workflow": "A_lost_return_dedup_versioned_S14",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 1,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 432051600
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_return",
+      "policy": "dedup_versioned",
+      "seed": 15,
+      "workflow": "A_lost_return_dedup_versioned_S15",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 1,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 548502300
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_return",
+      "policy": "dedup_versioned",
+      "seed": 16,
+      "workflow": "A_lost_return_dedup_versioned_S16",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 1,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 489099800
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_return",
+      "policy": "dedup_versioned",
+      "seed": 17,
+      "workflow": "A_lost_return_dedup_versioned_S17",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 1,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 522060500
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_return",
+      "policy": "dedup_versioned",
+      "seed": 18,
+      "workflow": "A_lost_return_dedup_versioned_S18",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 1,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 377437200
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_return",
+      "policy": "dedup_versioned",
+      "seed": 19,
+      "workflow": "A_lost_return_dedup_versioned_S19",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 1,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 368397800
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_return",
+      "policy": "dedup_versioned",
+      "seed": 20,
+      "workflow": "A_lost_return_dedup_versioned_S20",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 1,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 384600400
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_return",
+      "policy": "dedup_fresh",
+      "seed": 1,
+      "workflow": "A_lost_return_dedup_fresh_S1",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 2,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 1,
+      "completed": true,
+      "safe": false,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 343223300
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_return",
+      "policy": "dedup_fresh",
+      "seed": 2,
+      "workflow": "A_lost_return_dedup_fresh_S2",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 2,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 1,
+      "completed": true,
+      "safe": false,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 451081900
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_return",
+      "policy": "dedup_fresh",
+      "seed": 3,
+      "workflow": "A_lost_return_dedup_fresh_S3",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 2,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 1,
+      "completed": true,
+      "safe": false,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 547179200
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_return",
+      "policy": "dedup_fresh",
+      "seed": 4,
+      "workflow": "A_lost_return_dedup_fresh_S4",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 2,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 1,
+      "completed": true,
+      "safe": false,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 593069600
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_return",
+      "policy": "dedup_fresh",
+      "seed": 5,
+      "workflow": "A_lost_return_dedup_fresh_S5",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 2,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 1,
+      "completed": true,
+      "safe": false,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 454573200
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_return",
+      "policy": "dedup_fresh",
+      "seed": 6,
+      "workflow": "A_lost_return_dedup_fresh_S6",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 2,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 1,
+      "completed": true,
+      "safe": false,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 394413400
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_return",
+      "policy": "dedup_fresh",
+      "seed": 7,
+      "workflow": "A_lost_return_dedup_fresh_S7",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 2,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 1,
+      "completed": true,
+      "safe": false,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 327020900
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_return",
+      "policy": "dedup_fresh",
+      "seed": 8,
+      "workflow": "A_lost_return_dedup_fresh_S8",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 2,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 1,
+      "completed": true,
+      "safe": false,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 345985500
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_return",
+      "policy": "dedup_fresh",
+      "seed": 9,
+      "workflow": "A_lost_return_dedup_fresh_S9",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 2,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 1,
+      "completed": true,
+      "safe": false,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 496590900
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_return",
+      "policy": "dedup_fresh",
+      "seed": 10,
+      "workflow": "A_lost_return_dedup_fresh_S10",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 2,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 1,
+      "completed": true,
+      "safe": false,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 474558700
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_return",
+      "policy": "dedup_fresh",
+      "seed": 11,
+      "workflow": "A_lost_return_dedup_fresh_S11",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 2,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 1,
+      "completed": true,
+      "safe": false,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 558185000
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_return",
+      "policy": "dedup_fresh",
+      "seed": 12,
+      "workflow": "A_lost_return_dedup_fresh_S12",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 2,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 1,
+      "completed": true,
+      "safe": false,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 328367700
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_return",
+      "policy": "dedup_fresh",
+      "seed": 13,
+      "workflow": "A_lost_return_dedup_fresh_S13",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 2,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 1,
+      "completed": true,
+      "safe": false,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 361997700
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_return",
+      "policy": "dedup_fresh",
+      "seed": 14,
+      "workflow": "A_lost_return_dedup_fresh_S14",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 2,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 1,
+      "completed": true,
+      "safe": false,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 348627800
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_return",
+      "policy": "dedup_fresh",
+      "seed": 15,
+      "workflow": "A_lost_return_dedup_fresh_S15",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 2,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 1,
+      "completed": true,
+      "safe": false,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 324503800
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_return",
+      "policy": "dedup_fresh",
+      "seed": 16,
+      "workflow": "A_lost_return_dedup_fresh_S16",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 2,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 1,
+      "completed": true,
+      "safe": false,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 433375400
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_return",
+      "policy": "dedup_fresh",
+      "seed": 17,
+      "workflow": "A_lost_return_dedup_fresh_S17",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 2,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 1,
+      "completed": true,
+      "safe": false,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 572009000
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_return",
+      "policy": "dedup_fresh",
+      "seed": 18,
+      "workflow": "A_lost_return_dedup_fresh_S18",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 2,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 1,
+      "completed": true,
+      "safe": false,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 568825500
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_return",
+      "policy": "dedup_fresh",
+      "seed": 19,
+      "workflow": "A_lost_return_dedup_fresh_S19",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 2,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 1,
+      "completed": true,
+      "safe": false,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 399827300
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_return",
+      "policy": "dedup_fresh",
+      "seed": 20,
+      "workflow": "A_lost_return_dedup_fresh_S20",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 2,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 1,
+      "completed": true,
+      "safe": false,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 361367700
+    },
+    {
+      "scenario": "A",
+      "fault": "late_effect",
+      "policy": "fenced",
+      "seed": 1,
+      "workflow": "A_late_effect_fenced_S1",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 1,
+      "requests": 22,
+      "bytes": 36864,
+      "elapsed_ns": 1775135200
+    },
+    {
+      "scenario": "A",
+      "fault": "late_effect",
+      "policy": "fenced",
+      "seed": 2,
+      "workflow": "A_late_effect_fenced_S2",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 1,
+      "requests": 22,
+      "bytes": 36864,
+      "elapsed_ns": 1842583800
+    },
+    {
+      "scenario": "A",
+      "fault": "late_effect",
+      "policy": "fenced",
+      "seed": 3,
+      "workflow": "A_late_effect_fenced_S3",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 1,
+      "requests": 22,
+      "bytes": 36864,
+      "elapsed_ns": 1620942100
+    },
+    {
+      "scenario": "A",
+      "fault": "late_effect",
+      "policy": "fenced",
+      "seed": 4,
+      "workflow": "A_late_effect_fenced_S4",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 1,
+      "requests": 22,
+      "bytes": 36864,
+      "elapsed_ns": 1792039600
+    },
+    {
+      "scenario": "A",
+      "fault": "late_effect",
+      "policy": "fenced",
+      "seed": 5,
+      "workflow": "A_late_effect_fenced_S5",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 1,
+      "requests": 22,
+      "bytes": 36864,
+      "elapsed_ns": 1587453700
+    },
+    {
+      "scenario": "A",
+      "fault": "late_effect",
+      "policy": "fenced",
+      "seed": 6,
+      "workflow": "A_late_effect_fenced_S6",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 1,
+      "requests": 22,
+      "bytes": 36864,
+      "elapsed_ns": 1678460600
+    },
+    {
+      "scenario": "A",
+      "fault": "late_effect",
+      "policy": "fenced",
+      "seed": 7,
+      "workflow": "A_late_effect_fenced_S7",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 1,
+      "requests": 22,
+      "bytes": 36864,
+      "elapsed_ns": 1650357500
+    },
+    {
+      "scenario": "A",
+      "fault": "late_effect",
+      "policy": "fenced",
+      "seed": 8,
+      "workflow": "A_late_effect_fenced_S8",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 1,
+      "requests": 22,
+      "bytes": 36864,
+      "elapsed_ns": 1917174400
+    },
+    {
+      "scenario": "A",
+      "fault": "late_effect",
+      "policy": "fenced",
+      "seed": 9,
+      "workflow": "A_late_effect_fenced_S9",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 1,
+      "requests": 22,
+      "bytes": 36864,
+      "elapsed_ns": 1539118800
+    },
+    {
+      "scenario": "A",
+      "fault": "late_effect",
+      "policy": "fenced",
+      "seed": 10,
+      "workflow": "A_late_effect_fenced_S10",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 1,
+      "requests": 22,
+      "bytes": 36864,
+      "elapsed_ns": 1595020400
+    },
+    {
+      "scenario": "A",
+      "fault": "late_effect",
+      "policy": "fenced",
+      "seed": 11,
+      "workflow": "A_late_effect_fenced_S11",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 1,
+      "requests": 22,
+      "bytes": 36864,
+      "elapsed_ns": 1801195500
+    },
+    {
+      "scenario": "A",
+      "fault": "late_effect",
+      "policy": "fenced",
+      "seed": 12,
+      "workflow": "A_late_effect_fenced_S12",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 1,
+      "requests": 22,
+      "bytes": 36864,
+      "elapsed_ns": 1626396000
+    },
+    {
+      "scenario": "A",
+      "fault": "late_effect",
+      "policy": "fenced",
+      "seed": 13,
+      "workflow": "A_late_effect_fenced_S13",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 1,
+      "requests": 22,
+      "bytes": 36864,
+      "elapsed_ns": 1703731400
+    },
+    {
+      "scenario": "A",
+      "fault": "late_effect",
+      "policy": "fenced",
+      "seed": 14,
+      "workflow": "A_late_effect_fenced_S14",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 1,
+      "requests": 22,
+      "bytes": 36864,
+      "elapsed_ns": 1564153100
+    },
+    {
+      "scenario": "A",
+      "fault": "late_effect",
+      "policy": "fenced",
+      "seed": 15,
+      "workflow": "A_late_effect_fenced_S15",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 1,
+      "requests": 22,
+      "bytes": 36864,
+      "elapsed_ns": 1790990900
+    },
+    {
+      "scenario": "A",
+      "fault": "late_effect",
+      "policy": "fenced",
+      "seed": 16,
+      "workflow": "A_late_effect_fenced_S16",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 1,
+      "requests": 22,
+      "bytes": 36864,
+      "elapsed_ns": 1554180200
+    },
+    {
+      "scenario": "A",
+      "fault": "late_effect",
+      "policy": "fenced",
+      "seed": 17,
+      "workflow": "A_late_effect_fenced_S17",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 1,
+      "requests": 22,
+      "bytes": 36864,
+      "elapsed_ns": 1723227700
+    },
+    {
+      "scenario": "A",
+      "fault": "late_effect",
+      "policy": "fenced",
+      "seed": 18,
+      "workflow": "A_late_effect_fenced_S18",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 1,
+      "requests": 22,
+      "bytes": 36864,
+      "elapsed_ns": 1520538100
+    },
+    {
+      "scenario": "A",
+      "fault": "late_effect",
+      "policy": "fenced",
+      "seed": 19,
+      "workflow": "A_late_effect_fenced_S19",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 1,
+      "requests": 22,
+      "bytes": 36864,
+      "elapsed_ns": 1560283800
+    },
+    {
+      "scenario": "A",
+      "fault": "late_effect",
+      "policy": "fenced",
+      "seed": 20,
+      "workflow": "A_late_effect_fenced_S20",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 1,
+      "requests": 22,
+      "bytes": 36864,
+      "elapsed_ns": 1661443100
+    },
+    {
+      "scenario": "A",
+      "fault": "late_effect",
+      "policy": "dedup_versioned",
+      "seed": 1,
+      "workflow": "A_late_effect_dedup_versioned_S1",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 1,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 1534250900
+    },
+    {
+      "scenario": "A",
+      "fault": "late_effect",
+      "policy": "dedup_versioned",
+      "seed": 2,
+      "workflow": "A_late_effect_dedup_versioned_S2",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 1,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 1882925000
+    },
+    {
+      "scenario": "A",
+      "fault": "late_effect",
+      "policy": "dedup_versioned",
+      "seed": 3,
+      "workflow": "A_late_effect_dedup_versioned_S3",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 1,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 1655234600
+    },
+    {
+      "scenario": "A",
+      "fault": "late_effect",
+      "policy": "dedup_versioned",
+      "seed": 4,
+      "workflow": "A_late_effect_dedup_versioned_S4",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 1,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 1787657600
+    },
+    {
+      "scenario": "A",
+      "fault": "late_effect",
+      "policy": "dedup_versioned",
+      "seed": 5,
+      "workflow": "A_late_effect_dedup_versioned_S5",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 1,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 1499354900
+    },
+    {
+      "scenario": "A",
+      "fault": "late_effect",
+      "policy": "dedup_versioned",
+      "seed": 6,
+      "workflow": "A_late_effect_dedup_versioned_S6",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 1,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 1644034300
+    },
+    {
+      "scenario": "A",
+      "fault": "late_effect",
+      "policy": "dedup_versioned",
+      "seed": 7,
+      "workflow": "A_late_effect_dedup_versioned_S7",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 1,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 1538200800
+    },
+    {
+      "scenario": "A",
+      "fault": "late_effect",
+      "policy": "dedup_versioned",
+      "seed": 8,
+      "workflow": "A_late_effect_dedup_versioned_S8",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 1,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 1565392700
+    },
+    {
+      "scenario": "A",
+      "fault": "late_effect",
+      "policy": "dedup_versioned",
+      "seed": 9,
+      "workflow": "A_late_effect_dedup_versioned_S9",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 1,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 1572159300
+    },
+    {
+      "scenario": "A",
+      "fault": "late_effect",
+      "policy": "dedup_versioned",
+      "seed": 10,
+      "workflow": "A_late_effect_dedup_versioned_S10",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 1,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 1592371600
+    },
+    {
+      "scenario": "A",
+      "fault": "late_effect",
+      "policy": "dedup_versioned",
+      "seed": 11,
+      "workflow": "A_late_effect_dedup_versioned_S11",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 1,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 1562165500
+    },
+    {
+      "scenario": "A",
+      "fault": "late_effect",
+      "policy": "dedup_versioned",
+      "seed": 12,
+      "workflow": "A_late_effect_dedup_versioned_S12",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 1,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 1559730800
+    },
+    {
+      "scenario": "A",
+      "fault": "late_effect",
+      "policy": "dedup_versioned",
+      "seed": 13,
+      "workflow": "A_late_effect_dedup_versioned_S13",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 1,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 1592571100
+    },
+    {
+      "scenario": "A",
+      "fault": "late_effect",
+      "policy": "dedup_versioned",
+      "seed": 14,
+      "workflow": "A_late_effect_dedup_versioned_S14",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 1,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 1576271400
+    },
+    {
+      "scenario": "A",
+      "fault": "late_effect",
+      "policy": "dedup_versioned",
+      "seed": 15,
+      "workflow": "A_late_effect_dedup_versioned_S15",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 1,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 1581667200
+    },
+    {
+      "scenario": "A",
+      "fault": "late_effect",
+      "policy": "dedup_versioned",
+      "seed": 16,
+      "workflow": "A_late_effect_dedup_versioned_S16",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 1,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 1572185200
+    },
+    {
+      "scenario": "A",
+      "fault": "late_effect",
+      "policy": "dedup_versioned",
+      "seed": 17,
+      "workflow": "A_late_effect_dedup_versioned_S17",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 1,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 1560521000
+    },
+    {
+      "scenario": "A",
+      "fault": "late_effect",
+      "policy": "dedup_versioned",
+      "seed": 18,
+      "workflow": "A_late_effect_dedup_versioned_S18",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 1,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 1705501200
+    },
+    {
+      "scenario": "A",
+      "fault": "late_effect",
+      "policy": "dedup_versioned",
+      "seed": 19,
+      "workflow": "A_late_effect_dedup_versioned_S19",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 1,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 1566346200
+    },
+    {
+      "scenario": "A",
+      "fault": "late_effect",
+      "policy": "dedup_versioned",
+      "seed": 20,
+      "workflow": "A_late_effect_dedup_versioned_S20",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 1,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 1531898300
+    },
+    {
+      "scenario": "A",
+      "fault": "late_effect",
+      "policy": "dedup_fresh",
+      "seed": 1,
+      "workflow": "A_late_effect_dedup_fresh_S1",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 2,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 1,
+      "completed": true,
+      "safe": false,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 1583676200
+    },
+    {
+      "scenario": "A",
+      "fault": "late_effect",
+      "policy": "dedup_fresh",
+      "seed": 2,
+      "workflow": "A_late_effect_dedup_fresh_S2",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 2,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 1,
+      "completed": true,
+      "safe": false,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 1737856600
+    },
+    {
+      "scenario": "A",
+      "fault": "late_effect",
+      "policy": "dedup_fresh",
+      "seed": 3,
+      "workflow": "A_late_effect_dedup_fresh_S3",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 2,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 1,
+      "completed": true,
+      "safe": false,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 1614275400
+    },
+    {
+      "scenario": "A",
+      "fault": "late_effect",
+      "policy": "dedup_fresh",
+      "seed": 4,
+      "workflow": "A_late_effect_dedup_fresh_S4",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 2,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 1,
+      "completed": true,
+      "safe": false,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 1685049400
+    },
+    {
+      "scenario": "A",
+      "fault": "late_effect",
+      "policy": "dedup_fresh",
+      "seed": 5,
+      "workflow": "A_late_effect_dedup_fresh_S5",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 2,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 1,
+      "completed": true,
+      "safe": false,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 1596719700
+    },
+    {
+      "scenario": "A",
+      "fault": "late_effect",
+      "policy": "dedup_fresh",
+      "seed": 6,
+      "workflow": "A_late_effect_dedup_fresh_S6",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 2,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 1,
+      "completed": true,
+      "safe": false,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 1784130900
+    },
+    {
+      "scenario": "A",
+      "fault": "late_effect",
+      "policy": "dedup_fresh",
+      "seed": 7,
+      "workflow": "A_late_effect_dedup_fresh_S7",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 2,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 1,
+      "completed": true,
+      "safe": false,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 1596240700
+    },
+    {
+      "scenario": "A",
+      "fault": "late_effect",
+      "policy": "dedup_fresh",
+      "seed": 8,
+      "workflow": "A_late_effect_dedup_fresh_S8",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 2,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 1,
+      "completed": true,
+      "safe": false,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 1574398100
+    },
+    {
+      "scenario": "A",
+      "fault": "late_effect",
+      "policy": "dedup_fresh",
+      "seed": 9,
+      "workflow": "A_late_effect_dedup_fresh_S9",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 2,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 1,
+      "completed": true,
+      "safe": false,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 1608616400
+    },
+    {
+      "scenario": "A",
+      "fault": "late_effect",
+      "policy": "dedup_fresh",
+      "seed": 10,
+      "workflow": "A_late_effect_dedup_fresh_S10",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 2,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 1,
+      "completed": true,
+      "safe": false,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 1635281900
+    },
+    {
+      "scenario": "A",
+      "fault": "late_effect",
+      "policy": "dedup_fresh",
+      "seed": 11,
+      "workflow": "A_late_effect_dedup_fresh_S11",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 2,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 1,
+      "completed": true,
+      "safe": false,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 1607831700
+    },
+    {
+      "scenario": "A",
+      "fault": "late_effect",
+      "policy": "dedup_fresh",
+      "seed": 12,
+      "workflow": "A_late_effect_dedup_fresh_S12",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 2,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 1,
+      "completed": true,
+      "safe": false,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 1544216100
+    },
+    {
+      "scenario": "A",
+      "fault": "late_effect",
+      "policy": "dedup_fresh",
+      "seed": 13,
+      "workflow": "A_late_effect_dedup_fresh_S13",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 2,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 1,
+      "completed": true,
+      "safe": false,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 1755313500
+    },
+    {
+      "scenario": "A",
+      "fault": "late_effect",
+      "policy": "dedup_fresh",
+      "seed": 14,
+      "workflow": "A_late_effect_dedup_fresh_S14",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 2,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 1,
+      "completed": true,
+      "safe": false,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 1594170600
+    },
+    {
+      "scenario": "A",
+      "fault": "late_effect",
+      "policy": "dedup_fresh",
+      "seed": 15,
+      "workflow": "A_late_effect_dedup_fresh_S15",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 2,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 1,
+      "completed": true,
+      "safe": false,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 1572761200
+    },
+    {
+      "scenario": "A",
+      "fault": "late_effect",
+      "policy": "dedup_fresh",
+      "seed": 16,
+      "workflow": "A_late_effect_dedup_fresh_S16",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 2,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 1,
+      "completed": true,
+      "safe": false,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 1622865300
+    },
+    {
+      "scenario": "A",
+      "fault": "late_effect",
+      "policy": "dedup_fresh",
+      "seed": 17,
+      "workflow": "A_late_effect_dedup_fresh_S17",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 2,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 1,
+      "completed": true,
+      "safe": false,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 1900204300
+    },
+    {
+      "scenario": "A",
+      "fault": "late_effect",
+      "policy": "dedup_fresh",
+      "seed": 18,
+      "workflow": "A_late_effect_dedup_fresh_S18",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 2,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 1,
+      "completed": true,
+      "safe": false,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 1711499800
+    },
+    {
+      "scenario": "A",
+      "fault": "late_effect",
+      "policy": "dedup_fresh",
+      "seed": 19,
+      "workflow": "A_late_effect_dedup_fresh_S19",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 2,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 1,
+      "completed": true,
+      "safe": false,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 1566047000
+    },
+    {
+      "scenario": "A",
+      "fault": "late_effect",
+      "policy": "dedup_fresh",
+      "seed": 20,
+      "workflow": "A_late_effect_dedup_fresh_S20",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 2,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 1,
+      "completed": true,
+      "safe": false,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 1683522200
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_before_commit",
+      "policy": "fenced",
+      "seed": 1,
+      "workflow": "A_lost_before_commit_fenced_S1",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 22,
+      "bytes": 36864,
+      "elapsed_ns": 387640300
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_before_commit",
+      "policy": "fenced",
+      "seed": 2,
+      "workflow": "A_lost_before_commit_fenced_S2",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 22,
+      "bytes": 36864,
+      "elapsed_ns": 405930400
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_before_commit",
+      "policy": "fenced",
+      "seed": 3,
+      "workflow": "A_lost_before_commit_fenced_S3",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 22,
+      "bytes": 36864,
+      "elapsed_ns": 378374500
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_before_commit",
+      "policy": "fenced",
+      "seed": 4,
+      "workflow": "A_lost_before_commit_fenced_S4",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 22,
+      "bytes": 36864,
+      "elapsed_ns": 496477800
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_before_commit",
+      "policy": "fenced",
+      "seed": 5,
+      "workflow": "A_lost_before_commit_fenced_S5",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 22,
+      "bytes": 36864,
+      "elapsed_ns": 724896900
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_before_commit",
+      "policy": "fenced",
+      "seed": 6,
+      "workflow": "A_lost_before_commit_fenced_S6",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 22,
+      "bytes": 36864,
+      "elapsed_ns": 596631100
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_before_commit",
+      "policy": "fenced",
+      "seed": 7,
+      "workflow": "A_lost_before_commit_fenced_S7",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 22,
+      "bytes": 36864,
+      "elapsed_ns": 542050000
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_before_commit",
+      "policy": "fenced",
+      "seed": 8,
+      "workflow": "A_lost_before_commit_fenced_S8",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 22,
+      "bytes": 36864,
+      "elapsed_ns": 391766400
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_before_commit",
+      "policy": "fenced",
+      "seed": 9,
+      "workflow": "A_lost_before_commit_fenced_S9",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 22,
+      "bytes": 36864,
+      "elapsed_ns": 368135100
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_before_commit",
+      "policy": "fenced",
+      "seed": 10,
+      "workflow": "A_lost_before_commit_fenced_S10",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 22,
+      "bytes": 36864,
+      "elapsed_ns": 522707800
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_before_commit",
+      "policy": "fenced",
+      "seed": 11,
+      "workflow": "A_lost_before_commit_fenced_S11",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 22,
+      "bytes": 36864,
+      "elapsed_ns": 506415200
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_before_commit",
+      "policy": "fenced",
+      "seed": 12,
+      "workflow": "A_lost_before_commit_fenced_S12",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 22,
+      "bytes": 36864,
+      "elapsed_ns": 568175900
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_before_commit",
+      "policy": "fenced",
+      "seed": 13,
+      "workflow": "A_lost_before_commit_fenced_S13",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 22,
+      "bytes": 36864,
+      "elapsed_ns": 653716200
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_before_commit",
+      "policy": "fenced",
+      "seed": 14,
+      "workflow": "A_lost_before_commit_fenced_S14",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 22,
+      "bytes": 36864,
+      "elapsed_ns": 636718100
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_before_commit",
+      "policy": "fenced",
+      "seed": 15,
+      "workflow": "A_lost_before_commit_fenced_S15",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 22,
+      "bytes": 36864,
+      "elapsed_ns": 475122800
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_before_commit",
+      "policy": "fenced",
+      "seed": 16,
+      "workflow": "A_lost_before_commit_fenced_S16",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 22,
+      "bytes": 36864,
+      "elapsed_ns": 389079800
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_before_commit",
+      "policy": "fenced",
+      "seed": 17,
+      "workflow": "A_lost_before_commit_fenced_S17",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 22,
+      "bytes": 36864,
+      "elapsed_ns": 406885900
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_before_commit",
+      "policy": "fenced",
+      "seed": 18,
+      "workflow": "A_lost_before_commit_fenced_S18",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 22,
+      "bytes": 36864,
+      "elapsed_ns": 360391400
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_before_commit",
+      "policy": "fenced",
+      "seed": 19,
+      "workflow": "A_lost_before_commit_fenced_S19",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 22,
+      "bytes": 36864,
+      "elapsed_ns": 451816100
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_before_commit",
+      "policy": "fenced",
+      "seed": 20,
+      "workflow": "A_lost_before_commit_fenced_S20",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 22,
+      "bytes": 36864,
+      "elapsed_ns": 578835400
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_before_commit",
+      "policy": "dedup_versioned",
+      "seed": 1,
+      "workflow": "A_lost_before_commit_dedup_versioned_S1",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 449870000
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_before_commit",
+      "policy": "dedup_versioned",
+      "seed": 2,
+      "workflow": "A_lost_before_commit_dedup_versioned_S2",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 477994500
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_before_commit",
+      "policy": "dedup_versioned",
+      "seed": 3,
+      "workflow": "A_lost_before_commit_dedup_versioned_S3",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 355592400
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_before_commit",
+      "policy": "dedup_versioned",
+      "seed": 4,
+      "workflow": "A_lost_before_commit_dedup_versioned_S4",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 365248600
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_before_commit",
+      "policy": "dedup_versioned",
+      "seed": 5,
+      "workflow": "A_lost_before_commit_dedup_versioned_S5",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 335791600
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_before_commit",
+      "policy": "dedup_versioned",
+      "seed": 6,
+      "workflow": "A_lost_before_commit_dedup_versioned_S6",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 317715800
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_before_commit",
+      "policy": "dedup_versioned",
+      "seed": 7,
+      "workflow": "A_lost_before_commit_dedup_versioned_S7",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 588000600
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_before_commit",
+      "policy": "dedup_versioned",
+      "seed": 8,
+      "workflow": "A_lost_before_commit_dedup_versioned_S8",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 643776900
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_before_commit",
+      "policy": "dedup_versioned",
+      "seed": 9,
+      "workflow": "A_lost_before_commit_dedup_versioned_S9",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 495549100
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_before_commit",
+      "policy": "dedup_versioned",
+      "seed": 10,
+      "workflow": "A_lost_before_commit_dedup_versioned_S10",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 351356800
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_before_commit",
+      "policy": "dedup_versioned",
+      "seed": 11,
+      "workflow": "A_lost_before_commit_dedup_versioned_S11",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 377142300
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_before_commit",
+      "policy": "dedup_versioned",
+      "seed": 12,
+      "workflow": "A_lost_before_commit_dedup_versioned_S12",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 427538500
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_before_commit",
+      "policy": "dedup_versioned",
+      "seed": 13,
+      "workflow": "A_lost_before_commit_dedup_versioned_S13",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 603826400
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_before_commit",
+      "policy": "dedup_versioned",
+      "seed": 14,
+      "workflow": "A_lost_before_commit_dedup_versioned_S14",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 445148900
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_before_commit",
+      "policy": "dedup_versioned",
+      "seed": 15,
+      "workflow": "A_lost_before_commit_dedup_versioned_S15",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 452258600
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_before_commit",
+      "policy": "dedup_versioned",
+      "seed": 16,
+      "workflow": "A_lost_before_commit_dedup_versioned_S16",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 474285900
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_before_commit",
+      "policy": "dedup_versioned",
+      "seed": 17,
+      "workflow": "A_lost_before_commit_dedup_versioned_S17",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 390972900
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_before_commit",
+      "policy": "dedup_versioned",
+      "seed": 18,
+      "workflow": "A_lost_before_commit_dedup_versioned_S18",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 399299600
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_before_commit",
+      "policy": "dedup_versioned",
+      "seed": 19,
+      "workflow": "A_lost_before_commit_dedup_versioned_S19",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 445331700
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_before_commit",
+      "policy": "dedup_versioned",
+      "seed": 20,
+      "workflow": "A_lost_before_commit_dedup_versioned_S20",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 417011500
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_before_commit",
+      "policy": "dedup_fresh",
+      "seed": 1,
+      "workflow": "A_lost_before_commit_dedup_fresh_S1",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 480616900
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_before_commit",
+      "policy": "dedup_fresh",
+      "seed": 2,
+      "workflow": "A_lost_before_commit_dedup_fresh_S2",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 641629800
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_before_commit",
+      "policy": "dedup_fresh",
+      "seed": 3,
+      "workflow": "A_lost_before_commit_dedup_fresh_S3",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 439792700
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_before_commit",
+      "policy": "dedup_fresh",
+      "seed": 4,
+      "workflow": "A_lost_before_commit_dedup_fresh_S4",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 374438600
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_before_commit",
+      "policy": "dedup_fresh",
+      "seed": 5,
+      "workflow": "A_lost_before_commit_dedup_fresh_S5",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 360574400
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_before_commit",
+      "policy": "dedup_fresh",
+      "seed": 6,
+      "workflow": "A_lost_before_commit_dedup_fresh_S6",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 377158900
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_before_commit",
+      "policy": "dedup_fresh",
+      "seed": 7,
+      "workflow": "A_lost_before_commit_dedup_fresh_S7",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 368092600
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_before_commit",
+      "policy": "dedup_fresh",
+      "seed": 8,
+      "workflow": "A_lost_before_commit_dedup_fresh_S8",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 304128700
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_before_commit",
+      "policy": "dedup_fresh",
+      "seed": 9,
+      "workflow": "A_lost_before_commit_dedup_fresh_S9",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 359613500
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_before_commit",
+      "policy": "dedup_fresh",
+      "seed": 10,
+      "workflow": "A_lost_before_commit_dedup_fresh_S10",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 475720100
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_before_commit",
+      "policy": "dedup_fresh",
+      "seed": 11,
+      "workflow": "A_lost_before_commit_dedup_fresh_S11",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 625964100
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_before_commit",
+      "policy": "dedup_fresh",
+      "seed": 12,
+      "workflow": "A_lost_before_commit_dedup_fresh_S12",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 572269600
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_before_commit",
+      "policy": "dedup_fresh",
+      "seed": 13,
+      "workflow": "A_lost_before_commit_dedup_fresh_S13",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 365612800
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_before_commit",
+      "policy": "dedup_fresh",
+      "seed": 14,
+      "workflow": "A_lost_before_commit_dedup_fresh_S14",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 371326100
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_before_commit",
+      "policy": "dedup_fresh",
+      "seed": 15,
+      "workflow": "A_lost_before_commit_dedup_fresh_S15",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 443658400
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_before_commit",
+      "policy": "dedup_fresh",
+      "seed": 16,
+      "workflow": "A_lost_before_commit_dedup_fresh_S16",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 446953200
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_before_commit",
+      "policy": "dedup_fresh",
+      "seed": 17,
+      "workflow": "A_lost_before_commit_dedup_fresh_S17",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 451428600
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_before_commit",
+      "policy": "dedup_fresh",
+      "seed": 18,
+      "workflow": "A_lost_before_commit_dedup_fresh_S18",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 371834200
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_before_commit",
+      "policy": "dedup_fresh",
+      "seed": 19,
+      "workflow": "A_lost_before_commit_dedup_fresh_S19",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 312671000
+    },
+    {
+      "scenario": "A",
+      "fault": "lost_before_commit",
+      "policy": "dedup_fresh",
+      "seed": 20,
+      "workflow": "A_lost_before_commit_dedup_fresh_S20",
+      "terminal": "complete",
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "deduplicated": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "duplicates": 0,
+      "completed": true,
+      "safe": true,
+      "rejected": 0,
+      "requests": 14,
+      "bytes": 28672,
+      "elapsed_ns": 292270400
+    },
+    {
+      "scenario": "B",
+      "policy": "fenced",
+      "seed": 1,
+      "workflow": "B_fenced_S1",
+      "old_terminal": "complete",
+      "new_terminal": "complete",
+      "total_rows": 2,
+      "intents": [
+        "seat:12A",
+        "seat:14C"
+      ],
+      "binding_ok": true,
+      "false_complete": false,
+      "requests": 8,
+      "bytes": 36864,
+      "elapsed_ns": 242463600
+    },
+    {
+      "scenario": "B",
+      "policy": "fenced",
+      "seed": 2,
+      "workflow": "B_fenced_S2",
+      "old_terminal": "complete",
+      "new_terminal": "complete",
+      "total_rows": 2,
+      "intents": [
+        "seat:12A",
+        "seat:14C"
+      ],
+      "binding_ok": true,
+      "false_complete": false,
+      "requests": 8,
+      "bytes": 36864,
+      "elapsed_ns": 360802000
+    },
+    {
+      "scenario": "B",
+      "policy": "fenced",
+      "seed": 3,
+      "workflow": "B_fenced_S3",
+      "old_terminal": "complete",
+      "new_terminal": "complete",
+      "total_rows": 2,
+      "intents": [
+        "seat:12A",
+        "seat:14C"
+      ],
+      "binding_ok": true,
+      "false_complete": false,
+      "requests": 8,
+      "bytes": 36864,
+      "elapsed_ns": 317532100
+    },
+    {
+      "scenario": "B",
+      "policy": "fenced",
+      "seed": 4,
+      "workflow": "B_fenced_S4",
+      "old_terminal": "complete",
+      "new_terminal": "complete",
+      "total_rows": 2,
+      "intents": [
+        "seat:12A",
+        "seat:14C"
+      ],
+      "binding_ok": true,
+      "false_complete": false,
+      "requests": 8,
+      "bytes": 36864,
+      "elapsed_ns": 371895000
+    },
+    {
+      "scenario": "B",
+      "policy": "fenced",
+      "seed": 5,
+      "workflow": "B_fenced_S5",
+      "old_terminal": "complete",
+      "new_terminal": "complete",
+      "total_rows": 2,
+      "intents": [
+        "seat:12A",
+        "seat:14C"
+      ],
+      "binding_ok": true,
+      "false_complete": false,
+      "requests": 8,
+      "bytes": 36864,
+      "elapsed_ns": 440716500
+    },
+    {
+      "scenario": "B",
+      "policy": "fenced",
+      "seed": 6,
+      "workflow": "B_fenced_S6",
+      "old_terminal": "complete",
+      "new_terminal": "complete",
+      "total_rows": 2,
+      "intents": [
+        "seat:12A",
+        "seat:14C"
+      ],
+      "binding_ok": true,
+      "false_complete": false,
+      "requests": 8,
+      "bytes": 36864,
+      "elapsed_ns": 461254500
+    },
+    {
+      "scenario": "B",
+      "policy": "dedup_versioned",
+      "seed": 1,
+      "workflow": "B_dedup_versioned_S1",
+      "old_terminal": "complete",
+      "new_terminal": "complete",
+      "total_rows": 2,
+      "intents": [
+        "seat:12A",
+        "seat:14C"
+      ],
+      "binding_ok": true,
+      "false_complete": false,
+      "requests": 6,
+      "bytes": 28672,
+      "elapsed_ns": 254151300
+    },
+    {
+      "scenario": "B",
+      "policy": "dedup_versioned",
+      "seed": 2,
+      "workflow": "B_dedup_versioned_S2",
+      "old_terminal": "complete",
+      "new_terminal": "complete",
+      "total_rows": 2,
+      "intents": [
+        "seat:12A",
+        "seat:14C"
+      ],
+      "binding_ok": true,
+      "false_complete": false,
+      "requests": 6,
+      "bytes": 28672,
+      "elapsed_ns": 320008000
+    },
+    {
+      "scenario": "B",
+      "policy": "dedup_versioned",
+      "seed": 3,
+      "workflow": "B_dedup_versioned_S3",
+      "old_terminal": "complete",
+      "new_terminal": "complete",
+      "total_rows": 2,
+      "intents": [
+        "seat:12A",
+        "seat:14C"
+      ],
+      "binding_ok": true,
+      "false_complete": false,
+      "requests": 6,
+      "bytes": 28672,
+      "elapsed_ns": 316375300
+    },
+    {
+      "scenario": "B",
+      "policy": "dedup_versioned",
+      "seed": 4,
+      "workflow": "B_dedup_versioned_S4",
+      "old_terminal": "complete",
+      "new_terminal": "complete",
+      "total_rows": 2,
+      "intents": [
+        "seat:12A",
+        "seat:14C"
+      ],
+      "binding_ok": true,
+      "false_complete": false,
+      "requests": 6,
+      "bytes": 28672,
+      "elapsed_ns": 304629400
+    },
+    {
+      "scenario": "B",
+      "policy": "dedup_versioned",
+      "seed": 5,
+      "workflow": "B_dedup_versioned_S5",
+      "old_terminal": "complete",
+      "new_terminal": "complete",
+      "total_rows": 2,
+      "intents": [
+        "seat:12A",
+        "seat:14C"
+      ],
+      "binding_ok": true,
+      "false_complete": false,
+      "requests": 6,
+      "bytes": 28672,
+      "elapsed_ns": 325394300
+    },
+    {
+      "scenario": "B",
+      "policy": "dedup_versioned",
+      "seed": 6,
+      "workflow": "B_dedup_versioned_S6",
+      "old_terminal": "complete",
+      "new_terminal": "complete",
+      "total_rows": 2,
+      "intents": [
+        "seat:12A",
+        "seat:14C"
+      ],
+      "binding_ok": true,
+      "false_complete": false,
+      "requests": 6,
+      "bytes": 28672,
+      "elapsed_ns": 338369600
+    },
+    {
+      "scenario": "B",
+      "policy": "dedup_unversioned",
+      "seed": 1,
+      "workflow": "B_dedup_unversioned_S1",
+      "old_terminal": "complete",
+      "new_terminal": "complete",
+      "total_rows": 1,
+      "intents": [
+        "seat:12A"
+      ],
+      "binding_ok": false,
+      "false_complete": true,
+      "requests": 6,
+      "bytes": 28672,
+      "elapsed_ns": 350637700
+    },
+    {
+      "scenario": "B",
+      "policy": "dedup_unversioned",
+      "seed": 2,
+      "workflow": "B_dedup_unversioned_S2",
+      "old_terminal": "complete",
+      "new_terminal": "complete",
+      "total_rows": 1,
+      "intents": [
+        "seat:12A"
+      ],
+      "binding_ok": false,
+      "false_complete": true,
+      "requests": 6,
+      "bytes": 28672,
+      "elapsed_ns": 471630700
+    },
+    {
+      "scenario": "B",
+      "policy": "dedup_unversioned",
+      "seed": 3,
+      "workflow": "B_dedup_unversioned_S3",
+      "old_terminal": "complete",
+      "new_terminal": "complete",
+      "total_rows": 1,
+      "intents": [
+        "seat:12A"
+      ],
+      "binding_ok": false,
+      "false_complete": true,
+      "requests": 6,
+      "bytes": 28672,
+      "elapsed_ns": 254181100
+    },
+    {
+      "scenario": "B",
+      "policy": "dedup_unversioned",
+      "seed": 4,
+      "workflow": "B_dedup_unversioned_S4",
+      "old_terminal": "complete",
+      "new_terminal": "complete",
+      "total_rows": 1,
+      "intents": [
+        "seat:12A"
+      ],
+      "binding_ok": false,
+      "false_complete": true,
+      "requests": 6,
+      "bytes": 28672,
+      "elapsed_ns": 334020200
+    },
+    {
+      "scenario": "B",
+      "policy": "dedup_unversioned",
+      "seed": 5,
+      "workflow": "B_dedup_unversioned_S5",
+      "old_terminal": "complete",
+      "new_terminal": "complete",
+      "total_rows": 1,
+      "intents": [
+        "seat:12A"
+      ],
+      "binding_ok": false,
+      "false_complete": true,
+      "requests": 6,
+      "bytes": 28672,
+      "elapsed_ns": 302290700
+    },
+    {
+      "scenario": "B",
+      "policy": "dedup_unversioned",
+      "seed": 6,
+      "workflow": "B_dedup_unversioned_S6",
+      "old_terminal": "complete",
+      "new_terminal": "complete",
+      "total_rows": 1,
+      "intents": [
+        "seat:12A"
+      ],
+      "binding_ok": false,
+      "false_complete": true,
+      "requests": 6,
+      "bytes": 28672,
+      "elapsed_ns": 301671800
+    }
+  ],
+  "failures": []
+}
