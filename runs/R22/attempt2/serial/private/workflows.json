@@ -1,0 +1,1002 @@
+{
+  "normal_S0_clear": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S1_clear": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S2_clear": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S3_clear": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S4_clear": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S5_clear": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S6_clear": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S7_clear": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S8_clear": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S9_clear": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S10_clear": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S11_clear": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S12_clear": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S13_clear": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S14_clear": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S15_clear": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S16_clear": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S17_clear": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S18_clear": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S19_clear": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S20_clear": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S21_clear": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S22_clear": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S23_clear": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S24_clear": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S25_clear": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S26_clear": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S27_clear": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S28_clear": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S29_clear": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S30_clear": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S31_clear": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S32_clear": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S33_clear": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S34_clear": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S35_clear": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S36_clear": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S37_clear": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S38_clear": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S39_clear": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S0_idem_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S1_idem_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S2_idem_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S3_idem_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S4_idem_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S5_idem_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S6_idem_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S7_idem_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S8_idem_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S9_idem_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S10_idem_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S11_idem_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S12_idem_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S13_idem_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S14_idem_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S15_idem_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S16_idem_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S17_idem_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S18_idem_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S19_idem_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S20_idem_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S21_idem_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S22_idem_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S23_idem_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S24_idem_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S25_idem_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S26_idem_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S27_idem_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S28_idem_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S29_idem_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S30_idem_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S31_idem_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S32_idem_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S33_idem_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S34_idem_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S35_idem_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S36_idem_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S37_idem_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S38_idem_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S39_idem_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S0_query_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S1_query_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S2_query_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S3_query_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S4_query_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S5_query_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S6_query_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S7_query_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S8_query_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S9_query_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S10_query_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S11_query_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S12_query_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S13_query_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S14_query_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S15_query_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S16_query_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S17_query_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S18_query_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S19_query_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S20_query_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S21_query_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S22_query_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S23_query_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S24_query_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S25_query_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S26_query_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S27_query_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S28_query_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S29_query_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S30_query_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S31_query_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S32_query_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S33_query_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S34_query_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S35_query_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S36_query_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S37_query_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S38_query_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S39_query_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S0_reauth_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S1_reauth_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S2_reauth_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S3_reauth_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S4_reauth_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S5_reauth_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S6_reauth_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S7_reauth_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S8_reauth_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S9_reauth_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S10_reauth_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S11_reauth_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S12_reauth_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S13_reauth_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S14_reauth_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S15_reauth_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S16_reauth_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S17_reauth_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S18_reauth_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S19_reauth_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S20_reauth_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S21_reauth_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S22_reauth_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S23_reauth_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S24_reauth_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S25_reauth_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S26_reauth_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S27_reauth_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S28_reauth_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S29_reauth_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S30_reauth_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S31_reauth_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S32_reauth_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S33_reauth_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S34_reauth_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S35_reauth_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S36_reauth_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S37_reauth_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S38_reauth_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S39_reauth_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S0_pause": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S1_pause": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S2_pause": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S3_pause": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S4_pause": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S5_pause": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S6_pause": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S7_pause": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S8_pause": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S9_pause": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S10_pause": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S11_pause": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S12_pause": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S13_pause": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S14_pause": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S15_pause": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S16_pause": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S17_pause": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S18_pause": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S19_pause": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S20_pause": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S21_pause": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S22_pause": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S23_pause": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S24_pause": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S25_pause": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S26_pause": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S27_pause": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S28_pause": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S29_pause": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S30_pause": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S31_pause": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S32_pause": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S33_pause": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S34_pause": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S35_pause": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S36_pause": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S37_pause": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S38_pause": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  },
+  "normal_S39_pause": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {}
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "config": "idem_on",
+  "policies": [
+    "clear",
+    "idem_retry",
+    "idem_fresh",
+    "pause"
+  ],
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "faults": [
+    "lost_return",
+    "late_commit"
+  ],
+  "fault_step": {
+    "lost_return": "attach",
+    "late_commit": "commit"
+  },
+  "idempotency": "on",
+  "lifecycle": "faithful",
+  "query_mode": "faithful",
+  "key_scope": {
+    "idem_retry": "per_step",
+    "idem_fresh": "per_attempt"
+  },
+  "steps": [
+    "create",
+    "reserve",
+    "attach",
+    "commit",
+    "notify"
+  ],
+  "files": {
+    "docs/R23_idempotency_key_stability_protocol.md": "6678898d9adb37f09fbd0453a7f25d09f1d9a2f89d89720e3aecf14ca92595e1",
+    "scripts/r19_service.py": "e8c7c23e90bd41124f7a900c3f7af56b2ca5232ffa323f66288af969af6a8243",
+    "scripts/r19_client.py": "8693a1615fa4055f311e1189de8b8ece0a67b0099dbc1b31415435127e2a6325",
+    "scripts/r23_client.py": "95b7c40daeb83afbaa51295bf613d026f8128edc968c288749646a63474088f8",
+    "scripts/run_r23.py": "2f025434388e0196288364fab5fdb4d42fb5dbf918047d7cdf02193f403ad17a",
+    "scripts/verify_r23.py": "68c0af9b84a94ce6b2f0a0a3ce8c9f095f4d9d703e7527b218558671d4b3bd57"
+  },
+  "post_timeout_s": 0.4,
+  "get_timeout_s": 0.5,
+  "late_delay_s": 1.0,
+  "dispatch_jitter_s": 0.015,
+  "python": "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R1_anyio\\env\\Scripts\\python.exe",
+  "python_version": "3.13.2",
+  "service": "r19_service.py faithful",
+  "target_calls_before_freeze": 0,
+  "created_ns": 1792591906954038300
+}

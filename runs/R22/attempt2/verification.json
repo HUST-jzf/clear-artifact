@@ -1,0 +1,71 @@
+{
+  "run": "F:\\desktop\\paper\\clear-artifact\\runs\\R22\\attempt2",
+  "checks": 252,
+  "passed": 252,
+  "failed": [],
+  "systems": [
+    {
+      "config": "serial",
+      "concurrency": 1,
+      "workflows": 200,
+      "wall_s": 13.618,
+      "throughput": 14.686,
+      "p50_ms": 66.44,
+      "p95_ms": 91.74,
+      "failures": 0
+    }
+  ],
+  "summary": {
+    "clear": {
+      "workflows": 40,
+      "completed": 40,
+      "safe": 40,
+      "duplicates": 0,
+      "http_calls": 16.0,
+      "post_calls": 5.0,
+      "median_ms": 68.22,
+      "p95_ms": 89.44
+    },
+    "idem_retry": {
+      "workflows": 40,
+      "completed": 40,
+      "safe": 40,
+      "duplicates": 0,
+      "http_calls": 11.0,
+      "post_calls": 5.0,
+      "median_ms": 65.31,
+      "p95_ms": 96.49
+    },
+    "query_retry": {
+      "workflows": 40,
+      "completed": 40,
+      "safe": 40,
+      "duplicates": 0,
+      "http_calls": 11.0,
+      "post_calls": 5.0,
+      "median_ms": 70.85,
+      "p95_ms": 87.57
+    },
+    "reauth_retry": {
+      "workflows": 40,
+      "completed": 40,
+      "safe": 40,
+      "duplicates": 0,
+      "http_calls": 11.0,
+      "post_calls": 5.0,
+      "median_ms": 64.35,
+      "p95_ms": 84.59
+    },
+    "pause": {
+      "workflows": 40,
+      "completed": 40,
+      "safe": 40,
+      "duplicates": 0,
+      "http_calls": 11.0,
+      "post_calls": 5.0,
+      "median_ms": 68.58,
+      "p95_ms": 85.28
+    }
+  },
+  "status": "pass"
+}
