@@ -1,0 +1,25 @@
+{
+  "case": "normal",
+  "policy": "clear",
+  "repetition": 18,
+  "terminal": "complete",
+  "reason": "original_or_retry_receipt",
+  "control_ns": 6201700,
+  "timings": {
+    "active_ns": 5902100,
+    "wait_ns": 212600,
+    "drain_ns": 1109300
+  },
+  "counts": {
+    "describe": 2,
+    "active": 2,
+    "refresh": 2,
+    "status": 1,
+    "wait": 2
+  },
+  "actions": 1,
+  "rows": 1,
+  "duplicate": false,
+  "stale_new": 0,
+  "safe": true
+}
