@@ -1,0 +1,44 @@
+{
+  "profile": "C6",
+  "axes": {
+    "closure": 1,
+    "read": "faithful",
+    "version": 1,
+    "admission": 1,
+    "staging": 1,
+    "dedup": 0
+  },
+  "policies": [
+    "clear_evidence",
+    "clear_fenced",
+    "timeout_retry"
+  ],
+  "faults": [
+    "lost_return",
+    "late_commit",
+    "lost_before_commit",
+    "revoke"
+  ],
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ]
+}
