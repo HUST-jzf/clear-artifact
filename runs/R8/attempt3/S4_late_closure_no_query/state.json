@@ -1,0 +1,30 @@
+{
+  "writes": [
+    {
+      "attempt": 2,
+      "record_id": 1,
+      "allowed": true,
+      "believed_allowed": true,
+      "manifest_sha": "34338686ee8bd20b140dba29c01c7faa34f57b71103786bd749bb856409b2574",
+      "schema": "v1",
+      "at_ns": 27393976780200
+    },
+    {
+      "attempt": 1,
+      "record_id": 2,
+      "allowed": true,
+      "believed_allowed": true,
+      "manifest_sha": "34338686ee8bd20b140dba29c01c7faa34f57b71103786bd749bb856409b2574",
+      "schema": "v1",
+      "at_ns": 27393987697100
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "allowed": true,
+      "at_ns": 27393902624500
+    }
+  ],
+  "initial_outcome": "error"
+}

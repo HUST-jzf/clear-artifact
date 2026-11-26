@@ -1,0 +1,11 @@
+{
+  "writes": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "allowed": true,
+      "at_ns": 27393247029700
+    }
+  ],
+  "initial_outcome": "error"
+}

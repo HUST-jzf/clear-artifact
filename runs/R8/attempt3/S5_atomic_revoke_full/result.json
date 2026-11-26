@@ -1,0 +1,7 @@
+{
+  "terminal": "pause",
+  "reason": "atomic_abort",
+  "case": "atomic_revoke",
+  "variant": "full",
+  "seed": 5
+}
