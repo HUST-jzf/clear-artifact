@@ -1,0 +1,62 @@
+{
+  "policy": "pause",
+  "context": {
+    "operation_id": "S17_late_commit_pause",
+    "intent": "38d7c6e9ee9f1c1d8b7b1dbd24382d424982ce51486f3c87cf7e76b662aa298e",
+    "generation": 1
+  },
+  "origin": {
+    "context": {
+      "operation_id": "S17_late_commit_pause",
+      "intent": "38d7c6e9ee9f1c1d8b7b1dbd24382d424982ce51486f3c87cf7e76b662aa298e",
+      "generation": 1
+    },
+    "manifest": {
+      "adapter": "langchain_structured_tool",
+      "version": "1.0.0",
+      "python": "3.13.2",
+      "framework": {
+        "langchain_core.tools": "a9ed84f55c19ee1a5d913a33f7aa12274f346b475ef6843048ef453f55e798cd"
+      },
+      "worker_sha256": "82727821f348c521f26c19a48622ac6f7ebcb8042abb1df33b008267d39cd415",
+      "host_sha256": "0e0d1bd0bbadf7f68b8d8575a96e725f79f31e373d49c00787e66d790966f741",
+      "observer_sha256": "82727821f348c521f26c19a48622ac6f7ebcb8042abb1df33b008267d39cd415",
+      "route_sha256": "f2a5361938f673f5873558cb012d8d9e8d163fb6d28a200bedc86fdf2f3cacc7",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "commit",
+        "delayed": true,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": true,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": false,
+        "query_complete": true
+      }
+    },
+    "namespace": "effects"
+  },
+  "initial_observations": [
+    {
+      "action": "append",
+      "phase": "initial",
+      "attempt": 1,
+      "outcome": "timeout"
+    }
+  ],
+  "terminal": "pause",
+  "reason": "single_pause",
+  "events": [],
+  "steps": [],
+  "case": "late_commit_S17",
+  "mode": "late_commit",
+  "seed": 17,
+  "params": {
+    "initial_timeout": 0.08676153952510443,
+    "gate": 0.10017649215306446,
+    "wait_window": 0.2095136640564461
+  },
+  "elapsed_ns": 111832300
+}
