@@ -1,0 +1,761 @@
+{
+  "run": "F:\\desktop\\paper\\clear-artifact\\runs\\R19\\attempt2",
+  "checks": 5089,
+  "passed": 5089,
+  "failed": [],
+  "summary": {
+    "on-faithful-faithful": {
+      "clear": {
+        "workflows": 20,
+        "safe": 20,
+        "completed": 20,
+        "duplicates": 0,
+        "false_complete": 0,
+        "pauses": 0,
+        "median_ms": 561.59
+      },
+      "idem_retry": {
+        "workflows": 20,
+        "safe": 20,
+        "completed": 20,
+        "duplicates": 0,
+        "false_complete": 0,
+        "pauses": 0,
+        "median_ms": 580.61
+      },
+      "query_retry": {
+        "workflows": 20,
+        "safe": 20,
+        "completed": 20,
+        "duplicates": 0,
+        "false_complete": 0,
+        "pauses": 0,
+        "median_ms": 586.1
+      },
+      "reauth_retry": {
+        "workflows": 20,
+        "safe": 20,
+        "completed": 20,
+        "duplicates": 0,
+        "false_complete": 0,
+        "pauses": 0,
+        "median_ms": 597.03
+      },
+      "pause": {
+        "workflows": 20,
+        "safe": 0,
+        "completed": 0,
+        "duplicates": 0,
+        "false_complete": 0,
+        "pauses": 20,
+        "median_ms": 555.64
+      }
+    },
+    "on-faithful-stale": {
+      "clear": {
+        "workflows": 20,
+        "safe": 20,
+        "completed": 20,
+        "duplicates": 0,
+        "false_complete": 0,
+        "pauses": 0,
+        "median_ms": 621.54
+      },
+      "idem_retry": {
+        "workflows": 20,
+        "safe": 20,
+        "completed": 20,
+        "duplicates": 0,
+        "false_complete": 0,
+        "pauses": 0,
+        "median_ms": 584.28
+      },
+      "query_retry": {
+        "workflows": 20,
+        "safe": 20,
+        "completed": 20,
+        "duplicates": 0,
+        "false_complete": 0,
+        "pauses": 0,
+        "median_ms": 605.34
+      },
+      "reauth_retry": {
+        "workflows": 20,
+        "safe": 20,
+        "completed": 20,
+        "duplicates": 0,
+        "false_complete": 0,
+        "pauses": 0,
+        "median_ms": 617.72
+      },
+      "pause": {
+        "workflows": 20,
+        "safe": 0,
+        "completed": 0,
+        "duplicates": 0,
+        "false_complete": 0,
+        "pauses": 20,
+        "median_ms": 531.8
+      }
+    },
+    "on-faithful-unavailable": {
+      "clear": {
+        "workflows": 20,
+        "safe": 20,
+        "completed": 20,
+        "duplicates": 0,
+        "false_complete": 0,
+        "pauses": 0,
+        "median_ms": 620.25
+      },
+      "idem_retry": {
+        "workflows": 20,
+        "safe": 20,
+        "completed": 20,
+        "duplicates": 0,
+        "false_complete": 0,
+        "pauses": 0,
+        "median_ms": 619.93
+      },
+      "query_retry": {
+        "workflows": 20,
+        "safe": 0,
+        "completed": 0,
+        "duplicates": 0,
+        "false_complete": 0,
+        "pauses": 20,
+        "median_ms": 568.29
+      },
+      "reauth_retry": {
+        "workflows": 20,
+        "safe": 20,
+        "completed": 20,
+        "duplicates": 0,
+        "false_complete": 0,
+        "pauses": 0,
+        "median_ms": 625.44
+      },
+      "pause": {
+        "workflows": 20,
+        "safe": 0,
+        "completed": 0,
+        "duplicates": 0,
+        "false_complete": 0,
+        "pauses": 20,
+        "median_ms": 569.08
+      }
+    },
+    "on-lost-faithful": {
+      "clear": {
+        "workflows": 20,
+        "safe": 20,
+        "completed": 20,
+        "duplicates": 0,
+        "false_complete": 0,
+        "pauses": 0,
+        "median_ms": 633.33
+      },
+      "idem_retry": {
+        "workflows": 20,
+        "safe": 20,
+        "completed": 20,
+        "duplicates": 0,
+        "false_complete": 0,
+        "pauses": 0,
+        "median_ms": 581.72
+      },
+      "query_retry": {
+        "workflows": 20,
+        "safe": 20,
+        "completed": 20,
+        "duplicates": 0,
+        "false_complete": 0,
+        "pauses": 0,
+        "median_ms": 583.84
+      },
+      "reauth_retry": {
+        "workflows": 20,
+        "safe": 20,
+        "completed": 20,
+        "duplicates": 0,
+        "false_complete": 0,
+        "pauses": 0,
+        "median_ms": 619.23
+      },
+      "pause": {
+        "workflows": 20,
+        "safe": 0,
+        "completed": 0,
+        "duplicates": 0,
+        "false_complete": 0,
+        "pauses": 20,
+        "median_ms": 542.01
+      }
+    },
+    "on-lost-stale": {
+      "clear": {
+        "workflows": 20,
+        "safe": 0,
+        "completed": 0,
+        "duplicates": 0,
+        "false_complete": 0,
+        "pauses": 20,
+        "median_ms": 619.53
+      },
+      "idem_retry": {
+        "workflows": 20,
+        "safe": 20,
+        "completed": 20,
+        "duplicates": 0,
+        "false_complete": 0,
+        "pauses": 0,
+        "median_ms": 605.88
+      },
+      "query_retry": {
+        "workflows": 20,
+        "safe": 20,
+        "completed": 20,
+        "duplicates": 0,
+        "false_complete": 0,
+        "pauses": 0,
+        "median_ms": 590.47
+      },
+      "reauth_retry": {
+        "workflows": 20,
+        "safe": 20,
+        "completed": 20,
+        "duplicates": 0,
+        "false_complete": 0,
+        "pauses": 0,
+        "median_ms": 617.21
+      },
+      "pause": {
+        "workflows": 20,
+        "safe": 0,
+        "completed": 0,
+        "duplicates": 0,
+        "false_complete": 0,
+        "pauses": 20,
+        "median_ms": 552.71
+      }
+    },
+    "on-lost-unavailable": {
+      "clear": {
+        "workflows": 20,
+        "safe": 0,
+        "completed": 0,
+        "duplicates": 0,
+        "false_complete": 0,
+        "pauses": 20,
+        "median_ms": 594.72
+      },
+      "idem_retry": {
+        "workflows": 20,
+        "safe": 20,
+        "completed": 20,
+        "duplicates": 0,
+        "false_complete": 0,
+        "pauses": 0,
+        "median_ms": 588.67
+      },
+      "query_retry": {
+        "workflows": 20,
+        "safe": 0,
+        "completed": 0,
+        "duplicates": 0,
+        "false_complete": 0,
+        "pauses": 20,
+        "median_ms": 550.39
+      },
+      "reauth_retry": {
+        "workflows": 20,
+        "safe": 20,
+        "completed": 20,
+        "duplicates": 0,
+        "false_complete": 0,
+        "pauses": 0,
+        "median_ms": 612.46
+      },
+      "pause": {
+        "workflows": 20,
+        "safe": 0,
+        "completed": 0,
+        "duplicates": 0,
+        "false_complete": 0,
+        "pauses": 20,
+        "median_ms": 552.75
+      }
+    },
+    "off-faithful-faithful": {
+      "clear": {
+        "workflows": 20,
+        "safe": 20,
+        "completed": 20,
+        "duplicates": 0,
+        "false_complete": 0,
+        "pauses": 0,
+        "median_ms": 613.81
+      },
+      "idem_retry": {
+        "workflows": 20,
+        "safe": 0,
+        "completed": 20,
+        "duplicates": 20,
+        "false_complete": 0,
+        "pauses": 0,
+        "median_ms": 631.9
+      },
+      "query_retry": {
+        "workflows": 20,
+        "safe": 20,
+        "completed": 20,
+        "duplicates": 0,
+        "false_complete": 0,
+        "pauses": 0,
+        "median_ms": 607.93
+      },
+      "reauth_retry": {
+        "workflows": 20,
+        "safe": 0,
+        "completed": 20,
+        "duplicates": 20,
+        "false_complete": 0,
+        "pauses": 0,
+        "median_ms": 640.08
+      },
+      "pause": {
+        "workflows": 20,
+        "safe": 0,
+        "completed": 0,
+        "duplicates": 0,
+        "false_complete": 0,
+        "pauses": 20,
+        "median_ms": 537.16
+      }
+    },
+    "off-faithful-stale": {
+      "clear": {
+        "workflows": 20,
+        "safe": 20,
+        "completed": 20,
+        "duplicates": 0,
+        "false_complete": 0,
+        "pauses": 0,
+        "median_ms": 628.83
+      },
+      "idem_retry": {
+        "workflows": 20,
+        "safe": 0,
+        "completed": 20,
+        "duplicates": 20,
+        "false_complete": 0,
+        "pauses": 0,
+        "median_ms": 607.22
+      },
+      "query_retry": {
+        "workflows": 20,
+        "safe": 0,
+        "completed": 20,
+        "duplicates": 20,
+        "false_complete": 0,
+        "pauses": 0,
+        "median_ms": 635.15
+      },
+      "reauth_retry": {
+        "workflows": 20,
+        "safe": 0,
+        "completed": 20,
+        "duplicates": 20,
+        "false_complete": 0,
+        "pauses": 0,
+        "median_ms": 605.24
+      },
+      "pause": {
+        "workflows": 20,
+        "safe": 0,
+        "completed": 0,
+        "duplicates": 0,
+        "false_complete": 0,
+        "pauses": 20,
+        "median_ms": 541.68
+      }
+    },
+    "off-faithful-unavailable": {
+      "clear": {
+        "workflows": 20,
+        "safe": 20,
+        "completed": 20,
+        "duplicates": 0,
+        "false_complete": 0,
+        "pauses": 0,
+        "median_ms": 605.82
+      },
+      "idem_retry": {
+        "workflows": 20,
+        "safe": 0,
+        "completed": 20,
+        "duplicates": 20,
+        "false_complete": 0,
+        "pauses": 0,
+        "median_ms": 596.6
+      },
+      "query_retry": {
+        "workflows": 20,
+        "safe": 0,
+        "completed": 0,
+        "duplicates": 0,
+        "false_complete": 0,
+        "pauses": 20,
+        "median_ms": 538.79
+      },
+      "reauth_retry": {
+        "workflows": 20,
+        "safe": 0,
+        "completed": 20,
+        "duplicates": 20,
+        "false_complete": 0,
+        "pauses": 0,
+        "median_ms": 631.9
+      },
+      "pause": {
+        "workflows": 20,
+        "safe": 0,
+        "completed": 0,
+        "duplicates": 0,
+        "false_complete": 0,
+        "pauses": 20,
+        "median_ms": 554.35
+      }
+    },
+    "off-lost-faithful": {
+      "clear": {
+        "workflows": 20,
+        "safe": 20,
+        "completed": 20,
+        "duplicates": 0,
+        "false_complete": 0,
+        "pauses": 0,
+        "median_ms": 650.1
+      },
+      "idem_retry": {
+        "workflows": 20,
+        "safe": 0,
+        "completed": 20,
+        "duplicates": 20,
+        "false_complete": 0,
+        "pauses": 0,
+        "median_ms": 590.91
+      },
+      "query_retry": {
+        "workflows": 20,
+        "safe": 20,
+        "completed": 20,
+        "duplicates": 0,
+        "false_complete": 0,
+        "pauses": 0,
+        "median_ms": 589.29
+      },
+      "reauth_retry": {
+        "workflows": 20,
+        "safe": 0,
+        "completed": 20,
+        "duplicates": 20,
+        "false_complete": 0,
+        "pauses": 0,
+        "median_ms": 596.49
+      },
+      "pause": {
+        "workflows": 20,
+        "safe": 0,
+        "completed": 0,
+        "duplicates": 0,
+        "false_complete": 0,
+        "pauses": 20,
+        "median_ms": 547.67
+      }
+    },
+    "off-lost-stale": {
+      "clear": {
+        "workflows": 20,
+        "safe": 0,
+        "completed": 0,
+        "duplicates": 0,
+        "false_complete": 0,
+        "pauses": 20,
+        "median_ms": 551.78
+      },
+      "idem_retry": {
+        "workflows": 20,
+        "safe": 0,
+        "completed": 20,
+        "duplicates": 20,
+        "false_complete": 0,
+        "pauses": 0,
+        "median_ms": 613.19
+      },
+      "query_retry": {
+        "workflows": 20,
+        "safe": 0,
+        "completed": 20,
+        "duplicates": 20,
+        "false_complete": 0,
+        "pauses": 0,
+        "median_ms": 601.99
+      },
+      "reauth_retry": {
+        "workflows": 20,
+        "safe": 0,
+        "completed": 20,
+        "duplicates": 20,
+        "false_complete": 0,
+        "pauses": 0,
+        "median_ms": 597.23
+      },
+      "pause": {
+        "workflows": 20,
+        "safe": 0,
+        "completed": 0,
+        "duplicates": 0,
+        "false_complete": 0,
+        "pauses": 20,
+        "median_ms": 555.43
+      }
+    },
+    "off-lost-unavailable": {
+      "clear": {
+        "workflows": 20,
+        "safe": 0,
+        "completed": 0,
+        "duplicates": 0,
+        "false_complete": 0,
+        "pauses": 20,
+        "median_ms": 585.3
+      },
+      "idem_retry": {
+        "workflows": 20,
+        "safe": 0,
+        "completed": 20,
+        "duplicates": 20,
+        "false_complete": 0,
+        "pauses": 0,
+        "median_ms": 616.03
+      },
+      "query_retry": {
+        "workflows": 20,
+        "safe": 0,
+        "completed": 0,
+        "duplicates": 0,
+        "false_complete": 0,
+        "pauses": 20,
+        "median_ms": 539.25
+      },
+      "reauth_retry": {
+        "workflows": 20,
+        "safe": 0,
+        "completed": 20,
+        "duplicates": 20,
+        "false_complete": 0,
+        "pauses": 0,
+        "median_ms": 634.66
+      },
+      "pause": {
+        "workflows": 20,
+        "safe": 0,
+        "completed": 0,
+        "duplicates": 0,
+        "false_complete": 0,
+        "pauses": 20,
+        "median_ms": 554.62
+      }
+    },
+    "on-faithful-forged": {
+      "clear": {
+        "workflows": 20,
+        "safe": 0,
+        "completed": 0,
+        "duplicates": 0,
+        "false_complete": 0,
+        "pauses": 20,
+        "median_ms": 190.79
+      },
+      "idem_retry": {
+        "workflows": 20,
+        "safe": 20,
+        "completed": 20,
+        "duplicates": 0,
+        "false_complete": 0,
+        "pauses": 0,
+        "median_ms": 193.7
+      },
+      "query_retry": {
+        "workflows": 20,
+        "safe": 0,
+        "completed": 0,
+        "duplicates": 0,
+        "false_complete": 20,
+        "pauses": 0,
+        "median_ms": 256.12
+      },
+      "reauth_retry": {
+        "workflows": 20,
+        "safe": 20,
+        "completed": 20,
+        "duplicates": 0,
+        "false_complete": 0,
+        "pauses": 0,
+        "median_ms": 268.0
+      },
+      "pause": {
+        "workflows": 20,
+        "safe": 0,
+        "completed": 0,
+        "duplicates": 0,
+        "false_complete": 0,
+        "pauses": 20,
+        "median_ms": 147.38
+      }
+    },
+    "on-lost-forged": {
+      "clear": {
+        "workflows": 20,
+        "safe": 0,
+        "completed": 0,
+        "duplicates": 0,
+        "false_complete": 0,
+        "pauses": 20,
+        "median_ms": 170.18
+      },
+      "idem_retry": {
+        "workflows": 20,
+        "safe": 20,
+        "completed": 20,
+        "duplicates": 0,
+        "false_complete": 0,
+        "pauses": 0,
+        "median_ms": 226.27
+      },
+      "query_retry": {
+        "workflows": 20,
+        "safe": 0,
+        "completed": 0,
+        "duplicates": 0,
+        "false_complete": 20,
+        "pauses": 0,
+        "median_ms": 248.44
+      },
+      "reauth_retry": {
+        "workflows": 20,
+        "safe": 20,
+        "completed": 20,
+        "duplicates": 0,
+        "false_complete": 0,
+        "pauses": 0,
+        "median_ms": 260.05
+      },
+      "pause": {
+        "workflows": 20,
+        "safe": 0,
+        "completed": 0,
+        "duplicates": 0,
+        "false_complete": 0,
+        "pauses": 20,
+        "median_ms": 151.57
+      }
+    },
+    "off-faithful-forged": {
+      "clear": {
+        "workflows": 20,
+        "safe": 0,
+        "completed": 0,
+        "duplicates": 0,
+        "false_complete": 0,
+        "pauses": 20,
+        "median_ms": 159.13
+      },
+      "idem_retry": {
+        "workflows": 20,
+        "safe": 20,
+        "completed": 20,
+        "duplicates": 0,
+        "false_complete": 0,
+        "pauses": 0,
+        "median_ms": 205.45
+      },
+      "query_retry": {
+        "workflows": 20,
+        "safe": 0,
+        "completed": 0,
+        "duplicates": 0,
+        "false_complete": 20,
+        "pauses": 0,
+        "median_ms": 240.55
+      },
+      "reauth_retry": {
+        "workflows": 20,
+        "safe": 20,
+        "completed": 20,
+        "duplicates": 0,
+        "false_complete": 0,
+        "pauses": 0,
+        "median_ms": 267.88
+      },
+      "pause": {
+        "workflows": 20,
+        "safe": 0,
+        "completed": 0,
+        "duplicates": 0,
+        "false_complete": 0,
+        "pauses": 20,
+        "median_ms": 149.0
+      }
+    },
+    "off-lost-forged": {
+      "clear": {
+        "workflows": 20,
+        "safe": 0,
+        "completed": 0,
+        "duplicates": 0,
+        "false_complete": 0,
+        "pauses": 20,
+        "median_ms": 168.17
+      },
+      "idem_retry": {
+        "workflows": 20,
+        "safe": 20,
+        "completed": 20,
+        "duplicates": 0,
+        "false_complete": 0,
+        "pauses": 0,
+        "median_ms": 222.84
+      },
+      "query_retry": {
+        "workflows": 20,
+        "safe": 0,
+        "completed": 0,
+        "duplicates": 0,
+        "false_complete": 20,
+        "pauses": 0,
+        "median_ms": 319.85
+      },
+      "reauth_retry": {
+        "workflows": 20,
+        "safe": 20,
+        "completed": 20,
+        "duplicates": 0,
+        "false_complete": 0,
+        "pauses": 0,
+        "median_ms": 271.26
+      },
+      "pause": {
+        "workflows": 20,
+        "safe": 0,
+        "completed": 0,
+        "duplicates": 0,
+        "false_complete": 0,
+        "pauses": 20,
+        "median_ms": 149.51
+      }
+    }
+  },
+  "status": "pass"
+}
