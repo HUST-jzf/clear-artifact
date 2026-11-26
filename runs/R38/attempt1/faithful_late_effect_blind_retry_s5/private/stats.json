@@ -1,0 +1,37 @@
+{
+  "faithful_late_effect_blind_retry_S5": {
+    "steps": {
+      "attach": {
+        "rows": 2,
+        "stale": 0,
+        "committed": 2,
+        "provisional": 0
+      },
+      "commit": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0
+      },
+      "notify": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0
+      }
+    },
+    "rejected": 0
+  }
+}

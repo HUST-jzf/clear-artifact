@@ -1,0 +1,2805 @@
+{
+  "tasks": [
+    {
+      "closure": "faithful",
+      "fault": "late_effect",
+      "policy": "clear",
+      "seed": 1,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "late_effect",
+      "policy": "clear",
+      "seed": 2,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "late_effect",
+      "policy": "clear",
+      "seed": 3,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "late_effect",
+      "policy": "clear",
+      "seed": 4,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "late_effect",
+      "policy": "clear",
+      "seed": 5,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "late_effect",
+      "policy": "clear",
+      "seed": 6,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "late_effect",
+      "policy": "clear",
+      "seed": 7,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "late_effect",
+      "policy": "clear",
+      "seed": 8,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "late_effect",
+      "policy": "clear",
+      "seed": 9,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "late_effect",
+      "policy": "clear",
+      "seed": 10,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "late_effect",
+      "policy": "clear",
+      "seed": 11,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "late_effect",
+      "policy": "clear",
+      "seed": 12,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "late_effect",
+      "policy": "clear",
+      "seed": 13,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "late_effect",
+      "policy": "clear",
+      "seed": 14,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "late_effect",
+      "policy": "clear",
+      "seed": 15,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "late_effect",
+      "policy": "clear",
+      "seed": 16,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "late_effect",
+      "policy": "clear",
+      "seed": 17,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "late_effect",
+      "policy": "clear",
+      "seed": 18,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "late_effect",
+      "policy": "clear",
+      "seed": 19,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "late_effect",
+      "policy": "clear",
+      "seed": 20,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "late_effect",
+      "policy": "blind_retry",
+      "seed": 1,
+      "rows": 2,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "late_effect",
+      "policy": "blind_retry",
+      "seed": 2,
+      "rows": 2,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "late_effect",
+      "policy": "blind_retry",
+      "seed": 3,
+      "rows": 2,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "late_effect",
+      "policy": "blind_retry",
+      "seed": 4,
+      "rows": 2,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "late_effect",
+      "policy": "blind_retry",
+      "seed": 5,
+      "rows": 2,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "late_effect",
+      "policy": "blind_retry",
+      "seed": 6,
+      "rows": 2,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "late_effect",
+      "policy": "blind_retry",
+      "seed": 7,
+      "rows": 2,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "late_effect",
+      "policy": "blind_retry",
+      "seed": 8,
+      "rows": 2,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "late_effect",
+      "policy": "blind_retry",
+      "seed": 9,
+      "rows": 2,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "late_effect",
+      "policy": "blind_retry",
+      "seed": 10,
+      "rows": 2,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "late_effect",
+      "policy": "blind_retry",
+      "seed": 11,
+      "rows": 2,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "late_effect",
+      "policy": "blind_retry",
+      "seed": 12,
+      "rows": 2,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "late_effect",
+      "policy": "blind_retry",
+      "seed": 13,
+      "rows": 2,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "late_effect",
+      "policy": "blind_retry",
+      "seed": 14,
+      "rows": 2,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "late_effect",
+      "policy": "blind_retry",
+      "seed": 15,
+      "rows": 2,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "late_effect",
+      "policy": "blind_retry",
+      "seed": 16,
+      "rows": 2,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "late_effect",
+      "policy": "blind_retry",
+      "seed": 17,
+      "rows": 2,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "late_effect",
+      "policy": "blind_retry",
+      "seed": 18,
+      "rows": 2,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "late_effect",
+      "policy": "blind_retry",
+      "seed": 19,
+      "rows": 2,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "late_effect",
+      "policy": "blind_retry",
+      "seed": 20,
+      "rows": 2,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "late_effect",
+      "policy": "pause",
+      "seed": 1,
+      "rows": 1,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "late_effect",
+      "policy": "pause",
+      "seed": 2,
+      "rows": 1,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "late_effect",
+      "policy": "pause",
+      "seed": 3,
+      "rows": 1,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "late_effect",
+      "policy": "pause",
+      "seed": 4,
+      "rows": 1,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "late_effect",
+      "policy": "pause",
+      "seed": 5,
+      "rows": 1,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "late_effect",
+      "policy": "pause",
+      "seed": 6,
+      "rows": 1,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "late_effect",
+      "policy": "pause",
+      "seed": 7,
+      "rows": 1,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "late_effect",
+      "policy": "pause",
+      "seed": 8,
+      "rows": 1,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "late_effect",
+      "policy": "pause",
+      "seed": 9,
+      "rows": 1,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "late_effect",
+      "policy": "pause",
+      "seed": 10,
+      "rows": 1,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "late_effect",
+      "policy": "pause",
+      "seed": 11,
+      "rows": 1,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "late_effect",
+      "policy": "pause",
+      "seed": 12,
+      "rows": 1,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "late_effect",
+      "policy": "pause",
+      "seed": 13,
+      "rows": 1,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "late_effect",
+      "policy": "pause",
+      "seed": 14,
+      "rows": 1,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "late_effect",
+      "policy": "pause",
+      "seed": 15,
+      "rows": 1,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "late_effect",
+      "policy": "pause",
+      "seed": 16,
+      "rows": 1,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "late_effect",
+      "policy": "pause",
+      "seed": 17,
+      "rows": 1,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "late_effect",
+      "policy": "pause",
+      "seed": 18,
+      "rows": 1,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "late_effect",
+      "policy": "pause",
+      "seed": 19,
+      "rows": 1,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "late_effect",
+      "policy": "pause",
+      "seed": 20,
+      "rows": 1,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "lost_before_commit",
+      "policy": "clear",
+      "seed": 1,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "lost_before_commit",
+      "policy": "clear",
+      "seed": 2,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "lost_before_commit",
+      "policy": "clear",
+      "seed": 3,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "lost_before_commit",
+      "policy": "clear",
+      "seed": 4,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "lost_before_commit",
+      "policy": "clear",
+      "seed": 5,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "lost_before_commit",
+      "policy": "clear",
+      "seed": 6,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "lost_before_commit",
+      "policy": "clear",
+      "seed": 7,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "lost_before_commit",
+      "policy": "clear",
+      "seed": 8,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "lost_before_commit",
+      "policy": "clear",
+      "seed": 9,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "lost_before_commit",
+      "policy": "clear",
+      "seed": 10,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "lost_before_commit",
+      "policy": "clear",
+      "seed": 11,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "lost_before_commit",
+      "policy": "clear",
+      "seed": 12,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "lost_before_commit",
+      "policy": "clear",
+      "seed": 13,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "lost_before_commit",
+      "policy": "clear",
+      "seed": 14,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "lost_before_commit",
+      "policy": "clear",
+      "seed": 15,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "lost_before_commit",
+      "policy": "clear",
+      "seed": 16,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "lost_before_commit",
+      "policy": "clear",
+      "seed": 17,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "lost_before_commit",
+      "policy": "clear",
+      "seed": 18,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "lost_before_commit",
+      "policy": "clear",
+      "seed": 19,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "lost_before_commit",
+      "policy": "clear",
+      "seed": 20,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "lost_before_commit",
+      "policy": "blind_retry",
+      "seed": 1,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "lost_before_commit",
+      "policy": "blind_retry",
+      "seed": 2,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "lost_before_commit",
+      "policy": "blind_retry",
+      "seed": 3,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "lost_before_commit",
+      "policy": "blind_retry",
+      "seed": 4,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "lost_before_commit",
+      "policy": "blind_retry",
+      "seed": 5,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "lost_before_commit",
+      "policy": "blind_retry",
+      "seed": 6,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "lost_before_commit",
+      "policy": "blind_retry",
+      "seed": 7,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "lost_before_commit",
+      "policy": "blind_retry",
+      "seed": 8,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "lost_before_commit",
+      "policy": "blind_retry",
+      "seed": 9,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "lost_before_commit",
+      "policy": "blind_retry",
+      "seed": 10,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "lost_before_commit",
+      "policy": "blind_retry",
+      "seed": 11,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "lost_before_commit",
+      "policy": "blind_retry",
+      "seed": 12,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "lost_before_commit",
+      "policy": "blind_retry",
+      "seed": 13,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "lost_before_commit",
+      "policy": "blind_retry",
+      "seed": 14,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "lost_before_commit",
+      "policy": "blind_retry",
+      "seed": 15,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "lost_before_commit",
+      "policy": "blind_retry",
+      "seed": 16,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "lost_before_commit",
+      "policy": "blind_retry",
+      "seed": 17,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "lost_before_commit",
+      "policy": "blind_retry",
+      "seed": 18,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "lost_before_commit",
+      "policy": "blind_retry",
+      "seed": 19,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "lost_before_commit",
+      "policy": "blind_retry",
+      "seed": 20,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "lost_before_commit",
+      "policy": "pause",
+      "seed": 1,
+      "rows": 0,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "lost_before_commit",
+      "policy": "pause",
+      "seed": 2,
+      "rows": 0,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "lost_before_commit",
+      "policy": "pause",
+      "seed": 3,
+      "rows": 0,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "lost_before_commit",
+      "policy": "pause",
+      "seed": 4,
+      "rows": 0,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "lost_before_commit",
+      "policy": "pause",
+      "seed": 5,
+      "rows": 0,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "lost_before_commit",
+      "policy": "pause",
+      "seed": 6,
+      "rows": 0,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "lost_before_commit",
+      "policy": "pause",
+      "seed": 7,
+      "rows": 0,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "lost_before_commit",
+      "policy": "pause",
+      "seed": 8,
+      "rows": 0,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "lost_before_commit",
+      "policy": "pause",
+      "seed": 9,
+      "rows": 0,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "lost_before_commit",
+      "policy": "pause",
+      "seed": 10,
+      "rows": 0,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "lost_before_commit",
+      "policy": "pause",
+      "seed": 11,
+      "rows": 0,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "lost_before_commit",
+      "policy": "pause",
+      "seed": 12,
+      "rows": 0,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "lost_before_commit",
+      "policy": "pause",
+      "seed": 13,
+      "rows": 0,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "lost_before_commit",
+      "policy": "pause",
+      "seed": 14,
+      "rows": 0,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "lost_before_commit",
+      "policy": "pause",
+      "seed": 15,
+      "rows": 0,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "lost_before_commit",
+      "policy": "pause",
+      "seed": 16,
+      "rows": 0,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "lost_before_commit",
+      "policy": "pause",
+      "seed": 17,
+      "rows": 0,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "lost_before_commit",
+      "policy": "pause",
+      "seed": 18,
+      "rows": 0,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "lost_before_commit",
+      "policy": "pause",
+      "seed": 19,
+      "rows": 0,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "faithful",
+      "fault": "lost_before_commit",
+      "policy": "pause",
+      "seed": 20,
+      "rows": 0,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "late_effect",
+      "policy": "clear",
+      "seed": 1,
+      "rows": 1,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "late_effect",
+      "policy": "clear",
+      "seed": 2,
+      "rows": 1,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "late_effect",
+      "policy": "clear",
+      "seed": 3,
+      "rows": 1,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "late_effect",
+      "policy": "clear",
+      "seed": 4,
+      "rows": 1,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "late_effect",
+      "policy": "clear",
+      "seed": 5,
+      "rows": 1,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "late_effect",
+      "policy": "clear",
+      "seed": 6,
+      "rows": 1,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "late_effect",
+      "policy": "clear",
+      "seed": 7,
+      "rows": 1,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "late_effect",
+      "policy": "clear",
+      "seed": 8,
+      "rows": 1,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "late_effect",
+      "policy": "clear",
+      "seed": 9,
+      "rows": 1,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "late_effect",
+      "policy": "clear",
+      "seed": 10,
+      "rows": 1,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "late_effect",
+      "policy": "clear",
+      "seed": 11,
+      "rows": 1,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "late_effect",
+      "policy": "clear",
+      "seed": 12,
+      "rows": 1,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "late_effect",
+      "policy": "clear",
+      "seed": 13,
+      "rows": 1,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "late_effect",
+      "policy": "clear",
+      "seed": 14,
+      "rows": 1,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "late_effect",
+      "policy": "clear",
+      "seed": 15,
+      "rows": 1,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "late_effect",
+      "policy": "clear",
+      "seed": 16,
+      "rows": 1,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "late_effect",
+      "policy": "clear",
+      "seed": 17,
+      "rows": 1,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "late_effect",
+      "policy": "clear",
+      "seed": 18,
+      "rows": 1,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "late_effect",
+      "policy": "clear",
+      "seed": 19,
+      "rows": 1,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "late_effect",
+      "policy": "clear",
+      "seed": 20,
+      "rows": 1,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "late_effect",
+      "policy": "clear_fenced",
+      "seed": 1,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 1
+    },
+    {
+      "closure": "absent",
+      "fault": "late_effect",
+      "policy": "clear_fenced",
+      "seed": 2,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 1
+    },
+    {
+      "closure": "absent",
+      "fault": "late_effect",
+      "policy": "clear_fenced",
+      "seed": 3,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 1
+    },
+    {
+      "closure": "absent",
+      "fault": "late_effect",
+      "policy": "clear_fenced",
+      "seed": 4,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 1
+    },
+    {
+      "closure": "absent",
+      "fault": "late_effect",
+      "policy": "clear_fenced",
+      "seed": 5,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 1
+    },
+    {
+      "closure": "absent",
+      "fault": "late_effect",
+      "policy": "clear_fenced",
+      "seed": 6,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 1
+    },
+    {
+      "closure": "absent",
+      "fault": "late_effect",
+      "policy": "clear_fenced",
+      "seed": 7,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 1
+    },
+    {
+      "closure": "absent",
+      "fault": "late_effect",
+      "policy": "clear_fenced",
+      "seed": 8,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 1
+    },
+    {
+      "closure": "absent",
+      "fault": "late_effect",
+      "policy": "clear_fenced",
+      "seed": 9,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 1
+    },
+    {
+      "closure": "absent",
+      "fault": "late_effect",
+      "policy": "clear_fenced",
+      "seed": 10,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 1
+    },
+    {
+      "closure": "absent",
+      "fault": "late_effect",
+      "policy": "clear_fenced",
+      "seed": 11,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 1
+    },
+    {
+      "closure": "absent",
+      "fault": "late_effect",
+      "policy": "clear_fenced",
+      "seed": 12,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 1
+    },
+    {
+      "closure": "absent",
+      "fault": "late_effect",
+      "policy": "clear_fenced",
+      "seed": 13,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 1
+    },
+    {
+      "closure": "absent",
+      "fault": "late_effect",
+      "policy": "clear_fenced",
+      "seed": 14,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 1
+    },
+    {
+      "closure": "absent",
+      "fault": "late_effect",
+      "policy": "clear_fenced",
+      "seed": 15,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 1
+    },
+    {
+      "closure": "absent",
+      "fault": "late_effect",
+      "policy": "clear_fenced",
+      "seed": 16,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 1
+    },
+    {
+      "closure": "absent",
+      "fault": "late_effect",
+      "policy": "clear_fenced",
+      "seed": 17,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 1
+    },
+    {
+      "closure": "absent",
+      "fault": "late_effect",
+      "policy": "clear_fenced",
+      "seed": 18,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 1
+    },
+    {
+      "closure": "absent",
+      "fault": "late_effect",
+      "policy": "clear_fenced",
+      "seed": 19,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 1
+    },
+    {
+      "closure": "absent",
+      "fault": "late_effect",
+      "policy": "clear_fenced",
+      "seed": 20,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 1
+    },
+    {
+      "closure": "absent",
+      "fault": "late_effect",
+      "policy": "blind_retry",
+      "seed": 1,
+      "rows": 2,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "late_effect",
+      "policy": "blind_retry",
+      "seed": 2,
+      "rows": 2,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "late_effect",
+      "policy": "blind_retry",
+      "seed": 3,
+      "rows": 2,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "late_effect",
+      "policy": "blind_retry",
+      "seed": 4,
+      "rows": 2,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "late_effect",
+      "policy": "blind_retry",
+      "seed": 5,
+      "rows": 2,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "late_effect",
+      "policy": "blind_retry",
+      "seed": 6,
+      "rows": 2,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "late_effect",
+      "policy": "blind_retry",
+      "seed": 7,
+      "rows": 2,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "late_effect",
+      "policy": "blind_retry",
+      "seed": 8,
+      "rows": 2,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "late_effect",
+      "policy": "blind_retry",
+      "seed": 9,
+      "rows": 2,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "late_effect",
+      "policy": "blind_retry",
+      "seed": 10,
+      "rows": 2,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "late_effect",
+      "policy": "blind_retry",
+      "seed": 11,
+      "rows": 2,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "late_effect",
+      "policy": "blind_retry",
+      "seed": 12,
+      "rows": 2,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "late_effect",
+      "policy": "blind_retry",
+      "seed": 13,
+      "rows": 2,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "late_effect",
+      "policy": "blind_retry",
+      "seed": 14,
+      "rows": 2,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "late_effect",
+      "policy": "blind_retry",
+      "seed": 15,
+      "rows": 2,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "late_effect",
+      "policy": "blind_retry",
+      "seed": 16,
+      "rows": 2,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "late_effect",
+      "policy": "blind_retry",
+      "seed": 17,
+      "rows": 2,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "late_effect",
+      "policy": "blind_retry",
+      "seed": 18,
+      "rows": 2,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "late_effect",
+      "policy": "blind_retry",
+      "seed": 19,
+      "rows": 2,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "late_effect",
+      "policy": "blind_retry",
+      "seed": 20,
+      "rows": 2,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "late_effect",
+      "policy": "pause",
+      "seed": 1,
+      "rows": 1,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "late_effect",
+      "policy": "pause",
+      "seed": 2,
+      "rows": 1,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "late_effect",
+      "policy": "pause",
+      "seed": 3,
+      "rows": 1,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "late_effect",
+      "policy": "pause",
+      "seed": 4,
+      "rows": 1,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "late_effect",
+      "policy": "pause",
+      "seed": 5,
+      "rows": 1,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "late_effect",
+      "policy": "pause",
+      "seed": 6,
+      "rows": 1,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "late_effect",
+      "policy": "pause",
+      "seed": 7,
+      "rows": 1,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "late_effect",
+      "policy": "pause",
+      "seed": 8,
+      "rows": 1,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "late_effect",
+      "policy": "pause",
+      "seed": 9,
+      "rows": 1,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "late_effect",
+      "policy": "pause",
+      "seed": 10,
+      "rows": 1,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "late_effect",
+      "policy": "pause",
+      "seed": 11,
+      "rows": 1,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "late_effect",
+      "policy": "pause",
+      "seed": 12,
+      "rows": 1,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "late_effect",
+      "policy": "pause",
+      "seed": 13,
+      "rows": 1,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "late_effect",
+      "policy": "pause",
+      "seed": 14,
+      "rows": 1,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "late_effect",
+      "policy": "pause",
+      "seed": 15,
+      "rows": 1,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "late_effect",
+      "policy": "pause",
+      "seed": 16,
+      "rows": 1,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "late_effect",
+      "policy": "pause",
+      "seed": 17,
+      "rows": 1,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "late_effect",
+      "policy": "pause",
+      "seed": 18,
+      "rows": 1,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "late_effect",
+      "policy": "pause",
+      "seed": 19,
+      "rows": 1,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "late_effect",
+      "policy": "pause",
+      "seed": 20,
+      "rows": 1,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "lost_before_commit",
+      "policy": "clear",
+      "seed": 1,
+      "rows": 0,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "lost_before_commit",
+      "policy": "clear",
+      "seed": 2,
+      "rows": 0,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "lost_before_commit",
+      "policy": "clear",
+      "seed": 3,
+      "rows": 0,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "lost_before_commit",
+      "policy": "clear",
+      "seed": 4,
+      "rows": 0,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "lost_before_commit",
+      "policy": "clear",
+      "seed": 5,
+      "rows": 0,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "lost_before_commit",
+      "policy": "clear",
+      "seed": 6,
+      "rows": 0,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "lost_before_commit",
+      "policy": "clear",
+      "seed": 7,
+      "rows": 0,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "lost_before_commit",
+      "policy": "clear",
+      "seed": 8,
+      "rows": 0,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "lost_before_commit",
+      "policy": "clear",
+      "seed": 9,
+      "rows": 0,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "lost_before_commit",
+      "policy": "clear",
+      "seed": 10,
+      "rows": 0,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "lost_before_commit",
+      "policy": "clear",
+      "seed": 11,
+      "rows": 0,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "lost_before_commit",
+      "policy": "clear",
+      "seed": 12,
+      "rows": 0,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "lost_before_commit",
+      "policy": "clear",
+      "seed": 13,
+      "rows": 0,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "lost_before_commit",
+      "policy": "clear",
+      "seed": 14,
+      "rows": 0,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "lost_before_commit",
+      "policy": "clear",
+      "seed": 15,
+      "rows": 0,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "lost_before_commit",
+      "policy": "clear",
+      "seed": 16,
+      "rows": 0,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "lost_before_commit",
+      "policy": "clear",
+      "seed": 17,
+      "rows": 0,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "lost_before_commit",
+      "policy": "clear",
+      "seed": 18,
+      "rows": 0,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "lost_before_commit",
+      "policy": "clear",
+      "seed": 19,
+      "rows": 0,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "lost_before_commit",
+      "policy": "clear",
+      "seed": 20,
+      "rows": 0,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "lost_before_commit",
+      "policy": "clear_fenced",
+      "seed": 1,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "lost_before_commit",
+      "policy": "clear_fenced",
+      "seed": 2,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "lost_before_commit",
+      "policy": "clear_fenced",
+      "seed": 3,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "lost_before_commit",
+      "policy": "clear_fenced",
+      "seed": 4,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "lost_before_commit",
+      "policy": "clear_fenced",
+      "seed": 5,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "lost_before_commit",
+      "policy": "clear_fenced",
+      "seed": 6,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "lost_before_commit",
+      "policy": "clear_fenced",
+      "seed": 7,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "lost_before_commit",
+      "policy": "clear_fenced",
+      "seed": 8,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "lost_before_commit",
+      "policy": "clear_fenced",
+      "seed": 9,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "lost_before_commit",
+      "policy": "clear_fenced",
+      "seed": 10,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "lost_before_commit",
+      "policy": "clear_fenced",
+      "seed": 11,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "lost_before_commit",
+      "policy": "clear_fenced",
+      "seed": 12,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "lost_before_commit",
+      "policy": "clear_fenced",
+      "seed": 13,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "lost_before_commit",
+      "policy": "clear_fenced",
+      "seed": 14,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "lost_before_commit",
+      "policy": "clear_fenced",
+      "seed": 15,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "lost_before_commit",
+      "policy": "clear_fenced",
+      "seed": 16,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "lost_before_commit",
+      "policy": "clear_fenced",
+      "seed": 17,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "lost_before_commit",
+      "policy": "clear_fenced",
+      "seed": 18,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "lost_before_commit",
+      "policy": "clear_fenced",
+      "seed": 19,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "lost_before_commit",
+      "policy": "clear_fenced",
+      "seed": 20,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "lost_before_commit",
+      "policy": "blind_retry",
+      "seed": 1,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "lost_before_commit",
+      "policy": "blind_retry",
+      "seed": 2,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "lost_before_commit",
+      "policy": "blind_retry",
+      "seed": 3,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "lost_before_commit",
+      "policy": "blind_retry",
+      "seed": 4,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "lost_before_commit",
+      "policy": "blind_retry",
+      "seed": 5,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "lost_before_commit",
+      "policy": "blind_retry",
+      "seed": 6,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "lost_before_commit",
+      "policy": "blind_retry",
+      "seed": 7,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "lost_before_commit",
+      "policy": "blind_retry",
+      "seed": 8,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "lost_before_commit",
+      "policy": "blind_retry",
+      "seed": 9,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "lost_before_commit",
+      "policy": "blind_retry",
+      "seed": 10,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "lost_before_commit",
+      "policy": "blind_retry",
+      "seed": 11,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "lost_before_commit",
+      "policy": "blind_retry",
+      "seed": 12,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "lost_before_commit",
+      "policy": "blind_retry",
+      "seed": 13,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "lost_before_commit",
+      "policy": "blind_retry",
+      "seed": 14,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "lost_before_commit",
+      "policy": "blind_retry",
+      "seed": 15,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "lost_before_commit",
+      "policy": "blind_retry",
+      "seed": 16,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "lost_before_commit",
+      "policy": "blind_retry",
+      "seed": 17,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "lost_before_commit",
+      "policy": "blind_retry",
+      "seed": 18,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "lost_before_commit",
+      "policy": "blind_retry",
+      "seed": 19,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "lost_before_commit",
+      "policy": "blind_retry",
+      "seed": 20,
+      "rows": 1,
+      "terminal": "complete",
+      "completed": true,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "lost_before_commit",
+      "policy": "pause",
+      "seed": 1,
+      "rows": 0,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "lost_before_commit",
+      "policy": "pause",
+      "seed": 2,
+      "rows": 0,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "lost_before_commit",
+      "policy": "pause",
+      "seed": 3,
+      "rows": 0,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "lost_before_commit",
+      "policy": "pause",
+      "seed": 4,
+      "rows": 0,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "lost_before_commit",
+      "policy": "pause",
+      "seed": 5,
+      "rows": 0,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "lost_before_commit",
+      "policy": "pause",
+      "seed": 6,
+      "rows": 0,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "lost_before_commit",
+      "policy": "pause",
+      "seed": 7,
+      "rows": 0,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "lost_before_commit",
+      "policy": "pause",
+      "seed": 8,
+      "rows": 0,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "lost_before_commit",
+      "policy": "pause",
+      "seed": 9,
+      "rows": 0,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "lost_before_commit",
+      "policy": "pause",
+      "seed": 10,
+      "rows": 0,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "lost_before_commit",
+      "policy": "pause",
+      "seed": 11,
+      "rows": 0,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "lost_before_commit",
+      "policy": "pause",
+      "seed": 12,
+      "rows": 0,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "lost_before_commit",
+      "policy": "pause",
+      "seed": 13,
+      "rows": 0,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "lost_before_commit",
+      "policy": "pause",
+      "seed": 14,
+      "rows": 0,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "lost_before_commit",
+      "policy": "pause",
+      "seed": 15,
+      "rows": 0,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "lost_before_commit",
+      "policy": "pause",
+      "seed": 16,
+      "rows": 0,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "lost_before_commit",
+      "policy": "pause",
+      "seed": 17,
+      "rows": 0,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "lost_before_commit",
+      "policy": "pause",
+      "seed": 18,
+      "rows": 0,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "lost_before_commit",
+      "policy": "pause",
+      "seed": 19,
+      "rows": 0,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    },
+    {
+      "closure": "absent",
+      "fault": "lost_before_commit",
+      "policy": "pause",
+      "seed": 20,
+      "rows": 0,
+      "terminal": "pause",
+      "completed": false,
+      "rejected": 0
+    }
+  ],
+  "failures": []
+}
