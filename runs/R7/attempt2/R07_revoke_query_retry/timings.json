@@ -1,0 +1,23 @@
+{
+  "case": "revoke",
+  "policy": "query_retry",
+  "repetition": 7,
+  "terminal": "complete",
+  "reason": "query_then_retry",
+  "control_ns": 4696300,
+  "timings": {
+    "active_ns": 4620300,
+    "drain_ns": 472500
+  },
+  "counts": {
+    "effects": 1,
+    "active": 2,
+    "query": 1,
+    "retry": 1
+  },
+  "actions": 2,
+  "rows": 1,
+  "duplicate": false,
+  "stale_new": 1,
+  "safe": false
+}

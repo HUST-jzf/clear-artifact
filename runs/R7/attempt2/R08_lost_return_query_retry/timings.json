@@ -1,0 +1,22 @@
+{
+  "case": "lost_return",
+  "policy": "query_retry",
+  "repetition": 8,
+  "terminal": "complete",
+  "reason": "query_receipt",
+  "control_ns": 501000,
+  "timings": {
+    "active_ns": 449400,
+    "drain_ns": 441000
+  },
+  "counts": {
+    "effects": 1,
+    "active": 1,
+    "query": 1
+  },
+  "actions": 1,
+  "rows": 1,
+  "duplicate": false,
+  "stale_new": 0,
+  "safe": true
+}
