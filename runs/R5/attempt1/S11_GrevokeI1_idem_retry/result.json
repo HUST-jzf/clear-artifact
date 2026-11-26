@@ -1,0 +1,36 @@
+{
+  "case": "GrevokeI1",
+  "policy": "idem_retry",
+  "seed": 11,
+  "terminal": "complete",
+  "rows": 1,
+  "effects": [
+    {
+      "record_id": 1,
+      "controller": "c2",
+      "allowed": false,
+      "revision": 2
+    }
+  ],
+  "controllers": [
+    {
+      "controller": "c2",
+      "outcome": "inserted"
+    },
+    {
+      "controller": "c1",
+      "outcome": "existing"
+    }
+  ],
+  "permit": {
+    "allowed": false,
+    "revision": 2
+  },
+  "duplicate": false,
+  "stale_new": 1,
+  "aborted": 0,
+  "errors": [],
+  "operation_id": "S11_GrevokeI1_idem_retry",
+  "intent": "b08eba3e14a83a0a5f629dc64d6276562609b69841222cfe77b8f88f04a55170",
+  "elapsed_ns": 113576700
+}
