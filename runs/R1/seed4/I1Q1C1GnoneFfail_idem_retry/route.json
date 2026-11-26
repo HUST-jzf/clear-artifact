@@ -1,0 +1,1 @@
+{"revision": 1, "mode": "inline", "outcome": "fail", "delayed": false, "abandon_on_cancel": false, "delegated": false, "closed_registration": true, "allowed": true, "store": "effects", "idempotency": true, "query_complete": true}
