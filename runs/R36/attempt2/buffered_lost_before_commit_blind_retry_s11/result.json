@@ -1,0 +1,28 @@
+{
+  "profile": "buffered",
+  "fault": "lost_before_commit",
+  "policy": "blind_retry",
+  "seed": 11,
+  "workflow": "buffered_lost_before_commit_blind_retry_S11",
+  "terminal": "complete",
+  "reason": "retry_committed",
+  "rows": {
+    "create": 1,
+    "reserve": 1,
+    "attach": 1,
+    "commit": 1,
+    "notify": 1
+  },
+  "stale": {
+    "create": 0,
+    "reserve": 0,
+    "attach": 0,
+    "commit": 0,
+    "notify": 0
+  },
+  "rejected": 0,
+  "duplicates": 0,
+  "completed": true,
+  "safe": true,
+  "elapsed_ns": 446746100
+}
