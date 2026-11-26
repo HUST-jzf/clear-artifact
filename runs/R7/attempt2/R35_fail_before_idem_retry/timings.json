@@ -1,0 +1,21 @@
+{
+  "case": "fail_before",
+  "policy": "idem_retry",
+  "repetition": 35,
+  "terminal": "complete",
+  "reason": "idempotent_retry",
+  "control_ns": 8020800,
+  "timings": {
+    "active_ns": 7920800,
+    "drain_ns": 1148400
+  },
+  "counts": {
+    "active": 1,
+    "retry": 1
+  },
+  "actions": 1,
+  "rows": 1,
+  "duplicate": false,
+  "stale_new": 0,
+  "safe": true
+}
