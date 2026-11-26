@@ -1,0 +1,7 @@
+{
+  "base_url": "http://127.0.0.1:52241",
+  "pid": 42676,
+  "returncode": 0,
+  "idempotency": "off",
+  "campaign": "single_late"
+}

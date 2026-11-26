@@ -1,0 +1,602 @@
+{
+  "single_late_S0_clear": {
+    "attach": {
+      "kind": "late_commit",
+      "delay": 1.0
+    }
+  },
+  "single_late_S0_idem_retry": {
+    "attach": {
+      "kind": "late_commit",
+      "delay": 1.0
+    }
+  },
+  "single_late_S0_query_retry": {
+    "attach": {
+      "kind": "late_commit",
+      "delay": 1.0
+    }
+  },
+  "single_late_S0_reauth_retry": {
+    "attach": {
+      "kind": "late_commit",
+      "delay": 1.0
+    }
+  },
+  "single_late_S0_pause": {
+    "attach": {
+      "kind": "late_commit",
+      "delay": 1.0
+    }
+  },
+  "single_late_S1_clear": {
+    "attach": {
+      "kind": "late_commit",
+      "delay": 1.0
+    }
+  },
+  "single_late_S1_idem_retry": {
+    "attach": {
+      "kind": "late_commit",
+      "delay": 1.0
+    }
+  },
+  "single_late_S1_query_retry": {
+    "attach": {
+      "kind": "late_commit",
+      "delay": 1.0
+    }
+  },
+  "single_late_S1_reauth_retry": {
+    "attach": {
+      "kind": "late_commit",
+      "delay": 1.0
+    }
+  },
+  "single_late_S1_pause": {
+    "attach": {
+      "kind": "late_commit",
+      "delay": 1.0
+    }
+  },
+  "single_late_S2_clear": {
+    "reserve": {
+      "kind": "late_commit",
+      "delay": 1.0
+    }
+  },
+  "single_late_S2_idem_retry": {
+    "reserve": {
+      "kind": "late_commit",
+      "delay": 1.0
+    }
+  },
+  "single_late_S2_query_retry": {
+    "reserve": {
+      "kind": "late_commit",
+      "delay": 1.0
+    }
+  },
+  "single_late_S2_reauth_retry": {
+    "reserve": {
+      "kind": "late_commit",
+      "delay": 1.0
+    }
+  },
+  "single_late_S2_pause": {
+    "reserve": {
+      "kind": "late_commit",
+      "delay": 1.0
+    }
+  },
+  "single_late_S3_clear": {
+    "create": {
+      "kind": "late_commit",
+      "delay": 1.0
+    }
+  },
+  "single_late_S3_idem_retry": {
+    "create": {
+      "kind": "late_commit",
+      "delay": 1.0
+    }
+  },
+  "single_late_S3_query_retry": {
+    "create": {
+      "kind": "late_commit",
+      "delay": 1.0
+    }
+  },
+  "single_late_S3_reauth_retry": {
+    "create": {
+      "kind": "late_commit",
+      "delay": 1.0
+    }
+  },
+  "single_late_S3_pause": {
+    "create": {
+      "kind": "late_commit",
+      "delay": 1.0
+    }
+  },
+  "single_late_S4_clear": {
+    "notify": {
+      "kind": "late_commit",
+      "delay": 1.0
+    }
+  },
+  "single_late_S4_idem_retry": {
+    "notify": {
+      "kind": "late_commit",
+      "delay": 1.0
+    }
+  },
+  "single_late_S4_query_retry": {
+    "notify": {
+      "kind": "late_commit",
+      "delay": 1.0
+    }
+  },
+  "single_late_S4_reauth_retry": {
+    "notify": {
+      "kind": "late_commit",
+      "delay": 1.0
+    }
+  },
+  "single_late_S4_pause": {
+    "notify": {
+      "kind": "late_commit",
+      "delay": 1.0
+    }
+  },
+  "single_late_S5_clear": {
+    "reserve": {
+      "kind": "late_commit",
+      "delay": 1.0
+    }
+  },
+  "single_late_S5_idem_retry": {
+    "reserve": {
+      "kind": "late_commit",
+      "delay": 1.0
+    }
+  },
+  "single_late_S5_query_retry": {
+    "reserve": {
+      "kind": "late_commit",
+      "delay": 1.0
+    }
+  },
+  "single_late_S5_reauth_retry": {
+    "reserve": {
+      "kind": "late_commit",
+      "delay": 1.0
+    }
+  },
+  "single_late_S5_pause": {
+    "reserve": {
+      "kind": "late_commit",
+      "delay": 1.0
+    }
+  },
+  "single_late_S6_clear": {
+    "attach": {
+      "kind": "late_commit",
+      "delay": 1.0
+    }
+  },
+  "single_late_S6_idem_retry": {
+    "attach": {
+      "kind": "late_commit",
+      "delay": 1.0
+    }
+  },
+  "single_late_S6_query_retry": {
+    "attach": {
+      "kind": "late_commit",
+      "delay": 1.0
+    }
+  },
+  "single_late_S6_reauth_retry": {
+    "attach": {
+      "kind": "late_commit",
+      "delay": 1.0
+    }
+  },
+  "single_late_S6_pause": {
+    "attach": {
+      "kind": "late_commit",
+      "delay": 1.0
+    }
+  },
+  "single_late_S7_clear": {
+    "attach": {
+      "kind": "late_commit",
+      "delay": 1.0
+    }
+  },
+  "single_late_S7_idem_retry": {
+    "attach": {
+      "kind": "late_commit",
+      "delay": 1.0
+    }
+  },
+  "single_late_S7_query_retry": {
+    "attach": {
+      "kind": "late_commit",
+      "delay": 1.0
+    }
+  },
+  "single_late_S7_reauth_retry": {
+    "attach": {
+      "kind": "late_commit",
+      "delay": 1.0
+    }
+  },
+  "single_late_S7_pause": {
+    "attach": {
+      "kind": "late_commit",
+      "delay": 1.0
+    }
+  },
+  "single_late_S8_clear": {
+    "reserve": {
+      "kind": "late_commit",
+      "delay": 1.0
+    }
+  },
+  "single_late_S8_idem_retry": {
+    "reserve": {
+      "kind": "late_commit",
+      "delay": 1.0
+    }
+  },
+  "single_late_S8_query_retry": {
+    "reserve": {
+      "kind": "late_commit",
+      "delay": 1.0
+    }
+  },
+  "single_late_S8_reauth_retry": {
+    "reserve": {
+      "kind": "late_commit",
+      "delay": 1.0
+    }
+  },
+  "single_late_S8_pause": {
+    "reserve": {
+      "kind": "late_commit",
+      "delay": 1.0
+    }
+  },
+  "single_late_S9_clear": {
+    "reserve": {
+      "kind": "late_commit",
+      "delay": 1.0
+    }
+  },
+  "single_late_S9_idem_retry": {
+    "reserve": {
+      "kind": "late_commit",
+      "delay": 1.0
+    }
+  },
+  "single_late_S9_query_retry": {
+    "reserve": {
+      "kind": "late_commit",
+      "delay": 1.0
+    }
+  },
+  "single_late_S9_reauth_retry": {
+    "reserve": {
+      "kind": "late_commit",
+      "delay": 1.0
+    }
+  },
+  "single_late_S9_pause": {
+    "reserve": {
+      "kind": "late_commit",
+      "delay": 1.0
+    }
+  },
+  "single_late_S10_clear": {
+    "commit": {
+      "kind": "late_commit",
+      "delay": 1.0
+    }
+  },
+  "single_late_S10_idem_retry": {
+    "commit": {
+      "kind": "late_commit",
+      "delay": 1.0
+    }
+  },
+  "single_late_S10_query_retry": {
+    "commit": {
+      "kind": "late_commit",
+      "delay": 1.0
+    }
+  },
+  "single_late_S10_reauth_retry": {
+    "commit": {
+      "kind": "late_commit",
+      "delay": 1.0
+    }
+  },
+  "single_late_S10_pause": {
+    "commit": {
+      "kind": "late_commit",
+      "delay": 1.0
+    }
+  },
+  "single_late_S11_clear": {
+    "attach": {
+      "kind": "late_commit",
+      "delay": 1.0
+    }
+  },
+  "single_late_S11_idem_retry": {
+    "attach": {
+      "kind": "late_commit",
+      "delay": 1.0
+    }
+  },
+  "single_late_S11_query_retry": {
+    "attach": {
+      "kind": "late_commit",
+      "delay": 1.0
+    }
+  },
+  "single_late_S11_reauth_retry": {
+    "attach": {
+      "kind": "late_commit",
+      "delay": 1.0
+    }
+  },
+  "single_late_S11_pause": {
+    "attach": {
+      "kind": "late_commit",
+      "delay": 1.0
+    }
+  },
+  "single_late_S12_clear": {
+    "notify": {
+      "kind": "late_commit",
+      "delay": 1.0
+    }
+  },
+  "single_late_S12_idem_retry": {
+    "notify": {
+      "kind": "late_commit",
+      "delay": 1.0
+    }
+  },
+  "single_late_S12_query_retry": {
+    "notify": {
+      "kind": "late_commit",
+      "delay": 1.0
+    }
+  },
+  "single_late_S12_reauth_retry": {
+    "notify": {
+      "kind": "late_commit",
+      "delay": 1.0
+    }
+  },
+  "single_late_S12_pause": {
+    "notify": {
+      "kind": "late_commit",
+      "delay": 1.0
+    }
+  },
+  "single_late_S13_clear": {
+    "reserve": {
+      "kind": "late_commit",
+      "delay": 1.0
+    }
+  },
+  "single_late_S13_idem_retry": {
+    "reserve": {
+      "kind": "late_commit",
+      "delay": 1.0
+    }
+  },
+  "single_late_S13_query_retry": {
+    "reserve": {
+      "kind": "late_commit",
+      "delay": 1.0
+    }
+  },
+  "single_late_S13_reauth_retry": {
+    "reserve": {
+      "kind": "late_commit",
+      "delay": 1.0
+    }
+  },
+  "single_late_S13_pause": {
+    "reserve": {
+      "kind": "late_commit",
+      "delay": 1.0
+    }
+  },
+  "single_late_S14_clear": {
+    "reserve": {
+      "kind": "late_commit",
+      "delay": 1.0
+    }
+  },
+  "single_late_S14_idem_retry": {
+    "reserve": {
+      "kind": "late_commit",
+      "delay": 1.0
+    }
+  },
+  "single_late_S14_query_retry": {
+    "reserve": {
+      "kind": "late_commit",
+      "delay": 1.0
+    }
+  },
+  "single_late_S14_reauth_retry": {
+    "reserve": {
+      "kind": "late_commit",
+      "delay": 1.0
+    }
+  },
+  "single_late_S14_pause": {
+    "reserve": {
+      "kind": "late_commit",
+      "delay": 1.0
+    }
+  },
+  "single_late_S15_clear": {
+    "notify": {
+      "kind": "late_commit",
+      "delay": 1.0
+    }
+  },
+  "single_late_S15_idem_retry": {
+    "notify": {
+      "kind": "late_commit",
+      "delay": 1.0
+    }
+  },
+  "single_late_S15_query_retry": {
+    "notify": {
+      "kind": "late_commit",
+      "delay": 1.0
+    }
+  },
+  "single_late_S15_reauth_retry": {
+    "notify": {
+      "kind": "late_commit",
+      "delay": 1.0
+    }
+  },
+  "single_late_S15_pause": {
+    "notify": {
+      "kind": "late_commit",
+      "delay": 1.0
+    }
+  },
+  "single_late_S16_clear": {
+    "commit": {
+      "kind": "late_commit",
+      "delay": 1.0
+    }
+  },
+  "single_late_S16_idem_retry": {
+    "commit": {
+      "kind": "late_commit",
+      "delay": 1.0
+    }
+  },
+  "single_late_S16_query_retry": {
+    "commit": {
+      "kind": "late_commit",
+      "delay": 1.0
+    }
+  },
+  "single_late_S16_reauth_retry": {
+    "commit": {
+      "kind": "late_commit",
+      "delay": 1.0
+    }
+  },
+  "single_late_S16_pause": {
+    "commit": {
+      "kind": "late_commit",
+      "delay": 1.0
+    }
+  },
+  "single_late_S17_clear": {
+    "reserve": {
+      "kind": "late_commit",
+      "delay": 1.0
+    }
+  },
+  "single_late_S17_idem_retry": {
+    "reserve": {
+      "kind": "late_commit",
+      "delay": 1.0
+    }
+  },
+  "single_late_S17_query_retry": {
+    "reserve": {
+      "kind": "late_commit",
+      "delay": 1.0
+    }
+  },
+  "single_late_S17_reauth_retry": {
+    "reserve": {
+      "kind": "late_commit",
+      "delay": 1.0
+    }
+  },
+  "single_late_S17_pause": {
+    "reserve": {
+      "kind": "late_commit",
+      "delay": 1.0
+    }
+  },
+  "single_late_S18_clear": {
+    "create": {
+      "kind": "late_commit",
+      "delay": 1.0
+    }
+  },
+  "single_late_S18_idem_retry": {
+    "create": {
+      "kind": "late_commit",
+      "delay": 1.0
+    }
+  },
+  "single_late_S18_query_retry": {
+    "create": {
+      "kind": "late_commit",
+      "delay": 1.0
+    }
+  },
+  "single_late_S18_reauth_retry": {
+    "create": {
+      "kind": "late_commit",
+      "delay": 1.0
+    }
+  },
+  "single_late_S18_pause": {
+    "create": {
+      "kind": "late_commit",
+      "delay": 1.0
+    }
+  },
+  "single_late_S19_clear": {
+    "commit": {
+      "kind": "late_commit",
+      "delay": 1.0
+    }
+  },
+  "single_late_S19_idem_retry": {
+    "commit": {
+      "kind": "late_commit",
+      "delay": 1.0
+    }
+  },
+  "single_late_S19_query_retry": {
+    "commit": {
+      "kind": "late_commit",
+      "delay": 1.0
+    }
+  },
+  "single_late_S19_reauth_retry": {
+    "commit": {
+      "kind": "late_commit",
+      "delay": 1.0
+    }
+  },
+  "single_late_S19_pause": {
+    "commit": {
+      "kind": "late_commit",
+      "delay": 1.0
+    }
+  }
+}
