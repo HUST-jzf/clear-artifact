@@ -1,0 +1,113 @@
+{
+  "context": {
+    "operation_id": "S8_crash_after_commit_pause",
+    "intent": "03aef85917ac2c869c5d99c33c9c9a4cd9cbb62e6f0a9a6f6e35be0f2fa7b8fc",
+    "generation": 1
+  },
+  "origin": {
+    "context": {
+      "operation_id": "S8_crash_after_commit_pause",
+      "intent": "03aef85917ac2c869c5d99c33c9c9a4cd9cbb62e6f0a9a6f6e35be0f2fa7b8fc",
+      "generation": 1
+    },
+    "manifest": {
+      "adapter": "local_subprocess_json",
+      "version": "r11",
+      "python": "3.13.2",
+      "worker_sha256": "e66a82c9a6f893db8c04829ab0f28a4bb2b91c1b3c275d0fa9b388a6da39d9fc",
+      "route_sha256": "5ef26441395b3796938da71abf28032a4f884f037f7e7ba67716ac76744c7d14"
+    },
+    "namespace": "effects"
+  },
+  "initial_route": {
+    "revision": 1,
+    "mode": "inline",
+    "outcome": "commit",
+    "delayed": false,
+    "abandon_on_cancel": false,
+    "delegated": false,
+    "closed_registration": true,
+    "allowed": true,
+    "store": "effects",
+    "idempotency": false,
+    "query_complete": true,
+    "crash": "after_commit"
+  },
+  "initial_qualification": {
+    "valid": true,
+    "manifest": {
+      "adapter": "local_subprocess_json",
+      "version": "r11",
+      "python": "3.13.2",
+      "worker_sha256": "e66a82c9a6f893db8c04829ab0f28a4bb2b91c1b3c275d0fa9b388a6da39d9fc",
+      "route_sha256": "5ef26441395b3796938da71abf28032a4f884f037f7e7ba67716ac76744c7d14"
+    },
+    "checks": {
+      "adapter": true,
+      "version": true,
+      "python": true,
+      "framework": true,
+      "worker_sha256": true,
+      "host_sha256": true,
+      "observer_sha256": true,
+      "known_route": true,
+      "closed_registration": true,
+      "approval_allowed": true,
+      "same_effect_destination": true
+    },
+    "changed_dependencies": []
+  },
+  "initial_observations": [
+    {
+      "action": "append",
+      "phase": "initial",
+      "attempt": 1,
+      "outcome": "lost_return",
+      "timeout": 0.082
+    }
+  ],
+  "attempt": 1,
+  "calls": [
+    {
+      "tool": "describe",
+      "outcome": "return",
+      "time_ns": 30870140065300
+    },
+    {
+      "tool": "append",
+      "outcome": "lost_return",
+      "time_ns": 30870168336300
+    }
+  ],
+  "capabilities": {
+    "executor_handle": true,
+    "closed_registration": true
+  },
+  "drain": null,
+  "close_error": null,
+  "restarts": 0,
+  "final_manifest": {
+    "adapter": "local_subprocess_json",
+    "version": "r11",
+    "python": "3.13.2",
+    "worker_sha256": "e66a82c9a6f893db8c04829ab0f28a4bb2b91c1b3c275d0fa9b388a6da39d9fc",
+    "route_sha256": "5ef26441395b3796938da71abf28032a4f884f037f7e7ba67716ac76744c7d14"
+  },
+  "final_route": {
+    "revision": 1,
+    "mode": "inline",
+    "outcome": "commit",
+    "delayed": false,
+    "abandon_on_cancel": false,
+    "delegated": false,
+    "closed_registration": true,
+    "allowed": true,
+    "store": "effects",
+    "idempotency": false,
+    "query_complete": true,
+    "crash": null
+  },
+  "crashed_markers": [
+    "crash.after"
+  ]
+}

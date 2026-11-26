@@ -1,0 +1,163 @@
+{
+  "context": {
+    "operation_id": "S7_crash_before_commit_revoke_clear",
+    "intent": "03aef85917ac2c869c5d99c33c9c9a4cd9cbb62e6f0a9a6f6e35be0f2fa7b8fc",
+    "generation": 1
+  },
+  "origin": {
+    "context": {
+      "operation_id": "S7_crash_before_commit_revoke_clear",
+      "intent": "03aef85917ac2c869c5d99c33c9c9a4cd9cbb62e6f0a9a6f6e35be0f2fa7b8fc",
+      "generation": 1
+    },
+    "manifest": {
+      "adapter": "local_subprocess_json",
+      "version": "r11",
+      "python": "3.13.2",
+      "worker_sha256": "e66a82c9a6f893db8c04829ab0f28a4bb2b91c1b3c275d0fa9b388a6da39d9fc",
+      "route_sha256": "d4ef9abe7bfc1327093546ff3367ab6de3b58ed8c801e7203ec86a1632dfb1a0"
+    },
+    "namespace": "effects"
+  },
+  "initial_route": {
+    "revision": 1,
+    "mode": "inline",
+    "outcome": "commit",
+    "delayed": false,
+    "abandon_on_cancel": false,
+    "delegated": false,
+    "closed_registration": true,
+    "allowed": true,
+    "store": "effects",
+    "idempotency": false,
+    "query_complete": true,
+    "crash": "before_commit"
+  },
+  "initial_qualification": {
+    "valid": true,
+    "manifest": {
+      "adapter": "local_subprocess_json",
+      "version": "r11",
+      "python": "3.13.2",
+      "worker_sha256": "e66a82c9a6f893db8c04829ab0f28a4bb2b91c1b3c275d0fa9b388a6da39d9fc",
+      "route_sha256": "d4ef9abe7bfc1327093546ff3367ab6de3b58ed8c801e7203ec86a1632dfb1a0"
+    },
+    "checks": {
+      "adapter": true,
+      "version": true,
+      "python": true,
+      "framework": true,
+      "worker_sha256": true,
+      "host_sha256": true,
+      "observer_sha256": true,
+      "known_route": true,
+      "closed_registration": true,
+      "approval_allowed": true,
+      "same_effect_destination": true
+    },
+    "changed_dependencies": []
+  },
+  "initial_observations": [
+    {
+      "action": "append",
+      "phase": "initial",
+      "attempt": 1,
+      "outcome": "lost_return",
+      "timeout": 0.078
+    }
+  ],
+  "attempt": 1,
+  "calls": [
+    {
+      "tool": "describe",
+      "outcome": "return",
+      "time_ns": 30903370376400
+    },
+    {
+      "tool": "append",
+      "outcome": "lost_return",
+      "time_ns": 30903394402200
+    },
+    {
+      "tool": "describe",
+      "outcome": "return",
+      "time_ns": 30903611239500
+    },
+    {
+      "tool": "describe",
+      "outcome": "return",
+      "time_ns": 30903612566400
+    },
+    {
+      "tool": "status",
+      "outcome": "return",
+      "time_ns": 30903613285200
+    },
+    {
+      "tool": "describe",
+      "outcome": "return",
+      "time_ns": 30903614754500
+    },
+    {
+      "tool": "effects",
+      "outcome": "return",
+      "time_ns": 30903615918000
+    },
+    {
+      "tool": "describe",
+      "outcome": "return",
+      "time_ns": 30903616771700
+    },
+    {
+      "tool": "status",
+      "outcome": "return",
+      "time_ns": 30903617376200
+    },
+    {
+      "tool": "describe",
+      "outcome": "return",
+      "time_ns": 30903618204100
+    },
+    {
+      "tool": "effects",
+      "outcome": "return",
+      "time_ns": 30903619626000
+    },
+    {
+      "tool": "describe",
+      "outcome": "return",
+      "time_ns": 30903620443400
+    }
+  ],
+  "capabilities": {
+    "executor_handle": true,
+    "closed_registration": true
+  },
+  "drain": null,
+  "close_error": null,
+  "restarts": 1,
+  "final_manifest": {
+    "adapter": "local_subprocess_json",
+    "version": "r11",
+    "python": "3.13.2",
+    "worker_sha256": "e66a82c9a6f893db8c04829ab0f28a4bb2b91c1b3c275d0fa9b388a6da39d9fc",
+    "route_sha256": "e024ea565de60d9a7eaf71277a81b37c6206e8be1818388a1bca03a7edacc8d8"
+  },
+  "final_route": {
+    "revision": 1,
+    "mode": "inline",
+    "outcome": "commit",
+    "delayed": false,
+    "abandon_on_cancel": false,
+    "delegated": false,
+    "closed_registration": true,
+    "allowed": false,
+    "store": "effects",
+    "idempotency": false,
+    "query_complete": true,
+    "crash": null
+  },
+  "crashed_markers": [
+    "crash.before"
+  ]
+}
