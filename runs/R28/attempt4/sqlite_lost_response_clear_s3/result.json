@@ -1,0 +1,71 @@
+{
+  "policy": "clear",
+  "terminal": "complete",
+  "reason": "original_or_retry_receipt",
+  "events": [
+    {
+      "seq": 0,
+      "context": {
+        "operation_id": "sqlite_lost_response_clear_s3",
+        "intent": "55f34e953c4b81b6505cc7ea4694ed85b6f643e19f5af1baa36996d83f07a844",
+        "generation": 1
+      },
+      "manifest": "915ba46bd80000dd8ca08881aed07381e661ead26651c378cf7d2ee26b13aae4",
+      "action": "query",
+      "body": {
+        "state": "committed",
+        "record_id": 1,
+        "complete": true,
+        "rows": [
+          {
+            "record_id": 1,
+            "origin": "observed",
+            "attempt": 1
+          }
+        ],
+        "effect_namespace": "sqlite",
+        "operation_id": "sqlite_lost_response_clear_s3",
+        "intent": "55f34e953c4b81b6505cc7ea4694ed85b6f643e19f5af1baa36996d83f07a844",
+        "generation": 1
+      }
+    }
+  ],
+  "body": {
+    "state": "committed",
+    "record_id": 1,
+    "complete": true,
+    "rows": [
+      {
+        "record_id": 1,
+        "origin": "observed",
+        "attempt": 1
+      }
+    ],
+    "effect_namespace": "sqlite",
+    "operation_id": "sqlite_lost_response_clear_s3",
+    "intent": "55f34e953c4b81b6505cc7ea4694ed85b6f643e19f5af1baa36996d83f07a844",
+    "generation": 1
+  },
+  "server": "sqlite",
+  "fault": "lost_response",
+  "seed": 3,
+  "token": "effect:sqlite:lost_response:clear:s3",
+  "context": {
+    "operation_id": "sqlite_lost_response_clear_s3",
+    "intent": "55f34e953c4b81b6505cc7ea4694ed85b6f643e19f5af1baa36996d83f07a844",
+    "generation": 1
+  },
+  "calls": [
+    {
+      "tool": "execute",
+      "outcome": "timeout",
+      "elapsed_ns": 403939399
+    },
+    {
+      "tool": "observe",
+      "outcome": "return",
+      "elapsed_ns": 1244100
+    }
+  ],
+  "elapsed_ns": 907938000
+}
