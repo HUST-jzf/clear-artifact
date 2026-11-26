@@ -1,0 +1,262 @@
+{
+  "fault": "lost_before_commit",
+  "mechanism": "unique",
+  "seed": 11,
+  "workflow": "lost_before_commit_unique_S11",
+  "controllers": {
+    "B": {
+      "owner": "B",
+      "terminal": "complete",
+      "reason": "original_or_retry_receipt",
+      "events": [
+        {
+          "seq": 0,
+          "context": {
+            "operation_id": "lost_before_commit_unique_S11:attach",
+            "intent": "ticket:attach",
+            "generation": 1
+          },
+          "action": "wait",
+          "body": {
+            "root": "lost_before_commit_unique_S11:attach",
+            "op": "lost_before_commit_unique_S11:attach",
+            "step": "attach",
+            "terminal": true,
+            "receipt": null,
+            "state": "unknown",
+            "complete": true,
+            "registration_complete": true,
+            "effect_namespace": "effects",
+            "members": [
+              {
+                "handle": "lost_before_commit_unique_S11:attach",
+                "parent": null,
+                "terminal": true,
+                "receipt": null
+              }
+            ],
+            "launch_manifest": "738e53cb953ea6a4edc2b00dbf39b6f73faa43083c11df5906fcb9f1ac395cca"
+          }
+        },
+        {
+          "seq": 1,
+          "context": {
+            "operation_id": "lost_before_commit_unique_S11:attach",
+            "intent": "ticket:attach",
+            "generation": 1
+          },
+          "action": "query",
+          "body": {
+            "root": "lost_before_commit_unique_S11:attach",
+            "op": "lost_before_commit_unique_S11:attach",
+            "state": "not_committed",
+            "complete": true,
+            "effect_namespace": "effects",
+            "rows": []
+          }
+        },
+        {
+          "seq": 2,
+          "context": {
+            "operation_id": "lost_before_commit_unique_S11:attach",
+            "intent": "ticket:attach",
+            "generation": 1
+          },
+          "action": "query",
+          "body": {
+            "state": "committed",
+            "op": "lost_before_commit_unique_S11:attach",
+            "operation_id": "lost_before_commit_unique_S11:attach",
+            "step": "attach",
+            "record_id": 3,
+            "attempt": 2,
+            "allowed": true,
+            "manifest": "ticket-svc-2026.10-v1",
+            "intent": "ticket:attach",
+            "generation": 1,
+            "effect_namespace": "effects",
+            "root": "lost_before_commit_unique_S11:attach",
+            "rows": [
+              {
+                "record_id": 3,
+                "attempt": 2,
+                "allowed": true
+              }
+            ]
+          }
+        }
+      ],
+      "writes": 0
+    },
+    "A": {
+      "owner": "A",
+      "terminal": "complete",
+      "reason": "original_or_retry_receipt",
+      "events": [
+        {
+          "seq": 0,
+          "context": {
+            "operation_id": "lost_before_commit_unique_S11:attach",
+            "intent": "ticket:attach",
+            "generation": 1
+          },
+          "action": "wait",
+          "body": {
+            "root": "lost_before_commit_unique_S11:attach",
+            "op": "lost_before_commit_unique_S11:attach",
+            "step": "attach",
+            "terminal": true,
+            "receipt": null,
+            "state": "unknown",
+            "complete": true,
+            "registration_complete": true,
+            "effect_namespace": "effects",
+            "members": [
+              {
+                "handle": "lost_before_commit_unique_S11:attach",
+                "parent": null,
+                "terminal": true,
+                "receipt": null
+              }
+            ],
+            "launch_manifest": "738e53cb953ea6a4edc2b00dbf39b6f73faa43083c11df5906fcb9f1ac395cca"
+          }
+        },
+        {
+          "seq": 1,
+          "context": {
+            "operation_id": "lost_before_commit_unique_S11:attach",
+            "intent": "ticket:attach",
+            "generation": 1
+          },
+          "action": "query",
+          "body": {
+            "root": "lost_before_commit_unique_S11:attach",
+            "op": "lost_before_commit_unique_S11:attach",
+            "state": "not_committed",
+            "complete": true,
+            "effect_namespace": "effects",
+            "rows": []
+          }
+        },
+        {
+          "seq": 2,
+          "context": {
+            "operation_id": "lost_before_commit_unique_S11:attach",
+            "intent": "ticket:attach",
+            "generation": 1
+          },
+          "action": "retry",
+          "body": {
+            "state": "accepted",
+            "op": "lost_before_commit_unique_S11:attach",
+            "operation_id": "lost_before_commit_unique_S11:attach",
+            "step": "attach",
+            "record_id": 3,
+            "attempt": 2,
+            "allowed": true,
+            "manifest": "ticket-svc-2026.10-v1",
+            "intent": "ticket:attach",
+            "generation": 1,
+            "effect_namespace": "effects"
+          }
+        },
+        {
+          "seq": 3,
+          "context": {
+            "operation_id": "lost_before_commit_unique_S11:attach",
+            "intent": "ticket:attach",
+            "generation": 1
+          },
+          "action": "wait",
+          "body": {
+            "root": "lost_before_commit_unique_S11:attach",
+            "op": "lost_before_commit_unique_S11:attach",
+            "step": "attach",
+            "terminal": true,
+            "receipt": {
+              "state": "committed",
+              "op": "lost_before_commit_unique_S11:attach",
+              "operation_id": "lost_before_commit_unique_S11:attach",
+              "step": "attach",
+              "record_id": 3,
+              "attempt": 2,
+              "allowed": true,
+              "manifest": "ticket-svc-2026.10-v1",
+              "intent": "ticket:attach",
+              "generation": 1,
+              "effect_namespace": "effects"
+            },
+            "state": "committed",
+            "complete": true,
+            "registration_complete": true,
+            "effect_namespace": "effects",
+            "members": [
+              {
+                "handle": "lost_before_commit_unique_S11:attach",
+                "parent": null,
+                "terminal": true,
+                "receipt": {
+                  "state": "committed",
+                  "op": "lost_before_commit_unique_S11:attach",
+                  "operation_id": "lost_before_commit_unique_S11:attach",
+                  "step": "attach",
+                  "record_id": 3,
+                  "attempt": 2,
+                  "allowed": true,
+                  "manifest": "ticket-svc-2026.10-v1",
+                  "intent": "ticket:attach",
+                  "generation": 1,
+                  "effect_namespace": "effects"
+                }
+              }
+            ],
+            "launch_manifest": "738e53cb953ea6a4edc2b00dbf39b6f73faa43083c11df5906fcb9f1ac395cca"
+          }
+        }
+      ],
+      "writes": 1
+    }
+  },
+  "rows": {
+    "create": 1,
+    "reserve": 1,
+    "attach": 1,
+    "commit": 1,
+    "notify": 1
+  },
+  "stale": {
+    "create": 0,
+    "reserve": 0,
+    "attach": 0,
+    "commit": 0,
+    "notify": 0
+  },
+  "duplicates": 0,
+  "completed": true,
+  "safe": true,
+  "writes": 1,
+  "elapsed_ns": 691637900,
+  "observed_steps": {
+    "attach": {
+      "rows": 1,
+      "stale": 0
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  }
+}
