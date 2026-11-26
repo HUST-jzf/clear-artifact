@@ -1,0 +1,50 @@
+{
+  "run": "F:\\desktop\\paper\\clear-artifact\\runs\\R29\\attempt1",
+  "checks": 566,
+  "passed": 566,
+  "failed": [],
+  "storage": [
+    {
+      "config": "n25",
+      "size": 25,
+      "workflows": 25,
+      "files": 25,
+      "total_bytes": 614400,
+      "bytes_per_workflow": 24576.0,
+      "receipt_bytes_mean": 275.0,
+      "receipt_bytes_total": 34375,
+      "receipts": 125,
+      "effect_rows": 125
+    },
+    {
+      "config": "n50",
+      "size": 50,
+      "workflows": 50,
+      "files": 50,
+      "total_bytes": 1228800,
+      "bytes_per_workflow": 24576.0,
+      "receipt_bytes_mean": 275.4,
+      "receipt_bytes_total": 68850,
+      "receipts": 250,
+      "effect_rows": 250
+    },
+    {
+      "config": "n100",
+      "size": 100,
+      "workflows": 100,
+      "files": 100,
+      "total_bytes": 2457600,
+      "bytes_per_workflow": 24576.0,
+      "receipt_bytes_mean": 275.6,
+      "receipt_bytes_total": 137800,
+      "receipts": 500,
+      "effect_rows": 500
+    }
+  ],
+  "bytes_per_workflow": 24576.0,
+  "projection_gb": {
+    "100k": 2.458,
+    "1m": 24.576
+  },
+  "status": "pass"
+}
