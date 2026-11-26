@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "mcp-server-sqlite": "^0.0.2"
+  }
+}

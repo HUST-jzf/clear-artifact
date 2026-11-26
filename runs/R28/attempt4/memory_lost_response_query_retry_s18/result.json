@@ -1,0 +1,54 @@
+{
+  "policy": "query_retry",
+  "terminal": "complete",
+  "reason": "query_observed",
+  "events": [
+    {
+      "action": "post",
+      "phase": "initial",
+      "outcome": "unknown"
+    },
+    {
+      "action": "query",
+      "state": "committed"
+    }
+  ],
+  "body": {
+    "state": "committed",
+    "record_id": 1,
+    "complete": true,
+    "rows": [
+      {
+        "record_id": 1,
+        "origin": "observed",
+        "attempt": 1
+      }
+    ],
+    "effect_namespace": "memory",
+    "operation_id": "memory_lost_response_query_retry_s18",
+    "intent": "55f34e953c4b81b6505cc7ea4694ed85b6f643e19f5af1baa36996d83f07a844",
+    "generation": 1
+  },
+  "server": "memory",
+  "fault": "lost_response",
+  "seed": 18,
+  "token": "effect:memory:lost_response:query_retry:s18",
+  "context": {
+    "operation_id": "memory_lost_response_query_retry_s18",
+    "intent": "55f34e953c4b81b6505cc7ea4694ed85b6f643e19f5af1baa36996d83f07a844",
+    "generation": 1
+  },
+  "calls": [
+    {
+      "tool": "add_observations",
+      "outcome": "timeout",
+      "elapsed_ns": 408301900
+    },
+    {
+      "tool": "observe",
+      "outcome": "return",
+      "elapsed_ns": 4309599
+    }
+  ],
+  "elapsed_ns": 795330000
+}

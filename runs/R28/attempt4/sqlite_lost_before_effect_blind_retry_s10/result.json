@@ -1,0 +1,60 @@
+{
+  "policy": "blind_retry",
+  "terminal": "complete",
+  "reason": "blind_retry",
+  "events": [
+    {
+      "action": "post",
+      "phase": "initial",
+      "outcome": "unknown"
+    },
+    {
+      "action": "retry",
+      "phase": "retry",
+      "outcome": "returned"
+    }
+  ],
+  "body": {
+    "state": "committed",
+    "record_id": 1,
+    "complete": true,
+    "rows": [
+      {
+        "record_id": 1,
+        "origin": "observed",
+        "attempt": 1
+      }
+    ],
+    "effect_namespace": "sqlite",
+    "operation_id": "sqlite_lost_before_effect_blind_retry_s10",
+    "intent": "55f34e953c4b81b6505cc7ea4694ed85b6f643e19f5af1baa36996d83f07a844",
+    "generation": 1
+  },
+  "server": "sqlite",
+  "fault": "lost_before_effect",
+  "seed": 10,
+  "token": "effect:sqlite:lost_before_effect:blind_retry:s10",
+  "context": {
+    "operation_id": "sqlite_lost_before_effect_blind_retry_s10",
+    "intent": "55f34e953c4b81b6505cc7ea4694ed85b6f643e19f5af1baa36996d83f07a844",
+    "generation": 1
+  },
+  "calls": [
+    {
+      "tool": "execute",
+      "outcome": "timeout",
+      "elapsed_ns": 406369499
+    },
+    {
+      "tool": "execute",
+      "outcome": "return",
+      "elapsed_ns": 2094800
+    },
+    {
+      "tool": "observe",
+      "outcome": "return",
+      "elapsed_ns": 1295600
+    }
+  ],
+  "elapsed_ns": 874078300
+}
