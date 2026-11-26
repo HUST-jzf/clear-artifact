@@ -1,0 +1,2886 @@
+{
+  "tasks": [
+    {
+      "name": "memory_lost_response_clear_s1",
+      "server": "memory",
+      "fault": "lost_response",
+      "policy": "clear",
+      "seed": 1,
+      "terminal": "complete",
+      "reason": "original_or_retry_receipt"
+    },
+    {
+      "name": "memory_lost_response_clear_s2",
+      "server": "memory",
+      "fault": "lost_response",
+      "policy": "clear",
+      "seed": 2,
+      "terminal": "complete",
+      "reason": "original_or_retry_receipt"
+    },
+    {
+      "name": "memory_lost_response_clear_s3",
+      "server": "memory",
+      "fault": "lost_response",
+      "policy": "clear",
+      "seed": 3,
+      "terminal": "complete",
+      "reason": "original_or_retry_receipt"
+    },
+    {
+      "name": "memory_lost_response_clear_s4",
+      "server": "memory",
+      "fault": "lost_response",
+      "policy": "clear",
+      "seed": 4,
+      "terminal": "complete",
+      "reason": "original_or_retry_receipt"
+    },
+    {
+      "name": "memory_lost_response_clear_s5",
+      "server": "memory",
+      "fault": "lost_response",
+      "policy": "clear",
+      "seed": 5,
+      "terminal": "complete",
+      "reason": "original_or_retry_receipt"
+    },
+    {
+      "name": "memory_lost_response_clear_s6",
+      "server": "memory",
+      "fault": "lost_response",
+      "policy": "clear",
+      "seed": 6,
+      "terminal": "complete",
+      "reason": "original_or_retry_receipt"
+    },
+    {
+      "name": "memory_lost_response_clear_s7",
+      "server": "memory",
+      "fault": "lost_response",
+      "policy": "clear",
+      "seed": 7,
+      "terminal": "complete",
+      "reason": "original_or_retry_receipt"
+    },
+    {
+      "name": "memory_lost_response_clear_s8",
+      "server": "memory",
+      "fault": "lost_response",
+      "policy": "clear",
+      "seed": 8,
+      "terminal": "complete",
+      "reason": "original_or_retry_receipt"
+    },
+    {
+      "name": "memory_lost_response_clear_s9",
+      "server": "memory",
+      "fault": "lost_response",
+      "policy": "clear",
+      "seed": 9,
+      "terminal": "complete",
+      "reason": "original_or_retry_receipt"
+    },
+    {
+      "name": "memory_lost_response_clear_s10",
+      "server": "memory",
+      "fault": "lost_response",
+      "policy": "clear",
+      "seed": 10,
+      "terminal": "complete",
+      "reason": "original_or_retry_receipt"
+    },
+    {
+      "name": "memory_lost_response_clear_s11",
+      "server": "memory",
+      "fault": "lost_response",
+      "policy": "clear",
+      "seed": 11,
+      "terminal": "complete",
+      "reason": "original_or_retry_receipt"
+    },
+    {
+      "name": "memory_lost_response_clear_s12",
+      "server": "memory",
+      "fault": "lost_response",
+      "policy": "clear",
+      "seed": 12,
+      "terminal": "complete",
+      "reason": "original_or_retry_receipt"
+    },
+    {
+      "name": "memory_lost_response_clear_s13",
+      "server": "memory",
+      "fault": "lost_response",
+      "policy": "clear",
+      "seed": 13,
+      "terminal": "complete",
+      "reason": "original_or_retry_receipt"
+    },
+    {
+      "name": "memory_lost_response_clear_s14",
+      "server": "memory",
+      "fault": "lost_response",
+      "policy": "clear",
+      "seed": 14,
+      "terminal": "complete",
+      "reason": "original_or_retry_receipt"
+    },
+    {
+      "name": "memory_lost_response_clear_s15",
+      "server": "memory",
+      "fault": "lost_response",
+      "policy": "clear",
+      "seed": 15,
+      "terminal": "complete",
+      "reason": "original_or_retry_receipt"
+    },
+    {
+      "name": "memory_lost_response_clear_s16",
+      "server": "memory",
+      "fault": "lost_response",
+      "policy": "clear",
+      "seed": 16,
+      "terminal": "complete",
+      "reason": "original_or_retry_receipt"
+    },
+    {
+      "name": "memory_lost_response_clear_s17",
+      "server": "memory",
+      "fault": "lost_response",
+      "policy": "clear",
+      "seed": 17,
+      "terminal": "complete",
+      "reason": "original_or_retry_receipt"
+    },
+    {
+      "name": "memory_lost_response_clear_s18",
+      "server": "memory",
+      "fault": "lost_response",
+      "policy": "clear",
+      "seed": 18,
+      "terminal": "complete",
+      "reason": "original_or_retry_receipt"
+    },
+    {
+      "name": "memory_lost_response_clear_s19",
+      "server": "memory",
+      "fault": "lost_response",
+      "policy": "clear",
+      "seed": 19,
+      "terminal": "complete",
+      "reason": "original_or_retry_receipt"
+    },
+    {
+      "name": "memory_lost_response_clear_s20",
+      "server": "memory",
+      "fault": "lost_response",
+      "policy": "clear",
+      "seed": 20,
+      "terminal": "complete",
+      "reason": "original_or_retry_receipt"
+    },
+    {
+      "name": "memory_lost_response_blind_retry_s1",
+      "server": "memory",
+      "fault": "lost_response",
+      "policy": "blind_retry",
+      "seed": 1,
+      "terminal": "complete",
+      "reason": "blind_retry"
+    },
+    {
+      "name": "memory_lost_response_blind_retry_s2",
+      "server": "memory",
+      "fault": "lost_response",
+      "policy": "blind_retry",
+      "seed": 2,
+      "terminal": "complete",
+      "reason": "blind_retry"
+    },
+    {
+      "name": "memory_lost_response_blind_retry_s3",
+      "server": "memory",
+      "fault": "lost_response",
+      "policy": "blind_retry",
+      "seed": 3,
+      "terminal": "complete",
+      "reason": "blind_retry"
+    },
+    {
+      "name": "memory_lost_response_blind_retry_s4",
+      "server": "memory",
+      "fault": "lost_response",
+      "policy": "blind_retry",
+      "seed": 4,
+      "terminal": "complete",
+      "reason": "blind_retry"
+    },
+    {
+      "name": "memory_lost_response_blind_retry_s5",
+      "server": "memory",
+      "fault": "lost_response",
+      "policy": "blind_retry",
+      "seed": 5,
+      "terminal": "complete",
+      "reason": "blind_retry"
+    },
+    {
+      "name": "memory_lost_response_blind_retry_s6",
+      "server": "memory",
+      "fault": "lost_response",
+      "policy": "blind_retry",
+      "seed": 6,
+      "terminal": "complete",
+      "reason": "blind_retry"
+    },
+    {
+      "name": "memory_lost_response_blind_retry_s7",
+      "server": "memory",
+      "fault": "lost_response",
+      "policy": "blind_retry",
+      "seed": 7,
+      "terminal": "complete",
+      "reason": "blind_retry"
+    },
+    {
+      "name": "memory_lost_response_blind_retry_s8",
+      "server": "memory",
+      "fault": "lost_response",
+      "policy": "blind_retry",
+      "seed": 8,
+      "terminal": "complete",
+      "reason": "blind_retry"
+    },
+    {
+      "name": "memory_lost_response_blind_retry_s9",
+      "server": "memory",
+      "fault": "lost_response",
+      "policy": "blind_retry",
+      "seed": 9,
+      "terminal": "complete",
+      "reason": "blind_retry"
+    },
+    {
+      "name": "memory_lost_response_blind_retry_s10",
+      "server": "memory",
+      "fault": "lost_response",
+      "policy": "blind_retry",
+      "seed": 10,
+      "terminal": "complete",
+      "reason": "blind_retry"
+    },
+    {
+      "name": "memory_lost_response_blind_retry_s11",
+      "server": "memory",
+      "fault": "lost_response",
+      "policy": "blind_retry",
+      "seed": 11,
+      "terminal": "complete",
+      "reason": "blind_retry"
+    },
+    {
+      "name": "memory_lost_response_blind_retry_s12",
+      "server": "memory",
+      "fault": "lost_response",
+      "policy": "blind_retry",
+      "seed": 12,
+      "terminal": "complete",
+      "reason": "blind_retry"
+    },
+    {
+      "name": "memory_lost_response_blind_retry_s13",
+      "server": "memory",
+      "fault": "lost_response",
+      "policy": "blind_retry",
+      "seed": 13,
+      "terminal": "complete",
+      "reason": "blind_retry"
+    },
+    {
+      "name": "memory_lost_response_blind_retry_s14",
+      "server": "memory",
+      "fault": "lost_response",
+      "policy": "blind_retry",
+      "seed": 14,
+      "terminal": "complete",
+      "reason": "blind_retry"
+    },
+    {
+      "name": "memory_lost_response_blind_retry_s15",
+      "server": "memory",
+      "fault": "lost_response",
+      "policy": "blind_retry",
+      "seed": 15,
+      "terminal": "complete",
+      "reason": "blind_retry"
+    },
+    {
+      "name": "memory_lost_response_blind_retry_s16",
+      "server": "memory",
+      "fault": "lost_response",
+      "policy": "blind_retry",
+      "seed": 16,
+      "terminal": "complete",
+      "reason": "blind_retry"
+    },
+    {
+      "name": "memory_lost_response_blind_retry_s17",
+      "server": "memory",
+      "fault": "lost_response",
+      "policy": "blind_retry",
+      "seed": 17,
+      "terminal": "complete",
+      "reason": "blind_retry"
+    },
+    {
+      "name": "memory_lost_response_blind_retry_s18",
+      "server": "memory",
+      "fault": "lost_response",
+      "policy": "blind_retry",
+      "seed": 18,
+      "terminal": "complete",
+      "reason": "blind_retry"
+    },
+    {
+      "name": "memory_lost_response_blind_retry_s19",
+      "server": "memory",
+      "fault": "lost_response",
+      "policy": "blind_retry",
+      "seed": 19,
+      "terminal": "complete",
+      "reason": "blind_retry"
+    },
+    {
+      "name": "memory_lost_response_blind_retry_s20",
+      "server": "memory",
+      "fault": "lost_response",
+      "policy": "blind_retry",
+      "seed": 20,
+      "terminal": "complete",
+      "reason": "blind_retry"
+    },
+    {
+      "name": "memory_lost_response_query_retry_s1",
+      "server": "memory",
+      "fault": "lost_response",
+      "policy": "query_retry",
+      "seed": 1,
+      "terminal": "complete",
+      "reason": "query_observed"
+    },
+    {
+      "name": "memory_lost_response_query_retry_s2",
+      "server": "memory",
+      "fault": "lost_response",
+      "policy": "query_retry",
+      "seed": 2,
+      "terminal": "complete",
+      "reason": "query_observed"
+    },
+    {
+      "name": "memory_lost_response_query_retry_s3",
+      "server": "memory",
+      "fault": "lost_response",
+      "policy": "query_retry",
+      "seed": 3,
+      "terminal": "complete",
+      "reason": "query_observed"
+    },
+    {
+      "name": "memory_lost_response_query_retry_s4",
+      "server": "memory",
+      "fault": "lost_response",
+      "policy": "query_retry",
+      "seed": 4,
+      "terminal": "complete",
+      "reason": "query_observed"
+    },
+    {
+      "name": "memory_lost_response_query_retry_s5",
+      "server": "memory",
+      "fault": "lost_response",
+      "policy": "query_retry",
+      "seed": 5,
+      "terminal": "complete",
+      "reason": "query_observed"
+    },
+    {
+      "name": "memory_lost_response_query_retry_s6",
+      "server": "memory",
+      "fault": "lost_response",
+      "policy": "query_retry",
+      "seed": 6,
+      "terminal": "complete",
+      "reason": "query_observed"
+    },
+    {
+      "name": "memory_lost_response_query_retry_s7",
+      "server": "memory",
+      "fault": "lost_response",
+      "policy": "query_retry",
+      "seed": 7,
+      "terminal": "complete",
+      "reason": "query_observed"
+    },
+    {
+      "name": "memory_lost_response_query_retry_s8",
+      "server": "memory",
+      "fault": "lost_response",
+      "policy": "query_retry",
+      "seed": 8,
+      "terminal": "complete",
+      "reason": "query_observed"
+    },
+    {
+      "name": "memory_lost_response_query_retry_s9",
+      "server": "memory",
+      "fault": "lost_response",
+      "policy": "query_retry",
+      "seed": 9,
+      "terminal": "complete",
+      "reason": "query_observed"
+    },
+    {
+      "name": "memory_lost_response_query_retry_s10",
+      "server": "memory",
+      "fault": "lost_response",
+      "policy": "query_retry",
+      "seed": 10,
+      "terminal": "complete",
+      "reason": "query_observed"
+    },
+    {
+      "name": "memory_lost_response_query_retry_s11",
+      "server": "memory",
+      "fault": "lost_response",
+      "policy": "query_retry",
+      "seed": 11,
+      "terminal": "complete",
+      "reason": "query_observed"
+    },
+    {
+      "name": "memory_lost_response_query_retry_s12",
+      "server": "memory",
+      "fault": "lost_response",
+      "policy": "query_retry",
+      "seed": 12,
+      "terminal": "complete",
+      "reason": "query_observed"
+    },
+    {
+      "name": "memory_lost_response_query_retry_s13",
+      "server": "memory",
+      "fault": "lost_response",
+      "policy": "query_retry",
+      "seed": 13,
+      "terminal": "complete",
+      "reason": "query_observed"
+    },
+    {
+      "name": "memory_lost_response_query_retry_s14",
+      "server": "memory",
+      "fault": "lost_response",
+      "policy": "query_retry",
+      "seed": 14,
+      "terminal": "complete",
+      "reason": "query_observed"
+    },
+    {
+      "name": "memory_lost_response_query_retry_s15",
+      "server": "memory",
+      "fault": "lost_response",
+      "policy": "query_retry",
+      "seed": 15,
+      "terminal": "complete",
+      "reason": "query_observed"
+    },
+    {
+      "name": "memory_lost_response_query_retry_s16",
+      "server": "memory",
+      "fault": "lost_response",
+      "policy": "query_retry",
+      "seed": 16,
+      "terminal": "complete",
+      "reason": "query_observed"
+    },
+    {
+      "name": "memory_lost_response_query_retry_s17",
+      "server": "memory",
+      "fault": "lost_response",
+      "policy": "query_retry",
+      "seed": 17,
+      "terminal": "complete",
+      "reason": "query_observed"
+    },
+    {
+      "name": "memory_lost_response_query_retry_s18",
+      "server": "memory",
+      "fault": "lost_response",
+      "policy": "query_retry",
+      "seed": 18,
+      "terminal": "complete",
+      "reason": "query_observed"
+    },
+    {
+      "name": "memory_lost_response_query_retry_s19",
+      "server": "memory",
+      "fault": "lost_response",
+      "policy": "query_retry",
+      "seed": 19,
+      "terminal": "complete",
+      "reason": "query_observed"
+    },
+    {
+      "name": "memory_lost_response_query_retry_s20",
+      "server": "memory",
+      "fault": "lost_response",
+      "policy": "query_retry",
+      "seed": 20,
+      "terminal": "complete",
+      "reason": "query_observed"
+    },
+    {
+      "name": "memory_lost_response_pause_s1",
+      "server": "memory",
+      "fault": "lost_response",
+      "policy": "pause",
+      "seed": 1,
+      "terminal": "pause",
+      "reason": "single_pause"
+    },
+    {
+      "name": "memory_lost_response_pause_s2",
+      "server": "memory",
+      "fault": "lost_response",
+      "policy": "pause",
+      "seed": 2,
+      "terminal": "pause",
+      "reason": "single_pause"
+    },
+    {
+      "name": "memory_lost_response_pause_s3",
+      "server": "memory",
+      "fault": "lost_response",
+      "policy": "pause",
+      "seed": 3,
+      "terminal": "pause",
+      "reason": "single_pause"
+    },
+    {
+      "name": "memory_lost_response_pause_s4",
+      "server": "memory",
+      "fault": "lost_response",
+      "policy": "pause",
+      "seed": 4,
+      "terminal": "pause",
+      "reason": "single_pause"
+    },
+    {
+      "name": "memory_lost_response_pause_s5",
+      "server": "memory",
+      "fault": "lost_response",
+      "policy": "pause",
+      "seed": 5,
+      "terminal": "pause",
+      "reason": "single_pause"
+    },
+    {
+      "name": "memory_lost_response_pause_s6",
+      "server": "memory",
+      "fault": "lost_response",
+      "policy": "pause",
+      "seed": 6,
+      "terminal": "pause",
+      "reason": "single_pause"
+    },
+    {
+      "name": "memory_lost_response_pause_s7",
+      "server": "memory",
+      "fault": "lost_response",
+      "policy": "pause",
+      "seed": 7,
+      "terminal": "pause",
+      "reason": "single_pause"
+    },
+    {
+      "name": "memory_lost_response_pause_s8",
+      "server": "memory",
+      "fault": "lost_response",
+      "policy": "pause",
+      "seed": 8,
+      "terminal": "pause",
+      "reason": "single_pause"
+    },
+    {
+      "name": "memory_lost_response_pause_s9",
+      "server": "memory",
+      "fault": "lost_response",
+      "policy": "pause",
+      "seed": 9,
+      "terminal": "pause",
+      "reason": "single_pause"
+    },
+    {
+      "name": "memory_lost_response_pause_s10",
+      "server": "memory",
+      "fault": "lost_response",
+      "policy": "pause",
+      "seed": 10,
+      "terminal": "pause",
+      "reason": "single_pause"
+    },
+    {
+      "name": "memory_lost_response_pause_s11",
+      "server": "memory",
+      "fault": "lost_response",
+      "policy": "pause",
+      "seed": 11,
+      "terminal": "pause",
+      "reason": "single_pause"
+    },
+    {
+      "name": "memory_lost_response_pause_s12",
+      "server": "memory",
+      "fault": "lost_response",
+      "policy": "pause",
+      "seed": 12,
+      "terminal": "pause",
+      "reason": "single_pause"
+    },
+    {
+      "name": "memory_lost_response_pause_s13",
+      "server": "memory",
+      "fault": "lost_response",
+      "policy": "pause",
+      "seed": 13,
+      "terminal": "pause",
+      "reason": "single_pause"
+    },
+    {
+      "name": "memory_lost_response_pause_s14",
+      "server": "memory",
+      "fault": "lost_response",
+      "policy": "pause",
+      "seed": 14,
+      "terminal": "pause",
+      "reason": "single_pause"
+    },
+    {
+      "name": "memory_lost_response_pause_s15",
+      "server": "memory",
+      "fault": "lost_response",
+      "policy": "pause",
+      "seed": 15,
+      "terminal": "pause",
+      "reason": "single_pause"
+    },
+    {
+      "name": "memory_lost_response_pause_s16",
+      "server": "memory",
+      "fault": "lost_response",
+      "policy": "pause",
+      "seed": 16,
+      "terminal": "pause",
+      "reason": "single_pause"
+    },
+    {
+      "name": "memory_lost_response_pause_s17",
+      "server": "memory",
+      "fault": "lost_response",
+      "policy": "pause",
+      "seed": 17,
+      "terminal": "pause",
+      "reason": "single_pause"
+    },
+    {
+      "name": "memory_lost_response_pause_s18",
+      "server": "memory",
+      "fault": "lost_response",
+      "policy": "pause",
+      "seed": 18,
+      "terminal": "pause",
+      "reason": "single_pause"
+    },
+    {
+      "name": "memory_lost_response_pause_s19",
+      "server": "memory",
+      "fault": "lost_response",
+      "policy": "pause",
+      "seed": 19,
+      "terminal": "pause",
+      "reason": "single_pause"
+    },
+    {
+      "name": "memory_lost_response_pause_s20",
+      "server": "memory",
+      "fault": "lost_response",
+      "policy": "pause",
+      "seed": 20,
+      "terminal": "pause",
+      "reason": "single_pause"
+    },
+    {
+      "name": "memory_lost_before_effect_clear_s1",
+      "server": "memory",
+      "fault": "lost_before_effect",
+      "policy": "clear",
+      "seed": 1,
+      "terminal": "pause",
+      "reason": "original_lifecycle_unavailable"
+    },
+    {
+      "name": "memory_lost_before_effect_clear_s2",
+      "server": "memory",
+      "fault": "lost_before_effect",
+      "policy": "clear",
+      "seed": 2,
+      "terminal": "pause",
+      "reason": "original_lifecycle_unavailable"
+    },
+    {
+      "name": "memory_lost_before_effect_clear_s3",
+      "server": "memory",
+      "fault": "lost_before_effect",
+      "policy": "clear",
+      "seed": 3,
+      "terminal": "pause",
+      "reason": "original_lifecycle_unavailable"
+    },
+    {
+      "name": "memory_lost_before_effect_clear_s4",
+      "server": "memory",
+      "fault": "lost_before_effect",
+      "policy": "clear",
+      "seed": 4,
+      "terminal": "pause",
+      "reason": "original_lifecycle_unavailable"
+    },
+    {
+      "name": "memory_lost_before_effect_clear_s5",
+      "server": "memory",
+      "fault": "lost_before_effect",
+      "policy": "clear",
+      "seed": 5,
+      "terminal": "pause",
+      "reason": "original_lifecycle_unavailable"
+    },
+    {
+      "name": "memory_lost_before_effect_clear_s6",
+      "server": "memory",
+      "fault": "lost_before_effect",
+      "policy": "clear",
+      "seed": 6,
+      "terminal": "pause",
+      "reason": "original_lifecycle_unavailable"
+    },
+    {
+      "name": "memory_lost_before_effect_clear_s7",
+      "server": "memory",
+      "fault": "lost_before_effect",
+      "policy": "clear",
+      "seed": 7,
+      "terminal": "pause",
+      "reason": "original_lifecycle_unavailable"
+    },
+    {
+      "name": "memory_lost_before_effect_clear_s8",
+      "server": "memory",
+      "fault": "lost_before_effect",
+      "policy": "clear",
+      "seed": 8,
+      "terminal": "pause",
+      "reason": "original_lifecycle_unavailable"
+    },
+    {
+      "name": "memory_lost_before_effect_clear_s9",
+      "server": "memory",
+      "fault": "lost_before_effect",
+      "policy": "clear",
+      "seed": 9,
+      "terminal": "pause",
+      "reason": "original_lifecycle_unavailable"
+    },
+    {
+      "name": "memory_lost_before_effect_clear_s10",
+      "server": "memory",
+      "fault": "lost_before_effect",
+      "policy": "clear",
+      "seed": 10,
+      "terminal": "pause",
+      "reason": "original_lifecycle_unavailable"
+    },
+    {
+      "name": "memory_lost_before_effect_clear_s11",
+      "server": "memory",
+      "fault": "lost_before_effect",
+      "policy": "clear",
+      "seed": 11,
+      "terminal": "pause",
+      "reason": "original_lifecycle_unavailable"
+    },
+    {
+      "name": "memory_lost_before_effect_clear_s12",
+      "server": "memory",
+      "fault": "lost_before_effect",
+      "policy": "clear",
+      "seed": 12,
+      "terminal": "pause",
+      "reason": "original_lifecycle_unavailable"
+    },
+    {
+      "name": "memory_lost_before_effect_clear_s13",
+      "server": "memory",
+      "fault": "lost_before_effect",
+      "policy": "clear",
+      "seed": 13,
+      "terminal": "pause",
+      "reason": "original_lifecycle_unavailable"
+    },
+    {
+      "name": "memory_lost_before_effect_clear_s14",
+      "server": "memory",
+      "fault": "lost_before_effect",
+      "policy": "clear",
+      "seed": 14,
+      "terminal": "pause",
+      "reason": "original_lifecycle_unavailable"
+    },
+    {
+      "name": "memory_lost_before_effect_clear_s15",
+      "server": "memory",
+      "fault": "lost_before_effect",
+      "policy": "clear",
+      "seed": 15,
+      "terminal": "pause",
+      "reason": "original_lifecycle_unavailable"
+    },
+    {
+      "name": "memory_lost_before_effect_clear_s16",
+      "server": "memory",
+      "fault": "lost_before_effect",
+      "policy": "clear",
+      "seed": 16,
+      "terminal": "pause",
+      "reason": "original_lifecycle_unavailable"
+    },
+    {
+      "name": "memory_lost_before_effect_clear_s17",
+      "server": "memory",
+      "fault": "lost_before_effect",
+      "policy": "clear",
+      "seed": 17,
+      "terminal": "pause",
+      "reason": "original_lifecycle_unavailable"
+    },
+    {
+      "name": "memory_lost_before_effect_clear_s18",
+      "server": "memory",
+      "fault": "lost_before_effect",
+      "policy": "clear",
+      "seed": 18,
+      "terminal": "pause",
+      "reason": "original_lifecycle_unavailable"
+    },
+    {
+      "name": "memory_lost_before_effect_clear_s19",
+      "server": "memory",
+      "fault": "lost_before_effect",
+      "policy": "clear",
+      "seed": 19,
+      "terminal": "pause",
+      "reason": "original_lifecycle_unavailable"
+    },
+    {
+      "name": "memory_lost_before_effect_clear_s20",
+      "server": "memory",
+      "fault": "lost_before_effect",
+      "policy": "clear",
+      "seed": 20,
+      "terminal": "pause",
+      "reason": "original_lifecycle_unavailable"
+    },
+    {
+      "name": "memory_lost_before_effect_blind_retry_s1",
+      "server": "memory",
+      "fault": "lost_before_effect",
+      "policy": "blind_retry",
+      "seed": 1,
+      "terminal": "complete",
+      "reason": "blind_retry"
+    },
+    {
+      "name": "memory_lost_before_effect_blind_retry_s2",
+      "server": "memory",
+      "fault": "lost_before_effect",
+      "policy": "blind_retry",
+      "seed": 2,
+      "terminal": "complete",
+      "reason": "blind_retry"
+    },
+    {
+      "name": "memory_lost_before_effect_blind_retry_s3",
+      "server": "memory",
+      "fault": "lost_before_effect",
+      "policy": "blind_retry",
+      "seed": 3,
+      "terminal": "complete",
+      "reason": "blind_retry"
+    },
+    {
+      "name": "memory_lost_before_effect_blind_retry_s4",
+      "server": "memory",
+      "fault": "lost_before_effect",
+      "policy": "blind_retry",
+      "seed": 4,
+      "terminal": "complete",
+      "reason": "blind_retry"
+    },
+    {
+      "name": "memory_lost_before_effect_blind_retry_s5",
+      "server": "memory",
+      "fault": "lost_before_effect",
+      "policy": "blind_retry",
+      "seed": 5,
+      "terminal": "complete",
+      "reason": "blind_retry"
+    },
+    {
+      "name": "memory_lost_before_effect_blind_retry_s6",
+      "server": "memory",
+      "fault": "lost_before_effect",
+      "policy": "blind_retry",
+      "seed": 6,
+      "terminal": "complete",
+      "reason": "blind_retry"
+    },
+    {
+      "name": "memory_lost_before_effect_blind_retry_s7",
+      "server": "memory",
+      "fault": "lost_before_effect",
+      "policy": "blind_retry",
+      "seed": 7,
+      "terminal": "complete",
+      "reason": "blind_retry"
+    },
+    {
+      "name": "memory_lost_before_effect_blind_retry_s8",
+      "server": "memory",
+      "fault": "lost_before_effect",
+      "policy": "blind_retry",
+      "seed": 8,
+      "terminal": "complete",
+      "reason": "blind_retry"
+    },
+    {
+      "name": "memory_lost_before_effect_blind_retry_s9",
+      "server": "memory",
+      "fault": "lost_before_effect",
+      "policy": "blind_retry",
+      "seed": 9,
+      "terminal": "complete",
+      "reason": "blind_retry"
+    },
+    {
+      "name": "memory_lost_before_effect_blind_retry_s10",
+      "server": "memory",
+      "fault": "lost_before_effect",
+      "policy": "blind_retry",
+      "seed": 10,
+      "terminal": "complete",
+      "reason": "blind_retry"
+    },
+    {
+      "name": "memory_lost_before_effect_blind_retry_s11",
+      "server": "memory",
+      "fault": "lost_before_effect",
+      "policy": "blind_retry",
+      "seed": 11,
+      "terminal": "complete",
+      "reason": "blind_retry"
+    },
+    {
+      "name": "memory_lost_before_effect_blind_retry_s12",
+      "server": "memory",
+      "fault": "lost_before_effect",
+      "policy": "blind_retry",
+      "seed": 12,
+      "terminal": "complete",
+      "reason": "blind_retry"
+    },
+    {
+      "name": "memory_lost_before_effect_blind_retry_s13",
+      "server": "memory",
+      "fault": "lost_before_effect",
+      "policy": "blind_retry",
+      "seed": 13,
+      "terminal": "complete",
+      "reason": "blind_retry"
+    },
+    {
+      "name": "memory_lost_before_effect_blind_retry_s14",
+      "server": "memory",
+      "fault": "lost_before_effect",
+      "policy": "blind_retry",
+      "seed": 14,
+      "terminal": "complete",
+      "reason": "blind_retry"
+    },
+    {
+      "name": "memory_lost_before_effect_blind_retry_s15",
+      "server": "memory",
+      "fault": "lost_before_effect",
+      "policy": "blind_retry",
+      "seed": 15,
+      "terminal": "complete",
+      "reason": "blind_retry"
+    },
+    {
+      "name": "memory_lost_before_effect_blind_retry_s16",
+      "server": "memory",
+      "fault": "lost_before_effect",
+      "policy": "blind_retry",
+      "seed": 16,
+      "terminal": "complete",
+      "reason": "blind_retry"
+    },
+    {
+      "name": "memory_lost_before_effect_blind_retry_s17",
+      "server": "memory",
+      "fault": "lost_before_effect",
+      "policy": "blind_retry",
+      "seed": 17,
+      "terminal": "complete",
+      "reason": "blind_retry"
+    },
+    {
+      "name": "memory_lost_before_effect_blind_retry_s18",
+      "server": "memory",
+      "fault": "lost_before_effect",
+      "policy": "blind_retry",
+      "seed": 18,
+      "terminal": "complete",
+      "reason": "blind_retry"
+    },
+    {
+      "name": "memory_lost_before_effect_blind_retry_s19",
+      "server": "memory",
+      "fault": "lost_before_effect",
+      "policy": "blind_retry",
+      "seed": 19,
+      "terminal": "complete",
+      "reason": "blind_retry"
+    },
+    {
+      "name": "memory_lost_before_effect_blind_retry_s20",
+      "server": "memory",
+      "fault": "lost_before_effect",
+      "policy": "blind_retry",
+      "seed": 20,
+      "terminal": "complete",
+      "reason": "blind_retry"
+    },
+    {
+      "name": "memory_lost_before_effect_query_retry_s1",
+      "server": "memory",
+      "fault": "lost_before_effect",
+      "policy": "query_retry",
+      "seed": 1,
+      "terminal": "complete",
+      "reason": "query_then_retry"
+    },
+    {
+      "name": "memory_lost_before_effect_query_retry_s2",
+      "server": "memory",
+      "fault": "lost_before_effect",
+      "policy": "query_retry",
+      "seed": 2,
+      "terminal": "complete",
+      "reason": "query_then_retry"
+    },
+    {
+      "name": "memory_lost_before_effect_query_retry_s3",
+      "server": "memory",
+      "fault": "lost_before_effect",
+      "policy": "query_retry",
+      "seed": 3,
+      "terminal": "complete",
+      "reason": "query_then_retry"
+    },
+    {
+      "name": "memory_lost_before_effect_query_retry_s4",
+      "server": "memory",
+      "fault": "lost_before_effect",
+      "policy": "query_retry",
+      "seed": 4,
+      "terminal": "complete",
+      "reason": "query_then_retry"
+    },
+    {
+      "name": "memory_lost_before_effect_query_retry_s5",
+      "server": "memory",
+      "fault": "lost_before_effect",
+      "policy": "query_retry",
+      "seed": 5,
+      "terminal": "complete",
+      "reason": "query_then_retry"
+    },
+    {
+      "name": "memory_lost_before_effect_query_retry_s6",
+      "server": "memory",
+      "fault": "lost_before_effect",
+      "policy": "query_retry",
+      "seed": 6,
+      "terminal": "complete",
+      "reason": "query_then_retry"
+    },
+    {
+      "name": "memory_lost_before_effect_query_retry_s7",
+      "server": "memory",
+      "fault": "lost_before_effect",
+      "policy": "query_retry",
+      "seed": 7,
+      "terminal": "complete",
+      "reason": "query_then_retry"
+    },
+    {
+      "name": "memory_lost_before_effect_query_retry_s8",
+      "server": "memory",
+      "fault": "lost_before_effect",
+      "policy": "query_retry",
+      "seed": 8,
+      "terminal": "complete",
+      "reason": "query_then_retry"
+    },
+    {
+      "name": "memory_lost_before_effect_query_retry_s9",
+      "server": "memory",
+      "fault": "lost_before_effect",
+      "policy": "query_retry",
+      "seed": 9,
+      "terminal": "complete",
+      "reason": "query_then_retry"
+    },
+    {
+      "name": "memory_lost_before_effect_query_retry_s10",
+      "server": "memory",
+      "fault": "lost_before_effect",
+      "policy": "query_retry",
+      "seed": 10,
+      "terminal": "complete",
+      "reason": "query_then_retry"
+    },
+    {
+      "name": "memory_lost_before_effect_query_retry_s11",
+      "server": "memory",
+      "fault": "lost_before_effect",
+      "policy": "query_retry",
+      "seed": 11,
+      "terminal": "complete",
+      "reason": "query_then_retry"
+    },
+    {
+      "name": "memory_lost_before_effect_query_retry_s12",
+      "server": "memory",
+      "fault": "lost_before_effect",
+      "policy": "query_retry",
+      "seed": 12,
+      "terminal": "complete",
+      "reason": "query_then_retry"
+    },
+    {
+      "name": "memory_lost_before_effect_query_retry_s13",
+      "server": "memory",
+      "fault": "lost_before_effect",
+      "policy": "query_retry",
+      "seed": 13,
+      "terminal": "complete",
+      "reason": "query_then_retry"
+    },
+    {
+      "name": "memory_lost_before_effect_query_retry_s14",
+      "server": "memory",
+      "fault": "lost_before_effect",
+      "policy": "query_retry",
+      "seed": 14,
+      "terminal": "complete",
+      "reason": "query_then_retry"
+    },
+    {
+      "name": "memory_lost_before_effect_query_retry_s15",
+      "server": "memory",
+      "fault": "lost_before_effect",
+      "policy": "query_retry",
+      "seed": 15,
+      "terminal": "complete",
+      "reason": "query_then_retry"
+    },
+    {
+      "name": "memory_lost_before_effect_query_retry_s16",
+      "server": "memory",
+      "fault": "lost_before_effect",
+      "policy": "query_retry",
+      "seed": 16,
+      "terminal": "complete",
+      "reason": "query_then_retry"
+    },
+    {
+      "name": "memory_lost_before_effect_query_retry_s17",
+      "server": "memory",
+      "fault": "lost_before_effect",
+      "policy": "query_retry",
+      "seed": 17,
+      "terminal": "complete",
+      "reason": "query_then_retry"
+    },
+    {
+      "name": "memory_lost_before_effect_query_retry_s18",
+      "server": "memory",
+      "fault": "lost_before_effect",
+      "policy": "query_retry",
+      "seed": 18,
+      "terminal": "complete",
+      "reason": "query_then_retry"
+    },
+    {
+      "name": "memory_lost_before_effect_query_retry_s19",
+      "server": "memory",
+      "fault": "lost_before_effect",
+      "policy": "query_retry",
+      "seed": 19,
+      "terminal": "complete",
+      "reason": "query_then_retry"
+    },
+    {
+      "name": "memory_lost_before_effect_query_retry_s20",
+      "server": "memory",
+      "fault": "lost_before_effect",
+      "policy": "query_retry",
+      "seed": 20,
+      "terminal": "complete",
+      "reason": "query_then_retry"
+    },
+    {
+      "name": "memory_lost_before_effect_pause_s1",
+      "server": "memory",
+      "fault": "lost_before_effect",
+      "policy": "pause",
+      "seed": 1,
+      "terminal": "pause",
+      "reason": "single_pause"
+    },
+    {
+      "name": "memory_lost_before_effect_pause_s2",
+      "server": "memory",
+      "fault": "lost_before_effect",
+      "policy": "pause",
+      "seed": 2,
+      "terminal": "pause",
+      "reason": "single_pause"
+    },
+    {
+      "name": "memory_lost_before_effect_pause_s3",
+      "server": "memory",
+      "fault": "lost_before_effect",
+      "policy": "pause",
+      "seed": 3,
+      "terminal": "pause",
+      "reason": "single_pause"
+    },
+    {
+      "name": "memory_lost_before_effect_pause_s4",
+      "server": "memory",
+      "fault": "lost_before_effect",
+      "policy": "pause",
+      "seed": 4,
+      "terminal": "pause",
+      "reason": "single_pause"
+    },
+    {
+      "name": "memory_lost_before_effect_pause_s5",
+      "server": "memory",
+      "fault": "lost_before_effect",
+      "policy": "pause",
+      "seed": 5,
+      "terminal": "pause",
+      "reason": "single_pause"
+    },
+    {
+      "name": "memory_lost_before_effect_pause_s6",
+      "server": "memory",
+      "fault": "lost_before_effect",
+      "policy": "pause",
+      "seed": 6,
+      "terminal": "pause",
+      "reason": "single_pause"
+    },
+    {
+      "name": "memory_lost_before_effect_pause_s7",
+      "server": "memory",
+      "fault": "lost_before_effect",
+      "policy": "pause",
+      "seed": 7,
+      "terminal": "pause",
+      "reason": "single_pause"
+    },
+    {
+      "name": "memory_lost_before_effect_pause_s8",
+      "server": "memory",
+      "fault": "lost_before_effect",
+      "policy": "pause",
+      "seed": 8,
+      "terminal": "pause",
+      "reason": "single_pause"
+    },
+    {
+      "name": "memory_lost_before_effect_pause_s9",
+      "server": "memory",
+      "fault": "lost_before_effect",
+      "policy": "pause",
+      "seed": 9,
+      "terminal": "pause",
+      "reason": "single_pause"
+    },
+    {
+      "name": "memory_lost_before_effect_pause_s10",
+      "server": "memory",
+      "fault": "lost_before_effect",
+      "policy": "pause",
+      "seed": 10,
+      "terminal": "pause",
+      "reason": "single_pause"
+    },
+    {
+      "name": "memory_lost_before_effect_pause_s11",
+      "server": "memory",
+      "fault": "lost_before_effect",
+      "policy": "pause",
+      "seed": 11,
+      "terminal": "pause",
+      "reason": "single_pause"
+    },
+    {
+      "name": "memory_lost_before_effect_pause_s12",
+      "server": "memory",
+      "fault": "lost_before_effect",
+      "policy": "pause",
+      "seed": 12,
+      "terminal": "pause",
+      "reason": "single_pause"
+    },
+    {
+      "name": "memory_lost_before_effect_pause_s13",
+      "server": "memory",
+      "fault": "lost_before_effect",
+      "policy": "pause",
+      "seed": 13,
+      "terminal": "pause",
+      "reason": "single_pause"
+    },
+    {
+      "name": "memory_lost_before_effect_pause_s14",
+      "server": "memory",
+      "fault": "lost_before_effect",
+      "policy": "pause",
+      "seed": 14,
+      "terminal": "pause",
+      "reason": "single_pause"
+    },
+    {
+      "name": "memory_lost_before_effect_pause_s15",
+      "server": "memory",
+      "fault": "lost_before_effect",
+      "policy": "pause",
+      "seed": 15,
+      "terminal": "pause",
+      "reason": "single_pause"
+    },
+    {
+      "name": "memory_lost_before_effect_pause_s16",
+      "server": "memory",
+      "fault": "lost_before_effect",
+      "policy": "pause",
+      "seed": 16,
+      "terminal": "pause",
+      "reason": "single_pause"
+    },
+    {
+      "name": "memory_lost_before_effect_pause_s17",
+      "server": "memory",
+      "fault": "lost_before_effect",
+      "policy": "pause",
+      "seed": 17,
+      "terminal": "pause",
+      "reason": "single_pause"
+    },
+    {
+      "name": "memory_lost_before_effect_pause_s18",
+      "server": "memory",
+      "fault": "lost_before_effect",
+      "policy": "pause",
+      "seed": 18,
+      "terminal": "pause",
+      "reason": "single_pause"
+    },
+    {
+      "name": "memory_lost_before_effect_pause_s19",
+      "server": "memory",
+      "fault": "lost_before_effect",
+      "policy": "pause",
+      "seed": 19,
+      "terminal": "pause",
+      "reason": "single_pause"
+    },
+    {
+      "name": "memory_lost_before_effect_pause_s20",
+      "server": "memory",
+      "fault": "lost_before_effect",
+      "policy": "pause",
+      "seed": 20,
+      "terminal": "pause",
+      "reason": "single_pause"
+    },
+    {
+      "name": "sqlite_lost_response_clear_s1",
+      "server": "sqlite",
+      "fault": "lost_response",
+      "policy": "clear",
+      "seed": 1,
+      "terminal": "complete",
+      "reason": "original_or_retry_receipt"
+    },
+    {
+      "name": "sqlite_lost_response_clear_s2",
+      "server": "sqlite",
+      "fault": "lost_response",
+      "policy": "clear",
+      "seed": 2,
+      "terminal": "complete",
+      "reason": "original_or_retry_receipt"
+    },
+    {
+      "name": "sqlite_lost_response_clear_s3",
+      "server": "sqlite",
+      "fault": "lost_response",
+      "policy": "clear",
+      "seed": 3,
+      "terminal": "complete",
+      "reason": "original_or_retry_receipt"
+    },
+    {
+      "name": "sqlite_lost_response_clear_s4",
+      "server": "sqlite",
+      "fault": "lost_response",
+      "policy": "clear",
+      "seed": 4,
+      "terminal": "complete",
+      "reason": "original_or_retry_receipt"
+    },
+    {
+      "name": "sqlite_lost_response_clear_s5",
+      "server": "sqlite",
+      "fault": "lost_response",
+      "policy": "clear",
+      "seed": 5,
+      "terminal": "complete",
+      "reason": "original_or_retry_receipt"
+    },
+    {
+      "name": "sqlite_lost_response_clear_s6",
+      "server": "sqlite",
+      "fault": "lost_response",
+      "policy": "clear",
+      "seed": 6,
+      "terminal": "complete",
+      "reason": "original_or_retry_receipt"
+    },
+    {
+      "name": "sqlite_lost_response_clear_s7",
+      "server": "sqlite",
+      "fault": "lost_response",
+      "policy": "clear",
+      "seed": 7,
+      "terminal": "complete",
+      "reason": "original_or_retry_receipt"
+    },
+    {
+      "name": "sqlite_lost_response_clear_s8",
+      "server": "sqlite",
+      "fault": "lost_response",
+      "policy": "clear",
+      "seed": 8,
+      "terminal": "complete",
+      "reason": "original_or_retry_receipt"
+    },
+    {
+      "name": "sqlite_lost_response_clear_s9",
+      "server": "sqlite",
+      "fault": "lost_response",
+      "policy": "clear",
+      "seed": 9,
+      "terminal": "complete",
+      "reason": "original_or_retry_receipt"
+    },
+    {
+      "name": "sqlite_lost_response_clear_s10",
+      "server": "sqlite",
+      "fault": "lost_response",
+      "policy": "clear",
+      "seed": 10,
+      "terminal": "complete",
+      "reason": "original_or_retry_receipt"
+    },
+    {
+      "name": "sqlite_lost_response_clear_s11",
+      "server": "sqlite",
+      "fault": "lost_response",
+      "policy": "clear",
+      "seed": 11,
+      "terminal": "complete",
+      "reason": "original_or_retry_receipt"
+    },
+    {
+      "name": "sqlite_lost_response_clear_s12",
+      "server": "sqlite",
+      "fault": "lost_response",
+      "policy": "clear",
+      "seed": 12,
+      "terminal": "complete",
+      "reason": "original_or_retry_receipt"
+    },
+    {
+      "name": "sqlite_lost_response_clear_s13",
+      "server": "sqlite",
+      "fault": "lost_response",
+      "policy": "clear",
+      "seed": 13,
+      "terminal": "complete",
+      "reason": "original_or_retry_receipt"
+    },
+    {
+      "name": "sqlite_lost_response_clear_s14",
+      "server": "sqlite",
+      "fault": "lost_response",
+      "policy": "clear",
+      "seed": 14,
+      "terminal": "complete",
+      "reason": "original_or_retry_receipt"
+    },
+    {
+      "name": "sqlite_lost_response_clear_s15",
+      "server": "sqlite",
+      "fault": "lost_response",
+      "policy": "clear",
+      "seed": 15,
+      "terminal": "complete",
+      "reason": "original_or_retry_receipt"
+    },
+    {
+      "name": "sqlite_lost_response_clear_s16",
+      "server": "sqlite",
+      "fault": "lost_response",
+      "policy": "clear",
+      "seed": 16,
+      "terminal": "complete",
+      "reason": "original_or_retry_receipt"
+    },
+    {
+      "name": "sqlite_lost_response_clear_s17",
+      "server": "sqlite",
+      "fault": "lost_response",
+      "policy": "clear",
+      "seed": 17,
+      "terminal": "complete",
+      "reason": "original_or_retry_receipt"
+    },
+    {
+      "name": "sqlite_lost_response_clear_s18",
+      "server": "sqlite",
+      "fault": "lost_response",
+      "policy": "clear",
+      "seed": 18,
+      "terminal": "complete",
+      "reason": "original_or_retry_receipt"
+    },
+    {
+      "name": "sqlite_lost_response_clear_s19",
+      "server": "sqlite",
+      "fault": "lost_response",
+      "policy": "clear",
+      "seed": 19,
+      "terminal": "complete",
+      "reason": "original_or_retry_receipt"
+    },
+    {
+      "name": "sqlite_lost_response_clear_s20",
+      "server": "sqlite",
+      "fault": "lost_response",
+      "policy": "clear",
+      "seed": 20,
+      "terminal": "complete",
+      "reason": "original_or_retry_receipt"
+    },
+    {
+      "name": "sqlite_lost_response_blind_retry_s1",
+      "server": "sqlite",
+      "fault": "lost_response",
+      "policy": "blind_retry",
+      "seed": 1,
+      "terminal": "complete",
+      "reason": "blind_retry"
+    },
+    {
+      "name": "sqlite_lost_response_blind_retry_s2",
+      "server": "sqlite",
+      "fault": "lost_response",
+      "policy": "blind_retry",
+      "seed": 2,
+      "terminal": "complete",
+      "reason": "blind_retry"
+    },
+    {
+      "name": "sqlite_lost_response_blind_retry_s3",
+      "server": "sqlite",
+      "fault": "lost_response",
+      "policy": "blind_retry",
+      "seed": 3,
+      "terminal": "complete",
+      "reason": "blind_retry"
+    },
+    {
+      "name": "sqlite_lost_response_blind_retry_s4",
+      "server": "sqlite",
+      "fault": "lost_response",
+      "policy": "blind_retry",
+      "seed": 4,
+      "terminal": "complete",
+      "reason": "blind_retry"
+    },
+    {
+      "name": "sqlite_lost_response_blind_retry_s5",
+      "server": "sqlite",
+      "fault": "lost_response",
+      "policy": "blind_retry",
+      "seed": 5,
+      "terminal": "complete",
+      "reason": "blind_retry"
+    },
+    {
+      "name": "sqlite_lost_response_blind_retry_s6",
+      "server": "sqlite",
+      "fault": "lost_response",
+      "policy": "blind_retry",
+      "seed": 6,
+      "terminal": "complete",
+      "reason": "blind_retry"
+    },
+    {
+      "name": "sqlite_lost_response_blind_retry_s7",
+      "server": "sqlite",
+      "fault": "lost_response",
+      "policy": "blind_retry",
+      "seed": 7,
+      "terminal": "complete",
+      "reason": "blind_retry"
+    },
+    {
+      "name": "sqlite_lost_response_blind_retry_s8",
+      "server": "sqlite",
+      "fault": "lost_response",
+      "policy": "blind_retry",
+      "seed": 8,
+      "terminal": "complete",
+      "reason": "blind_retry"
+    },
+    {
+      "name": "sqlite_lost_response_blind_retry_s9",
+      "server": "sqlite",
+      "fault": "lost_response",
+      "policy": "blind_retry",
+      "seed": 9,
+      "terminal": "complete",
+      "reason": "blind_retry"
+    },
+    {
+      "name": "sqlite_lost_response_blind_retry_s10",
+      "server": "sqlite",
+      "fault": "lost_response",
+      "policy": "blind_retry",
+      "seed": 10,
+      "terminal": "complete",
+      "reason": "blind_retry"
+    },
+    {
+      "name": "sqlite_lost_response_blind_retry_s11",
+      "server": "sqlite",
+      "fault": "lost_response",
+      "policy": "blind_retry",
+      "seed": 11,
+      "terminal": "complete",
+      "reason": "blind_retry"
+    },
+    {
+      "name": "sqlite_lost_response_blind_retry_s12",
+      "server": "sqlite",
+      "fault": "lost_response",
+      "policy": "blind_retry",
+      "seed": 12,
+      "terminal": "complete",
+      "reason": "blind_retry"
+    },
+    {
+      "name": "sqlite_lost_response_blind_retry_s13",
+      "server": "sqlite",
+      "fault": "lost_response",
+      "policy": "blind_retry",
+      "seed": 13,
+      "terminal": "complete",
+      "reason": "blind_retry"
+    },
+    {
+      "name": "sqlite_lost_response_blind_retry_s14",
+      "server": "sqlite",
+      "fault": "lost_response",
+      "policy": "blind_retry",
+      "seed": 14,
+      "terminal": "complete",
+      "reason": "blind_retry"
+    },
+    {
+      "name": "sqlite_lost_response_blind_retry_s15",
+      "server": "sqlite",
+      "fault": "lost_response",
+      "policy": "blind_retry",
+      "seed": 15,
+      "terminal": "complete",
+      "reason": "blind_retry"
+    },
+    {
+      "name": "sqlite_lost_response_blind_retry_s16",
+      "server": "sqlite",
+      "fault": "lost_response",
+      "policy": "blind_retry",
+      "seed": 16,
+      "terminal": "complete",
+      "reason": "blind_retry"
+    },
+    {
+      "name": "sqlite_lost_response_blind_retry_s17",
+      "server": "sqlite",
+      "fault": "lost_response",
+      "policy": "blind_retry",
+      "seed": 17,
+      "terminal": "complete",
+      "reason": "blind_retry"
+    },
+    {
+      "name": "sqlite_lost_response_blind_retry_s18",
+      "server": "sqlite",
+      "fault": "lost_response",
+      "policy": "blind_retry",
+      "seed": 18,
+      "terminal": "complete",
+      "reason": "blind_retry"
+    },
+    {
+      "name": "sqlite_lost_response_blind_retry_s19",
+      "server": "sqlite",
+      "fault": "lost_response",
+      "policy": "blind_retry",
+      "seed": 19,
+      "terminal": "complete",
+      "reason": "blind_retry"
+    },
+    {
+      "name": "sqlite_lost_response_blind_retry_s20",
+      "server": "sqlite",
+      "fault": "lost_response",
+      "policy": "blind_retry",
+      "seed": 20,
+      "terminal": "complete",
+      "reason": "blind_retry"
+    },
+    {
+      "name": "sqlite_lost_response_query_retry_s1",
+      "server": "sqlite",
+      "fault": "lost_response",
+      "policy": "query_retry",
+      "seed": 1,
+      "terminal": "complete",
+      "reason": "query_observed"
+    },
+    {
+      "name": "sqlite_lost_response_query_retry_s2",
+      "server": "sqlite",
+      "fault": "lost_response",
+      "policy": "query_retry",
+      "seed": 2,
+      "terminal": "complete",
+      "reason": "query_observed"
+    },
+    {
+      "name": "sqlite_lost_response_query_retry_s3",
+      "server": "sqlite",
+      "fault": "lost_response",
+      "policy": "query_retry",
+      "seed": 3,
+      "terminal": "complete",
+      "reason": "query_observed"
+    },
+    {
+      "name": "sqlite_lost_response_query_retry_s4",
+      "server": "sqlite",
+      "fault": "lost_response",
+      "policy": "query_retry",
+      "seed": 4,
+      "terminal": "complete",
+      "reason": "query_observed"
+    },
+    {
+      "name": "sqlite_lost_response_query_retry_s5",
+      "server": "sqlite",
+      "fault": "lost_response",
+      "policy": "query_retry",
+      "seed": 5,
+      "terminal": "complete",
+      "reason": "query_observed"
+    },
+    {
+      "name": "sqlite_lost_response_query_retry_s6",
+      "server": "sqlite",
+      "fault": "lost_response",
+      "policy": "query_retry",
+      "seed": 6,
+      "terminal": "complete",
+      "reason": "query_observed"
+    },
+    {
+      "name": "sqlite_lost_response_query_retry_s7",
+      "server": "sqlite",
+      "fault": "lost_response",
+      "policy": "query_retry",
+      "seed": 7,
+      "terminal": "complete",
+      "reason": "query_observed"
+    },
+    {
+      "name": "sqlite_lost_response_query_retry_s8",
+      "server": "sqlite",
+      "fault": "lost_response",
+      "policy": "query_retry",
+      "seed": 8,
+      "terminal": "complete",
+      "reason": "query_observed"
+    },
+    {
+      "name": "sqlite_lost_response_query_retry_s9",
+      "server": "sqlite",
+      "fault": "lost_response",
+      "policy": "query_retry",
+      "seed": 9,
+      "terminal": "complete",
+      "reason": "query_observed"
+    },
+    {
+      "name": "sqlite_lost_response_query_retry_s10",
+      "server": "sqlite",
+      "fault": "lost_response",
+      "policy": "query_retry",
+      "seed": 10,
+      "terminal": "complete",
+      "reason": "query_observed"
+    },
+    {
+      "name": "sqlite_lost_response_query_retry_s11",
+      "server": "sqlite",
+      "fault": "lost_response",
+      "policy": "query_retry",
+      "seed": 11,
+      "terminal": "complete",
+      "reason": "query_observed"
+    },
+    {
+      "name": "sqlite_lost_response_query_retry_s12",
+      "server": "sqlite",
+      "fault": "lost_response",
+      "policy": "query_retry",
+      "seed": 12,
+      "terminal": "complete",
+      "reason": "query_observed"
+    },
+    {
+      "name": "sqlite_lost_response_query_retry_s13",
+      "server": "sqlite",
+      "fault": "lost_response",
+      "policy": "query_retry",
+      "seed": 13,
+      "terminal": "complete",
+      "reason": "query_observed"
+    },
+    {
+      "name": "sqlite_lost_response_query_retry_s14",
+      "server": "sqlite",
+      "fault": "lost_response",
+      "policy": "query_retry",
+      "seed": 14,
+      "terminal": "complete",
+      "reason": "query_observed"
+    },
+    {
+      "name": "sqlite_lost_response_query_retry_s15",
+      "server": "sqlite",
+      "fault": "lost_response",
+      "policy": "query_retry",
+      "seed": 15,
+      "terminal": "complete",
+      "reason": "query_observed"
+    },
+    {
+      "name": "sqlite_lost_response_query_retry_s16",
+      "server": "sqlite",
+      "fault": "lost_response",
+      "policy": "query_retry",
+      "seed": 16,
+      "terminal": "complete",
+      "reason": "query_observed"
+    },
+    {
+      "name": "sqlite_lost_response_query_retry_s17",
+      "server": "sqlite",
+      "fault": "lost_response",
+      "policy": "query_retry",
+      "seed": 17,
+      "terminal": "complete",
+      "reason": "query_observed"
+    },
+    {
+      "name": "sqlite_lost_response_query_retry_s18",
+      "server": "sqlite",
+      "fault": "lost_response",
+      "policy": "query_retry",
+      "seed": 18,
+      "terminal": "complete",
+      "reason": "query_observed"
+    },
+    {
+      "name": "sqlite_lost_response_query_retry_s19",
+      "server": "sqlite",
+      "fault": "lost_response",
+      "policy": "query_retry",
+      "seed": 19,
+      "terminal": "complete",
+      "reason": "query_observed"
+    },
+    {
+      "name": "sqlite_lost_response_query_retry_s20",
+      "server": "sqlite",
+      "fault": "lost_response",
+      "policy": "query_retry",
+      "seed": 20,
+      "terminal": "complete",
+      "reason": "query_observed"
+    },
+    {
+      "name": "sqlite_lost_response_pause_s1",
+      "server": "sqlite",
+      "fault": "lost_response",
+      "policy": "pause",
+      "seed": 1,
+      "terminal": "pause",
+      "reason": "single_pause"
+    },
+    {
+      "name": "sqlite_lost_response_pause_s2",
+      "server": "sqlite",
+      "fault": "lost_response",
+      "policy": "pause",
+      "seed": 2,
+      "terminal": "pause",
+      "reason": "single_pause"
+    },
+    {
+      "name": "sqlite_lost_response_pause_s3",
+      "server": "sqlite",
+      "fault": "lost_response",
+      "policy": "pause",
+      "seed": 3,
+      "terminal": "pause",
+      "reason": "single_pause"
+    },
+    {
+      "name": "sqlite_lost_response_pause_s4",
+      "server": "sqlite",
+      "fault": "lost_response",
+      "policy": "pause",
+      "seed": 4,
+      "terminal": "pause",
+      "reason": "single_pause"
+    },
+    {
+      "name": "sqlite_lost_response_pause_s5",
+      "server": "sqlite",
+      "fault": "lost_response",
+      "policy": "pause",
+      "seed": 5,
+      "terminal": "pause",
+      "reason": "single_pause"
+    },
+    {
+      "name": "sqlite_lost_response_pause_s6",
+      "server": "sqlite",
+      "fault": "lost_response",
+      "policy": "pause",
+      "seed": 6,
+      "terminal": "pause",
+      "reason": "single_pause"
+    },
+    {
+      "name": "sqlite_lost_response_pause_s7",
+      "server": "sqlite",
+      "fault": "lost_response",
+      "policy": "pause",
+      "seed": 7,
+      "terminal": "pause",
+      "reason": "single_pause"
+    },
+    {
+      "name": "sqlite_lost_response_pause_s8",
+      "server": "sqlite",
+      "fault": "lost_response",
+      "policy": "pause",
+      "seed": 8,
+      "terminal": "pause",
+      "reason": "single_pause"
+    },
+    {
+      "name": "sqlite_lost_response_pause_s9",
+      "server": "sqlite",
+      "fault": "lost_response",
+      "policy": "pause",
+      "seed": 9,
+      "terminal": "pause",
+      "reason": "single_pause"
+    },
+    {
+      "name": "sqlite_lost_response_pause_s10",
+      "server": "sqlite",
+      "fault": "lost_response",
+      "policy": "pause",
+      "seed": 10,
+      "terminal": "pause",
+      "reason": "single_pause"
+    },
+    {
+      "name": "sqlite_lost_response_pause_s11",
+      "server": "sqlite",
+      "fault": "lost_response",
+      "policy": "pause",
+      "seed": 11,
+      "terminal": "pause",
+      "reason": "single_pause"
+    },
+    {
+      "name": "sqlite_lost_response_pause_s12",
+      "server": "sqlite",
+      "fault": "lost_response",
+      "policy": "pause",
+      "seed": 12,
+      "terminal": "pause",
+      "reason": "single_pause"
+    },
+    {
+      "name": "sqlite_lost_response_pause_s13",
+      "server": "sqlite",
+      "fault": "lost_response",
+      "policy": "pause",
+      "seed": 13,
+      "terminal": "pause",
+      "reason": "single_pause"
+    },
+    {
+      "name": "sqlite_lost_response_pause_s14",
+      "server": "sqlite",
+      "fault": "lost_response",
+      "policy": "pause",
+      "seed": 14,
+      "terminal": "pause",
+      "reason": "single_pause"
+    },
+    {
+      "name": "sqlite_lost_response_pause_s15",
+      "server": "sqlite",
+      "fault": "lost_response",
+      "policy": "pause",
+      "seed": 15,
+      "terminal": "pause",
+      "reason": "single_pause"
+    },
+    {
+      "name": "sqlite_lost_response_pause_s16",
+      "server": "sqlite",
+      "fault": "lost_response",
+      "policy": "pause",
+      "seed": 16,
+      "terminal": "pause",
+      "reason": "single_pause"
+    },
+    {
+      "name": "sqlite_lost_response_pause_s17",
+      "server": "sqlite",
+      "fault": "lost_response",
+      "policy": "pause",
+      "seed": 17,
+      "terminal": "pause",
+      "reason": "single_pause"
+    },
+    {
+      "name": "sqlite_lost_response_pause_s18",
+      "server": "sqlite",
+      "fault": "lost_response",
+      "policy": "pause",
+      "seed": 18,
+      "terminal": "pause",
+      "reason": "single_pause"
+    },
+    {
+      "name": "sqlite_lost_response_pause_s19",
+      "server": "sqlite",
+      "fault": "lost_response",
+      "policy": "pause",
+      "seed": 19,
+      "terminal": "pause",
+      "reason": "single_pause"
+    },
+    {
+      "name": "sqlite_lost_response_pause_s20",
+      "server": "sqlite",
+      "fault": "lost_response",
+      "policy": "pause",
+      "seed": 20,
+      "terminal": "pause",
+      "reason": "single_pause"
+    },
+    {
+      "name": "sqlite_lost_before_effect_clear_s1",
+      "server": "sqlite",
+      "fault": "lost_before_effect",
+      "policy": "clear",
+      "seed": 1,
+      "terminal": "pause",
+      "reason": "original_lifecycle_unavailable"
+    },
+    {
+      "name": "sqlite_lost_before_effect_clear_s2",
+      "server": "sqlite",
+      "fault": "lost_before_effect",
+      "policy": "clear",
+      "seed": 2,
+      "terminal": "pause",
+      "reason": "original_lifecycle_unavailable"
+    },
+    {
+      "name": "sqlite_lost_before_effect_clear_s3",
+      "server": "sqlite",
+      "fault": "lost_before_effect",
+      "policy": "clear",
+      "seed": 3,
+      "terminal": "pause",
+      "reason": "original_lifecycle_unavailable"
+    },
+    {
+      "name": "sqlite_lost_before_effect_clear_s4",
+      "server": "sqlite",
+      "fault": "lost_before_effect",
+      "policy": "clear",
+      "seed": 4,
+      "terminal": "pause",
+      "reason": "original_lifecycle_unavailable"
+    },
+    {
+      "name": "sqlite_lost_before_effect_clear_s5",
+      "server": "sqlite",
+      "fault": "lost_before_effect",
+      "policy": "clear",
+      "seed": 5,
+      "terminal": "pause",
+      "reason": "original_lifecycle_unavailable"
+    },
+    {
+      "name": "sqlite_lost_before_effect_clear_s6",
+      "server": "sqlite",
+      "fault": "lost_before_effect",
+      "policy": "clear",
+      "seed": 6,
+      "terminal": "pause",
+      "reason": "original_lifecycle_unavailable"
+    },
+    {
+      "name": "sqlite_lost_before_effect_clear_s7",
+      "server": "sqlite",
+      "fault": "lost_before_effect",
+      "policy": "clear",
+      "seed": 7,
+      "terminal": "pause",
+      "reason": "original_lifecycle_unavailable"
+    },
+    {
+      "name": "sqlite_lost_before_effect_clear_s8",
+      "server": "sqlite",
+      "fault": "lost_before_effect",
+      "policy": "clear",
+      "seed": 8,
+      "terminal": "pause",
+      "reason": "original_lifecycle_unavailable"
+    },
+    {
+      "name": "sqlite_lost_before_effect_clear_s9",
+      "server": "sqlite",
+      "fault": "lost_before_effect",
+      "policy": "clear",
+      "seed": 9,
+      "terminal": "pause",
+      "reason": "original_lifecycle_unavailable"
+    },
+    {
+      "name": "sqlite_lost_before_effect_clear_s10",
+      "server": "sqlite",
+      "fault": "lost_before_effect",
+      "policy": "clear",
+      "seed": 10,
+      "terminal": "pause",
+      "reason": "original_lifecycle_unavailable"
+    },
+    {
+      "name": "sqlite_lost_before_effect_clear_s11",
+      "server": "sqlite",
+      "fault": "lost_before_effect",
+      "policy": "clear",
+      "seed": 11,
+      "terminal": "pause",
+      "reason": "original_lifecycle_unavailable"
+    },
+    {
+      "name": "sqlite_lost_before_effect_clear_s12",
+      "server": "sqlite",
+      "fault": "lost_before_effect",
+      "policy": "clear",
+      "seed": 12,
+      "terminal": "pause",
+      "reason": "original_lifecycle_unavailable"
+    },
+    {
+      "name": "sqlite_lost_before_effect_clear_s13",
+      "server": "sqlite",
+      "fault": "lost_before_effect",
+      "policy": "clear",
+      "seed": 13,
+      "terminal": "pause",
+      "reason": "original_lifecycle_unavailable"
+    },
+    {
+      "name": "sqlite_lost_before_effect_clear_s14",
+      "server": "sqlite",
+      "fault": "lost_before_effect",
+      "policy": "clear",
+      "seed": 14,
+      "terminal": "pause",
+      "reason": "original_lifecycle_unavailable"
+    },
+    {
+      "name": "sqlite_lost_before_effect_clear_s15",
+      "server": "sqlite",
+      "fault": "lost_before_effect",
+      "policy": "clear",
+      "seed": 15,
+      "terminal": "pause",
+      "reason": "original_lifecycle_unavailable"
+    },
+    {
+      "name": "sqlite_lost_before_effect_clear_s16",
+      "server": "sqlite",
+      "fault": "lost_before_effect",
+      "policy": "clear",
+      "seed": 16,
+      "terminal": "pause",
+      "reason": "original_lifecycle_unavailable"
+    },
+    {
+      "name": "sqlite_lost_before_effect_clear_s17",
+      "server": "sqlite",
+      "fault": "lost_before_effect",
+      "policy": "clear",
+      "seed": 17,
+      "terminal": "pause",
+      "reason": "original_lifecycle_unavailable"
+    },
+    {
+      "name": "sqlite_lost_before_effect_clear_s18",
+      "server": "sqlite",
+      "fault": "lost_before_effect",
+      "policy": "clear",
+      "seed": 18,
+      "terminal": "pause",
+      "reason": "original_lifecycle_unavailable"
+    },
+    {
+      "name": "sqlite_lost_before_effect_clear_s19",
+      "server": "sqlite",
+      "fault": "lost_before_effect",
+      "policy": "clear",
+      "seed": 19,
+      "terminal": "pause",
+      "reason": "original_lifecycle_unavailable"
+    },
+    {
+      "name": "sqlite_lost_before_effect_clear_s20",
+      "server": "sqlite",
+      "fault": "lost_before_effect",
+      "policy": "clear",
+      "seed": 20,
+      "terminal": "pause",
+      "reason": "original_lifecycle_unavailable"
+    },
+    {
+      "name": "sqlite_lost_before_effect_blind_retry_s1",
+      "server": "sqlite",
+      "fault": "lost_before_effect",
+      "policy": "blind_retry",
+      "seed": 1,
+      "terminal": "complete",
+      "reason": "blind_retry"
+    },
+    {
+      "name": "sqlite_lost_before_effect_blind_retry_s2",
+      "server": "sqlite",
+      "fault": "lost_before_effect",
+      "policy": "blind_retry",
+      "seed": 2,
+      "terminal": "complete",
+      "reason": "blind_retry"
+    },
+    {
+      "name": "sqlite_lost_before_effect_blind_retry_s3",
+      "server": "sqlite",
+      "fault": "lost_before_effect",
+      "policy": "blind_retry",
+      "seed": 3,
+      "terminal": "complete",
+      "reason": "blind_retry"
+    },
+    {
+      "name": "sqlite_lost_before_effect_blind_retry_s4",
+      "server": "sqlite",
+      "fault": "lost_before_effect",
+      "policy": "blind_retry",
+      "seed": 4,
+      "terminal": "complete",
+      "reason": "blind_retry"
+    },
+    {
+      "name": "sqlite_lost_before_effect_blind_retry_s5",
+      "server": "sqlite",
+      "fault": "lost_before_effect",
+      "policy": "blind_retry",
+      "seed": 5,
+      "terminal": "complete",
+      "reason": "blind_retry"
+    },
+    {
+      "name": "sqlite_lost_before_effect_blind_retry_s6",
+      "server": "sqlite",
+      "fault": "lost_before_effect",
+      "policy": "blind_retry",
+      "seed": 6,
+      "terminal": "complete",
+      "reason": "blind_retry"
+    },
+    {
+      "name": "sqlite_lost_before_effect_blind_retry_s7",
+      "server": "sqlite",
+      "fault": "lost_before_effect",
+      "policy": "blind_retry",
+      "seed": 7,
+      "terminal": "complete",
+      "reason": "blind_retry"
+    },
+    {
+      "name": "sqlite_lost_before_effect_blind_retry_s8",
+      "server": "sqlite",
+      "fault": "lost_before_effect",
+      "policy": "blind_retry",
+      "seed": 8,
+      "terminal": "complete",
+      "reason": "blind_retry"
+    },
+    {
+      "name": "sqlite_lost_before_effect_blind_retry_s9",
+      "server": "sqlite",
+      "fault": "lost_before_effect",
+      "policy": "blind_retry",
+      "seed": 9,
+      "terminal": "complete",
+      "reason": "blind_retry"
+    },
+    {
+      "name": "sqlite_lost_before_effect_blind_retry_s10",
+      "server": "sqlite",
+      "fault": "lost_before_effect",
+      "policy": "blind_retry",
+      "seed": 10,
+      "terminal": "complete",
+      "reason": "blind_retry"
+    },
+    {
+      "name": "sqlite_lost_before_effect_blind_retry_s11",
+      "server": "sqlite",
+      "fault": "lost_before_effect",
+      "policy": "blind_retry",
+      "seed": 11,
+      "terminal": "complete",
+      "reason": "blind_retry"
+    },
+    {
+      "name": "sqlite_lost_before_effect_blind_retry_s12",
+      "server": "sqlite",
+      "fault": "lost_before_effect",
+      "policy": "blind_retry",
+      "seed": 12,
+      "terminal": "complete",
+      "reason": "blind_retry"
+    },
+    {
+      "name": "sqlite_lost_before_effect_blind_retry_s13",
+      "server": "sqlite",
+      "fault": "lost_before_effect",
+      "policy": "blind_retry",
+      "seed": 13,
+      "terminal": "complete",
+      "reason": "blind_retry"
+    },
+    {
+      "name": "sqlite_lost_before_effect_blind_retry_s14",
+      "server": "sqlite",
+      "fault": "lost_before_effect",
+      "policy": "blind_retry",
+      "seed": 14,
+      "terminal": "complete",
+      "reason": "blind_retry"
+    },
+    {
+      "name": "sqlite_lost_before_effect_blind_retry_s15",
+      "server": "sqlite",
+      "fault": "lost_before_effect",
+      "policy": "blind_retry",
+      "seed": 15,
+      "terminal": "complete",
+      "reason": "blind_retry"
+    },
+    {
+      "name": "sqlite_lost_before_effect_blind_retry_s16",
+      "server": "sqlite",
+      "fault": "lost_before_effect",
+      "policy": "blind_retry",
+      "seed": 16,
+      "terminal": "complete",
+      "reason": "blind_retry"
+    },
+    {
+      "name": "sqlite_lost_before_effect_blind_retry_s17",
+      "server": "sqlite",
+      "fault": "lost_before_effect",
+      "policy": "blind_retry",
+      "seed": 17,
+      "terminal": "complete",
+      "reason": "blind_retry"
+    },
+    {
+      "name": "sqlite_lost_before_effect_blind_retry_s18",
+      "server": "sqlite",
+      "fault": "lost_before_effect",
+      "policy": "blind_retry",
+      "seed": 18,
+      "terminal": "complete",
+      "reason": "blind_retry"
+    },
+    {
+      "name": "sqlite_lost_before_effect_blind_retry_s19",
+      "server": "sqlite",
+      "fault": "lost_before_effect",
+      "policy": "blind_retry",
+      "seed": 19,
+      "terminal": "complete",
+      "reason": "blind_retry"
+    },
+    {
+      "name": "sqlite_lost_before_effect_blind_retry_s20",
+      "server": "sqlite",
+      "fault": "lost_before_effect",
+      "policy": "blind_retry",
+      "seed": 20,
+      "terminal": "complete",
+      "reason": "blind_retry"
+    },
+    {
+      "name": "sqlite_lost_before_effect_query_retry_s1",
+      "server": "sqlite",
+      "fault": "lost_before_effect",
+      "policy": "query_retry",
+      "seed": 1,
+      "terminal": "complete",
+      "reason": "query_then_retry"
+    },
+    {
+      "name": "sqlite_lost_before_effect_query_retry_s2",
+      "server": "sqlite",
+      "fault": "lost_before_effect",
+      "policy": "query_retry",
+      "seed": 2,
+      "terminal": "complete",
+      "reason": "query_then_retry"
+    },
+    {
+      "name": "sqlite_lost_before_effect_query_retry_s3",
+      "server": "sqlite",
+      "fault": "lost_before_effect",
+      "policy": "query_retry",
+      "seed": 3,
+      "terminal": "complete",
+      "reason": "query_then_retry"
+    },
+    {
+      "name": "sqlite_lost_before_effect_query_retry_s4",
+      "server": "sqlite",
+      "fault": "lost_before_effect",
+      "policy": "query_retry",
+      "seed": 4,
+      "terminal": "complete",
+      "reason": "query_then_retry"
+    },
+    {
+      "name": "sqlite_lost_before_effect_query_retry_s5",
+      "server": "sqlite",
+      "fault": "lost_before_effect",
+      "policy": "query_retry",
+      "seed": 5,
+      "terminal": "complete",
+      "reason": "query_then_retry"
+    },
+    {
+      "name": "sqlite_lost_before_effect_query_retry_s6",
+      "server": "sqlite",
+      "fault": "lost_before_effect",
+      "policy": "query_retry",
+      "seed": 6,
+      "terminal": "complete",
+      "reason": "query_then_retry"
+    },
+    {
+      "name": "sqlite_lost_before_effect_query_retry_s7",
+      "server": "sqlite",
+      "fault": "lost_before_effect",
+      "policy": "query_retry",
+      "seed": 7,
+      "terminal": "complete",
+      "reason": "query_then_retry"
+    },
+    {
+      "name": "sqlite_lost_before_effect_query_retry_s8",
+      "server": "sqlite",
+      "fault": "lost_before_effect",
+      "policy": "query_retry",
+      "seed": 8,
+      "terminal": "complete",
+      "reason": "query_then_retry"
+    },
+    {
+      "name": "sqlite_lost_before_effect_query_retry_s9",
+      "server": "sqlite",
+      "fault": "lost_before_effect",
+      "policy": "query_retry",
+      "seed": 9,
+      "terminal": "complete",
+      "reason": "query_then_retry"
+    },
+    {
+      "name": "sqlite_lost_before_effect_query_retry_s10",
+      "server": "sqlite",
+      "fault": "lost_before_effect",
+      "policy": "query_retry",
+      "seed": 10,
+      "terminal": "complete",
+      "reason": "query_then_retry"
+    },
+    {
+      "name": "sqlite_lost_before_effect_query_retry_s11",
+      "server": "sqlite",
+      "fault": "lost_before_effect",
+      "policy": "query_retry",
+      "seed": 11,
+      "terminal": "complete",
+      "reason": "query_then_retry"
+    },
+    {
+      "name": "sqlite_lost_before_effect_query_retry_s12",
+      "server": "sqlite",
+      "fault": "lost_before_effect",
+      "policy": "query_retry",
+      "seed": 12,
+      "terminal": "complete",
+      "reason": "query_then_retry"
+    },
+    {
+      "name": "sqlite_lost_before_effect_query_retry_s13",
+      "server": "sqlite",
+      "fault": "lost_before_effect",
+      "policy": "query_retry",
+      "seed": 13,
+      "terminal": "complete",
+      "reason": "query_then_retry"
+    },
+    {
+      "name": "sqlite_lost_before_effect_query_retry_s14",
+      "server": "sqlite",
+      "fault": "lost_before_effect",
+      "policy": "query_retry",
+      "seed": 14,
+      "terminal": "complete",
+      "reason": "query_then_retry"
+    },
+    {
+      "name": "sqlite_lost_before_effect_query_retry_s15",
+      "server": "sqlite",
+      "fault": "lost_before_effect",
+      "policy": "query_retry",
+      "seed": 15,
+      "terminal": "complete",
+      "reason": "query_then_retry"
+    },
+    {
+      "name": "sqlite_lost_before_effect_query_retry_s16",
+      "server": "sqlite",
+      "fault": "lost_before_effect",
+      "policy": "query_retry",
+      "seed": 16,
+      "terminal": "complete",
+      "reason": "query_then_retry"
+    },
+    {
+      "name": "sqlite_lost_before_effect_query_retry_s17",
+      "server": "sqlite",
+      "fault": "lost_before_effect",
+      "policy": "query_retry",
+      "seed": 17,
+      "terminal": "complete",
+      "reason": "query_then_retry"
+    },
+    {
+      "name": "sqlite_lost_before_effect_query_retry_s18",
+      "server": "sqlite",
+      "fault": "lost_before_effect",
+      "policy": "query_retry",
+      "seed": 18,
+      "terminal": "complete",
+      "reason": "query_then_retry"
+    },
+    {
+      "name": "sqlite_lost_before_effect_query_retry_s19",
+      "server": "sqlite",
+      "fault": "lost_before_effect",
+      "policy": "query_retry",
+      "seed": 19,
+      "terminal": "complete",
+      "reason": "query_then_retry"
+    },
+    {
+      "name": "sqlite_lost_before_effect_query_retry_s20",
+      "server": "sqlite",
+      "fault": "lost_before_effect",
+      "policy": "query_retry",
+      "seed": 20,
+      "terminal": "complete",
+      "reason": "query_then_retry"
+    },
+    {
+      "name": "sqlite_lost_before_effect_pause_s1",
+      "server": "sqlite",
+      "fault": "lost_before_effect",
+      "policy": "pause",
+      "seed": 1,
+      "terminal": "pause",
+      "reason": "single_pause"
+    },
+    {
+      "name": "sqlite_lost_before_effect_pause_s2",
+      "server": "sqlite",
+      "fault": "lost_before_effect",
+      "policy": "pause",
+      "seed": 2,
+      "terminal": "pause",
+      "reason": "single_pause"
+    },
+    {
+      "name": "sqlite_lost_before_effect_pause_s3",
+      "server": "sqlite",
+      "fault": "lost_before_effect",
+      "policy": "pause",
+      "seed": 3,
+      "terminal": "pause",
+      "reason": "single_pause"
+    },
+    {
+      "name": "sqlite_lost_before_effect_pause_s4",
+      "server": "sqlite",
+      "fault": "lost_before_effect",
+      "policy": "pause",
+      "seed": 4,
+      "terminal": "pause",
+      "reason": "single_pause"
+    },
+    {
+      "name": "sqlite_lost_before_effect_pause_s5",
+      "server": "sqlite",
+      "fault": "lost_before_effect",
+      "policy": "pause",
+      "seed": 5,
+      "terminal": "pause",
+      "reason": "single_pause"
+    },
+    {
+      "name": "sqlite_lost_before_effect_pause_s6",
+      "server": "sqlite",
+      "fault": "lost_before_effect",
+      "policy": "pause",
+      "seed": 6,
+      "terminal": "pause",
+      "reason": "single_pause"
+    },
+    {
+      "name": "sqlite_lost_before_effect_pause_s7",
+      "server": "sqlite",
+      "fault": "lost_before_effect",
+      "policy": "pause",
+      "seed": 7,
+      "terminal": "pause",
+      "reason": "single_pause"
+    },
+    {
+      "name": "sqlite_lost_before_effect_pause_s8",
+      "server": "sqlite",
+      "fault": "lost_before_effect",
+      "policy": "pause",
+      "seed": 8,
+      "terminal": "pause",
+      "reason": "single_pause"
+    },
+    {
+      "name": "sqlite_lost_before_effect_pause_s9",
+      "server": "sqlite",
+      "fault": "lost_before_effect",
+      "policy": "pause",
+      "seed": 9,
+      "terminal": "pause",
+      "reason": "single_pause"
+    },
+    {
+      "name": "sqlite_lost_before_effect_pause_s10",
+      "server": "sqlite",
+      "fault": "lost_before_effect",
+      "policy": "pause",
+      "seed": 10,
+      "terminal": "pause",
+      "reason": "single_pause"
+    },
+    {
+      "name": "sqlite_lost_before_effect_pause_s11",
+      "server": "sqlite",
+      "fault": "lost_before_effect",
+      "policy": "pause",
+      "seed": 11,
+      "terminal": "pause",
+      "reason": "single_pause"
+    },
+    {
+      "name": "sqlite_lost_before_effect_pause_s12",
+      "server": "sqlite",
+      "fault": "lost_before_effect",
+      "policy": "pause",
+      "seed": 12,
+      "terminal": "pause",
+      "reason": "single_pause"
+    },
+    {
+      "name": "sqlite_lost_before_effect_pause_s13",
+      "server": "sqlite",
+      "fault": "lost_before_effect",
+      "policy": "pause",
+      "seed": 13,
+      "terminal": "pause",
+      "reason": "single_pause"
+    },
+    {
+      "name": "sqlite_lost_before_effect_pause_s14",
+      "server": "sqlite",
+      "fault": "lost_before_effect",
+      "policy": "pause",
+      "seed": 14,
+      "terminal": "pause",
+      "reason": "single_pause"
+    },
+    {
+      "name": "sqlite_lost_before_effect_pause_s15",
+      "server": "sqlite",
+      "fault": "lost_before_effect",
+      "policy": "pause",
+      "seed": 15,
+      "terminal": "pause",
+      "reason": "single_pause"
+    },
+    {
+      "name": "sqlite_lost_before_effect_pause_s16",
+      "server": "sqlite",
+      "fault": "lost_before_effect",
+      "policy": "pause",
+      "seed": 16,
+      "terminal": "pause",
+      "reason": "single_pause"
+    },
+    {
+      "name": "sqlite_lost_before_effect_pause_s17",
+      "server": "sqlite",
+      "fault": "lost_before_effect",
+      "policy": "pause",
+      "seed": 17,
+      "terminal": "pause",
+      "reason": "single_pause"
+    },
+    {
+      "name": "sqlite_lost_before_effect_pause_s18",
+      "server": "sqlite",
+      "fault": "lost_before_effect",
+      "policy": "pause",
+      "seed": 18,
+      "terminal": "pause",
+      "reason": "single_pause"
+    },
+    {
+      "name": "sqlite_lost_before_effect_pause_s19",
+      "server": "sqlite",
+      "fault": "lost_before_effect",
+      "policy": "pause",
+      "seed": 19,
+      "terminal": "pause",
+      "reason": "single_pause"
+    },
+    {
+      "name": "sqlite_lost_before_effect_pause_s20",
+      "server": "sqlite",
+      "fault": "lost_before_effect",
+      "policy": "pause",
+      "seed": 20,
+      "terminal": "pause",
+      "reason": "single_pause"
+    }
+  ],
+  "failures": [],
+  "node": "v24.19.0"
+}

@@ -1,0 +1,57 @@
+{
+  "policy": "clear",
+  "terminal": "pause",
+  "reason": "original_lifecycle_unavailable",
+  "events": [
+    {
+      "seq": 0,
+      "context": {
+        "operation_id": "memory_lost_before_effect_clear_s6",
+        "intent": "55f34e953c4b81b6505cc7ea4694ed85b6f643e19f5af1baa36996d83f07a844",
+        "generation": 1
+      },
+      "manifest": "d8ce86ea410948c390bfb2b578f499c88b918a0654d7924b8de0e1cd9d14df8d",
+      "action": "query",
+      "body": {
+        "state": "not_committed",
+        "complete": true,
+        "rows": [],
+        "effect_namespace": "memory",
+        "operation_id": "memory_lost_before_effect_clear_s6",
+        "intent": "55f34e953c4b81b6505cc7ea4694ed85b6f643e19f5af1baa36996d83f07a844",
+        "generation": 1
+      }
+    }
+  ],
+  "body": {
+    "state": "not_committed",
+    "complete": true,
+    "rows": [],
+    "effect_namespace": "memory",
+    "operation_id": "memory_lost_before_effect_clear_s6",
+    "intent": "55f34e953c4b81b6505cc7ea4694ed85b6f643e19f5af1baa36996d83f07a844",
+    "generation": 1
+  },
+  "server": "memory",
+  "fault": "lost_before_effect",
+  "seed": 6,
+  "token": "effect:memory:lost_before_effect:clear:s6",
+  "context": {
+    "operation_id": "memory_lost_before_effect_clear_s6",
+    "intent": "55f34e953c4b81b6505cc7ea4694ed85b6f643e19f5af1baa36996d83f07a844",
+    "generation": 1
+  },
+  "calls": [
+    {
+      "tool": "add_observations",
+      "outcome": "timeout",
+      "elapsed_ns": 400914900
+    },
+    {
+      "tool": "observe",
+      "outcome": "return",
+      "elapsed_ns": 4021100
+    }
+  ],
+  "elapsed_ns": 734540200
+}

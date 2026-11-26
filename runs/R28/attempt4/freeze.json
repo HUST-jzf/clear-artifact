@@ -1,0 +1,60 @@
+{
+  "files": {
+    "docs/R28_third_party_services_protocol.md": "7d86f459adca344fcc8a2ebf40ef5fb92d7824a1f85dfc68f420b8f5b9c24c54",
+    "scripts/r28_proxy.py": "b9cdc95712b70a25a77493c54b3fe18dbc797b38d9706143a19a97b3a4a48197",
+    "scripts/r28_client.py": "2d65c533d2cf073aa3bd0733770d619b6d3bb804984bb0f365b51cbb094588fb",
+    "scripts/run_r28.py": "5c273e0d50d70329132b079c2028864b37bb05f93b5158d7a73ff37900d3ed7a",
+    "scripts/verify_r28.py": "2c493463b178ff59732f82e7e19cb88645d817039b71c3a24ef2678d5967998b",
+    "sources/R28_memory_server/package.json": "ad5a1e24b38fec09807523126a5db71ceafc821259955395c52ee0dd9c55f05e",
+    "sources/R28_memory_server/package-lock.json": "9555e50dfc0631af1a37a125f01794cdfded0fc904798a6bfaa3ecd2cf5baa76",
+    "sources/R28_sqlite_server/package.json": "4e22fff0e8b0e0ec56f725f1aa828fcdf8b7a6cc691b4ee743cb510f4e58aa7d",
+    "sources/R28_sqlite_server/package-lock.json": "bd60471f881555cf45e575a17753d3aafea3e7c47177d7933a8eec268a5d8ec5"
+  },
+  "faults": [
+    "lost_response",
+    "lost_before_effect"
+  ],
+  "policies": [
+    "clear",
+    "blind_retry",
+    "query_retry",
+    "pause"
+  ],
+  "seeds": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "node": "v24.19.0",
+  "servers": {
+    "memory": {
+      "version": "2.0.0",
+      "entry_sha256": "8a4d2e89a6058b5ffa7caa567bd185be2087a57d23ddf1e609884c9a25fd38fd"
+    },
+    "sqlite": {
+      "version": "0.0.2",
+      "entry_sha256": "4a4714b0c29d1507175769cd3d60dc7eca87cb660c7e0689c9c32697bd542971"
+    }
+  },
+  "target_calls_before_freeze": 0,
+  "python": "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R1_anyio\\env\\Scripts\\python.exe",
+  "python_version": "3.13.2",
+  "created_ns": 1792633070727738600
+}
