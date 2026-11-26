@@ -1,0 +1,17 @@
+{
+  "B_dedup_unversioned_S4": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 1,
+        "intents": [
+          "seat:12A"
+        ]
+      }
+    },
+    "rejected": 0
+  }
+}
