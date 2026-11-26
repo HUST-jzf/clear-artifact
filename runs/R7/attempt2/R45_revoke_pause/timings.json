@@ -1,0 +1,17 @@
+{
+  "case": "revoke",
+  "policy": "pause",
+  "repetition": 45,
+  "terminal": "pause",
+  "reason": "single_pause",
+  "control_ns": 4500,
+  "timings": {
+    "drain_ns": 952400
+  },
+  "counts": {},
+  "actions": 0,
+  "rows": 0,
+  "duplicate": false,
+  "stale_new": 0,
+  "safe": false
+}

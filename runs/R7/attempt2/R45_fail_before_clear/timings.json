@@ -1,0 +1,28 @@
+{
+  "case": "fail_before",
+  "policy": "clear",
+  "repetition": 45,
+  "terminal": "complete",
+  "reason": "original_or_retry_receipt",
+  "control_ns": 21398900,
+  "timings": {
+    "active_ns": 20844800,
+    "wait_ns": 228700,
+    "drain_ns": 900600
+  },
+  "counts": {
+    "describe": 5,
+    "active": 6,
+    "refresh": 4,
+    "status": 1,
+    "wait": 2,
+    "effects": 1,
+    "query": 1,
+    "retry": 1
+  },
+  "actions": 3,
+  "rows": 1,
+  "duplicate": false,
+  "stale_new": 0,
+  "safe": true
+}
