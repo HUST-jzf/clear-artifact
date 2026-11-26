@@ -1,0 +1,28 @@
+{
+  "profile": "buffered",
+  "fault": "lost_before_commit",
+  "policy": "clear",
+  "seed": 10,
+  "workflow": "buffered_lost_before_commit_clear_S10",
+  "terminal": "pause",
+  "reason": "original_lifecycle_unavailable",
+  "rows": {
+    "create": 1,
+    "reserve": 1,
+    "attach": 0,
+    "commit": 0,
+    "notify": 0
+  },
+  "stale": {
+    "create": 0,
+    "reserve": 0,
+    "attach": 0,
+    "commit": 0,
+    "notify": 0
+  },
+  "rejected": 0,
+  "duplicates": 0,
+  "completed": false,
+  "safe": false,
+  "elapsed_ns": 509946700
+}
