@@ -1,0 +1,221 @@
+{
+  "context": {
+    "operation_id": "I1Q0C1GrevokeFlate_query_retry",
+    "intent": "38d7c6e9ee9f1c1d8b7b1dbd24382d424982ce51486f3c87cf7e76b662aa298e",
+    "generation": 1
+  },
+  "origin": {
+    "context": {
+      "operation_id": "I1Q0C1GrevokeFlate_query_retry",
+      "intent": "38d7c6e9ee9f1c1d8b7b1dbd24382d424982ce51486f3c87cf7e76b662aa298e",
+      "generation": 1
+    },
+    "manifest": {
+      "adapter": "anyio_task",
+      "version": "4.12.1",
+      "python": "3.13.2",
+      "framework": {
+        "anyio._backends._asyncio": "c46eaabfad268069cbd262bcd9dc631f66fc86590c949fb1d81a88ab7aafef46"
+      },
+      "worker_sha256": "82727821f348c521f26c19a48622ac6f7ebcb8042abb1df33b008267d39cd415",
+      "host_sha256": "82727821f348c521f26c19a48622ac6f7ebcb8042abb1df33b008267d39cd415",
+      "observer_sha256": "82727821f348c521f26c19a48622ac6f7ebcb8042abb1df33b008267d39cd415",
+      "route_sha256": "a7743b8158bd4b1a7d58d5b29fbb41a4b6abc500bf3bbdc70ca43278167cc146",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "commit",
+        "delayed": true,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": true,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": true,
+        "query_complete": false
+      }
+    },
+    "namespace": "effects"
+  },
+  "initial_route": {
+    "revision": 1,
+    "mode": "inline",
+    "outcome": "commit",
+    "delayed": true,
+    "abandon_on_cancel": false,
+    "delegated": false,
+    "closed_registration": true,
+    "allowed": true,
+    "store": "effects",
+    "idempotency": true,
+    "query_complete": false
+  },
+  "initial_qualification": {
+    "valid": true,
+    "manifest": {
+      "adapter": "anyio_task",
+      "version": "4.12.1",
+      "python": "3.13.2",
+      "framework": {
+        "anyio._backends._asyncio": "c46eaabfad268069cbd262bcd9dc631f66fc86590c949fb1d81a88ab7aafef46"
+      },
+      "worker_sha256": "82727821f348c521f26c19a48622ac6f7ebcb8042abb1df33b008267d39cd415",
+      "host_sha256": "82727821f348c521f26c19a48622ac6f7ebcb8042abb1df33b008267d39cd415",
+      "observer_sha256": "82727821f348c521f26c19a48622ac6f7ebcb8042abb1df33b008267d39cd415",
+      "route_sha256": "a7743b8158bd4b1a7d58d5b29fbb41a4b6abc500bf3bbdc70ca43278167cc146",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "commit",
+        "delayed": true,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": true,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": true,
+        "query_complete": false
+      }
+    },
+    "checks": {
+      "adapter": true,
+      "version": true,
+      "python": true,
+      "framework": true,
+      "worker_sha256": true,
+      "host_sha256": true,
+      "observer_sha256": true,
+      "known_route": true,
+      "closed_registration": true,
+      "approval_allowed": true,
+      "same_effect_destination": true
+    },
+    "changed_dependencies": []
+  },
+  "initial_observations": [
+    {
+      "action": "append",
+      "phase": "initial",
+      "attempt": 1,
+      "outcome": "timeout"
+    }
+  ],
+  "attempt": 1,
+  "calls": [
+    {
+      "tool": "describe",
+      "outcome": "return",
+      "time_ns": 18371649303200
+    },
+    {
+      "tool": "append",
+      "outcome": "timeout",
+      "time_ns": 18371714003500
+    },
+    {
+      "tool": "effects",
+      "outcome": "return",
+      "time_ns": 18371714085000
+    },
+    {
+      "tool": "drain",
+      "outcome": "return",
+      "time_ns": 18371725737300
+    }
+  ],
+  "capabilities": {
+    "executor_handle": true,
+    "closed_registration": true
+  },
+  "drain": {
+    "drained": true,
+    "invocations": 1,
+    "effects": 1,
+    "terminal": true
+  },
+  "close_error": null,
+  "final_manifest": {
+    "adapter": "anyio_task",
+    "version": "4.12.1",
+    "python": "3.13.2",
+    "framework": {
+      "anyio._backends._asyncio": "c46eaabfad268069cbd262bcd9dc631f66fc86590c949fb1d81a88ab7aafef46"
+    },
+    "worker_sha256": "82727821f348c521f26c19a48622ac6f7ebcb8042abb1df33b008267d39cd415",
+    "host_sha256": "82727821f348c521f26c19a48622ac6f7ebcb8042abb1df33b008267d39cd415",
+    "observer_sha256": "82727821f348c521f26c19a48622ac6f7ebcb8042abb1df33b008267d39cd415",
+    "route_sha256": "c3967cd525eb11aaf4a4c5be415e737df04db63386d95f8219387381f7a33d64",
+    "route": {
+      "revision": 2,
+      "mode": "inline",
+      "outcome": "commit",
+      "delayed": true,
+      "abandon_on_cancel": false,
+      "delegated": false,
+      "closed_registration": true,
+      "allowed": false,
+      "store": "effects",
+      "idempotency": true,
+      "query_complete": false
+    }
+  },
+  "final_route": {
+    "revision": 2,
+    "mode": "inline",
+    "outcome": "commit",
+    "delayed": true,
+    "abandon_on_cancel": false,
+    "delegated": false,
+    "closed_registration": true,
+    "allowed": false,
+    "store": "effects",
+    "idempotency": true,
+    "query_complete": false
+  },
+  "current_qualification": {
+    "valid": false,
+    "manifest": {
+      "adapter": "anyio_task",
+      "version": "4.12.1",
+      "python": "3.13.2",
+      "framework": {
+        "anyio._backends._asyncio": "c46eaabfad268069cbd262bcd9dc631f66fc86590c949fb1d81a88ab7aafef46"
+      },
+      "worker_sha256": "82727821f348c521f26c19a48622ac6f7ebcb8042abb1df33b008267d39cd415",
+      "host_sha256": "82727821f348c521f26c19a48622ac6f7ebcb8042abb1df33b008267d39cd415",
+      "observer_sha256": "82727821f348c521f26c19a48622ac6f7ebcb8042abb1df33b008267d39cd415",
+      "route_sha256": "c3967cd525eb11aaf4a4c5be415e737df04db63386d95f8219387381f7a33d64",
+      "route": {
+        "revision": 2,
+        "mode": "inline",
+        "outcome": "commit",
+        "delayed": true,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": true,
+        "allowed": false,
+        "store": "effects",
+        "idempotency": true,
+        "query_complete": false
+      }
+    },
+    "checks": {
+      "adapter": true,
+      "version": true,
+      "python": true,
+      "framework": true,
+      "worker_sha256": true,
+      "host_sha256": true,
+      "observer_sha256": true,
+      "known_route": true,
+      "closed_registration": true,
+      "approval_allowed": false,
+      "same_effect_destination": true
+    },
+    "changed_dependencies": [
+      "route_sha256",
+      "route"
+    ]
+  },
+  "elapsed_ns": 87149600
+}
