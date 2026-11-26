@@ -1,0 +1,17 @@
+{
+  "case": "fail_before",
+  "policy": "pause",
+  "repetition": 27,
+  "terminal": "pause",
+  "reason": "single_pause",
+  "control_ns": 4700,
+  "timings": {
+    "drain_ns": 955600
+  },
+  "counts": {},
+  "actions": 0,
+  "rows": 0,
+  "duplicate": false,
+  "stale_new": 0,
+  "safe": false
+}
