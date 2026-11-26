@@ -1,0 +1,7 @@
+{
+  "terminal": "complete",
+  "reason": "query_committed",
+  "case": "late_commit",
+  "variant": "no_atomic",
+  "seed": 6
+}

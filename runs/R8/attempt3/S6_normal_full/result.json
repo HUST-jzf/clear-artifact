@@ -1,0 +1,7 @@
+{
+  "terminal": "complete",
+  "reason": "query_committed",
+  "case": "normal",
+  "variant": "full",
+  "seed": 6
+}

@@ -1,0 +1,20 @@
+{
+  "launch": {
+    "valid": true,
+    "revision": 1,
+    "manifest": "ec26367d2342f65da5a21500c21c6bf6116f20e092b8c7aecd59a1f9d70f1dcc",
+    "allowed": true
+  },
+  "final_route": {
+    "revision": 1,
+    "schema": "v1",
+    "allowed": true,
+    "outcome": "commit",
+    "delayed": true,
+    "closed_registration": true,
+    "query_complete": true,
+    "idempotency": false
+  },
+  "initial_outcome": "error",
+  "attempt": 1
+}

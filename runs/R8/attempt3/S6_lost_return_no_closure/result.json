@@ -1,0 +1,7 @@
+{
+  "terminal": "complete",
+  "reason": "query_committed",
+  "case": "lost_return",
+  "variant": "no_closure",
+  "seed": 6
+}

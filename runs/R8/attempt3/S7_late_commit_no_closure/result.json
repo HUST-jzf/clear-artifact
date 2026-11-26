@@ -1,0 +1,7 @@
+{
+  "terminal": "pause",
+  "reason": "unexpected",
+  "case": "late_commit",
+  "variant": "no_closure",
+  "seed": 7
+}
