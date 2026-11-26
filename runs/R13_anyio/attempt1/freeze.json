@@ -1,0 +1,455 @@
+{
+  "source": "anyio",
+  "files": {
+    "docs/R13_post_change_recovery_protocol.md": "25cbbd862df0bd3f2a6afd780706fbc6eda64e63f46807b788e6c57103926c56",
+    "scripts/r13_change.py": "507f9bc0f7560875def00ca027619d4e2edcc08f7e4e827b89679e78ca64cd2d",
+    "scripts/run_r13.py": "11fb01b0aebf375f940a53ef590da50065bcbcaca5005f5f8f356212f8c7dc97",
+    "scripts/verify_r13.py": "040676b6cb41a68623595f75f24a9c8bc2f5e382ef848bfdc7c2287d7a51c9c2",
+    "scripts/r1_policies.py": "09664043a3e4ed3f2765f645fcea5587c2f6dfc6a336eea8e3c65e9c9393531f",
+    "scripts/r1_anyio.py": "82727821f348c521f26c19a48622ac6f7ebcb8042abb1df33b008267d39cd415"
+  },
+  "cases": [
+    {
+      "id": "manifest_change_S0",
+      "mode": "manifest_change",
+      "seed": 0
+    },
+    {
+      "id": "manifest_change_S1",
+      "mode": "manifest_change",
+      "seed": 1
+    },
+    {
+      "id": "manifest_change_S2",
+      "mode": "manifest_change",
+      "seed": 2
+    },
+    {
+      "id": "manifest_change_S3",
+      "mode": "manifest_change",
+      "seed": 3
+    },
+    {
+      "id": "manifest_change_S4",
+      "mode": "manifest_change",
+      "seed": 4
+    },
+    {
+      "id": "manifest_change_S5",
+      "mode": "manifest_change",
+      "seed": 5
+    },
+    {
+      "id": "manifest_change_S6",
+      "mode": "manifest_change",
+      "seed": 6
+    },
+    {
+      "id": "manifest_change_S7",
+      "mode": "manifest_change",
+      "seed": 7
+    },
+    {
+      "id": "manifest_change_S8",
+      "mode": "manifest_change",
+      "seed": 8
+    },
+    {
+      "id": "manifest_change_S9",
+      "mode": "manifest_change",
+      "seed": 9
+    },
+    {
+      "id": "manifest_change_S10",
+      "mode": "manifest_change",
+      "seed": 10
+    },
+    {
+      "id": "manifest_change_S11",
+      "mode": "manifest_change",
+      "seed": 11
+    },
+    {
+      "id": "manifest_change_S12",
+      "mode": "manifest_change",
+      "seed": 12
+    },
+    {
+      "id": "manifest_change_S13",
+      "mode": "manifest_change",
+      "seed": 13
+    },
+    {
+      "id": "manifest_change_S14",
+      "mode": "manifest_change",
+      "seed": 14
+    },
+    {
+      "id": "manifest_change_S15",
+      "mode": "manifest_change",
+      "seed": 15
+    },
+    {
+      "id": "manifest_change_S16",
+      "mode": "manifest_change",
+      "seed": 16
+    },
+    {
+      "id": "manifest_change_S17",
+      "mode": "manifest_change",
+      "seed": 17
+    },
+    {
+      "id": "manifest_change_S18",
+      "mode": "manifest_change",
+      "seed": 18
+    },
+    {
+      "id": "manifest_change_S19",
+      "mode": "manifest_change",
+      "seed": 19
+    },
+    {
+      "id": "revoke_before_recovery_S0",
+      "mode": "revoke_before_recovery",
+      "seed": 0
+    },
+    {
+      "id": "revoke_before_recovery_S1",
+      "mode": "revoke_before_recovery",
+      "seed": 1
+    },
+    {
+      "id": "revoke_before_recovery_S2",
+      "mode": "revoke_before_recovery",
+      "seed": 2
+    },
+    {
+      "id": "revoke_before_recovery_S3",
+      "mode": "revoke_before_recovery",
+      "seed": 3
+    },
+    {
+      "id": "revoke_before_recovery_S4",
+      "mode": "revoke_before_recovery",
+      "seed": 4
+    },
+    {
+      "id": "revoke_before_recovery_S5",
+      "mode": "revoke_before_recovery",
+      "seed": 5
+    },
+    {
+      "id": "revoke_before_recovery_S6",
+      "mode": "revoke_before_recovery",
+      "seed": 6
+    },
+    {
+      "id": "revoke_before_recovery_S7",
+      "mode": "revoke_before_recovery",
+      "seed": 7
+    },
+    {
+      "id": "revoke_before_recovery_S8",
+      "mode": "revoke_before_recovery",
+      "seed": 8
+    },
+    {
+      "id": "revoke_before_recovery_S9",
+      "mode": "revoke_before_recovery",
+      "seed": 9
+    },
+    {
+      "id": "revoke_before_recovery_S10",
+      "mode": "revoke_before_recovery",
+      "seed": 10
+    },
+    {
+      "id": "revoke_before_recovery_S11",
+      "mode": "revoke_before_recovery",
+      "seed": 11
+    },
+    {
+      "id": "revoke_before_recovery_S12",
+      "mode": "revoke_before_recovery",
+      "seed": 12
+    },
+    {
+      "id": "revoke_before_recovery_S13",
+      "mode": "revoke_before_recovery",
+      "seed": 13
+    },
+    {
+      "id": "revoke_before_recovery_S14",
+      "mode": "revoke_before_recovery",
+      "seed": 14
+    },
+    {
+      "id": "revoke_before_recovery_S15",
+      "mode": "revoke_before_recovery",
+      "seed": 15
+    },
+    {
+      "id": "revoke_before_recovery_S16",
+      "mode": "revoke_before_recovery",
+      "seed": 16
+    },
+    {
+      "id": "revoke_before_recovery_S17",
+      "mode": "revoke_before_recovery",
+      "seed": 17
+    },
+    {
+      "id": "revoke_before_recovery_S18",
+      "mode": "revoke_before_recovery",
+      "seed": 18
+    },
+    {
+      "id": "revoke_before_recovery_S19",
+      "mode": "revoke_before_recovery",
+      "seed": 19
+    },
+    {
+      "id": "revoke_after_query_S0",
+      "mode": "revoke_after_query",
+      "seed": 0
+    },
+    {
+      "id": "revoke_after_query_S1",
+      "mode": "revoke_after_query",
+      "seed": 1
+    },
+    {
+      "id": "revoke_after_query_S2",
+      "mode": "revoke_after_query",
+      "seed": 2
+    },
+    {
+      "id": "revoke_after_query_S3",
+      "mode": "revoke_after_query",
+      "seed": 3
+    },
+    {
+      "id": "revoke_after_query_S4",
+      "mode": "revoke_after_query",
+      "seed": 4
+    },
+    {
+      "id": "revoke_after_query_S5",
+      "mode": "revoke_after_query",
+      "seed": 5
+    },
+    {
+      "id": "revoke_after_query_S6",
+      "mode": "revoke_after_query",
+      "seed": 6
+    },
+    {
+      "id": "revoke_after_query_S7",
+      "mode": "revoke_after_query",
+      "seed": 7
+    },
+    {
+      "id": "revoke_after_query_S8",
+      "mode": "revoke_after_query",
+      "seed": 8
+    },
+    {
+      "id": "revoke_after_query_S9",
+      "mode": "revoke_after_query",
+      "seed": 9
+    },
+    {
+      "id": "revoke_after_query_S10",
+      "mode": "revoke_after_query",
+      "seed": 10
+    },
+    {
+      "id": "revoke_after_query_S11",
+      "mode": "revoke_after_query",
+      "seed": 11
+    },
+    {
+      "id": "revoke_after_query_S12",
+      "mode": "revoke_after_query",
+      "seed": 12
+    },
+    {
+      "id": "revoke_after_query_S13",
+      "mode": "revoke_after_query",
+      "seed": 13
+    },
+    {
+      "id": "revoke_after_query_S14",
+      "mode": "revoke_after_query",
+      "seed": 14
+    },
+    {
+      "id": "revoke_after_query_S15",
+      "mode": "revoke_after_query",
+      "seed": 15
+    },
+    {
+      "id": "revoke_after_query_S16",
+      "mode": "revoke_after_query",
+      "seed": 16
+    },
+    {
+      "id": "revoke_after_query_S17",
+      "mode": "revoke_after_query",
+      "seed": 17
+    },
+    {
+      "id": "revoke_after_query_S18",
+      "mode": "revoke_after_query",
+      "seed": 18
+    },
+    {
+      "id": "revoke_after_query_S19",
+      "mode": "revoke_after_query",
+      "seed": 19
+    },
+    {
+      "id": "revoke_during_requalification_S0",
+      "mode": "revoke_during_requalification",
+      "seed": 0
+    },
+    {
+      "id": "revoke_during_requalification_S1",
+      "mode": "revoke_during_requalification",
+      "seed": 1
+    },
+    {
+      "id": "revoke_during_requalification_S2",
+      "mode": "revoke_during_requalification",
+      "seed": 2
+    },
+    {
+      "id": "revoke_during_requalification_S3",
+      "mode": "revoke_during_requalification",
+      "seed": 3
+    },
+    {
+      "id": "revoke_during_requalification_S4",
+      "mode": "revoke_during_requalification",
+      "seed": 4
+    },
+    {
+      "id": "revoke_during_requalification_S5",
+      "mode": "revoke_during_requalification",
+      "seed": 5
+    },
+    {
+      "id": "revoke_during_requalification_S6",
+      "mode": "revoke_during_requalification",
+      "seed": 6
+    },
+    {
+      "id": "revoke_during_requalification_S7",
+      "mode": "revoke_during_requalification",
+      "seed": 7
+    },
+    {
+      "id": "revoke_during_requalification_S8",
+      "mode": "revoke_during_requalification",
+      "seed": 8
+    },
+    {
+      "id": "revoke_during_requalification_S9",
+      "mode": "revoke_during_requalification",
+      "seed": 9
+    },
+    {
+      "id": "revoke_during_requalification_S10",
+      "mode": "revoke_during_requalification",
+      "seed": 10
+    },
+    {
+      "id": "revoke_during_requalification_S11",
+      "mode": "revoke_during_requalification",
+      "seed": 11
+    },
+    {
+      "id": "revoke_during_requalification_S12",
+      "mode": "revoke_during_requalification",
+      "seed": 12
+    },
+    {
+      "id": "revoke_during_requalification_S13",
+      "mode": "revoke_during_requalification",
+      "seed": 13
+    },
+    {
+      "id": "revoke_during_requalification_S14",
+      "mode": "revoke_during_requalification",
+      "seed": 14
+    },
+    {
+      "id": "revoke_during_requalification_S15",
+      "mode": "revoke_during_requalification",
+      "seed": 15
+    },
+    {
+      "id": "revoke_during_requalification_S16",
+      "mode": "revoke_during_requalification",
+      "seed": 16
+    },
+    {
+      "id": "revoke_during_requalification_S17",
+      "mode": "revoke_during_requalification",
+      "seed": 17
+    },
+    {
+      "id": "revoke_during_requalification_S18",
+      "mode": "revoke_during_requalification",
+      "seed": 18
+    },
+    {
+      "id": "revoke_during_requalification_S19",
+      "mode": "revoke_during_requalification",
+      "seed": 19
+    }
+  ],
+  "policies": [
+    "clear",
+    "idem_retry",
+    "query_retry",
+    "reauth_retry",
+    "pause"
+  ],
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "modes": [
+    "manifest_change",
+    "revoke_before_recovery",
+    "revoke_after_query",
+    "revoke_during_requalification"
+  ],
+  "idempotency": false,
+  "query_complete": true,
+  "closure": true,
+  "target_calls_before_freeze": 0,
+  "python": "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R1_anyio\\env\\Scripts\\python.exe",
+  "python_version": "3.13.2",
+  "created_ns": 1792577086530116100
+}
