@@ -1,0 +1,157 @@
+{
+  "run": "F:\\desktop\\paper\\clear-artifact\\runs\\R16\\attempt2",
+  "checks": 1027,
+  "passed": 1027,
+  "failed": [],
+  "summary": {
+    "temporal": {
+      "idem_on": {
+        "workflows": 80,
+        "safe": 40,
+        "completed": 80,
+        "duplicates": 0,
+        "stale_rows": 80,
+        "median_ms": 6621.01,
+        "lost_return": {
+          "workflows": 20,
+          "safe": 20,
+          "completed": 20,
+          "duplicates": 0,
+          "stale_rows": 0
+        },
+        "late_commit": {
+          "workflows": 20,
+          "safe": 20,
+          "completed": 20,
+          "duplicates": 0,
+          "stale_rows": 0
+        },
+        "revoke_after_reserve": {
+          "workflows": 20,
+          "safe": 0,
+          "completed": 20,
+          "duplicates": 0,
+          "stale_rows": 60
+        },
+        "revoke_after_commit": {
+          "workflows": 20,
+          "safe": 0,
+          "completed": 20,
+          "duplicates": 0,
+          "stale_rows": 20
+        }
+      },
+      "idem_off": {
+        "workflows": 80,
+        "safe": 0,
+        "completed": 80,
+        "duplicates": 40,
+        "stale_rows": 80,
+        "median_ms": 6588.09,
+        "lost_return": {
+          "workflows": 20,
+          "safe": 0,
+          "completed": 20,
+          "duplicates": 20,
+          "stale_rows": 0
+        },
+        "late_commit": {
+          "workflows": 20,
+          "safe": 0,
+          "completed": 20,
+          "duplicates": 20,
+          "stale_rows": 0
+        },
+        "revoke_after_reserve": {
+          "workflows": 20,
+          "safe": 0,
+          "completed": 20,
+          "duplicates": 0,
+          "stale_rows": 60
+        },
+        "revoke_after_commit": {
+          "workflows": 20,
+          "safe": 0,
+          "completed": 20,
+          "duplicates": 0,
+          "stale_rows": 20
+        }
+      }
+    },
+    "langgraph": {
+      "idem_on": {
+        "workflows": 80,
+        "safe": 40,
+        "completed": 80,
+        "duplicates": 0,
+        "stale_rows": 80,
+        "median_ms": 322.67,
+        "lost_return": {
+          "workflows": 20,
+          "safe": 20,
+          "completed": 20,
+          "duplicates": 0,
+          "stale_rows": 0
+        },
+        "late_commit": {
+          "workflows": 20,
+          "safe": 20,
+          "completed": 20,
+          "duplicates": 0,
+          "stale_rows": 0
+        },
+        "revoke_after_reserve": {
+          "workflows": 20,
+          "safe": 0,
+          "completed": 20,
+          "duplicates": 0,
+          "stale_rows": 60
+        },
+        "revoke_after_commit": {
+          "workflows": 20,
+          "safe": 0,
+          "completed": 20,
+          "duplicates": 0,
+          "stale_rows": 20
+        }
+      },
+      "idem_off": {
+        "workflows": 80,
+        "safe": 0,
+        "completed": 80,
+        "duplicates": 40,
+        "stale_rows": 80,
+        "median_ms": 300.86,
+        "lost_return": {
+          "workflows": 20,
+          "safe": 0,
+          "completed": 20,
+          "duplicates": 20,
+          "stale_rows": 0
+        },
+        "late_commit": {
+          "workflows": 20,
+          "safe": 0,
+          "completed": 20,
+          "duplicates": 20,
+          "stale_rows": 0
+        },
+        "revoke_after_reserve": {
+          "workflows": 20,
+          "safe": 0,
+          "completed": 20,
+          "duplicates": 0,
+          "stale_rows": 60
+        },
+        "revoke_after_commit": {
+          "workflows": 20,
+          "safe": 0,
+          "completed": 20,
+          "duplicates": 0,
+          "stale_rows": 20
+        }
+      }
+    }
+  },
+  "status": "pass"
+}

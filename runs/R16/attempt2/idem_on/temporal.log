@@ -1,0 +1,920 @@
+Completing activity as failed ({'activity_id': '3', 'activity_type': 'ticket_step', 'attempt': 1, 'namespace': 'default', 'task_queue': 'r16-temporal', 'workflow_id': 'temporal-idem_on-lost_return-S0', 'workflow_run_id': '01a15e4e-a7a4-73d0-8051-46ee28e1948d', 'workflow_type': 'TicketFlow'})
+Traceback (most recent call last):
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 351, in _handle_start_activity_task
+    result = await self._execute_activity(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        start, running_activity, task_token, data_converter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 681, in _execute_activity
+    return await impl.execute_activity(input)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 884, in execute_activity
+    return await loop.run_in_executor(input.executor, func, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\miniconda\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 951, in _execute_sync_activity
+    return fn(*args)
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\scripts\r16_temporal.py", line 43, in ticket_step
+    raise ApplicationError(response.get('error') or 'transport',
+                           type='TransportError', non_retryable=False)
+temporalio.exceptions.ApplicationError: TransportError: RemoteDisconnected
+Completing activity as failed ({'activity_id': '3', 'activity_type': 'ticket_step', 'attempt': 1, 'namespace': 'default', 'task_queue': 'r16-temporal', 'workflow_id': 'temporal-idem_on-lost_return-S1', 'workflow_run_id': '01a15e4e-c290-7437-b3ca-b957f20d2cfa', 'workflow_type': 'TicketFlow'})
+Traceback (most recent call last):
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 351, in _handle_start_activity_task
+    result = await self._execute_activity(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        start, running_activity, task_token, data_converter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 681, in _execute_activity
+    return await impl.execute_activity(input)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 884, in execute_activity
+    return await loop.run_in_executor(input.executor, func, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\miniconda\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 951, in _execute_sync_activity
+    return fn(*args)
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\scripts\r16_temporal.py", line 43, in ticket_step
+    raise ApplicationError(response.get('error') or 'transport',
+                           type='TransportError', non_retryable=False)
+temporalio.exceptions.ApplicationError: TransportError: RemoteDisconnected
+Completing activity as failed ({'activity_id': '3', 'activity_type': 'ticket_step', 'attempt': 1, 'namespace': 'default', 'task_queue': 'r16-temporal', 'workflow_id': 'temporal-idem_on-lost_return-S2', 'workflow_run_id': '01a15e4e-dccd-75c5-8262-790d7ce02726', 'workflow_type': 'TicketFlow'})
+Traceback (most recent call last):
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 351, in _handle_start_activity_task
+    result = await self._execute_activity(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        start, running_activity, task_token, data_converter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 681, in _execute_activity
+    return await impl.execute_activity(input)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 884, in execute_activity
+    return await loop.run_in_executor(input.executor, func, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\miniconda\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 951, in _execute_sync_activity
+    return fn(*args)
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\scripts\r16_temporal.py", line 43, in ticket_step
+    raise ApplicationError(response.get('error') or 'transport',
+                           type='TransportError', non_retryable=False)
+temporalio.exceptions.ApplicationError: TransportError: RemoteDisconnected
+Completing activity as failed ({'activity_id': '3', 'activity_type': 'ticket_step', 'attempt': 1, 'namespace': 'default', 'task_queue': 'r16-temporal', 'workflow_id': 'temporal-idem_on-lost_return-S3', 'workflow_run_id': '01a15e4e-f6eb-7e3b-99f2-ce504fd90dfa', 'workflow_type': 'TicketFlow'})
+Traceback (most recent call last):
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 351, in _handle_start_activity_task
+    result = await self._execute_activity(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        start, running_activity, task_token, data_converter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 681, in _execute_activity
+    return await impl.execute_activity(input)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 884, in execute_activity
+    return await loop.run_in_executor(input.executor, func, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\miniconda\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 951, in _execute_sync_activity
+    return fn(*args)
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\scripts\r16_temporal.py", line 43, in ticket_step
+    raise ApplicationError(response.get('error') or 'transport',
+                           type='TransportError', non_retryable=False)
+temporalio.exceptions.ApplicationError: TransportError: RemoteDisconnected
+Completing activity as failed ({'activity_id': '3', 'activity_type': 'ticket_step', 'attempt': 1, 'namespace': 'default', 'task_queue': 'r16-temporal', 'workflow_id': 'temporal-idem_on-lost_return-S4', 'workflow_run_id': '01a15e4f-113a-7c71-90fd-463d90d867bc', 'workflow_type': 'TicketFlow'})
+Traceback (most recent call last):
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 351, in _handle_start_activity_task
+    result = await self._execute_activity(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        start, running_activity, task_token, data_converter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 681, in _execute_activity
+    return await impl.execute_activity(input)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 884, in execute_activity
+    return await loop.run_in_executor(input.executor, func, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\miniconda\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 951, in _execute_sync_activity
+    return fn(*args)
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\scripts\r16_temporal.py", line 43, in ticket_step
+    raise ApplicationError(response.get('error') or 'transport',
+                           type='TransportError', non_retryable=False)
+temporalio.exceptions.ApplicationError: TransportError: RemoteDisconnected
+Completing activity as failed ({'activity_id': '3', 'activity_type': 'ticket_step', 'attempt': 1, 'namespace': 'default', 'task_queue': 'r16-temporal', 'workflow_id': 'temporal-idem_on-lost_return-S5', 'workflow_run_id': '01a15e4f-2ba0-70f1-b35d-75ef86f31bb0', 'workflow_type': 'TicketFlow'})
+Traceback (most recent call last):
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 351, in _handle_start_activity_task
+    result = await self._execute_activity(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        start, running_activity, task_token, data_converter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 681, in _execute_activity
+    return await impl.execute_activity(input)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 884, in execute_activity
+    return await loop.run_in_executor(input.executor, func, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\miniconda\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 951, in _execute_sync_activity
+    return fn(*args)
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\scripts\r16_temporal.py", line 43, in ticket_step
+    raise ApplicationError(response.get('error') or 'transport',
+                           type='TransportError', non_retryable=False)
+temporalio.exceptions.ApplicationError: TransportError: RemoteDisconnected
+Completing activity as failed ({'activity_id': '3', 'activity_type': 'ticket_step', 'attempt': 1, 'namespace': 'default', 'task_queue': 'r16-temporal', 'workflow_id': 'temporal-idem_on-lost_return-S6', 'workflow_run_id': '01a15e4f-466b-7b06-80f7-06c2cc3da37e', 'workflow_type': 'TicketFlow'})
+Traceback (most recent call last):
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 351, in _handle_start_activity_task
+    result = await self._execute_activity(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        start, running_activity, task_token, data_converter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 681, in _execute_activity
+    return await impl.execute_activity(input)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 884, in execute_activity
+    return await loop.run_in_executor(input.executor, func, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\miniconda\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 951, in _execute_sync_activity
+    return fn(*args)
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\scripts\r16_temporal.py", line 43, in ticket_step
+    raise ApplicationError(response.get('error') or 'transport',
+                           type='TransportError', non_retryable=False)
+temporalio.exceptions.ApplicationError: TransportError: RemoteDisconnected
+Completing activity as failed ({'activity_id': '3', 'activity_type': 'ticket_step', 'attempt': 1, 'namespace': 'default', 'task_queue': 'r16-temporal', 'workflow_id': 'temporal-idem_on-lost_return-S7', 'workflow_run_id': '01a15e4f-6100-79a9-89a5-546f4b6c3230', 'workflow_type': 'TicketFlow'})
+Traceback (most recent call last):
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 351, in _handle_start_activity_task
+    result = await self._execute_activity(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        start, running_activity, task_token, data_converter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 681, in _execute_activity
+    return await impl.execute_activity(input)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 884, in execute_activity
+    return await loop.run_in_executor(input.executor, func, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\miniconda\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 951, in _execute_sync_activity
+    return fn(*args)
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\scripts\r16_temporal.py", line 43, in ticket_step
+    raise ApplicationError(response.get('error') or 'transport',
+                           type='TransportError', non_retryable=False)
+temporalio.exceptions.ApplicationError: TransportError: RemoteDisconnected
+Completing activity as failed ({'activity_id': '3', 'activity_type': 'ticket_step', 'attempt': 1, 'namespace': 'default', 'task_queue': 'r16-temporal', 'workflow_id': 'temporal-idem_on-lost_return-S8', 'workflow_run_id': '01a15e4f-7c09-7a65-b870-b5f7966b86ac', 'workflow_type': 'TicketFlow'})
+Traceback (most recent call last):
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 351, in _handle_start_activity_task
+    result = await self._execute_activity(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        start, running_activity, task_token, data_converter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 681, in _execute_activity
+    return await impl.execute_activity(input)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 884, in execute_activity
+    return await loop.run_in_executor(input.executor, func, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\miniconda\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 951, in _execute_sync_activity
+    return fn(*args)
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\scripts\r16_temporal.py", line 43, in ticket_step
+    raise ApplicationError(response.get('error') or 'transport',
+                           type='TransportError', non_retryable=False)
+temporalio.exceptions.ApplicationError: TransportError: RemoteDisconnected
+Completing activity as failed ({'activity_id': '3', 'activity_type': 'ticket_step', 'attempt': 1, 'namespace': 'default', 'task_queue': 'r16-temporal', 'workflow_id': 'temporal-idem_on-lost_return-S9', 'workflow_run_id': '01a15e4f-9640-762e-9edf-c75b4dc4a98b', 'workflow_type': 'TicketFlow'})
+Traceback (most recent call last):
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 351, in _handle_start_activity_task
+    result = await self._execute_activity(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        start, running_activity, task_token, data_converter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 681, in _execute_activity
+    return await impl.execute_activity(input)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 884, in execute_activity
+    return await loop.run_in_executor(input.executor, func, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\miniconda\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 951, in _execute_sync_activity
+    return fn(*args)
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\scripts\r16_temporal.py", line 43, in ticket_step
+    raise ApplicationError(response.get('error') or 'transport',
+                           type='TransportError', non_retryable=False)
+temporalio.exceptions.ApplicationError: TransportError: RemoteDisconnected
+Completing activity as failed ({'activity_id': '3', 'activity_type': 'ticket_step', 'attempt': 1, 'namespace': 'default', 'task_queue': 'r16-temporal', 'workflow_id': 'temporal-idem_on-lost_return-S10', 'workflow_run_id': '01a15e4f-b088-7e1e-bbd0-9959bea3653d', 'workflow_type': 'TicketFlow'})
+Traceback (most recent call last):
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 351, in _handle_start_activity_task
+    result = await self._execute_activity(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        start, running_activity, task_token, data_converter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 681, in _execute_activity
+    return await impl.execute_activity(input)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 884, in execute_activity
+    return await loop.run_in_executor(input.executor, func, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\miniconda\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 951, in _execute_sync_activity
+    return fn(*args)
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\scripts\r16_temporal.py", line 43, in ticket_step
+    raise ApplicationError(response.get('error') or 'transport',
+                           type='TransportError', non_retryable=False)
+temporalio.exceptions.ApplicationError: TransportError: RemoteDisconnected
+Completing activity as failed ({'activity_id': '3', 'activity_type': 'ticket_step', 'attempt': 1, 'namespace': 'default', 'task_queue': 'r16-temporal', 'workflow_id': 'temporal-idem_on-lost_return-S11', 'workflow_run_id': '01a15e4f-cbb0-722f-bdb4-6546f130a70b', 'workflow_type': 'TicketFlow'})
+Traceback (most recent call last):
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 351, in _handle_start_activity_task
+    result = await self._execute_activity(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        start, running_activity, task_token, data_converter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 681, in _execute_activity
+    return await impl.execute_activity(input)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 884, in execute_activity
+    return await loop.run_in_executor(input.executor, func, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\miniconda\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 951, in _execute_sync_activity
+    return fn(*args)
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\scripts\r16_temporal.py", line 43, in ticket_step
+    raise ApplicationError(response.get('error') or 'transport',
+                           type='TransportError', non_retryable=False)
+temporalio.exceptions.ApplicationError: TransportError: RemoteDisconnected
+Completing activity as failed ({'activity_id': '3', 'activity_type': 'ticket_step', 'attempt': 1, 'namespace': 'default', 'task_queue': 'r16-temporal', 'workflow_id': 'temporal-idem_on-lost_return-S12', 'workflow_run_id': '01a15e4f-e5f1-7d44-a100-f68636a2eef4', 'workflow_type': 'TicketFlow'})
+Traceback (most recent call last):
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 351, in _handle_start_activity_task
+    result = await self._execute_activity(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        start, running_activity, task_token, data_converter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 681, in _execute_activity
+    return await impl.execute_activity(input)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 884, in execute_activity
+    return await loop.run_in_executor(input.executor, func, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\miniconda\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 951, in _execute_sync_activity
+    return fn(*args)
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\scripts\r16_temporal.py", line 43, in ticket_step
+    raise ApplicationError(response.get('error') or 'transport',
+                           type='TransportError', non_retryable=False)
+temporalio.exceptions.ApplicationError: TransportError: RemoteDisconnected
+Completing activity as failed ({'activity_id': '3', 'activity_type': 'ticket_step', 'attempt': 1, 'namespace': 'default', 'task_queue': 'r16-temporal', 'workflow_id': 'temporal-idem_on-lost_return-S13', 'workflow_run_id': '01a15e50-008e-7446-8f37-68764b8f8483', 'workflow_type': 'TicketFlow'})
+Traceback (most recent call last):
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 351, in _handle_start_activity_task
+    result = await self._execute_activity(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        start, running_activity, task_token, data_converter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 681, in _execute_activity
+    return await impl.execute_activity(input)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 884, in execute_activity
+    return await loop.run_in_executor(input.executor, func, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\miniconda\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 951, in _execute_sync_activity
+    return fn(*args)
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\scripts\r16_temporal.py", line 43, in ticket_step
+    raise ApplicationError(response.get('error') or 'transport',
+                           type='TransportError', non_retryable=False)
+temporalio.exceptions.ApplicationError: TransportError: RemoteDisconnected
+Completing activity as failed ({'activity_id': '3', 'activity_type': 'ticket_step', 'attempt': 1, 'namespace': 'default', 'task_queue': 'r16-temporal', 'workflow_id': 'temporal-idem_on-lost_return-S14', 'workflow_run_id': '01a15e50-1e7f-7ea7-a3b0-42fedbe4efbe', 'workflow_type': 'TicketFlow'})
+Traceback (most recent call last):
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 351, in _handle_start_activity_task
+    result = await self._execute_activity(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        start, running_activity, task_token, data_converter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 681, in _execute_activity
+    return await impl.execute_activity(input)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 884, in execute_activity
+    return await loop.run_in_executor(input.executor, func, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\miniconda\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 951, in _execute_sync_activity
+    return fn(*args)
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\scripts\r16_temporal.py", line 43, in ticket_step
+    raise ApplicationError(response.get('error') or 'transport',
+                           type='TransportError', non_retryable=False)
+temporalio.exceptions.ApplicationError: TransportError: RemoteDisconnected
+Completing activity as failed ({'activity_id': '3', 'activity_type': 'ticket_step', 'attempt': 1, 'namespace': 'default', 'task_queue': 'r16-temporal', 'workflow_id': 'temporal-idem_on-lost_return-S15', 'workflow_run_id': '01a15e50-385c-7546-9e97-3c25f6713ae8', 'workflow_type': 'TicketFlow'})
+Traceback (most recent call last):
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 351, in _handle_start_activity_task
+    result = await self._execute_activity(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        start, running_activity, task_token, data_converter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 681, in _execute_activity
+    return await impl.execute_activity(input)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 884, in execute_activity
+    return await loop.run_in_executor(input.executor, func, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\miniconda\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 951, in _execute_sync_activity
+    return fn(*args)
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\scripts\r16_temporal.py", line 43, in ticket_step
+    raise ApplicationError(response.get('error') or 'transport',
+                           type='TransportError', non_retryable=False)
+temporalio.exceptions.ApplicationError: TransportError: RemoteDisconnected
+Completing activity as failed ({'activity_id': '3', 'activity_type': 'ticket_step', 'attempt': 1, 'namespace': 'default', 'task_queue': 'r16-temporal', 'workflow_id': 'temporal-idem_on-lost_return-S16', 'workflow_run_id': '01a15e50-53c0-7be9-9dde-c48934265644', 'workflow_type': 'TicketFlow'})
+Traceback (most recent call last):
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 351, in _handle_start_activity_task
+    result = await self._execute_activity(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        start, running_activity, task_token, data_converter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 681, in _execute_activity
+    return await impl.execute_activity(input)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 884, in execute_activity
+    return await loop.run_in_executor(input.executor, func, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\miniconda\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 951, in _execute_sync_activity
+    return fn(*args)
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\scripts\r16_temporal.py", line 43, in ticket_step
+    raise ApplicationError(response.get('error') or 'transport',
+                           type='TransportError', non_retryable=False)
+temporalio.exceptions.ApplicationError: TransportError: RemoteDisconnected
+Completing activity as failed ({'activity_id': '3', 'activity_type': 'ticket_step', 'attempt': 1, 'namespace': 'default', 'task_queue': 'r16-temporal', 'workflow_id': 'temporal-idem_on-lost_return-S17', 'workflow_run_id': '01a15e50-6e14-7c24-b9fe-d59b8040835b', 'workflow_type': 'TicketFlow'})
+Traceback (most recent call last):
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 351, in _handle_start_activity_task
+    result = await self._execute_activity(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        start, running_activity, task_token, data_converter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 681, in _execute_activity
+    return await impl.execute_activity(input)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 884, in execute_activity
+    return await loop.run_in_executor(input.executor, func, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\miniconda\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 951, in _execute_sync_activity
+    return fn(*args)
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\scripts\r16_temporal.py", line 43, in ticket_step
+    raise ApplicationError(response.get('error') or 'transport',
+                           type='TransportError', non_retryable=False)
+temporalio.exceptions.ApplicationError: TransportError: RemoteDisconnected
+Completing activity as failed ({'activity_id': '3', 'activity_type': 'ticket_step', 'attempt': 1, 'namespace': 'default', 'task_queue': 'r16-temporal', 'workflow_id': 'temporal-idem_on-lost_return-S18', 'workflow_run_id': '01a15e50-88f1-7d67-98fd-0fb54c3694bd', 'workflow_type': 'TicketFlow'})
+Traceback (most recent call last):
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 351, in _handle_start_activity_task
+    result = await self._execute_activity(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        start, running_activity, task_token, data_converter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 681, in _execute_activity
+    return await impl.execute_activity(input)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 884, in execute_activity
+    return await loop.run_in_executor(input.executor, func, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\miniconda\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 951, in _execute_sync_activity
+    return fn(*args)
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\scripts\r16_temporal.py", line 43, in ticket_step
+    raise ApplicationError(response.get('error') or 'transport',
+                           type='TransportError', non_retryable=False)
+temporalio.exceptions.ApplicationError: TransportError: RemoteDisconnected
+Completing activity as failed ({'activity_id': '3', 'activity_type': 'ticket_step', 'attempt': 1, 'namespace': 'default', 'task_queue': 'r16-temporal', 'workflow_id': 'temporal-idem_on-lost_return-S19', 'workflow_run_id': '01a15e50-a396-7c75-9353-e30122ca9ea8', 'workflow_type': 'TicketFlow'})
+Traceback (most recent call last):
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 351, in _handle_start_activity_task
+    result = await self._execute_activity(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        start, running_activity, task_token, data_converter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 681, in _execute_activity
+    return await impl.execute_activity(input)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 884, in execute_activity
+    return await loop.run_in_executor(input.executor, func, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\miniconda\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 951, in _execute_sync_activity
+    return fn(*args)
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\scripts\r16_temporal.py", line 43, in ticket_step
+    raise ApplicationError(response.get('error') or 'transport',
+                           type='TransportError', non_retryable=False)
+temporalio.exceptions.ApplicationError: TransportError: RemoteDisconnected
+Completing activity as failed ({'activity_id': '4', 'activity_type': 'ticket_step', 'attempt': 1, 'namespace': 'default', 'task_queue': 'r16-temporal', 'workflow_id': 'temporal-idem_on-late_commit-S0', 'workflow_run_id': '01a15e50-be21-73b4-bd77-01756e213b63', 'workflow_type': 'TicketFlow'})
+Traceback (most recent call last):
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 351, in _handle_start_activity_task
+    result = await self._execute_activity(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        start, running_activity, task_token, data_converter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 681, in _execute_activity
+    return await impl.execute_activity(input)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 884, in execute_activity
+    return await loop.run_in_executor(input.executor, func, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\miniconda\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 951, in _execute_sync_activity
+    return fn(*args)
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\scripts\r16_temporal.py", line 43, in ticket_step
+    raise ApplicationError(response.get('error') or 'transport',
+                           type='TransportError', non_retryable=False)
+temporalio.exceptions.ApplicationError: TransportError: TimeoutError
+Completing activity as failed ({'activity_id': '4', 'activity_type': 'ticket_step', 'attempt': 1, 'namespace': 'default', 'task_queue': 'r16-temporal', 'workflow_id': 'temporal-idem_on-late_commit-S1', 'workflow_run_id': '01a15e50-d82f-7c26-8041-06f5c3d270ca', 'workflow_type': 'TicketFlow'})
+Traceback (most recent call last):
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 351, in _handle_start_activity_task
+    result = await self._execute_activity(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        start, running_activity, task_token, data_converter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 681, in _execute_activity
+    return await impl.execute_activity(input)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 884, in execute_activity
+    return await loop.run_in_executor(input.executor, func, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\miniconda\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 951, in _execute_sync_activity
+    return fn(*args)
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\scripts\r16_temporal.py", line 43, in ticket_step
+    raise ApplicationError(response.get('error') or 'transport',
+                           type='TransportError', non_retryable=False)
+temporalio.exceptions.ApplicationError: TransportError: TimeoutError
+Completing activity as failed ({'activity_id': '4', 'activity_type': 'ticket_step', 'attempt': 1, 'namespace': 'default', 'task_queue': 'r16-temporal', 'workflow_id': 'temporal-idem_on-late_commit-S2', 'workflow_run_id': '01a15e50-f24d-7224-8fe9-43562912b6fa', 'workflow_type': 'TicketFlow'})
+Traceback (most recent call last):
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 351, in _handle_start_activity_task
+    result = await self._execute_activity(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        start, running_activity, task_token, data_converter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 681, in _execute_activity
+    return await impl.execute_activity(input)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 884, in execute_activity
+    return await loop.run_in_executor(input.executor, func, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\miniconda\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 951, in _execute_sync_activity
+    return fn(*args)
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\scripts\r16_temporal.py", line 43, in ticket_step
+    raise ApplicationError(response.get('error') or 'transport',
+                           type='TransportError', non_retryable=False)
+temporalio.exceptions.ApplicationError: TransportError: TimeoutError
+Completing activity as failed ({'activity_id': '4', 'activity_type': 'ticket_step', 'attempt': 1, 'namespace': 'default', 'task_queue': 'r16-temporal', 'workflow_id': 'temporal-idem_on-late_commit-S3', 'workflow_run_id': '01a15e51-0e2f-7f20-9e9d-c2028e67c7ea', 'workflow_type': 'TicketFlow'})
+Traceback (most recent call last):
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 351, in _handle_start_activity_task
+    result = await self._execute_activity(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        start, running_activity, task_token, data_converter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 681, in _execute_activity
+    return await impl.execute_activity(input)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 884, in execute_activity
+    return await loop.run_in_executor(input.executor, func, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\miniconda\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 951, in _execute_sync_activity
+    return fn(*args)
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\scripts\r16_temporal.py", line 43, in ticket_step
+    raise ApplicationError(response.get('error') or 'transport',
+                           type='TransportError', non_retryable=False)
+temporalio.exceptions.ApplicationError: TransportError: TimeoutError
+Completing activity as failed ({'activity_id': '4', 'activity_type': 'ticket_step', 'attempt': 1, 'namespace': 'default', 'task_queue': 'r16-temporal', 'workflow_id': 'temporal-idem_on-late_commit-S4', 'workflow_run_id': '01a15e51-28fc-7c7e-94f5-4d2288483c04', 'workflow_type': 'TicketFlow'})
+Traceback (most recent call last):
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 351, in _handle_start_activity_task
+    result = await self._execute_activity(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        start, running_activity, task_token, data_converter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 681, in _execute_activity
+    return await impl.execute_activity(input)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 884, in execute_activity
+    return await loop.run_in_executor(input.executor, func, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\miniconda\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 951, in _execute_sync_activity
+    return fn(*args)
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\scripts\r16_temporal.py", line 43, in ticket_step
+    raise ApplicationError(response.get('error') or 'transport',
+                           type='TransportError', non_retryable=False)
+temporalio.exceptions.ApplicationError: TransportError: TimeoutError
+Completing activity as failed ({'activity_id': '4', 'activity_type': 'ticket_step', 'attempt': 1, 'namespace': 'default', 'task_queue': 'r16-temporal', 'workflow_id': 'temporal-idem_on-late_commit-S5', 'workflow_run_id': '01a15e51-4408-78db-a83c-55ab61a79583', 'workflow_type': 'TicketFlow'})
+Traceback (most recent call last):
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 351, in _handle_start_activity_task
+    result = await self._execute_activity(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        start, running_activity, task_token, data_converter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 681, in _execute_activity
+    return await impl.execute_activity(input)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 884, in execute_activity
+    return await loop.run_in_executor(input.executor, func, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\miniconda\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 951, in _execute_sync_activity
+    return fn(*args)
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\scripts\r16_temporal.py", line 43, in ticket_step
+    raise ApplicationError(response.get('error') or 'transport',
+                           type='TransportError', non_retryable=False)
+temporalio.exceptions.ApplicationError: TransportError: TimeoutError
+Completing activity as failed ({'activity_id': '4', 'activity_type': 'ticket_step', 'attempt': 1, 'namespace': 'default', 'task_queue': 'r16-temporal', 'workflow_id': 'temporal-idem_on-late_commit-S6', 'workflow_run_id': '01a15e51-5f37-7389-9428-638b707c222c', 'workflow_type': 'TicketFlow'})
+Traceback (most recent call last):
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 351, in _handle_start_activity_task
+    result = await self._execute_activity(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        start, running_activity, task_token, data_converter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 681, in _execute_activity
+    return await impl.execute_activity(input)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 884, in execute_activity
+    return await loop.run_in_executor(input.executor, func, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\miniconda\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 951, in _execute_sync_activity
+    return fn(*args)
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\scripts\r16_temporal.py", line 43, in ticket_step
+    raise ApplicationError(response.get('error') or 'transport',
+                           type='TransportError', non_retryable=False)
+temporalio.exceptions.ApplicationError: TransportError: TimeoutError
+Completing activity as failed ({'activity_id': '4', 'activity_type': 'ticket_step', 'attempt': 1, 'namespace': 'default', 'task_queue': 'r16-temporal', 'workflow_id': 'temporal-idem_on-late_commit-S7', 'workflow_run_id': '01a15e51-7959-7495-9197-40f4bcb21e5a', 'workflow_type': 'TicketFlow'})
+Traceback (most recent call last):
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 351, in _handle_start_activity_task
+    result = await self._execute_activity(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        start, running_activity, task_token, data_converter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 681, in _execute_activity
+    return await impl.execute_activity(input)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 884, in execute_activity
+    return await loop.run_in_executor(input.executor, func, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\miniconda\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 951, in _execute_sync_activity
+    return fn(*args)
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\scripts\r16_temporal.py", line 43, in ticket_step
+    raise ApplicationError(response.get('error') or 'transport',
+                           type='TransportError', non_retryable=False)
+temporalio.exceptions.ApplicationError: TransportError: TimeoutError
+Completing activity as failed ({'activity_id': '4', 'activity_type': 'ticket_step', 'attempt': 1, 'namespace': 'default', 'task_queue': 'r16-temporal', 'workflow_id': 'temporal-idem_on-late_commit-S8', 'workflow_run_id': '01a15e51-94c8-7aac-b17a-900481ae9014', 'workflow_type': 'TicketFlow'})
+Traceback (most recent call last):
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 351, in _handle_start_activity_task
+    result = await self._execute_activity(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        start, running_activity, task_token, data_converter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 681, in _execute_activity
+    return await impl.execute_activity(input)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 884, in execute_activity
+    return await loop.run_in_executor(input.executor, func, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\miniconda\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 951, in _execute_sync_activity
+    return fn(*args)
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\scripts\r16_temporal.py", line 43, in ticket_step
+    raise ApplicationError(response.get('error') or 'transport',
+                           type='TransportError', non_retryable=False)
+temporalio.exceptions.ApplicationError: TransportError: TimeoutError
+Completing activity as failed ({'activity_id': '4', 'activity_type': 'ticket_step', 'attempt': 1, 'namespace': 'default', 'task_queue': 'r16-temporal', 'workflow_id': 'temporal-idem_on-late_commit-S9', 'workflow_run_id': '01a15e51-af79-74b7-92ae-a8dea615eb27', 'workflow_type': 'TicketFlow'})
+Traceback (most recent call last):
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 351, in _handle_start_activity_task
+    result = await self._execute_activity(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        start, running_activity, task_token, data_converter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 681, in _execute_activity
+    return await impl.execute_activity(input)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 884, in execute_activity
+    return await loop.run_in_executor(input.executor, func, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\miniconda\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 951, in _execute_sync_activity
+    return fn(*args)
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\scripts\r16_temporal.py", line 43, in ticket_step
+    raise ApplicationError(response.get('error') or 'transport',
+                           type='TransportError', non_retryable=False)
+temporalio.exceptions.ApplicationError: TransportError: TimeoutError
+Completing activity as failed ({'activity_id': '4', 'activity_type': 'ticket_step', 'attempt': 1, 'namespace': 'default', 'task_queue': 'r16-temporal', 'workflow_id': 'temporal-idem_on-late_commit-S10', 'workflow_run_id': '01a15e51-cbc7-787e-890f-14882a7fa60e', 'workflow_type': 'TicketFlow'})
+Traceback (most recent call last):
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 351, in _handle_start_activity_task
+    result = await self._execute_activity(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        start, running_activity, task_token, data_converter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 681, in _execute_activity
+    return await impl.execute_activity(input)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 884, in execute_activity
+    return await loop.run_in_executor(input.executor, func, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\miniconda\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 951, in _execute_sync_activity
+    return fn(*args)
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\scripts\r16_temporal.py", line 43, in ticket_step
+    raise ApplicationError(response.get('error') or 'transport',
+                           type='TransportError', non_retryable=False)
+temporalio.exceptions.ApplicationError: TransportError: TimeoutError
+Completing activity as failed ({'activity_id': '4', 'activity_type': 'ticket_step', 'attempt': 1, 'namespace': 'default', 'task_queue': 'r16-temporal', 'workflow_id': 'temporal-idem_on-late_commit-S11', 'workflow_run_id': '01a15e51-e644-74d7-b6b2-b6243358f342', 'workflow_type': 'TicketFlow'})
+Traceback (most recent call last):
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 351, in _handle_start_activity_task
+    result = await self._execute_activity(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        start, running_activity, task_token, data_converter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 681, in _execute_activity
+    return await impl.execute_activity(input)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 884, in execute_activity
+    return await loop.run_in_executor(input.executor, func, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\miniconda\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 951, in _execute_sync_activity
+    return fn(*args)
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\scripts\r16_temporal.py", line 43, in ticket_step
+    raise ApplicationError(response.get('error') or 'transport',
+                           type='TransportError', non_retryable=False)
+temporalio.exceptions.ApplicationError: TransportError: TimeoutError
+Completing activity as failed ({'activity_id': '4', 'activity_type': 'ticket_step', 'attempt': 1, 'namespace': 'default', 'task_queue': 'r16-temporal', 'workflow_id': 'temporal-idem_on-late_commit-S12', 'workflow_run_id': '01a15e52-007c-730f-8654-d033c2c743f6', 'workflow_type': 'TicketFlow'})
+Traceback (most recent call last):
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 351, in _handle_start_activity_task
+    result = await self._execute_activity(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        start, running_activity, task_token, data_converter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 681, in _execute_activity
+    return await impl.execute_activity(input)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 884, in execute_activity
+    return await loop.run_in_executor(input.executor, func, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\miniconda\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 951, in _execute_sync_activity
+    return fn(*args)
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\scripts\r16_temporal.py", line 43, in ticket_step
+    raise ApplicationError(response.get('error') or 'transport',
+                           type='TransportError', non_retryable=False)
+temporalio.exceptions.ApplicationError: TransportError: TimeoutError
+Completing activity as failed ({'activity_id': '4', 'activity_type': 'ticket_step', 'attempt': 1, 'namespace': 'default', 'task_queue': 'r16-temporal', 'workflow_id': 'temporal-idem_on-late_commit-S13', 'workflow_run_id': '01a15e52-1a6a-76bd-a3c9-a0bf1b42d64f', 'workflow_type': 'TicketFlow'})
+Traceback (most recent call last):
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 351, in _handle_start_activity_task
+    result = await self._execute_activity(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        start, running_activity, task_token, data_converter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 681, in _execute_activity
+    return await impl.execute_activity(input)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 884, in execute_activity
+    return await loop.run_in_executor(input.executor, func, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\miniconda\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 951, in _execute_sync_activity
+    return fn(*args)
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\scripts\r16_temporal.py", line 43, in ticket_step
+    raise ApplicationError(response.get('error') or 'transport',
+                           type='TransportError', non_retryable=False)
+temporalio.exceptions.ApplicationError: TransportError: TimeoutError
+Completing activity as failed ({'activity_id': '4', 'activity_type': 'ticket_step', 'attempt': 1, 'namespace': 'default', 'task_queue': 'r16-temporal', 'workflow_id': 'temporal-idem_on-late_commit-S14', 'workflow_run_id': '01a15e52-350a-7c39-87f6-c1150d3b43bf', 'workflow_type': 'TicketFlow'})
+Traceback (most recent call last):
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 351, in _handle_start_activity_task
+    result = await self._execute_activity(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        start, running_activity, task_token, data_converter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 681, in _execute_activity
+    return await impl.execute_activity(input)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 884, in execute_activity
+    return await loop.run_in_executor(input.executor, func, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\miniconda\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 951, in _execute_sync_activity
+    return fn(*args)
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\scripts\r16_temporal.py", line 43, in ticket_step
+    raise ApplicationError(response.get('error') or 'transport',
+                           type='TransportError', non_retryable=False)
+temporalio.exceptions.ApplicationError: TransportError: TimeoutError
+Completing activity as failed ({'activity_id': '4', 'activity_type': 'ticket_step', 'attempt': 1, 'namespace': 'default', 'task_queue': 'r16-temporal', 'workflow_id': 'temporal-idem_on-late_commit-S15', 'workflow_run_id': '01a15e52-507b-7849-b657-8798f47beced', 'workflow_type': 'TicketFlow'})
+Traceback (most recent call last):
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 351, in _handle_start_activity_task
+    result = await self._execute_activity(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        start, running_activity, task_token, data_converter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 681, in _execute_activity
+    return await impl.execute_activity(input)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 884, in execute_activity
+    return await loop.run_in_executor(input.executor, func, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\miniconda\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 951, in _execute_sync_activity
+    return fn(*args)
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\scripts\r16_temporal.py", line 43, in ticket_step
+    raise ApplicationError(response.get('error') or 'transport',
+                           type='TransportError', non_retryable=False)
+temporalio.exceptions.ApplicationError: TransportError: TimeoutError
+Completing activity as failed ({'activity_id': '4', 'activity_type': 'ticket_step', 'attempt': 1, 'namespace': 'default', 'task_queue': 'r16-temporal', 'workflow_id': 'temporal-idem_on-late_commit-S16', 'workflow_run_id': '01a15e52-6b1e-7f02-8912-67b26d8bd1c4', 'workflow_type': 'TicketFlow'})
+Traceback (most recent call last):
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 351, in _handle_start_activity_task
+    result = await self._execute_activity(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        start, running_activity, task_token, data_converter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 681, in _execute_activity
+    return await impl.execute_activity(input)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 884, in execute_activity
+    return await loop.run_in_executor(input.executor, func, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\miniconda\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 951, in _execute_sync_activity
+    return fn(*args)
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\scripts\r16_temporal.py", line 43, in ticket_step
+    raise ApplicationError(response.get('error') or 'transport',
+                           type='TransportError', non_retryable=False)
+temporalio.exceptions.ApplicationError: TransportError: TimeoutError
+Completing activity as failed ({'activity_id': '4', 'activity_type': 'ticket_step', 'attempt': 1, 'namespace': 'default', 'task_queue': 'r16-temporal', 'workflow_id': 'temporal-idem_on-late_commit-S17', 'workflow_run_id': '01a15e52-879f-78c8-8d38-4d186c5137a7', 'workflow_type': 'TicketFlow'})
+Traceback (most recent call last):
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 351, in _handle_start_activity_task
+    result = await self._execute_activity(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        start, running_activity, task_token, data_converter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 681, in _execute_activity
+    return await impl.execute_activity(input)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 884, in execute_activity
+    return await loop.run_in_executor(input.executor, func, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\miniconda\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 951, in _execute_sync_activity
+    return fn(*args)
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\scripts\r16_temporal.py", line 43, in ticket_step
+    raise ApplicationError(response.get('error') or 'transport',
+                           type='TransportError', non_retryable=False)
+temporalio.exceptions.ApplicationError: TransportError: TimeoutError
+Completing activity as failed ({'activity_id': '4', 'activity_type': 'ticket_step', 'attempt': 1, 'namespace': 'default', 'task_queue': 'r16-temporal', 'workflow_id': 'temporal-idem_on-late_commit-S18', 'workflow_run_id': '01a15e52-a1f1-70a4-a863-6103af615e3a', 'workflow_type': 'TicketFlow'})
+Traceback (most recent call last):
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 351, in _handle_start_activity_task
+    result = await self._execute_activity(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        start, running_activity, task_token, data_converter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 681, in _execute_activity
+    return await impl.execute_activity(input)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 884, in execute_activity
+    return await loop.run_in_executor(input.executor, func, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\miniconda\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 951, in _execute_sync_activity
+    return fn(*args)
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\scripts\r16_temporal.py", line 43, in ticket_step
+    raise ApplicationError(response.get('error') or 'transport',
+                           type='TransportError', non_retryable=False)
+temporalio.exceptions.ApplicationError: TransportError: TimeoutError
+Completing activity as failed ({'activity_id': '4', 'activity_type': 'ticket_step', 'attempt': 1, 'namespace': 'default', 'task_queue': 'r16-temporal', 'workflow_id': 'temporal-idem_on-late_commit-S19', 'workflow_run_id': '01a15e52-bd3f-7bc9-8370-625428871b83', 'workflow_type': 'TicketFlow'})
+Traceback (most recent call last):
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 351, in _handle_start_activity_task
+    result = await self._execute_activity(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        start, running_activity, task_token, data_converter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 681, in _execute_activity
+    return await impl.execute_activity(input)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 884, in execute_activity
+    return await loop.run_in_executor(input.executor, func, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\miniconda\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\runs\R3_temporal\env\Lib\site-packages\temporalio\worker\_activity.py", line 951, in _execute_sync_activity
+    return fn(*args)
+  File "F:\desktop\paper\SPG_ActiveAssurance_20261020\scripts\r16_temporal.py", line 43, in ticket_step
+    raise ApplicationError(response.get('error') or 'transport',
+                           type='TransportError', non_retryable=False)
+temporalio.exceptions.ApplicationError: TransportError: TimeoutError

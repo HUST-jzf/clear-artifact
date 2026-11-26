@@ -1,0 +1,17 @@
+{
+  "python": "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R1_anyio\\env\\Scripts\\python.exe",
+  "python_version": "3.13.2",
+  "prefix": "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R1_anyio\\env",
+  "temporal_python": "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R3_temporal\\env\\Scripts\\python.exe",
+  "langgraph_python": "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R3_langgraph\\env\\Scripts\\python.exe",
+  "temporal_cli_sha256": "c49d7f0d9f6a7ae5aed3b97a259070c1cee7bf7e7543be9b4c602109caf3c806",
+  "modules": {
+    "temporal": {
+      "temporalio": "1.34.0"
+    },
+    "langgraph": {
+      "langgraph": "1.2.16",
+      "langgraph-checkpoint-sqlite": "3.1.2"
+    }
+  }
+}

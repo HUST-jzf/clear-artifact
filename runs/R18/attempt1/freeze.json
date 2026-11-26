@@ -1,0 +1,88 @@
+{
+  "configs": [
+    "on_faithful",
+    "on_stale",
+    "on_unavailable",
+    "off_faithful",
+    "off_stale",
+    "off_unavailable"
+  ],
+  "idempotency": [
+    "on",
+    "off"
+  ],
+  "query_modes": [
+    "faithful",
+    "stale",
+    "unavailable"
+  ],
+  "faults": [
+    "lost_return",
+    "late_commit"
+  ],
+  "fault_step": {
+    "lost_return": "attach",
+    "late_commit": "commit"
+  },
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "policies": [
+    "clear",
+    "idem_retry",
+    "query_retry",
+    "reauth_retry",
+    "pause"
+  ],
+  "steps": [
+    "create",
+    "reserve",
+    "attach",
+    "commit",
+    "notify"
+  ],
+  "cases": 200,
+  "files": {
+    "docs/R18_evidence_plane_degradation_protocol.md": "2691d16dbbcd2809e41d8293670da4c414feae5c05fd1e8e3aef1087668c201d",
+    "scripts/r18_service.py": "d0100363a15d5e97c48d634576600f6b956b2591dfb251cfe24a95c53a74a910",
+    "scripts/r18_client.py": "a979b03a5e7455ecb154b73c1da613b065a7424299012e18bac886a73a4c462a",
+    "scripts/run_r18.py": "dbdc38ead351f1f1ac0b625b96f9974f0e9d0d64cf1ce7b937aaedd5359ec6a7",
+    "scripts/verify_r18.py": "fea02d58a13d0492536d9b9a251e3a455dcef5509027840ed99c2243af0a0546"
+  },
+  "post_timeout_s": 0.25,
+  "get_timeout_s": 0.5,
+  "late_delay_s": 0.8,
+  "dispatch_jitter_s": 0.015,
+  "service_version": "ticket-svc-2026.10-v1",
+  "source": {
+    "adapter": "ticket-http",
+    "python": "3.13.2",
+    "framework": "stdlib-http",
+    "worker_sha256": "d0100363a15d5e97c48d634576600f6b956b2591dfb251cfe24a95c53a74a910",
+    "host_sha256": "a979b03a5e7455ecb154b73c1da613b065a7424299012e18bac886a73a4c462a",
+    "observer_sha256": "9f9f4e58e3ac25419f461e0ab1de05ad4de4ce13eff8fadacca415d807d33f4e"
+  },
+  "python": "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R1_anyio\\env\\Scripts\\python.exe",
+  "python_version": "3.13.2",
+  "target_calls_before_freeze": 0,
+  "created_ns": 1792585234549859000
+}
