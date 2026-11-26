@@ -1,0 +1,63 @@
+{
+  "invocations": {
+    "1": {
+      "attempt": 1,
+      "terminal": true,
+      "receipt": {
+        "state": "committed",
+        "record_id": 1,
+        "operation_id": "S9_lost_return_reauth_retry",
+        "intent": "38d7c6e9ee9f1c1d8b7b1dbd24382d424982ce51486f3c87cf7e76b662aa298e",
+        "generation": 1,
+        "effect_namespace": "effects",
+        "attempt": 1
+      },
+      "error": null,
+      "done": null,
+      "started_ns": 23732648366500
+    },
+    "2": {
+      "attempt": 2,
+      "terminal": true,
+      "receipt": {
+        "state": "committed",
+        "record_id": 2,
+        "operation_id": "S9_lost_return_reauth_retry",
+        "intent": "38d7c6e9ee9f1c1d8b7b1dbd24382d424982ce51486f3c87cf7e76b662aa298e",
+        "generation": 1,
+        "effect_namespace": "effects",
+        "attempt": 2
+      },
+      "error": null,
+      "done": null,
+      "started_ns": 23732693028500
+    }
+  },
+  "writes": [
+    {
+      "attempt": 1,
+      "record_id": 1,
+      "allowed": true,
+      "at_ns": 23732686130400
+    },
+    {
+      "attempt": 2,
+      "record_id": 2,
+      "allowed": true,
+      "at_ns": 23732694342700
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "allowed": true,
+      "at_ns": 23732648368400
+    },
+    {
+      "attempt": 2,
+      "allowed": true,
+      "at_ns": 23732693030300
+    }
+  ],
+  "reauth": []
+}
