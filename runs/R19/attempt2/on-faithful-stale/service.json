@@ -1,0 +1,9 @@
+{
+  "base_url": "http://127.0.0.1:58984",
+  "pid": 29924,
+  "returncode": 0,
+  "idempotency": "on",
+  "lifecycle": "faithful",
+  "query": "stale",
+  "campaign": "redundancy"
+}
