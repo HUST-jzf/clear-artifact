@@ -1,0 +1,40 @@
+{
+  "case": "I1Q1C1GrevokeFlost",
+  "seed": 6,
+  "terminal": "complete",
+  "reason": "activity_retry",
+  "attempts": 2,
+  "rows": 1,
+  "effects": [
+    {
+      "record_id": 1,
+      "attempt": 1,
+      "allowed": true,
+      "origin": "original"
+    }
+  ],
+  "duplicate": false,
+  "stale_new": 1,
+  "late_original": 0,
+  "allowed_final": false,
+  "errors": [],
+  "route": {
+    "revision": 1,
+    "mode": "inline",
+    "outcome": "commit",
+    "delayed": false,
+    "abandon_on_cancel": false,
+    "delegated": false,
+    "closed_registration": true,
+    "allowed": true,
+    "store": "effects",
+    "idempotency": true,
+    "query_complete": true
+  },
+  "operation_id": "S6_I1Q1C1GrevokeFlost",
+  "intent": "f4305fd64ba1a01c05d08870fd282fb792f4e2cfe3db4c1b1f3ddfc0e5e3baee",
+  "workflow_id": "r3t-I1Q1C1GrevokeFlost-6",
+  "gate_s": 1.48,
+  "timeout_s": 1.15,
+  "elapsed_ns": 2870531400
+}
