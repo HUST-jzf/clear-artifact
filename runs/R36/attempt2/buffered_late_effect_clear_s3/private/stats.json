@@ -1,0 +1,22 @@
+{
+  "buffered_late_effect_clear_S3": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1
+      }
+    },
+    "rejected": 0
+  }
+}
