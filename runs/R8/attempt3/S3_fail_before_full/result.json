@@ -1,0 +1,7 @@
+{
+  "terminal": "complete",
+  "reason": "closed_error",
+  "case": "fail_before",
+  "variant": "full",
+  "seed": 3
+}

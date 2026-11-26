@@ -1,0 +1,30 @@
+{
+  "writes": [
+    {
+      "attempt": 2,
+      "record_id": 1,
+      "allowed": true,
+      "believed_allowed": true,
+      "manifest_sha": "ec26367d2342f65da5a21500c21c6bf6116f20e092b8c7aecd59a1f9d70f1dcc",
+      "schema": "v1",
+      "at_ns": 27389963549600
+    },
+    {
+      "attempt": 1,
+      "record_id": 2,
+      "allowed": true,
+      "believed_allowed": true,
+      "manifest_sha": "ec26367d2342f65da5a21500c21c6bf6116f20e092b8c7aecd59a1f9d70f1dcc",
+      "schema": "v1",
+      "at_ns": 27389973128400
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "allowed": true,
+      "at_ns": 27389889558100
+    }
+  ],
+  "initial_outcome": "error"
+}

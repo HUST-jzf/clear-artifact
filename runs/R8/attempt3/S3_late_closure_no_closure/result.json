@@ -1,0 +1,7 @@
+{
+  "terminal": "complete",
+  "reason": "closure_missing",
+  "case": "late_closure",
+  "variant": "no_closure",
+  "seed": 3
+}

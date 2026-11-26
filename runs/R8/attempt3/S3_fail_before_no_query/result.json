@@ -1,0 +1,7 @@
+{
+  "terminal": "complete",
+  "reason": "no_query",
+  "case": "fail_before",
+  "variant": "no_query",
+  "seed": 3
+}
