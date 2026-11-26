@@ -1,0 +1,56 @@
+{
+  "files": {
+    "scripts/run_r5.py": "e8bbc717797122c36a17595852e339012d7666701a7dd9306c0401b55b82e41f",
+    "scripts/r5_admission.py": "9779773145885298be3927984a1349c3b88abb7ec318e3ba46963b49477634f0",
+    "docs/R5_concurrent_retry_revocation_protocol.md": "8e0d1cd51c4b3e6811f9d2f3374487cac19d004f394fe48a1c989f7f73a683f0"
+  },
+  "cells": [
+    {
+      "change": "none",
+      "idempotency": 0
+    },
+    {
+      "change": "none",
+      "idempotency": 1
+    },
+    {
+      "change": "revoke",
+      "idempotency": 0
+    },
+    {
+      "change": "revoke",
+      "idempotency": 1
+    }
+  ],
+  "policies": [
+    "clear",
+    "idem_retry",
+    "query_retry",
+    "reauth_retry",
+    "pause"
+  ],
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "controllers_per_task": 2,
+  "created_ns": 1792569182044331500
+}

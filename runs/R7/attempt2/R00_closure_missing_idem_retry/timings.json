@@ -1,0 +1,21 @@
+{
+  "case": "closure_missing",
+  "policy": "idem_retry",
+  "repetition": 0,
+  "terminal": "complete",
+  "reason": "idempotent_retry",
+  "control_ns": 4016800,
+  "timings": {
+    "active_ns": 3956400,
+    "drain_ns": 504900
+  },
+  "counts": {
+    "active": 1,
+    "retry": 1
+  },
+  "actions": 1,
+  "rows": 2,
+  "duplicate": true,
+  "stale_new": 0,
+  "safe": false
+}
