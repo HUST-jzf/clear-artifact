@@ -1,0 +1,73 @@
+{
+  "policy": "query_retry",
+  "terminal": "complete",
+  "reason": "query_then_retry",
+  "events": [
+    {
+      "action": "post",
+      "phase": "initial",
+      "outcome": "unknown"
+    },
+    {
+      "action": "query",
+      "state": "not_committed"
+    },
+    {
+      "action": "retry",
+      "phase": "retry",
+      "outcome": "returned"
+    },
+    {
+      "action": "query",
+      "state": "committed"
+    }
+  ],
+  "body": {
+    "state": "committed",
+    "record_id": 1,
+    "complete": true,
+    "rows": [
+      {
+        "record_id": 1,
+        "origin": "observed",
+        "attempt": 1
+      }
+    ],
+    "effect_namespace": "memory",
+    "operation_id": "memory_lost_before_effect_query_retry_s10",
+    "intent": "55f34e953c4b81b6505cc7ea4694ed85b6f643e19f5af1baa36996d83f07a844",
+    "generation": 1
+  },
+  "server": "memory",
+  "fault": "lost_before_effect",
+  "seed": 10,
+  "token": "effect:memory:lost_before_effect:query_retry:s10",
+  "context": {
+    "operation_id": "memory_lost_before_effect_query_retry_s10",
+    "intent": "55f34e953c4b81b6505cc7ea4694ed85b6f643e19f5af1baa36996d83f07a844",
+    "generation": 1
+  },
+  "calls": [
+    {
+      "tool": "add_observations",
+      "outcome": "timeout",
+      "elapsed_ns": 408278499
+    },
+    {
+      "tool": "observe",
+      "outcome": "return",
+      "elapsed_ns": 3026999
+    },
+    {
+      "tool": "add_observations",
+      "outcome": "return",
+      "elapsed_ns": 18362100
+    },
+    {
+      "tool": "observe",
+      "outcome": "return",
+      "elapsed_ns": 1024099
+    }
+  ],
+  "elapsed_ns": 857640200
+}
