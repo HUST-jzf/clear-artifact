@@ -1,0 +1,241 @@
+{
+  "pairs": [
+    [
+      "R15/attempt2",
+      "idem_off"
+    ],
+    [
+      "R18/attempt1",
+      "off_stale"
+    ],
+    [
+      "R19/attempt2",
+      "off-faithful-forged"
+    ],
+    [
+      "R21/attempt9",
+      "c32-off"
+    ],
+    [
+      "R31/attempt1",
+      "tenant"
+    ]
+  ],
+  "results": [
+    {
+      "run": "R15/attempt2",
+      "config": "idem_off",
+      "workflows": 400,
+      "truth_workflows": 400,
+      "policies": {
+        "clear": {
+          "workflows": 80,
+          "duplicate_workflows": 0,
+          "duplicate_rows": 0,
+          "stale_rows": 0,
+          "unbound_receipts": 0,
+          "inconsistent_workflows": 0,
+          "inconsistent_ops": 0
+        },
+        "retry": {
+          "workflows": 240,
+          "duplicate_workflows": 80,
+          "duplicate_rows": 80,
+          "stale_rows": 240,
+          "unbound_receipts": 0,
+          "inconsistent_workflows": 0,
+          "inconsistent_ops": 0
+        },
+        "pause": {
+          "workflows": 80,
+          "duplicate_workflows": 0,
+          "duplicate_rows": 0,
+          "stale_rows": 80,
+          "unbound_receipts": 0,
+          "inconsistent_workflows": 0,
+          "inconsistent_ops": 0
+        }
+      },
+      "mismatches": [],
+      "logs_without_task": [],
+      "total_duplicates": 80,
+      "total_stale": 320,
+      "total_unbound": 0,
+      "total_inconsistent": 0
+    },
+    {
+      "run": "R18/attempt1",
+      "config": "off_stale",
+      "workflows": 200,
+      "truth_workflows": 200,
+      "policies": {
+        "clear": {
+          "workflows": 40,
+          "duplicate_workflows": 0,
+          "duplicate_rows": 0,
+          "stale_rows": 0,
+          "unbound_receipts": 0,
+          "inconsistent_workflows": 0,
+          "inconsistent_ops": 0
+        },
+        "retry": {
+          "workflows": 120,
+          "duplicate_workflows": 120,
+          "duplicate_rows": 120,
+          "stale_rows": 0,
+          "unbound_receipts": 0,
+          "inconsistent_workflows": 0,
+          "inconsistent_ops": 0
+        },
+        "pause": {
+          "workflows": 40,
+          "duplicate_workflows": 0,
+          "duplicate_rows": 0,
+          "stale_rows": 0,
+          "unbound_receipts": 0,
+          "inconsistent_workflows": 0,
+          "inconsistent_ops": 0
+        }
+      },
+      "mismatches": [],
+      "logs_without_task": [],
+      "total_duplicates": 120,
+      "total_stale": 0,
+      "total_unbound": 0,
+      "total_inconsistent": 0
+    },
+    {
+      "run": "R19/attempt2",
+      "config": "off-faithful-forged",
+      "workflows": 100,
+      "truth_workflows": 100,
+      "policies": {
+        "clear": {
+          "workflows": 20,
+          "duplicate_workflows": 0,
+          "duplicate_rows": 0,
+          "stale_rows": 0,
+          "unbound_receipts": 0,
+          "inconsistent_workflows": 20,
+          "inconsistent_ops": 20
+        },
+        "retry": {
+          "workflows": 60,
+          "duplicate_workflows": 0,
+          "duplicate_rows": 0,
+          "stale_rows": 0,
+          "unbound_receipts": 0,
+          "inconsistent_workflows": 20,
+          "inconsistent_ops": 20
+        },
+        "pause": {
+          "workflows": 20,
+          "duplicate_workflows": 0,
+          "duplicate_rows": 0,
+          "stale_rows": 0,
+          "unbound_receipts": 0,
+          "inconsistent_workflows": 20,
+          "inconsistent_ops": 20
+        }
+      },
+      "mismatches": [],
+      "logs_without_task": [],
+      "total_duplicates": 0,
+      "total_stale": 0,
+      "total_unbound": 0,
+      "total_inconsistent": 60
+    },
+    {
+      "run": "R21/attempt9",
+      "config": "c32-off",
+      "workflows": 200,
+      "truth_workflows": 200,
+      "policies": {
+        "clear": {
+          "workflows": 40,
+          "duplicate_workflows": 0,
+          "duplicate_rows": 0,
+          "stale_rows": 0,
+          "unbound_receipts": 0,
+          "inconsistent_workflows": 0,
+          "inconsistent_ops": 0
+        },
+        "retry": {
+          "workflows": 120,
+          "duplicate_workflows": 80,
+          "duplicate_rows": 80,
+          "stale_rows": 0,
+          "unbound_receipts": 0,
+          "inconsistent_workflows": 0,
+          "inconsistent_ops": 0
+        },
+        "pause": {
+          "workflows": 40,
+          "duplicate_workflows": 0,
+          "duplicate_rows": 0,
+          "stale_rows": 0,
+          "unbound_receipts": 0,
+          "inconsistent_workflows": 0,
+          "inconsistent_ops": 0
+        }
+      },
+      "mismatches": [],
+      "logs_without_task": [],
+      "total_duplicates": 80,
+      "total_stale": 0,
+      "total_unbound": 0,
+      "total_inconsistent": 0
+    },
+    {
+      "run": "R31/attempt1",
+      "config": "tenant",
+      "workflows": 101,
+      "truth_workflows": 101,
+      "policies": {
+        "donor": {
+          "workflows": 1,
+          "duplicate_workflows": 0,
+          "duplicate_rows": 0,
+          "stale_rows": 0,
+          "unbound_receipts": 0,
+          "inconsistent_workflows": 0,
+          "inconsistent_ops": 0
+        },
+        "clear": {
+          "workflows": 20,
+          "duplicate_workflows": 0,
+          "duplicate_rows": 0,
+          "stale_rows": 0,
+          "unbound_receipts": 0,
+          "inconsistent_workflows": 20,
+          "inconsistent_ops": 20
+        },
+        "retry": {
+          "workflows": 60,
+          "duplicate_workflows": 0,
+          "duplicate_rows": 0,
+          "stale_rows": 0,
+          "unbound_receipts": 0,
+          "inconsistent_workflows": 20,
+          "inconsistent_ops": 20
+        },
+        "pause": {
+          "workflows": 20,
+          "duplicate_workflows": 0,
+          "duplicate_rows": 0,
+          "stale_rows": 0,
+          "unbound_receipts": 0,
+          "inconsistent_workflows": 20,
+          "inconsistent_ops": 20
+        }
+      },
+      "mismatches": [],
+      "logs_without_task": [],
+      "total_duplicates": 0,
+      "total_stale": 0,
+      "total_unbound": 0,
+      "total_inconsistent": 60
+    }
+  ],
+  "elapsed_s": 1.069
+}

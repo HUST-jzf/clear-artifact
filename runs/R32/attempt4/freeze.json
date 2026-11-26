@@ -1,0 +1,31 @@
+{
+  "pairs": [
+    [
+      "R15/attempt2",
+      "idem_off"
+    ],
+    [
+      "R18/attempt1",
+      "off_stale"
+    ],
+    [
+      "R19/attempt2",
+      "off-faithful-forged"
+    ],
+    [
+      "R21/attempt9",
+      "c32-off"
+    ],
+    [
+      "R31/attempt1",
+      "tenant"
+    ]
+  ],
+  "files": {
+    "docs/R32_post_hoc_audit_protocol.md": "32a2a532d32802e09a45a9227c886f53d67e56c4339bd509d48b73cc7d7631db",
+    "scripts/run_r32.py": "6e77410d134a0030ef0f2e78ca09ae25adf78ed518e7197299ce9e18dd4aa6c4",
+    "scripts/verify_r32.py": "12b8666d74274b656d48713c63cceada0653a80707edb7405a4a52c3636e8f31"
+  },
+  "created_ns": 1792596744761159900,
+  "python": "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R1_anyio\\env\\Scripts\\python.exe"
+}

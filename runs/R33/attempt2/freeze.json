@@ -1,0 +1,54 @@
+{
+  "rtts": [
+    1,
+    20,
+    80
+  ],
+  "policies": [
+    "clear",
+    "idem_retry",
+    "query_retry",
+    "reauth_retry",
+    "pause"
+  ],
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "faults": [],
+  "idempotency": "on",
+  "lifecycle": "faithful",
+  "query_mode": "faithful",
+  "steps": [
+    "create",
+    "reserve",
+    "attach",
+    "commit",
+    "notify"
+  ],
+  "files": {
+    "docs/R33_wan_cost_protocol.md": "c72a04b536d492fc82383d0d801cb394676738f4a0609ced182bb6d76e7b72c2",
+    "scripts/r21_service.py": "8307c086d6699d212ec5f85825820f5f3c93a0ead98e1eb128142989332dd14b",
+    "scripts/r19_client.py": "8693a1615fa4055f311e1189de8b8ece0a67b0099dbc1b31415435127e2a6325",
+    "scripts/r21_client.py": "1b41a3f4eb810fe0c62f4ba2d4577f5a42357d746606937c13ed4d07de06801d",
+    "scripts/r33_proxy.py": "fc93268e3dd32fd2137be954bd10ff513a2243b54b62a839312c29fa5bdd02fe",
+    "scripts/run_r33.py": "b7067983fcc8a71fcbddfd2507cf5491f398af616f82327865aa97d6ed285d8b",
+    "scripts/verify_r33.py": "e9b697f47a6fa8f6a37e16acc6f9d12696cd9fc28878bbd6ad3ab197bfd1e4f3"
+  },
+  "post_timeout_s": 1.5,
+  "read_timeout_s": 2.0,
+  "dispatch_jitter_s": 0.015,
+  "python": "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R1_anyio\\env\\Scripts\\python.exe",
+  "python_version": "3.13.2",
+  "service": "r21_service.py",
+  "target_calls_before_freeze": 0,
+  "created_ns": 1792597044631506600
+}

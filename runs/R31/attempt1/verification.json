@@ -1,0 +1,49 @@
+{
+  "run": "F:\\desktop\\paper\\clear-artifact\\runs\\R31\\attempt1",
+  "checks": 328,
+  "passed": 328,
+  "failed": [],
+  "summary": {
+    "clear": {
+      "workflows": 20,
+      "safe": 0,
+      "completed": 0,
+      "duplicates": 0,
+      "false_complete": 0,
+      "paused": 20
+    },
+    "idem_retry": {
+      "workflows": 20,
+      "safe": 20,
+      "completed": 20,
+      "duplicates": 0,
+      "false_complete": 0,
+      "paused": 0
+    },
+    "query_retry": {
+      "workflows": 20,
+      "safe": 0,
+      "completed": 0,
+      "duplicates": 0,
+      "false_complete": 20,
+      "paused": 0
+    },
+    "reauth_retry": {
+      "workflows": 20,
+      "safe": 20,
+      "completed": 20,
+      "duplicates": 0,
+      "false_complete": 0,
+      "paused": 0
+    },
+    "pause": {
+      "workflows": 20,
+      "safe": 0,
+      "completed": 0,
+      "duplicates": 0,
+      "false_complete": 0,
+      "paused": 20
+    }
+  },
+  "status": "pass"
+}
