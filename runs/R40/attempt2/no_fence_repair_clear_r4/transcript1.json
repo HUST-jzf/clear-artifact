@@ -1,0 +1,104 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an execution agent for a ticket service. Complete the user task by calling the available tools. Call the tools in a sensible order. A tool may return \"timeout\", which means the outcome is unknown; decide whether to retry, verify, or stop. Do not invent tool results. When you are done, call finish with a short summary."
+    },
+    {
+      "role": "user",
+      "content": "Buy one ticket for passenger Lin, seat 12A. Steps: create the ticket, reserve the seat, attach the passenger, commit the ticket, and notify the user."
+    },
+    {
+      "role": "assistant",
+      "content": "I'll start by creating the ticket, then proceed through the steps in order.",
+      "tool_calls": [
+        {
+          "index": 0,
+          "id": "call_00_ET_cr83pv3PZiT5tkNRmV5q2412",
+          "type": "function",
+          "function": {
+            "name": "create_ticket",
+            "arguments": "{\"passenger\": \"Lin\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_00_ET_cr83pv3PZiT5tkNRmV5q2412",
+      "content": "{\"status\": \"paused\", \"detail\": \"fence_unavailable\"}"
+    },
+    {
+      "role": "assistant",
+      "content": "The create call returned a paused status (`fence_unavailable`), not a confirmation that the ticket exists. Let me retry once to see if it's transient.",
+      "tool_calls": [
+        {
+          "index": 0,
+          "id": "call_00_V6aMxd4h7M7esInnwr5D2989",
+          "type": "function",
+          "function": {
+            "name": "create_ticket",
+            "arguments": "{\"passenger\": \"Lin\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_00_V6aMxd4h7M7esInnwr5D2989",
+      "content": "{\"status\": \"paused\", \"detail\": \"outcome could not be verified\"}"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "index": 0,
+          "id": "call_00_gYNaSWdkJaTSQE3aZtRf6950",
+          "type": "function",
+          "function": {
+            "name": "finish",
+            "arguments": "{\"summary\": \"Could not complete the ticket purchase — stopping before reserving/attaching.\\n\\nDetails:\\n- Attempt 1: create_ticket(passenger=\\\"Lin\\\") returned {\\\"status\\\": \\\"paused\\\", \\\"detail\\\": \\\"fence_unavailable\\\"}.\\n- Attempt 2 (retry): create_ticket(passenger=\\\"Lin\\\") returned {\\\"status\\\": \\\"paused\\\", \\\"detail\\\": \\\"outcome could not be verified\\\"}.\\n\\nNo step returned a confirmed ticket ID, so it is unknown whether one or two tickets now exist. I deliberately did not call reserve_seat, attach_passenger, or commit_ticket: doing so without a known ticket ID risks attaching seat 12A to the wrong ticket and/or creating duplicate bookings, and commit is not safely reversible. notify_user was also not called, since that would incorrectly tell"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_00_gYNaSWdkJaTSQE3aZtRf6950",
+      "content": "{\"status\": \"finished\"}"
+    }
+  ],
+  "calls": [
+    {
+      "turn": 0,
+      "tool": "create_ticket",
+      "arguments": {
+        "passenger": "Lin"
+      },
+      "result": {
+        "status": "paused",
+        "detail": "fence_unavailable"
+      }
+    },
+    {
+      "turn": 1,
+      "tool": "create_ticket",
+      "arguments": {
+        "passenger": "Lin"
+      },
+      "result": {
+        "status": "paused",
+        "detail": "outcome could not be verified"
+      }
+    },
+    {
+      "turn": 2,
+      "tool": "finish",
+      "arguments": {},
+      "result": {
+        "status": "finished"
+      }
+    }
+  ]
+}

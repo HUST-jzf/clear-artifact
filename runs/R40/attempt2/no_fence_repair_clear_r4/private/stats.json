@@ -1,0 +1,109 @@
+{
+  "no_fence_repair_clear_R4": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "intents": [
+          "ticket:attach:12A"
+        ]
+      },
+      "commit": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "intents": [
+          "ticket:commit"
+        ]
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "intents": [
+          "ticket:create"
+        ]
+      },
+      "notify": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "intents": [
+          "ticket:notify"
+        ]
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "intents": [
+          "ticket:reserve:12A"
+        ]
+      }
+    },
+    "ops": [
+      {
+        "step": "attach",
+        "op": "no_fence_repair_clear_R4:attach:12A",
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "intents": [
+          "ticket:attach:12A"
+        ]
+      },
+      {
+        "step": "commit",
+        "op": "no_fence_repair_clear_R4:commit",
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "intents": [
+          "ticket:commit"
+        ]
+      },
+      {
+        "step": "create",
+        "op": "no_fence_repair_clear_R4:create",
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "intents": [
+          "ticket:create"
+        ]
+      },
+      {
+        "step": "notify",
+        "op": "no_fence_repair_clear_R4:notify",
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "intents": [
+          "ticket:notify"
+        ]
+      },
+      {
+        "step": "reserve",
+        "op": "no_fence_repair_clear_R4:reserve:12A",
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "intents": [
+          "ticket:reserve:12A"
+        ]
+      }
+    ],
+    "rejected": 0
+  }
+}

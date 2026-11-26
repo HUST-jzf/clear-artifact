@@ -1,0 +1,106 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an execution agent for a ticket service. Complete the user task by calling the available tools. Call the tools in a sensible order. A tool may return \"timeout\", which means the outcome is unknown; decide whether to retry, verify, or stop. Do not invent tool results. When you are done, call finish with a short summary."
+    },
+    {
+      "role": "user",
+      "content": "Buy one ticket for passenger Lin, seat 12A. Steps: create the ticket, reserve the seat, attach the passenger, commit the ticket, and notify the user."
+    },
+    {
+      "role": "assistant",
+      "content": "I'll start by creating the ticket for passenger Lin.",
+      "tool_calls": [
+        {
+          "index": 0,
+          "id": "call_00_ET_rO4As7Wh9LlMlcBR1rJ01516",
+          "type": "function",
+          "function": {
+            "name": "create_ticket",
+            "arguments": "{\"passenger\": \"Lin\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_00_ET_rO4As7Wh9LlMlcBR1rJ01516",
+      "content": "{\"status\": \"paused\", \"detail\": \"fence_unavailable\"}"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "index": 0,
+          "id": "call_00_VPiBU5MyIcYGU0815zUA9550",
+          "type": "function",
+          "function": {
+            "name": "create_ticket",
+            "arguments": "{\"passenger\": \"Lin\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_00_VPiBU5MyIcYGU0815zUA9550",
+      "content": "{\"status\": \"paused\", \"detail\": \"outcome could not be verified\"}"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "index": 0,
+          "id": "call_00_JpSVj6MXatltwXE8kEPR7748",
+          "type": "function",
+          "function": {
+            "name": "finish",
+            "arguments": "{\"summary\": \"Could not complete the purchase for passenger Lin (seat 12A). The first step, create_ticket, did not succeed: it returned status \\\"paused\\\" with detail \\\"fence_unavailable\\\", and a retry returned \\\"paused\\\" with detail \\\"outcome could not be verified\\\". Because the outcome of the second attempt is unknown, I stopped rather than risk creating duplicate tickets. No reservation, passenger attachment, commit, or notification was performed, since all subsequent steps depend on a successfully created ticket. The ticket system should be checked for any partially created ticket for Lin before retrying.\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_00_JpSVj6MXatltwXE8kEPR7748",
+      "content": "{\"status\": \"finished\"}"
+    }
+  ],
+  "calls": [
+    {
+      "turn": 0,
+      "tool": "create_ticket",
+      "arguments": {
+        "passenger": "Lin"
+      },
+      "result": {
+        "status": "paused",
+        "detail": "fence_unavailable"
+      }
+    },
+    {
+      "turn": 1,
+      "tool": "create_ticket",
+      "arguments": {
+        "passenger": "Lin"
+      },
+      "result": {
+        "status": "paused",
+        "detail": "outcome could not be verified"
+      }
+    },
+    {
+      "turn": 2,
+      "tool": "finish",
+      "arguments": {
+        "summary": "Could not complete the purchase for passenger Lin (seat 12A). The first step, create_ticket, did not succeed: it returned status \"paused\" with detail \"fence_unavailable\", and a retry returned \"paused\" with detail \"outcome could not be verified\". Because the outcome of the second attempt is unknown, I stopped rather than risk creating duplicate tickets. No reservation, passenger attachment, commit, or notification was performed, since all subsequent steps depend on a successfully created ticket. The ticket system should be checked for any partially created ticket for Lin before retrying."
+      },
+      "result": {
+        "status": "finished"
+      }
+    }
+  ]
+}
