@@ -1,0 +1,7 @@
+{
+  "terminal": "complete",
+  "reason": "closed_error",
+  "case": "atomic_revoke",
+  "variant": "no_atomic",
+  "seed": 6
+}
