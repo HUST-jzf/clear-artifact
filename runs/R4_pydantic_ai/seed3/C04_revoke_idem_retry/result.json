@@ -1,0 +1,75 @@
+{
+  "policy": "idem_retry",
+  "context": {
+    "operation_id": "C04_revoke_idem_retry",
+    "intent": "048c8931efe28cd784d1aaa5e3eba5b3b095769fc47a434a07300c2fe4bfcd76",
+    "generation": 1
+  },
+  "origin": {
+    "context": {
+      "operation_id": "C04_revoke_idem_retry",
+      "intent": "048c8931efe28cd784d1aaa5e3eba5b3b095769fc47a434a07300c2fe4bfcd76",
+      "generation": 1
+    },
+    "manifest": {
+      "adapter": "pydantic_ai_tool",
+      "version": "2.59.0",
+      "python": "3.13.2",
+      "framework": {
+        "pydantic_ai": "cd3e083f47be5bee4516f676818dc361dff3f7f3ca3d8a7cb36563f6783acba9"
+      },
+      "worker_sha256": "2a11567745a8bd7b521192ab3da839d2594a12d1e489a25936e1aaff88481074",
+      "host_sha256": "2a11567745a8bd7b521192ab3da839d2594a12d1e489a25936e1aaff88481074",
+      "observer_sha256": "2a11567745a8bd7b521192ab3da839d2594a12d1e489a25936e1aaff88481074",
+      "route_sha256": "697678f7b026a5f8118bc3484158f7cd65567f759d9f5352fa2eaa8ea7cff5e6",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "fail",
+        "delayed": false,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": true,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": false,
+        "query_complete": true
+      }
+    },
+    "namespace": "effects"
+  },
+  "initial_observations": [
+    {
+      "action": "append",
+      "phase": "initial",
+      "attempt": 1,
+      "outcome": "error"
+    }
+  ],
+  "terminal": "complete",
+  "reason": "idempotent_retry",
+  "events": [
+    {
+      "seq": 0,
+      "context": {
+        "operation_id": "C04_revoke_idem_retry",
+        "intent": "048c8931efe28cd784d1aaa5e3eba5b3b095769fc47a434a07300c2fe4bfcd76",
+        "generation": 1
+      },
+      "manifest": "4ff0cfad652357aff95a24a5a4b5d482e0c37f71cbd8279dcfe00b78e51bc8df",
+      "action": "retry",
+      "body": {
+        "state": "committed",
+        "record_id": 1,
+        "operation_id": "C04_revoke_idem_retry",
+        "intent": "048c8931efe28cd784d1aaa5e3eba5b3b095769fc47a434a07300c2fe4bfcd76",
+        "generation": 1,
+        "effect_namespace": "effects",
+        "attempt": 2
+      }
+    }
+  ],
+  "steps": [],
+  "case": "C04_revoke",
+  "elapsed_ns": 15487200
+}

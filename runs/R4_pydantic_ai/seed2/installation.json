@@ -1,0 +1,14 @@
+{
+  "versions": {
+    "clear-assurance": "2.0.0",
+    "pydantic-ai-slim": "2.59.0"
+  },
+  "prefix": "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R4_pydantic_ai\\env",
+  "package": "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R4_pydantic_ai\\env\\Lib\\site-packages\\clear_assurance\\__init__.py",
+  "modules": {
+    "pydantic_ai": {
+      "path": "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R4_pydantic_ai\\env\\Lib\\site-packages\\pydantic_ai\\__init__.py",
+      "sha256": "cd3e083f47be5bee4516f676818dc361dff3f7f3ca3d8a7cb36563f6783acba9"
+    }
+  }
+}
