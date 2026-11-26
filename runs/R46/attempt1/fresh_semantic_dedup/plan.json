@@ -1,0 +1,24 @@
+{
+  "regime": "fresh",
+  "policy": "semantic_dedup",
+  "dedup": "keyed",
+  "cells": [
+    "A_lost_return_exact",
+    "A_lost_return_paraphrase",
+    "A_late_commit_exact",
+    "A_late_commit_paraphrase",
+    "B"
+  ],
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ]
+}
