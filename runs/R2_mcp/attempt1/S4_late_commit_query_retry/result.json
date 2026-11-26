@@ -1,0 +1,92 @@
+{
+  "policy": "query_retry",
+  "context": {
+    "operation_id": "S4_late_commit_query_retry",
+    "intent": "38d7c6e9ee9f1c1d8b7b1dbd24382d424982ce51486f3c87cf7e76b662aa298e",
+    "generation": 1
+  },
+  "origin": {
+    "context": {
+      "operation_id": "S4_late_commit_query_retry",
+      "intent": "38d7c6e9ee9f1c1d8b7b1dbd24382d424982ce51486f3c87cf7e76b662aa298e",
+      "generation": 1
+    },
+    "manifest": {
+      "adapter": "mcp_stdio_fastmcp",
+      "version": "1.26.0",
+      "python": "3.13.2",
+      "framework": {
+        "mcp.client.session": "037d437b93b086c0510fe885df696b680ac943fbd81c9624618ac8fd7b9d017f",
+        "mcp.shared.session": "3792799b86369a7632d6e8f2efecb118bbbc7cd69abb54bb14f6b079cb09d7f4",
+        "mcp.server.lowlevel.server": "910890555395de8303deaef64963b056443f0e0bdd1d22f61a51481d70c3bdaa"
+      },
+      "worker_sha256": "1a23764d01b00dbb29559783bc63f655bd454e3eed0bee7cf0737ac690613882",
+      "host_sha256": "3e93f2e1b51cb71beb296965e08d2883992c7b2a8720569476242e6dad9356d9",
+      "observer_sha256": "1a23764d01b00dbb29559783bc63f655bd454e3eed0bee7cf0737ac690613882",
+      "route_sha256": "b33dcdcb0271b4b15455c10df89e1d1db0e705900890661f372fd03d8fe85694"
+    },
+    "namespace": "effects"
+  },
+  "initial_observations": [
+    {
+      "action": "append",
+      "phase": "initial",
+      "attempt": 1,
+      "outcome": "timeout",
+      "timeout": 0.08514806366115923
+    }
+  ],
+  "terminal": "complete",
+  "reason": "query_then_retry",
+  "events": [
+    {
+      "seq": 0,
+      "context": {
+        "operation_id": "S4_late_commit_query_retry",
+        "intent": "38d7c6e9ee9f1c1d8b7b1dbd24382d424982ce51486f3c87cf7e76b662aa298e",
+        "generation": 1
+      },
+      "manifest": "8dd221591a6970fe13559813ca12f168ded12f294ad693cf9f68a85da98dff2b",
+      "action": "query",
+      "body": {
+        "state": "not_committed",
+        "complete": true,
+        "effect_namespace": "effects",
+        "operation_id": "S4_late_commit_query_retry",
+        "intent": "38d7c6e9ee9f1c1d8b7b1dbd24382d424982ce51486f3c87cf7e76b662aa298e",
+        "generation": 1,
+        "rows": []
+      }
+    },
+    {
+      "seq": 1,
+      "context": {
+        "operation_id": "S4_late_commit_query_retry",
+        "intent": "38d7c6e9ee9f1c1d8b7b1dbd24382d424982ce51486f3c87cf7e76b662aa298e",
+        "generation": 1
+      },
+      "manifest": "8dd221591a6970fe13559813ca12f168ded12f294ad693cf9f68a85da98dff2b",
+      "action": "retry",
+      "body": {
+        "state": "committed",
+        "record_id": 1,
+        "operation_id": "S4_late_commit_query_retry",
+        "intent": "38d7c6e9ee9f1c1d8b7b1dbd24382d424982ce51486f3c87cf7e76b662aa298e",
+        "generation": 1,
+        "effect_namespace": "effects",
+        "attempt": 2,
+        "deduplicated": false
+      }
+    }
+  ],
+  "steps": [],
+  "case": "late_commit_S4",
+  "mode": "late_commit",
+  "seed": 4,
+  "params": {
+    "initial_timeout": 0.08514806366115923,
+    "gate": 0.1322713046749373,
+    "wait_window": 0.22948182806330622
+  },
+  "elapsed_ns": 1243770500
+}
