@@ -1,0 +1,55 @@
+{
+  "policy": "pause",
+  "context": {
+    "operation_id": "C02_lost_return_pause",
+    "intent": "048c8931efe28cd784d1aaa5e3eba5b3b095769fc47a434a07300c2fe4bfcd76",
+    "generation": 1
+  },
+  "origin": {
+    "context": {
+      "operation_id": "C02_lost_return_pause",
+      "intent": "048c8931efe28cd784d1aaa5e3eba5b3b095769fc47a434a07300c2fe4bfcd76",
+      "generation": 1
+    },
+    "manifest": {
+      "adapter": "smolagents_tool",
+      "version": "1.26.0",
+      "python": "3.13.2",
+      "framework": {
+        "smolagents": "11b53a260cae0d0c3306d8ae6730309aa1928d9372e7dee8bc356c18994ebfda"
+      },
+      "worker_sha256": "2a11567745a8bd7b521192ab3da839d2594a12d1e489a25936e1aaff88481074",
+      "host_sha256": "2a11567745a8bd7b521192ab3da839d2594a12d1e489a25936e1aaff88481074",
+      "observer_sha256": "2a11567745a8bd7b521192ab3da839d2594a12d1e489a25936e1aaff88481074",
+      "route_sha256": "5b69705aff7cd514505540973fe3d38dbb2ff46373fd76cf69084541c41bddd9",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "commit",
+        "delayed": false,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": true,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": false,
+        "query_complete": true
+      }
+    },
+    "namespace": "effects"
+  },
+  "initial_observations": [
+    {
+      "action": "append",
+      "phase": "initial",
+      "attempt": 1,
+      "outcome": "return"
+    }
+  ],
+  "terminal": "pause",
+  "reason": "single_pause",
+  "events": [],
+  "steps": [],
+  "case": "C02_lost_return",
+  "elapsed_ns": 8632200
+}
