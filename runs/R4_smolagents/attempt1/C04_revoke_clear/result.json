@@ -1,0 +1,524 @@
+{
+  "policy": "clear",
+  "context": {
+    "operation_id": "C04_revoke_clear",
+    "intent": "048c8931efe28cd784d1aaa5e3eba5b3b095769fc47a434a07300c2fe4bfcd76",
+    "generation": 1
+  },
+  "origin": {
+    "context": {
+      "operation_id": "C04_revoke_clear",
+      "intent": "048c8931efe28cd784d1aaa5e3eba5b3b095769fc47a434a07300c2fe4bfcd76",
+      "generation": 1
+    },
+    "manifest": {
+      "adapter": "smolagents_tool",
+      "version": "1.26.0",
+      "python": "3.13.2",
+      "framework": {
+        "smolagents": "11b53a260cae0d0c3306d8ae6730309aa1928d9372e7dee8bc356c18994ebfda"
+      },
+      "worker_sha256": "2a11567745a8bd7b521192ab3da839d2594a12d1e489a25936e1aaff88481074",
+      "host_sha256": "2a11567745a8bd7b521192ab3da839d2594a12d1e489a25936e1aaff88481074",
+      "observer_sha256": "2a11567745a8bd7b521192ab3da839d2594a12d1e489a25936e1aaff88481074",
+      "route_sha256": "697678f7b026a5f8118bc3484158f7cd65567f759d9f5352fa2eaa8ea7cff5e6",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "fail",
+        "delayed": false,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": true,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": false,
+        "query_complete": true
+      }
+    },
+    "namespace": "effects"
+  },
+  "initial_observations": [
+    {
+      "action": "append",
+      "phase": "initial",
+      "attempt": 1,
+      "outcome": "error"
+    }
+  ],
+  "terminal": "pause",
+  "reason": "budget_exhausted",
+  "events": [
+    {
+      "seq": 0,
+      "context": {
+        "operation_id": "C04_revoke_clear",
+        "intent": "048c8931efe28cd784d1aaa5e3eba5b3b095769fc47a434a07300c2fe4bfcd76",
+        "generation": 1
+      },
+      "manifest": "a4b2c40d0e5d3ecf55f1e6a8e176b41597fb083678b7e8a95c54de34530c2e25",
+      "action": "wait",
+      "body": {
+        "root": "root",
+        "members": [
+          {
+            "handle": "root",
+            "parent": null,
+            "terminal": true,
+            "error_type": "injected_failure",
+            "receipt": null
+          }
+        ],
+        "attempt": 1,
+        "registration_complete": true,
+        "effect_namespace": "effects",
+        "launch_manifest": "a4b2c40d0e5d3ecf55f1e6a8e176b41597fb083678b7e8a95c54de34530c2e25",
+        "closed_registration": true
+      }
+    },
+    {
+      "seq": 1,
+      "context": {
+        "operation_id": "C04_revoke_clear",
+        "intent": "048c8931efe28cd784d1aaa5e3eba5b3b095769fc47a434a07300c2fe4bfcd76",
+        "generation": 1
+      },
+      "manifest": "a4b2c40d0e5d3ecf55f1e6a8e176b41597fb083678b7e8a95c54de34530c2e25",
+      "action": "query",
+      "body": {
+        "state": "not_committed",
+        "complete": true,
+        "effect_namespace": "effects",
+        "operation_id": "C04_revoke_clear",
+        "intent": "048c8931efe28cd784d1aaa5e3eba5b3b095769fc47a434a07300c2fe4bfcd76",
+        "generation": 1,
+        "rows": []
+      }
+    },
+    {
+      "seq": 2,
+      "context": {
+        "operation_id": "C04_revoke_clear",
+        "intent": "048c8931efe28cd784d1aaa5e3eba5b3b095769fc47a434a07300c2fe4bfcd76",
+        "generation": 1
+      },
+      "manifest": "a4b2c40d0e5d3ecf55f1e6a8e176b41597fb083678b7e8a95c54de34530c2e25",
+      "action": "wait",
+      "body": {
+        "root": "root",
+        "members": [
+          {
+            "handle": "root",
+            "parent": null,
+            "terminal": true,
+            "error_type": "injected_failure",
+            "receipt": null
+          }
+        ],
+        "attempt": 1,
+        "registration_complete": true,
+        "effect_namespace": "effects",
+        "launch_manifest": "a4b2c40d0e5d3ecf55f1e6a8e176b41597fb083678b7e8a95c54de34530c2e25",
+        "closed_registration": true
+      }
+    },
+    {
+      "seq": 3,
+      "context": {
+        "operation_id": "C04_revoke_clear",
+        "intent": "048c8931efe28cd784d1aaa5e3eba5b3b095769fc47a434a07300c2fe4bfcd76",
+        "generation": 1
+      },
+      "manifest": "a4b2c40d0e5d3ecf55f1e6a8e176b41597fb083678b7e8a95c54de34530c2e25",
+      "action": "query",
+      "body": {
+        "state": "not_committed",
+        "complete": true,
+        "effect_namespace": "effects",
+        "operation_id": "C04_revoke_clear",
+        "intent": "048c8931efe28cd784d1aaa5e3eba5b3b095769fc47a434a07300c2fe4bfcd76",
+        "generation": 1,
+        "rows": []
+      }
+    }
+  ],
+  "steps": [
+    {
+      "observation_count": 0,
+      "manifest": {
+        "adapter": "smolagents_tool",
+        "version": "1.26.0",
+        "python": "3.13.2",
+        "framework": {
+          "smolagents": "11b53a260cae0d0c3306d8ae6730309aa1928d9372e7dee8bc356c18994ebfda"
+        },
+        "worker_sha256": "2a11567745a8bd7b521192ab3da839d2594a12d1e489a25936e1aaff88481074",
+        "host_sha256": "2a11567745a8bd7b521192ab3da839d2594a12d1e489a25936e1aaff88481074",
+        "observer_sha256": "2a11567745a8bd7b521192ab3da839d2594a12d1e489a25936e1aaff88481074",
+        "route_sha256": "e0acc3be9b6b729434cc460d0328e5adc38e0decb821a4e1628c341bc1158efb",
+        "route": {
+          "revision": 2,
+          "mode": "inline",
+          "outcome": "fail",
+          "delayed": false,
+          "abandon_on_cancel": false,
+          "delegated": false,
+          "closed_registration": true,
+          "allowed": false,
+          "store": "effects",
+          "idempotency": false,
+          "query_complete": true
+        }
+      },
+      "qualification": {
+        "valid": true,
+        "manifest": {
+          "adapter": "smolagents_tool",
+          "version": "1.26.0",
+          "python": "3.13.2",
+          "framework": {
+            "smolagents": "11b53a260cae0d0c3306d8ae6730309aa1928d9372e7dee8bc356c18994ebfda"
+          },
+          "worker_sha256": "2a11567745a8bd7b521192ab3da839d2594a12d1e489a25936e1aaff88481074",
+          "host_sha256": "2a11567745a8bd7b521192ab3da839d2594a12d1e489a25936e1aaff88481074",
+          "observer_sha256": "2a11567745a8bd7b521192ab3da839d2594a12d1e489a25936e1aaff88481074",
+          "route_sha256": "697678f7b026a5f8118bc3484158f7cd65567f759d9f5352fa2eaa8ea7cff5e6",
+          "route": {
+            "revision": 1,
+            "mode": "inline",
+            "outcome": "fail",
+            "delayed": false,
+            "abandon_on_cancel": false,
+            "delegated": false,
+            "closed_registration": true,
+            "allowed": true,
+            "store": "effects",
+            "idempotency": false,
+            "query_complete": true
+          }
+        },
+        "checks": {
+          "adapter": true,
+          "version": true,
+          "python": true,
+          "framework": true,
+          "worker_sha256": true,
+          "host_sha256": true,
+          "observer_sha256": true,
+          "known_route": true,
+          "closed_registration": true,
+          "approval_allowed": true,
+          "same_effect_destination": true
+        },
+        "changed_dependencies": []
+      },
+      "decision": {
+        "action": "wait",
+        "reason": "observe_original_lifecycle",
+        "support": []
+      }
+    },
+    {
+      "observation_count": 1,
+      "manifest": {
+        "adapter": "smolagents_tool",
+        "version": "1.26.0",
+        "python": "3.13.2",
+        "framework": {
+          "smolagents": "11b53a260cae0d0c3306d8ae6730309aa1928d9372e7dee8bc356c18994ebfda"
+        },
+        "worker_sha256": "2a11567745a8bd7b521192ab3da839d2594a12d1e489a25936e1aaff88481074",
+        "host_sha256": "2a11567745a8bd7b521192ab3da839d2594a12d1e489a25936e1aaff88481074",
+        "observer_sha256": "2a11567745a8bd7b521192ab3da839d2594a12d1e489a25936e1aaff88481074",
+        "route_sha256": "e0acc3be9b6b729434cc460d0328e5adc38e0decb821a4e1628c341bc1158efb",
+        "route": {
+          "revision": 2,
+          "mode": "inline",
+          "outcome": "fail",
+          "delayed": false,
+          "abandon_on_cancel": false,
+          "delegated": false,
+          "closed_registration": true,
+          "allowed": false,
+          "store": "effects",
+          "idempotency": false,
+          "query_complete": true
+        }
+      },
+      "qualification": {
+        "valid": true,
+        "manifest": {
+          "adapter": "smolagents_tool",
+          "version": "1.26.0",
+          "python": "3.13.2",
+          "framework": {
+            "smolagents": "11b53a260cae0d0c3306d8ae6730309aa1928d9372e7dee8bc356c18994ebfda"
+          },
+          "worker_sha256": "2a11567745a8bd7b521192ab3da839d2594a12d1e489a25936e1aaff88481074",
+          "host_sha256": "2a11567745a8bd7b521192ab3da839d2594a12d1e489a25936e1aaff88481074",
+          "observer_sha256": "2a11567745a8bd7b521192ab3da839d2594a12d1e489a25936e1aaff88481074",
+          "route_sha256": "697678f7b026a5f8118bc3484158f7cd65567f759d9f5352fa2eaa8ea7cff5e6",
+          "route": {
+            "revision": 1,
+            "mode": "inline",
+            "outcome": "fail",
+            "delayed": false,
+            "abandon_on_cancel": false,
+            "delegated": false,
+            "closed_registration": true,
+            "allowed": true,
+            "store": "effects",
+            "idempotency": false,
+            "query_complete": true
+          }
+        },
+        "checks": {
+          "adapter": true,
+          "version": true,
+          "python": true,
+          "framework": true,
+          "worker_sha256": true,
+          "host_sha256": true,
+          "observer_sha256": true,
+          "known_route": true,
+          "closed_registration": true,
+          "approval_allowed": true,
+          "same_effect_destination": true
+        },
+        "changed_dependencies": []
+      },
+      "decision": {
+        "action": "query",
+        "reason": "check_original_effect_while_pending",
+        "support": []
+      }
+    },
+    {
+      "observation_count": 2,
+      "manifest": {
+        "adapter": "smolagents_tool",
+        "version": "1.26.0",
+        "python": "3.13.2",
+        "framework": {
+          "smolagents": "11b53a260cae0d0c3306d8ae6730309aa1928d9372e7dee8bc356c18994ebfda"
+        },
+        "worker_sha256": "2a11567745a8bd7b521192ab3da839d2594a12d1e489a25936e1aaff88481074",
+        "host_sha256": "2a11567745a8bd7b521192ab3da839d2594a12d1e489a25936e1aaff88481074",
+        "observer_sha256": "2a11567745a8bd7b521192ab3da839d2594a12d1e489a25936e1aaff88481074",
+        "route_sha256": "e0acc3be9b6b729434cc460d0328e5adc38e0decb821a4e1628c341bc1158efb",
+        "route": {
+          "revision": 2,
+          "mode": "inline",
+          "outcome": "fail",
+          "delayed": false,
+          "abandon_on_cancel": false,
+          "delegated": false,
+          "closed_registration": true,
+          "allowed": false,
+          "store": "effects",
+          "idempotency": false,
+          "query_complete": true
+        }
+      },
+      "qualification": {
+        "valid": true,
+        "manifest": {
+          "adapter": "smolagents_tool",
+          "version": "1.26.0",
+          "python": "3.13.2",
+          "framework": {
+            "smolagents": "11b53a260cae0d0c3306d8ae6730309aa1928d9372e7dee8bc356c18994ebfda"
+          },
+          "worker_sha256": "2a11567745a8bd7b521192ab3da839d2594a12d1e489a25936e1aaff88481074",
+          "host_sha256": "2a11567745a8bd7b521192ab3da839d2594a12d1e489a25936e1aaff88481074",
+          "observer_sha256": "2a11567745a8bd7b521192ab3da839d2594a12d1e489a25936e1aaff88481074",
+          "route_sha256": "697678f7b026a5f8118bc3484158f7cd65567f759d9f5352fa2eaa8ea7cff5e6",
+          "route": {
+            "revision": 1,
+            "mode": "inline",
+            "outcome": "fail",
+            "delayed": false,
+            "abandon_on_cancel": false,
+            "delegated": false,
+            "closed_registration": true,
+            "allowed": true,
+            "store": "effects",
+            "idempotency": false,
+            "query_complete": true
+          }
+        },
+        "checks": {
+          "adapter": true,
+          "version": true,
+          "python": true,
+          "framework": true,
+          "worker_sha256": true,
+          "host_sha256": true,
+          "observer_sha256": true,
+          "known_route": true,
+          "closed_registration": true,
+          "approval_allowed": true,
+          "same_effect_destination": true
+        },
+        "changed_dependencies": []
+      },
+      "decision": {
+        "action": "wait",
+        "reason": "observe_original_lifecycle",
+        "support": []
+      }
+    },
+    {
+      "observation_count": 3,
+      "manifest": {
+        "adapter": "smolagents_tool",
+        "version": "1.26.0",
+        "python": "3.13.2",
+        "framework": {
+          "smolagents": "11b53a260cae0d0c3306d8ae6730309aa1928d9372e7dee8bc356c18994ebfda"
+        },
+        "worker_sha256": "2a11567745a8bd7b521192ab3da839d2594a12d1e489a25936e1aaff88481074",
+        "host_sha256": "2a11567745a8bd7b521192ab3da839d2594a12d1e489a25936e1aaff88481074",
+        "observer_sha256": "2a11567745a8bd7b521192ab3da839d2594a12d1e489a25936e1aaff88481074",
+        "route_sha256": "e0acc3be9b6b729434cc460d0328e5adc38e0decb821a4e1628c341bc1158efb",
+        "route": {
+          "revision": 2,
+          "mode": "inline",
+          "outcome": "fail",
+          "delayed": false,
+          "abandon_on_cancel": false,
+          "delegated": false,
+          "closed_registration": true,
+          "allowed": false,
+          "store": "effects",
+          "idempotency": false,
+          "query_complete": true
+        }
+      },
+      "qualification": {
+        "valid": true,
+        "manifest": {
+          "adapter": "smolagents_tool",
+          "version": "1.26.0",
+          "python": "3.13.2",
+          "framework": {
+            "smolagents": "11b53a260cae0d0c3306d8ae6730309aa1928d9372e7dee8bc356c18994ebfda"
+          },
+          "worker_sha256": "2a11567745a8bd7b521192ab3da839d2594a12d1e489a25936e1aaff88481074",
+          "host_sha256": "2a11567745a8bd7b521192ab3da839d2594a12d1e489a25936e1aaff88481074",
+          "observer_sha256": "2a11567745a8bd7b521192ab3da839d2594a12d1e489a25936e1aaff88481074",
+          "route_sha256": "697678f7b026a5f8118bc3484158f7cd65567f759d9f5352fa2eaa8ea7cff5e6",
+          "route": {
+            "revision": 1,
+            "mode": "inline",
+            "outcome": "fail",
+            "delayed": false,
+            "abandon_on_cancel": false,
+            "delegated": false,
+            "closed_registration": true,
+            "allowed": true,
+            "store": "effects",
+            "idempotency": false,
+            "query_complete": true
+          }
+        },
+        "checks": {
+          "adapter": true,
+          "version": true,
+          "python": true,
+          "framework": true,
+          "worker_sha256": true,
+          "host_sha256": true,
+          "observer_sha256": true,
+          "known_route": true,
+          "closed_registration": true,
+          "approval_allowed": true,
+          "same_effect_destination": true
+        },
+        "changed_dependencies": []
+      },
+      "decision": {
+        "action": "query",
+        "reason": "check_original_effect_while_pending",
+        "support": []
+      }
+    },
+    {
+      "observation_count": 4,
+      "manifest": {
+        "adapter": "smolagents_tool",
+        "version": "1.26.0",
+        "python": "3.13.2",
+        "framework": {
+          "smolagents": "11b53a260cae0d0c3306d8ae6730309aa1928d9372e7dee8bc356c18994ebfda"
+        },
+        "worker_sha256": "2a11567745a8bd7b521192ab3da839d2594a12d1e489a25936e1aaff88481074",
+        "host_sha256": "2a11567745a8bd7b521192ab3da839d2594a12d1e489a25936e1aaff88481074",
+        "observer_sha256": "2a11567745a8bd7b521192ab3da839d2594a12d1e489a25936e1aaff88481074",
+        "route_sha256": "e0acc3be9b6b729434cc460d0328e5adc38e0decb821a4e1628c341bc1158efb",
+        "route": {
+          "revision": 2,
+          "mode": "inline",
+          "outcome": "fail",
+          "delayed": false,
+          "abandon_on_cancel": false,
+          "delegated": false,
+          "closed_registration": true,
+          "allowed": false,
+          "store": "effects",
+          "idempotency": false,
+          "query_complete": true
+        }
+      },
+      "qualification": {
+        "valid": true,
+        "manifest": {
+          "adapter": "smolagents_tool",
+          "version": "1.26.0",
+          "python": "3.13.2",
+          "framework": {
+            "smolagents": "11b53a260cae0d0c3306d8ae6730309aa1928d9372e7dee8bc356c18994ebfda"
+          },
+          "worker_sha256": "2a11567745a8bd7b521192ab3da839d2594a12d1e489a25936e1aaff88481074",
+          "host_sha256": "2a11567745a8bd7b521192ab3da839d2594a12d1e489a25936e1aaff88481074",
+          "observer_sha256": "2a11567745a8bd7b521192ab3da839d2594a12d1e489a25936e1aaff88481074",
+          "route_sha256": "697678f7b026a5f8118bc3484158f7cd65567f759d9f5352fa2eaa8ea7cff5e6",
+          "route": {
+            "revision": 1,
+            "mode": "inline",
+            "outcome": "fail",
+            "delayed": false,
+            "abandon_on_cancel": false,
+            "delegated": false,
+            "closed_registration": true,
+            "allowed": true,
+            "store": "effects",
+            "idempotency": false,
+            "query_complete": true
+          }
+        },
+        "checks": {
+          "adapter": true,
+          "version": true,
+          "python": true,
+          "framework": true,
+          "worker_sha256": true,
+          "host_sha256": true,
+          "observer_sha256": true,
+          "known_route": true,
+          "closed_registration": true,
+          "approval_allowed": true,
+          "same_effect_destination": true
+        },
+        "changed_dependencies": []
+      },
+      "decision": {
+        "action": "pause",
+        "reason": "budget_exhausted",
+        "support": []
+      }
+    }
+  ],
+  "case": "C04_revoke",
+  "elapsed_ns": 6551700
+}
