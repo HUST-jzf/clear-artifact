@@ -1,0 +1,53 @@
+{
+  "files": {
+    "docs/R38_fence_settlement_protocol.md": "68b675276e2899f300edac2e94294c89fcdc72ce120c4f316f3ce279c2f144bd",
+    "scripts/r38_service.py": "9d51f7da07a74a370743c0e41f2d8d404d5942f821ac2ca6994450c8c23e693d",
+    "scripts/r38_client.py": "55e44e1712d02c9f616e2b44f03cbb2fa50df7ce281cd9b1b09ede3c9302c437",
+    "scripts/run_r38.py": "405b7c5bb3bd16331e63ad5fee4665cf02382639d69587e39b3c5d6594fe5f87",
+    "scripts/verify_r38.py": "60125d3239dceeedbfc5fc9a6acddb3a1672501711dad66cf9e122cc475e4264",
+    "scripts/r38_fence_check.py": "07a833f92ec73922fef54597df9b62fad12425286ed8847b4847351212e63de6"
+  },
+  "faults": [
+    "late_effect",
+    "lost_before_commit"
+  ],
+  "policies": {
+    "faithful": [
+      "clear",
+      "blind_retry",
+      "pause"
+    ],
+    "absent": [
+      "clear",
+      "clear_fenced",
+      "blind_retry",
+      "pause"
+    ]
+  },
+  "seeds": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "target_calls_before_freeze": 0,
+  "python": "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R1_anyio\\env\\Scripts\\python.exe",
+  "python_version": "3.13.2",
+  "created_ns": 1792638644302360900
+}

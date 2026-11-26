@@ -1,0 +1,99 @@
+{
+  "depth": 5,
+  "actions": [
+    [
+      "late",
+      1
+    ],
+    [
+      "stage",
+      2
+    ],
+    [
+      "finalize",
+      2
+    ],
+    [
+      "abort",
+      2
+    ]
+  ],
+  "configs": {
+    "both": {
+      "enforce_fence": true,
+      "finalize_check": true,
+      "duplicate_reachable": false,
+      "trace": null,
+      "committed": null
+    },
+    "fence_only": {
+      "enforce_fence": true,
+      "finalize_check": false,
+      "duplicate_reachable": true,
+      "trace": [
+        [
+          "late",
+          1
+        ],
+        [
+          "stage",
+          2
+        ],
+        [
+          "finalize",
+          2
+        ]
+      ],
+      "committed": [
+        1,
+        2
+      ]
+    },
+    "finalize_only": {
+      "enforce_fence": false,
+      "finalize_check": true,
+      "duplicate_reachable": true,
+      "trace": [
+        [
+          "stage",
+          2
+        ],
+        [
+          "finalize",
+          2
+        ],
+        [
+          "late",
+          1
+        ]
+      ],
+      "committed": [
+        1,
+        2
+      ]
+    },
+    "neither": {
+      "enforce_fence": false,
+      "finalize_check": false,
+      "duplicate_reachable": true,
+      "trace": [
+        [
+          "late",
+          1
+        ],
+        [
+          "stage",
+          2
+        ],
+        [
+          "finalize",
+          2
+        ]
+      ],
+      "committed": [
+        1,
+        2
+      ]
+    }
+  }
+}

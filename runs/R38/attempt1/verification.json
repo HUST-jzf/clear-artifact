@@ -1,0 +1,106 @@
+{
+  "checks": 1405,
+  "passed": 1405,
+  "status": "pass",
+  "cells": {
+    "faithful/late_effect/clear": {
+      "rows": 1,
+      "completed": true,
+      "rejected": 0,
+      "terminal": "complete",
+      "safe": true
+    },
+    "faithful/late_effect/blind_retry": {
+      "rows": 2,
+      "completed": true,
+      "rejected": 0,
+      "terminal": "complete",
+      "safe": false
+    },
+    "faithful/late_effect/pause": {
+      "rows": 1,
+      "completed": false,
+      "rejected": 0,
+      "terminal": "pause",
+      "safe": false
+    },
+    "faithful/lost_before_commit/clear": {
+      "rows": 1,
+      "completed": true,
+      "rejected": 0,
+      "terminal": "complete",
+      "safe": true
+    },
+    "faithful/lost_before_commit/blind_retry": {
+      "rows": 1,
+      "completed": true,
+      "rejected": 0,
+      "terminal": "complete",
+      "safe": true
+    },
+    "faithful/lost_before_commit/pause": {
+      "rows": 0,
+      "completed": false,
+      "rejected": 0,
+      "terminal": "pause",
+      "safe": false
+    },
+    "absent/late_effect/clear": {
+      "rows": 1,
+      "completed": false,
+      "rejected": 0,
+      "terminal": "pause",
+      "safe": false
+    },
+    "absent/late_effect/clear_fenced": {
+      "rows": 1,
+      "completed": true,
+      "rejected": 1,
+      "terminal": "complete",
+      "safe": true
+    },
+    "absent/late_effect/blind_retry": {
+      "rows": 2,
+      "completed": true,
+      "rejected": 0,
+      "terminal": "complete",
+      "safe": false
+    },
+    "absent/late_effect/pause": {
+      "rows": 1,
+      "completed": false,
+      "rejected": 0,
+      "terminal": "pause",
+      "safe": false
+    },
+    "absent/lost_before_commit/clear": {
+      "rows": 0,
+      "completed": false,
+      "rejected": 0,
+      "terminal": "pause",
+      "safe": false
+    },
+    "absent/lost_before_commit/clear_fenced": {
+      "rows": 1,
+      "completed": true,
+      "rejected": 0,
+      "terminal": "complete",
+      "safe": true
+    },
+    "absent/lost_before_commit/blind_retry": {
+      "rows": 1,
+      "completed": true,
+      "rejected": 0,
+      "terminal": "complete",
+      "safe": true
+    },
+    "absent/lost_before_commit/pause": {
+      "rows": 0,
+      "completed": false,
+      "rejected": 0,
+      "terminal": "pause",
+      "safe": false
+    }
+  },
+  "failed": []
+}

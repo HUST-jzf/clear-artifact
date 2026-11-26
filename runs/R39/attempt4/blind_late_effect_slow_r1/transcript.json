@@ -1,0 +1,183 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an execution agent for a ticket service. Complete the user task by calling the available tools. Call the tools in a sensible order. A tool may return \"timeout\", which means the outcome is unknown; decide whether to retry, verify, or stop. Do not invent tool results. When you are done, call finish with a short summary."
+    },
+    {
+      "role": "user",
+      "content": "Buy one ticket for passenger Lin, seat 12A. Steps: create the ticket, reserve the seat, attach the passenger, commit the ticket, and notify the user."
+    },
+    {
+      "role": "assistant",
+      "content": "I'll process this step by step, since each step depends on the previous one completing.",
+      "tool_calls": [
+        {
+          "index": 0,
+          "id": "call_00_5P48yOKbteFok49WRB8H0329",
+          "type": "function",
+          "function": {
+            "name": "create_ticket",
+            "arguments": "{}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_00_5P48yOKbteFok49WRB8H0329",
+      "content": "{\"status\": \"ok\"}"
+    },
+    {
+      "role": "assistant",
+      "content": "Ticket created. Now reserving seat 12A.",
+      "tool_calls": [
+        {
+          "index": 0,
+          "id": "call_00_ET_MPkQxXgmg0EnZf6IWhIF2656",
+          "type": "function",
+          "function": {
+            "name": "reserve_seat",
+            "arguments": "{}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_00_ET_MPkQxXgmg0EnZf6IWhIF2656",
+      "content": "{\"status\": \"ok\"}"
+    },
+    {
+      "role": "assistant",
+      "content": "Seat reserved. Now attaching passenger Lin.",
+      "tool_calls": [
+        {
+          "index": 0,
+          "id": "call_00_ET_8XP0GLLpSZeMUNeiDqrG6781",
+          "type": "function",
+          "function": {
+            "name": "attach_passenger",
+            "arguments": "{}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_00_ET_8XP0GLLpSZeMUNeiDqrG6781",
+      "content": "{\"status\": \"timeout\", \"detail\": \"outcome unknown\"}"
+    },
+    {
+      "role": "assistant",
+      "content": "The attach step timed out with an unknown outcome. Since there's no way to query the ticket state, I'll retry once — attaching the same passenger to the same ticket should be safe to repeat.",
+      "tool_calls": [
+        {
+          "index": 0,
+          "id": "call_00_gaidqZ4zrKtpUNq4KZlo3411",
+          "type": "function",
+          "function": {
+            "name": "attach_passenger",
+            "arguments": "{}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_00_gaidqZ4zrKtpUNq4KZlo3411",
+      "content": "{\"status\": \"ok\"}"
+    },
+    {
+      "role": "assistant",
+      "content": "Attach succeeded on retry. Now committing the ticket.",
+      "tool_calls": [
+        {
+          "index": 0,
+          "id": "call_00_ET_E95zSUe6fK2HN3FwiVdH0571",
+          "type": "function",
+          "function": {
+            "name": "commit_ticket",
+            "arguments": "{}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_00_ET_E95zSUe6fK2HN3FwiVdH0571",
+      "content": "{\"status\": \"ok\"}"
+    },
+    {
+      "role": "assistant",
+      "content": "Ticket committed. Now notifying the user.",
+      "tool_calls": [
+        {
+          "index": 0,
+          "id": "call_00_ET_nEPcUAnI4ktuk8FNbDSB4937",
+          "type": "function",
+          "function": {
+            "name": "notify_user",
+            "arguments": "{}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_00_ET_nEPcUAnI4ktuk8FNbDSB4937",
+      "content": "{\"status\": \"ok\"}"
+    }
+  ],
+  "calls": [
+    {
+      "turn": 0,
+      "tool": "create_ticket",
+      "arguments": {},
+      "result": {
+        "status": "ok"
+      }
+    },
+    {
+      "turn": 1,
+      "tool": "reserve_seat",
+      "arguments": {},
+      "result": {
+        "status": "ok"
+      }
+    },
+    {
+      "turn": 2,
+      "tool": "attach_passenger",
+      "arguments": {},
+      "result": {
+        "status": "timeout",
+        "detail": "outcome unknown"
+      }
+    },
+    {
+      "turn": 3,
+      "tool": "attach_passenger",
+      "arguments": {},
+      "result": {
+        "status": "ok"
+      }
+    },
+    {
+      "turn": 4,
+      "tool": "commit_ticket",
+      "arguments": {},
+      "result": {
+        "status": "ok"
+      }
+    },
+    {
+      "turn": 5,
+      "tool": "notify_user",
+      "arguments": {},
+      "result": {
+        "status": "ok"
+      }
+    }
+  ]
+}
