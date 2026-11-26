@@ -1,0 +1,69 @@
+{
+  "terminal": "complete",
+  "reason": "original_or_retry_receipt",
+  "body": {
+    "root": "root",
+    "members": [
+      {
+        "handle": "root",
+        "parent": null,
+        "terminal": true,
+        "error_type": null,
+        "receipt": {
+          "state": "committed",
+          "record_id": 1,
+          "operation_id": "pydantic_ai_s5_C08_normal",
+          "intent": "048c8931efe28cd784d1aaa5e3eba5b3b095769fc47a434a07300c2fe4bfcd76",
+          "generation": 1,
+          "effect_namespace": "effects",
+          "attempt": 1
+        }
+      }
+    ],
+    "attempt": 1,
+    "registration_complete": true,
+    "effect_namespace": "effects",
+    "launch_manifest": "3f7c79e3ef97f83e0ad9bcd233b9ac387020107a75a96275bc8c3df4ea17e92e",
+    "closed_registration": true
+  },
+  "events": [
+    {
+      "seq": 0,
+      "context": {
+        "operation_id": "pydantic_ai_s5_C08_normal",
+        "intent": "048c8931efe28cd784d1aaa5e3eba5b3b095769fc47a434a07300c2fe4bfcd76",
+        "generation": 1
+      },
+      "manifest": "3f7c79e3ef97f83e0ad9bcd233b9ac387020107a75a96275bc8c3df4ea17e92e",
+      "action": "wait",
+      "body": {
+        "root": "root",
+        "members": [
+          {
+            "handle": "root",
+            "parent": null,
+            "terminal": true,
+            "error_type": null,
+            "receipt": {
+              "state": "committed",
+              "record_id": 1,
+              "operation_id": "pydantic_ai_s5_C08_normal",
+              "intent": "048c8931efe28cd784d1aaa5e3eba5b3b095769fc47a434a07300c2fe4bfcd76",
+              "generation": 1,
+              "effect_namespace": "effects",
+              "attempt": 1
+            }
+          }
+        ],
+        "attempt": 1,
+        "registration_complete": true,
+        "effect_namespace": "effects",
+        "launch_manifest": "3f7c79e3ef97f83e0ad9bcd233b9ac387020107a75a96275bc8c3df4ea17e92e",
+        "closed_registration": true
+      }
+    }
+  ],
+  "steps": [],
+  "case": "C08_normal",
+  "elapsed_ns": 9857300
+}

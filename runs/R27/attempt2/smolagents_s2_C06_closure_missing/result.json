@@ -1,0 +1,51 @@
+{
+  "terminal": "complete",
+  "reason": "original_or_retry_receipt",
+  "body": {
+    "state": "committed",
+    "complete": true,
+    "effect_namespace": "effects",
+    "operation_id": "smolagents_s2_C06_closure_missing",
+    "intent": "048c8931efe28cd784d1aaa5e3eba5b3b095769fc47a434a07300c2fe4bfcd76",
+    "generation": 1,
+    "rows": [
+      {
+        "record_id": 1,
+        "origin": "original",
+        "attempt": 1
+      }
+    ],
+    "record_id": 1
+  },
+  "events": [
+    {
+      "seq": 0,
+      "context": {
+        "operation_id": "smolagents_s2_C06_closure_missing",
+        "intent": "048c8931efe28cd784d1aaa5e3eba5b3b095769fc47a434a07300c2fe4bfcd76",
+        "generation": 1
+      },
+      "manifest": "a3d6d12ac95cb36f6de835d63c69ff38458f3f1db90410326bca634f413d53ef",
+      "action": "query",
+      "body": {
+        "state": "committed",
+        "complete": true,
+        "effect_namespace": "effects",
+        "operation_id": "smolagents_s2_C06_closure_missing",
+        "intent": "048c8931efe28cd784d1aaa5e3eba5b3b095769fc47a434a07300c2fe4bfcd76",
+        "generation": 1,
+        "rows": [
+          {
+            "record_id": 1,
+            "origin": "original",
+            "attempt": 1
+          }
+        ],
+        "record_id": 1
+      }
+    }
+  ],
+  "steps": [],
+  "case": "C06_closure_missing",
+  "elapsed_ns": 9820000
+}

@@ -1,0 +1,110 @@
+{
+  "terminal": "pause",
+  "reason": "budget_exhausted",
+  "body": {
+    "state": "not_committed",
+    "complete": true,
+    "effect_namespace": "effects",
+    "operation_id": "smolagents_s2_C04_revoke",
+    "intent": "048c8931efe28cd784d1aaa5e3eba5b3b095769fc47a434a07300c2fe4bfcd76",
+    "generation": 1,
+    "rows": []
+  },
+  "events": [
+    {
+      "seq": 0,
+      "context": {
+        "operation_id": "smolagents_s2_C04_revoke",
+        "intent": "048c8931efe28cd784d1aaa5e3eba5b3b095769fc47a434a07300c2fe4bfcd76",
+        "generation": 1
+      },
+      "manifest": "90aac2f47efaee6c3d0c76ed77bf968172918de53ce0408479032fcee7d8b6c9",
+      "action": "wait",
+      "body": {
+        "root": "root",
+        "members": [
+          {
+            "handle": "root",
+            "parent": null,
+            "terminal": true,
+            "error_type": "injected_failure",
+            "receipt": null
+          }
+        ],
+        "attempt": 1,
+        "registration_complete": true,
+        "effect_namespace": "effects",
+        "launch_manifest": "90aac2f47efaee6c3d0c76ed77bf968172918de53ce0408479032fcee7d8b6c9",
+        "closed_registration": true
+      }
+    },
+    {
+      "seq": 1,
+      "context": {
+        "operation_id": "smolagents_s2_C04_revoke",
+        "intent": "048c8931efe28cd784d1aaa5e3eba5b3b095769fc47a434a07300c2fe4bfcd76",
+        "generation": 1
+      },
+      "manifest": "90aac2f47efaee6c3d0c76ed77bf968172918de53ce0408479032fcee7d8b6c9",
+      "action": "query",
+      "body": {
+        "state": "not_committed",
+        "complete": true,
+        "effect_namespace": "effects",
+        "operation_id": "smolagents_s2_C04_revoke",
+        "intent": "048c8931efe28cd784d1aaa5e3eba5b3b095769fc47a434a07300c2fe4bfcd76",
+        "generation": 1,
+        "rows": []
+      }
+    },
+    {
+      "seq": 2,
+      "context": {
+        "operation_id": "smolagents_s2_C04_revoke",
+        "intent": "048c8931efe28cd784d1aaa5e3eba5b3b095769fc47a434a07300c2fe4bfcd76",
+        "generation": 1
+      },
+      "manifest": "90aac2f47efaee6c3d0c76ed77bf968172918de53ce0408479032fcee7d8b6c9",
+      "action": "wait",
+      "body": {
+        "root": "root",
+        "members": [
+          {
+            "handle": "root",
+            "parent": null,
+            "terminal": true,
+            "error_type": "injected_failure",
+            "receipt": null
+          }
+        ],
+        "attempt": 1,
+        "registration_complete": true,
+        "effect_namespace": "effects",
+        "launch_manifest": "90aac2f47efaee6c3d0c76ed77bf968172918de53ce0408479032fcee7d8b6c9",
+        "closed_registration": true
+      }
+    },
+    {
+      "seq": 3,
+      "context": {
+        "operation_id": "smolagents_s2_C04_revoke",
+        "intent": "048c8931efe28cd784d1aaa5e3eba5b3b095769fc47a434a07300c2fe4bfcd76",
+        "generation": 1
+      },
+      "manifest": "90aac2f47efaee6c3d0c76ed77bf968172918de53ce0408479032fcee7d8b6c9",
+      "action": "query",
+      "body": {
+        "state": "not_committed",
+        "complete": true,
+        "effect_namespace": "effects",
+        "operation_id": "smolagents_s2_C04_revoke",
+        "intent": "048c8931efe28cd784d1aaa5e3eba5b3b095769fc47a434a07300c2fe4bfcd76",
+        "generation": 1,
+        "rows": []
+      }
+    }
+  ],
+  "steps": [],
+  "case": "C04_revoke",
+  "elapsed_ns": 7932300
+}
