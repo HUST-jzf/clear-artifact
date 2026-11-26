@@ -1,0 +1,63 @@
+{
+  "invocations": {
+    "1": {
+      "attempt": 1,
+      "terminal": true,
+      "receipt": {
+        "state": "committed",
+        "record_id": 1,
+        "operation_id": "I0Q0C1GrevokeFlost_idem_retry",
+        "intent": "38d7c6e9ee9f1c1d8b7b1dbd24382d424982ce51486f3c87cf7e76b662aa298e",
+        "generation": 1,
+        "effect_namespace": "effects",
+        "attempt": 1
+      },
+      "error": null,
+      "done": null,
+      "started_ns": 18378501917000
+    },
+    "2": {
+      "attempt": 2,
+      "terminal": true,
+      "receipt": {
+        "state": "committed",
+        "record_id": 2,
+        "operation_id": "I0Q0C1GrevokeFlost_idem_retry",
+        "intent": "38d7c6e9ee9f1c1d8b7b1dbd24382d424982ce51486f3c87cf7e76b662aa298e",
+        "generation": 1,
+        "effect_namespace": "effects",
+        "attempt": 2
+      },
+      "error": null,
+      "done": null,
+      "started_ns": 18378506647900
+    }
+  },
+  "writes": [
+    {
+      "attempt": 1,
+      "record_id": 1,
+      "allowed": true,
+      "at_ns": 18378503128500
+    },
+    {
+      "attempt": 2,
+      "record_id": 2,
+      "allowed": false,
+      "at_ns": 18378507846700
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "allowed": true,
+      "at_ns": 18378501918300
+    },
+    {
+      "attempt": 2,
+      "allowed": false,
+      "at_ns": 18378506649400
+    }
+  ],
+  "reauth": []
+}
