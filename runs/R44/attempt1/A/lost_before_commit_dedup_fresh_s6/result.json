@@ -1,0 +1,36 @@
+{
+  "scenario": "A",
+  "fault": "lost_before_commit",
+  "policy": "dedup_fresh",
+  "seed": 6,
+  "workflow": "A_lost_before_commit_dedup_fresh_S6",
+  "terminal": "complete",
+  "rows": {
+    "create": 1,
+    "reserve": 1,
+    "attach": 1,
+    "commit": 1,
+    "notify": 1
+  },
+  "stale": {
+    "create": 0,
+    "reserve": 0,
+    "attach": 0,
+    "commit": 0,
+    "notify": 0
+  },
+  "deduplicated": {
+    "create": 0,
+    "reserve": 0,
+    "attach": 0,
+    "commit": 0,
+    "notify": 0
+  },
+  "duplicates": 0,
+  "completed": true,
+  "safe": true,
+  "rejected": 0,
+  "requests": 14,
+  "bytes": 28672,
+  "elapsed_ns": 377158900
+}
