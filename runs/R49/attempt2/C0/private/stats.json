@@ -1,0 +1,3122 @@
+{
+  "self_L0_lost_return_S0": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "self_L0_lost_return_S1": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "self_L0_lost_return_S2": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "self_L0_lost_return_S3": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "self_L0_lost_return_S4": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "self_L0_lost_return_S5": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "self_L0_lost_return_S6": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "self_L0_lost_return_S7": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "self_L0_lost_return_S8": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "self_L0_lost_return_S9": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "self_L0_late_commit_S0": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "self_L0_late_commit_S1": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "self_L0_late_commit_S2": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "self_L0_late_commit_S3": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "self_L0_late_commit_S4": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "self_L0_late_commit_S5": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "self_L0_late_commit_S6": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "self_L0_late_commit_S7": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "self_L0_late_commit_S8": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "self_L0_late_commit_S9": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "read_only_L0_lost_return_S0": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "read_only_L0_lost_return_S1": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "read_only_L0_lost_return_S2": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "read_only_L0_lost_return_S3": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "read_only_L0_lost_return_S4": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "read_only_L0_lost_return_S5": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "read_only_L0_lost_return_S6": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "read_only_L0_lost_return_S7": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "read_only_L0_lost_return_S8": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "read_only_L0_lost_return_S9": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "read_only_L0_late_commit_S0": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "read_only_L0_late_commit_S1": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "read_only_L0_late_commit_S2": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "read_only_L0_late_commit_S3": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "read_only_L0_late_commit_S4": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "read_only_L0_late_commit_S5": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "read_only_L0_late_commit_S6": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "read_only_L0_late_commit_S7": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "read_only_L0_late_commit_S8": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "read_only_L0_late_commit_S9": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "unmodifiable_L0_lost_return_S0": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "unmodifiable_L0_lost_return_S1": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "unmodifiable_L0_lost_return_S2": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "unmodifiable_L0_lost_return_S3": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "unmodifiable_L0_lost_return_S4": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "unmodifiable_L0_lost_return_S5": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "unmodifiable_L0_lost_return_S6": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "unmodifiable_L0_lost_return_S7": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "unmodifiable_L0_lost_return_S8": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "unmodifiable_L0_lost_return_S9": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "unmodifiable_L0_late_commit_S0": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "unmodifiable_L0_late_commit_S1": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "unmodifiable_L0_late_commit_S2": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "unmodifiable_L0_late_commit_S3": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "unmodifiable_L0_late_commit_S4": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "unmodifiable_L0_late_commit_S5": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "unmodifiable_L0_late_commit_S6": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "unmodifiable_L0_late_commit_S7": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "unmodifiable_L0_late_commit_S8": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "unmodifiable_L0_late_commit_S9": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "unmodifiable_L1_lost_return_S0": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "unmodifiable_L1_lost_return_S1": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "unmodifiable_L1_lost_return_S2": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "unmodifiable_L1_lost_return_S3": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "unmodifiable_L1_lost_return_S4": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "unmodifiable_L1_lost_return_S5": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "unmodifiable_L1_lost_return_S6": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "unmodifiable_L1_lost_return_S7": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "unmodifiable_L1_lost_return_S8": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "unmodifiable_L1_lost_return_S9": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "unmodifiable_L1_late_commit_S0": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "unmodifiable_L1_late_commit_S1": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "unmodifiable_L1_late_commit_S2": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "unmodifiable_L1_late_commit_S3": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "unmodifiable_L1_late_commit_S4": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "unmodifiable_L1_late_commit_S5": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "unmodifiable_L1_late_commit_S6": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "unmodifiable_L1_late_commit_S7": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "unmodifiable_L1_late_commit_S8": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "unmodifiable_L1_late_commit_S9": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "unmodifiable_L2_lost_return_S0": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "unmodifiable_L2_lost_return_S1": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "unmodifiable_L2_lost_return_S2": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "unmodifiable_L2_lost_return_S3": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "unmodifiable_L2_lost_return_S4": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "unmodifiable_L2_lost_return_S5": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "unmodifiable_L2_lost_return_S6": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "unmodifiable_L2_lost_return_S7": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "unmodifiable_L2_lost_return_S8": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "unmodifiable_L2_lost_return_S9": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "unmodifiable_L2_late_commit_S0": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "unmodifiable_L2_late_commit_S1": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "unmodifiable_L2_late_commit_S2": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "unmodifiable_L2_late_commit_S3": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "unmodifiable_L2_late_commit_S4": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "unmodifiable_L2_late_commit_S5": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "unmodifiable_L2_late_commit_S6": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "unmodifiable_L2_late_commit_S7": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "unmodifiable_L2_late_commit_S8": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "unmodifiable_L2_late_commit_S9": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "unmodifiable_L3_lost_return_S0": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "unmodifiable_L3_lost_return_S1": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "unmodifiable_L3_lost_return_S2": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "unmodifiable_L3_lost_return_S3": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "unmodifiable_L3_lost_return_S4": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "unmodifiable_L3_lost_return_S5": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "unmodifiable_L3_lost_return_S6": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "unmodifiable_L3_lost_return_S7": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "unmodifiable_L3_lost_return_S8": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "unmodifiable_L3_lost_return_S9": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "unmodifiable_L3_late_commit_S0": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "unmodifiable_L3_late_commit_S1": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "unmodifiable_L3_late_commit_S2": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "unmodifiable_L3_late_commit_S3": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "unmodifiable_L3_late_commit_S4": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "unmodifiable_L3_late_commit_S5": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "unmodifiable_L3_late_commit_S6": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "unmodifiable_L3_late_commit_S7": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "unmodifiable_L3_late_commit_S8": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  },
+  "unmodifiable_L3_late_commit_S9": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1,
+        "provisional": 0,
+        "duplicates": 0
+      }
+    },
+    "rejected": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "files": {
+    "scripts/r48_service.py": "e821623adcfb73d1c2cd8bb4227f556a44a6721c45cd11a8c90520435a127337",
+    "scripts/run_r48.py": "37074cdaa34efb52cb15485be49eee1a434280989c05bc876625b5a7add0014c",
+    "scripts/verify_r48.py": "dfe7f11d264927318ff028a9e477057eafa26a74b52cebdf0c0970ac5b2c5872",
+    "docs/R48_cross_layer_closure_protocol_20261029.md": "3c5935b52dc4692a38f807eedf3e953586b02f698b4ade284cf0ed770af659cd"
+  },
+  "faults": [
+    "lost_return",
+    "late_commit"
+  ],
+  "factors": [
+    "replay",
+    "cancel",
+    "stop",
+    "closure"
+  ],
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "post_timeout_s": 0.3,
+  "get_timeout_s": 0.6,
+  "late_delay_s": 0.9,
+  "python": "python",
+  "python_version": "3.13.2",
+  "created_ns": 1793284572141835800
+}

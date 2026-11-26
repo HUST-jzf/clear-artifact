@@ -1,0 +1,234 @@
+{
+  "checks": 13,
+  "passed": 13,
+  "status": "pass",
+  "mismatches": 0,
+  "attribution": [],
+  "cells": {
+    "on/on/on/on/lost_return": {
+      "effects": [
+        1
+      ],
+      "complete": 10,
+      "count": 10
+    },
+    "on/on/on/on/late_commit": {
+      "effects": [
+        1
+      ],
+      "complete": 10,
+      "count": 10
+    },
+    "on/on/on/off/lost_return": {
+      "effects": [
+        2
+      ],
+      "complete": 0,
+      "count": 10
+    },
+    "on/on/on/off/late_commit": {
+      "effects": [
+        1
+      ],
+      "complete": 10,
+      "count": 10
+    },
+    "on/on/off/on/lost_return": {
+      "effects": [
+        1
+      ],
+      "complete": 10,
+      "count": 10
+    },
+    "on/on/off/on/late_commit": {
+      "effects": [
+        1
+      ],
+      "complete": 10,
+      "count": 10
+    },
+    "on/on/off/off/lost_return": {
+      "effects": [
+        2
+      ],
+      "complete": 0,
+      "count": 10
+    },
+    "on/on/off/off/late_commit": {
+      "effects": [
+        2
+      ],
+      "complete": 0,
+      "count": 10
+    },
+    "on/off/on/on/lost_return": {
+      "effects": [
+        1
+      ],
+      "complete": 10,
+      "count": 10
+    },
+    "on/off/on/on/late_commit": {
+      "effects": [
+        1
+      ],
+      "complete": 10,
+      "count": 10
+    },
+    "on/off/on/off/lost_return": {
+      "effects": [
+        2
+      ],
+      "complete": 0,
+      "count": 10
+    },
+    "on/off/on/off/late_commit": {
+      "effects": [
+        2
+      ],
+      "complete": 0,
+      "count": 10
+    },
+    "on/off/off/on/lost_return": {
+      "effects": [
+        1
+      ],
+      "complete": 10,
+      "count": 10
+    },
+    "on/off/off/on/late_commit": {
+      "effects": [
+        1
+      ],
+      "complete": 10,
+      "count": 10
+    },
+    "on/off/off/off/lost_return": {
+      "effects": [
+        2
+      ],
+      "complete": 0,
+      "count": 10
+    },
+    "on/off/off/off/late_commit": {
+      "effects": [
+        2
+      ],
+      "complete": 0,
+      "count": 10
+    },
+    "off/on/on/on/lost_return": {
+      "effects": [
+        1
+      ],
+      "complete": 10,
+      "count": 10
+    },
+    "off/on/on/on/late_commit": {
+      "effects": [
+        0
+      ],
+      "complete": 0,
+      "count": 10
+    },
+    "off/on/on/off/lost_return": {
+      "effects": [
+        1
+      ],
+      "complete": 0,
+      "count": 10
+    },
+    "off/on/on/off/late_commit": {
+      "effects": [
+        0
+      ],
+      "complete": 0,
+      "count": 10
+    },
+    "off/on/off/on/lost_return": {
+      "effects": [
+        1
+      ],
+      "complete": 10,
+      "count": 10
+    },
+    "off/on/off/on/late_commit": {
+      "effects": [
+        1
+      ],
+      "complete": 10,
+      "count": 10
+    },
+    "off/on/off/off/lost_return": {
+      "effects": [
+        1
+      ],
+      "complete": 0,
+      "count": 10
+    },
+    "off/on/off/off/late_commit": {
+      "effects": [
+        1
+      ],
+      "complete": 0,
+      "count": 10
+    },
+    "off/off/on/on/lost_return": {
+      "effects": [
+        1
+      ],
+      "complete": 10,
+      "count": 10
+    },
+    "off/off/on/on/late_commit": {
+      "effects": [
+        1
+      ],
+      "complete": 10,
+      "count": 10
+    },
+    "off/off/on/off/lost_return": {
+      "effects": [
+        1
+      ],
+      "complete": 0,
+      "count": 10
+    },
+    "off/off/on/off/late_commit": {
+      "effects": [
+        1
+      ],
+      "complete": 0,
+      "count": 10
+    },
+    "off/off/off/on/lost_return": {
+      "effects": [
+        1
+      ],
+      "complete": 10,
+      "count": 10
+    },
+    "off/off/off/on/late_commit": {
+      "effects": [
+        1
+      ],
+      "complete": 10,
+      "count": 10
+    },
+    "off/off/off/off/lost_return": {
+      "effects": [
+        1
+      ],
+      "complete": 0,
+      "count": 10
+    },
+    "off/off/off/off/late_commit": {
+      "effects": [
+        1
+      ],
+      "complete": 0,
+      "count": 10
+    }
+  },
+  "failed": []
+}
