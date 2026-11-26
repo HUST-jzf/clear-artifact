@@ -1,0 +1,7 @@
+{
+  "base_url": "http://127.0.0.1:60237",
+  "pid": 10340,
+  "returncode": 0,
+  "rtt": 1,
+  "idempotency": "on"
+}

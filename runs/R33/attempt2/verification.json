@@ -1,0 +1,53 @@
+{
+  "run": "F:\\desktop\\paper\\clear-artifact\\runs\\R33\\attempt2",
+  "checks": 127,
+  "passed": 127,
+  "failed": [],
+  "systems": [
+    {
+      "config": "rtt1",
+      "rtt": 1,
+      "workflows": 50,
+      "wall_s": 4.703,
+      "throughput": 10.631,
+      "failures": 0
+    },
+    {
+      "config": "rtt20",
+      "rtt": 20,
+      "workflows": 50,
+      "wall_s": 25.523,
+      "throughput": 1.959,
+      "failures": 0
+    },
+    {
+      "config": "rtt80",
+      "rtt": 80,
+      "workflows": 50,
+      "wall_s": 88.714,
+      "throughput": 0.564,
+      "failures": 0
+    }
+  ],
+  "deltas": {
+    "1": {
+      "clear_ms": 101.54,
+      "idem_ms": 79.15,
+      "delta_ms": 22.4,
+      "predicted_ms": 5
+    },
+    "20": {
+      "clear_ms": 603.36,
+      "idem_ms": 444.93,
+      "delta_ms": 158.43,
+      "predicted_ms": 100
+    },
+    "80": {
+      "clear_ms": 2121.2,
+      "idem_ms": 1514.04,
+      "delta_ms": 607.16,
+      "predicted_ms": 400
+    }
+  },
+  "status": "pass"
+}

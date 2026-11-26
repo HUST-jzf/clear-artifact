@@ -1,0 +1,44 @@
+{
+  "files": {
+    "docs/R34_dual_controller_protocol.md": "1385d67e4fbed54193e29f8567450985ed0ad3b8f003f299d5d2f4b186da8907",
+    "scripts/r34_service.py": "74553c66c7b3e7a63b09d6c5f602e504c3236e57fc440460d1dd939528efad00",
+    "scripts/r34_client.py": "fb8a043b775aa5a2971da2db0f523841771aaf0dbb2f82e6637b6332800c87ff",
+    "scripts/run_r34.py": "e824763a45ecc7a50400fc98453764fa6636cfc46eb1c668092c35717eec6773",
+    "scripts/verify_r34.py": "b064b3f2b5dea57a0dd91cf55a208dfbebdd31e8ff091d04c84d75024839c27b"
+  },
+  "faults": [
+    "lost_return",
+    "lost_before_commit"
+  ],
+  "mechanisms": [
+    "none",
+    "lease",
+    "unique"
+  ],
+  "seeds": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "target_calls_before_freeze": 0,
+  "python": "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R1_anyio\\env\\Scripts\\python.exe",
+  "python_version": "3.13.2",
+  "created_ns": 1792637473477740700
+}

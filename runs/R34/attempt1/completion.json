@@ -1,0 +1,1565 @@
+{
+  "tasks": [
+    {
+      "fault": "lost_return",
+      "mechanism": "none",
+      "seed": 1,
+      "rows": 1,
+      "duplicates": 0,
+      "safe": true,
+      "writes": 0,
+      "terminals": {
+        "A": "complete",
+        "B": "complete"
+      }
+    },
+    {
+      "fault": "lost_return",
+      "mechanism": "none",
+      "seed": 2,
+      "rows": 1,
+      "duplicates": 0,
+      "safe": true,
+      "writes": 0,
+      "terminals": {
+        "B": "complete",
+        "A": "complete"
+      }
+    },
+    {
+      "fault": "lost_return",
+      "mechanism": "none",
+      "seed": 3,
+      "rows": 1,
+      "duplicates": 0,
+      "safe": true,
+      "writes": 0,
+      "terminals": {
+        "B": "complete",
+        "A": "complete"
+      }
+    },
+    {
+      "fault": "lost_return",
+      "mechanism": "none",
+      "seed": 4,
+      "rows": 1,
+      "duplicates": 0,
+      "safe": true,
+      "writes": 0,
+      "terminals": {
+        "A": "complete",
+        "B": "complete"
+      }
+    },
+    {
+      "fault": "lost_return",
+      "mechanism": "none",
+      "seed": 5,
+      "rows": 1,
+      "duplicates": 0,
+      "safe": true,
+      "writes": 0,
+      "terminals": {
+        "B": "complete",
+        "A": "complete"
+      }
+    },
+    {
+      "fault": "lost_return",
+      "mechanism": "none",
+      "seed": 6,
+      "rows": 1,
+      "duplicates": 0,
+      "safe": true,
+      "writes": 0,
+      "terminals": {
+        "A": "complete",
+        "B": "complete"
+      }
+    },
+    {
+      "fault": "lost_return",
+      "mechanism": "none",
+      "seed": 7,
+      "rows": 1,
+      "duplicates": 0,
+      "safe": true,
+      "writes": 0,
+      "terminals": {
+        "B": "complete",
+        "A": "complete"
+      }
+    },
+    {
+      "fault": "lost_return",
+      "mechanism": "none",
+      "seed": 8,
+      "rows": 1,
+      "duplicates": 0,
+      "safe": true,
+      "writes": 0,
+      "terminals": {
+        "A": "complete",
+        "B": "complete"
+      }
+    },
+    {
+      "fault": "lost_return",
+      "mechanism": "none",
+      "seed": 9,
+      "rows": 1,
+      "duplicates": 0,
+      "safe": true,
+      "writes": 0,
+      "terminals": {
+        "A": "complete",
+        "B": "complete"
+      }
+    },
+    {
+      "fault": "lost_return",
+      "mechanism": "none",
+      "seed": 10,
+      "rows": 1,
+      "duplicates": 0,
+      "safe": true,
+      "writes": 0,
+      "terminals": {
+        "B": "complete",
+        "A": "complete"
+      }
+    },
+    {
+      "fault": "lost_return",
+      "mechanism": "none",
+      "seed": 11,
+      "rows": 1,
+      "duplicates": 0,
+      "safe": true,
+      "writes": 0,
+      "terminals": {
+        "A": "complete",
+        "B": "complete"
+      }
+    },
+    {
+      "fault": "lost_return",
+      "mechanism": "none",
+      "seed": 12,
+      "rows": 1,
+      "duplicates": 0,
+      "safe": true,
+      "writes": 0,
+      "terminals": {
+        "A": "complete",
+        "B": "complete"
+      }
+    },
+    {
+      "fault": "lost_return",
+      "mechanism": "none",
+      "seed": 13,
+      "rows": 1,
+      "duplicates": 0,
+      "safe": true,
+      "writes": 0,
+      "terminals": {
+        "B": "complete",
+        "A": "complete"
+      }
+    },
+    {
+      "fault": "lost_return",
+      "mechanism": "none",
+      "seed": 14,
+      "rows": 1,
+      "duplicates": 0,
+      "safe": true,
+      "writes": 0,
+      "terminals": {
+        "B": "complete",
+        "A": "complete"
+      }
+    },
+    {
+      "fault": "lost_return",
+      "mechanism": "none",
+      "seed": 15,
+      "rows": 1,
+      "duplicates": 0,
+      "safe": true,
+      "writes": 0,
+      "terminals": {
+        "A": "complete",
+        "B": "complete"
+      }
+    },
+    {
+      "fault": "lost_return",
+      "mechanism": "none",
+      "seed": 16,
+      "rows": 1,
+      "duplicates": 0,
+      "safe": true,
+      "writes": 0,
+      "terminals": {
+        "A": "complete",
+        "B": "complete"
+      }
+    },
+    {
+      "fault": "lost_return",
+      "mechanism": "none",
+      "seed": 17,
+      "rows": 1,
+      "duplicates": 0,
+      "safe": true,
+      "writes": 0,
+      "terminals": {
+        "B": "complete",
+        "A": "complete"
+      }
+    },
+    {
+      "fault": "lost_return",
+      "mechanism": "none",
+      "seed": 18,
+      "rows": 1,
+      "duplicates": 0,
+      "safe": true,
+      "writes": 0,
+      "terminals": {
+        "B": "complete",
+        "A": "complete"
+      }
+    },
+    {
+      "fault": "lost_return",
+      "mechanism": "none",
+      "seed": 19,
+      "rows": 1,
+      "duplicates": 0,
+      "safe": true,
+      "writes": 0,
+      "terminals": {
+        "B": "complete",
+        "A": "complete"
+      }
+    },
+    {
+      "fault": "lost_return",
+      "mechanism": "none",
+      "seed": 20,
+      "rows": 1,
+      "duplicates": 0,
+      "safe": true,
+      "writes": 0,
+      "terminals": {
+        "A": "complete",
+        "B": "complete"
+      }
+    },
+    {
+      "fault": "lost_return",
+      "mechanism": "lease",
+      "seed": 1,
+      "rows": 1,
+      "duplicates": 0,
+      "safe": true,
+      "writes": 0,
+      "terminals": {
+        "A": "complete",
+        "B": "complete"
+      }
+    },
+    {
+      "fault": "lost_return",
+      "mechanism": "lease",
+      "seed": 2,
+      "rows": 1,
+      "duplicates": 0,
+      "safe": true,
+      "writes": 0,
+      "terminals": {
+        "B": "complete",
+        "A": "complete"
+      }
+    },
+    {
+      "fault": "lost_return",
+      "mechanism": "lease",
+      "seed": 3,
+      "rows": 1,
+      "duplicates": 0,
+      "safe": true,
+      "writes": 0,
+      "terminals": {
+        "B": "complete",
+        "A": "complete"
+      }
+    },
+    {
+      "fault": "lost_return",
+      "mechanism": "lease",
+      "seed": 4,
+      "rows": 1,
+      "duplicates": 0,
+      "safe": true,
+      "writes": 0,
+      "terminals": {
+        "A": "complete",
+        "B": "complete"
+      }
+    },
+    {
+      "fault": "lost_return",
+      "mechanism": "lease",
+      "seed": 5,
+      "rows": 1,
+      "duplicates": 0,
+      "safe": true,
+      "writes": 0,
+      "terminals": {
+        "A": "complete",
+        "B": "complete"
+      }
+    },
+    {
+      "fault": "lost_return",
+      "mechanism": "lease",
+      "seed": 6,
+      "rows": 1,
+      "duplicates": 0,
+      "safe": true,
+      "writes": 0,
+      "terminals": {
+        "A": "complete",
+        "B": "complete"
+      }
+    },
+    {
+      "fault": "lost_return",
+      "mechanism": "lease",
+      "seed": 7,
+      "rows": 1,
+      "duplicates": 0,
+      "safe": true,
+      "writes": 0,
+      "terminals": {
+        "A": "complete",
+        "B": "complete"
+      }
+    },
+    {
+      "fault": "lost_return",
+      "mechanism": "lease",
+      "seed": 8,
+      "rows": 1,
+      "duplicates": 0,
+      "safe": true,
+      "writes": 0,
+      "terminals": {
+        "A": "complete",
+        "B": "complete"
+      }
+    },
+    {
+      "fault": "lost_return",
+      "mechanism": "lease",
+      "seed": 9,
+      "rows": 1,
+      "duplicates": 0,
+      "safe": true,
+      "writes": 0,
+      "terminals": {
+        "B": "complete",
+        "A": "complete"
+      }
+    },
+    {
+      "fault": "lost_return",
+      "mechanism": "lease",
+      "seed": 10,
+      "rows": 1,
+      "duplicates": 0,
+      "safe": true,
+      "writes": 0,
+      "terminals": {
+        "A": "complete",
+        "B": "complete"
+      }
+    },
+    {
+      "fault": "lost_return",
+      "mechanism": "lease",
+      "seed": 11,
+      "rows": 1,
+      "duplicates": 0,
+      "safe": true,
+      "writes": 0,
+      "terminals": {
+        "B": "complete",
+        "A": "complete"
+      }
+    },
+    {
+      "fault": "lost_return",
+      "mechanism": "lease",
+      "seed": 12,
+      "rows": 1,
+      "duplicates": 0,
+      "safe": true,
+      "writes": 0,
+      "terminals": {
+        "A": "complete",
+        "B": "complete"
+      }
+    },
+    {
+      "fault": "lost_return",
+      "mechanism": "lease",
+      "seed": 13,
+      "rows": 1,
+      "duplicates": 0,
+      "safe": true,
+      "writes": 0,
+      "terminals": {
+        "B": "complete",
+        "A": "complete"
+      }
+    },
+    {
+      "fault": "lost_return",
+      "mechanism": "lease",
+      "seed": 14,
+      "rows": 1,
+      "duplicates": 0,
+      "safe": true,
+      "writes": 0,
+      "terminals": {
+        "B": "complete",
+        "A": "complete"
+      }
+    },
+    {
+      "fault": "lost_return",
+      "mechanism": "lease",
+      "seed": 15,
+      "rows": 1,
+      "duplicates": 0,
+      "safe": true,
+      "writes": 0,
+      "terminals": {
+        "B": "complete",
+        "A": "complete"
+      }
+    },
+    {
+      "fault": "lost_return",
+      "mechanism": "lease",
+      "seed": 16,
+      "rows": 1,
+      "duplicates": 0,
+      "safe": true,
+      "writes": 0,
+      "terminals": {
+        "A": "complete",
+        "B": "complete"
+      }
+    },
+    {
+      "fault": "lost_return",
+      "mechanism": "lease",
+      "seed": 17,
+      "rows": 1,
+      "duplicates": 0,
+      "safe": true,
+      "writes": 0,
+      "terminals": {
+        "A": "complete",
+        "B": "complete"
+      }
+    },
+    {
+      "fault": "lost_return",
+      "mechanism": "lease",
+      "seed": 18,
+      "rows": 1,
+      "duplicates": 0,
+      "safe": true,
+      "writes": 0,
+      "terminals": {
+        "A": "complete",
+        "B": "complete"
+      }
+    },
+    {
+      "fault": "lost_return",
+      "mechanism": "lease",
+      "seed": 19,
+      "rows": 1,
+      "duplicates": 0,
+      "safe": true,
+      "writes": 0,
+      "terminals": {
+        "A": "complete",
+        "B": "complete"
+      }
+    },
+    {
+      "fault": "lost_return",
+      "mechanism": "lease",
+      "seed": 20,
+      "rows": 1,
+      "duplicates": 0,
+      "safe": true,
+      "writes": 0,
+      "terminals": {
+        "B": "complete",
+        "A": "complete"
+      }
+    },
+    {
+      "fault": "lost_return",
+      "mechanism": "unique",
+      "seed": 1,
+      "rows": 1,
+      "duplicates": 0,
+      "safe": true,
+      "writes": 0,
+      "terminals": {
+        "B": "complete",
+        "A": "complete"
+      }
+    },
+    {
+      "fault": "lost_return",
+      "mechanism": "unique",
+      "seed": 2,
+      "rows": 1,
+      "duplicates": 0,
+      "safe": true,
+      "writes": 0,
+      "terminals": {
+        "B": "complete",
+        "A": "complete"
+      }
+    },
+    {
+      "fault": "lost_return",
+      "mechanism": "unique",
+      "seed": 3,
+      "rows": 1,
+      "duplicates": 0,
+      "safe": true,
+      "writes": 0,
+      "terminals": {
+        "B": "complete",
+        "A": "complete"
+      }
+    },
+    {
+      "fault": "lost_return",
+      "mechanism": "unique",
+      "seed": 4,
+      "rows": 1,
+      "duplicates": 0,
+      "safe": true,
+      "writes": 0,
+      "terminals": {
+        "A": "complete",
+        "B": "complete"
+      }
+    },
+    {
+      "fault": "lost_return",
+      "mechanism": "unique",
+      "seed": 5,
+      "rows": 1,
+      "duplicates": 0,
+      "safe": true,
+      "writes": 0,
+      "terminals": {
+        "B": "complete",
+        "A": "complete"
+      }
+    },
+    {
+      "fault": "lost_return",
+      "mechanism": "unique",
+      "seed": 6,
+      "rows": 1,
+      "duplicates": 0,
+      "safe": true,
+      "writes": 0,
+      "terminals": {
+        "B": "complete",
+        "A": "complete"
+      }
+    },
+    {
+      "fault": "lost_return",
+      "mechanism": "unique",
+      "seed": 7,
+      "rows": 1,
+      "duplicates": 0,
+      "safe": true,
+      "writes": 0,
+      "terminals": {
+        "B": "complete",
+        "A": "complete"
+      }
+    },
+    {
+      "fault": "lost_return",
+      "mechanism": "unique",
+      "seed": 8,
+      "rows": 1,
+      "duplicates": 0,
+      "safe": true,
+      "writes": 0,
+      "terminals": {
+        "A": "complete",
+        "B": "complete"
+      }
+    },
+    {
+      "fault": "lost_return",
+      "mechanism": "unique",
+      "seed": 9,
+      "rows": 1,
+      "duplicates": 0,
+      "safe": true,
+      "writes": 0,
+      "terminals": {
+        "B": "complete",
+        "A": "complete"
+      }
+    },
+    {
+      "fault": "lost_return",
+      "mechanism": "unique",
+      "seed": 10,
+      "rows": 1,
+      "duplicates": 0,
+      "safe": true,
+      "writes": 0,
+      "terminals": {
+        "B": "complete",
+        "A": "complete"
+      }
+    },
+    {
+      "fault": "lost_return",
+      "mechanism": "unique",
+      "seed": 11,
+      "rows": 1,
+      "duplicates": 0,
+      "safe": true,
+      "writes": 0,
+      "terminals": {
+        "A": "complete",
+        "B": "complete"
+      }
+    },
+    {
+      "fault": "lost_return",
+      "mechanism": "unique",
+      "seed": 12,
+      "rows": 1,
+      "duplicates": 0,
+      "safe": true,
+      "writes": 0,
+      "terminals": {
+        "A": "complete",
+        "B": "complete"
+      }
+    },
+    {
+      "fault": "lost_return",
+      "mechanism": "unique",
+      "seed": 13,
+      "rows": 1,
+      "duplicates": 0,
+      "safe": true,
+      "writes": 0,
+      "terminals": {
+        "B": "complete",
+        "A": "complete"
+      }
+    },
+    {
+      "fault": "lost_return",
+      "mechanism": "unique",
+      "seed": 14,
+      "rows": 1,
+      "duplicates": 0,
+      "safe": true,
+      "writes": 0,
+      "terminals": {
+        "A": "complete",
+        "B": "complete"
+      }
+    },
+    {
+      "fault": "lost_return",
+      "mechanism": "unique",
+      "seed": 15,
+      "rows": 1,
+      "duplicates": 0,
+      "safe": true,
+      "writes": 0,
+      "terminals": {
+        "A": "complete",
+        "B": "complete"
+      }
+    },
+    {
+      "fault": "lost_return",
+      "mechanism": "unique",
+      "seed": 16,
+      "rows": 1,
+      "duplicates": 0,
+      "safe": true,
+      "writes": 0,
+      "terminals": {
+        "B": "complete",
+        "A": "complete"
+      }
+    },
+    {
+      "fault": "lost_return",
+      "mechanism": "unique",
+      "seed": 17,
+      "rows": 1,
+      "duplicates": 0,
+      "safe": true,
+      "writes": 0,
+      "terminals": {
+        "A": "complete",
+        "B": "complete"
+      }
+    },
+    {
+      "fault": "lost_return",
+      "mechanism": "unique",
+      "seed": 18,
+      "rows": 1,
+      "duplicates": 0,
+      "safe": true,
+      "writes": 0,
+      "terminals": {
+        "B": "complete",
+        "A": "complete"
+      }
+    },
+    {
+      "fault": "lost_return",
+      "mechanism": "unique",
+      "seed": 19,
+      "rows": 1,
+      "duplicates": 0,
+      "safe": true,
+      "writes": 0,
+      "terminals": {
+        "B": "complete",
+        "A": "complete"
+      }
+    },
+    {
+      "fault": "lost_return",
+      "mechanism": "unique",
+      "seed": 20,
+      "rows": 1,
+      "duplicates": 0,
+      "safe": true,
+      "writes": 0,
+      "terminals": {
+        "B": "complete",
+        "A": "complete"
+      }
+    },
+    {
+      "fault": "lost_before_commit",
+      "mechanism": "none",
+      "seed": 1,
+      "rows": 2,
+      "duplicates": 1,
+      "safe": false,
+      "writes": 2,
+      "terminals": {
+        "A": "complete",
+        "B": "complete"
+      }
+    },
+    {
+      "fault": "lost_before_commit",
+      "mechanism": "none",
+      "seed": 2,
+      "rows": 2,
+      "duplicates": 1,
+      "safe": false,
+      "writes": 2,
+      "terminals": {
+        "A": "complete",
+        "B": "complete"
+      }
+    },
+    {
+      "fault": "lost_before_commit",
+      "mechanism": "none",
+      "seed": 3,
+      "rows": 2,
+      "duplicates": 1,
+      "safe": false,
+      "writes": 2,
+      "terminals": {
+        "A": "complete",
+        "B": "complete"
+      }
+    },
+    {
+      "fault": "lost_before_commit",
+      "mechanism": "none",
+      "seed": 4,
+      "rows": 2,
+      "duplicates": 1,
+      "safe": false,
+      "writes": 2,
+      "terminals": {
+        "A": "complete",
+        "B": "complete"
+      }
+    },
+    {
+      "fault": "lost_before_commit",
+      "mechanism": "none",
+      "seed": 5,
+      "rows": 2,
+      "duplicates": 1,
+      "safe": false,
+      "writes": 2,
+      "terminals": {
+        "A": "complete",
+        "B": "complete"
+      }
+    },
+    {
+      "fault": "lost_before_commit",
+      "mechanism": "none",
+      "seed": 6,
+      "rows": 2,
+      "duplicates": 1,
+      "safe": false,
+      "writes": 2,
+      "terminals": {
+        "A": "complete",
+        "B": "complete"
+      }
+    },
+    {
+      "fault": "lost_before_commit",
+      "mechanism": "none",
+      "seed": 7,
+      "rows": 2,
+      "duplicates": 1,
+      "safe": false,
+      "writes": 2,
+      "terminals": {
+        "B": "complete",
+        "A": "complete"
+      }
+    },
+    {
+      "fault": "lost_before_commit",
+      "mechanism": "none",
+      "seed": 8,
+      "rows": 2,
+      "duplicates": 1,
+      "safe": false,
+      "writes": 2,
+      "terminals": {
+        "A": "complete",
+        "B": "complete"
+      }
+    },
+    {
+      "fault": "lost_before_commit",
+      "mechanism": "none",
+      "seed": 9,
+      "rows": 2,
+      "duplicates": 1,
+      "safe": false,
+      "writes": 2,
+      "terminals": {
+        "A": "complete",
+        "B": "complete"
+      }
+    },
+    {
+      "fault": "lost_before_commit",
+      "mechanism": "none",
+      "seed": 10,
+      "rows": 2,
+      "duplicates": 1,
+      "safe": false,
+      "writes": 2,
+      "terminals": {
+        "A": "complete",
+        "B": "complete"
+      }
+    },
+    {
+      "fault": "lost_before_commit",
+      "mechanism": "none",
+      "seed": 11,
+      "rows": 2,
+      "duplicates": 1,
+      "safe": false,
+      "writes": 2,
+      "terminals": {
+        "B": "complete",
+        "A": "complete"
+      }
+    },
+    {
+      "fault": "lost_before_commit",
+      "mechanism": "none",
+      "seed": 12,
+      "rows": 2,
+      "duplicates": 1,
+      "safe": false,
+      "writes": 2,
+      "terminals": {
+        "B": "complete",
+        "A": "complete"
+      }
+    },
+    {
+      "fault": "lost_before_commit",
+      "mechanism": "none",
+      "seed": 13,
+      "rows": 2,
+      "duplicates": 1,
+      "safe": false,
+      "writes": 2,
+      "terminals": {
+        "B": "complete",
+        "A": "complete"
+      }
+    },
+    {
+      "fault": "lost_before_commit",
+      "mechanism": "none",
+      "seed": 14,
+      "rows": 2,
+      "duplicates": 1,
+      "safe": false,
+      "writes": 2,
+      "terminals": {
+        "B": "complete",
+        "A": "complete"
+      }
+    },
+    {
+      "fault": "lost_before_commit",
+      "mechanism": "none",
+      "seed": 15,
+      "rows": 2,
+      "duplicates": 1,
+      "safe": false,
+      "writes": 2,
+      "terminals": {
+        "B": "complete",
+        "A": "complete"
+      }
+    },
+    {
+      "fault": "lost_before_commit",
+      "mechanism": "none",
+      "seed": 16,
+      "rows": 2,
+      "duplicates": 1,
+      "safe": false,
+      "writes": 2,
+      "terminals": {
+        "B": "complete",
+        "A": "complete"
+      }
+    },
+    {
+      "fault": "lost_before_commit",
+      "mechanism": "none",
+      "seed": 17,
+      "rows": 2,
+      "duplicates": 1,
+      "safe": false,
+      "writes": 2,
+      "terminals": {
+        "B": "complete",
+        "A": "complete"
+      }
+    },
+    {
+      "fault": "lost_before_commit",
+      "mechanism": "none",
+      "seed": 18,
+      "rows": 2,
+      "duplicates": 1,
+      "safe": false,
+      "writes": 2,
+      "terminals": {
+        "A": "complete",
+        "B": "complete"
+      }
+    },
+    {
+      "fault": "lost_before_commit",
+      "mechanism": "none",
+      "seed": 19,
+      "rows": 2,
+      "duplicates": 1,
+      "safe": false,
+      "writes": 2,
+      "terminals": {
+        "B": "complete",
+        "A": "complete"
+      }
+    },
+    {
+      "fault": "lost_before_commit",
+      "mechanism": "none",
+      "seed": 20,
+      "rows": 2,
+      "duplicates": 1,
+      "safe": false,
+      "writes": 2,
+      "terminals": {
+        "A": "complete",
+        "B": "complete"
+      }
+    },
+    {
+      "fault": "lost_before_commit",
+      "mechanism": "lease",
+      "seed": 1,
+      "rows": 1,
+      "duplicates": 0,
+      "safe": true,
+      "writes": 1,
+      "terminals": {
+        "B": "complete",
+        "A": "complete"
+      }
+    },
+    {
+      "fault": "lost_before_commit",
+      "mechanism": "lease",
+      "seed": 2,
+      "rows": 1,
+      "duplicates": 0,
+      "safe": true,
+      "writes": 1,
+      "terminals": {
+        "A": "complete",
+        "B": "complete"
+      }
+    },
+    {
+      "fault": "lost_before_commit",
+      "mechanism": "lease",
+      "seed": 3,
+      "rows": 1,
+      "duplicates": 0,
+      "safe": true,
+      "writes": 1,
+      "terminals": {
+        "B": "complete",
+        "A": "complete"
+      }
+    },
+    {
+      "fault": "lost_before_commit",
+      "mechanism": "lease",
+      "seed": 4,
+      "rows": 1,
+      "duplicates": 0,
+      "safe": true,
+      "writes": 1,
+      "terminals": {
+        "B": "complete",
+        "A": "complete"
+      }
+    },
+    {
+      "fault": "lost_before_commit",
+      "mechanism": "lease",
+      "seed": 5,
+      "rows": 1,
+      "duplicates": 0,
+      "safe": true,
+      "writes": 1,
+      "terminals": {
+        "A": "complete",
+        "B": "complete"
+      }
+    },
+    {
+      "fault": "lost_before_commit",
+      "mechanism": "lease",
+      "seed": 6,
+      "rows": 1,
+      "duplicates": 0,
+      "safe": true,
+      "writes": 1,
+      "terminals": {
+        "A": "complete",
+        "B": "complete"
+      }
+    },
+    {
+      "fault": "lost_before_commit",
+      "mechanism": "lease",
+      "seed": 7,
+      "rows": 1,
+      "duplicates": 0,
+      "safe": true,
+      "writes": 1,
+      "terminals": {
+        "A": "complete",
+        "B": "complete"
+      }
+    },
+    {
+      "fault": "lost_before_commit",
+      "mechanism": "lease",
+      "seed": 8,
+      "rows": 1,
+      "duplicates": 0,
+      "safe": true,
+      "writes": 1,
+      "terminals": {
+        "B": "complete",
+        "A": "complete"
+      }
+    },
+    {
+      "fault": "lost_before_commit",
+      "mechanism": "lease",
+      "seed": 9,
+      "rows": 1,
+      "duplicates": 0,
+      "safe": true,
+      "writes": 1,
+      "terminals": {
+        "A": "complete",
+        "B": "complete"
+      }
+    },
+    {
+      "fault": "lost_before_commit",
+      "mechanism": "lease",
+      "seed": 10,
+      "rows": 1,
+      "duplicates": 0,
+      "safe": true,
+      "writes": 1,
+      "terminals": {
+        "B": "complete",
+        "A": "complete"
+      }
+    },
+    {
+      "fault": "lost_before_commit",
+      "mechanism": "lease",
+      "seed": 11,
+      "rows": 1,
+      "duplicates": 0,
+      "safe": true,
+      "writes": 1,
+      "terminals": {
+        "B": "complete",
+        "A": "complete"
+      }
+    },
+    {
+      "fault": "lost_before_commit",
+      "mechanism": "lease",
+      "seed": 12,
+      "rows": 1,
+      "duplicates": 0,
+      "safe": true,
+      "writes": 1,
+      "terminals": {
+        "A": "complete",
+        "B": "complete"
+      }
+    },
+    {
+      "fault": "lost_before_commit",
+      "mechanism": "lease",
+      "seed": 13,
+      "rows": 1,
+      "duplicates": 0,
+      "safe": true,
+      "writes": 1,
+      "terminals": {
+        "B": "complete",
+        "A": "complete"
+      }
+    },
+    {
+      "fault": "lost_before_commit",
+      "mechanism": "lease",
+      "seed": 14,
+      "rows": 1,
+      "duplicates": 0,
+      "safe": true,
+      "writes": 1,
+      "terminals": {
+        "A": "complete",
+        "B": "complete"
+      }
+    },
+    {
+      "fault": "lost_before_commit",
+      "mechanism": "lease",
+      "seed": 15,
+      "rows": 1,
+      "duplicates": 0,
+      "safe": true,
+      "writes": 1,
+      "terminals": {
+        "B": "complete",
+        "A": "complete"
+      }
+    },
+    {
+      "fault": "lost_before_commit",
+      "mechanism": "lease",
+      "seed": 16,
+      "rows": 1,
+      "duplicates": 0,
+      "safe": true,
+      "writes": 1,
+      "terminals": {
+        "A": "complete",
+        "B": "complete"
+      }
+    },
+    {
+      "fault": "lost_before_commit",
+      "mechanism": "lease",
+      "seed": 17,
+      "rows": 1,
+      "duplicates": 0,
+      "safe": true,
+      "writes": 1,
+      "terminals": {
+        "B": "complete",
+        "A": "complete"
+      }
+    },
+    {
+      "fault": "lost_before_commit",
+      "mechanism": "lease",
+      "seed": 18,
+      "rows": 1,
+      "duplicates": 0,
+      "safe": true,
+      "writes": 1,
+      "terminals": {
+        "A": "complete",
+        "B": "complete"
+      }
+    },
+    {
+      "fault": "lost_before_commit",
+      "mechanism": "lease",
+      "seed": 19,
+      "rows": 1,
+      "duplicates": 0,
+      "safe": true,
+      "writes": 1,
+      "terminals": {
+        "B": "complete",
+        "A": "complete"
+      }
+    },
+    {
+      "fault": "lost_before_commit",
+      "mechanism": "lease",
+      "seed": 20,
+      "rows": 1,
+      "duplicates": 0,
+      "safe": true,
+      "writes": 1,
+      "terminals": {
+        "A": "complete",
+        "B": "complete"
+      }
+    },
+    {
+      "fault": "lost_before_commit",
+      "mechanism": "unique",
+      "seed": 1,
+      "rows": 1,
+      "duplicates": 0,
+      "safe": true,
+      "writes": 1,
+      "terminals": {
+        "A": "complete",
+        "B": "complete"
+      }
+    },
+    {
+      "fault": "lost_before_commit",
+      "mechanism": "unique",
+      "seed": 2,
+      "rows": 1,
+      "duplicates": 0,
+      "safe": true,
+      "writes": 1,
+      "terminals": {
+        "A": "complete",
+        "B": "complete"
+      }
+    },
+    {
+      "fault": "lost_before_commit",
+      "mechanism": "unique",
+      "seed": 3,
+      "rows": 1,
+      "duplicates": 0,
+      "safe": true,
+      "writes": 1,
+      "terminals": {
+        "B": "complete",
+        "A": "complete"
+      }
+    },
+    {
+      "fault": "lost_before_commit",
+      "mechanism": "unique",
+      "seed": 4,
+      "rows": 1,
+      "duplicates": 0,
+      "safe": true,
+      "writes": 1,
+      "terminals": {
+        "A": "complete",
+        "B": "complete"
+      }
+    },
+    {
+      "fault": "lost_before_commit",
+      "mechanism": "unique",
+      "seed": 5,
+      "rows": 1,
+      "duplicates": 0,
+      "safe": true,
+      "writes": 1,
+      "terminals": {
+        "A": "complete",
+        "B": "complete"
+      }
+    },
+    {
+      "fault": "lost_before_commit",
+      "mechanism": "unique",
+      "seed": 6,
+      "rows": 1,
+      "duplicates": 0,
+      "safe": true,
+      "writes": 1,
+      "terminals": {
+        "A": "complete",
+        "B": "complete"
+      }
+    },
+    {
+      "fault": "lost_before_commit",
+      "mechanism": "unique",
+      "seed": 7,
+      "rows": 1,
+      "duplicates": 0,
+      "safe": true,
+      "writes": 1,
+      "terminals": {
+        "A": "complete",
+        "B": "complete"
+      }
+    },
+    {
+      "fault": "lost_before_commit",
+      "mechanism": "unique",
+      "seed": 8,
+      "rows": 1,
+      "duplicates": 0,
+      "safe": true,
+      "writes": 1,
+      "terminals": {
+        "B": "complete",
+        "A": "complete"
+      }
+    },
+    {
+      "fault": "lost_before_commit",
+      "mechanism": "unique",
+      "seed": 9,
+      "rows": 1,
+      "duplicates": 0,
+      "safe": true,
+      "writes": 1,
+      "terminals": {
+        "B": "complete",
+        "A": "complete"
+      }
+    },
+    {
+      "fault": "lost_before_commit",
+      "mechanism": "unique",
+      "seed": 10,
+      "rows": 1,
+      "duplicates": 0,
+      "safe": true,
+      "writes": 1,
+      "terminals": {
+        "B": "complete",
+        "A": "complete"
+      }
+    },
+    {
+      "fault": "lost_before_commit",
+      "mechanism": "unique",
+      "seed": 11,
+      "rows": 1,
+      "duplicates": 0,
+      "safe": true,
+      "writes": 1,
+      "terminals": {
+        "B": "complete",
+        "A": "complete"
+      }
+    },
+    {
+      "fault": "lost_before_commit",
+      "mechanism": "unique",
+      "seed": 12,
+      "rows": 1,
+      "duplicates": 0,
+      "safe": true,
+      "writes": 1,
+      "terminals": {
+        "B": "complete",
+        "A": "complete"
+      }
+    },
+    {
+      "fault": "lost_before_commit",
+      "mechanism": "unique",
+      "seed": 13,
+      "rows": 1,
+      "duplicates": 0,
+      "safe": true,
+      "writes": 1,
+      "terminals": {
+        "B": "complete",
+        "A": "complete"
+      }
+    },
+    {
+      "fault": "lost_before_commit",
+      "mechanism": "unique",
+      "seed": 14,
+      "rows": 1,
+      "duplicates": 0,
+      "safe": true,
+      "writes": 1,
+      "terminals": {
+        "A": "complete",
+        "B": "complete"
+      }
+    },
+    {
+      "fault": "lost_before_commit",
+      "mechanism": "unique",
+      "seed": 15,
+      "rows": 1,
+      "duplicates": 0,
+      "safe": true,
+      "writes": 1,
+      "terminals": {
+        "B": "complete",
+        "A": "complete"
+      }
+    },
+    {
+      "fault": "lost_before_commit",
+      "mechanism": "unique",
+      "seed": 16,
+      "rows": 1,
+      "duplicates": 0,
+      "safe": true,
+      "writes": 1,
+      "terminals": {
+        "B": "complete",
+        "A": "complete"
+      }
+    },
+    {
+      "fault": "lost_before_commit",
+      "mechanism": "unique",
+      "seed": 17,
+      "rows": 1,
+      "duplicates": 0,
+      "safe": true,
+      "writes": 1,
+      "terminals": {
+        "B": "complete",
+        "A": "complete"
+      }
+    },
+    {
+      "fault": "lost_before_commit",
+      "mechanism": "unique",
+      "seed": 18,
+      "rows": 1,
+      "duplicates": 0,
+      "safe": true,
+      "writes": 1,
+      "terminals": {
+        "B": "complete",
+        "A": "complete"
+      }
+    },
+    {
+      "fault": "lost_before_commit",
+      "mechanism": "unique",
+      "seed": 19,
+      "rows": 1,
+      "duplicates": 0,
+      "safe": true,
+      "writes": 1,
+      "terminals": {
+        "A": "complete",
+        "B": "complete"
+      }
+    },
+    {
+      "fault": "lost_before_commit",
+      "mechanism": "unique",
+      "seed": 20,
+      "rows": 1,
+      "duplicates": 0,
+      "safe": true,
+      "writes": 1,
+      "terminals": {
+        "A": "complete",
+        "B": "complete"
+      }
+    }
+  ],
+  "failures": []
+}
