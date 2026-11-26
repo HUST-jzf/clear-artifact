@@ -1,0 +1,76 @@
+{
+  "policy": "idem_retry",
+  "context": {
+    "operation_id": "I1Q1C0GnoneFlost_idem_retry",
+    "intent": "38d7c6e9ee9f1c1d8b7b1dbd24382d424982ce51486f3c87cf7e76b662aa298e",
+    "generation": 1
+  },
+  "origin": {
+    "context": {
+      "operation_id": "I1Q1C0GnoneFlost_idem_retry",
+      "intent": "38d7c6e9ee9f1c1d8b7b1dbd24382d424982ce51486f3c87cf7e76b662aa298e",
+      "generation": 1
+    },
+    "manifest": {
+      "adapter": "langchain_structured_tool",
+      "version": "1.0.0",
+      "python": "3.13.2",
+      "framework": {
+        "langchain_core.tools": "a9ed84f55c19ee1a5d913a33f7aa12274f346b475ef6843048ef453f55e798cd"
+      },
+      "worker_sha256": "70a62d93215ef685cfb41009335bf26df3cb7dc57e4f6d4850058d0759c98d20",
+      "host_sha256": "0e0d1bd0bbadf7f68b8d8575a96e725f79f31e373d49c00787e66d790966f741",
+      "observer_sha256": "70a62d93215ef685cfb41009335bf26df3cb7dc57e4f6d4850058d0759c98d20",
+      "route_sha256": "9a93f2b9b1d7b5f840c9eb319691a657ef38e5b4b4dbbd6526102e9305822eac",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "commit",
+        "delayed": false,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": false,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": true,
+        "query_complete": true
+      }
+    },
+    "namespace": "effects"
+  },
+  "initial_observations": [
+    {
+      "action": "append",
+      "phase": "initial",
+      "attempt": 1,
+      "outcome": "return_lost"
+    }
+  ],
+  "terminal": "complete",
+  "reason": "idempotent_retry",
+  "events": [
+    {
+      "seq": 0,
+      "context": {
+        "operation_id": "I1Q1C0GnoneFlost_idem_retry",
+        "intent": "38d7c6e9ee9f1c1d8b7b1dbd24382d424982ce51486f3c87cf7e76b662aa298e",
+        "generation": 1
+      },
+      "manifest": "05e3b4eaf6cfa467983f8dc308672a715a0427243696a45d849e2e23204e7b0d",
+      "action": "retry",
+      "body": {
+        "state": "committed",
+        "record_id": 1,
+        "operation_id": "I1Q1C0GnoneFlost_idem_retry",
+        "intent": "38d7c6e9ee9f1c1d8b7b1dbd24382d424982ce51486f3c87cf7e76b662aa298e",
+        "generation": 1,
+        "effect_namespace": "effects",
+        "attempt": 2,
+        "deduplicated": true
+      }
+    }
+  ],
+  "steps": [],
+  "case": "I1Q1C0GnoneFlost",
+  "elapsed_ns": 34167800
+}
