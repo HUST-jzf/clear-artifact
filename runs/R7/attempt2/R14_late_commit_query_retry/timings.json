@@ -1,0 +1,23 @@
+{
+  "case": "late_commit",
+  "policy": "query_retry",
+  "repetition": 14,
+  "terminal": "complete",
+  "reason": "query_then_retry",
+  "control_ns": 9462400,
+  "timings": {
+    "active_ns": 9270200,
+    "drain_ns": 7303200
+  },
+  "counts": {
+    "effects": 1,
+    "active": 2,
+    "query": 1,
+    "retry": 1
+  },
+  "actions": 2,
+  "rows": 2,
+  "duplicate": true,
+  "stale_new": 0,
+  "safe": false
+}

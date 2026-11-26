@@ -1,0 +1,23 @@
+{
+  "case": "fail_before",
+  "policy": "query_retry",
+  "repetition": 13,
+  "terminal": "complete",
+  "reason": "query_then_retry",
+  "control_ns": 8756800,
+  "timings": {
+    "active_ns": 8596500,
+    "drain_ns": 922000
+  },
+  "counts": {
+    "effects": 1,
+    "active": 2,
+    "query": 1,
+    "retry": 1
+  },
+  "actions": 2,
+  "rows": 1,
+  "duplicate": false,
+  "stale_new": 0,
+  "safe": true
+}
