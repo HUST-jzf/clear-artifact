@@ -1,0 +1,226 @@
+{
+  "policy": "clear",
+  "context": {
+    "operation_id": "I0Q1C0GrevokeFlate_clear",
+    "intent": "38d7c6e9ee9f1c1d8b7b1dbd24382d424982ce51486f3c87cf7e76b662aa298e",
+    "generation": 1
+  },
+  "origin": {
+    "context": {
+      "operation_id": "I0Q1C0GrevokeFlate_clear",
+      "intent": "38d7c6e9ee9f1c1d8b7b1dbd24382d424982ce51486f3c87cf7e76b662aa298e",
+      "generation": 1
+    },
+    "manifest": {
+      "adapter": "anyio_task",
+      "version": "4.12.1",
+      "python": "3.13.2",
+      "framework": {
+        "anyio._backends._asyncio": "c46eaabfad268069cbd262bcd9dc631f66fc86590c949fb1d81a88ab7aafef46"
+      },
+      "worker_sha256": "70a62d93215ef685cfb41009335bf26df3cb7dc57e4f6d4850058d0759c98d20",
+      "host_sha256": "70a62d93215ef685cfb41009335bf26df3cb7dc57e4f6d4850058d0759c98d20",
+      "observer_sha256": "70a62d93215ef685cfb41009335bf26df3cb7dc57e4f6d4850058d0759c98d20",
+      "route_sha256": "4778b08e0d3a10eed600160d4d038186a84586dcd83a3647df241cbe788202cc",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "commit",
+        "delayed": true,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": false,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": false,
+        "query_complete": true
+      }
+    },
+    "namespace": "effects"
+  },
+  "initial_observations": [
+    {
+      "action": "append",
+      "phase": "initial",
+      "attempt": 1,
+      "outcome": "timeout"
+    }
+  ],
+  "terminal": "pause",
+  "reason": "original_lifecycle_unavailable",
+  "events": [
+    {
+      "seq": 0,
+      "context": {
+        "operation_id": "I0Q1C0GrevokeFlate_clear",
+        "intent": "38d7c6e9ee9f1c1d8b7b1dbd24382d424982ce51486f3c87cf7e76b662aa298e",
+        "generation": 1
+      },
+      "manifest": "ecfa15881dead79af1c44b7e1c1886aacd17ccca5d388667773311a4f02084e8",
+      "action": "query",
+      "body": {
+        "state": "not_committed",
+        "complete": true,
+        "effect_namespace": "effects",
+        "operation_id": "I0Q1C0GrevokeFlate_clear",
+        "intent": "38d7c6e9ee9f1c1d8b7b1dbd24382d424982ce51486f3c87cf7e76b662aa298e",
+        "generation": 1,
+        "rows": []
+      }
+    }
+  ],
+  "steps": [
+    {
+      "observation_count": 0,
+      "manifest": {
+        "adapter": "anyio_task",
+        "version": "4.12.1",
+        "python": "3.13.2",
+        "framework": {
+          "anyio._backends._asyncio": "c46eaabfad268069cbd262bcd9dc631f66fc86590c949fb1d81a88ab7aafef46"
+        },
+        "worker_sha256": "70a62d93215ef685cfb41009335bf26df3cb7dc57e4f6d4850058d0759c98d20",
+        "host_sha256": "70a62d93215ef685cfb41009335bf26df3cb7dc57e4f6d4850058d0759c98d20",
+        "observer_sha256": "70a62d93215ef685cfb41009335bf26df3cb7dc57e4f6d4850058d0759c98d20",
+        "route_sha256": "29576ad24744f44e4df6802c1419d4347998dd6bd6bc60e80902df75160b1de2",
+        "route": {
+          "revision": 2,
+          "mode": "inline",
+          "outcome": "commit",
+          "delayed": true,
+          "abandon_on_cancel": false,
+          "delegated": false,
+          "closed_registration": false,
+          "allowed": false,
+          "store": "effects",
+          "idempotency": false,
+          "query_complete": true
+        }
+      },
+      "qualification": {
+        "valid": false,
+        "manifest": {
+          "adapter": "anyio_task",
+          "version": "4.12.1",
+          "python": "3.13.2",
+          "framework": {
+            "anyio._backends._asyncio": "c46eaabfad268069cbd262bcd9dc631f66fc86590c949fb1d81a88ab7aafef46"
+          },
+          "worker_sha256": "70a62d93215ef685cfb41009335bf26df3cb7dc57e4f6d4850058d0759c98d20",
+          "host_sha256": "70a62d93215ef685cfb41009335bf26df3cb7dc57e4f6d4850058d0759c98d20",
+          "observer_sha256": "70a62d93215ef685cfb41009335bf26df3cb7dc57e4f6d4850058d0759c98d20",
+          "route_sha256": "4778b08e0d3a10eed600160d4d038186a84586dcd83a3647df241cbe788202cc",
+          "route": {
+            "revision": 1,
+            "mode": "inline",
+            "outcome": "commit",
+            "delayed": true,
+            "abandon_on_cancel": false,
+            "delegated": false,
+            "closed_registration": false,
+            "allowed": true,
+            "store": "effects",
+            "idempotency": false,
+            "query_complete": true
+          }
+        },
+        "checks": {
+          "adapter": true,
+          "version": true,
+          "python": true,
+          "framework": true,
+          "worker_sha256": true,
+          "host_sha256": true,
+          "observer_sha256": true,
+          "known_route": true,
+          "closed_registration": false,
+          "approval_allowed": true,
+          "same_effect_destination": true
+        },
+        "changed_dependencies": []
+      },
+      "decision": {
+        "action": "query",
+        "reason": "positive_original_effect_without_lifecycle",
+        "support": []
+      }
+    },
+    {
+      "observation_count": 1,
+      "manifest": {
+        "adapter": "anyio_task",
+        "version": "4.12.1",
+        "python": "3.13.2",
+        "framework": {
+          "anyio._backends._asyncio": "c46eaabfad268069cbd262bcd9dc631f66fc86590c949fb1d81a88ab7aafef46"
+        },
+        "worker_sha256": "70a62d93215ef685cfb41009335bf26df3cb7dc57e4f6d4850058d0759c98d20",
+        "host_sha256": "70a62d93215ef685cfb41009335bf26df3cb7dc57e4f6d4850058d0759c98d20",
+        "observer_sha256": "70a62d93215ef685cfb41009335bf26df3cb7dc57e4f6d4850058d0759c98d20",
+        "route_sha256": "29576ad24744f44e4df6802c1419d4347998dd6bd6bc60e80902df75160b1de2",
+        "route": {
+          "revision": 2,
+          "mode": "inline",
+          "outcome": "commit",
+          "delayed": true,
+          "abandon_on_cancel": false,
+          "delegated": false,
+          "closed_registration": false,
+          "allowed": false,
+          "store": "effects",
+          "idempotency": false,
+          "query_complete": true
+        }
+      },
+      "qualification": {
+        "valid": false,
+        "manifest": {
+          "adapter": "anyio_task",
+          "version": "4.12.1",
+          "python": "3.13.2",
+          "framework": {
+            "anyio._backends._asyncio": "c46eaabfad268069cbd262bcd9dc631f66fc86590c949fb1d81a88ab7aafef46"
+          },
+          "worker_sha256": "70a62d93215ef685cfb41009335bf26df3cb7dc57e4f6d4850058d0759c98d20",
+          "host_sha256": "70a62d93215ef685cfb41009335bf26df3cb7dc57e4f6d4850058d0759c98d20",
+          "observer_sha256": "70a62d93215ef685cfb41009335bf26df3cb7dc57e4f6d4850058d0759c98d20",
+          "route_sha256": "4778b08e0d3a10eed600160d4d038186a84586dcd83a3647df241cbe788202cc",
+          "route": {
+            "revision": 1,
+            "mode": "inline",
+            "outcome": "commit",
+            "delayed": true,
+            "abandon_on_cancel": false,
+            "delegated": false,
+            "closed_registration": false,
+            "allowed": true,
+            "store": "effects",
+            "idempotency": false,
+            "query_complete": true
+          }
+        },
+        "checks": {
+          "adapter": true,
+          "version": true,
+          "python": true,
+          "framework": true,
+          "worker_sha256": true,
+          "host_sha256": true,
+          "observer_sha256": true,
+          "known_route": true,
+          "closed_registration": false,
+          "approval_allowed": true,
+          "same_effect_destination": true
+        },
+        "changed_dependencies": []
+      },
+      "decision": {
+        "action": "pause",
+        "reason": "original_lifecycle_unavailable",
+        "support": []
+      }
+    }
+  ],
+  "case": "I0Q1C0GrevokeFlate",
+  "elapsed_ns": 73331100
+}
