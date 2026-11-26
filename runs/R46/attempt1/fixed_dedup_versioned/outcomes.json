@@ -1,0 +1,1532 @@
+[
+  {
+    "regime": "fixed",
+    "policy": "dedup_versioned",
+    "cell": "A_lost_return_exact",
+    "fault": "lost_return",
+    "variant": "exact",
+    "seed": 0,
+    "workflow": "fixed_dedup_versioned_A_lost_return_exact_S0",
+    "op": "fixed_dedup_versioned_A_lost_return_exact_S0:attach",
+    "first": {
+      "terminal": "pause",
+      "reason": "dedup_failed"
+    },
+    "second": {
+      "terminal": "complete",
+      "reason": "deduplicated"
+    },
+    "requests": 4,
+    "elapsed_ns": 71719900,
+    "effects": 1,
+    "intents": [
+      "seat:12A"
+    ],
+    "duplicate": false,
+    "false_split": false,
+    "false_merge": false,
+    "correct": true,
+    "safe_complete": true,
+    "paused": false
+  },
+  {
+    "regime": "fixed",
+    "policy": "dedup_versioned",
+    "cell": "A_lost_return_exact",
+    "fault": "lost_return",
+    "variant": "exact",
+    "seed": 1,
+    "workflow": "fixed_dedup_versioned_A_lost_return_exact_S1",
+    "op": "fixed_dedup_versioned_A_lost_return_exact_S1:attach",
+    "first": {
+      "terminal": "pause",
+      "reason": "dedup_failed"
+    },
+    "second": {
+      "terminal": "complete",
+      "reason": "deduplicated"
+    },
+    "requests": 4,
+    "elapsed_ns": 48296800,
+    "effects": 1,
+    "intents": [
+      "seat:12A"
+    ],
+    "duplicate": false,
+    "false_split": false,
+    "false_merge": false,
+    "correct": true,
+    "safe_complete": true,
+    "paused": false
+  },
+  {
+    "regime": "fixed",
+    "policy": "dedup_versioned",
+    "cell": "A_lost_return_exact",
+    "fault": "lost_return",
+    "variant": "exact",
+    "seed": 2,
+    "workflow": "fixed_dedup_versioned_A_lost_return_exact_S2",
+    "op": "fixed_dedup_versioned_A_lost_return_exact_S2:attach",
+    "first": {
+      "terminal": "pause",
+      "reason": "dedup_failed"
+    },
+    "second": {
+      "terminal": "complete",
+      "reason": "deduplicated"
+    },
+    "requests": 4,
+    "elapsed_ns": 14578200,
+    "effects": 1,
+    "intents": [
+      "seat:12A"
+    ],
+    "duplicate": false,
+    "false_split": false,
+    "false_merge": false,
+    "correct": true,
+    "safe_complete": true,
+    "paused": false
+  },
+  {
+    "regime": "fixed",
+    "policy": "dedup_versioned",
+    "cell": "A_lost_return_exact",
+    "fault": "lost_return",
+    "variant": "exact",
+    "seed": 3,
+    "workflow": "fixed_dedup_versioned_A_lost_return_exact_S3",
+    "op": "fixed_dedup_versioned_A_lost_return_exact_S3:attach",
+    "first": {
+      "terminal": "pause",
+      "reason": "dedup_failed"
+    },
+    "second": {
+      "terminal": "complete",
+      "reason": "deduplicated"
+    },
+    "requests": 4,
+    "elapsed_ns": 29868000,
+    "effects": 1,
+    "intents": [
+      "seat:12A"
+    ],
+    "duplicate": false,
+    "false_split": false,
+    "false_merge": false,
+    "correct": true,
+    "safe_complete": true,
+    "paused": false
+  },
+  {
+    "regime": "fixed",
+    "policy": "dedup_versioned",
+    "cell": "A_lost_return_exact",
+    "fault": "lost_return",
+    "variant": "exact",
+    "seed": 4,
+    "workflow": "fixed_dedup_versioned_A_lost_return_exact_S4",
+    "op": "fixed_dedup_versioned_A_lost_return_exact_S4:attach",
+    "first": {
+      "terminal": "pause",
+      "reason": "dedup_failed"
+    },
+    "second": {
+      "terminal": "complete",
+      "reason": "deduplicated"
+    },
+    "requests": 4,
+    "elapsed_ns": 44116000,
+    "effects": 1,
+    "intents": [
+      "seat:12A"
+    ],
+    "duplicate": false,
+    "false_split": false,
+    "false_merge": false,
+    "correct": true,
+    "safe_complete": true,
+    "paused": false
+  },
+  {
+    "regime": "fixed",
+    "policy": "dedup_versioned",
+    "cell": "A_lost_return_exact",
+    "fault": "lost_return",
+    "variant": "exact",
+    "seed": 5,
+    "workflow": "fixed_dedup_versioned_A_lost_return_exact_S5",
+    "op": "fixed_dedup_versioned_A_lost_return_exact_S5:attach",
+    "first": {
+      "terminal": "pause",
+      "reason": "dedup_failed"
+    },
+    "second": {
+      "terminal": "complete",
+      "reason": "deduplicated"
+    },
+    "requests": 4,
+    "elapsed_ns": 48208100,
+    "effects": 1,
+    "intents": [
+      "seat:12A"
+    ],
+    "duplicate": false,
+    "false_split": false,
+    "false_merge": false,
+    "correct": true,
+    "safe_complete": true,
+    "paused": false
+  },
+  {
+    "regime": "fixed",
+    "policy": "dedup_versioned",
+    "cell": "A_lost_return_exact",
+    "fault": "lost_return",
+    "variant": "exact",
+    "seed": 6,
+    "workflow": "fixed_dedup_versioned_A_lost_return_exact_S6",
+    "op": "fixed_dedup_versioned_A_lost_return_exact_S6:attach",
+    "first": {
+      "terminal": "pause",
+      "reason": "dedup_failed"
+    },
+    "second": {
+      "terminal": "complete",
+      "reason": "deduplicated"
+    },
+    "requests": 4,
+    "elapsed_ns": 65459800,
+    "effects": 1,
+    "intents": [
+      "seat:12A"
+    ],
+    "duplicate": false,
+    "false_split": false,
+    "false_merge": false,
+    "correct": true,
+    "safe_complete": true,
+    "paused": false
+  },
+  {
+    "regime": "fixed",
+    "policy": "dedup_versioned",
+    "cell": "A_lost_return_exact",
+    "fault": "lost_return",
+    "variant": "exact",
+    "seed": 7,
+    "workflow": "fixed_dedup_versioned_A_lost_return_exact_S7",
+    "op": "fixed_dedup_versioned_A_lost_return_exact_S7:attach",
+    "first": {
+      "terminal": "pause",
+      "reason": "dedup_failed"
+    },
+    "second": {
+      "terminal": "complete",
+      "reason": "deduplicated"
+    },
+    "requests": 4,
+    "elapsed_ns": 77626500,
+    "effects": 1,
+    "intents": [
+      "seat:12A"
+    ],
+    "duplicate": false,
+    "false_split": false,
+    "false_merge": false,
+    "correct": true,
+    "safe_complete": true,
+    "paused": false
+  },
+  {
+    "regime": "fixed",
+    "policy": "dedup_versioned",
+    "cell": "A_lost_return_exact",
+    "fault": "lost_return",
+    "variant": "exact",
+    "seed": 8,
+    "workflow": "fixed_dedup_versioned_A_lost_return_exact_S8",
+    "op": "fixed_dedup_versioned_A_lost_return_exact_S8:attach",
+    "first": {
+      "terminal": "pause",
+      "reason": "dedup_failed"
+    },
+    "second": {
+      "terminal": "complete",
+      "reason": "deduplicated"
+    },
+    "requests": 4,
+    "elapsed_ns": 62483300,
+    "effects": 1,
+    "intents": [
+      "seat:12A"
+    ],
+    "duplicate": false,
+    "false_split": false,
+    "false_merge": false,
+    "correct": true,
+    "safe_complete": true,
+    "paused": false
+  },
+  {
+    "regime": "fixed",
+    "policy": "dedup_versioned",
+    "cell": "A_lost_return_exact",
+    "fault": "lost_return",
+    "variant": "exact",
+    "seed": 9,
+    "workflow": "fixed_dedup_versioned_A_lost_return_exact_S9",
+    "op": "fixed_dedup_versioned_A_lost_return_exact_S9:attach",
+    "first": {
+      "terminal": "pause",
+      "reason": "dedup_failed"
+    },
+    "second": {
+      "terminal": "complete",
+      "reason": "deduplicated"
+    },
+    "requests": 4,
+    "elapsed_ns": 45533000,
+    "effects": 1,
+    "intents": [
+      "seat:12A"
+    ],
+    "duplicate": false,
+    "false_split": false,
+    "false_merge": false,
+    "correct": true,
+    "safe_complete": true,
+    "paused": false
+  },
+  {
+    "regime": "fixed",
+    "policy": "dedup_versioned",
+    "cell": "A_lost_return_paraphrase",
+    "fault": "lost_return",
+    "variant": "paraphrase",
+    "seed": 0,
+    "workflow": "fixed_dedup_versioned_A_lost_return_paraphrase_S0",
+    "op": "fixed_dedup_versioned_A_lost_return_paraphrase_S0:attach",
+    "first": {
+      "terminal": "pause",
+      "reason": "dedup_failed"
+    },
+    "second": {
+      "terminal": "complete",
+      "reason": "committed"
+    },
+    "requests": 4,
+    "elapsed_ns": 79390400,
+    "effects": 2,
+    "intents": [
+      "assign seat 12A",
+      "seat:12A"
+    ],
+    "duplicate": false,
+    "false_split": true,
+    "false_merge": false,
+    "correct": false,
+    "safe_complete": false,
+    "paused": false
+  },
+  {
+    "regime": "fixed",
+    "policy": "dedup_versioned",
+    "cell": "A_lost_return_paraphrase",
+    "fault": "lost_return",
+    "variant": "paraphrase",
+    "seed": 1,
+    "workflow": "fixed_dedup_versioned_A_lost_return_paraphrase_S1",
+    "op": "fixed_dedup_versioned_A_lost_return_paraphrase_S1:attach",
+    "first": {
+      "terminal": "pause",
+      "reason": "dedup_failed"
+    },
+    "second": {
+      "terminal": "complete",
+      "reason": "committed"
+    },
+    "requests": 4,
+    "elapsed_ns": 64106300,
+    "effects": 2,
+    "intents": [
+      "assign seat 12A",
+      "seat:12A"
+    ],
+    "duplicate": false,
+    "false_split": true,
+    "false_merge": false,
+    "correct": false,
+    "safe_complete": false,
+    "paused": false
+  },
+  {
+    "regime": "fixed",
+    "policy": "dedup_versioned",
+    "cell": "A_lost_return_paraphrase",
+    "fault": "lost_return",
+    "variant": "paraphrase",
+    "seed": 2,
+    "workflow": "fixed_dedup_versioned_A_lost_return_paraphrase_S2",
+    "op": "fixed_dedup_versioned_A_lost_return_paraphrase_S2:attach",
+    "first": {
+      "terminal": "pause",
+      "reason": "dedup_failed"
+    },
+    "second": {
+      "terminal": "complete",
+      "reason": "committed"
+    },
+    "requests": 4,
+    "elapsed_ns": 46022100,
+    "effects": 2,
+    "intents": [
+      "assign seat 12A",
+      "seat:12A"
+    ],
+    "duplicate": false,
+    "false_split": true,
+    "false_merge": false,
+    "correct": false,
+    "safe_complete": false,
+    "paused": false
+  },
+  {
+    "regime": "fixed",
+    "policy": "dedup_versioned",
+    "cell": "A_lost_return_paraphrase",
+    "fault": "lost_return",
+    "variant": "paraphrase",
+    "seed": 3,
+    "workflow": "fixed_dedup_versioned_A_lost_return_paraphrase_S3",
+    "op": "fixed_dedup_versioned_A_lost_return_paraphrase_S3:attach",
+    "first": {
+      "terminal": "pause",
+      "reason": "dedup_failed"
+    },
+    "second": {
+      "terminal": "complete",
+      "reason": "committed"
+    },
+    "requests": 4,
+    "elapsed_ns": 45643300,
+    "effects": 2,
+    "intents": [
+      "assign seat 12A",
+      "seat:12A"
+    ],
+    "duplicate": false,
+    "false_split": true,
+    "false_merge": false,
+    "correct": false,
+    "safe_complete": false,
+    "paused": false
+  },
+  {
+    "regime": "fixed",
+    "policy": "dedup_versioned",
+    "cell": "A_lost_return_paraphrase",
+    "fault": "lost_return",
+    "variant": "paraphrase",
+    "seed": 4,
+    "workflow": "fixed_dedup_versioned_A_lost_return_paraphrase_S4",
+    "op": "fixed_dedup_versioned_A_lost_return_paraphrase_S4:attach",
+    "first": {
+      "terminal": "pause",
+      "reason": "dedup_failed"
+    },
+    "second": {
+      "terminal": "complete",
+      "reason": "committed"
+    },
+    "requests": 4,
+    "elapsed_ns": 78473200,
+    "effects": 2,
+    "intents": [
+      "assign seat 12A",
+      "seat:12A"
+    ],
+    "duplicate": false,
+    "false_split": true,
+    "false_merge": false,
+    "correct": false,
+    "safe_complete": false,
+    "paused": false
+  },
+  {
+    "regime": "fixed",
+    "policy": "dedup_versioned",
+    "cell": "A_lost_return_paraphrase",
+    "fault": "lost_return",
+    "variant": "paraphrase",
+    "seed": 5,
+    "workflow": "fixed_dedup_versioned_A_lost_return_paraphrase_S5",
+    "op": "fixed_dedup_versioned_A_lost_return_paraphrase_S5:attach",
+    "first": {
+      "terminal": "pause",
+      "reason": "dedup_failed"
+    },
+    "second": {
+      "terminal": "complete",
+      "reason": "committed"
+    },
+    "requests": 4,
+    "elapsed_ns": 77236200,
+    "effects": 2,
+    "intents": [
+      "assign seat 12A",
+      "seat:12A"
+    ],
+    "duplicate": false,
+    "false_split": true,
+    "false_merge": false,
+    "correct": false,
+    "safe_complete": false,
+    "paused": false
+  },
+  {
+    "regime": "fixed",
+    "policy": "dedup_versioned",
+    "cell": "A_lost_return_paraphrase",
+    "fault": "lost_return",
+    "variant": "paraphrase",
+    "seed": 6,
+    "workflow": "fixed_dedup_versioned_A_lost_return_paraphrase_S6",
+    "op": "fixed_dedup_versioned_A_lost_return_paraphrase_S6:attach",
+    "first": {
+      "terminal": "pause",
+      "reason": "dedup_failed"
+    },
+    "second": {
+      "terminal": "complete",
+      "reason": "committed"
+    },
+    "requests": 4,
+    "elapsed_ns": 31208600,
+    "effects": 2,
+    "intents": [
+      "assign seat 12A",
+      "seat:12A"
+    ],
+    "duplicate": false,
+    "false_split": true,
+    "false_merge": false,
+    "correct": false,
+    "safe_complete": false,
+    "paused": false
+  },
+  {
+    "regime": "fixed",
+    "policy": "dedup_versioned",
+    "cell": "A_lost_return_paraphrase",
+    "fault": "lost_return",
+    "variant": "paraphrase",
+    "seed": 7,
+    "workflow": "fixed_dedup_versioned_A_lost_return_paraphrase_S7",
+    "op": "fixed_dedup_versioned_A_lost_return_paraphrase_S7:attach",
+    "first": {
+      "terminal": "pause",
+      "reason": "dedup_failed"
+    },
+    "second": {
+      "terminal": "complete",
+      "reason": "committed"
+    },
+    "requests": 4,
+    "elapsed_ns": 30088800,
+    "effects": 2,
+    "intents": [
+      "assign seat 12A",
+      "seat:12A"
+    ],
+    "duplicate": false,
+    "false_split": true,
+    "false_merge": false,
+    "correct": false,
+    "safe_complete": false,
+    "paused": false
+  },
+  {
+    "regime": "fixed",
+    "policy": "dedup_versioned",
+    "cell": "A_lost_return_paraphrase",
+    "fault": "lost_return",
+    "variant": "paraphrase",
+    "seed": 8,
+    "workflow": "fixed_dedup_versioned_A_lost_return_paraphrase_S8",
+    "op": "fixed_dedup_versioned_A_lost_return_paraphrase_S8:attach",
+    "first": {
+      "terminal": "pause",
+      "reason": "dedup_failed"
+    },
+    "second": {
+      "terminal": "complete",
+      "reason": "committed"
+    },
+    "requests": 4,
+    "elapsed_ns": 62329500,
+    "effects": 2,
+    "intents": [
+      "assign seat 12A",
+      "seat:12A"
+    ],
+    "duplicate": false,
+    "false_split": true,
+    "false_merge": false,
+    "correct": false,
+    "safe_complete": false,
+    "paused": false
+  },
+  {
+    "regime": "fixed",
+    "policy": "dedup_versioned",
+    "cell": "A_lost_return_paraphrase",
+    "fault": "lost_return",
+    "variant": "paraphrase",
+    "seed": 9,
+    "workflow": "fixed_dedup_versioned_A_lost_return_paraphrase_S9",
+    "op": "fixed_dedup_versioned_A_lost_return_paraphrase_S9:attach",
+    "first": {
+      "terminal": "pause",
+      "reason": "dedup_failed"
+    },
+    "second": {
+      "terminal": "complete",
+      "reason": "committed"
+    },
+    "requests": 4,
+    "elapsed_ns": 78749500,
+    "effects": 2,
+    "intents": [
+      "assign seat 12A",
+      "seat:12A"
+    ],
+    "duplicate": false,
+    "false_split": true,
+    "false_merge": false,
+    "correct": false,
+    "safe_complete": false,
+    "paused": false
+  },
+  {
+    "regime": "fixed",
+    "policy": "dedup_versioned",
+    "cell": "A_late_commit_exact",
+    "fault": "late_commit",
+    "variant": "exact",
+    "seed": 0,
+    "workflow": "fixed_dedup_versioned_A_late_commit_exact_S0",
+    "op": "fixed_dedup_versioned_A_late_commit_exact_S0:attach",
+    "first": {
+      "terminal": "pause",
+      "reason": "dedup_failed"
+    },
+    "second": {
+      "terminal": "complete",
+      "reason": "committed"
+    },
+    "requests": 4,
+    "elapsed_ns": 385781700,
+    "effects": 1,
+    "intents": [
+      "seat:12A"
+    ],
+    "duplicate": false,
+    "false_split": false,
+    "false_merge": false,
+    "correct": true,
+    "safe_complete": true,
+    "paused": false
+  },
+  {
+    "regime": "fixed",
+    "policy": "dedup_versioned",
+    "cell": "A_late_commit_exact",
+    "fault": "late_commit",
+    "variant": "exact",
+    "seed": 1,
+    "workflow": "fixed_dedup_versioned_A_late_commit_exact_S1",
+    "op": "fixed_dedup_versioned_A_late_commit_exact_S1:attach",
+    "first": {
+      "terminal": "pause",
+      "reason": "dedup_failed"
+    },
+    "second": {
+      "terminal": "complete",
+      "reason": "committed"
+    },
+    "requests": 4,
+    "elapsed_ns": 316731100,
+    "effects": 1,
+    "intents": [
+      "seat:12A"
+    ],
+    "duplicate": false,
+    "false_split": false,
+    "false_merge": false,
+    "correct": true,
+    "safe_complete": true,
+    "paused": false
+  },
+  {
+    "regime": "fixed",
+    "policy": "dedup_versioned",
+    "cell": "A_late_commit_exact",
+    "fault": "late_commit",
+    "variant": "exact",
+    "seed": 2,
+    "workflow": "fixed_dedup_versioned_A_late_commit_exact_S2",
+    "op": "fixed_dedup_versioned_A_late_commit_exact_S2:attach",
+    "first": {
+      "terminal": "pause",
+      "reason": "dedup_failed"
+    },
+    "second": {
+      "terminal": "complete",
+      "reason": "committed"
+    },
+    "requests": 4,
+    "elapsed_ns": 381279800,
+    "effects": 1,
+    "intents": [
+      "seat:12A"
+    ],
+    "duplicate": false,
+    "false_split": false,
+    "false_merge": false,
+    "correct": true,
+    "safe_complete": true,
+    "paused": false
+  },
+  {
+    "regime": "fixed",
+    "policy": "dedup_versioned",
+    "cell": "A_late_commit_exact",
+    "fault": "late_commit",
+    "variant": "exact",
+    "seed": 3,
+    "workflow": "fixed_dedup_versioned_A_late_commit_exact_S3",
+    "op": "fixed_dedup_versioned_A_late_commit_exact_S3:attach",
+    "first": {
+      "terminal": "pause",
+      "reason": "dedup_failed"
+    },
+    "second": {
+      "terminal": "complete",
+      "reason": "committed"
+    },
+    "requests": 4,
+    "elapsed_ns": 345161100,
+    "effects": 1,
+    "intents": [
+      "seat:12A"
+    ],
+    "duplicate": false,
+    "false_split": false,
+    "false_merge": false,
+    "correct": true,
+    "safe_complete": true,
+    "paused": false
+  },
+  {
+    "regime": "fixed",
+    "policy": "dedup_versioned",
+    "cell": "A_late_commit_exact",
+    "fault": "late_commit",
+    "variant": "exact",
+    "seed": 4,
+    "workflow": "fixed_dedup_versioned_A_late_commit_exact_S4",
+    "op": "fixed_dedup_versioned_A_late_commit_exact_S4:attach",
+    "first": {
+      "terminal": "pause",
+      "reason": "dedup_failed"
+    },
+    "second": {
+      "terminal": "complete",
+      "reason": "committed"
+    },
+    "requests": 4,
+    "elapsed_ns": 354329000,
+    "effects": 1,
+    "intents": [
+      "seat:12A"
+    ],
+    "duplicate": false,
+    "false_split": false,
+    "false_merge": false,
+    "correct": true,
+    "safe_complete": true,
+    "paused": false
+  },
+  {
+    "regime": "fixed",
+    "policy": "dedup_versioned",
+    "cell": "A_late_commit_exact",
+    "fault": "late_commit",
+    "variant": "exact",
+    "seed": 5,
+    "workflow": "fixed_dedup_versioned_A_late_commit_exact_S5",
+    "op": "fixed_dedup_versioned_A_late_commit_exact_S5:attach",
+    "first": {
+      "terminal": "pause",
+      "reason": "dedup_failed"
+    },
+    "second": {
+      "terminal": "complete",
+      "reason": "committed"
+    },
+    "requests": 4,
+    "elapsed_ns": 374279400,
+    "effects": 1,
+    "intents": [
+      "seat:12A"
+    ],
+    "duplicate": false,
+    "false_split": false,
+    "false_merge": false,
+    "correct": true,
+    "safe_complete": true,
+    "paused": false
+  },
+  {
+    "regime": "fixed",
+    "policy": "dedup_versioned",
+    "cell": "A_late_commit_exact",
+    "fault": "late_commit",
+    "variant": "exact",
+    "seed": 6,
+    "workflow": "fixed_dedup_versioned_A_late_commit_exact_S6",
+    "op": "fixed_dedup_versioned_A_late_commit_exact_S6:attach",
+    "first": {
+      "terminal": "pause",
+      "reason": "dedup_failed"
+    },
+    "second": {
+      "terminal": "complete",
+      "reason": "committed"
+    },
+    "requests": 4,
+    "elapsed_ns": 377481000,
+    "effects": 1,
+    "intents": [
+      "seat:12A"
+    ],
+    "duplicate": false,
+    "false_split": false,
+    "false_merge": false,
+    "correct": true,
+    "safe_complete": true,
+    "paused": false
+  },
+  {
+    "regime": "fixed",
+    "policy": "dedup_versioned",
+    "cell": "A_late_commit_exact",
+    "fault": "late_commit",
+    "variant": "exact",
+    "seed": 7,
+    "workflow": "fixed_dedup_versioned_A_late_commit_exact_S7",
+    "op": "fixed_dedup_versioned_A_late_commit_exact_S7:attach",
+    "first": {
+      "terminal": "pause",
+      "reason": "dedup_failed"
+    },
+    "second": {
+      "terminal": "complete",
+      "reason": "committed"
+    },
+    "requests": 4,
+    "elapsed_ns": 361742600,
+    "effects": 1,
+    "intents": [
+      "seat:12A"
+    ],
+    "duplicate": false,
+    "false_split": false,
+    "false_merge": false,
+    "correct": true,
+    "safe_complete": true,
+    "paused": false
+  },
+  {
+    "regime": "fixed",
+    "policy": "dedup_versioned",
+    "cell": "A_late_commit_exact",
+    "fault": "late_commit",
+    "variant": "exact",
+    "seed": 8,
+    "workflow": "fixed_dedup_versioned_A_late_commit_exact_S8",
+    "op": "fixed_dedup_versioned_A_late_commit_exact_S8:attach",
+    "first": {
+      "terminal": "pause",
+      "reason": "dedup_failed"
+    },
+    "second": {
+      "terminal": "complete",
+      "reason": "committed"
+    },
+    "requests": 4,
+    "elapsed_ns": 355992000,
+    "effects": 1,
+    "intents": [
+      "seat:12A"
+    ],
+    "duplicate": false,
+    "false_split": false,
+    "false_merge": false,
+    "correct": true,
+    "safe_complete": true,
+    "paused": false
+  },
+  {
+    "regime": "fixed",
+    "policy": "dedup_versioned",
+    "cell": "A_late_commit_exact",
+    "fault": "late_commit",
+    "variant": "exact",
+    "seed": 9,
+    "workflow": "fixed_dedup_versioned_A_late_commit_exact_S9",
+    "op": "fixed_dedup_versioned_A_late_commit_exact_S9:attach",
+    "first": {
+      "terminal": "pause",
+      "reason": "dedup_failed"
+    },
+    "second": {
+      "terminal": "complete",
+      "reason": "committed"
+    },
+    "requests": 4,
+    "elapsed_ns": 348823500,
+    "effects": 1,
+    "intents": [
+      "seat:12A"
+    ],
+    "duplicate": false,
+    "false_split": false,
+    "false_merge": false,
+    "correct": true,
+    "safe_complete": true,
+    "paused": false
+  },
+  {
+    "regime": "fixed",
+    "policy": "dedup_versioned",
+    "cell": "A_late_commit_paraphrase",
+    "fault": "late_commit",
+    "variant": "paraphrase",
+    "seed": 0,
+    "workflow": "fixed_dedup_versioned_A_late_commit_paraphrase_S0",
+    "op": "fixed_dedup_versioned_A_late_commit_paraphrase_S0:attach",
+    "first": {
+      "terminal": "pause",
+      "reason": "dedup_failed"
+    },
+    "second": {
+      "terminal": "complete",
+      "reason": "committed"
+    },
+    "requests": 4,
+    "elapsed_ns": 345181600,
+    "effects": 2,
+    "intents": [
+      "assign seat 12A",
+      "seat:12A"
+    ],
+    "duplicate": false,
+    "false_split": true,
+    "false_merge": false,
+    "correct": false,
+    "safe_complete": false,
+    "paused": false
+  },
+  {
+    "regime": "fixed",
+    "policy": "dedup_versioned",
+    "cell": "A_late_commit_paraphrase",
+    "fault": "late_commit",
+    "variant": "paraphrase",
+    "seed": 1,
+    "workflow": "fixed_dedup_versioned_A_late_commit_paraphrase_S1",
+    "op": "fixed_dedup_versioned_A_late_commit_paraphrase_S1:attach",
+    "first": {
+      "terminal": "pause",
+      "reason": "dedup_failed"
+    },
+    "second": {
+      "terminal": "complete",
+      "reason": "committed"
+    },
+    "requests": 4,
+    "elapsed_ns": 332876600,
+    "effects": 2,
+    "intents": [
+      "assign seat 12A",
+      "seat:12A"
+    ],
+    "duplicate": false,
+    "false_split": true,
+    "false_merge": false,
+    "correct": false,
+    "safe_complete": false,
+    "paused": false
+  },
+  {
+    "regime": "fixed",
+    "policy": "dedup_versioned",
+    "cell": "A_late_commit_paraphrase",
+    "fault": "late_commit",
+    "variant": "paraphrase",
+    "seed": 2,
+    "workflow": "fixed_dedup_versioned_A_late_commit_paraphrase_S2",
+    "op": "fixed_dedup_versioned_A_late_commit_paraphrase_S2:attach",
+    "first": {
+      "terminal": "pause",
+      "reason": "dedup_failed"
+    },
+    "second": {
+      "terminal": "complete",
+      "reason": "committed"
+    },
+    "requests": 4,
+    "elapsed_ns": 341339100,
+    "effects": 2,
+    "intents": [
+      "assign seat 12A",
+      "seat:12A"
+    ],
+    "duplicate": false,
+    "false_split": true,
+    "false_merge": false,
+    "correct": false,
+    "safe_complete": false,
+    "paused": false
+  },
+  {
+    "regime": "fixed",
+    "policy": "dedup_versioned",
+    "cell": "A_late_commit_paraphrase",
+    "fault": "late_commit",
+    "variant": "paraphrase",
+    "seed": 3,
+    "workflow": "fixed_dedup_versioned_A_late_commit_paraphrase_S3",
+    "op": "fixed_dedup_versioned_A_late_commit_paraphrase_S3:attach",
+    "first": {
+      "terminal": "pause",
+      "reason": "dedup_failed"
+    },
+    "second": {
+      "terminal": "complete",
+      "reason": "committed"
+    },
+    "requests": 4,
+    "elapsed_ns": 370587800,
+    "effects": 2,
+    "intents": [
+      "assign seat 12A",
+      "seat:12A"
+    ],
+    "duplicate": false,
+    "false_split": true,
+    "false_merge": false,
+    "correct": false,
+    "safe_complete": false,
+    "paused": false
+  },
+  {
+    "regime": "fixed",
+    "policy": "dedup_versioned",
+    "cell": "A_late_commit_paraphrase",
+    "fault": "late_commit",
+    "variant": "paraphrase",
+    "seed": 4,
+    "workflow": "fixed_dedup_versioned_A_late_commit_paraphrase_S4",
+    "op": "fixed_dedup_versioned_A_late_commit_paraphrase_S4:attach",
+    "first": {
+      "terminal": "pause",
+      "reason": "dedup_failed"
+    },
+    "second": {
+      "terminal": "complete",
+      "reason": "committed"
+    },
+    "requests": 4,
+    "elapsed_ns": 375122100,
+    "effects": 2,
+    "intents": [
+      "assign seat 12A",
+      "seat:12A"
+    ],
+    "duplicate": false,
+    "false_split": true,
+    "false_merge": false,
+    "correct": false,
+    "safe_complete": false,
+    "paused": false
+  },
+  {
+    "regime": "fixed",
+    "policy": "dedup_versioned",
+    "cell": "A_late_commit_paraphrase",
+    "fault": "late_commit",
+    "variant": "paraphrase",
+    "seed": 5,
+    "workflow": "fixed_dedup_versioned_A_late_commit_paraphrase_S5",
+    "op": "fixed_dedup_versioned_A_late_commit_paraphrase_S5:attach",
+    "first": {
+      "terminal": "pause",
+      "reason": "dedup_failed"
+    },
+    "second": {
+      "terminal": "complete",
+      "reason": "committed"
+    },
+    "requests": 4,
+    "elapsed_ns": 343059200,
+    "effects": 2,
+    "intents": [
+      "assign seat 12A",
+      "seat:12A"
+    ],
+    "duplicate": false,
+    "false_split": true,
+    "false_merge": false,
+    "correct": false,
+    "safe_complete": false,
+    "paused": false
+  },
+  {
+    "regime": "fixed",
+    "policy": "dedup_versioned",
+    "cell": "A_late_commit_paraphrase",
+    "fault": "late_commit",
+    "variant": "paraphrase",
+    "seed": 6,
+    "workflow": "fixed_dedup_versioned_A_late_commit_paraphrase_S6",
+    "op": "fixed_dedup_versioned_A_late_commit_paraphrase_S6:attach",
+    "first": {
+      "terminal": "pause",
+      "reason": "dedup_failed"
+    },
+    "second": {
+      "terminal": "complete",
+      "reason": "committed"
+    },
+    "requests": 4,
+    "elapsed_ns": 359591900,
+    "effects": 2,
+    "intents": [
+      "assign seat 12A",
+      "seat:12A"
+    ],
+    "duplicate": false,
+    "false_split": true,
+    "false_merge": false,
+    "correct": false,
+    "safe_complete": false,
+    "paused": false
+  },
+  {
+    "regime": "fixed",
+    "policy": "dedup_versioned",
+    "cell": "A_late_commit_paraphrase",
+    "fault": "late_commit",
+    "variant": "paraphrase",
+    "seed": 7,
+    "workflow": "fixed_dedup_versioned_A_late_commit_paraphrase_S7",
+    "op": "fixed_dedup_versioned_A_late_commit_paraphrase_S7:attach",
+    "first": {
+      "terminal": "pause",
+      "reason": "dedup_failed"
+    },
+    "second": {
+      "terminal": "complete",
+      "reason": "committed"
+    },
+    "requests": 4,
+    "elapsed_ns": 360979600,
+    "effects": 2,
+    "intents": [
+      "assign seat 12A",
+      "seat:12A"
+    ],
+    "duplicate": false,
+    "false_split": true,
+    "false_merge": false,
+    "correct": false,
+    "safe_complete": false,
+    "paused": false
+  },
+  {
+    "regime": "fixed",
+    "policy": "dedup_versioned",
+    "cell": "A_late_commit_paraphrase",
+    "fault": "late_commit",
+    "variant": "paraphrase",
+    "seed": 8,
+    "workflow": "fixed_dedup_versioned_A_late_commit_paraphrase_S8",
+    "op": "fixed_dedup_versioned_A_late_commit_paraphrase_S8:attach",
+    "first": {
+      "terminal": "pause",
+      "reason": "dedup_failed"
+    },
+    "second": {
+      "terminal": "complete",
+      "reason": "committed"
+    },
+    "requests": 4,
+    "elapsed_ns": 374555500,
+    "effects": 2,
+    "intents": [
+      "assign seat 12A",
+      "seat:12A"
+    ],
+    "duplicate": false,
+    "false_split": true,
+    "false_merge": false,
+    "correct": false,
+    "safe_complete": false,
+    "paused": false
+  },
+  {
+    "regime": "fixed",
+    "policy": "dedup_versioned",
+    "cell": "A_late_commit_paraphrase",
+    "fault": "late_commit",
+    "variant": "paraphrase",
+    "seed": 9,
+    "workflow": "fixed_dedup_versioned_A_late_commit_paraphrase_S9",
+    "op": "fixed_dedup_versioned_A_late_commit_paraphrase_S9:attach",
+    "first": {
+      "terminal": "pause",
+      "reason": "dedup_failed"
+    },
+    "second": {
+      "terminal": "complete",
+      "reason": "committed"
+    },
+    "requests": 4,
+    "elapsed_ns": 373841900,
+    "effects": 2,
+    "intents": [
+      "assign seat 12A",
+      "seat:12A"
+    ],
+    "duplicate": false,
+    "false_split": true,
+    "false_merge": false,
+    "correct": false,
+    "safe_complete": false,
+    "paused": false
+  },
+  {
+    "regime": "fixed",
+    "policy": "dedup_versioned",
+    "cell": "B",
+    "fault": "none",
+    "variant": "B",
+    "seed": 0,
+    "workflow": "fixed_dedup_versioned_B_S0",
+    "op": "fixed_dedup_versioned_B_S0:attach",
+    "first": {
+      "terminal": "complete",
+      "reason": "committed"
+    },
+    "second": {
+      "terminal": "complete",
+      "reason": "committed"
+    },
+    "requests": 4,
+    "elapsed_ns": 77950800,
+    "effects": 2,
+    "intents": [
+      "hold:12A",
+      "seat:12A"
+    ],
+    "false_merge": false,
+    "duplicate": false,
+    "false_split": false,
+    "correct": true,
+    "safe_complete": true,
+    "paused": false
+  },
+  {
+    "regime": "fixed",
+    "policy": "dedup_versioned",
+    "cell": "B",
+    "fault": "none",
+    "variant": "B",
+    "seed": 1,
+    "workflow": "fixed_dedup_versioned_B_S1",
+    "op": "fixed_dedup_versioned_B_S1:attach",
+    "first": {
+      "terminal": "complete",
+      "reason": "committed"
+    },
+    "second": {
+      "terminal": "complete",
+      "reason": "committed"
+    },
+    "requests": 4,
+    "elapsed_ns": 78272700,
+    "effects": 2,
+    "intents": [
+      "hold:12A",
+      "seat:12A"
+    ],
+    "false_merge": false,
+    "duplicate": false,
+    "false_split": false,
+    "correct": true,
+    "safe_complete": true,
+    "paused": false
+  },
+  {
+    "regime": "fixed",
+    "policy": "dedup_versioned",
+    "cell": "B",
+    "fault": "none",
+    "variant": "B",
+    "seed": 2,
+    "workflow": "fixed_dedup_versioned_B_S2",
+    "op": "fixed_dedup_versioned_B_S2:attach",
+    "first": {
+      "terminal": "complete",
+      "reason": "committed"
+    },
+    "second": {
+      "terminal": "complete",
+      "reason": "committed"
+    },
+    "requests": 4,
+    "elapsed_ns": 63415500,
+    "effects": 2,
+    "intents": [
+      "hold:12A",
+      "seat:12A"
+    ],
+    "false_merge": false,
+    "duplicate": false,
+    "false_split": false,
+    "correct": true,
+    "safe_complete": true,
+    "paused": false
+  },
+  {
+    "regime": "fixed",
+    "policy": "dedup_versioned",
+    "cell": "B",
+    "fault": "none",
+    "variant": "B",
+    "seed": 3,
+    "workflow": "fixed_dedup_versioned_B_S3",
+    "op": "fixed_dedup_versioned_B_S3:attach",
+    "first": {
+      "terminal": "complete",
+      "reason": "committed"
+    },
+    "second": {
+      "terminal": "complete",
+      "reason": "committed"
+    },
+    "requests": 4,
+    "elapsed_ns": 47328000,
+    "effects": 2,
+    "intents": [
+      "hold:12A",
+      "seat:12A"
+    ],
+    "false_merge": false,
+    "duplicate": false,
+    "false_split": false,
+    "correct": true,
+    "safe_complete": true,
+    "paused": false
+  },
+  {
+    "regime": "fixed",
+    "policy": "dedup_versioned",
+    "cell": "B",
+    "fault": "none",
+    "variant": "B",
+    "seed": 4,
+    "workflow": "fixed_dedup_versioned_B_S4",
+    "op": "fixed_dedup_versioned_B_S4:attach",
+    "first": {
+      "terminal": "complete",
+      "reason": "committed"
+    },
+    "second": {
+      "terminal": "complete",
+      "reason": "committed"
+    },
+    "requests": 4,
+    "elapsed_ns": 45229100,
+    "effects": 2,
+    "intents": [
+      "hold:12A",
+      "seat:12A"
+    ],
+    "false_merge": false,
+    "duplicate": false,
+    "false_split": false,
+    "correct": true,
+    "safe_complete": true,
+    "paused": false
+  },
+  {
+    "regime": "fixed",
+    "policy": "dedup_versioned",
+    "cell": "B",
+    "fault": "none",
+    "variant": "B",
+    "seed": 5,
+    "workflow": "fixed_dedup_versioned_B_S5",
+    "op": "fixed_dedup_versioned_B_S5:attach",
+    "first": {
+      "terminal": "complete",
+      "reason": "committed"
+    },
+    "second": {
+      "terminal": "complete",
+      "reason": "committed"
+    },
+    "requests": 4,
+    "elapsed_ns": 65338800,
+    "effects": 2,
+    "intents": [
+      "hold:12A",
+      "seat:12A"
+    ],
+    "false_merge": false,
+    "duplicate": false,
+    "false_split": false,
+    "correct": true,
+    "safe_complete": true,
+    "paused": false
+  },
+  {
+    "regime": "fixed",
+    "policy": "dedup_versioned",
+    "cell": "B",
+    "fault": "none",
+    "variant": "B",
+    "seed": 6,
+    "workflow": "fixed_dedup_versioned_B_S6",
+    "op": "fixed_dedup_versioned_B_S6:attach",
+    "first": {
+      "terminal": "complete",
+      "reason": "committed"
+    },
+    "second": {
+      "terminal": "complete",
+      "reason": "committed"
+    },
+    "requests": 4,
+    "elapsed_ns": 46885900,
+    "effects": 2,
+    "intents": [
+      "hold:12A",
+      "seat:12A"
+    ],
+    "false_merge": false,
+    "duplicate": false,
+    "false_split": false,
+    "correct": true,
+    "safe_complete": true,
+    "paused": false
+  },
+  {
+    "regime": "fixed",
+    "policy": "dedup_versioned",
+    "cell": "B",
+    "fault": "none",
+    "variant": "B",
+    "seed": 7,
+    "workflow": "fixed_dedup_versioned_B_S7",
+    "op": "fixed_dedup_versioned_B_S7:attach",
+    "first": {
+      "terminal": "complete",
+      "reason": "committed"
+    },
+    "second": {
+      "terminal": "complete",
+      "reason": "committed"
+    },
+    "requests": 4,
+    "elapsed_ns": 60345800,
+    "effects": 2,
+    "intents": [
+      "hold:12A",
+      "seat:12A"
+    ],
+    "false_merge": false,
+    "duplicate": false,
+    "false_split": false,
+    "correct": true,
+    "safe_complete": true,
+    "paused": false
+  },
+  {
+    "regime": "fixed",
+    "policy": "dedup_versioned",
+    "cell": "B",
+    "fault": "none",
+    "variant": "B",
+    "seed": 8,
+    "workflow": "fixed_dedup_versioned_B_S8",
+    "op": "fixed_dedup_versioned_B_S8:attach",
+    "first": {
+      "terminal": "complete",
+      "reason": "committed"
+    },
+    "second": {
+      "terminal": "complete",
+      "reason": "committed"
+    },
+    "requests": 4,
+    "elapsed_ns": 63329900,
+    "effects": 2,
+    "intents": [
+      "hold:12A",
+      "seat:12A"
+    ],
+    "false_merge": false,
+    "duplicate": false,
+    "false_split": false,
+    "correct": true,
+    "safe_complete": true,
+    "paused": false
+  },
+  {
+    "regime": "fixed",
+    "policy": "dedup_versioned",
+    "cell": "B",
+    "fault": "none",
+    "variant": "B",
+    "seed": 9,
+    "workflow": "fixed_dedup_versioned_B_S9",
+    "op": "fixed_dedup_versioned_B_S9:attach",
+    "first": {
+      "terminal": "complete",
+      "reason": "committed"
+    },
+    "second": {
+      "terminal": "complete",
+      "reason": "committed"
+    },
+    "requests": 4,
+    "elapsed_ns": 77663300,
+    "effects": 2,
+    "intents": [
+      "hold:12A",
+      "seat:12A"
+    ],
+    "false_merge": false,
+    "duplicate": false,
+    "false_split": false,
+    "correct": true,
+    "safe_complete": true,
+    "paused": false
+  }
+]

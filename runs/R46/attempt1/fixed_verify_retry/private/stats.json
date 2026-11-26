@@ -1,0 +1,622 @@
+{
+  "fixed_verify_retry_A_lost_return_exact_S0": {
+    "ops": {
+      "fixed_verify_retry_A_lost_return_exact_S0:attach": {
+        "effects": 1,
+        "intents": [
+          "seat:12A"
+        ]
+      }
+    },
+    "provisional": 0,
+    "deduplicated": 0
+  },
+  "fixed_verify_retry_A_lost_return_exact_S1": {
+    "ops": {
+      "fixed_verify_retry_A_lost_return_exact_S1:attach": {
+        "effects": 1,
+        "intents": [
+          "seat:12A"
+        ]
+      }
+    },
+    "provisional": 0,
+    "deduplicated": 0
+  },
+  "fixed_verify_retry_A_lost_return_exact_S2": {
+    "ops": {
+      "fixed_verify_retry_A_lost_return_exact_S2:attach": {
+        "effects": 1,
+        "intents": [
+          "seat:12A"
+        ]
+      }
+    },
+    "provisional": 0,
+    "deduplicated": 0
+  },
+  "fixed_verify_retry_A_lost_return_exact_S3": {
+    "ops": {
+      "fixed_verify_retry_A_lost_return_exact_S3:attach": {
+        "effects": 1,
+        "intents": [
+          "seat:12A"
+        ]
+      }
+    },
+    "provisional": 0,
+    "deduplicated": 0
+  },
+  "fixed_verify_retry_A_lost_return_exact_S4": {
+    "ops": {
+      "fixed_verify_retry_A_lost_return_exact_S4:attach": {
+        "effects": 1,
+        "intents": [
+          "seat:12A"
+        ]
+      }
+    },
+    "provisional": 0,
+    "deduplicated": 0
+  },
+  "fixed_verify_retry_A_lost_return_exact_S5": {
+    "ops": {
+      "fixed_verify_retry_A_lost_return_exact_S5:attach": {
+        "effects": 1,
+        "intents": [
+          "seat:12A"
+        ]
+      }
+    },
+    "provisional": 0,
+    "deduplicated": 0
+  },
+  "fixed_verify_retry_A_lost_return_exact_S6": {
+    "ops": {
+      "fixed_verify_retry_A_lost_return_exact_S6:attach": {
+        "effects": 1,
+        "intents": [
+          "seat:12A"
+        ]
+      }
+    },
+    "provisional": 0,
+    "deduplicated": 0
+  },
+  "fixed_verify_retry_A_lost_return_exact_S7": {
+    "ops": {
+      "fixed_verify_retry_A_lost_return_exact_S7:attach": {
+        "effects": 1,
+        "intents": [
+          "seat:12A"
+        ]
+      }
+    },
+    "provisional": 0,
+    "deduplicated": 0
+  },
+  "fixed_verify_retry_A_lost_return_exact_S8": {
+    "ops": {
+      "fixed_verify_retry_A_lost_return_exact_S8:attach": {
+        "effects": 1,
+        "intents": [
+          "seat:12A"
+        ]
+      }
+    },
+    "provisional": 0,
+    "deduplicated": 0
+  },
+  "fixed_verify_retry_A_lost_return_exact_S9": {
+    "ops": {
+      "fixed_verify_retry_A_lost_return_exact_S9:attach": {
+        "effects": 1,
+        "intents": [
+          "seat:12A"
+        ]
+      }
+    },
+    "provisional": 0,
+    "deduplicated": 0
+  },
+  "fixed_verify_retry_A_lost_return_paraphrase_S0": {
+    "ops": {
+      "fixed_verify_retry_A_lost_return_paraphrase_S0:attach": {
+        "effects": 1,
+        "intents": [
+          "seat:12A"
+        ]
+      }
+    },
+    "provisional": 0,
+    "deduplicated": 0
+  },
+  "fixed_verify_retry_A_lost_return_paraphrase_S1": {
+    "ops": {
+      "fixed_verify_retry_A_lost_return_paraphrase_S1:attach": {
+        "effects": 1,
+        "intents": [
+          "seat:12A"
+        ]
+      }
+    },
+    "provisional": 0,
+    "deduplicated": 0
+  },
+  "fixed_verify_retry_A_lost_return_paraphrase_S2": {
+    "ops": {
+      "fixed_verify_retry_A_lost_return_paraphrase_S2:attach": {
+        "effects": 1,
+        "intents": [
+          "seat:12A"
+        ]
+      }
+    },
+    "provisional": 0,
+    "deduplicated": 0
+  },
+  "fixed_verify_retry_A_lost_return_paraphrase_S3": {
+    "ops": {
+      "fixed_verify_retry_A_lost_return_paraphrase_S3:attach": {
+        "effects": 1,
+        "intents": [
+          "seat:12A"
+        ]
+      }
+    },
+    "provisional": 0,
+    "deduplicated": 0
+  },
+  "fixed_verify_retry_A_lost_return_paraphrase_S4": {
+    "ops": {
+      "fixed_verify_retry_A_lost_return_paraphrase_S4:attach": {
+        "effects": 1,
+        "intents": [
+          "seat:12A"
+        ]
+      }
+    },
+    "provisional": 0,
+    "deduplicated": 0
+  },
+  "fixed_verify_retry_A_lost_return_paraphrase_S5": {
+    "ops": {
+      "fixed_verify_retry_A_lost_return_paraphrase_S5:attach": {
+        "effects": 1,
+        "intents": [
+          "seat:12A"
+        ]
+      }
+    },
+    "provisional": 0,
+    "deduplicated": 0
+  },
+  "fixed_verify_retry_A_lost_return_paraphrase_S6": {
+    "ops": {
+      "fixed_verify_retry_A_lost_return_paraphrase_S6:attach": {
+        "effects": 1,
+        "intents": [
+          "seat:12A"
+        ]
+      }
+    },
+    "provisional": 0,
+    "deduplicated": 0
+  },
+  "fixed_verify_retry_A_lost_return_paraphrase_S7": {
+    "ops": {
+      "fixed_verify_retry_A_lost_return_paraphrase_S7:attach": {
+        "effects": 1,
+        "intents": [
+          "seat:12A"
+        ]
+      }
+    },
+    "provisional": 0,
+    "deduplicated": 0
+  },
+  "fixed_verify_retry_A_lost_return_paraphrase_S8": {
+    "ops": {
+      "fixed_verify_retry_A_lost_return_paraphrase_S8:attach": {
+        "effects": 1,
+        "intents": [
+          "seat:12A"
+        ]
+      }
+    },
+    "provisional": 0,
+    "deduplicated": 0
+  },
+  "fixed_verify_retry_A_lost_return_paraphrase_S9": {
+    "ops": {
+      "fixed_verify_retry_A_lost_return_paraphrase_S9:attach": {
+        "effects": 1,
+        "intents": [
+          "seat:12A"
+        ]
+      }
+    },
+    "provisional": 0,
+    "deduplicated": 0
+  },
+  "fixed_verify_retry_A_late_commit_exact_S0": {
+    "ops": {
+      "fixed_verify_retry_A_late_commit_exact_S0:attach": {
+        "effects": 2,
+        "intents": [
+          "seat:12A"
+        ]
+      }
+    },
+    "provisional": 0,
+    "deduplicated": 0
+  },
+  "fixed_verify_retry_A_late_commit_exact_S1": {
+    "ops": {
+      "fixed_verify_retry_A_late_commit_exact_S1:attach": {
+        "effects": 2,
+        "intents": [
+          "seat:12A"
+        ]
+      }
+    },
+    "provisional": 0,
+    "deduplicated": 0
+  },
+  "fixed_verify_retry_A_late_commit_exact_S2": {
+    "ops": {
+      "fixed_verify_retry_A_late_commit_exact_S2:attach": {
+        "effects": 2,
+        "intents": [
+          "seat:12A"
+        ]
+      }
+    },
+    "provisional": 0,
+    "deduplicated": 0
+  },
+  "fixed_verify_retry_A_late_commit_exact_S3": {
+    "ops": {
+      "fixed_verify_retry_A_late_commit_exact_S3:attach": {
+        "effects": 2,
+        "intents": [
+          "seat:12A"
+        ]
+      }
+    },
+    "provisional": 0,
+    "deduplicated": 0
+  },
+  "fixed_verify_retry_A_late_commit_exact_S4": {
+    "ops": {
+      "fixed_verify_retry_A_late_commit_exact_S4:attach": {
+        "effects": 2,
+        "intents": [
+          "seat:12A"
+        ]
+      }
+    },
+    "provisional": 0,
+    "deduplicated": 0
+  },
+  "fixed_verify_retry_A_late_commit_exact_S5": {
+    "ops": {
+      "fixed_verify_retry_A_late_commit_exact_S5:attach": {
+        "effects": 2,
+        "intents": [
+          "seat:12A"
+        ]
+      }
+    },
+    "provisional": 0,
+    "deduplicated": 0
+  },
+  "fixed_verify_retry_A_late_commit_exact_S6": {
+    "ops": {
+      "fixed_verify_retry_A_late_commit_exact_S6:attach": {
+        "effects": 2,
+        "intents": [
+          "seat:12A"
+        ]
+      }
+    },
+    "provisional": 0,
+    "deduplicated": 0
+  },
+  "fixed_verify_retry_A_late_commit_exact_S7": {
+    "ops": {
+      "fixed_verify_retry_A_late_commit_exact_S7:attach": {
+        "effects": 2,
+        "intents": [
+          "seat:12A"
+        ]
+      }
+    },
+    "provisional": 0,
+    "deduplicated": 0
+  },
+  "fixed_verify_retry_A_late_commit_exact_S8": {
+    "ops": {
+      "fixed_verify_retry_A_late_commit_exact_S8:attach": {
+        "effects": 2,
+        "intents": [
+          "seat:12A"
+        ]
+      }
+    },
+    "provisional": 0,
+    "deduplicated": 0
+  },
+  "fixed_verify_retry_A_late_commit_exact_S9": {
+    "ops": {
+      "fixed_verify_retry_A_late_commit_exact_S9:attach": {
+        "effects": 2,
+        "intents": [
+          "seat:12A"
+        ]
+      }
+    },
+    "provisional": 0,
+    "deduplicated": 0
+  },
+  "fixed_verify_retry_A_late_commit_paraphrase_S0": {
+    "ops": {
+      "fixed_verify_retry_A_late_commit_paraphrase_S0:attach": {
+        "effects": 2,
+        "intents": [
+          "assign seat 12A",
+          "seat:12A"
+        ]
+      }
+    },
+    "provisional": 0,
+    "deduplicated": 0
+  },
+  "fixed_verify_retry_A_late_commit_paraphrase_S1": {
+    "ops": {
+      "fixed_verify_retry_A_late_commit_paraphrase_S1:attach": {
+        "effects": 2,
+        "intents": [
+          "assign seat 12A",
+          "seat:12A"
+        ]
+      }
+    },
+    "provisional": 0,
+    "deduplicated": 0
+  },
+  "fixed_verify_retry_A_late_commit_paraphrase_S2": {
+    "ops": {
+      "fixed_verify_retry_A_late_commit_paraphrase_S2:attach": {
+        "effects": 2,
+        "intents": [
+          "assign seat 12A",
+          "seat:12A"
+        ]
+      }
+    },
+    "provisional": 0,
+    "deduplicated": 0
+  },
+  "fixed_verify_retry_A_late_commit_paraphrase_S3": {
+    "ops": {
+      "fixed_verify_retry_A_late_commit_paraphrase_S3:attach": {
+        "effects": 2,
+        "intents": [
+          "assign seat 12A",
+          "seat:12A"
+        ]
+      }
+    },
+    "provisional": 0,
+    "deduplicated": 0
+  },
+  "fixed_verify_retry_A_late_commit_paraphrase_S4": {
+    "ops": {
+      "fixed_verify_retry_A_late_commit_paraphrase_S4:attach": {
+        "effects": 2,
+        "intents": [
+          "assign seat 12A",
+          "seat:12A"
+        ]
+      }
+    },
+    "provisional": 0,
+    "deduplicated": 0
+  },
+  "fixed_verify_retry_A_late_commit_paraphrase_S5": {
+    "ops": {
+      "fixed_verify_retry_A_late_commit_paraphrase_S5:attach": {
+        "effects": 2,
+        "intents": [
+          "assign seat 12A",
+          "seat:12A"
+        ]
+      }
+    },
+    "provisional": 0,
+    "deduplicated": 0
+  },
+  "fixed_verify_retry_A_late_commit_paraphrase_S6": {
+    "ops": {
+      "fixed_verify_retry_A_late_commit_paraphrase_S6:attach": {
+        "effects": 2,
+        "intents": [
+          "assign seat 12A",
+          "seat:12A"
+        ]
+      }
+    },
+    "provisional": 0,
+    "deduplicated": 0
+  },
+  "fixed_verify_retry_A_late_commit_paraphrase_S7": {
+    "ops": {
+      "fixed_verify_retry_A_late_commit_paraphrase_S7:attach": {
+        "effects": 2,
+        "intents": [
+          "assign seat 12A",
+          "seat:12A"
+        ]
+      }
+    },
+    "provisional": 0,
+    "deduplicated": 0
+  },
+  "fixed_verify_retry_A_late_commit_paraphrase_S8": {
+    "ops": {
+      "fixed_verify_retry_A_late_commit_paraphrase_S8:attach": {
+        "effects": 2,
+        "intents": [
+          "assign seat 12A",
+          "seat:12A"
+        ]
+      }
+    },
+    "provisional": 0,
+    "deduplicated": 0
+  },
+  "fixed_verify_retry_A_late_commit_paraphrase_S9": {
+    "ops": {
+      "fixed_verify_retry_A_late_commit_paraphrase_S9:attach": {
+        "effects": 2,
+        "intents": [
+          "assign seat 12A",
+          "seat:12A"
+        ]
+      }
+    },
+    "provisional": 0,
+    "deduplicated": 0
+  },
+  "fixed_verify_retry_B_S0": {
+    "ops": {
+      "fixed_verify_retry_B_S0:attach": {
+        "effects": 2,
+        "intents": [
+          "hold:12A",
+          "seat:12A"
+        ]
+      }
+    },
+    "provisional": 0,
+    "deduplicated": 0
+  },
+  "fixed_verify_retry_B_S1": {
+    "ops": {
+      "fixed_verify_retry_B_S1:attach": {
+        "effects": 2,
+        "intents": [
+          "hold:12A",
+          "seat:12A"
+        ]
+      }
+    },
+    "provisional": 0,
+    "deduplicated": 0
+  },
+  "fixed_verify_retry_B_S2": {
+    "ops": {
+      "fixed_verify_retry_B_S2:attach": {
+        "effects": 2,
+        "intents": [
+          "hold:12A",
+          "seat:12A"
+        ]
+      }
+    },
+    "provisional": 0,
+    "deduplicated": 0
+  },
+  "fixed_verify_retry_B_S3": {
+    "ops": {
+      "fixed_verify_retry_B_S3:attach": {
+        "effects": 2,
+        "intents": [
+          "hold:12A",
+          "seat:12A"
+        ]
+      }
+    },
+    "provisional": 0,
+    "deduplicated": 0
+  },
+  "fixed_verify_retry_B_S4": {
+    "ops": {
+      "fixed_verify_retry_B_S4:attach": {
+        "effects": 2,
+        "intents": [
+          "hold:12A",
+          "seat:12A"
+        ]
+      }
+    },
+    "provisional": 0,
+    "deduplicated": 0
+  },
+  "fixed_verify_retry_B_S5": {
+    "ops": {
+      "fixed_verify_retry_B_S5:attach": {
+        "effects": 2,
+        "intents": [
+          "hold:12A",
+          "seat:12A"
+        ]
+      }
+    },
+    "provisional": 0,
+    "deduplicated": 0
+  },
+  "fixed_verify_retry_B_S6": {
+    "ops": {
+      "fixed_verify_retry_B_S6:attach": {
+        "effects": 2,
+        "intents": [
+          "hold:12A",
+          "seat:12A"
+        ]
+      }
+    },
+    "provisional": 0,
+    "deduplicated": 0
+  },
+  "fixed_verify_retry_B_S7": {
+    "ops": {
+      "fixed_verify_retry_B_S7:attach": {
+        "effects": 2,
+        "intents": [
+          "hold:12A",
+          "seat:12A"
+        ]
+      }
+    },
+    "provisional": 0,
+    "deduplicated": 0
+  },
+  "fixed_verify_retry_B_S8": {
+    "ops": {
+      "fixed_verify_retry_B_S8:attach": {
+        "effects": 2,
+        "intents": [
+          "hold:12A",
+          "seat:12A"
+        ]
+      }
+    },
+    "provisional": 0,
+    "deduplicated": 0
+  },
+  "fixed_verify_retry_B_S9": {
+    "ops": {
+      "fixed_verify_retry_B_S9:attach": {
+        "effects": 2,
+        "intents": [
+          "hold:12A",
+          "seat:12A"
+        ]
+      }
+    },
+    "provisional": 0,
+    "deduplicated": 0
+  }
+}

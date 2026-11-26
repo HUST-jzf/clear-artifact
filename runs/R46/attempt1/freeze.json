@@ -1,0 +1,71 @@
+{
+  "files": {
+    "scripts/r46_service.py": "271e2839d6eb8fc83912d398277a1ac0558eced41d8d10f42c08faf62701a66d",
+    "scripts/r46_client.py": "20a980c71068c21c2a0c745653e2f0bb9a067d575b330fb563a9773cd57459c6",
+    "scripts/run_r46.py": "8c573ff9fe632080566d9ed62c078bb1a16092756a3dbbfd7a4aad48d42a0f8f",
+    "scripts/verify_r46.py": "931f1562a515839ca16d4fe9d61f4d0245365714b462320e68654cb669b8f499",
+    "docs/R46_identity_semantics_protocol_20261029.md": "dc6e3e7e7150f06530249c0dcf73672e4451ad191fb0b2b60f2605423df6f31c"
+  },
+  "regimes": {
+    "fixed": {
+      "dedup": "keyed",
+      "policies": [
+        "dedup_versioned",
+        "semantic_dedup",
+        "verify_retry",
+        "clear_fenced",
+        "clear_evidence"
+      ]
+    },
+    "fresh": {
+      "dedup": "keyed",
+      "policies": [
+        "dedup_fresh",
+        "semantic_dedup",
+        "verify_retry",
+        "clear_fenced",
+        "clear_evidence"
+      ]
+    },
+    "none": {
+      "dedup": "content",
+      "policies": [
+        "semantic_dedup",
+        "verify_retry",
+        "clear_fenced",
+        "clear_evidence"
+      ]
+    }
+  },
+  "faults": [
+    "lost_return",
+    "late_commit"
+  ],
+  "variants": [
+    "exact",
+    "paraphrase"
+  ],
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "args": {
+    "seat": "12A"
+  },
+  "intent": "seat:12A",
+  "paraphrase": "assign seat 12A",
+  "new_intent": "hold:12A",
+  "post_timeout_s": 0.3,
+  "late_delay_s": 0.9,
+  "python": "python",
+  "python_version": "3.13.2",
+  "created_ns": 1793284131373754700
+}
