@@ -57,7 +57,9 @@ The 93 module-identity checks in R1/R3 and the R3 CLI hash are the only checks
 that originally read outside the repository. The module files are mirrored
 byte-for-byte under `sources/_installation_mirror/<sha256>` and the checkers
 fall back to the mirror when the recorded path is absent; the Temporal CLI
-1.9.1 binary is shipped under `sources/R3_temporal/cli/`. The count is
+1.9.1 binary is shipped as a split archive under `sources/R3_temporal/cli/parts`
+and rebuilt by `sources/R3_temporal/cli/assemble.py` (run.ps1 does this on the
+first run; the script verifies the original sha256). The count is
 therefore the same on a machine that never hosted the original experiment
 environments. Check names, counts and hashes are unchanged.
 

@@ -77,11 +77,11 @@ Identifiers in parentheses match `runs/` and `docs/`.
 - The pinned CLEAR 2.0.0 wheel used by the reproduction entry.
 - Third-party versions, wheel hashes, static reviews, and npm manifests under `sources/`.
 
-Most checks read only files inside this repository. A small group of module-identity checks (93 in R1/R3) and the Temporal CLI hash in R3 originally read files from the experiment virtual environments. Those module files are shipped byte-identically in `sources/_installation_mirror/<sha256>`; `verify_r1.py`, `verify_r3.py`, and `verify_r3_temporal.py` use the mirror when the recorded path is absent. The Temporal CLI 1.9.1 binary is not stored in git because it is 152 MiB. Place it at `sources/R3_temporal/cli/temporal.exe` before the checks. Its sha256 is `c49d7f0d9f6a7ae5aed3b97a259070c1cee7bf7e7543be9b4c602109caf3c806`.
+Most checks read only files inside this repository. A small group of module-identity checks (93 in R1/R3) and the Temporal CLI hash in R3 originally read files from the experiment virtual environments. Those module files are shipped byte-identically in `sources/_installation_mirror/<sha256>`; `verify_r1.py`, `verify_r3.py`, and `verify_r3_temporal.py` use the mirror when the recorded path is absent. The Temporal CLI 1.9.1 binary is 152 MiB, above GitHub's 100 MiB file limit, so it is stored as a 43 MiB deflate archive split into 1 MiB pieces under `sources/R3_temporal/cli/parts`. `artifact/run.ps1` calls `sources/R3_temporal/cli/assemble.py` to join and unpack them into `sources/R3_temporal/cli/temporal.exe` before the checks. The unpacked file is the original binary, sha256 `c49d7f0d9f6a7ae5aed3b97a259070c1cee7bf7e7543be9b4c602109caf3c806`; `assemble.py` verifies this hash and stops on any mismatch.
 
 ## What is not included
 
-- Virtual environments, `__pycache__`, and third-party wheels or npm packages. They are reinstalled from pinned versions. The pinned Temporal CLI binary is also omitted; an R3 check hashes the copy placed at the path above.
+- Virtual environments, `__pycache__`, and third-party wheels or npm packages. They are reinstalled from pinned versions. The pinned Temporal CLI is included as pieces and joined before the R3 hash check.
 - The upstream Atomix checkout for R43 (commit `61e411b`).
 - Credentials and API keys. R39 and R40 require `DEEPSEEK_API_KEY` only when those model runs are executed again. The shipped records contain transcripts and no keys.
 - Calibration rounds, infrastructure-failure rounds, and exploratory pilot families that the paper does not cite.

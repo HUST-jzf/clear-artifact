@@ -8,7 +8,8 @@ Set-Location $root
 
 $cli = Join-Path $root "sources/R3_temporal/cli/temporal.exe"
 if (-not (Test-Path $cli)) {
-    throw "Missing sources/R3_temporal/cli/temporal.exe. Place the pinned Temporal CLI 1.9.1 binary there before running the checks. Its sha256 is c49d7f0d9f6a7ae5aed3b97a259070c1cee7bf7e7543be9b4c602109caf3c806."
+    python (Join-Path $root "sources/R3_temporal/cli/assemble.py")
+    if ($LASTEXITCODE -ne 0) { throw "failed to assemble sources/R3_temporal/cli/temporal.exe" }
 }
 
 $runPath = Join-Path $root $RunDir
