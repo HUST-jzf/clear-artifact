@@ -1,0 +1,60 @@
+{
+  "config": "tenant",
+  "policies": [
+    "clear",
+    "idem_retry",
+    "query_retry",
+    "reauth_retry",
+    "pause"
+  ],
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "fault": "lost_before_commit",
+  "fault_step": "attach",
+  "idempotency": "on",
+  "lifecycle": "faithful",
+  "query_mode": "forged_tenant",
+  "donor": "donor",
+  "steps": [
+    "create",
+    "reserve",
+    "attach",
+    "commit",
+    "notify"
+  ],
+  "files": {
+    "docs/R31_cross_tenant_binding_protocol.md": "ba453f175af5c403a18a5686eea1341a7b581d6a947599c429f61bed9fade9b5",
+    "scripts/r31_service.py": "aa0196122cbf957156a10d4685a05bb7bc40448bdc7c86d0339af5bb54af5523",
+    "scripts/r19_client.py": "8693a1615fa4055f311e1189de8b8ece0a67b0099dbc1b31415435127e2a6325",
+    "scripts/run_r31.py": "d436d39fa0dcf5e396103f6e58be5fd1f56dcbb87ec19722f802381c413bb131",
+    "scripts/verify_r31.py": "051aac6b4a5ae92f89f988aa378a473e334ae7cd4cda8a9d2de3ed4ee966b7dd"
+  },
+  "post_timeout_s": 0.4,
+  "get_timeout_s": 0.5,
+  "dispatch_jitter_s": 0.015,
+  "python": "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R1_anyio\\env\\Scripts\\python.exe",
+  "python_version": "3.13.2",
+  "service": "r31_service.py",
+  "target_calls_before_freeze": 0,
+  "created_ns": 1792595999012045100
+}

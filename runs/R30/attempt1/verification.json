@@ -1,0 +1,191 @@
+{
+  "run": "F:\\desktop\\paper\\clear-artifact\\runs\\R30\\attempt1",
+  "checks": 1289,
+  "passed": 1289,
+  "failed": [],
+  "systems": [
+    {
+      "config": "lifecycle_down-on",
+      "mode": "lifecycle_down",
+      "idempotency": "on",
+      "workflows": 100,
+      "wall_s": 35.372,
+      "failures": 0
+    },
+    {
+      "config": "lifecycle_down-off",
+      "mode": "lifecycle_down",
+      "idempotency": "off",
+      "workflows": 100,
+      "wall_s": 34.722,
+      "failures": 0
+    },
+    {
+      "config": "all_down-on",
+      "mode": "all_down",
+      "idempotency": "on",
+      "workflows": 100,
+      "wall_s": 34.712,
+      "failures": 0
+    },
+    {
+      "config": "all_down-off",
+      "mode": "all_down",
+      "idempotency": "off",
+      "workflows": 100,
+      "wall_s": 35.066,
+      "failures": 0
+    }
+  ],
+  "summary": {
+    "lifecycle_down-on": {
+      "clear": {
+        "workflows": 20,
+        "completed": 20,
+        "safe": 20,
+        "duplicates": 0,
+        "paused": 0
+      },
+      "idem_retry": {
+        "workflows": 20,
+        "completed": 20,
+        "safe": 20,
+        "duplicates": 0,
+        "paused": 0
+      },
+      "query_retry": {
+        "workflows": 20,
+        "completed": 20,
+        "safe": 20,
+        "duplicates": 0,
+        "paused": 0
+      },
+      "reauth_retry": {
+        "workflows": 20,
+        "completed": 20,
+        "safe": 20,
+        "duplicates": 0,
+        "paused": 0
+      },
+      "pause": {
+        "workflows": 20,
+        "completed": 0,
+        "safe": 0,
+        "duplicates": 0,
+        "paused": 20
+      }
+    },
+    "lifecycle_down-off": {
+      "clear": {
+        "workflows": 20,
+        "completed": 20,
+        "safe": 20,
+        "duplicates": 0,
+        "paused": 0
+      },
+      "idem_retry": {
+        "workflows": 20,
+        "completed": 20,
+        "safe": 0,
+        "duplicates": 20,
+        "paused": 0
+      },
+      "query_retry": {
+        "workflows": 20,
+        "completed": 20,
+        "safe": 20,
+        "duplicates": 0,
+        "paused": 0
+      },
+      "reauth_retry": {
+        "workflows": 20,
+        "completed": 20,
+        "safe": 0,
+        "duplicates": 20,
+        "paused": 0
+      },
+      "pause": {
+        "workflows": 20,
+        "completed": 0,
+        "safe": 0,
+        "duplicates": 0,
+        "paused": 20
+      }
+    },
+    "all_down-on": {
+      "clear": {
+        "workflows": 20,
+        "completed": 0,
+        "safe": 0,
+        "duplicates": 0,
+        "paused": 20
+      },
+      "idem_retry": {
+        "workflows": 20,
+        "completed": 20,
+        "safe": 20,
+        "duplicates": 0,
+        "paused": 0
+      },
+      "query_retry": {
+        "workflows": 20,
+        "completed": 0,
+        "safe": 0,
+        "duplicates": 0,
+        "paused": 20
+      },
+      "reauth_retry": {
+        "workflows": 20,
+        "completed": 20,
+        "safe": 20,
+        "duplicates": 0,
+        "paused": 0
+      },
+      "pause": {
+        "workflows": 20,
+        "completed": 0,
+        "safe": 0,
+        "duplicates": 0,
+        "paused": 20
+      }
+    },
+    "all_down-off": {
+      "clear": {
+        "workflows": 20,
+        "completed": 0,
+        "safe": 0,
+        "duplicates": 0,
+        "paused": 20
+      },
+      "idem_retry": {
+        "workflows": 20,
+        "completed": 20,
+        "safe": 0,
+        "duplicates": 20,
+        "paused": 0
+      },
+      "query_retry": {
+        "workflows": 20,
+        "completed": 0,
+        "safe": 0,
+        "duplicates": 0,
+        "paused": 20
+      },
+      "reauth_retry": {
+        "workflows": 20,
+        "completed": 20,
+        "safe": 0,
+        "duplicates": 20,
+        "paused": 0
+      },
+      "pause": {
+        "workflows": 20,
+        "completed": 0,
+        "safe": 0,
+        "duplicates": 0,
+        "paused": 20
+      }
+    }
+  },
+  "status": "pass"
+}
