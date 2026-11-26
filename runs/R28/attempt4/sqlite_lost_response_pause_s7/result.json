@@ -1,0 +1,33 @@
+{
+  "policy": "pause",
+  "terminal": "pause",
+  "reason": "single_pause",
+  "events": [
+    {
+      "action": "post",
+      "phase": "initial",
+      "outcome": "unknown"
+    }
+  ],
+  "body": {
+    "state": "unknown",
+    "error": "tools/call@400ms"
+  },
+  "server": "sqlite",
+  "fault": "lost_response",
+  "seed": 7,
+  "token": "effect:sqlite:lost_response:pause:s7",
+  "context": {
+    "operation_id": "sqlite_lost_response_pause_s7",
+    "intent": "55f34e953c4b81b6505cc7ea4694ed85b6f643e19f5af1baa36996d83f07a844",
+    "generation": 1
+  },
+  "calls": [
+    {
+      "tool": "execute",
+      "outcome": "timeout",
+      "elapsed_ns": 409257199
+    }
+  ],
+  "elapsed_ns": 901196700
+}

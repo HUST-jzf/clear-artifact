@@ -1,0 +1,31 @@
+{
+  "sizes": [
+    25,
+    50,
+    100
+  ],
+  "policy": "clear",
+  "faults": [],
+  "idempotency": "on",
+  "lifecycle": "faithful",
+  "query_mode": "faithful",
+  "steps": [
+    "create",
+    "reserve",
+    "attach",
+    "commit",
+    "notify"
+  ],
+  "files": {
+    "docs/R29_evidence_storage_cost_protocol.md": "69c4995d3aacaeedc5fc88b4179d36d970b8491a3dcfc4bb9268e7fd147c10ca",
+    "scripts/r19_service.py": "e8c7c23e90bd41124f7a900c3f7af56b2ca5232ffa323f66288af969af6a8243",
+    "scripts/r19_client.py": "8693a1615fa4055f311e1189de8b8ece0a67b0099dbc1b31415435127e2a6325",
+    "scripts/run_r29.py": "0bae475281795c673fd292750fdeda7b0a268c091221b32a1f12e0a6d3cbb6d6",
+    "scripts/verify_r29.py": "3e2572b29575306018760a9d02eedafbeac261ff353bd3e609986db6dceae6a6"
+  },
+  "python": "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R1_anyio\\env\\Scripts\\python.exe",
+  "python_version": "3.13.2",
+  "service": "r19_service.py",
+  "target_calls_before_freeze": 0,
+  "created_ns": 1792593667376702900
+}

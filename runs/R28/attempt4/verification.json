@@ -1,0 +1,88 @@
+{
+  "checks": 1922,
+  "passed": 1922,
+  "status": "pass",
+  "cells": {
+    "memory/lost_response/clear": {
+      "complete": 20,
+      "duplicates": 0,
+      "safe": 20
+    },
+    "memory/lost_response/blind_retry": {
+      "complete": 20,
+      "duplicates": 0,
+      "safe": 20
+    },
+    "memory/lost_response/query_retry": {
+      "complete": 20,
+      "duplicates": 0,
+      "safe": 20
+    },
+    "memory/lost_response/pause": {
+      "complete": 0,
+      "duplicates": 0,
+      "safe": 0
+    },
+    "memory/lost_before_effect/clear": {
+      "complete": 0,
+      "duplicates": 0,
+      "safe": 0
+    },
+    "memory/lost_before_effect/blind_retry": {
+      "complete": 20,
+      "duplicates": 0,
+      "safe": 20
+    },
+    "memory/lost_before_effect/query_retry": {
+      "complete": 20,
+      "duplicates": 0,
+      "safe": 20
+    },
+    "memory/lost_before_effect/pause": {
+      "complete": 0,
+      "duplicates": 0,
+      "safe": 0
+    },
+    "sqlite/lost_response/clear": {
+      "complete": 20,
+      "duplicates": 0,
+      "safe": 20
+    },
+    "sqlite/lost_response/blind_retry": {
+      "complete": 20,
+      "duplicates": 20,
+      "safe": 0
+    },
+    "sqlite/lost_response/query_retry": {
+      "complete": 20,
+      "duplicates": 0,
+      "safe": 20
+    },
+    "sqlite/lost_response/pause": {
+      "complete": 0,
+      "duplicates": 0,
+      "safe": 0
+    },
+    "sqlite/lost_before_effect/clear": {
+      "complete": 0,
+      "duplicates": 0,
+      "safe": 0
+    },
+    "sqlite/lost_before_effect/blind_retry": {
+      "complete": 20,
+      "duplicates": 0,
+      "safe": 20
+    },
+    "sqlite/lost_before_effect/query_retry": {
+      "complete": 20,
+      "duplicates": 0,
+      "safe": 20
+    },
+    "sqlite/lost_before_effect/pause": {
+      "complete": 0,
+      "duplicates": 0,
+      "safe": 0
+    }
+  },
+  "failed": []
+}
