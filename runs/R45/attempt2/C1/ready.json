@@ -1,0 +1,12 @@
+{
+  "base_url": "http://127.0.0.1:58463",
+  "profile": "C1",
+  "axes": {
+    "closure": 1,
+    "read": "unavailable",
+    "version": 0,
+    "admission": 0,
+    "staging": 0,
+    "dedup": 0
+  }
+}
