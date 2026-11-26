@@ -1,0 +1,41 @@
+{
+  "run": "F:\\desktop\\paper\\clear-artifact\\runs\\R23\\attempt1",
+  "checks": 512,
+  "passed": 512,
+  "failed": [],
+  "summary": {
+    "clear": {
+      "workflows": 40,
+      "safe": 40,
+      "completed": 40,
+      "duplicates": 0,
+      "pauses": 0,
+      "false_complete": 0
+    },
+    "idem_retry": {
+      "workflows": 40,
+      "safe": 40,
+      "completed": 40,
+      "duplicates": 0,
+      "pauses": 0,
+      "false_complete": 0
+    },
+    "idem_fresh": {
+      "workflows": 40,
+      "safe": 0,
+      "completed": 40,
+      "duplicates": 40,
+      "pauses": 0,
+      "false_complete": 0
+    },
+    "pause": {
+      "workflows": 40,
+      "safe": 0,
+      "completed": 0,
+      "duplicates": 0,
+      "pauses": 40,
+      "false_complete": 0
+    }
+  },
+  "status": "pass"
+}

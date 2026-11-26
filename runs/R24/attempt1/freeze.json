@@ -1,0 +1,67 @@
+{
+  "config": "idem_off",
+  "policies": [
+    "clear",
+    "clear_replay",
+    "clear_resume",
+    "idem_retry"
+  ],
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "conditions": {
+    "revoke_at_attach": {
+      "kind": "revoke",
+      "step": "attach"
+    },
+    "blackout_at_attach": {
+      "kind": "blackout",
+      "step": "attach"
+    }
+  },
+  "idempotency": "off",
+  "lifecycle": "faithful",
+  "query_mode": "faithful",
+  "steps": [
+    "create",
+    "reserve",
+    "attach",
+    "commit",
+    "notify"
+  ],
+  "files": {
+    "docs/R24_recoverable_pause_protocol.md": "c4de0b718675c209acd8143ea67d778e19c11fc5415035a463bda4f027dfba85",
+    "scripts/r24_service.py": "f79016a348d7db1bf6588708b4a5b15a5538f93345d0e9cc94e5454892b85f9b",
+    "scripts/r19_client.py": "8693a1615fa4055f311e1189de8b8ece0a67b0099dbc1b31415435127e2a6325",
+    "scripts/r24_client.py": "4dd11c32da52a96d86e9c9aa4623dfdd6e94f80131ddfef49c29d477ca689b11",
+    "scripts/run_r24.py": "ba949b603f58630ac36129b443628ac2d89148a8e26ae6f758bf9e6f5cbd08bd",
+    "scripts/verify_r24.py": "b38f8653f268e43337977165128aa99b6e77d5356656bf66643bbcb2409851a3"
+  },
+  "post_timeout_s": 0.4,
+  "get_timeout_s": 0.5,
+  "dispatch_jitter_s": 0.015,
+  "python": "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R1_anyio\\env\\Scripts\\python.exe",
+  "python_version": "3.13.2",
+  "service": "r24_service.py",
+  "target_calls_before_freeze": 0,
+  "created_ns": 1792593247775302200
+}
