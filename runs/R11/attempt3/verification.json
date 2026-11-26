@@ -1,0 +1,7696 @@
+{
+  "checks": [
+    {
+      "name": "freeze:docs/R11_process_crash_protocol.md",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "freeze:scripts/r11_worker.py",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "freeze:scripts/r11_host.py",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "freeze:scripts/run_r11.py",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "freeze:scripts/verify_r11.py",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "freeze:scripts/r1_policies.py",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "no-run-failures",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "name": "task-count",
+      "ok": true,
+      "detail": 250
+    },
+    {
+      "name": "clear-no-duplicate:crash_after_commit:clear:S0",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "clear-no-stale:crash_after_commit:clear:S0",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "clear-no-false-complete:crash_after_commit:clear:S0",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "clear-terminal:crash_after_commit:clear:S0",
+      "ok": true,
+      "detail": "complete"
+    },
+    {
+      "name": "clear-rows:crash_after_commit:clear:S0",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "crashed:crash_after_commit:clear:S0",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "clear-no-duplicate:crash_after_commit:clear:S1",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "clear-no-stale:crash_after_commit:clear:S1",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "clear-no-false-complete:crash_after_commit:clear:S1",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "clear-terminal:crash_after_commit:clear:S1",
+      "ok": true,
+      "detail": "complete"
+    },
+    {
+      "name": "clear-rows:crash_after_commit:clear:S1",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "crashed:crash_after_commit:clear:S1",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "clear-no-duplicate:crash_after_commit:clear:S2",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "clear-no-stale:crash_after_commit:clear:S2",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "clear-no-false-complete:crash_after_commit:clear:S2",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "clear-terminal:crash_after_commit:clear:S2",
+      "ok": true,
+      "detail": "complete"
+    },
+    {
+      "name": "clear-rows:crash_after_commit:clear:S2",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "crashed:crash_after_commit:clear:S2",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "clear-no-duplicate:crash_after_commit:clear:S3",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "clear-no-stale:crash_after_commit:clear:S3",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "clear-no-false-complete:crash_after_commit:clear:S3",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "clear-terminal:crash_after_commit:clear:S3",
+      "ok": true,
+      "detail": "complete"
+    },
+    {
+      "name": "clear-rows:crash_after_commit:clear:S3",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "crashed:crash_after_commit:clear:S3",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "clear-no-duplicate:crash_after_commit:clear:S4",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "clear-no-stale:crash_after_commit:clear:S4",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "clear-no-false-complete:crash_after_commit:clear:S4",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "clear-terminal:crash_after_commit:clear:S4",
+      "ok": true,
+      "detail": "complete"
+    },
+    {
+      "name": "clear-rows:crash_after_commit:clear:S4",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "crashed:crash_after_commit:clear:S4",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "clear-no-duplicate:crash_after_commit:clear:S5",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "clear-no-stale:crash_after_commit:clear:S5",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "clear-no-false-complete:crash_after_commit:clear:S5",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "clear-terminal:crash_after_commit:clear:S5",
+      "ok": true,
+      "detail": "complete"
+    },
+    {
+      "name": "clear-rows:crash_after_commit:clear:S5",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "crashed:crash_after_commit:clear:S5",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "clear-no-duplicate:crash_after_commit:clear:S6",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "clear-no-stale:crash_after_commit:clear:S6",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "clear-no-false-complete:crash_after_commit:clear:S6",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "clear-terminal:crash_after_commit:clear:S6",
+      "ok": true,
+      "detail": "complete"
+    },
+    {
+      "name": "clear-rows:crash_after_commit:clear:S6",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "crashed:crash_after_commit:clear:S6",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "clear-no-duplicate:crash_after_commit:clear:S7",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "clear-no-stale:crash_after_commit:clear:S7",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "clear-no-false-complete:crash_after_commit:clear:S7",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "clear-terminal:crash_after_commit:clear:S7",
+      "ok": true,
+      "detail": "complete"
+    },
+    {
+      "name": "clear-rows:crash_after_commit:clear:S7",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "crashed:crash_after_commit:clear:S7",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "clear-no-duplicate:crash_after_commit:clear:S8",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "clear-no-stale:crash_after_commit:clear:S8",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "clear-no-false-complete:crash_after_commit:clear:S8",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "clear-terminal:crash_after_commit:clear:S8",
+      "ok": true,
+      "detail": "complete"
+    },
+    {
+      "name": "clear-rows:crash_after_commit:clear:S8",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "crashed:crash_after_commit:clear:S8",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "clear-no-duplicate:crash_after_commit:clear:S9",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "clear-no-stale:crash_after_commit:clear:S9",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "clear-no-false-complete:crash_after_commit:clear:S9",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "clear-terminal:crash_after_commit:clear:S9",
+      "ok": true,
+      "detail": "complete"
+    },
+    {
+      "name": "clear-rows:crash_after_commit:clear:S9",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "crashed:crash_after_commit:clear:S9",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit:idem_retry:S0",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit:idem_retry:S1",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit:idem_retry:S2",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit:idem_retry:S3",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit:idem_retry:S4",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit:idem_retry:S5",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit:idem_retry:S6",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit:idem_retry:S7",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit:idem_retry:S8",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit:idem_retry:S9",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit:query_retry:S0",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit:query_retry:S1",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit:query_retry:S2",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit:query_retry:S3",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit:query_retry:S4",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit:query_retry:S5",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit:query_retry:S6",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit:query_retry:S7",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit:query_retry:S8",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit:query_retry:S9",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit:reauth_retry:S0",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit:reauth_retry:S1",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit:reauth_retry:S2",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit:reauth_retry:S3",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit:reauth_retry:S4",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit:reauth_retry:S5",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit:reauth_retry:S6",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit:reauth_retry:S7",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit:reauth_retry:S8",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit:reauth_retry:S9",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit:pause:S0",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit:pause:S1",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit:pause:S2",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit:pause:S3",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit:pause:S4",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit:pause:S5",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit:pause:S6",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit:pause:S7",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit:pause:S8",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit:pause:S9",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "clear-no-duplicate:crash_before_commit:clear:S0",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "clear-no-stale:crash_before_commit:clear:S0",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "clear-no-false-complete:crash_before_commit:clear:S0",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "clear-terminal:crash_before_commit:clear:S0",
+      "ok": true,
+      "detail": "pause"
+    },
+    {
+      "name": "clear-rows:crash_before_commit:clear:S0",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "crashed:crash_before_commit:clear:S0",
+      "ok": true,
+      "detail": [
+        "crash.before"
+      ]
+    },
+    {
+      "name": "clear-no-duplicate:crash_before_commit:clear:S1",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "clear-no-stale:crash_before_commit:clear:S1",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "clear-no-false-complete:crash_before_commit:clear:S1",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "clear-terminal:crash_before_commit:clear:S1",
+      "ok": true,
+      "detail": "pause"
+    },
+    {
+      "name": "clear-rows:crash_before_commit:clear:S1",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "crashed:crash_before_commit:clear:S1",
+      "ok": true,
+      "detail": [
+        "crash.before"
+      ]
+    },
+    {
+      "name": "clear-no-duplicate:crash_before_commit:clear:S2",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "clear-no-stale:crash_before_commit:clear:S2",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "clear-no-false-complete:crash_before_commit:clear:S2",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "clear-terminal:crash_before_commit:clear:S2",
+      "ok": true,
+      "detail": "pause"
+    },
+    {
+      "name": "clear-rows:crash_before_commit:clear:S2",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "crashed:crash_before_commit:clear:S2",
+      "ok": true,
+      "detail": [
+        "crash.before"
+      ]
+    },
+    {
+      "name": "clear-no-duplicate:crash_before_commit:clear:S3",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "clear-no-stale:crash_before_commit:clear:S3",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "clear-no-false-complete:crash_before_commit:clear:S3",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "clear-terminal:crash_before_commit:clear:S3",
+      "ok": true,
+      "detail": "pause"
+    },
+    {
+      "name": "clear-rows:crash_before_commit:clear:S3",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "crashed:crash_before_commit:clear:S3",
+      "ok": true,
+      "detail": [
+        "crash.before"
+      ]
+    },
+    {
+      "name": "clear-no-duplicate:crash_before_commit:clear:S4",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "clear-no-stale:crash_before_commit:clear:S4",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "clear-no-false-complete:crash_before_commit:clear:S4",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "clear-terminal:crash_before_commit:clear:S4",
+      "ok": true,
+      "detail": "pause"
+    },
+    {
+      "name": "clear-rows:crash_before_commit:clear:S4",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "crashed:crash_before_commit:clear:S4",
+      "ok": true,
+      "detail": [
+        "crash.before"
+      ]
+    },
+    {
+      "name": "clear-no-duplicate:crash_before_commit:clear:S5",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "clear-no-stale:crash_before_commit:clear:S5",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "clear-no-false-complete:crash_before_commit:clear:S5",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "clear-terminal:crash_before_commit:clear:S5",
+      "ok": true,
+      "detail": "pause"
+    },
+    {
+      "name": "clear-rows:crash_before_commit:clear:S5",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "crashed:crash_before_commit:clear:S5",
+      "ok": true,
+      "detail": [
+        "crash.before"
+      ]
+    },
+    {
+      "name": "clear-no-duplicate:crash_before_commit:clear:S6",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "clear-no-stale:crash_before_commit:clear:S6",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "clear-no-false-complete:crash_before_commit:clear:S6",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "clear-terminal:crash_before_commit:clear:S6",
+      "ok": true,
+      "detail": "pause"
+    },
+    {
+      "name": "clear-rows:crash_before_commit:clear:S6",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "crashed:crash_before_commit:clear:S6",
+      "ok": true,
+      "detail": [
+        "crash.before"
+      ]
+    },
+    {
+      "name": "clear-no-duplicate:crash_before_commit:clear:S7",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "clear-no-stale:crash_before_commit:clear:S7",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "clear-no-false-complete:crash_before_commit:clear:S7",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "clear-terminal:crash_before_commit:clear:S7",
+      "ok": true,
+      "detail": "pause"
+    },
+    {
+      "name": "clear-rows:crash_before_commit:clear:S7",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "crashed:crash_before_commit:clear:S7",
+      "ok": true,
+      "detail": [
+        "crash.before"
+      ]
+    },
+    {
+      "name": "clear-no-duplicate:crash_before_commit:clear:S8",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "clear-no-stale:crash_before_commit:clear:S8",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "clear-no-false-complete:crash_before_commit:clear:S8",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "clear-terminal:crash_before_commit:clear:S8",
+      "ok": true,
+      "detail": "pause"
+    },
+    {
+      "name": "clear-rows:crash_before_commit:clear:S8",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "crashed:crash_before_commit:clear:S8",
+      "ok": true,
+      "detail": [
+        "crash.before"
+      ]
+    },
+    {
+      "name": "clear-no-duplicate:crash_before_commit:clear:S9",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "clear-no-stale:crash_before_commit:clear:S9",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "clear-no-false-complete:crash_before_commit:clear:S9",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "clear-terminal:crash_before_commit:clear:S9",
+      "ok": true,
+      "detail": "pause"
+    },
+    {
+      "name": "clear-rows:crash_before_commit:clear:S9",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "crashed:crash_before_commit:clear:S9",
+      "ok": true,
+      "detail": [
+        "crash.before"
+      ]
+    },
+    {
+      "name": "crashed:crash_before_commit:idem_retry:S0",
+      "ok": true,
+      "detail": [
+        "crash.before"
+      ]
+    },
+    {
+      "name": "crashed:crash_before_commit:idem_retry:S1",
+      "ok": true,
+      "detail": [
+        "crash.before"
+      ]
+    },
+    {
+      "name": "crashed:crash_before_commit:idem_retry:S2",
+      "ok": true,
+      "detail": [
+        "crash.before"
+      ]
+    },
+    {
+      "name": "crashed:crash_before_commit:idem_retry:S3",
+      "ok": true,
+      "detail": [
+        "crash.before"
+      ]
+    },
+    {
+      "name": "crashed:crash_before_commit:idem_retry:S4",
+      "ok": true,
+      "detail": [
+        "crash.before"
+      ]
+    },
+    {
+      "name": "crashed:crash_before_commit:idem_retry:S5",
+      "ok": true,
+      "detail": [
+        "crash.before"
+      ]
+    },
+    {
+      "name": "crashed:crash_before_commit:idem_retry:S6",
+      "ok": true,
+      "detail": [
+        "crash.before"
+      ]
+    },
+    {
+      "name": "crashed:crash_before_commit:idem_retry:S7",
+      "ok": true,
+      "detail": [
+        "crash.before"
+      ]
+    },
+    {
+      "name": "crashed:crash_before_commit:idem_retry:S8",
+      "ok": true,
+      "detail": [
+        "crash.before"
+      ]
+    },
+    {
+      "name": "crashed:crash_before_commit:idem_retry:S9",
+      "ok": true,
+      "detail": [
+        "crash.before"
+      ]
+    },
+    {
+      "name": "crashed:crash_before_commit:query_retry:S0",
+      "ok": true,
+      "detail": [
+        "crash.before"
+      ]
+    },
+    {
+      "name": "crashed:crash_before_commit:query_retry:S1",
+      "ok": true,
+      "detail": [
+        "crash.before"
+      ]
+    },
+    {
+      "name": "crashed:crash_before_commit:query_retry:S2",
+      "ok": true,
+      "detail": [
+        "crash.before"
+      ]
+    },
+    {
+      "name": "crashed:crash_before_commit:query_retry:S3",
+      "ok": true,
+      "detail": [
+        "crash.before"
+      ]
+    },
+    {
+      "name": "crashed:crash_before_commit:query_retry:S4",
+      "ok": true,
+      "detail": [
+        "crash.before"
+      ]
+    },
+    {
+      "name": "crashed:crash_before_commit:query_retry:S5",
+      "ok": true,
+      "detail": [
+        "crash.before"
+      ]
+    },
+    {
+      "name": "crashed:crash_before_commit:query_retry:S6",
+      "ok": true,
+      "detail": [
+        "crash.before"
+      ]
+    },
+    {
+      "name": "crashed:crash_before_commit:query_retry:S7",
+      "ok": true,
+      "detail": [
+        "crash.before"
+      ]
+    },
+    {
+      "name": "crashed:crash_before_commit:query_retry:S8",
+      "ok": true,
+      "detail": [
+        "crash.before"
+      ]
+    },
+    {
+      "name": "crashed:crash_before_commit:query_retry:S9",
+      "ok": true,
+      "detail": [
+        "crash.before"
+      ]
+    },
+    {
+      "name": "crashed:crash_before_commit:reauth_retry:S0",
+      "ok": true,
+      "detail": [
+        "crash.before"
+      ]
+    },
+    {
+      "name": "crashed:crash_before_commit:reauth_retry:S1",
+      "ok": true,
+      "detail": [
+        "crash.before"
+      ]
+    },
+    {
+      "name": "crashed:crash_before_commit:reauth_retry:S2",
+      "ok": true,
+      "detail": [
+        "crash.before"
+      ]
+    },
+    {
+      "name": "crashed:crash_before_commit:reauth_retry:S3",
+      "ok": true,
+      "detail": [
+        "crash.before"
+      ]
+    },
+    {
+      "name": "crashed:crash_before_commit:reauth_retry:S4",
+      "ok": true,
+      "detail": [
+        "crash.before"
+      ]
+    },
+    {
+      "name": "crashed:crash_before_commit:reauth_retry:S5",
+      "ok": true,
+      "detail": [
+        "crash.before"
+      ]
+    },
+    {
+      "name": "crashed:crash_before_commit:reauth_retry:S6",
+      "ok": true,
+      "detail": [
+        "crash.before"
+      ]
+    },
+    {
+      "name": "crashed:crash_before_commit:reauth_retry:S7",
+      "ok": true,
+      "detail": [
+        "crash.before"
+      ]
+    },
+    {
+      "name": "crashed:crash_before_commit:reauth_retry:S8",
+      "ok": true,
+      "detail": [
+        "crash.before"
+      ]
+    },
+    {
+      "name": "crashed:crash_before_commit:reauth_retry:S9",
+      "ok": true,
+      "detail": [
+        "crash.before"
+      ]
+    },
+    {
+      "name": "crashed:crash_before_commit:pause:S0",
+      "ok": true,
+      "detail": [
+        "crash.before"
+      ]
+    },
+    {
+      "name": "crashed:crash_before_commit:pause:S1",
+      "ok": true,
+      "detail": [
+        "crash.before"
+      ]
+    },
+    {
+      "name": "crashed:crash_before_commit:pause:S2",
+      "ok": true,
+      "detail": [
+        "crash.before"
+      ]
+    },
+    {
+      "name": "crashed:crash_before_commit:pause:S3",
+      "ok": true,
+      "detail": [
+        "crash.before"
+      ]
+    },
+    {
+      "name": "crashed:crash_before_commit:pause:S4",
+      "ok": true,
+      "detail": [
+        "crash.before"
+      ]
+    },
+    {
+      "name": "crashed:crash_before_commit:pause:S5",
+      "ok": true,
+      "detail": [
+        "crash.before"
+      ]
+    },
+    {
+      "name": "crashed:crash_before_commit:pause:S6",
+      "ok": true,
+      "detail": [
+        "crash.before"
+      ]
+    },
+    {
+      "name": "crashed:crash_before_commit:pause:S7",
+      "ok": true,
+      "detail": [
+        "crash.before"
+      ]
+    },
+    {
+      "name": "crashed:crash_before_commit:pause:S8",
+      "ok": true,
+      "detail": [
+        "crash.before"
+      ]
+    },
+    {
+      "name": "crashed:crash_before_commit:pause:S9",
+      "ok": true,
+      "detail": [
+        "crash.before"
+      ]
+    },
+    {
+      "name": "clear-no-duplicate:crash_after_commit_revoke:clear:S0",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "clear-no-stale:crash_after_commit_revoke:clear:S0",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "clear-no-false-complete:crash_after_commit_revoke:clear:S0",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "clear-terminal:crash_after_commit_revoke:clear:S0",
+      "ok": true,
+      "detail": "complete"
+    },
+    {
+      "name": "clear-rows:crash_after_commit_revoke:clear:S0",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "crashed:crash_after_commit_revoke:clear:S0",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "clear-no-duplicate:crash_after_commit_revoke:clear:S1",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "clear-no-stale:crash_after_commit_revoke:clear:S1",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "clear-no-false-complete:crash_after_commit_revoke:clear:S1",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "clear-terminal:crash_after_commit_revoke:clear:S1",
+      "ok": true,
+      "detail": "complete"
+    },
+    {
+      "name": "clear-rows:crash_after_commit_revoke:clear:S1",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "crashed:crash_after_commit_revoke:clear:S1",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "clear-no-duplicate:crash_after_commit_revoke:clear:S2",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "clear-no-stale:crash_after_commit_revoke:clear:S2",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "clear-no-false-complete:crash_after_commit_revoke:clear:S2",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "clear-terminal:crash_after_commit_revoke:clear:S2",
+      "ok": true,
+      "detail": "complete"
+    },
+    {
+      "name": "clear-rows:crash_after_commit_revoke:clear:S2",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "crashed:crash_after_commit_revoke:clear:S2",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "clear-no-duplicate:crash_after_commit_revoke:clear:S3",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "clear-no-stale:crash_after_commit_revoke:clear:S3",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "clear-no-false-complete:crash_after_commit_revoke:clear:S3",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "clear-terminal:crash_after_commit_revoke:clear:S3",
+      "ok": true,
+      "detail": "complete"
+    },
+    {
+      "name": "clear-rows:crash_after_commit_revoke:clear:S3",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "crashed:crash_after_commit_revoke:clear:S3",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "clear-no-duplicate:crash_after_commit_revoke:clear:S4",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "clear-no-stale:crash_after_commit_revoke:clear:S4",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "clear-no-false-complete:crash_after_commit_revoke:clear:S4",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "clear-terminal:crash_after_commit_revoke:clear:S4",
+      "ok": true,
+      "detail": "complete"
+    },
+    {
+      "name": "clear-rows:crash_after_commit_revoke:clear:S4",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "crashed:crash_after_commit_revoke:clear:S4",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "clear-no-duplicate:crash_after_commit_revoke:clear:S5",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "clear-no-stale:crash_after_commit_revoke:clear:S5",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "clear-no-false-complete:crash_after_commit_revoke:clear:S5",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "clear-terminal:crash_after_commit_revoke:clear:S5",
+      "ok": true,
+      "detail": "complete"
+    },
+    {
+      "name": "clear-rows:crash_after_commit_revoke:clear:S5",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "crashed:crash_after_commit_revoke:clear:S5",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "clear-no-duplicate:crash_after_commit_revoke:clear:S6",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "clear-no-stale:crash_after_commit_revoke:clear:S6",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "clear-no-false-complete:crash_after_commit_revoke:clear:S6",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "clear-terminal:crash_after_commit_revoke:clear:S6",
+      "ok": true,
+      "detail": "complete"
+    },
+    {
+      "name": "clear-rows:crash_after_commit_revoke:clear:S6",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "crashed:crash_after_commit_revoke:clear:S6",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "clear-no-duplicate:crash_after_commit_revoke:clear:S7",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "clear-no-stale:crash_after_commit_revoke:clear:S7",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "clear-no-false-complete:crash_after_commit_revoke:clear:S7",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "clear-terminal:crash_after_commit_revoke:clear:S7",
+      "ok": true,
+      "detail": "complete"
+    },
+    {
+      "name": "clear-rows:crash_after_commit_revoke:clear:S7",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "crashed:crash_after_commit_revoke:clear:S7",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "clear-no-duplicate:crash_after_commit_revoke:clear:S8",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "clear-no-stale:crash_after_commit_revoke:clear:S8",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "clear-no-false-complete:crash_after_commit_revoke:clear:S8",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "clear-terminal:crash_after_commit_revoke:clear:S8",
+      "ok": true,
+      "detail": "complete"
+    },
+    {
+      "name": "clear-rows:crash_after_commit_revoke:clear:S8",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "crashed:crash_after_commit_revoke:clear:S8",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "clear-no-duplicate:crash_after_commit_revoke:clear:S9",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "clear-no-stale:crash_after_commit_revoke:clear:S9",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "clear-no-false-complete:crash_after_commit_revoke:clear:S9",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "clear-terminal:crash_after_commit_revoke:clear:S9",
+      "ok": true,
+      "detail": "complete"
+    },
+    {
+      "name": "clear-rows:crash_after_commit_revoke:clear:S9",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "crashed:crash_after_commit_revoke:clear:S9",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit_revoke:idem_retry:S0",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit_revoke:idem_retry:S1",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit_revoke:idem_retry:S2",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit_revoke:idem_retry:S3",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit_revoke:idem_retry:S4",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit_revoke:idem_retry:S5",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit_revoke:idem_retry:S6",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit_revoke:idem_retry:S7",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit_revoke:idem_retry:S8",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit_revoke:idem_retry:S9",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit_revoke:query_retry:S0",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit_revoke:query_retry:S1",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit_revoke:query_retry:S2",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit_revoke:query_retry:S3",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit_revoke:query_retry:S4",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit_revoke:query_retry:S5",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit_revoke:query_retry:S6",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit_revoke:query_retry:S7",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit_revoke:query_retry:S8",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit_revoke:query_retry:S9",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit_revoke:reauth_retry:S0",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit_revoke:reauth_retry:S1",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit_revoke:reauth_retry:S2",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit_revoke:reauth_retry:S3",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit_revoke:reauth_retry:S4",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit_revoke:reauth_retry:S5",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit_revoke:reauth_retry:S6",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit_revoke:reauth_retry:S7",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit_revoke:reauth_retry:S8",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit_revoke:reauth_retry:S9",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit_revoke:pause:S0",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit_revoke:pause:S1",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit_revoke:pause:S2",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit_revoke:pause:S3",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit_revoke:pause:S4",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit_revoke:pause:S5",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit_revoke:pause:S6",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit_revoke:pause:S7",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit_revoke:pause:S8",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit_revoke:pause:S9",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "clear-no-duplicate:crash_before_commit_revoke:clear:S0",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "clear-no-stale:crash_before_commit_revoke:clear:S0",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "clear-no-false-complete:crash_before_commit_revoke:clear:S0",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "clear-terminal:crash_before_commit_revoke:clear:S0",
+      "ok": true,
+      "detail": "pause"
+    },
+    {
+      "name": "clear-rows:crash_before_commit_revoke:clear:S0",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "crashed:crash_before_commit_revoke:clear:S0",
+      "ok": true,
+      "detail": [
+        "crash.before"
+      ]
+    },
+    {
+      "name": "clear-no-duplicate:crash_before_commit_revoke:clear:S1",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "clear-no-stale:crash_before_commit_revoke:clear:S1",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "clear-no-false-complete:crash_before_commit_revoke:clear:S1",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "clear-terminal:crash_before_commit_revoke:clear:S1",
+      "ok": true,
+      "detail": "pause"
+    },
+    {
+      "name": "clear-rows:crash_before_commit_revoke:clear:S1",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "crashed:crash_before_commit_revoke:clear:S1",
+      "ok": true,
+      "detail": [
+        "crash.before"
+      ]
+    },
+    {
+      "name": "clear-no-duplicate:crash_before_commit_revoke:clear:S2",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "clear-no-stale:crash_before_commit_revoke:clear:S2",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "clear-no-false-complete:crash_before_commit_revoke:clear:S2",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "clear-terminal:crash_before_commit_revoke:clear:S2",
+      "ok": true,
+      "detail": "pause"
+    },
+    {
+      "name": "clear-rows:crash_before_commit_revoke:clear:S2",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "crashed:crash_before_commit_revoke:clear:S2",
+      "ok": true,
+      "detail": [
+        "crash.before"
+      ]
+    },
+    {
+      "name": "clear-no-duplicate:crash_before_commit_revoke:clear:S3",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "clear-no-stale:crash_before_commit_revoke:clear:S3",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "clear-no-false-complete:crash_before_commit_revoke:clear:S3",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "clear-terminal:crash_before_commit_revoke:clear:S3",
+      "ok": true,
+      "detail": "pause"
+    },
+    {
+      "name": "clear-rows:crash_before_commit_revoke:clear:S3",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "crashed:crash_before_commit_revoke:clear:S3",
+      "ok": true,
+      "detail": [
+        "crash.before"
+      ]
+    },
+    {
+      "name": "clear-no-duplicate:crash_before_commit_revoke:clear:S4",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "clear-no-stale:crash_before_commit_revoke:clear:S4",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "clear-no-false-complete:crash_before_commit_revoke:clear:S4",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "clear-terminal:crash_before_commit_revoke:clear:S4",
+      "ok": true,
+      "detail": "pause"
+    },
+    {
+      "name": "clear-rows:crash_before_commit_revoke:clear:S4",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "crashed:crash_before_commit_revoke:clear:S4",
+      "ok": true,
+      "detail": [
+        "crash.before"
+      ]
+    },
+    {
+      "name": "clear-no-duplicate:crash_before_commit_revoke:clear:S5",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "clear-no-stale:crash_before_commit_revoke:clear:S5",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "clear-no-false-complete:crash_before_commit_revoke:clear:S5",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "clear-terminal:crash_before_commit_revoke:clear:S5",
+      "ok": true,
+      "detail": "pause"
+    },
+    {
+      "name": "clear-rows:crash_before_commit_revoke:clear:S5",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "crashed:crash_before_commit_revoke:clear:S5",
+      "ok": true,
+      "detail": [
+        "crash.before"
+      ]
+    },
+    {
+      "name": "clear-no-duplicate:crash_before_commit_revoke:clear:S6",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "clear-no-stale:crash_before_commit_revoke:clear:S6",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "clear-no-false-complete:crash_before_commit_revoke:clear:S6",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "clear-terminal:crash_before_commit_revoke:clear:S6",
+      "ok": true,
+      "detail": "pause"
+    },
+    {
+      "name": "clear-rows:crash_before_commit_revoke:clear:S6",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "crashed:crash_before_commit_revoke:clear:S6",
+      "ok": true,
+      "detail": [
+        "crash.before"
+      ]
+    },
+    {
+      "name": "clear-no-duplicate:crash_before_commit_revoke:clear:S7",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "clear-no-stale:crash_before_commit_revoke:clear:S7",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "clear-no-false-complete:crash_before_commit_revoke:clear:S7",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "clear-terminal:crash_before_commit_revoke:clear:S7",
+      "ok": true,
+      "detail": "pause"
+    },
+    {
+      "name": "clear-rows:crash_before_commit_revoke:clear:S7",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "crashed:crash_before_commit_revoke:clear:S7",
+      "ok": true,
+      "detail": [
+        "crash.before"
+      ]
+    },
+    {
+      "name": "clear-no-duplicate:crash_before_commit_revoke:clear:S8",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "clear-no-stale:crash_before_commit_revoke:clear:S8",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "clear-no-false-complete:crash_before_commit_revoke:clear:S8",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "clear-terminal:crash_before_commit_revoke:clear:S8",
+      "ok": true,
+      "detail": "pause"
+    },
+    {
+      "name": "clear-rows:crash_before_commit_revoke:clear:S8",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "crashed:crash_before_commit_revoke:clear:S8",
+      "ok": true,
+      "detail": [
+        "crash.before"
+      ]
+    },
+    {
+      "name": "clear-no-duplicate:crash_before_commit_revoke:clear:S9",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "clear-no-stale:crash_before_commit_revoke:clear:S9",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "clear-no-false-complete:crash_before_commit_revoke:clear:S9",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "clear-terminal:crash_before_commit_revoke:clear:S9",
+      "ok": true,
+      "detail": "pause"
+    },
+    {
+      "name": "clear-rows:crash_before_commit_revoke:clear:S9",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "crashed:crash_before_commit_revoke:clear:S9",
+      "ok": true,
+      "detail": [
+        "crash.before"
+      ]
+    },
+    {
+      "name": "crashed:crash_before_commit_revoke:idem_retry:S0",
+      "ok": true,
+      "detail": [
+        "crash.before"
+      ]
+    },
+    {
+      "name": "crashed:crash_before_commit_revoke:idem_retry:S1",
+      "ok": true,
+      "detail": [
+        "crash.before"
+      ]
+    },
+    {
+      "name": "crashed:crash_before_commit_revoke:idem_retry:S2",
+      "ok": true,
+      "detail": [
+        "crash.before"
+      ]
+    },
+    {
+      "name": "crashed:crash_before_commit_revoke:idem_retry:S3",
+      "ok": true,
+      "detail": [
+        "crash.before"
+      ]
+    },
+    {
+      "name": "crashed:crash_before_commit_revoke:idem_retry:S4",
+      "ok": true,
+      "detail": [
+        "crash.before"
+      ]
+    },
+    {
+      "name": "crashed:crash_before_commit_revoke:idem_retry:S5",
+      "ok": true,
+      "detail": [
+        "crash.before"
+      ]
+    },
+    {
+      "name": "crashed:crash_before_commit_revoke:idem_retry:S6",
+      "ok": true,
+      "detail": [
+        "crash.before"
+      ]
+    },
+    {
+      "name": "crashed:crash_before_commit_revoke:idem_retry:S7",
+      "ok": true,
+      "detail": [
+        "crash.before"
+      ]
+    },
+    {
+      "name": "crashed:crash_before_commit_revoke:idem_retry:S8",
+      "ok": true,
+      "detail": [
+        "crash.before"
+      ]
+    },
+    {
+      "name": "crashed:crash_before_commit_revoke:idem_retry:S9",
+      "ok": true,
+      "detail": [
+        "crash.before"
+      ]
+    },
+    {
+      "name": "crashed:crash_before_commit_revoke:query_retry:S0",
+      "ok": true,
+      "detail": [
+        "crash.before"
+      ]
+    },
+    {
+      "name": "crashed:crash_before_commit_revoke:query_retry:S1",
+      "ok": true,
+      "detail": [
+        "crash.before"
+      ]
+    },
+    {
+      "name": "crashed:crash_before_commit_revoke:query_retry:S2",
+      "ok": true,
+      "detail": [
+        "crash.before"
+      ]
+    },
+    {
+      "name": "crashed:crash_before_commit_revoke:query_retry:S3",
+      "ok": true,
+      "detail": [
+        "crash.before"
+      ]
+    },
+    {
+      "name": "crashed:crash_before_commit_revoke:query_retry:S4",
+      "ok": true,
+      "detail": [
+        "crash.before"
+      ]
+    },
+    {
+      "name": "crashed:crash_before_commit_revoke:query_retry:S5",
+      "ok": true,
+      "detail": [
+        "crash.before"
+      ]
+    },
+    {
+      "name": "crashed:crash_before_commit_revoke:query_retry:S6",
+      "ok": true,
+      "detail": [
+        "crash.before"
+      ]
+    },
+    {
+      "name": "crashed:crash_before_commit_revoke:query_retry:S7",
+      "ok": true,
+      "detail": [
+        "crash.before"
+      ]
+    },
+    {
+      "name": "crashed:crash_before_commit_revoke:query_retry:S8",
+      "ok": true,
+      "detail": [
+        "crash.before"
+      ]
+    },
+    {
+      "name": "crashed:crash_before_commit_revoke:query_retry:S9",
+      "ok": true,
+      "detail": [
+        "crash.before"
+      ]
+    },
+    {
+      "name": "crashed:crash_before_commit_revoke:reauth_retry:S0",
+      "ok": true,
+      "detail": [
+        "crash.before"
+      ]
+    },
+    {
+      "name": "crashed:crash_before_commit_revoke:reauth_retry:S1",
+      "ok": true,
+      "detail": [
+        "crash.before"
+      ]
+    },
+    {
+      "name": "crashed:crash_before_commit_revoke:reauth_retry:S2",
+      "ok": true,
+      "detail": [
+        "crash.before"
+      ]
+    },
+    {
+      "name": "crashed:crash_before_commit_revoke:reauth_retry:S3",
+      "ok": true,
+      "detail": [
+        "crash.before"
+      ]
+    },
+    {
+      "name": "crashed:crash_before_commit_revoke:reauth_retry:S4",
+      "ok": true,
+      "detail": [
+        "crash.before"
+      ]
+    },
+    {
+      "name": "crashed:crash_before_commit_revoke:reauth_retry:S5",
+      "ok": true,
+      "detail": [
+        "crash.before"
+      ]
+    },
+    {
+      "name": "crashed:crash_before_commit_revoke:reauth_retry:S6",
+      "ok": true,
+      "detail": [
+        "crash.before"
+      ]
+    },
+    {
+      "name": "crashed:crash_before_commit_revoke:reauth_retry:S7",
+      "ok": true,
+      "detail": [
+        "crash.before"
+      ]
+    },
+    {
+      "name": "crashed:crash_before_commit_revoke:reauth_retry:S8",
+      "ok": true,
+      "detail": [
+        "crash.before"
+      ]
+    },
+    {
+      "name": "crashed:crash_before_commit_revoke:reauth_retry:S9",
+      "ok": true,
+      "detail": [
+        "crash.before"
+      ]
+    },
+    {
+      "name": "crashed:crash_before_commit_revoke:pause:S0",
+      "ok": true,
+      "detail": [
+        "crash.before"
+      ]
+    },
+    {
+      "name": "crashed:crash_before_commit_revoke:pause:S1",
+      "ok": true,
+      "detail": [
+        "crash.before"
+      ]
+    },
+    {
+      "name": "crashed:crash_before_commit_revoke:pause:S2",
+      "ok": true,
+      "detail": [
+        "crash.before"
+      ]
+    },
+    {
+      "name": "crashed:crash_before_commit_revoke:pause:S3",
+      "ok": true,
+      "detail": [
+        "crash.before"
+      ]
+    },
+    {
+      "name": "crashed:crash_before_commit_revoke:pause:S4",
+      "ok": true,
+      "detail": [
+        "crash.before"
+      ]
+    },
+    {
+      "name": "crashed:crash_before_commit_revoke:pause:S5",
+      "ok": true,
+      "detail": [
+        "crash.before"
+      ]
+    },
+    {
+      "name": "crashed:crash_before_commit_revoke:pause:S6",
+      "ok": true,
+      "detail": [
+        "crash.before"
+      ]
+    },
+    {
+      "name": "crashed:crash_before_commit_revoke:pause:S7",
+      "ok": true,
+      "detail": [
+        "crash.before"
+      ]
+    },
+    {
+      "name": "crashed:crash_before_commit_revoke:pause:S8",
+      "ok": true,
+      "detail": [
+        "crash.before"
+      ]
+    },
+    {
+      "name": "crashed:crash_before_commit_revoke:pause:S9",
+      "ok": true,
+      "detail": [
+        "crash.before"
+      ]
+    },
+    {
+      "name": "clear-no-duplicate:crash_after_commit_no_query:clear:S0",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "clear-no-stale:crash_after_commit_no_query:clear:S0",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "clear-no-false-complete:crash_after_commit_no_query:clear:S0",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "clear-terminal:crash_after_commit_no_query:clear:S0",
+      "ok": true,
+      "detail": "pause"
+    },
+    {
+      "name": "clear-rows:crash_after_commit_no_query:clear:S0",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "crashed:crash_after_commit_no_query:clear:S0",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "clear-no-duplicate:crash_after_commit_no_query:clear:S1",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "clear-no-stale:crash_after_commit_no_query:clear:S1",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "clear-no-false-complete:crash_after_commit_no_query:clear:S1",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "clear-terminal:crash_after_commit_no_query:clear:S1",
+      "ok": true,
+      "detail": "pause"
+    },
+    {
+      "name": "clear-rows:crash_after_commit_no_query:clear:S1",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "crashed:crash_after_commit_no_query:clear:S1",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "clear-no-duplicate:crash_after_commit_no_query:clear:S2",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "clear-no-stale:crash_after_commit_no_query:clear:S2",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "clear-no-false-complete:crash_after_commit_no_query:clear:S2",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "clear-terminal:crash_after_commit_no_query:clear:S2",
+      "ok": true,
+      "detail": "pause"
+    },
+    {
+      "name": "clear-rows:crash_after_commit_no_query:clear:S2",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "crashed:crash_after_commit_no_query:clear:S2",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "clear-no-duplicate:crash_after_commit_no_query:clear:S3",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "clear-no-stale:crash_after_commit_no_query:clear:S3",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "clear-no-false-complete:crash_after_commit_no_query:clear:S3",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "clear-terminal:crash_after_commit_no_query:clear:S3",
+      "ok": true,
+      "detail": "pause"
+    },
+    {
+      "name": "clear-rows:crash_after_commit_no_query:clear:S3",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "crashed:crash_after_commit_no_query:clear:S3",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "clear-no-duplicate:crash_after_commit_no_query:clear:S4",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "clear-no-stale:crash_after_commit_no_query:clear:S4",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "clear-no-false-complete:crash_after_commit_no_query:clear:S4",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "clear-terminal:crash_after_commit_no_query:clear:S4",
+      "ok": true,
+      "detail": "pause"
+    },
+    {
+      "name": "clear-rows:crash_after_commit_no_query:clear:S4",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "crashed:crash_after_commit_no_query:clear:S4",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "clear-no-duplicate:crash_after_commit_no_query:clear:S5",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "clear-no-stale:crash_after_commit_no_query:clear:S5",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "clear-no-false-complete:crash_after_commit_no_query:clear:S5",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "clear-terminal:crash_after_commit_no_query:clear:S5",
+      "ok": true,
+      "detail": "pause"
+    },
+    {
+      "name": "clear-rows:crash_after_commit_no_query:clear:S5",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "crashed:crash_after_commit_no_query:clear:S5",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "clear-no-duplicate:crash_after_commit_no_query:clear:S6",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "clear-no-stale:crash_after_commit_no_query:clear:S6",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "clear-no-false-complete:crash_after_commit_no_query:clear:S6",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "clear-terminal:crash_after_commit_no_query:clear:S6",
+      "ok": true,
+      "detail": "pause"
+    },
+    {
+      "name": "clear-rows:crash_after_commit_no_query:clear:S6",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "crashed:crash_after_commit_no_query:clear:S6",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "clear-no-duplicate:crash_after_commit_no_query:clear:S7",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "clear-no-stale:crash_after_commit_no_query:clear:S7",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "clear-no-false-complete:crash_after_commit_no_query:clear:S7",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "clear-terminal:crash_after_commit_no_query:clear:S7",
+      "ok": true,
+      "detail": "pause"
+    },
+    {
+      "name": "clear-rows:crash_after_commit_no_query:clear:S7",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "crashed:crash_after_commit_no_query:clear:S7",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "clear-no-duplicate:crash_after_commit_no_query:clear:S8",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "clear-no-stale:crash_after_commit_no_query:clear:S8",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "clear-no-false-complete:crash_after_commit_no_query:clear:S8",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "clear-terminal:crash_after_commit_no_query:clear:S8",
+      "ok": true,
+      "detail": "pause"
+    },
+    {
+      "name": "clear-rows:crash_after_commit_no_query:clear:S8",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "crashed:crash_after_commit_no_query:clear:S8",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "clear-no-duplicate:crash_after_commit_no_query:clear:S9",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "clear-no-stale:crash_after_commit_no_query:clear:S9",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "clear-no-false-complete:crash_after_commit_no_query:clear:S9",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "clear-terminal:crash_after_commit_no_query:clear:S9",
+      "ok": true,
+      "detail": "pause"
+    },
+    {
+      "name": "clear-rows:crash_after_commit_no_query:clear:S9",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "crashed:crash_after_commit_no_query:clear:S9",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit_no_query:idem_retry:S0",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit_no_query:idem_retry:S1",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit_no_query:idem_retry:S2",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit_no_query:idem_retry:S3",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit_no_query:idem_retry:S4",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit_no_query:idem_retry:S5",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit_no_query:idem_retry:S6",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit_no_query:idem_retry:S7",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit_no_query:idem_retry:S8",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit_no_query:idem_retry:S9",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit_no_query:query_retry:S0",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit_no_query:query_retry:S1",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit_no_query:query_retry:S2",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit_no_query:query_retry:S3",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit_no_query:query_retry:S4",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit_no_query:query_retry:S5",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit_no_query:query_retry:S6",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit_no_query:query_retry:S7",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit_no_query:query_retry:S8",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit_no_query:query_retry:S9",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit_no_query:reauth_retry:S0",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit_no_query:reauth_retry:S1",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit_no_query:reauth_retry:S2",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit_no_query:reauth_retry:S3",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit_no_query:reauth_retry:S4",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit_no_query:reauth_retry:S5",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit_no_query:reauth_retry:S6",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit_no_query:reauth_retry:S7",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit_no_query:reauth_retry:S8",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit_no_query:reauth_retry:S9",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit_no_query:pause:S0",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit_no_query:pause:S1",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit_no_query:pause:S2",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit_no_query:pause:S3",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit_no_query:pause:S4",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit_no_query:pause:S5",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit_no_query:pause:S6",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit_no_query:pause:S7",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit_no_query:pause:S8",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "crashed:crash_after_commit_no_query:pause:S9",
+      "ok": true,
+      "detail": [
+        "crash.after"
+      ]
+    },
+    {
+      "name": "clear-tasks",
+      "ok": true,
+      "detail": 50
+    },
+    {
+      "name": "after-commit-query-safe",
+      "ok": true,
+      "detail": 10
+    },
+    {
+      "name": "after-commit-idem-duplicate",
+      "ok": true,
+      "detail": 10
+    },
+    {
+      "name": "after-commit-reauth-duplicate",
+      "ok": true,
+      "detail": 10
+    },
+    {
+      "name": "before-commit-idem-safe",
+      "ok": true,
+      "detail": 10
+    },
+    {
+      "name": "before-commit-clear-pause",
+      "ok": true,
+      "detail": 10
+    },
+    {
+      "name": "before-revoke-clear-pause",
+      "ok": true,
+      "detail": 10
+    },
+    {
+      "name": "no-query-clear-pause",
+      "ok": true,
+      "detail": 10
+    },
+    {
+      "name": "no-query-query-pause",
+      "ok": true,
+      "detail": 10
+    },
+    {
+      "name": "after-revoke-idem-duplicate",
+      "ok": true,
+      "detail": 10
+    },
+    {
+      "name": "after-revoke-idem-stale",
+      "ok": true,
+      "detail": 10
+    },
+    {
+      "name": "before-revoke-idem-stale",
+      "ok": true,
+      "detail": 10
+    },
+    {
+      "name": "before-revoke-query-stale",
+      "ok": true,
+      "detail": 10
+    },
+    {
+      "name": "before-revoke-reauth-clean",
+      "ok": true,
+      "detail": 10
+    }
+  ],
+  "cells": {
+    "crash_after_commit:clear": {
+      "case": "crash_after_commit",
+      "policy": "clear",
+      "seeds": {
+        "0": {
+          "terminal": "complete",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.05
+            }
+          ]
+        },
+        "1": {
+          "terminal": "complete",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.054000000000000006
+            }
+          ]
+        },
+        "2": {
+          "terminal": "complete",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.058
+            }
+          ]
+        },
+        "3": {
+          "terminal": "complete",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.062
+            }
+          ]
+        },
+        "4": {
+          "terminal": "complete",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.066
+            }
+          ]
+        },
+        "5": {
+          "terminal": "complete",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.07
+            }
+          ]
+        },
+        "6": {
+          "terminal": "complete",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.07400000000000001
+            }
+          ]
+        },
+        "7": {
+          "terminal": "complete",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.078
+            }
+          ]
+        },
+        "8": {
+          "terminal": "complete",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.082
+            }
+          ]
+        },
+        "9": {
+          "terminal": "complete",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.08600000000000001
+            }
+          ]
+        }
+      }
+    },
+    "crash_after_commit:idem_retry": {
+      "case": "crash_after_commit",
+      "policy": "idem_retry",
+      "seeds": {
+        "0": {
+          "terminal": "complete",
+          "rows": 2,
+          "duplicate": true,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.05
+            }
+          ]
+        },
+        "1": {
+          "terminal": "complete",
+          "rows": 2,
+          "duplicate": true,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.054000000000000006
+            }
+          ]
+        },
+        "2": {
+          "terminal": "complete",
+          "rows": 2,
+          "duplicate": true,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.058
+            }
+          ]
+        },
+        "3": {
+          "terminal": "complete",
+          "rows": 2,
+          "duplicate": true,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.062
+            }
+          ]
+        },
+        "4": {
+          "terminal": "complete",
+          "rows": 2,
+          "duplicate": true,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.066
+            }
+          ]
+        },
+        "5": {
+          "terminal": "complete",
+          "rows": 2,
+          "duplicate": true,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.07
+            }
+          ]
+        },
+        "6": {
+          "terminal": "complete",
+          "rows": 2,
+          "duplicate": true,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.07400000000000001
+            }
+          ]
+        },
+        "7": {
+          "terminal": "complete",
+          "rows": 2,
+          "duplicate": true,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.078
+            }
+          ]
+        },
+        "8": {
+          "terminal": "complete",
+          "rows": 2,
+          "duplicate": true,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.082
+            }
+          ]
+        },
+        "9": {
+          "terminal": "complete",
+          "rows": 2,
+          "duplicate": true,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.08600000000000001
+            }
+          ]
+        }
+      }
+    },
+    "crash_after_commit:query_retry": {
+      "case": "crash_after_commit",
+      "policy": "query_retry",
+      "seeds": {
+        "0": {
+          "terminal": "complete",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.05
+            }
+          ]
+        },
+        "1": {
+          "terminal": "complete",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.054000000000000006
+            }
+          ]
+        },
+        "2": {
+          "terminal": "complete",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.058
+            }
+          ]
+        },
+        "3": {
+          "terminal": "complete",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.062
+            }
+          ]
+        },
+        "4": {
+          "terminal": "complete",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.066
+            }
+          ]
+        },
+        "5": {
+          "terminal": "complete",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.07
+            }
+          ]
+        },
+        "6": {
+          "terminal": "complete",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.07400000000000001
+            }
+          ]
+        },
+        "7": {
+          "terminal": "complete",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.078
+            }
+          ]
+        },
+        "8": {
+          "terminal": "complete",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.082
+            }
+          ]
+        },
+        "9": {
+          "terminal": "complete",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.08600000000000001
+            }
+          ]
+        }
+      }
+    },
+    "crash_after_commit:reauth_retry": {
+      "case": "crash_after_commit",
+      "policy": "reauth_retry",
+      "seeds": {
+        "0": {
+          "terminal": "complete",
+          "rows": 2,
+          "duplicate": true,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.05
+            }
+          ]
+        },
+        "1": {
+          "terminal": "complete",
+          "rows": 2,
+          "duplicate": true,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.054000000000000006
+            }
+          ]
+        },
+        "2": {
+          "terminal": "complete",
+          "rows": 2,
+          "duplicate": true,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.058
+            }
+          ]
+        },
+        "3": {
+          "terminal": "complete",
+          "rows": 2,
+          "duplicate": true,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.062
+            }
+          ]
+        },
+        "4": {
+          "terminal": "complete",
+          "rows": 2,
+          "duplicate": true,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.066
+            }
+          ]
+        },
+        "5": {
+          "terminal": "complete",
+          "rows": 2,
+          "duplicate": true,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.07
+            }
+          ]
+        },
+        "6": {
+          "terminal": "complete",
+          "rows": 2,
+          "duplicate": true,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.07400000000000001
+            }
+          ]
+        },
+        "7": {
+          "terminal": "complete",
+          "rows": 2,
+          "duplicate": true,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.078
+            }
+          ]
+        },
+        "8": {
+          "terminal": "complete",
+          "rows": 2,
+          "duplicate": true,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.082
+            }
+          ]
+        },
+        "9": {
+          "terminal": "complete",
+          "rows": 2,
+          "duplicate": true,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.08600000000000001
+            }
+          ]
+        }
+      }
+    },
+    "crash_after_commit:pause": {
+      "case": "crash_after_commit",
+      "policy": "pause",
+      "seeds": {
+        "0": {
+          "terminal": "pause",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.05
+            }
+          ]
+        },
+        "1": {
+          "terminal": "pause",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.054000000000000006
+            }
+          ]
+        },
+        "2": {
+          "terminal": "pause",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.058
+            }
+          ]
+        },
+        "3": {
+          "terminal": "pause",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.062
+            }
+          ]
+        },
+        "4": {
+          "terminal": "pause",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.066
+            }
+          ]
+        },
+        "5": {
+          "terminal": "pause",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.07
+            }
+          ]
+        },
+        "6": {
+          "terminal": "pause",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.07400000000000001
+            }
+          ]
+        },
+        "7": {
+          "terminal": "pause",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.078
+            }
+          ]
+        },
+        "8": {
+          "terminal": "pause",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.082
+            }
+          ]
+        },
+        "9": {
+          "terminal": "pause",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.08600000000000001
+            }
+          ]
+        }
+      }
+    },
+    "crash_before_commit:clear": {
+      "case": "crash_before_commit",
+      "policy": "clear",
+      "seeds": {
+        "0": {
+          "terminal": "pause",
+          "rows": 0,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.05
+            }
+          ]
+        },
+        "1": {
+          "terminal": "pause",
+          "rows": 0,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.054000000000000006
+            }
+          ]
+        },
+        "2": {
+          "terminal": "pause",
+          "rows": 0,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.058
+            }
+          ]
+        },
+        "3": {
+          "terminal": "pause",
+          "rows": 0,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.062
+            }
+          ]
+        },
+        "4": {
+          "terminal": "pause",
+          "rows": 0,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.066
+            }
+          ]
+        },
+        "5": {
+          "terminal": "pause",
+          "rows": 0,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.07
+            }
+          ]
+        },
+        "6": {
+          "terminal": "pause",
+          "rows": 0,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.07400000000000001
+            }
+          ]
+        },
+        "7": {
+          "terminal": "pause",
+          "rows": 0,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.078
+            }
+          ]
+        },
+        "8": {
+          "terminal": "pause",
+          "rows": 0,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.082
+            }
+          ]
+        },
+        "9": {
+          "terminal": "pause",
+          "rows": 0,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.08600000000000001
+            }
+          ]
+        }
+      }
+    },
+    "crash_before_commit:idem_retry": {
+      "case": "crash_before_commit",
+      "policy": "idem_retry",
+      "seeds": {
+        "0": {
+          "terminal": "complete",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.05
+            }
+          ]
+        },
+        "1": {
+          "terminal": "complete",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.054000000000000006
+            }
+          ]
+        },
+        "2": {
+          "terminal": "complete",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.058
+            }
+          ]
+        },
+        "3": {
+          "terminal": "complete",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.062
+            }
+          ]
+        },
+        "4": {
+          "terminal": "complete",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.066
+            }
+          ]
+        },
+        "5": {
+          "terminal": "complete",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.07
+            }
+          ]
+        },
+        "6": {
+          "terminal": "complete",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.07400000000000001
+            }
+          ]
+        },
+        "7": {
+          "terminal": "complete",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.078
+            }
+          ]
+        },
+        "8": {
+          "terminal": "complete",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.082
+            }
+          ]
+        },
+        "9": {
+          "terminal": "complete",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.08600000000000001
+            }
+          ]
+        }
+      }
+    },
+    "crash_before_commit:query_retry": {
+      "case": "crash_before_commit",
+      "policy": "query_retry",
+      "seeds": {
+        "0": {
+          "terminal": "complete",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.05
+            }
+          ]
+        },
+        "1": {
+          "terminal": "complete",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.054000000000000006
+            }
+          ]
+        },
+        "2": {
+          "terminal": "complete",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.058
+            }
+          ]
+        },
+        "3": {
+          "terminal": "complete",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.062
+            }
+          ]
+        },
+        "4": {
+          "terminal": "complete",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.066
+            }
+          ]
+        },
+        "5": {
+          "terminal": "complete",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.07
+            }
+          ]
+        },
+        "6": {
+          "terminal": "complete",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.07400000000000001
+            }
+          ]
+        },
+        "7": {
+          "terminal": "complete",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.078
+            }
+          ]
+        },
+        "8": {
+          "terminal": "complete",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.082
+            }
+          ]
+        },
+        "9": {
+          "terminal": "complete",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.08600000000000001
+            }
+          ]
+        }
+      }
+    },
+    "crash_before_commit:reauth_retry": {
+      "case": "crash_before_commit",
+      "policy": "reauth_retry",
+      "seeds": {
+        "0": {
+          "terminal": "complete",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.05
+            }
+          ]
+        },
+        "1": {
+          "terminal": "complete",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.054000000000000006
+            }
+          ]
+        },
+        "2": {
+          "terminal": "complete",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.058
+            }
+          ]
+        },
+        "3": {
+          "terminal": "complete",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.062
+            }
+          ]
+        },
+        "4": {
+          "terminal": "complete",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.066
+            }
+          ]
+        },
+        "5": {
+          "terminal": "complete",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.07
+            }
+          ]
+        },
+        "6": {
+          "terminal": "complete",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.07400000000000001
+            }
+          ]
+        },
+        "7": {
+          "terminal": "complete",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.078
+            }
+          ]
+        },
+        "8": {
+          "terminal": "complete",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.082
+            }
+          ]
+        },
+        "9": {
+          "terminal": "complete",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.08600000000000001
+            }
+          ]
+        }
+      }
+    },
+    "crash_before_commit:pause": {
+      "case": "crash_before_commit",
+      "policy": "pause",
+      "seeds": {
+        "0": {
+          "terminal": "pause",
+          "rows": 0,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.05
+            }
+          ]
+        },
+        "1": {
+          "terminal": "pause",
+          "rows": 0,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.054000000000000006
+            }
+          ]
+        },
+        "2": {
+          "terminal": "pause",
+          "rows": 0,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.058
+            }
+          ]
+        },
+        "3": {
+          "terminal": "pause",
+          "rows": 0,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.062
+            }
+          ]
+        },
+        "4": {
+          "terminal": "pause",
+          "rows": 0,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.066
+            }
+          ]
+        },
+        "5": {
+          "terminal": "pause",
+          "rows": 0,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.07
+            }
+          ]
+        },
+        "6": {
+          "terminal": "pause",
+          "rows": 0,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.07400000000000001
+            }
+          ]
+        },
+        "7": {
+          "terminal": "pause",
+          "rows": 0,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.078
+            }
+          ]
+        },
+        "8": {
+          "terminal": "pause",
+          "rows": 0,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.082
+            }
+          ]
+        },
+        "9": {
+          "terminal": "pause",
+          "rows": 0,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.08600000000000001
+            }
+          ]
+        }
+      }
+    },
+    "crash_after_commit_revoke:clear": {
+      "case": "crash_after_commit_revoke",
+      "policy": "clear",
+      "seeds": {
+        "0": {
+          "terminal": "complete",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.05
+            }
+          ]
+        },
+        "1": {
+          "terminal": "complete",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.054000000000000006
+            }
+          ]
+        },
+        "2": {
+          "terminal": "complete",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.058
+            }
+          ]
+        },
+        "3": {
+          "terminal": "complete",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.062
+            }
+          ]
+        },
+        "4": {
+          "terminal": "complete",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.066
+            }
+          ]
+        },
+        "5": {
+          "terminal": "complete",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.07
+            }
+          ]
+        },
+        "6": {
+          "terminal": "complete",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.07400000000000001
+            }
+          ]
+        },
+        "7": {
+          "terminal": "complete",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.078
+            }
+          ]
+        },
+        "8": {
+          "terminal": "complete",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.082
+            }
+          ]
+        },
+        "9": {
+          "terminal": "complete",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.08600000000000001
+            }
+          ]
+        }
+      }
+    },
+    "crash_after_commit_revoke:idem_retry": {
+      "case": "crash_after_commit_revoke",
+      "policy": "idem_retry",
+      "seeds": {
+        "0": {
+          "terminal": "complete",
+          "rows": 2,
+          "duplicate": true,
+          "stale": 1,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.05
+            }
+          ]
+        },
+        "1": {
+          "terminal": "complete",
+          "rows": 2,
+          "duplicate": true,
+          "stale": 1,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.054000000000000006
+            }
+          ]
+        },
+        "2": {
+          "terminal": "complete",
+          "rows": 2,
+          "duplicate": true,
+          "stale": 1,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.058
+            }
+          ]
+        },
+        "3": {
+          "terminal": "complete",
+          "rows": 2,
+          "duplicate": true,
+          "stale": 1,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.062
+            }
+          ]
+        },
+        "4": {
+          "terminal": "complete",
+          "rows": 2,
+          "duplicate": true,
+          "stale": 1,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.066
+            }
+          ]
+        },
+        "5": {
+          "terminal": "complete",
+          "rows": 2,
+          "duplicate": true,
+          "stale": 1,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.07
+            }
+          ]
+        },
+        "6": {
+          "terminal": "complete",
+          "rows": 2,
+          "duplicate": true,
+          "stale": 1,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.07400000000000001
+            }
+          ]
+        },
+        "7": {
+          "terminal": "complete",
+          "rows": 2,
+          "duplicate": true,
+          "stale": 1,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.078
+            }
+          ]
+        },
+        "8": {
+          "terminal": "complete",
+          "rows": 2,
+          "duplicate": true,
+          "stale": 1,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.082
+            }
+          ]
+        },
+        "9": {
+          "terminal": "complete",
+          "rows": 2,
+          "duplicate": true,
+          "stale": 1,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.08600000000000001
+            }
+          ]
+        }
+      }
+    },
+    "crash_after_commit_revoke:query_retry": {
+      "case": "crash_after_commit_revoke",
+      "policy": "query_retry",
+      "seeds": {
+        "0": {
+          "terminal": "complete",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.05
+            }
+          ]
+        },
+        "1": {
+          "terminal": "complete",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.054000000000000006
+            }
+          ]
+        },
+        "2": {
+          "terminal": "complete",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.058
+            }
+          ]
+        },
+        "3": {
+          "terminal": "complete",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.062
+            }
+          ]
+        },
+        "4": {
+          "terminal": "complete",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.066
+            }
+          ]
+        },
+        "5": {
+          "terminal": "complete",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.07
+            }
+          ]
+        },
+        "6": {
+          "terminal": "complete",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.07400000000000001
+            }
+          ]
+        },
+        "7": {
+          "terminal": "complete",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.078
+            }
+          ]
+        },
+        "8": {
+          "terminal": "complete",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.082
+            }
+          ]
+        },
+        "9": {
+          "terminal": "complete",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.08600000000000001
+            }
+          ]
+        }
+      }
+    },
+    "crash_after_commit_revoke:reauth_retry": {
+      "case": "crash_after_commit_revoke",
+      "policy": "reauth_retry",
+      "seeds": {
+        "0": {
+          "terminal": "complete",
+          "rows": 2,
+          "duplicate": true,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.05
+            }
+          ]
+        },
+        "1": {
+          "terminal": "complete",
+          "rows": 2,
+          "duplicate": true,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.054000000000000006
+            }
+          ]
+        },
+        "2": {
+          "terminal": "complete",
+          "rows": 2,
+          "duplicate": true,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.058
+            }
+          ]
+        },
+        "3": {
+          "terminal": "complete",
+          "rows": 2,
+          "duplicate": true,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.062
+            }
+          ]
+        },
+        "4": {
+          "terminal": "complete",
+          "rows": 2,
+          "duplicate": true,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.066
+            }
+          ]
+        },
+        "5": {
+          "terminal": "complete",
+          "rows": 2,
+          "duplicate": true,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.07
+            }
+          ]
+        },
+        "6": {
+          "terminal": "complete",
+          "rows": 2,
+          "duplicate": true,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.07400000000000001
+            }
+          ]
+        },
+        "7": {
+          "terminal": "complete",
+          "rows": 2,
+          "duplicate": true,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.078
+            }
+          ]
+        },
+        "8": {
+          "terminal": "complete",
+          "rows": 2,
+          "duplicate": true,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.082
+            }
+          ]
+        },
+        "9": {
+          "terminal": "complete",
+          "rows": 2,
+          "duplicate": true,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.08600000000000001
+            }
+          ]
+        }
+      }
+    },
+    "crash_after_commit_revoke:pause": {
+      "case": "crash_after_commit_revoke",
+      "policy": "pause",
+      "seeds": {
+        "0": {
+          "terminal": "pause",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.05
+            }
+          ]
+        },
+        "1": {
+          "terminal": "pause",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.054000000000000006
+            }
+          ]
+        },
+        "2": {
+          "terminal": "pause",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.058
+            }
+          ]
+        },
+        "3": {
+          "terminal": "pause",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.062
+            }
+          ]
+        },
+        "4": {
+          "terminal": "pause",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.066
+            }
+          ]
+        },
+        "5": {
+          "terminal": "pause",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.07
+            }
+          ]
+        },
+        "6": {
+          "terminal": "pause",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.07400000000000001
+            }
+          ]
+        },
+        "7": {
+          "terminal": "pause",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.078
+            }
+          ]
+        },
+        "8": {
+          "terminal": "pause",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.082
+            }
+          ]
+        },
+        "9": {
+          "terminal": "pause",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.08600000000000001
+            }
+          ]
+        }
+      }
+    },
+    "crash_before_commit_revoke:clear": {
+      "case": "crash_before_commit_revoke",
+      "policy": "clear",
+      "seeds": {
+        "0": {
+          "terminal": "pause",
+          "rows": 0,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.05
+            }
+          ]
+        },
+        "1": {
+          "terminal": "pause",
+          "rows": 0,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.054000000000000006
+            }
+          ]
+        },
+        "2": {
+          "terminal": "pause",
+          "rows": 0,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.058
+            }
+          ]
+        },
+        "3": {
+          "terminal": "pause",
+          "rows": 0,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.062
+            }
+          ]
+        },
+        "4": {
+          "terminal": "pause",
+          "rows": 0,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.066
+            }
+          ]
+        },
+        "5": {
+          "terminal": "pause",
+          "rows": 0,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.07
+            }
+          ]
+        },
+        "6": {
+          "terminal": "pause",
+          "rows": 0,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.07400000000000001
+            }
+          ]
+        },
+        "7": {
+          "terminal": "pause",
+          "rows": 0,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.078
+            }
+          ]
+        },
+        "8": {
+          "terminal": "pause",
+          "rows": 0,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.082
+            }
+          ]
+        },
+        "9": {
+          "terminal": "pause",
+          "rows": 0,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.08600000000000001
+            }
+          ]
+        }
+      }
+    },
+    "crash_before_commit_revoke:idem_retry": {
+      "case": "crash_before_commit_revoke",
+      "policy": "idem_retry",
+      "seeds": {
+        "0": {
+          "terminal": "complete",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 1,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.05
+            }
+          ]
+        },
+        "1": {
+          "terminal": "complete",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 1,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.054000000000000006
+            }
+          ]
+        },
+        "2": {
+          "terminal": "complete",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 1,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.058
+            }
+          ]
+        },
+        "3": {
+          "terminal": "complete",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 1,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.062
+            }
+          ]
+        },
+        "4": {
+          "terminal": "complete",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 1,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.066
+            }
+          ]
+        },
+        "5": {
+          "terminal": "complete",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 1,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.07
+            }
+          ]
+        },
+        "6": {
+          "terminal": "complete",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 1,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.07400000000000001
+            }
+          ]
+        },
+        "7": {
+          "terminal": "complete",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 1,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.078
+            }
+          ]
+        },
+        "8": {
+          "terminal": "complete",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 1,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.082
+            }
+          ]
+        },
+        "9": {
+          "terminal": "complete",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 1,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.08600000000000001
+            }
+          ]
+        }
+      }
+    },
+    "crash_before_commit_revoke:query_retry": {
+      "case": "crash_before_commit_revoke",
+      "policy": "query_retry",
+      "seeds": {
+        "0": {
+          "terminal": "complete",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 1,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.05
+            }
+          ]
+        },
+        "1": {
+          "terminal": "complete",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 1,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.054000000000000006
+            }
+          ]
+        },
+        "2": {
+          "terminal": "complete",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 1,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.058
+            }
+          ]
+        },
+        "3": {
+          "terminal": "complete",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 1,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.062
+            }
+          ]
+        },
+        "4": {
+          "terminal": "complete",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 1,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.066
+            }
+          ]
+        },
+        "5": {
+          "terminal": "complete",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 1,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.07
+            }
+          ]
+        },
+        "6": {
+          "terminal": "complete",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 1,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.07400000000000001
+            }
+          ]
+        },
+        "7": {
+          "terminal": "complete",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 1,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.078
+            }
+          ]
+        },
+        "8": {
+          "terminal": "complete",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 1,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.082
+            }
+          ]
+        },
+        "9": {
+          "terminal": "complete",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 1,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.08600000000000001
+            }
+          ]
+        }
+      }
+    },
+    "crash_before_commit_revoke:reauth_retry": {
+      "case": "crash_before_commit_revoke",
+      "policy": "reauth_retry",
+      "seeds": {
+        "0": {
+          "terminal": "complete",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.05
+            }
+          ]
+        },
+        "1": {
+          "terminal": "complete",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.054000000000000006
+            }
+          ]
+        },
+        "2": {
+          "terminal": "complete",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.058
+            }
+          ]
+        },
+        "3": {
+          "terminal": "complete",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.062
+            }
+          ]
+        },
+        "4": {
+          "terminal": "complete",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.066
+            }
+          ]
+        },
+        "5": {
+          "terminal": "complete",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.07
+            }
+          ]
+        },
+        "6": {
+          "terminal": "complete",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.07400000000000001
+            }
+          ]
+        },
+        "7": {
+          "terminal": "complete",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.078
+            }
+          ]
+        },
+        "8": {
+          "terminal": "complete",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.082
+            }
+          ]
+        },
+        "9": {
+          "terminal": "complete",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.08600000000000001
+            }
+          ]
+        }
+      }
+    },
+    "crash_before_commit_revoke:pause": {
+      "case": "crash_before_commit_revoke",
+      "policy": "pause",
+      "seeds": {
+        "0": {
+          "terminal": "pause",
+          "rows": 0,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.05
+            }
+          ]
+        },
+        "1": {
+          "terminal": "pause",
+          "rows": 0,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.054000000000000006
+            }
+          ]
+        },
+        "2": {
+          "terminal": "pause",
+          "rows": 0,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.058
+            }
+          ]
+        },
+        "3": {
+          "terminal": "pause",
+          "rows": 0,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.062
+            }
+          ]
+        },
+        "4": {
+          "terminal": "pause",
+          "rows": 0,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.066
+            }
+          ]
+        },
+        "5": {
+          "terminal": "pause",
+          "rows": 0,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.07
+            }
+          ]
+        },
+        "6": {
+          "terminal": "pause",
+          "rows": 0,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.07400000000000001
+            }
+          ]
+        },
+        "7": {
+          "terminal": "pause",
+          "rows": 0,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.078
+            }
+          ]
+        },
+        "8": {
+          "terminal": "pause",
+          "rows": 0,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.082
+            }
+          ]
+        },
+        "9": {
+          "terminal": "pause",
+          "rows": 0,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.08600000000000001
+            }
+          ]
+        }
+      }
+    },
+    "crash_after_commit_no_query:clear": {
+      "case": "crash_after_commit_no_query",
+      "policy": "clear",
+      "seeds": {
+        "0": {
+          "terminal": "pause",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.05
+            }
+          ]
+        },
+        "1": {
+          "terminal": "pause",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.054000000000000006
+            }
+          ]
+        },
+        "2": {
+          "terminal": "pause",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.058
+            }
+          ]
+        },
+        "3": {
+          "terminal": "pause",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.062
+            }
+          ]
+        },
+        "4": {
+          "terminal": "pause",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.066
+            }
+          ]
+        },
+        "5": {
+          "terminal": "pause",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.07
+            }
+          ]
+        },
+        "6": {
+          "terminal": "pause",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.07400000000000001
+            }
+          ]
+        },
+        "7": {
+          "terminal": "pause",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.078
+            }
+          ]
+        },
+        "8": {
+          "terminal": "pause",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.082
+            }
+          ]
+        },
+        "9": {
+          "terminal": "pause",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.08600000000000001
+            }
+          ]
+        }
+      }
+    },
+    "crash_after_commit_no_query:idem_retry": {
+      "case": "crash_after_commit_no_query",
+      "policy": "idem_retry",
+      "seeds": {
+        "0": {
+          "terminal": "complete",
+          "rows": 2,
+          "duplicate": true,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.05
+            }
+          ]
+        },
+        "1": {
+          "terminal": "complete",
+          "rows": 2,
+          "duplicate": true,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.054000000000000006
+            }
+          ]
+        },
+        "2": {
+          "terminal": "complete",
+          "rows": 2,
+          "duplicate": true,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.058
+            }
+          ]
+        },
+        "3": {
+          "terminal": "complete",
+          "rows": 2,
+          "duplicate": true,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.062
+            }
+          ]
+        },
+        "4": {
+          "terminal": "complete",
+          "rows": 2,
+          "duplicate": true,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.066
+            }
+          ]
+        },
+        "5": {
+          "terminal": "complete",
+          "rows": 2,
+          "duplicate": true,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.07
+            }
+          ]
+        },
+        "6": {
+          "terminal": "complete",
+          "rows": 2,
+          "duplicate": true,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.07400000000000001
+            }
+          ]
+        },
+        "7": {
+          "terminal": "complete",
+          "rows": 2,
+          "duplicate": true,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.078
+            }
+          ]
+        },
+        "8": {
+          "terminal": "complete",
+          "rows": 2,
+          "duplicate": true,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.082
+            }
+          ]
+        },
+        "9": {
+          "terminal": "complete",
+          "rows": 2,
+          "duplicate": true,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.08600000000000001
+            }
+          ]
+        }
+      }
+    },
+    "crash_after_commit_no_query:query_retry": {
+      "case": "crash_after_commit_no_query",
+      "policy": "query_retry",
+      "seeds": {
+        "0": {
+          "terminal": "pause",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.05
+            }
+          ]
+        },
+        "1": {
+          "terminal": "pause",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.054000000000000006
+            }
+          ]
+        },
+        "2": {
+          "terminal": "pause",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.058
+            }
+          ]
+        },
+        "3": {
+          "terminal": "pause",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.062
+            }
+          ]
+        },
+        "4": {
+          "terminal": "pause",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.066
+            }
+          ]
+        },
+        "5": {
+          "terminal": "pause",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.07
+            }
+          ]
+        },
+        "6": {
+          "terminal": "pause",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.07400000000000001
+            }
+          ]
+        },
+        "7": {
+          "terminal": "pause",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.078
+            }
+          ]
+        },
+        "8": {
+          "terminal": "pause",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.082
+            }
+          ]
+        },
+        "9": {
+          "terminal": "pause",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.08600000000000001
+            }
+          ]
+        }
+      }
+    },
+    "crash_after_commit_no_query:reauth_retry": {
+      "case": "crash_after_commit_no_query",
+      "policy": "reauth_retry",
+      "seeds": {
+        "0": {
+          "terminal": "complete",
+          "rows": 2,
+          "duplicate": true,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.05
+            }
+          ]
+        },
+        "1": {
+          "terminal": "complete",
+          "rows": 2,
+          "duplicate": true,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.054000000000000006
+            }
+          ]
+        },
+        "2": {
+          "terminal": "complete",
+          "rows": 2,
+          "duplicate": true,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.058
+            }
+          ]
+        },
+        "3": {
+          "terminal": "complete",
+          "rows": 2,
+          "duplicate": true,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.062
+            }
+          ]
+        },
+        "4": {
+          "terminal": "complete",
+          "rows": 2,
+          "duplicate": true,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.066
+            }
+          ]
+        },
+        "5": {
+          "terminal": "complete",
+          "rows": 2,
+          "duplicate": true,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.07
+            }
+          ]
+        },
+        "6": {
+          "terminal": "complete",
+          "rows": 2,
+          "duplicate": true,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.07400000000000001
+            }
+          ]
+        },
+        "7": {
+          "terminal": "complete",
+          "rows": 2,
+          "duplicate": true,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.078
+            }
+          ]
+        },
+        "8": {
+          "terminal": "complete",
+          "rows": 2,
+          "duplicate": true,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.082
+            }
+          ]
+        },
+        "9": {
+          "terminal": "complete",
+          "rows": 2,
+          "duplicate": true,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.08600000000000001
+            }
+          ]
+        }
+      }
+    },
+    "crash_after_commit_no_query:pause": {
+      "case": "crash_after_commit_no_query",
+      "policy": "pause",
+      "seeds": {
+        "0": {
+          "terminal": "pause",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.05
+            }
+          ]
+        },
+        "1": {
+          "terminal": "pause",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.054000000000000006
+            }
+          ]
+        },
+        "2": {
+          "terminal": "pause",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.058
+            }
+          ]
+        },
+        "3": {
+          "terminal": "pause",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.062
+            }
+          ]
+        },
+        "4": {
+          "terminal": "pause",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.066
+            }
+          ]
+        },
+        "5": {
+          "terminal": "pause",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.07
+            }
+          ]
+        },
+        "6": {
+          "terminal": "pause",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.07400000000000001
+            }
+          ]
+        },
+        "7": {
+          "terminal": "pause",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.078
+            }
+          ]
+        },
+        "8": {
+          "terminal": "pause",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.082
+            }
+          ]
+        },
+        "9": {
+          "terminal": "pause",
+          "rows": 1,
+          "duplicate": false,
+          "stale": 0,
+          "false_complete": false,
+          "crashes": 1,
+          "initial": [
+            {
+              "action": "append",
+              "phase": "initial",
+              "attempt": 1,
+              "outcome": "lost_return",
+              "timeout": 0.08600000000000001
+            }
+          ]
+        }
+      }
+    }
+  },
+  "aggregate": {
+    "crash_after_commit:clear": {
+      "safe": 10,
+      "complete": 10,
+      "duplicate": 0,
+      "stale": 0,
+      "false_complete": 0
+    },
+    "crash_after_commit:idem_retry": {
+      "safe": 0,
+      "complete": 10,
+      "duplicate": 10,
+      "stale": 0,
+      "false_complete": 0
+    },
+    "crash_after_commit:query_retry": {
+      "safe": 10,
+      "complete": 10,
+      "duplicate": 0,
+      "stale": 0,
+      "false_complete": 0
+    },
+    "crash_after_commit:reauth_retry": {
+      "safe": 0,
+      "complete": 10,
+      "duplicate": 10,
+      "stale": 0,
+      "false_complete": 0
+    },
+    "crash_after_commit:pause": {
+      "safe": 0,
+      "complete": 0,
+      "duplicate": 0,
+      "stale": 0,
+      "false_complete": 0
+    },
+    "crash_before_commit:clear": {
+      "safe": 0,
+      "complete": 0,
+      "duplicate": 0,
+      "stale": 0,
+      "false_complete": 0
+    },
+    "crash_before_commit:idem_retry": {
+      "safe": 10,
+      "complete": 10,
+      "duplicate": 0,
+      "stale": 0,
+      "false_complete": 0
+    },
+    "crash_before_commit:query_retry": {
+      "safe": 10,
+      "complete": 10,
+      "duplicate": 0,
+      "stale": 0,
+      "false_complete": 0
+    },
+    "crash_before_commit:reauth_retry": {
+      "safe": 10,
+      "complete": 10,
+      "duplicate": 0,
+      "stale": 0,
+      "false_complete": 0
+    },
+    "crash_before_commit:pause": {
+      "safe": 0,
+      "complete": 0,
+      "duplicate": 0,
+      "stale": 0,
+      "false_complete": 0
+    },
+    "crash_after_commit_revoke:clear": {
+      "safe": 10,
+      "complete": 10,
+      "duplicate": 0,
+      "stale": 0,
+      "false_complete": 0
+    },
+    "crash_after_commit_revoke:idem_retry": {
+      "safe": 0,
+      "complete": 10,
+      "duplicate": 10,
+      "stale": 10,
+      "false_complete": 0
+    },
+    "crash_after_commit_revoke:query_retry": {
+      "safe": 10,
+      "complete": 10,
+      "duplicate": 0,
+      "stale": 0,
+      "false_complete": 0
+    },
+    "crash_after_commit_revoke:reauth_retry": {
+      "safe": 0,
+      "complete": 10,
+      "duplicate": 10,
+      "stale": 0,
+      "false_complete": 0
+    },
+    "crash_after_commit_revoke:pause": {
+      "safe": 0,
+      "complete": 0,
+      "duplicate": 0,
+      "stale": 0,
+      "false_complete": 0
+    },
+    "crash_before_commit_revoke:clear": {
+      "safe": 0,
+      "complete": 0,
+      "duplicate": 0,
+      "stale": 0,
+      "false_complete": 0
+    },
+    "crash_before_commit_revoke:idem_retry": {
+      "safe": 0,
+      "complete": 10,
+      "duplicate": 0,
+      "stale": 10,
+      "false_complete": 0
+    },
+    "crash_before_commit_revoke:query_retry": {
+      "safe": 0,
+      "complete": 10,
+      "duplicate": 0,
+      "stale": 10,
+      "false_complete": 0
+    },
+    "crash_before_commit_revoke:reauth_retry": {
+      "safe": 10,
+      "complete": 10,
+      "duplicate": 0,
+      "stale": 0,
+      "false_complete": 0
+    },
+    "crash_before_commit_revoke:pause": {
+      "safe": 0,
+      "complete": 0,
+      "duplicate": 0,
+      "stale": 0,
+      "false_complete": 0
+    },
+    "crash_after_commit_no_query:clear": {
+      "safe": 0,
+      "complete": 0,
+      "duplicate": 0,
+      "stale": 0,
+      "false_complete": 0
+    },
+    "crash_after_commit_no_query:idem_retry": {
+      "safe": 0,
+      "complete": 10,
+      "duplicate": 10,
+      "stale": 0,
+      "false_complete": 0
+    },
+    "crash_after_commit_no_query:query_retry": {
+      "safe": 0,
+      "complete": 0,
+      "duplicate": 0,
+      "stale": 0,
+      "false_complete": 0
+    },
+    "crash_after_commit_no_query:reauth_retry": {
+      "safe": 0,
+      "complete": 10,
+      "duplicate": 10,
+      "stale": 0,
+      "false_complete": 0
+    },
+    "crash_after_commit_no_query:pause": {
+      "safe": 0,
+      "complete": 0,
+      "duplicate": 0,
+      "stale": 0,
+      "false_complete": 0
+    }
+  },
+  "failed": [],
+  "checks_total": 522,
+  "checks_passed": 522
+}

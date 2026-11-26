@@ -1,0 +1,129 @@
+{
+  "files": {
+    "docs/R11_process_crash_protocol.md": "70b513f29930244bc99780d30f5e9c1e5ecfcd31d2dbb8e0a9ef5e678e30dd71",
+    "scripts/r11_worker.py": "e66a82c9a6f893db8c04829ab0f28a4bb2b91c1b3c275d0fa9b388a6da39d9fc",
+    "scripts/r11_host.py": "841ca36afe2a2dba90490cc0dcd0e4f9496ba67c1bc49ec2c7bc58f2bd9add2f",
+    "scripts/run_r11.py": "1a56d132a6af4161cda87783245b16d21c57f1034ac488c0700a34d3d89eae8a",
+    "scripts/verify_r11.py": "031b3fed70b3a749377eb8f6e3aa5e74e833a1caa0f8245eb148040720420955",
+    "scripts/r1_policies.py": "09664043a3e4ed3f2765f645fcea5587c2f6dfc6a336eea8e3c65e9c9393531f"
+  },
+  "cases": [
+    {
+      "id": "crash_after_commit",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "commit",
+        "delayed": false,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": true,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": false,
+        "query_complete": true,
+        "crash": "after_commit"
+      },
+      "patch": null
+    },
+    {
+      "id": "crash_before_commit",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "commit",
+        "delayed": false,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": true,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": false,
+        "query_complete": true,
+        "crash": "before_commit"
+      },
+      "patch": null
+    },
+    {
+      "id": "crash_after_commit_revoke",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "commit",
+        "delayed": false,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": true,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": false,
+        "query_complete": true,
+        "crash": "after_commit"
+      },
+      "patch": {
+        "allowed": false
+      }
+    },
+    {
+      "id": "crash_before_commit_revoke",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "commit",
+        "delayed": false,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": true,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": false,
+        "query_complete": true,
+        "crash": "before_commit"
+      },
+      "patch": {
+        "allowed": false
+      }
+    },
+    {
+      "id": "crash_after_commit_no_query",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "commit",
+        "delayed": false,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": true,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": false,
+        "query_complete": false,
+        "crash": "after_commit"
+      },
+      "patch": null
+    }
+  ],
+  "policies": [
+    "clear",
+    "idem_retry",
+    "query_retry",
+    "reauth_retry",
+    "pause"
+  ],
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "target_calls_before_freeze": 0,
+  "python": "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R1\\env\\Scripts\\python.exe",
+  "python_version": "3.13.2",
+  "created_ns": 1792576793285378200
+}
