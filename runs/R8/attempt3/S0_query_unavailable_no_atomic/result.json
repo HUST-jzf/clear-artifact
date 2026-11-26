@@ -1,0 +1,7 @@
+{
+  "terminal": "pause",
+  "reason": "query_unknown",
+  "case": "query_unavailable",
+  "variant": "no_atomic",
+  "seed": 0
+}
