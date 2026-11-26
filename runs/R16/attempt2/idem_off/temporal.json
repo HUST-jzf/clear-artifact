@@ -1,0 +1,2356 @@
+{
+  "baseline": "temporal",
+  "config": "idem_off",
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "tasks": [
+    {
+      "workflow": "temporal-idem_off-lost_return-S0",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 1,
+      "stale_rows": 0,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 2,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "post_calls": 0,
+      "safe": false,
+      "elapsed_ns": 6683752500,
+      "baseline": "temporal",
+      "config": "idem_off",
+      "fault": "lost_return",
+      "seed": 0
+    },
+    {
+      "workflow": "temporal-idem_off-lost_return-S1",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 1,
+      "stale_rows": 0,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 2,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "post_calls": 0,
+      "safe": false,
+      "elapsed_ns": 6649059200,
+      "baseline": "temporal",
+      "config": "idem_off",
+      "fault": "lost_return",
+      "seed": 1
+    },
+    {
+      "workflow": "temporal-idem_off-lost_return-S2",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 1,
+      "stale_rows": 0,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 2,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "post_calls": 0,
+      "safe": false,
+      "elapsed_ns": 6662930300,
+      "baseline": "temporal",
+      "config": "idem_off",
+      "fault": "lost_return",
+      "seed": 2
+    },
+    {
+      "workflow": "temporal-idem_off-lost_return-S3",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 1,
+      "stale_rows": 0,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 2,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "post_calls": 0,
+      "safe": false,
+      "elapsed_ns": 6697394800,
+      "baseline": "temporal",
+      "config": "idem_off",
+      "fault": "lost_return",
+      "seed": 3
+    },
+    {
+      "workflow": "temporal-idem_off-lost_return-S4",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 1,
+      "stale_rows": 0,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 2,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "post_calls": 0,
+      "safe": false,
+      "elapsed_ns": 7011731000,
+      "baseline": "temporal",
+      "config": "idem_off",
+      "fault": "lost_return",
+      "seed": 4
+    },
+    {
+      "workflow": "temporal-idem_off-lost_return-S5",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 1,
+      "stale_rows": 0,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 2,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "post_calls": 0,
+      "safe": false,
+      "elapsed_ns": 6653704300,
+      "baseline": "temporal",
+      "config": "idem_off",
+      "fault": "lost_return",
+      "seed": 5
+    },
+    {
+      "workflow": "temporal-idem_off-lost_return-S6",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 1,
+      "stale_rows": 0,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 2,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "post_calls": 0,
+      "safe": false,
+      "elapsed_ns": 6662345700,
+      "baseline": "temporal",
+      "config": "idem_off",
+      "fault": "lost_return",
+      "seed": 6
+    },
+    {
+      "workflow": "temporal-idem_off-lost_return-S7",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 1,
+      "stale_rows": 0,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 2,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "post_calls": 0,
+      "safe": false,
+      "elapsed_ns": 6635672900,
+      "baseline": "temporal",
+      "config": "idem_off",
+      "fault": "lost_return",
+      "seed": 7
+    },
+    {
+      "workflow": "temporal-idem_off-lost_return-S8",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 1,
+      "stale_rows": 0,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 2,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "post_calls": 0,
+      "safe": false,
+      "elapsed_ns": 6782899100,
+      "baseline": "temporal",
+      "config": "idem_off",
+      "fault": "lost_return",
+      "seed": 8
+    },
+    {
+      "workflow": "temporal-idem_off-lost_return-S9",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 1,
+      "stale_rows": 0,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 2,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "post_calls": 0,
+      "safe": false,
+      "elapsed_ns": 6759596000,
+      "baseline": "temporal",
+      "config": "idem_off",
+      "fault": "lost_return",
+      "seed": 9
+    },
+    {
+      "workflow": "temporal-idem_off-lost_return-S10",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 1,
+      "stale_rows": 0,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 2,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "post_calls": 0,
+      "safe": false,
+      "elapsed_ns": 6791119500,
+      "baseline": "temporal",
+      "config": "idem_off",
+      "fault": "lost_return",
+      "seed": 10
+    },
+    {
+      "workflow": "temporal-idem_off-lost_return-S11",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 1,
+      "stale_rows": 0,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 2,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "post_calls": 0,
+      "safe": false,
+      "elapsed_ns": 6627900300,
+      "baseline": "temporal",
+      "config": "idem_off",
+      "fault": "lost_return",
+      "seed": 11
+    },
+    {
+      "workflow": "temporal-idem_off-lost_return-S12",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 1,
+      "stale_rows": 0,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 2,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "post_calls": 0,
+      "safe": false,
+      "elapsed_ns": 6835743700,
+      "baseline": "temporal",
+      "config": "idem_off",
+      "fault": "lost_return",
+      "seed": 12
+    },
+    {
+      "workflow": "temporal-idem_off-lost_return-S13",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 1,
+      "stale_rows": 0,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 2,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "post_calls": 0,
+      "safe": false,
+      "elapsed_ns": 6588093600,
+      "baseline": "temporal",
+      "config": "idem_off",
+      "fault": "lost_return",
+      "seed": 13
+    },
+    {
+      "workflow": "temporal-idem_off-lost_return-S14",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 1,
+      "stale_rows": 0,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 2,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "post_calls": 0,
+      "safe": false,
+      "elapsed_ns": 6799028400,
+      "baseline": "temporal",
+      "config": "idem_off",
+      "fault": "lost_return",
+      "seed": 14
+    },
+    {
+      "workflow": "temporal-idem_off-lost_return-S15",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 1,
+      "stale_rows": 0,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 2,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "post_calls": 0,
+      "safe": false,
+      "elapsed_ns": 6837618700,
+      "baseline": "temporal",
+      "config": "idem_off",
+      "fault": "lost_return",
+      "seed": 15
+    },
+    {
+      "workflow": "temporal-idem_off-lost_return-S16",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 1,
+      "stale_rows": 0,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 2,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "post_calls": 0,
+      "safe": false,
+      "elapsed_ns": 6736982300,
+      "baseline": "temporal",
+      "config": "idem_off",
+      "fault": "lost_return",
+      "seed": 16
+    },
+    {
+      "workflow": "temporal-idem_off-lost_return-S17",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 1,
+      "stale_rows": 0,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 2,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "post_calls": 0,
+      "safe": false,
+      "elapsed_ns": 6894301500,
+      "baseline": "temporal",
+      "config": "idem_off",
+      "fault": "lost_return",
+      "seed": 17
+    },
+    {
+      "workflow": "temporal-idem_off-lost_return-S18",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 1,
+      "stale_rows": 0,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 2,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "post_calls": 0,
+      "safe": false,
+      "elapsed_ns": 6764281800,
+      "baseline": "temporal",
+      "config": "idem_off",
+      "fault": "lost_return",
+      "seed": 18
+    },
+    {
+      "workflow": "temporal-idem_off-lost_return-S19",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 1,
+      "stale_rows": 0,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 2,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "post_calls": 0,
+      "safe": false,
+      "elapsed_ns": 6969766200,
+      "baseline": "temporal",
+      "config": "idem_off",
+      "fault": "lost_return",
+      "seed": 19
+    },
+    {
+      "workflow": "temporal-idem_off-late_commit-S0",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 1,
+      "stale_rows": 0,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 2,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "post_calls": 0,
+      "safe": false,
+      "elapsed_ns": 7412997300,
+      "baseline": "temporal",
+      "config": "idem_off",
+      "fault": "late_commit",
+      "seed": 0
+    },
+    {
+      "workflow": "temporal-idem_off-late_commit-S1",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 1,
+      "stale_rows": 0,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 2,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "post_calls": 0,
+      "safe": false,
+      "elapsed_ns": 6823423700,
+      "baseline": "temporal",
+      "config": "idem_off",
+      "fault": "late_commit",
+      "seed": 1
+    },
+    {
+      "workflow": "temporal-idem_off-late_commit-S2",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 1,
+      "stale_rows": 0,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 2,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "post_calls": 0,
+      "safe": false,
+      "elapsed_ns": 6791196200,
+      "baseline": "temporal",
+      "config": "idem_off",
+      "fault": "late_commit",
+      "seed": 2
+    },
+    {
+      "workflow": "temporal-idem_off-late_commit-S3",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 1,
+      "stale_rows": 0,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 2,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "post_calls": 0,
+      "safe": false,
+      "elapsed_ns": 6891848700,
+      "baseline": "temporal",
+      "config": "idem_off",
+      "fault": "late_commit",
+      "seed": 3
+    },
+    {
+      "workflow": "temporal-idem_off-late_commit-S4",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 1,
+      "stale_rows": 0,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 2,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "post_calls": 0,
+      "safe": false,
+      "elapsed_ns": 7038050600,
+      "baseline": "temporal",
+      "config": "idem_off",
+      "fault": "late_commit",
+      "seed": 4
+    },
+    {
+      "workflow": "temporal-idem_off-late_commit-S5",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 1,
+      "stale_rows": 0,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 2,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "post_calls": 0,
+      "safe": false,
+      "elapsed_ns": 6843874900,
+      "baseline": "temporal",
+      "config": "idem_off",
+      "fault": "late_commit",
+      "seed": 5
+    },
+    {
+      "workflow": "temporal-idem_off-late_commit-S6",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 1,
+      "stale_rows": 0,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 2,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "post_calls": 0,
+      "safe": false,
+      "elapsed_ns": 6655019600,
+      "baseline": "temporal",
+      "config": "idem_off",
+      "fault": "late_commit",
+      "seed": 6
+    },
+    {
+      "workflow": "temporal-idem_off-late_commit-S7",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 1,
+      "stale_rows": 0,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 2,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "post_calls": 0,
+      "safe": false,
+      "elapsed_ns": 6712882000,
+      "baseline": "temporal",
+      "config": "idem_off",
+      "fault": "late_commit",
+      "seed": 7
+    },
+    {
+      "workflow": "temporal-idem_off-late_commit-S8",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 1,
+      "stale_rows": 0,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 2,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "post_calls": 0,
+      "safe": false,
+      "elapsed_ns": 6679157500,
+      "baseline": "temporal",
+      "config": "idem_off",
+      "fault": "late_commit",
+      "seed": 8
+    },
+    {
+      "workflow": "temporal-idem_off-late_commit-S9",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 1,
+      "stale_rows": 0,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 2,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "post_calls": 0,
+      "safe": false,
+      "elapsed_ns": 7148138800,
+      "baseline": "temporal",
+      "config": "idem_off",
+      "fault": "late_commit",
+      "seed": 9
+    },
+    {
+      "workflow": "temporal-idem_off-late_commit-S10",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 1,
+      "stale_rows": 0,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 2,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "post_calls": 0,
+      "safe": false,
+      "elapsed_ns": 7591533100,
+      "baseline": "temporal",
+      "config": "idem_off",
+      "fault": "late_commit",
+      "seed": 10
+    },
+    {
+      "workflow": "temporal-idem_off-late_commit-S11",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 1,
+      "stale_rows": 0,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 2,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "post_calls": 0,
+      "safe": false,
+      "elapsed_ns": 6817342800,
+      "baseline": "temporal",
+      "config": "idem_off",
+      "fault": "late_commit",
+      "seed": 11
+    },
+    {
+      "workflow": "temporal-idem_off-late_commit-S12",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 1,
+      "stale_rows": 0,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 2,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "post_calls": 0,
+      "safe": false,
+      "elapsed_ns": 6679146500,
+      "baseline": "temporal",
+      "config": "idem_off",
+      "fault": "late_commit",
+      "seed": 12
+    },
+    {
+      "workflow": "temporal-idem_off-late_commit-S13",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 1,
+      "stale_rows": 0,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 2,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "post_calls": 0,
+      "safe": false,
+      "elapsed_ns": 6856864600,
+      "baseline": "temporal",
+      "config": "idem_off",
+      "fault": "late_commit",
+      "seed": 13
+    },
+    {
+      "workflow": "temporal-idem_off-late_commit-S14",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 1,
+      "stale_rows": 0,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 2,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "post_calls": 0,
+      "safe": false,
+      "elapsed_ns": 6771396900,
+      "baseline": "temporal",
+      "config": "idem_off",
+      "fault": "late_commit",
+      "seed": 14
+    },
+    {
+      "workflow": "temporal-idem_off-late_commit-S15",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 1,
+      "stale_rows": 0,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 2,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "post_calls": 0,
+      "safe": false,
+      "elapsed_ns": 6890182800,
+      "baseline": "temporal",
+      "config": "idem_off",
+      "fault": "late_commit",
+      "seed": 15
+    },
+    {
+      "workflow": "temporal-idem_off-late_commit-S16",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 1,
+      "stale_rows": 0,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 2,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "post_calls": 0,
+      "safe": false,
+      "elapsed_ns": 6852015000,
+      "baseline": "temporal",
+      "config": "idem_off",
+      "fault": "late_commit",
+      "seed": 16
+    },
+    {
+      "workflow": "temporal-idem_off-late_commit-S17",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 1,
+      "stale_rows": 0,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 2,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "post_calls": 0,
+      "safe": false,
+      "elapsed_ns": 6731554300,
+      "baseline": "temporal",
+      "config": "idem_off",
+      "fault": "late_commit",
+      "seed": 17
+    },
+    {
+      "workflow": "temporal-idem_off-late_commit-S18",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 1,
+      "stale_rows": 0,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 2,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "post_calls": 0,
+      "safe": false,
+      "elapsed_ns": 6794699900,
+      "baseline": "temporal",
+      "config": "idem_off",
+      "fault": "late_commit",
+      "seed": 18
+    },
+    {
+      "workflow": "temporal-idem_off-late_commit-S19",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 1,
+      "stale_rows": 0,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 2,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "post_calls": 0,
+      "safe": false,
+      "elapsed_ns": 6769274000,
+      "baseline": "temporal",
+      "config": "idem_off",
+      "fault": "late_commit",
+      "seed": 19
+    },
+    {
+      "workflow": "temporal-idem_off-revoke_after_reserve-S0",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 0,
+      "stale_rows": 3,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "post_calls": 0,
+      "safe": false,
+      "elapsed_ns": 6105899000,
+      "baseline": "temporal",
+      "config": "idem_off",
+      "fault": "revoke_after_reserve",
+      "seed": 0
+    },
+    {
+      "workflow": "temporal-idem_off-revoke_after_reserve-S1",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 0,
+      "stale_rows": 3,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "post_calls": 0,
+      "safe": false,
+      "elapsed_ns": 6206197500,
+      "baseline": "temporal",
+      "config": "idem_off",
+      "fault": "revoke_after_reserve",
+      "seed": 1
+    },
+    {
+      "workflow": "temporal-idem_off-revoke_after_reserve-S2",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 0,
+      "stale_rows": 3,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "post_calls": 0,
+      "safe": false,
+      "elapsed_ns": 5963249100,
+      "baseline": "temporal",
+      "config": "idem_off",
+      "fault": "revoke_after_reserve",
+      "seed": 2
+    },
+    {
+      "workflow": "temporal-idem_off-revoke_after_reserve-S3",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 0,
+      "stale_rows": 3,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "post_calls": 0,
+      "safe": false,
+      "elapsed_ns": 5605688900,
+      "baseline": "temporal",
+      "config": "idem_off",
+      "fault": "revoke_after_reserve",
+      "seed": 3
+    },
+    {
+      "workflow": "temporal-idem_off-revoke_after_reserve-S4",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 0,
+      "stale_rows": 3,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "post_calls": 0,
+      "safe": false,
+      "elapsed_ns": 5725358800,
+      "baseline": "temporal",
+      "config": "idem_off",
+      "fault": "revoke_after_reserve",
+      "seed": 4
+    },
+    {
+      "workflow": "temporal-idem_off-revoke_after_reserve-S5",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 0,
+      "stale_rows": 3,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "post_calls": 0,
+      "safe": false,
+      "elapsed_ns": 5677192700,
+      "baseline": "temporal",
+      "config": "idem_off",
+      "fault": "revoke_after_reserve",
+      "seed": 5
+    },
+    {
+      "workflow": "temporal-idem_off-revoke_after_reserve-S6",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 0,
+      "stale_rows": 3,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "post_calls": 0,
+      "safe": false,
+      "elapsed_ns": 6322828100,
+      "baseline": "temporal",
+      "config": "idem_off",
+      "fault": "revoke_after_reserve",
+      "seed": 6
+    },
+    {
+      "workflow": "temporal-idem_off-revoke_after_reserve-S7",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 0,
+      "stale_rows": 3,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "post_calls": 0,
+      "safe": false,
+      "elapsed_ns": 5832086600,
+      "baseline": "temporal",
+      "config": "idem_off",
+      "fault": "revoke_after_reserve",
+      "seed": 7
+    },
+    {
+      "workflow": "temporal-idem_off-revoke_after_reserve-S8",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 0,
+      "stale_rows": 3,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "post_calls": 0,
+      "safe": false,
+      "elapsed_ns": 5972688300,
+      "baseline": "temporal",
+      "config": "idem_off",
+      "fault": "revoke_after_reserve",
+      "seed": 8
+    },
+    {
+      "workflow": "temporal-idem_off-revoke_after_reserve-S9",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 0,
+      "stale_rows": 3,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "post_calls": 0,
+      "safe": false,
+      "elapsed_ns": 5690663600,
+      "baseline": "temporal",
+      "config": "idem_off",
+      "fault": "revoke_after_reserve",
+      "seed": 9
+    },
+    {
+      "workflow": "temporal-idem_off-revoke_after_reserve-S10",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 0,
+      "stale_rows": 3,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "post_calls": 0,
+      "safe": false,
+      "elapsed_ns": 5882126700,
+      "baseline": "temporal",
+      "config": "idem_off",
+      "fault": "revoke_after_reserve",
+      "seed": 10
+    },
+    {
+      "workflow": "temporal-idem_off-revoke_after_reserve-S11",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 0,
+      "stale_rows": 3,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "post_calls": 0,
+      "safe": false,
+      "elapsed_ns": 5587129200,
+      "baseline": "temporal",
+      "config": "idem_off",
+      "fault": "revoke_after_reserve",
+      "seed": 11
+    },
+    {
+      "workflow": "temporal-idem_off-revoke_after_reserve-S12",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 0,
+      "stale_rows": 3,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "post_calls": 0,
+      "safe": false,
+      "elapsed_ns": 6177190700,
+      "baseline": "temporal",
+      "config": "idem_off",
+      "fault": "revoke_after_reserve",
+      "seed": 12
+    },
+    {
+      "workflow": "temporal-idem_off-revoke_after_reserve-S13",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 0,
+      "stale_rows": 3,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "post_calls": 0,
+      "safe": false,
+      "elapsed_ns": 5920438600,
+      "baseline": "temporal",
+      "config": "idem_off",
+      "fault": "revoke_after_reserve",
+      "seed": 13
+    },
+    {
+      "workflow": "temporal-idem_off-revoke_after_reserve-S14",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 0,
+      "stale_rows": 3,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "post_calls": 0,
+      "safe": false,
+      "elapsed_ns": 6166490000,
+      "baseline": "temporal",
+      "config": "idem_off",
+      "fault": "revoke_after_reserve",
+      "seed": 14
+    },
+    {
+      "workflow": "temporal-idem_off-revoke_after_reserve-S15",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 0,
+      "stale_rows": 3,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "post_calls": 0,
+      "safe": false,
+      "elapsed_ns": 6016483300,
+      "baseline": "temporal",
+      "config": "idem_off",
+      "fault": "revoke_after_reserve",
+      "seed": 15
+    },
+    {
+      "workflow": "temporal-idem_off-revoke_after_reserve-S16",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 0,
+      "stale_rows": 3,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "post_calls": 0,
+      "safe": false,
+      "elapsed_ns": 5784238000,
+      "baseline": "temporal",
+      "config": "idem_off",
+      "fault": "revoke_after_reserve",
+      "seed": 16
+    },
+    {
+      "workflow": "temporal-idem_off-revoke_after_reserve-S17",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 0,
+      "stale_rows": 3,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "post_calls": 0,
+      "safe": false,
+      "elapsed_ns": 5985300100,
+      "baseline": "temporal",
+      "config": "idem_off",
+      "fault": "revoke_after_reserve",
+      "seed": 17
+    },
+    {
+      "workflow": "temporal-idem_off-revoke_after_reserve-S18",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 0,
+      "stale_rows": 3,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "post_calls": 0,
+      "safe": false,
+      "elapsed_ns": 6183913400,
+      "baseline": "temporal",
+      "config": "idem_off",
+      "fault": "revoke_after_reserve",
+      "seed": 18
+    },
+    {
+      "workflow": "temporal-idem_off-revoke_after_reserve-S19",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 0,
+      "stale_rows": 3,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "post_calls": 0,
+      "safe": false,
+      "elapsed_ns": 6110527300,
+      "baseline": "temporal",
+      "config": "idem_off",
+      "fault": "revoke_after_reserve",
+      "seed": 19
+    },
+    {
+      "workflow": "temporal-idem_off-revoke_after_commit-S0",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 0,
+      "stale_rows": 1,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 1
+      },
+      "post_calls": 0,
+      "safe": false,
+      "elapsed_ns": 6228564000,
+      "baseline": "temporal",
+      "config": "idem_off",
+      "fault": "revoke_after_commit",
+      "seed": 0
+    },
+    {
+      "workflow": "temporal-idem_off-revoke_after_commit-S1",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 0,
+      "stale_rows": 1,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 1
+      },
+      "post_calls": 0,
+      "safe": false,
+      "elapsed_ns": 5869123400,
+      "baseline": "temporal",
+      "config": "idem_off",
+      "fault": "revoke_after_commit",
+      "seed": 1
+    },
+    {
+      "workflow": "temporal-idem_off-revoke_after_commit-S2",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 0,
+      "stale_rows": 1,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 1
+      },
+      "post_calls": 0,
+      "safe": false,
+      "elapsed_ns": 6122832300,
+      "baseline": "temporal",
+      "config": "idem_off",
+      "fault": "revoke_after_commit",
+      "seed": 2
+    },
+    {
+      "workflow": "temporal-idem_off-revoke_after_commit-S3",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 0,
+      "stale_rows": 1,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 1
+      },
+      "post_calls": 0,
+      "safe": false,
+      "elapsed_ns": 5839009700,
+      "baseline": "temporal",
+      "config": "idem_off",
+      "fault": "revoke_after_commit",
+      "seed": 3
+    },
+    {
+      "workflow": "temporal-idem_off-revoke_after_commit-S4",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 0,
+      "stale_rows": 1,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 1
+      },
+      "post_calls": 0,
+      "safe": false,
+      "elapsed_ns": 5915697500,
+      "baseline": "temporal",
+      "config": "idem_off",
+      "fault": "revoke_after_commit",
+      "seed": 4
+    },
+    {
+      "workflow": "temporal-idem_off-revoke_after_commit-S5",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 0,
+      "stale_rows": 1,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 1
+      },
+      "post_calls": 0,
+      "safe": false,
+      "elapsed_ns": 6032976000,
+      "baseline": "temporal",
+      "config": "idem_off",
+      "fault": "revoke_after_commit",
+      "seed": 5
+    },
+    {
+      "workflow": "temporal-idem_off-revoke_after_commit-S6",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 0,
+      "stale_rows": 1,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 1
+      },
+      "post_calls": 0,
+      "safe": false,
+      "elapsed_ns": 5726590100,
+      "baseline": "temporal",
+      "config": "idem_off",
+      "fault": "revoke_after_commit",
+      "seed": 6
+    },
+    {
+      "workflow": "temporal-idem_off-revoke_after_commit-S7",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 0,
+      "stale_rows": 1,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 1
+      },
+      "post_calls": 0,
+      "safe": false,
+      "elapsed_ns": 5842386900,
+      "baseline": "temporal",
+      "config": "idem_off",
+      "fault": "revoke_after_commit",
+      "seed": 7
+    },
+    {
+      "workflow": "temporal-idem_off-revoke_after_commit-S8",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 0,
+      "stale_rows": 1,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 1
+      },
+      "post_calls": 0,
+      "safe": false,
+      "elapsed_ns": 5670619800,
+      "baseline": "temporal",
+      "config": "idem_off",
+      "fault": "revoke_after_commit",
+      "seed": 8
+    },
+    {
+      "workflow": "temporal-idem_off-revoke_after_commit-S9",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 0,
+      "stale_rows": 1,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 1
+      },
+      "post_calls": 0,
+      "safe": false,
+      "elapsed_ns": 5692986700,
+      "baseline": "temporal",
+      "config": "idem_off",
+      "fault": "revoke_after_commit",
+      "seed": 9
+    },
+    {
+      "workflow": "temporal-idem_off-revoke_after_commit-S10",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 0,
+      "stale_rows": 1,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 1
+      },
+      "post_calls": 0,
+      "safe": false,
+      "elapsed_ns": 5730854200,
+      "baseline": "temporal",
+      "config": "idem_off",
+      "fault": "revoke_after_commit",
+      "seed": 10
+    },
+    {
+      "workflow": "temporal-idem_off-revoke_after_commit-S11",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 0,
+      "stale_rows": 1,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 1
+      },
+      "post_calls": 0,
+      "safe": false,
+      "elapsed_ns": 6302001700,
+      "baseline": "temporal",
+      "config": "idem_off",
+      "fault": "revoke_after_commit",
+      "seed": 11
+    },
+    {
+      "workflow": "temporal-idem_off-revoke_after_commit-S12",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 0,
+      "stale_rows": 1,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 1
+      },
+      "post_calls": 0,
+      "safe": false,
+      "elapsed_ns": 6117332100,
+      "baseline": "temporal",
+      "config": "idem_off",
+      "fault": "revoke_after_commit",
+      "seed": 12
+    },
+    {
+      "workflow": "temporal-idem_off-revoke_after_commit-S13",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 0,
+      "stale_rows": 1,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 1
+      },
+      "post_calls": 0,
+      "safe": false,
+      "elapsed_ns": 6045633800,
+      "baseline": "temporal",
+      "config": "idem_off",
+      "fault": "revoke_after_commit",
+      "seed": 13
+    },
+    {
+      "workflow": "temporal-idem_off-revoke_after_commit-S14",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 0,
+      "stale_rows": 1,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 1
+      },
+      "post_calls": 0,
+      "safe": false,
+      "elapsed_ns": 5799418300,
+      "baseline": "temporal",
+      "config": "idem_off",
+      "fault": "revoke_after_commit",
+      "seed": 14
+    },
+    {
+      "workflow": "temporal-idem_off-revoke_after_commit-S15",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 0,
+      "stale_rows": 1,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 1
+      },
+      "post_calls": 0,
+      "safe": false,
+      "elapsed_ns": 5647744300,
+      "baseline": "temporal",
+      "config": "idem_off",
+      "fault": "revoke_after_commit",
+      "seed": 15
+    },
+    {
+      "workflow": "temporal-idem_off-revoke_after_commit-S16",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 0,
+      "stale_rows": 1,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 1
+      },
+      "post_calls": 0,
+      "safe": false,
+      "elapsed_ns": 5683125400,
+      "baseline": "temporal",
+      "config": "idem_off",
+      "fault": "revoke_after_commit",
+      "seed": 16
+    },
+    {
+      "workflow": "temporal-idem_off-revoke_after_commit-S17",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 0,
+      "stale_rows": 1,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 1
+      },
+      "post_calls": 0,
+      "safe": false,
+      "elapsed_ns": 5886345600,
+      "baseline": "temporal",
+      "config": "idem_off",
+      "fault": "revoke_after_commit",
+      "seed": 17
+    },
+    {
+      "workflow": "temporal-idem_off-revoke_after_commit-S18",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 0,
+      "stale_rows": 1,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 1
+      },
+      "post_calls": 0,
+      "safe": false,
+      "elapsed_ns": 6047531100,
+      "baseline": "temporal",
+      "config": "idem_off",
+      "fault": "revoke_after_commit",
+      "seed": 18
+    },
+    {
+      "workflow": "temporal-idem_off-revoke_after_commit-S19",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 0,
+      "stale_rows": 1,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 1
+      },
+      "post_calls": 0,
+      "safe": false,
+      "elapsed_ns": 6099337900,
+      "baseline": "temporal",
+      "config": "idem_off",
+      "fault": "revoke_after_commit",
+      "seed": 19
+    }
+  ],
+  "failures": [],
+  "retry_policy": {
+    "maximum_attempts": 2,
+    "initial_interval_ms": 10,
+    "backoff_coefficient": 1.0
+  },
+  "start_to_close_timeout_ms": 250,
+  "port": 17234
+}
