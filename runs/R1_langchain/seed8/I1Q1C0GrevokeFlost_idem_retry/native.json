@@ -1,0 +1,221 @@
+{
+  "context": {
+    "operation_id": "I1Q1C0GrevokeFlost_idem_retry",
+    "intent": "38d7c6e9ee9f1c1d8b7b1dbd24382d424982ce51486f3c87cf7e76b662aa298e",
+    "generation": 1
+  },
+  "origin": {
+    "context": {
+      "operation_id": "I1Q1C0GrevokeFlost_idem_retry",
+      "intent": "38d7c6e9ee9f1c1d8b7b1dbd24382d424982ce51486f3c87cf7e76b662aa298e",
+      "generation": 1
+    },
+    "manifest": {
+      "adapter": "langchain_structured_tool",
+      "version": "1.0.0",
+      "python": "3.13.2",
+      "framework": {
+        "langchain_core.tools": "a9ed84f55c19ee1a5d913a33f7aa12274f346b475ef6843048ef453f55e798cd"
+      },
+      "worker_sha256": "82727821f348c521f26c19a48622ac6f7ebcb8042abb1df33b008267d39cd415",
+      "host_sha256": "0e0d1bd0bbadf7f68b8d8575a96e725f79f31e373d49c00787e66d790966f741",
+      "observer_sha256": "82727821f348c521f26c19a48622ac6f7ebcb8042abb1df33b008267d39cd415",
+      "route_sha256": "9a93f2b9b1d7b5f840c9eb319691a657ef38e5b4b4dbbd6526102e9305822eac",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "commit",
+        "delayed": false,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": false,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": true,
+        "query_complete": true
+      }
+    },
+    "namespace": "effects"
+  },
+  "initial_route": {
+    "revision": 1,
+    "mode": "inline",
+    "outcome": "commit",
+    "delayed": false,
+    "abandon_on_cancel": false,
+    "delegated": false,
+    "closed_registration": false,
+    "allowed": true,
+    "store": "effects",
+    "idempotency": true,
+    "query_complete": true
+  },
+  "initial_qualification": {
+    "valid": false,
+    "manifest": {
+      "adapter": "langchain_structured_tool",
+      "version": "1.0.0",
+      "python": "3.13.2",
+      "framework": {
+        "langchain_core.tools": "a9ed84f55c19ee1a5d913a33f7aa12274f346b475ef6843048ef453f55e798cd"
+      },
+      "worker_sha256": "82727821f348c521f26c19a48622ac6f7ebcb8042abb1df33b008267d39cd415",
+      "host_sha256": "0e0d1bd0bbadf7f68b8d8575a96e725f79f31e373d49c00787e66d790966f741",
+      "observer_sha256": "82727821f348c521f26c19a48622ac6f7ebcb8042abb1df33b008267d39cd415",
+      "route_sha256": "9a93f2b9b1d7b5f840c9eb319691a657ef38e5b4b4dbbd6526102e9305822eac",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "commit",
+        "delayed": false,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": false,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": true,
+        "query_complete": true
+      }
+    },
+    "checks": {
+      "adapter": true,
+      "version": true,
+      "python": true,
+      "framework": true,
+      "worker_sha256": true,
+      "host_sha256": true,
+      "observer_sha256": true,
+      "known_route": true,
+      "closed_registration": false,
+      "approval_allowed": true,
+      "same_effect_destination": true
+    },
+    "changed_dependencies": []
+  },
+  "initial_observations": [
+    {
+      "action": "append",
+      "phase": "initial",
+      "attempt": 1,
+      "outcome": "return_lost"
+    }
+  ],
+  "attempt": 1,
+  "calls": [
+    {
+      "tool": "describe",
+      "outcome": "return",
+      "time_ns": 18514905176600
+    },
+    {
+      "tool": "append",
+      "outcome": "return_lost",
+      "time_ns": 18514911934800
+    },
+    {
+      "tool": "append",
+      "outcome": "return_lost",
+      "time_ns": 18514914309700
+    },
+    {
+      "tool": "drain",
+      "outcome": "return",
+      "time_ns": 18514917053100
+    }
+  ],
+  "capabilities": {
+    "executor_handle": true,
+    "closed_registration": false
+  },
+  "drain": {
+    "drained": true,
+    "invocations": 2,
+    "effects": 1,
+    "terminal": true
+  },
+  "close_error": null,
+  "final_manifest": {
+    "adapter": "langchain_structured_tool",
+    "version": "1.0.0",
+    "python": "3.13.2",
+    "framework": {
+      "langchain_core.tools": "a9ed84f55c19ee1a5d913a33f7aa12274f346b475ef6843048ef453f55e798cd"
+    },
+    "worker_sha256": "82727821f348c521f26c19a48622ac6f7ebcb8042abb1df33b008267d39cd415",
+    "host_sha256": "0e0d1bd0bbadf7f68b8d8575a96e725f79f31e373d49c00787e66d790966f741",
+    "observer_sha256": "82727821f348c521f26c19a48622ac6f7ebcb8042abb1df33b008267d39cd415",
+    "route_sha256": "1526c39aa97e21bf6ce9022c5982377b6f166f6fb36cc2480ca5ce6ea1da1720",
+    "route": {
+      "revision": 2,
+      "mode": "inline",
+      "outcome": "commit",
+      "delayed": false,
+      "abandon_on_cancel": false,
+      "delegated": false,
+      "closed_registration": false,
+      "allowed": false,
+      "store": "effects",
+      "idempotency": true,
+      "query_complete": true
+    }
+  },
+  "final_route": {
+    "revision": 2,
+    "mode": "inline",
+    "outcome": "commit",
+    "delayed": false,
+    "abandon_on_cancel": false,
+    "delegated": false,
+    "closed_registration": false,
+    "allowed": false,
+    "store": "effects",
+    "idempotency": true,
+    "query_complete": true
+  },
+  "current_qualification": {
+    "valid": false,
+    "manifest": {
+      "adapter": "langchain_structured_tool",
+      "version": "1.0.0",
+      "python": "3.13.2",
+      "framework": {
+        "langchain_core.tools": "a9ed84f55c19ee1a5d913a33f7aa12274f346b475ef6843048ef453f55e798cd"
+      },
+      "worker_sha256": "82727821f348c521f26c19a48622ac6f7ebcb8042abb1df33b008267d39cd415",
+      "host_sha256": "0e0d1bd0bbadf7f68b8d8575a96e725f79f31e373d49c00787e66d790966f741",
+      "observer_sha256": "82727821f348c521f26c19a48622ac6f7ebcb8042abb1df33b008267d39cd415",
+      "route_sha256": "1526c39aa97e21bf6ce9022c5982377b6f166f6fb36cc2480ca5ce6ea1da1720",
+      "route": {
+        "revision": 2,
+        "mode": "inline",
+        "outcome": "commit",
+        "delayed": false,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": false,
+        "allowed": false,
+        "store": "effects",
+        "idempotency": true,
+        "query_complete": true
+      }
+    },
+    "checks": {
+      "adapter": true,
+      "version": true,
+      "python": true,
+      "framework": true,
+      "worker_sha256": true,
+      "host_sha256": true,
+      "observer_sha256": true,
+      "known_route": true,
+      "closed_registration": false,
+      "approval_allowed": false,
+      "same_effect_destination": true
+    },
+    "changed_dependencies": [
+      "route_sha256",
+      "route"
+    ]
+  },
+  "elapsed_ns": 29527800
+}
