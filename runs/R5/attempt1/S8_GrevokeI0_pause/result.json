@@ -1,0 +1,29 @@
+{
+  "case": "GrevokeI0",
+  "policy": "pause",
+  "seed": 8,
+  "terminal": "not_complete",
+  "rows": 0,
+  "effects": [],
+  "controllers": [
+    {
+      "controller": "c2",
+      "outcome": "paused"
+    },
+    {
+      "controller": "c1",
+      "outcome": "paused"
+    }
+  ],
+  "permit": {
+    "allowed": false,
+    "revision": 2
+  },
+  "duplicate": false,
+  "stale_new": 0,
+  "aborted": 0,
+  "errors": [],
+  "operation_id": "S8_GrevokeI0_pause",
+  "intent": "b08eba3e14a83a0a5f629dc64d6276562609b69841222cfe77b8f88f04a55170",
+  "elapsed_ns": 63290700
+}
