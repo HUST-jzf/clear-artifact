@@ -1,0 +1,24 @@
+{
+  "lost_before_commit_verify_retry_S1": {
+    "attach": {
+      "rows": 1,
+      "stale": 0
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  }
+}

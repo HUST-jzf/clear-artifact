@@ -1,0 +1,45 @@
+{
+  "files": {
+    "docs/R35_same_evidence_baseline_protocol.md": "cbd5c03cb78e737fa139eefecd2003b9b1e45559d09f0444d707015e65e111b0",
+    "scripts/r35_service.py": "1ca99f6a95a5efb78e7df58b95335b8dd571eec05ba9ec89d002725ec08cb535",
+    "scripts/r35_client.py": "6f9a879a8daedfe5badbb775e4b2926e3987f971fbb17edf34177639613eebec",
+    "scripts/run_r35.py": "43a2d05743fec09feb905c11e5e74e6bccca6ec58a457c4d039c090bb2d98f89",
+    "scripts/verify_r35.py": "7f8533b38d57ab0552a4ddf34e23893a3f79a6ba3025da134459d88e2143f295",
+    "scripts/r34_client.py": "fb8a043b775aa5a2971da2db0f523841771aaf0dbb2f82e6637b6332800c87ff"
+  },
+  "conditions": [
+    "lost_return",
+    "lost_before_commit",
+    "revoke_race"
+  ],
+  "policies": [
+    "clear",
+    "verify_retry"
+  ],
+  "seeds": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "target_calls_before_freeze": 0,
+  "python": "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R1_anyio\\env\\Scripts\\python.exe",
+  "python_version": "3.13.2",
+  "created_ns": 1792637745958318500
+}

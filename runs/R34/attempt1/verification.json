@@ -1,0 +1,44 @@
+{
+  "checks": 602,
+  "passed": 602,
+  "status": "pass",
+  "cells": {
+    "lost_return/none": {
+      "rows": 1,
+      "duplicates": 0,
+      "safe": true,
+      "writes": 0
+    },
+    "lost_return/lease": {
+      "rows": 1,
+      "duplicates": 0,
+      "safe": true,
+      "writes": 0
+    },
+    "lost_return/unique": {
+      "rows": 1,
+      "duplicates": 0,
+      "safe": true,
+      "writes": 0
+    },
+    "lost_before_commit/none": {
+      "rows": 2,
+      "duplicates": 1,
+      "safe": false,
+      "writes": 2
+    },
+    "lost_before_commit/lease": {
+      "rows": 1,
+      "duplicates": 0,
+      "safe": true,
+      "writes": 1
+    },
+    "lost_before_commit/unique": {
+      "rows": 1,
+      "duplicates": 0,
+      "safe": true,
+      "writes": 1
+    }
+  },
+  "failed": []
+}

@@ -1,0 +1,1085 @@
+{
+  "tasks": [
+    {
+      "condition": "lost_return",
+      "policy": "clear",
+      "seed": 1,
+      "rows": 1,
+      "stale": 0,
+      "completed": true,
+      "terminal": "complete"
+    },
+    {
+      "condition": "lost_return",
+      "policy": "clear",
+      "seed": 2,
+      "rows": 1,
+      "stale": 0,
+      "completed": true,
+      "terminal": "complete"
+    },
+    {
+      "condition": "lost_return",
+      "policy": "clear",
+      "seed": 3,
+      "rows": 1,
+      "stale": 0,
+      "completed": true,
+      "terminal": "complete"
+    },
+    {
+      "condition": "lost_return",
+      "policy": "clear",
+      "seed": 4,
+      "rows": 1,
+      "stale": 0,
+      "completed": true,
+      "terminal": "complete"
+    },
+    {
+      "condition": "lost_return",
+      "policy": "clear",
+      "seed": 5,
+      "rows": 1,
+      "stale": 0,
+      "completed": true,
+      "terminal": "complete"
+    },
+    {
+      "condition": "lost_return",
+      "policy": "clear",
+      "seed": 6,
+      "rows": 1,
+      "stale": 0,
+      "completed": true,
+      "terminal": "complete"
+    },
+    {
+      "condition": "lost_return",
+      "policy": "clear",
+      "seed": 7,
+      "rows": 1,
+      "stale": 0,
+      "completed": true,
+      "terminal": "complete"
+    },
+    {
+      "condition": "lost_return",
+      "policy": "clear",
+      "seed": 8,
+      "rows": 1,
+      "stale": 0,
+      "completed": true,
+      "terminal": "complete"
+    },
+    {
+      "condition": "lost_return",
+      "policy": "clear",
+      "seed": 9,
+      "rows": 1,
+      "stale": 0,
+      "completed": true,
+      "terminal": "complete"
+    },
+    {
+      "condition": "lost_return",
+      "policy": "clear",
+      "seed": 10,
+      "rows": 1,
+      "stale": 0,
+      "completed": true,
+      "terminal": "complete"
+    },
+    {
+      "condition": "lost_return",
+      "policy": "clear",
+      "seed": 11,
+      "rows": 1,
+      "stale": 0,
+      "completed": true,
+      "terminal": "complete"
+    },
+    {
+      "condition": "lost_return",
+      "policy": "clear",
+      "seed": 12,
+      "rows": 1,
+      "stale": 0,
+      "completed": true,
+      "terminal": "complete"
+    },
+    {
+      "condition": "lost_return",
+      "policy": "clear",
+      "seed": 13,
+      "rows": 1,
+      "stale": 0,
+      "completed": true,
+      "terminal": "complete"
+    },
+    {
+      "condition": "lost_return",
+      "policy": "clear",
+      "seed": 14,
+      "rows": 1,
+      "stale": 0,
+      "completed": true,
+      "terminal": "complete"
+    },
+    {
+      "condition": "lost_return",
+      "policy": "clear",
+      "seed": 15,
+      "rows": 1,
+      "stale": 0,
+      "completed": true,
+      "terminal": "complete"
+    },
+    {
+      "condition": "lost_return",
+      "policy": "clear",
+      "seed": 16,
+      "rows": 1,
+      "stale": 0,
+      "completed": true,
+      "terminal": "complete"
+    },
+    {
+      "condition": "lost_return",
+      "policy": "clear",
+      "seed": 17,
+      "rows": 1,
+      "stale": 0,
+      "completed": true,
+      "terminal": "complete"
+    },
+    {
+      "condition": "lost_return",
+      "policy": "clear",
+      "seed": 18,
+      "rows": 1,
+      "stale": 0,
+      "completed": true,
+      "terminal": "complete"
+    },
+    {
+      "condition": "lost_return",
+      "policy": "clear",
+      "seed": 19,
+      "rows": 1,
+      "stale": 0,
+      "completed": true,
+      "terminal": "complete"
+    },
+    {
+      "condition": "lost_return",
+      "policy": "clear",
+      "seed": 20,
+      "rows": 1,
+      "stale": 0,
+      "completed": true,
+      "terminal": "complete"
+    },
+    {
+      "condition": "lost_return",
+      "policy": "verify_retry",
+      "seed": 1,
+      "rows": 1,
+      "stale": 0,
+      "completed": true,
+      "terminal": "complete"
+    },
+    {
+      "condition": "lost_return",
+      "policy": "verify_retry",
+      "seed": 2,
+      "rows": 1,
+      "stale": 0,
+      "completed": true,
+      "terminal": "complete"
+    },
+    {
+      "condition": "lost_return",
+      "policy": "verify_retry",
+      "seed": 3,
+      "rows": 1,
+      "stale": 0,
+      "completed": true,
+      "terminal": "complete"
+    },
+    {
+      "condition": "lost_return",
+      "policy": "verify_retry",
+      "seed": 4,
+      "rows": 1,
+      "stale": 0,
+      "completed": true,
+      "terminal": "complete"
+    },
+    {
+      "condition": "lost_return",
+      "policy": "verify_retry",
+      "seed": 5,
+      "rows": 1,
+      "stale": 0,
+      "completed": true,
+      "terminal": "complete"
+    },
+    {
+      "condition": "lost_return",
+      "policy": "verify_retry",
+      "seed": 6,
+      "rows": 1,
+      "stale": 0,
+      "completed": true,
+      "terminal": "complete"
+    },
+    {
+      "condition": "lost_return",
+      "policy": "verify_retry",
+      "seed": 7,
+      "rows": 1,
+      "stale": 0,
+      "completed": true,
+      "terminal": "complete"
+    },
+    {
+      "condition": "lost_return",
+      "policy": "verify_retry",
+      "seed": 8,
+      "rows": 1,
+      "stale": 0,
+      "completed": true,
+      "terminal": "complete"
+    },
+    {
+      "condition": "lost_return",
+      "policy": "verify_retry",
+      "seed": 9,
+      "rows": 1,
+      "stale": 0,
+      "completed": true,
+      "terminal": "complete"
+    },
+    {
+      "condition": "lost_return",
+      "policy": "verify_retry",
+      "seed": 10,
+      "rows": 1,
+      "stale": 0,
+      "completed": true,
+      "terminal": "complete"
+    },
+    {
+      "condition": "lost_return",
+      "policy": "verify_retry",
+      "seed": 11,
+      "rows": 1,
+      "stale": 0,
+      "completed": true,
+      "terminal": "complete"
+    },
+    {
+      "condition": "lost_return",
+      "policy": "verify_retry",
+      "seed": 12,
+      "rows": 1,
+      "stale": 0,
+      "completed": true,
+      "terminal": "complete"
+    },
+    {
+      "condition": "lost_return",
+      "policy": "verify_retry",
+      "seed": 13,
+      "rows": 1,
+      "stale": 0,
+      "completed": true,
+      "terminal": "complete"
+    },
+    {
+      "condition": "lost_return",
+      "policy": "verify_retry",
+      "seed": 14,
+      "rows": 1,
+      "stale": 0,
+      "completed": true,
+      "terminal": "complete"
+    },
+    {
+      "condition": "lost_return",
+      "policy": "verify_retry",
+      "seed": 15,
+      "rows": 1,
+      "stale": 0,
+      "completed": true,
+      "terminal": "complete"
+    },
+    {
+      "condition": "lost_return",
+      "policy": "verify_retry",
+      "seed": 16,
+      "rows": 1,
+      "stale": 0,
+      "completed": true,
+      "terminal": "complete"
+    },
+    {
+      "condition": "lost_return",
+      "policy": "verify_retry",
+      "seed": 17,
+      "rows": 1,
+      "stale": 0,
+      "completed": true,
+      "terminal": "complete"
+    },
+    {
+      "condition": "lost_return",
+      "policy": "verify_retry",
+      "seed": 18,
+      "rows": 1,
+      "stale": 0,
+      "completed": true,
+      "terminal": "complete"
+    },
+    {
+      "condition": "lost_return",
+      "policy": "verify_retry",
+      "seed": 19,
+      "rows": 1,
+      "stale": 0,
+      "completed": true,
+      "terminal": "complete"
+    },
+    {
+      "condition": "lost_return",
+      "policy": "verify_retry",
+      "seed": 20,
+      "rows": 1,
+      "stale": 0,
+      "completed": true,
+      "terminal": "complete"
+    },
+    {
+      "condition": "lost_before_commit",
+      "policy": "clear",
+      "seed": 1,
+      "rows": 1,
+      "stale": 0,
+      "completed": true,
+      "terminal": "complete"
+    },
+    {
+      "condition": "lost_before_commit",
+      "policy": "clear",
+      "seed": 2,
+      "rows": 1,
+      "stale": 0,
+      "completed": true,
+      "terminal": "complete"
+    },
+    {
+      "condition": "lost_before_commit",
+      "policy": "clear",
+      "seed": 3,
+      "rows": 1,
+      "stale": 0,
+      "completed": true,
+      "terminal": "complete"
+    },
+    {
+      "condition": "lost_before_commit",
+      "policy": "clear",
+      "seed": 4,
+      "rows": 1,
+      "stale": 0,
+      "completed": true,
+      "terminal": "complete"
+    },
+    {
+      "condition": "lost_before_commit",
+      "policy": "clear",
+      "seed": 5,
+      "rows": 1,
+      "stale": 0,
+      "completed": true,
+      "terminal": "complete"
+    },
+    {
+      "condition": "lost_before_commit",
+      "policy": "clear",
+      "seed": 6,
+      "rows": 1,
+      "stale": 0,
+      "completed": true,
+      "terminal": "complete"
+    },
+    {
+      "condition": "lost_before_commit",
+      "policy": "clear",
+      "seed": 7,
+      "rows": 1,
+      "stale": 0,
+      "completed": true,
+      "terminal": "complete"
+    },
+    {
+      "condition": "lost_before_commit",
+      "policy": "clear",
+      "seed": 8,
+      "rows": 1,
+      "stale": 0,
+      "completed": true,
+      "terminal": "complete"
+    },
+    {
+      "condition": "lost_before_commit",
+      "policy": "clear",
+      "seed": 9,
+      "rows": 1,
+      "stale": 0,
+      "completed": true,
+      "terminal": "complete"
+    },
+    {
+      "condition": "lost_before_commit",
+      "policy": "clear",
+      "seed": 10,
+      "rows": 1,
+      "stale": 0,
+      "completed": true,
+      "terminal": "complete"
+    },
+    {
+      "condition": "lost_before_commit",
+      "policy": "clear",
+      "seed": 11,
+      "rows": 1,
+      "stale": 0,
+      "completed": true,
+      "terminal": "complete"
+    },
+    {
+      "condition": "lost_before_commit",
+      "policy": "clear",
+      "seed": 12,
+      "rows": 1,
+      "stale": 0,
+      "completed": true,
+      "terminal": "complete"
+    },
+    {
+      "condition": "lost_before_commit",
+      "policy": "clear",
+      "seed": 13,
+      "rows": 1,
+      "stale": 0,
+      "completed": true,
+      "terminal": "complete"
+    },
+    {
+      "condition": "lost_before_commit",
+      "policy": "clear",
+      "seed": 14,
+      "rows": 1,
+      "stale": 0,
+      "completed": true,
+      "terminal": "complete"
+    },
+    {
+      "condition": "lost_before_commit",
+      "policy": "clear",
+      "seed": 15,
+      "rows": 1,
+      "stale": 0,
+      "completed": true,
+      "terminal": "complete"
+    },
+    {
+      "condition": "lost_before_commit",
+      "policy": "clear",
+      "seed": 16,
+      "rows": 1,
+      "stale": 0,
+      "completed": true,
+      "terminal": "complete"
+    },
+    {
+      "condition": "lost_before_commit",
+      "policy": "clear",
+      "seed": 17,
+      "rows": 1,
+      "stale": 0,
+      "completed": true,
+      "terminal": "complete"
+    },
+    {
+      "condition": "lost_before_commit",
+      "policy": "clear",
+      "seed": 18,
+      "rows": 1,
+      "stale": 0,
+      "completed": true,
+      "terminal": "complete"
+    },
+    {
+      "condition": "lost_before_commit",
+      "policy": "clear",
+      "seed": 19,
+      "rows": 1,
+      "stale": 0,
+      "completed": true,
+      "terminal": "complete"
+    },
+    {
+      "condition": "lost_before_commit",
+      "policy": "clear",
+      "seed": 20,
+      "rows": 1,
+      "stale": 0,
+      "completed": true,
+      "terminal": "complete"
+    },
+    {
+      "condition": "lost_before_commit",
+      "policy": "verify_retry",
+      "seed": 1,
+      "rows": 1,
+      "stale": 0,
+      "completed": true,
+      "terminal": "complete"
+    },
+    {
+      "condition": "lost_before_commit",
+      "policy": "verify_retry",
+      "seed": 2,
+      "rows": 1,
+      "stale": 0,
+      "completed": true,
+      "terminal": "complete"
+    },
+    {
+      "condition": "lost_before_commit",
+      "policy": "verify_retry",
+      "seed": 3,
+      "rows": 1,
+      "stale": 0,
+      "completed": true,
+      "terminal": "complete"
+    },
+    {
+      "condition": "lost_before_commit",
+      "policy": "verify_retry",
+      "seed": 4,
+      "rows": 1,
+      "stale": 0,
+      "completed": true,
+      "terminal": "complete"
+    },
+    {
+      "condition": "lost_before_commit",
+      "policy": "verify_retry",
+      "seed": 5,
+      "rows": 1,
+      "stale": 0,
+      "completed": true,
+      "terminal": "complete"
+    },
+    {
+      "condition": "lost_before_commit",
+      "policy": "verify_retry",
+      "seed": 6,
+      "rows": 1,
+      "stale": 0,
+      "completed": true,
+      "terminal": "complete"
+    },
+    {
+      "condition": "lost_before_commit",
+      "policy": "verify_retry",
+      "seed": 7,
+      "rows": 1,
+      "stale": 0,
+      "completed": true,
+      "terminal": "complete"
+    },
+    {
+      "condition": "lost_before_commit",
+      "policy": "verify_retry",
+      "seed": 8,
+      "rows": 1,
+      "stale": 0,
+      "completed": true,
+      "terminal": "complete"
+    },
+    {
+      "condition": "lost_before_commit",
+      "policy": "verify_retry",
+      "seed": 9,
+      "rows": 1,
+      "stale": 0,
+      "completed": true,
+      "terminal": "complete"
+    },
+    {
+      "condition": "lost_before_commit",
+      "policy": "verify_retry",
+      "seed": 10,
+      "rows": 1,
+      "stale": 0,
+      "completed": true,
+      "terminal": "complete"
+    },
+    {
+      "condition": "lost_before_commit",
+      "policy": "verify_retry",
+      "seed": 11,
+      "rows": 1,
+      "stale": 0,
+      "completed": true,
+      "terminal": "complete"
+    },
+    {
+      "condition": "lost_before_commit",
+      "policy": "verify_retry",
+      "seed": 12,
+      "rows": 1,
+      "stale": 0,
+      "completed": true,
+      "terminal": "complete"
+    },
+    {
+      "condition": "lost_before_commit",
+      "policy": "verify_retry",
+      "seed": 13,
+      "rows": 1,
+      "stale": 0,
+      "completed": true,
+      "terminal": "complete"
+    },
+    {
+      "condition": "lost_before_commit",
+      "policy": "verify_retry",
+      "seed": 14,
+      "rows": 1,
+      "stale": 0,
+      "completed": true,
+      "terminal": "complete"
+    },
+    {
+      "condition": "lost_before_commit",
+      "policy": "verify_retry",
+      "seed": 15,
+      "rows": 1,
+      "stale": 0,
+      "completed": true,
+      "terminal": "complete"
+    },
+    {
+      "condition": "lost_before_commit",
+      "policy": "verify_retry",
+      "seed": 16,
+      "rows": 1,
+      "stale": 0,
+      "completed": true,
+      "terminal": "complete"
+    },
+    {
+      "condition": "lost_before_commit",
+      "policy": "verify_retry",
+      "seed": 17,
+      "rows": 1,
+      "stale": 0,
+      "completed": true,
+      "terminal": "complete"
+    },
+    {
+      "condition": "lost_before_commit",
+      "policy": "verify_retry",
+      "seed": 18,
+      "rows": 1,
+      "stale": 0,
+      "completed": true,
+      "terminal": "complete"
+    },
+    {
+      "condition": "lost_before_commit",
+      "policy": "verify_retry",
+      "seed": 19,
+      "rows": 1,
+      "stale": 0,
+      "completed": true,
+      "terminal": "complete"
+    },
+    {
+      "condition": "lost_before_commit",
+      "policy": "verify_retry",
+      "seed": 20,
+      "rows": 1,
+      "stale": 0,
+      "completed": true,
+      "terminal": "complete"
+    },
+    {
+      "condition": "revoke_race",
+      "policy": "clear",
+      "seed": 1,
+      "rows": 0,
+      "stale": 0,
+      "completed": false,
+      "terminal": "pause"
+    },
+    {
+      "condition": "revoke_race",
+      "policy": "clear",
+      "seed": 2,
+      "rows": 0,
+      "stale": 0,
+      "completed": false,
+      "terminal": "pause"
+    },
+    {
+      "condition": "revoke_race",
+      "policy": "clear",
+      "seed": 3,
+      "rows": 0,
+      "stale": 0,
+      "completed": false,
+      "terminal": "pause"
+    },
+    {
+      "condition": "revoke_race",
+      "policy": "clear",
+      "seed": 4,
+      "rows": 0,
+      "stale": 0,
+      "completed": false,
+      "terminal": "pause"
+    },
+    {
+      "condition": "revoke_race",
+      "policy": "clear",
+      "seed": 5,
+      "rows": 0,
+      "stale": 0,
+      "completed": false,
+      "terminal": "pause"
+    },
+    {
+      "condition": "revoke_race",
+      "policy": "clear",
+      "seed": 6,
+      "rows": 0,
+      "stale": 0,
+      "completed": false,
+      "terminal": "pause"
+    },
+    {
+      "condition": "revoke_race",
+      "policy": "clear",
+      "seed": 7,
+      "rows": 0,
+      "stale": 0,
+      "completed": false,
+      "terminal": "pause"
+    },
+    {
+      "condition": "revoke_race",
+      "policy": "clear",
+      "seed": 8,
+      "rows": 0,
+      "stale": 0,
+      "completed": false,
+      "terminal": "pause"
+    },
+    {
+      "condition": "revoke_race",
+      "policy": "clear",
+      "seed": 9,
+      "rows": 0,
+      "stale": 0,
+      "completed": false,
+      "terminal": "pause"
+    },
+    {
+      "condition": "revoke_race",
+      "policy": "clear",
+      "seed": 10,
+      "rows": 0,
+      "stale": 0,
+      "completed": false,
+      "terminal": "pause"
+    },
+    {
+      "condition": "revoke_race",
+      "policy": "clear",
+      "seed": 11,
+      "rows": 0,
+      "stale": 0,
+      "completed": false,
+      "terminal": "pause"
+    },
+    {
+      "condition": "revoke_race",
+      "policy": "clear",
+      "seed": 12,
+      "rows": 0,
+      "stale": 0,
+      "completed": false,
+      "terminal": "pause"
+    },
+    {
+      "condition": "revoke_race",
+      "policy": "clear",
+      "seed": 13,
+      "rows": 0,
+      "stale": 0,
+      "completed": false,
+      "terminal": "pause"
+    },
+    {
+      "condition": "revoke_race",
+      "policy": "clear",
+      "seed": 14,
+      "rows": 0,
+      "stale": 0,
+      "completed": false,
+      "terminal": "pause"
+    },
+    {
+      "condition": "revoke_race",
+      "policy": "clear",
+      "seed": 15,
+      "rows": 0,
+      "stale": 0,
+      "completed": false,
+      "terminal": "pause"
+    },
+    {
+      "condition": "revoke_race",
+      "policy": "clear",
+      "seed": 16,
+      "rows": 0,
+      "stale": 0,
+      "completed": false,
+      "terminal": "pause"
+    },
+    {
+      "condition": "revoke_race",
+      "policy": "clear",
+      "seed": 17,
+      "rows": 0,
+      "stale": 0,
+      "completed": false,
+      "terminal": "pause"
+    },
+    {
+      "condition": "revoke_race",
+      "policy": "clear",
+      "seed": 18,
+      "rows": 0,
+      "stale": 0,
+      "completed": false,
+      "terminal": "pause"
+    },
+    {
+      "condition": "revoke_race",
+      "policy": "clear",
+      "seed": 19,
+      "rows": 0,
+      "stale": 0,
+      "completed": false,
+      "terminal": "pause"
+    },
+    {
+      "condition": "revoke_race",
+      "policy": "clear",
+      "seed": 20,
+      "rows": 0,
+      "stale": 0,
+      "completed": false,
+      "terminal": "pause"
+    },
+    {
+      "condition": "revoke_race",
+      "policy": "verify_retry",
+      "seed": 1,
+      "rows": 1,
+      "stale": 1,
+      "completed": true,
+      "terminal": "complete"
+    },
+    {
+      "condition": "revoke_race",
+      "policy": "verify_retry",
+      "seed": 2,
+      "rows": 1,
+      "stale": 1,
+      "completed": true,
+      "terminal": "complete"
+    },
+    {
+      "condition": "revoke_race",
+      "policy": "verify_retry",
+      "seed": 3,
+      "rows": 1,
+      "stale": 1,
+      "completed": true,
+      "terminal": "complete"
+    },
+    {
+      "condition": "revoke_race",
+      "policy": "verify_retry",
+      "seed": 4,
+      "rows": 1,
+      "stale": 1,
+      "completed": true,
+      "terminal": "complete"
+    },
+    {
+      "condition": "revoke_race",
+      "policy": "verify_retry",
+      "seed": 5,
+      "rows": 1,
+      "stale": 1,
+      "completed": true,
+      "terminal": "complete"
+    },
+    {
+      "condition": "revoke_race",
+      "policy": "verify_retry",
+      "seed": 6,
+      "rows": 1,
+      "stale": 1,
+      "completed": true,
+      "terminal": "complete"
+    },
+    {
+      "condition": "revoke_race",
+      "policy": "verify_retry",
+      "seed": 7,
+      "rows": 1,
+      "stale": 1,
+      "completed": true,
+      "terminal": "complete"
+    },
+    {
+      "condition": "revoke_race",
+      "policy": "verify_retry",
+      "seed": 8,
+      "rows": 1,
+      "stale": 1,
+      "completed": true,
+      "terminal": "complete"
+    },
+    {
+      "condition": "revoke_race",
+      "policy": "verify_retry",
+      "seed": 9,
+      "rows": 1,
+      "stale": 1,
+      "completed": true,
+      "terminal": "complete"
+    },
+    {
+      "condition": "revoke_race",
+      "policy": "verify_retry",
+      "seed": 10,
+      "rows": 1,
+      "stale": 1,
+      "completed": true,
+      "terminal": "complete"
+    },
+    {
+      "condition": "revoke_race",
+      "policy": "verify_retry",
+      "seed": 11,
+      "rows": 1,
+      "stale": 1,
+      "completed": true,
+      "terminal": "complete"
+    },
+    {
+      "condition": "revoke_race",
+      "policy": "verify_retry",
+      "seed": 12,
+      "rows": 1,
+      "stale": 1,
+      "completed": true,
+      "terminal": "complete"
+    },
+    {
+      "condition": "revoke_race",
+      "policy": "verify_retry",
+      "seed": 13,
+      "rows": 1,
+      "stale": 1,
+      "completed": true,
+      "terminal": "complete"
+    },
+    {
+      "condition": "revoke_race",
+      "policy": "verify_retry",
+      "seed": 14,
+      "rows": 1,
+      "stale": 1,
+      "completed": true,
+      "terminal": "complete"
+    },
+    {
+      "condition": "revoke_race",
+      "policy": "verify_retry",
+      "seed": 15,
+      "rows": 1,
+      "stale": 1,
+      "completed": true,
+      "terminal": "complete"
+    },
+    {
+      "condition": "revoke_race",
+      "policy": "verify_retry",
+      "seed": 16,
+      "rows": 1,
+      "stale": 1,
+      "completed": true,
+      "terminal": "complete"
+    },
+    {
+      "condition": "revoke_race",
+      "policy": "verify_retry",
+      "seed": 17,
+      "rows": 1,
+      "stale": 1,
+      "completed": true,
+      "terminal": "complete"
+    },
+    {
+      "condition": "revoke_race",
+      "policy": "verify_retry",
+      "seed": 18,
+      "rows": 1,
+      "stale": 1,
+      "completed": true,
+      "terminal": "complete"
+    },
+    {
+      "condition": "revoke_race",
+      "policy": "verify_retry",
+      "seed": 19,
+      "rows": 1,
+      "stale": 1,
+      "completed": true,
+      "terminal": "complete"
+    },
+    {
+      "condition": "revoke_race",
+      "policy": "verify_retry",
+      "seed": 20,
+      "rows": 1,
+      "stale": 1,
+      "completed": true,
+      "terminal": "complete"
+    }
+  ],
+  "failures": []
+}
