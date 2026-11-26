@@ -1,0 +1,42 @@
+{
+  "closure": "absent",
+  "fault": "late_effect",
+  "policy": "blind_retry",
+  "seed": 8,
+  "workflow": "absent_late_effect_blind_retry_S8",
+  "terminal": "complete",
+  "reason": "retry_committed",
+  "rows": {
+    "create": 1,
+    "reserve": 1,
+    "attach": 2,
+    "commit": 1,
+    "notify": 1
+  },
+  "stale": {
+    "create": 0,
+    "reserve": 0,
+    "attach": 0,
+    "commit": 0,
+    "notify": 0
+  },
+  "committed": {
+    "create": 1,
+    "reserve": 1,
+    "attach": 2,
+    "commit": 1,
+    "notify": 1
+  },
+  "provisional": {
+    "create": 0,
+    "reserve": 0,
+    "attach": 0,
+    "commit": 0,
+    "notify": 0
+  },
+  "rejected": 0,
+  "duplicates": 1,
+  "completed": true,
+  "safe": false,
+  "elapsed_ns": 1714782200
+}
