@@ -1,0 +1,58 @@
+{
+  "invocations": {
+    "1": {
+      "attempt": 1,
+      "terminal": true,
+      "receipt": {
+        "state": "committed",
+        "record_id": 1,
+        "operation_id": "I1Q0C0GnoneFlate_idem_retry",
+        "intent": "38d7c6e9ee9f1c1d8b7b1dbd24382d424982ce51486f3c87cf7e76b662aa298e",
+        "generation": 1,
+        "effect_namespace": "effects",
+        "attempt": 1,
+        "deduplicated": true
+      },
+      "error": null,
+      "done": null,
+      "started_ns": 18467361332400
+    },
+    "2": {
+      "attempt": 2,
+      "terminal": true,
+      "receipt": {
+        "state": "committed",
+        "record_id": 1,
+        "operation_id": "I1Q0C0GnoneFlate_idem_retry",
+        "intent": "38d7c6e9ee9f1c1d8b7b1dbd24382d424982ce51486f3c87cf7e76b662aa298e",
+        "generation": 1,
+        "effect_namespace": "effects",
+        "attempt": 2
+      },
+      "error": null,
+      "done": null,
+      "started_ns": 18467422159400
+    }
+  },
+  "writes": [
+    {
+      "attempt": 2,
+      "record_id": 1,
+      "allowed": true,
+      "at_ns": 18467423987400
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "allowed": true,
+      "at_ns": 18467361334300
+    },
+    {
+      "attempt": 2,
+      "allowed": true,
+      "at_ns": 18467422161200
+    }
+  ],
+  "reauth": []
+}
