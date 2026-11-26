@@ -1,0 +1,75 @@
+{
+  "policy": "reauth_retry",
+  "context": {
+    "operation_id": "I0Q0C1GrevokeFlate_reauth_retry",
+    "intent": "38d7c6e9ee9f1c1d8b7b1dbd24382d424982ce51486f3c87cf7e76b662aa298e",
+    "generation": 1
+  },
+  "origin": {
+    "context": {
+      "operation_id": "I0Q0C1GrevokeFlate_reauth_retry",
+      "intent": "38d7c6e9ee9f1c1d8b7b1dbd24382d424982ce51486f3c87cf7e76b662aa298e",
+      "generation": 1
+    },
+    "manifest": {
+      "adapter": "langchain_structured_tool",
+      "version": "1.0.0",
+      "python": "3.13.2",
+      "framework": {
+        "langchain_core.tools": "a9ed84f55c19ee1a5d913a33f7aa12274f346b475ef6843048ef453f55e798cd"
+      },
+      "worker_sha256": "82727821f348c521f26c19a48622ac6f7ebcb8042abb1df33b008267d39cd415",
+      "host_sha256": "0e0d1bd0bbadf7f68b8d8575a96e725f79f31e373d49c00787e66d790966f741",
+      "observer_sha256": "82727821f348c521f26c19a48622ac6f7ebcb8042abb1df33b008267d39cd415",
+      "route_sha256": "2b965dfb1eba8cb16d9506c5b40974fa406a13f9390de7d064771cf143820311",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "commit",
+        "delayed": true,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": true,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": false,
+        "query_complete": false
+      }
+    },
+    "namespace": "effects"
+  },
+  "initial_observations": [
+    {
+      "action": "append",
+      "phase": "initial",
+      "attempt": 1,
+      "outcome": "timeout"
+    }
+  ],
+  "terminal": "complete",
+  "reason": "reauth_retry",
+  "events": [
+    {
+      "seq": 0,
+      "context": {
+        "operation_id": "I0Q0C1GrevokeFlate_reauth_retry",
+        "intent": "38d7c6e9ee9f1c1d8b7b1dbd24382d424982ce51486f3c87cf7e76b662aa298e",
+        "generation": 1
+      },
+      "manifest": "5e735d9092f99ddc3113c65c46d7b7be900a3d74c1017f9d69bb83befb58fb24",
+      "action": "retry",
+      "body": {
+        "state": "committed",
+        "record_id": 1,
+        "operation_id": "I0Q0C1GrevokeFlate_reauth_retry",
+        "intent": "38d7c6e9ee9f1c1d8b7b1dbd24382d424982ce51486f3c87cf7e76b662aa298e",
+        "generation": 1,
+        "effect_namespace": "effects",
+        "attempt": 2
+      }
+    }
+  ],
+  "steps": [],
+  "case": "I0Q0C1GrevokeFlate",
+  "elapsed_ns": 82206700
+}
