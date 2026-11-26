@@ -1,0 +1,7 @@
+{
+  "base_url": "http://127.0.0.1:51658",
+  "pid": 17584,
+  "returncode": 0,
+  "idempotency": "on",
+  "evidence_mode": "all_down"
+}

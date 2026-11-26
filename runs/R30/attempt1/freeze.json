@@ -1,0 +1,61 @@
+{
+  "modes": [
+    "lifecycle_down",
+    "all_down"
+  ],
+  "policies": [
+    "clear",
+    "idem_retry",
+    "query_retry",
+    "reauth_retry",
+    "pause"
+  ],
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "faults": [
+    "lost_return",
+    "late_commit"
+  ],
+  "idempotency": [
+    "on",
+    "off"
+  ],
+  "lifecycle": "faithful",
+  "query_mode": "faithful",
+  "fault_step": {
+    "lost_return": "attach",
+    "late_commit": "commit"
+  },
+  "steps": [
+    "create",
+    "reserve",
+    "attach",
+    "commit",
+    "notify"
+  ],
+  "files": {
+    "docs/R30_evidence_plane_outage_protocol.md": "3bc340a358e58999561146f9c9c600d6234ddac97b56b53a72c4b5dbf54c3422",
+    "scripts/r24_service.py": "f79016a348d7db1bf6588708b4a5b15a5538f93345d0e9cc94e5454892b85f9b",
+    "scripts/r19_client.py": "8693a1615fa4055f311e1189de8b8ece0a67b0099dbc1b31415435127e2a6325",
+    "scripts/run_r30.py": "c88985b7f47c2aeb17a80d71c8293d5099df3343338f341273419c909ef8fafe",
+    "scripts/verify_r30.py": "f914396d8adc2f6e188dc14a1d43105172d95c5529dff2eeaef2bae92dcd8e14"
+  },
+  "post_timeout_s": 0.4,
+  "get_timeout_s": 0.5,
+  "dispatch_jitter_s": 0.015,
+  "python": "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R1_anyio\\env\\Scripts\\python.exe",
+  "python_version": "3.13.2",
+  "service": "r24_service.py",
+  "target_calls_before_freeze": 0,
+  "created_ns": 1792593519059143700
+}
