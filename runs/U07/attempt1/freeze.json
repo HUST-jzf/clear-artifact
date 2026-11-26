@@ -1,0 +1,31 @@
+{
+  "files": {
+    "docs/U07_clear2_conformance_replay_protocol.md": "23b6be88f7ec47c860b33752e74b410a65d7fff034fbc0e28faaeda8da694f97",
+    "pyproject.toml": "b6cb4c274c15c2e98644deb8a79d52a5e9fdf47e833ecac71d3a0a7fab803a32",
+    "docs/IMPLEMENTATION.md": "8718e2125ffe24ae6dfee3c89be1a9aac2252e45b0075fbfdc575586d03fb611",
+    "src/clear_assurance/__init__.py": "d6ab789442cada4569515eec6e634684ae68d574900c2578af44208955698b8b",
+    "src/clear_assurance/audit.py": "1b82842bdded4842ae4b06b646726fc87d941abdfe89c56f98632dd9e2755221",
+    "src/clear_assurance/bundle.py": "9db82727225582eb5c4853c82bd8295c833aa05851a98a43e3add8e2b14f091d",
+    "src/clear_assurance/cli.py": "81bf994ae8ee4ff90f2f89396e313c1d9df29cc8ce11164049b884ce4a54223f",
+    "src/clear_assurance/core.py": "17b22cdffe4c055a3c3255903dc7c6a98d691a6c69ca86f83e3032cb9d3b35e4",
+    "src/clear_assurance/replay.py": "b6f7f3a3eb4c3f8fe95a07e2b14e21cbb5647ca5cc0491c9ef9376df5695cfa8"
+  },
+  "wheel": {
+    "path": "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\U07\\attempt1\\dist\\clear_assurance-2.0.0-py3-none-any.whl",
+    "sha256": "8fac564ad0599dd8bf276e61e37b6cb410564230398d50b3acef99d61cfcde63",
+    "bytes": 11857
+  },
+  "runs": {
+    "langchain": "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\U03\\attempt1",
+    "anyio": "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\U04\\attempt8",
+    "mcp": "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\U05\\attempt3"
+  },
+  "methods": [
+    "clear",
+    "spg"
+  ],
+  "budget": 4,
+  "python": "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\U07\\attempt1\\env\\Scripts\\python.exe",
+  "target_calls": 0,
+  "created_ns": 1792558869414089400
+}

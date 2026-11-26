@@ -1,0 +1,35 @@
+{
+  "version": {
+    "command": [
+      "--version"
+    ],
+    "returncode": 0,
+    "stdout": "2.0.0\n",
+    "stderr": "",
+    "elapsed_ns": 117479500
+  },
+  "conformance": {
+    "command": [
+      "conformance",
+      "--input",
+      "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\U07\\attempt1\\conformance.json",
+      "--output",
+      "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\U07\\attempt1\\conformance-bundle.json"
+    ],
+    "returncode": 0,
+    "stdout": "{\"tasks_total\": 26, \"steps_total\": 95, \"matched\": true, \"sources\": [{\"source\": \"anyio\", \"tasks\": 8, \"steps\": 30, \"matched\": true}, {\"source\": \"langchain\", \"tasks\": 10, \"steps\": 38, \"matched\": true}, {\"source\": \"mcp\", \"tasks\": 8, \"steps\": 27, \"matched\": true}], \"mismatches\": []}\n",
+    "stderr": "",
+    "elapsed_ns": 217389600
+  },
+  "verify": {
+    "command": [
+      "verify",
+      "--input",
+      "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\U07\\attempt1\\conformance-bundle.json"
+    ],
+    "returncode": 0,
+    "stdout": "{\"valid\": true, \"kind\": \"conformance_bundle\", \"whole_program\": \"unknown\", \"authenticity\": \"not_attested\", \"scope\": \"digest and semantic replay; trusted observers are still premises\"}\n",
+    "stderr": "",
+    "elapsed_ns": 215567500
+  }
+}

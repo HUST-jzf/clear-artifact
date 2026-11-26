@@ -1,0 +1,316 @@
+{
+  "schema": "clear-assurance/1",
+  "kind": "conformance_bundle",
+  "runs": {
+    "langchain": "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\U03\\attempt1",
+    "anyio": "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\U04\\attempt8",
+    "mcp": "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\U05\\attempt3"
+  },
+  "run_files": {
+    "anyio/A01_clear/result.json": "af301d29d4a7b2014c2533375a00b811109afaa490e802642aa0f9cf810324a6",
+    "anyio/A01_clear/native.json": "78e8f1fec37fa82c503bc6fd435e38b95c16cbd3bb68f41f411a81f9b7fc8ab1",
+    "anyio/A02_clear/result.json": "8b4724a3140626f70be6ff7eefde6076fd7baf4f9298de2c1c93241f8ed3eba2",
+    "anyio/A02_clear/native.json": "81819c916e5b3bc0f3b082e7b86b63c22fed74477b89fadb7fc9d5e5cc8e3bcb",
+    "anyio/A03_clear/result.json": "8c486f1f5c336cdf1a57c9d2069434059548b4235afec7309fc96cdb7486e1fe",
+    "anyio/A03_clear/native.json": "be8073504c9d3a853e4f4bee1e2656d80faf084907bb33a1bfdd65289eabcc5d",
+    "anyio/A04_clear/result.json": "026424f588a7180676fc03d76b38a69c3056cc862371499f057970a92298bf2b",
+    "anyio/A04_clear/native.json": "82be411e99804c00a750c5dded875185428b09b5b1723299c54deab4dc24adcc",
+    "anyio/A05_clear/result.json": "36d145ebfa22897aff2f9cd90cff0152a9d4f82906b75d9a63e30fc0fc7b9868",
+    "anyio/A05_clear/native.json": "c41454c12ffe530cc9b7f80aa922c82a0b9690da6275c8355913b8521a7aa7ea",
+    "anyio/A06_clear/result.json": "e5c354f92d40f79190aaa3b92127d6e1ccc5434d48f64ab1867d5bfc04def40e",
+    "anyio/A06_clear/native.json": "9981f3219d3b3d64009579bd824105dbdd93ee3d0769a12676a874ddbf6b32b1",
+    "anyio/A07_clear/result.json": "1af973caac69d5b6e9e1f540171ef346f72ed438fa7501828ab4eda490c8358c",
+    "anyio/A07_clear/native.json": "b7b8e2395f9fe320d1ca0dbae8ffd81cf651d02fb33f4c547e24f41d8c66edb1",
+    "anyio/A08_clear/result.json": "e3b8795200a450146c6fea27709da3e31046e664be7acc23de3ad2dd13b05576",
+    "anyio/A08_clear/native.json": "0f8d836933c3c99734089bae4e35479b5b7b83b2f7a0677af25eda57042f2c95",
+    "langchain/C01_spg/result.json": "40b88dd04a612dc36da2a67b9f43aad2ff2e9b69807a2699b79b81a57af74597",
+    "langchain/C01_spg/native.json": "b5d4995d93ca756e90306041443873a7ff1418b747f702bff2cd1dfc8d3ea11b",
+    "langchain/C02_spg/result.json": "a6173121bb11cbe6a76ab53fe6d6c48e3e154a8105f96ce8e80be41d567df6c6",
+    "langchain/C02_spg/native.json": "a5390f92ba7bcd70613dcd6b10ee58f5653b777fc569be4e738513653ee71933",
+    "langchain/P01_spg/result.json": "a3428c83742570f35d8b1ebb7be7071829c6f524d96c5ac55b170e3f4381d1d3",
+    "langchain/P01_spg/native.json": "4f34df42dd603b7966522d2a5788ee15da3cbda94e504e5438aa33390a414a33",
+    "langchain/P02_spg/result.json": "dedcdf789a2feff37431126215a21b111561b53a5a9f1f31b79867c65044008d",
+    "langchain/P02_spg/native.json": "6f4ca258b2af5967578f722970a46561fa2506d09103826216b3ee1f079c46e9",
+    "langchain/R01_spg/result.json": "1f56a7b9970f54ec58cb76170890d3fcf5cc28cb9459c592f97d5e1cdf79aced",
+    "langchain/R01_spg/native.json": "522ac660d406bd09c9ea35d8d36dffd2c98372c1d1a1cd2e1a512e93dbd4c4ab",
+    "langchain/R02_spg/result.json": "38646824138b670854e42cf74224ab18d6737402b03557432dc3eaff3127648e",
+    "langchain/R02_spg/native.json": "52d9ed66487fdccddef9f73a2d5db59e248fb33ad9eb3f3887c4ac25d29a2535",
+    "langchain/R03_spg/result.json": "2d89297a6cc8e7c466e2ee058f1c2710c98adcae5d2d9b390f3ffd90f01fd7b2",
+    "langchain/R03_spg/native.json": "e0a216133009712547102a5a76521e61a87f0856d27dc5507fc2227178df5b9c",
+    "langchain/R04_spg/result.json": "445b94094f78054b9bed6e21f65c0eaadc4d921fcfc30fae16f0f40d5d58d28c",
+    "langchain/R04_spg/native.json": "87b6311811f3d2c0223e789b692110f88259885082638f5596e69ca14c847963",
+    "langchain/R05_spg/result.json": "812c863397c3b8837da43760ef76caaf0d074565c479214be1d334434e3db6c3",
+    "langchain/R05_spg/native.json": "d755863dabd2a9fbfc597e7ba40c350eae1bd9f7db1867c16149a0557d309b83",
+    "langchain/R06_spg/result.json": "60074b262c8c0aa2c0d836bda8d85a66173c4fe01310f9661a0d0be5a9099cdb",
+    "langchain/R06_spg/native.json": "945150e7e3d0f52928cce6af0fab580e324b4eca0e45de9faf40cbb57e76e040",
+    "mcp/M01_clear/result.json": "30dde9eb2b2a570272fc756af016926060b1dbed1b9e2dbf33bf13e0441fda8e",
+    "mcp/M01_clear/native.json": "c4e060df4330dfaedf06d2c4c9c7d6faa6c5a68feabe64681d7dd7165028b48e",
+    "mcp/M02_clear/result.json": "454e5d119e94b2596ff8274fb139f716df47814f1244034b36c5e0f47e257545",
+    "mcp/M02_clear/native.json": "b49eac5016f2b676c9186670b617a31ede66d6afac30f79e52b7de1cbb97a82a",
+    "mcp/M03_clear/result.json": "24f0df0f9cd58f7c0e9c5af69638eeb201ec36d924b2804ed1835f689680ecde",
+    "mcp/M03_clear/native.json": "44508ac3ebb69507d28cde4a972e61ecfa5f30108e54bf538a3bf3a5b1d8f3fe",
+    "mcp/M04_clear/result.json": "fb6c6f2b012ad5ef664febae3c5c13ee8b817c2c5296cc694af589d138855a20",
+    "mcp/M04_clear/native.json": "f726b6554ab508b178f953dc4342743bc3fe600e05a8c30da5835365d0f7c9d8",
+    "mcp/M05_clear/result.json": "20fdc3d10dc80a1fab88eb6efc128170fdc7fe1a4cdba13a3a1dea82ce2acdf4",
+    "mcp/M05_clear/native.json": "cb6888ca7c03fb0e9df1efdc5dd189702fc88a3b122ca7520d51802846b6e302",
+    "mcp/M06_clear/result.json": "a5c73b85b33786da488636220b72e543aaea0414257e7e1d0d0d73ac79a43b3a",
+    "mcp/M06_clear/native.json": "43e75a667fe6225822fbaee00cf6f2b1b763267f2df0f624e9ef567beb2ea79b",
+    "mcp/M07_clear/result.json": "557a410c9d1facc21bfc6b1d2ab69719de2f4b6240bebf3fc77156451a4988a3",
+    "mcp/M07_clear/native.json": "39892f4e51cdb423510a42e4cc4891260c09cfe764075ebc36eb0c3d37e70e7a",
+    "mcp/M08_clear/result.json": "570812868c8fb938b9c09b9aa17fd49494c079cf43ab09d56cbe90eb8bd4fd22",
+    "mcp/M08_clear/native.json": "e8032bfd779a56eb16d4aac6b861b3de5aadd4ef92e51b58ab948e40b27dc0a5"
+  },
+  "result": {
+    "schema": "clear-assurance/1",
+    "kind": "conformance_result",
+    "sources": [
+      {
+        "source": "anyio",
+        "run": "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\U04\\attempt8",
+        "tasks": [
+          {
+            "task": "A01_clear",
+            "method": "clear",
+            "terminal": "complete",
+            "steps": 4,
+            "actions": 3,
+            "matched": true
+          },
+          {
+            "task": "A02_clear",
+            "method": "clear",
+            "terminal": "pause",
+            "steps": 5,
+            "actions": 4,
+            "matched": true
+          },
+          {
+            "task": "A03_clear",
+            "method": "clear",
+            "terminal": "complete",
+            "steps": 3,
+            "actions": 2,
+            "matched": true
+          },
+          {
+            "task": "A04_clear",
+            "method": "clear",
+            "terminal": "complete",
+            "steps": 2,
+            "actions": 1,
+            "matched": true
+          },
+          {
+            "task": "A05_clear",
+            "method": "clear",
+            "terminal": "complete",
+            "steps": 4,
+            "actions": 3,
+            "matched": true
+          },
+          {
+            "task": "A06_clear",
+            "method": "clear",
+            "terminal": "complete",
+            "steps": 5,
+            "actions": 4,
+            "matched": true
+          },
+          {
+            "task": "A07_clear",
+            "method": "clear",
+            "terminal": "complete",
+            "steps": 5,
+            "actions": 4,
+            "matched": true
+          },
+          {
+            "task": "A08_clear",
+            "method": "clear",
+            "terminal": "pause",
+            "steps": 2,
+            "actions": 1,
+            "matched": true
+          }
+        ],
+        "tasks_total": 8,
+        "steps_total": 30,
+        "mismatches": [],
+        "matched": true
+      },
+      {
+        "source": "langchain",
+        "run": "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\U03\\attempt1",
+        "tasks": [
+          {
+            "task": "C01_spg",
+            "method": "spg",
+            "terminal": "pause",
+            "steps": 4,
+            "actions": 3,
+            "matched": true
+          },
+          {
+            "task": "C02_spg",
+            "method": "spg",
+            "terminal": "complete",
+            "steps": 4,
+            "actions": 3,
+            "matched": true
+          },
+          {
+            "task": "P01_spg",
+            "method": "spg",
+            "terminal": "complete",
+            "steps": 2,
+            "actions": 1,
+            "matched": true
+          },
+          {
+            "task": "P02_spg",
+            "method": "spg",
+            "terminal": "complete",
+            "steps": 2,
+            "actions": 1,
+            "matched": true
+          },
+          {
+            "task": "R01_spg",
+            "method": "spg",
+            "terminal": "complete",
+            "steps": 5,
+            "actions": 4,
+            "matched": true
+          },
+          {
+            "task": "R02_spg",
+            "method": "spg",
+            "terminal": "complete",
+            "steps": 5,
+            "actions": 4,
+            "matched": true
+          },
+          {
+            "task": "R03_spg",
+            "method": "spg",
+            "terminal": "pause",
+            "steps": 5,
+            "actions": 4,
+            "matched": true
+          },
+          {
+            "task": "R04_spg",
+            "method": "spg",
+            "terminal": "complete",
+            "steps": 3,
+            "actions": 2,
+            "matched": true
+          },
+          {
+            "task": "R05_spg",
+            "method": "spg",
+            "terminal": "pause",
+            "steps": 4,
+            "actions": 3,
+            "matched": true
+          },
+          {
+            "task": "R06_spg",
+            "method": "spg",
+            "terminal": "pause",
+            "steps": 4,
+            "actions": 3,
+            "matched": true
+          }
+        ],
+        "tasks_total": 10,
+        "steps_total": 38,
+        "mismatches": [],
+        "matched": true
+      },
+      {
+        "source": "mcp",
+        "run": "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\U05\\attempt3",
+        "tasks": [
+          {
+            "task": "M01_clear",
+            "method": "clear",
+            "terminal": "complete",
+            "steps": 4,
+            "actions": 3,
+            "matched": true
+          },
+          {
+            "task": "M02_clear",
+            "method": "clear",
+            "terminal": "pause",
+            "steps": 5,
+            "actions": 4,
+            "matched": true
+          },
+          {
+            "task": "M03_clear",
+            "method": "clear",
+            "terminal": "complete",
+            "steps": 2,
+            "actions": 1,
+            "matched": true
+          },
+          {
+            "task": "M04_clear",
+            "method": "clear",
+            "terminal": "complete",
+            "steps": 2,
+            "actions": 1,
+            "matched": true
+          },
+          {
+            "task": "M05_clear",
+            "method": "clear",
+            "terminal": "pause",
+            "steps": 4,
+            "actions": 3,
+            "matched": true
+          },
+          {
+            "task": "M06_clear",
+            "method": "clear",
+            "terminal": "complete",
+            "steps": 5,
+            "actions": 4,
+            "matched": true
+          },
+          {
+            "task": "M07_clear",
+            "method": "clear",
+            "terminal": "complete",
+            "steps": 3,
+            "actions": 2,
+            "matched": true
+          },
+          {
+            "task": "M08_clear",
+            "method": "clear",
+            "terminal": "pause",
+            "steps": 2,
+            "actions": 1,
+            "matched": true
+          }
+        ],
+        "tasks_total": 8,
+        "steps_total": 27,
+        "mismatches": [],
+        "matched": true
+      }
+    ],
+    "tasks_total": 26,
+    "steps_total": 95,
+    "mismatches": [],
+    "matched": true
+  },
+  "integrity": {
+    "sha256": "ee2b95b89afdb51347718e476d4d9a49bfefffa7b34a7baf70c42a12864faed1",
+    "algorithm": "sha256",
+    "authenticity": "not_attested"
+  }
+}

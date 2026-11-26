@@ -1,0 +1,747 @@
+{
+  "checks": [
+    {
+      "name": "wheel-exists",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "wheel-hash",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "wheel-bytes",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "version",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "dist-version",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "isolated-prefix",
+      "ok": true,
+      "detail": "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\U07\\attempt1\\env"
+    },
+    {
+      "name": "installed:core",
+      "ok": true,
+      "detail": "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\U07\\attempt1\\env\\Lib\\site-packages\\clear_assurance\\core.py"
+    },
+    {
+      "name": "source-match:core",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "installed:audit",
+      "ok": true,
+      "detail": "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\U07\\attempt1\\env\\Lib\\site-packages\\clear_assurance\\audit.py"
+    },
+    {
+      "name": "source-match:audit",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "installed:bundle",
+      "ok": true,
+      "detail": "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\U07\\attempt1\\env\\Lib\\site-packages\\clear_assurance\\bundle.py"
+    },
+    {
+      "name": "source-match:bundle",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "installed:replay",
+      "ok": true,
+      "detail": "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\U07\\attempt1\\env\\Lib\\site-packages\\clear_assurance\\replay.py"
+    },
+    {
+      "name": "source-match:replay",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "installed:cli",
+      "ok": true,
+      "detail": "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\U07\\attempt1\\env\\Lib\\site-packages\\clear_assurance\\cli.py"
+    },
+    {
+      "name": "source-match:cli",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "freeze:scripts/run_u07.py",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "freeze:docs/U07_clear2_conformance_replay_protocol.md",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "freeze:tool_v2/pyproject.toml",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "freeze:tool_v2/README.md",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "freeze:tool_v2/src/clear_assurance/__init__.py",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "freeze:tool_v2/src/clear_assurance/audit.py",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "freeze:tool_v2/src/clear_assurance/bundle.py",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "freeze:tool_v2/src/clear_assurance/cli.py",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "freeze:tool_v2/src/clear_assurance/core.py",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "freeze:tool_v2/src/clear_assurance/replay.py",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "no-target-calls",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "cli-exit:version",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "cli-exit:conformance",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "cli-exit:verify",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "cli-version-text",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "cli-verify-valid",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "cli-verify-kind",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "bundle-exists",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "bundle-digest",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "bundle-kind",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "bundle-tasks",
+      "ok": true,
+      "detail": 26
+    },
+    {
+      "name": "bundle-steps",
+      "ok": true,
+      "detail": 95
+    },
+    {
+      "name": "bundle-matched",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "name": "source-set",
+      "ok": true,
+      "detail": [
+        "anyio",
+        "langchain",
+        "mcp"
+      ]
+    },
+    {
+      "name": "source:langchain",
+      "ok": true,
+      "detail": {
+        "source": "langchain",
+        "run": "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\U03\\attempt1",
+        "tasks": [
+          {
+            "task": "C01_spg",
+            "method": "spg",
+            "terminal": "pause",
+            "steps": 4,
+            "actions": 3,
+            "matched": true
+          },
+          {
+            "task": "C02_spg",
+            "method": "spg",
+            "terminal": "complete",
+            "steps": 4,
+            "actions": 3,
+            "matched": true
+          },
+          {
+            "task": "P01_spg",
+            "method": "spg",
+            "terminal": "complete",
+            "steps": 2,
+            "actions": 1,
+            "matched": true
+          },
+          {
+            "task": "P02_spg",
+            "method": "spg",
+            "terminal": "complete",
+            "steps": 2,
+            "actions": 1,
+            "matched": true
+          },
+          {
+            "task": "R01_spg",
+            "method": "spg",
+            "terminal": "complete",
+            "steps": 5,
+            "actions": 4,
+            "matched": true
+          },
+          {
+            "task": "R02_spg",
+            "method": "spg",
+            "terminal": "complete",
+            "steps": 5,
+            "actions": 4,
+            "matched": true
+          },
+          {
+            "task": "R03_spg",
+            "method": "spg",
+            "terminal": "pause",
+            "steps": 5,
+            "actions": 4,
+            "matched": true
+          },
+          {
+            "task": "R04_spg",
+            "method": "spg",
+            "terminal": "complete",
+            "steps": 3,
+            "actions": 2,
+            "matched": true
+          },
+          {
+            "task": "R05_spg",
+            "method": "spg",
+            "terminal": "pause",
+            "steps": 4,
+            "actions": 3,
+            "matched": true
+          },
+          {
+            "task": "R06_spg",
+            "method": "spg",
+            "terminal": "pause",
+            "steps": 4,
+            "actions": 3,
+            "matched": true
+          }
+        ],
+        "tasks_total": 10,
+        "steps_total": 38,
+        "mismatches": [],
+        "matched": true
+      }
+    },
+    {
+      "name": "alias:langchain",
+      "ok": true,
+      "detail": [
+        "spg"
+      ]
+    },
+    {
+      "name": "source:anyio",
+      "ok": true,
+      "detail": {
+        "source": "anyio",
+        "run": "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\U04\\attempt8",
+        "tasks": [
+          {
+            "task": "A01_clear",
+            "method": "clear",
+            "terminal": "complete",
+            "steps": 4,
+            "actions": 3,
+            "matched": true
+          },
+          {
+            "task": "A02_clear",
+            "method": "clear",
+            "terminal": "pause",
+            "steps": 5,
+            "actions": 4,
+            "matched": true
+          },
+          {
+            "task": "A03_clear",
+            "method": "clear",
+            "terminal": "complete",
+            "steps": 3,
+            "actions": 2,
+            "matched": true
+          },
+          {
+            "task": "A04_clear",
+            "method": "clear",
+            "terminal": "complete",
+            "steps": 2,
+            "actions": 1,
+            "matched": true
+          },
+          {
+            "task": "A05_clear",
+            "method": "clear",
+            "terminal": "complete",
+            "steps": 4,
+            "actions": 3,
+            "matched": true
+          },
+          {
+            "task": "A06_clear",
+            "method": "clear",
+            "terminal": "complete",
+            "steps": 5,
+            "actions": 4,
+            "matched": true
+          },
+          {
+            "task": "A07_clear",
+            "method": "clear",
+            "terminal": "complete",
+            "steps": 5,
+            "actions": 4,
+            "matched": true
+          },
+          {
+            "task": "A08_clear",
+            "method": "clear",
+            "terminal": "pause",
+            "steps": 2,
+            "actions": 1,
+            "matched": true
+          }
+        ],
+        "tasks_total": 8,
+        "steps_total": 30,
+        "mismatches": [],
+        "matched": true
+      }
+    },
+    {
+      "name": "alias:anyio",
+      "ok": true,
+      "detail": [
+        "clear"
+      ]
+    },
+    {
+      "name": "source:mcp",
+      "ok": true,
+      "detail": {
+        "source": "mcp",
+        "run": "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\U05\\attempt3",
+        "tasks": [
+          {
+            "task": "M01_clear",
+            "method": "clear",
+            "terminal": "complete",
+            "steps": 4,
+            "actions": 3,
+            "matched": true
+          },
+          {
+            "task": "M02_clear",
+            "method": "clear",
+            "terminal": "pause",
+            "steps": 5,
+            "actions": 4,
+            "matched": true
+          },
+          {
+            "task": "M03_clear",
+            "method": "clear",
+            "terminal": "complete",
+            "steps": 2,
+            "actions": 1,
+            "matched": true
+          },
+          {
+            "task": "M04_clear",
+            "method": "clear",
+            "terminal": "complete",
+            "steps": 2,
+            "actions": 1,
+            "matched": true
+          },
+          {
+            "task": "M05_clear",
+            "method": "clear",
+            "terminal": "pause",
+            "steps": 4,
+            "actions": 3,
+            "matched": true
+          },
+          {
+            "task": "M06_clear",
+            "method": "clear",
+            "terminal": "complete",
+            "steps": 5,
+            "actions": 4,
+            "matched": true
+          },
+          {
+            "task": "M07_clear",
+            "method": "clear",
+            "terminal": "complete",
+            "steps": 3,
+            "actions": 2,
+            "matched": true
+          },
+          {
+            "task": "M08_clear",
+            "method": "clear",
+            "terminal": "pause",
+            "steps": 2,
+            "actions": 1,
+            "matched": true
+          }
+        ],
+        "tasks_total": 8,
+        "steps_total": 27,
+        "mismatches": [],
+        "matched": true
+      }
+    },
+    {
+      "name": "alias:mcp",
+      "ok": true,
+      "detail": [
+        "clear"
+      ]
+    },
+    {
+      "name": "run-file:anyio/A01_clear/result.json",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "run-file:anyio/A01_clear/native.json",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "run-file:anyio/A02_clear/result.json",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "run-file:anyio/A02_clear/native.json",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "run-file:anyio/A03_clear/result.json",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "run-file:anyio/A03_clear/native.json",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "run-file:anyio/A04_clear/result.json",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "run-file:anyio/A04_clear/native.json",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "run-file:anyio/A05_clear/result.json",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "run-file:anyio/A05_clear/native.json",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "run-file:anyio/A06_clear/result.json",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "run-file:anyio/A06_clear/native.json",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "run-file:anyio/A07_clear/result.json",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "run-file:anyio/A07_clear/native.json",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "run-file:anyio/A08_clear/result.json",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "run-file:anyio/A08_clear/native.json",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "run-file:langchain/C01_spg/result.json",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "run-file:langchain/C01_spg/native.json",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "run-file:langchain/C02_spg/result.json",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "run-file:langchain/C02_spg/native.json",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "run-file:langchain/P01_spg/result.json",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "run-file:langchain/P01_spg/native.json",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "run-file:langchain/P02_spg/result.json",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "run-file:langchain/P02_spg/native.json",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "run-file:langchain/R01_spg/result.json",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "run-file:langchain/R01_spg/native.json",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "run-file:langchain/R02_spg/result.json",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "run-file:langchain/R02_spg/native.json",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "run-file:langchain/R03_spg/result.json",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "run-file:langchain/R03_spg/native.json",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "run-file:langchain/R04_spg/result.json",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "run-file:langchain/R04_spg/native.json",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "run-file:langchain/R05_spg/result.json",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "run-file:langchain/R05_spg/native.json",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "run-file:langchain/R06_spg/result.json",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "run-file:langchain/R06_spg/native.json",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "run-file:mcp/M01_clear/result.json",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "run-file:mcp/M01_clear/native.json",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "run-file:mcp/M02_clear/result.json",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "run-file:mcp/M02_clear/native.json",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "run-file:mcp/M03_clear/result.json",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "run-file:mcp/M03_clear/native.json",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "run-file:mcp/M04_clear/result.json",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "run-file:mcp/M04_clear/native.json",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "run-file:mcp/M05_clear/result.json",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "run-file:mcp/M05_clear/native.json",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "run-file:mcp/M06_clear/result.json",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "run-file:mcp/M06_clear/native.json",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "run-file:mcp/M07_clear/result.json",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "run-file:mcp/M07_clear/native.json",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "run-file:mcp/M08_clear/result.json",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "run-file:mcp/M08_clear/native.json",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "authenticity",
+      "ok": true,
+      "detail": null
+    }
+  ],
+  "failed": [],
+  "checks_total": 99,
+  "checks_passed": 99
+}

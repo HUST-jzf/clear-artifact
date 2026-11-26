@@ -1,0 +1,788 @@
+{
+  "checks": [
+    {
+      "name": "freeze:docs/R8_component_ablation_protocol.md",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "freeze:scripts/r8_ablation.py",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "freeze:scripts/run_r8.py",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "freeze:scripts/verify_r8.py",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "version:clear-assurance",
+      "ok": true,
+      "detail": {
+        "clear-assurance": "2.0.0",
+        "anyio": "4.12.1"
+      }
+    },
+    {
+      "name": "no-run-failures",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "name": "task-count",
+      "ok": true,
+      "detail": 450
+    },
+    {
+      "name": "full-terminal:normal",
+      "ok": true,
+      "detail": {
+        "tasks": 10,
+        "safe": 10,
+        "complete": 10,
+        "duplicate": 0,
+        "stale_permit": 0,
+        "stale_manifest": 0,
+        "false_complete": 0,
+        "pause": 0
+      }
+    },
+    {
+      "name": "full-rows:normal",
+      "ok": true,
+      "detail": [
+        1
+      ]
+    },
+    {
+      "name": "full-terminal:fail_before",
+      "ok": true,
+      "detail": {
+        "tasks": 10,
+        "safe": 10,
+        "complete": 10,
+        "duplicate": 0,
+        "stale_permit": 0,
+        "stale_manifest": 0,
+        "false_complete": 0,
+        "pause": 0
+      }
+    },
+    {
+      "name": "full-rows:fail_before",
+      "ok": true,
+      "detail": [
+        1
+      ]
+    },
+    {
+      "name": "full-terminal:lost_return",
+      "ok": true,
+      "detail": {
+        "tasks": 10,
+        "safe": 10,
+        "complete": 10,
+        "duplicate": 0,
+        "stale_permit": 0,
+        "stale_manifest": 0,
+        "false_complete": 0,
+        "pause": 0
+      }
+    },
+    {
+      "name": "full-rows:lost_return",
+      "ok": true,
+      "detail": [
+        1
+      ]
+    },
+    {
+      "name": "full-terminal:late_commit",
+      "ok": true,
+      "detail": {
+        "tasks": 10,
+        "safe": 10,
+        "complete": 10,
+        "duplicate": 0,
+        "stale_permit": 0,
+        "stale_manifest": 0,
+        "false_complete": 0,
+        "pause": 0
+      }
+    },
+    {
+      "name": "full-rows:late_commit",
+      "ok": true,
+      "detail": [
+        1
+      ]
+    },
+    {
+      "name": "full-terminal:revoke",
+      "ok": true,
+      "detail": {
+        "tasks": 10,
+        "safe": 0,
+        "complete": 0,
+        "duplicate": 0,
+        "stale_permit": 0,
+        "stale_manifest": 0,
+        "false_complete": 0,
+        "pause": 10
+      }
+    },
+    {
+      "name": "full-rows:revoke",
+      "ok": true,
+      "detail": [
+        0
+      ]
+    },
+    {
+      "name": "full-terminal:manifest_change",
+      "ok": true,
+      "detail": {
+        "tasks": 10,
+        "safe": 0,
+        "complete": 0,
+        "duplicate": 0,
+        "stale_permit": 0,
+        "stale_manifest": 0,
+        "false_complete": 0,
+        "pause": 10
+      }
+    },
+    {
+      "name": "full-rows:manifest_change",
+      "ok": true,
+      "detail": [
+        0
+      ]
+    },
+    {
+      "name": "full-terminal:query_unavailable",
+      "ok": true,
+      "detail": {
+        "tasks": 10,
+        "safe": 0,
+        "complete": 0,
+        "duplicate": 0,
+        "stale_permit": 0,
+        "stale_manifest": 0,
+        "false_complete": 0,
+        "pause": 10
+      }
+    },
+    {
+      "name": "full-rows:query_unavailable",
+      "ok": true,
+      "detail": [
+        1
+      ]
+    },
+    {
+      "name": "full-terminal:late_closure",
+      "ok": true,
+      "detail": {
+        "tasks": 10,
+        "safe": 10,
+        "complete": 10,
+        "duplicate": 0,
+        "stale_permit": 0,
+        "stale_manifest": 0,
+        "false_complete": 0,
+        "pause": 0
+      }
+    },
+    {
+      "name": "full-rows:late_closure",
+      "ok": true,
+      "detail": [
+        1
+      ]
+    },
+    {
+      "name": "full-terminal:atomic_revoke",
+      "ok": true,
+      "detail": {
+        "tasks": 10,
+        "safe": 0,
+        "complete": 0,
+        "duplicate": 0,
+        "stale_permit": 0,
+        "stale_manifest": 0,
+        "false_complete": 0,
+        "pause": 10
+      }
+    },
+    {
+      "name": "full-rows:atomic_revoke",
+      "ok": true,
+      "detail": [
+        0
+      ]
+    },
+    {
+      "name": "full-no-duplicate",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "full-no-stale-permit",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "full-no-stale-manifest",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "full-no-false-complete",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "full-safe-count",
+      "ok": true,
+      "detail": 50
+    },
+    {
+      "name": "no_closure-duplicate",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "no_query-duplicate",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "no_version-stale-manifest",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "no_atomic-stale-permit",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "no-false-complete",
+      "ok": true,
+      "detail": null
+    }
+  ],
+  "cells": {
+    "normal:full": {
+      "tasks": 10,
+      "safe": 10,
+      "complete": 10,
+      "duplicate": 0,
+      "stale_permit": 0,
+      "stale_manifest": 0,
+      "false_complete": 0,
+      "pause": 0
+    },
+    "normal:no_closure": {
+      "tasks": 10,
+      "safe": 10,
+      "complete": 10,
+      "duplicate": 0,
+      "stale_permit": 0,
+      "stale_manifest": 0,
+      "false_complete": 0,
+      "pause": 0
+    },
+    "normal:no_query": {
+      "tasks": 10,
+      "safe": 10,
+      "complete": 10,
+      "duplicate": 0,
+      "stale_permit": 0,
+      "stale_manifest": 0,
+      "false_complete": 0,
+      "pause": 0
+    },
+    "normal:no_version": {
+      "tasks": 10,
+      "safe": 10,
+      "complete": 10,
+      "duplicate": 0,
+      "stale_permit": 0,
+      "stale_manifest": 0,
+      "false_complete": 0,
+      "pause": 0
+    },
+    "normal:no_atomic": {
+      "tasks": 10,
+      "safe": 10,
+      "complete": 10,
+      "duplicate": 0,
+      "stale_permit": 0,
+      "stale_manifest": 0,
+      "false_complete": 0,
+      "pause": 0
+    },
+    "fail_before:full": {
+      "tasks": 10,
+      "safe": 10,
+      "complete": 10,
+      "duplicate": 0,
+      "stale_permit": 0,
+      "stale_manifest": 0,
+      "false_complete": 0,
+      "pause": 0
+    },
+    "fail_before:no_closure": {
+      "tasks": 10,
+      "safe": 10,
+      "complete": 10,
+      "duplicate": 0,
+      "stale_permit": 0,
+      "stale_manifest": 0,
+      "false_complete": 0,
+      "pause": 0
+    },
+    "fail_before:no_query": {
+      "tasks": 10,
+      "safe": 10,
+      "complete": 10,
+      "duplicate": 0,
+      "stale_permit": 0,
+      "stale_manifest": 0,
+      "false_complete": 0,
+      "pause": 0
+    },
+    "fail_before:no_version": {
+      "tasks": 10,
+      "safe": 10,
+      "complete": 10,
+      "duplicate": 0,
+      "stale_permit": 0,
+      "stale_manifest": 0,
+      "false_complete": 0,
+      "pause": 0
+    },
+    "fail_before:no_atomic": {
+      "tasks": 10,
+      "safe": 10,
+      "complete": 10,
+      "duplicate": 0,
+      "stale_permit": 0,
+      "stale_manifest": 0,
+      "false_complete": 0,
+      "pause": 0
+    },
+    "lost_return:full": {
+      "tasks": 10,
+      "safe": 10,
+      "complete": 10,
+      "duplicate": 0,
+      "stale_permit": 0,
+      "stale_manifest": 0,
+      "false_complete": 0,
+      "pause": 0
+    },
+    "lost_return:no_closure": {
+      "tasks": 10,
+      "safe": 10,
+      "complete": 10,
+      "duplicate": 0,
+      "stale_permit": 0,
+      "stale_manifest": 0,
+      "false_complete": 0,
+      "pause": 0
+    },
+    "lost_return:no_query": {
+      "tasks": 10,
+      "safe": 10,
+      "complete": 10,
+      "duplicate": 0,
+      "stale_permit": 0,
+      "stale_manifest": 0,
+      "false_complete": 0,
+      "pause": 0
+    },
+    "lost_return:no_version": {
+      "tasks": 10,
+      "safe": 10,
+      "complete": 10,
+      "duplicate": 0,
+      "stale_permit": 0,
+      "stale_manifest": 0,
+      "false_complete": 0,
+      "pause": 0
+    },
+    "lost_return:no_atomic": {
+      "tasks": 10,
+      "safe": 10,
+      "complete": 10,
+      "duplicate": 0,
+      "stale_permit": 0,
+      "stale_manifest": 0,
+      "false_complete": 0,
+      "pause": 0
+    },
+    "late_commit:full": {
+      "tasks": 10,
+      "safe": 10,
+      "complete": 10,
+      "duplicate": 0,
+      "stale_permit": 0,
+      "stale_manifest": 0,
+      "false_complete": 0,
+      "pause": 0
+    },
+    "late_commit:no_closure": {
+      "tasks": 10,
+      "safe": 0,
+      "complete": 0,
+      "duplicate": 0,
+      "stale_permit": 0,
+      "stale_manifest": 0,
+      "false_complete": 0,
+      "pause": 10
+    },
+    "late_commit:no_query": {
+      "tasks": 10,
+      "safe": 0,
+      "complete": 10,
+      "duplicate": 10,
+      "stale_permit": 0,
+      "stale_manifest": 0,
+      "false_complete": 0,
+      "pause": 0
+    },
+    "late_commit:no_version": {
+      "tasks": 10,
+      "safe": 10,
+      "complete": 10,
+      "duplicate": 0,
+      "stale_permit": 0,
+      "stale_manifest": 0,
+      "false_complete": 0,
+      "pause": 0
+    },
+    "late_commit:no_atomic": {
+      "tasks": 10,
+      "safe": 10,
+      "complete": 10,
+      "duplicate": 0,
+      "stale_permit": 0,
+      "stale_manifest": 0,
+      "false_complete": 0,
+      "pause": 0
+    },
+    "revoke:full": {
+      "tasks": 10,
+      "safe": 0,
+      "complete": 0,
+      "duplicate": 0,
+      "stale_permit": 0,
+      "stale_manifest": 0,
+      "false_complete": 0,
+      "pause": 10
+    },
+    "revoke:no_closure": {
+      "tasks": 10,
+      "safe": 0,
+      "complete": 0,
+      "duplicate": 0,
+      "stale_permit": 0,
+      "stale_manifest": 0,
+      "false_complete": 0,
+      "pause": 10
+    },
+    "revoke:no_query": {
+      "tasks": 10,
+      "safe": 0,
+      "complete": 0,
+      "duplicate": 0,
+      "stale_permit": 0,
+      "stale_manifest": 0,
+      "false_complete": 0,
+      "pause": 10
+    },
+    "revoke:no_version": {
+      "tasks": 10,
+      "safe": 0,
+      "complete": 0,
+      "duplicate": 0,
+      "stale_permit": 0,
+      "stale_manifest": 0,
+      "false_complete": 0,
+      "pause": 10
+    },
+    "revoke:no_atomic": {
+      "tasks": 10,
+      "safe": 0,
+      "complete": 0,
+      "duplicate": 0,
+      "stale_permit": 0,
+      "stale_manifest": 0,
+      "false_complete": 0,
+      "pause": 10
+    },
+    "manifest_change:full": {
+      "tasks": 10,
+      "safe": 0,
+      "complete": 0,
+      "duplicate": 0,
+      "stale_permit": 0,
+      "stale_manifest": 0,
+      "false_complete": 0,
+      "pause": 10
+    },
+    "manifest_change:no_closure": {
+      "tasks": 10,
+      "safe": 0,
+      "complete": 0,
+      "duplicate": 0,
+      "stale_permit": 0,
+      "stale_manifest": 0,
+      "false_complete": 0,
+      "pause": 10
+    },
+    "manifest_change:no_query": {
+      "tasks": 10,
+      "safe": 0,
+      "complete": 0,
+      "duplicate": 0,
+      "stale_permit": 0,
+      "stale_manifest": 0,
+      "false_complete": 0,
+      "pause": 10
+    },
+    "manifest_change:no_version": {
+      "tasks": 10,
+      "safe": 0,
+      "complete": 10,
+      "duplicate": 0,
+      "stale_permit": 0,
+      "stale_manifest": 10,
+      "false_complete": 0,
+      "pause": 0
+    },
+    "manifest_change:no_atomic": {
+      "tasks": 10,
+      "safe": 0,
+      "complete": 0,
+      "duplicate": 0,
+      "stale_permit": 0,
+      "stale_manifest": 0,
+      "false_complete": 0,
+      "pause": 10
+    },
+    "query_unavailable:full": {
+      "tasks": 10,
+      "safe": 0,
+      "complete": 0,
+      "duplicate": 0,
+      "stale_permit": 0,
+      "stale_manifest": 0,
+      "false_complete": 0,
+      "pause": 10
+    },
+    "query_unavailable:no_closure": {
+      "tasks": 10,
+      "safe": 0,
+      "complete": 10,
+      "duplicate": 10,
+      "stale_permit": 0,
+      "stale_manifest": 0,
+      "false_complete": 0,
+      "pause": 0
+    },
+    "query_unavailable:no_query": {
+      "tasks": 10,
+      "safe": 0,
+      "complete": 10,
+      "duplicate": 10,
+      "stale_permit": 0,
+      "stale_manifest": 0,
+      "false_complete": 0,
+      "pause": 0
+    },
+    "query_unavailable:no_version": {
+      "tasks": 10,
+      "safe": 0,
+      "complete": 0,
+      "duplicate": 0,
+      "stale_permit": 0,
+      "stale_manifest": 0,
+      "false_complete": 0,
+      "pause": 10
+    },
+    "query_unavailable:no_atomic": {
+      "tasks": 10,
+      "safe": 0,
+      "complete": 0,
+      "duplicate": 0,
+      "stale_permit": 0,
+      "stale_manifest": 0,
+      "false_complete": 0,
+      "pause": 10
+    },
+    "late_closure:full": {
+      "tasks": 10,
+      "safe": 10,
+      "complete": 10,
+      "duplicate": 0,
+      "stale_permit": 0,
+      "stale_manifest": 0,
+      "false_complete": 0,
+      "pause": 0
+    },
+    "late_closure:no_closure": {
+      "tasks": 10,
+      "safe": 0,
+      "complete": 10,
+      "duplicate": 10,
+      "stale_permit": 0,
+      "stale_manifest": 0,
+      "false_complete": 0,
+      "pause": 0
+    },
+    "late_closure:no_query": {
+      "tasks": 10,
+      "safe": 0,
+      "complete": 10,
+      "duplicate": 10,
+      "stale_permit": 0,
+      "stale_manifest": 0,
+      "false_complete": 0,
+      "pause": 0
+    },
+    "late_closure:no_version": {
+      "tasks": 10,
+      "safe": 10,
+      "complete": 10,
+      "duplicate": 0,
+      "stale_permit": 0,
+      "stale_manifest": 0,
+      "false_complete": 0,
+      "pause": 0
+    },
+    "late_closure:no_atomic": {
+      "tasks": 10,
+      "safe": 10,
+      "complete": 10,
+      "duplicate": 0,
+      "stale_permit": 0,
+      "stale_manifest": 0,
+      "false_complete": 0,
+      "pause": 0
+    },
+    "atomic_revoke:full": {
+      "tasks": 10,
+      "safe": 0,
+      "complete": 0,
+      "duplicate": 0,
+      "stale_permit": 0,
+      "stale_manifest": 0,
+      "false_complete": 0,
+      "pause": 10
+    },
+    "atomic_revoke:no_closure": {
+      "tasks": 10,
+      "safe": 0,
+      "complete": 0,
+      "duplicate": 0,
+      "stale_permit": 0,
+      "stale_manifest": 0,
+      "false_complete": 0,
+      "pause": 10
+    },
+    "atomic_revoke:no_query": {
+      "tasks": 10,
+      "safe": 0,
+      "complete": 0,
+      "duplicate": 0,
+      "stale_permit": 0,
+      "stale_manifest": 0,
+      "false_complete": 0,
+      "pause": 10
+    },
+    "atomic_revoke:no_version": {
+      "tasks": 10,
+      "safe": 0,
+      "complete": 0,
+      "duplicate": 0,
+      "stale_permit": 0,
+      "stale_manifest": 0,
+      "false_complete": 0,
+      "pause": 10
+    },
+    "atomic_revoke:no_atomic": {
+      "tasks": 10,
+      "safe": 0,
+      "complete": 10,
+      "duplicate": 0,
+      "stale_permit": 10,
+      "stale_manifest": 0,
+      "false_complete": 0,
+      "pause": 0
+    }
+  },
+  "aggregate": {
+    "full": {
+      "tasks": 90,
+      "safe": 50,
+      "complete": 50,
+      "duplicates": 0,
+      "pause": 40,
+      "stale_permit": 0,
+      "stale_manifest": 0,
+      "false_complete": 0
+    },
+    "no_closure": {
+      "tasks": 90,
+      "safe": 30,
+      "complete": 50,
+      "duplicates": 20,
+      "pause": 40,
+      "stale_permit": 0,
+      "stale_manifest": 0,
+      "false_complete": 0
+    },
+    "no_query": {
+      "tasks": 90,
+      "safe": 30,
+      "complete": 60,
+      "duplicates": 30,
+      "pause": 30,
+      "stale_permit": 0,
+      "stale_manifest": 0,
+      "false_complete": 0
+    },
+    "no_version": {
+      "tasks": 90,
+      "safe": 50,
+      "complete": 60,
+      "duplicates": 0,
+      "pause": 30,
+      "stale_permit": 0,
+      "stale_manifest": 10,
+      "false_complete": 0
+    },
+    "no_atomic": {
+      "tasks": 90,
+      "safe": 50,
+      "complete": 60,
+      "duplicates": 0,
+      "pause": 30,
+      "stale_permit": 10,
+      "stale_manifest": 0,
+      "false_complete": 0
+    }
+  },
+  "failed": [],
+  "checks_total": 35,
+  "checks_passed": 35
+}

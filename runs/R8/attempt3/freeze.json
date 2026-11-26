@@ -1,0 +1,161 @@
+{
+  "files": {
+    "docs/R8_component_ablation_protocol.md": "772f97847a1026962f4d093dbaf3a606551988bf4554b3ea5c973054c2752f82",
+    "scripts/r8_ablation.py": "d0bace05cd3da651d9ff298c3a69d450202a47bc1f024ee8dec4e073efa26809",
+    "scripts/run_r8.py": "83b36b5382a30f48bf9d2524181391ec09fb27d505fb74e56588021dbfa0bc51",
+    "scripts/verify_r8.py": "8b98020270b15008fc311048705ef97f553f5d9e9e0d87b10bfd28915d062079"
+  },
+  "cases": [
+    {
+      "id": "normal",
+      "route": {
+        "revision": 1,
+        "schema": "v1",
+        "allowed": true,
+        "outcome": "commit",
+        "delayed": false,
+        "closed_registration": true,
+        "query_complete": true,
+        "idempotency": false
+      },
+      "patch": null
+    },
+    {
+      "id": "fail_before",
+      "route": {
+        "revision": 1,
+        "schema": "v1",
+        "allowed": true,
+        "outcome": "fail",
+        "delayed": false,
+        "closed_registration": true,
+        "query_complete": true,
+        "idempotency": false
+      },
+      "patch": null
+    },
+    {
+      "id": "lost_return",
+      "route": {
+        "revision": 1,
+        "schema": "v1",
+        "allowed": true,
+        "outcome": "commit",
+        "delayed": false,
+        "closed_registration": true,
+        "query_complete": true,
+        "idempotency": false
+      },
+      "patch": null
+    },
+    {
+      "id": "late_commit",
+      "route": {
+        "revision": 1,
+        "schema": "v1",
+        "allowed": true,
+        "outcome": "commit",
+        "delayed": true,
+        "closed_registration": true,
+        "query_complete": true,
+        "idempotency": false
+      },
+      "patch": null
+    },
+    {
+      "id": "revoke",
+      "route": {
+        "revision": 2,
+        "schema": "v1",
+        "allowed": false,
+        "outcome": "fail",
+        "delayed": false,
+        "closed_registration": true,
+        "query_complete": true,
+        "idempotency": false
+      },
+      "patch": null
+    },
+    {
+      "id": "manifest_change",
+      "route": {
+        "revision": 1,
+        "schema": "v1",
+        "allowed": true,
+        "outcome": "fail",
+        "delayed": false,
+        "closed_registration": true,
+        "query_complete": true,
+        "idempotency": false
+      },
+      "patch": {
+        "schema": "v2"
+      }
+    },
+    {
+      "id": "query_unavailable",
+      "route": {
+        "revision": 1,
+        "schema": "v1",
+        "allowed": true,
+        "outcome": "commit",
+        "delayed": false,
+        "closed_registration": false,
+        "query_complete": false,
+        "idempotency": false
+      },
+      "patch": null
+    },
+    {
+      "id": "late_closure",
+      "route": {
+        "revision": 1,
+        "schema": "v1",
+        "allowed": true,
+        "outcome": "commit",
+        "delayed": true,
+        "closed_registration": false,
+        "query_complete": true,
+        "idempotency": false
+      },
+      "patch": null
+    },
+    {
+      "id": "atomic_revoke",
+      "route": {
+        "revision": 1,
+        "schema": "v1",
+        "allowed": true,
+        "outcome": "fail",
+        "delayed": false,
+        "closed_registration": true,
+        "query_complete": true,
+        "idempotency": false,
+        "race_revoke": true
+      },
+      "patch": null
+    }
+  ],
+  "variants": [
+    "full",
+    "no_closure",
+    "no_query",
+    "no_version",
+    "no_atomic"
+  ],
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "python": "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R1_anyio\\env\\Scripts\\python.exe",
+  "python_version": "3.13.2",
+  "created_ns": 1792573318901564600
+}

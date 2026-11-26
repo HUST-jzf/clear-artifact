@@ -1,0 +1,146 @@
+[
+  {
+    "id": "I01",
+    "source": "mcp",
+    "category": "FIXTURE",
+    "observation": "The failing server returned an error dict, and the MCP client recorded the call as return_lost instead of error.",
+    "resolution": "work now raises RuntimeError('injected_failure') on failure.",
+    "round": "R1",
+    "status": "resolved"
+  },
+  {
+    "id": "I02",
+    "source": "mcp",
+    "category": "FIXTURE",
+    "observation": "The attempt1 latch opened only at drain, so no policy could observe a late commit within the control window.",
+    "resolution": "Added an 80 ms threading.Timer and changed WAIT_WINDOW to 150 ms; attempt1 is retained as a failure round.",
+    "round": "R1 attempt2",
+    "status": "resolved"
+  },
+  {
+    "id": "I03",
+    "source": "mcp",
+    "category": "FIXTURE",
+    "observation": "The change patch was applied after the first recorded event, later than some policy retries.",
+    "resolution": "Moved the patch after the initial append in Host.start.",
+    "round": "R1 attempt2",
+    "status": "resolved"
+  },
+  {
+    "id": "I04",
+    "source": "mcp",
+    "category": "VERIFY",
+    "observation": "The checker required allowed=false in the revoke cell, but reauth_retry legitimately recovers with allowed=true.",
+    "resolution": "For reauth_retry, expect allowed=true and a reauth record.",
+    "round": "R1 attempt2",
+    "status": "resolved"
+  },
+  {
+    "id": "I05",
+    "source": "anyio",
+    "category": "FIXTURE",
+    "observation": "Both Host and Backend created the directory, raising FileExistsError.",
+    "resolution": "Backend now uses mkdir(parents=True, exist_ok=True).",
+    "round": "R1",
+    "status": "resolved"
+  },
+  {
+    "id": "I06",
+    "source": "anyio",
+    "category": "API",
+    "observation": "Accessing anyio._backends._asyncio failed because the module did not expose that attribute.",
+    "resolution": "Explicitly imported anyio._backends._asyncio as anyio_asyncio.",
+    "round": "R1",
+    "status": "resolved"
+  },
+  {
+    "id": "I07",
+    "source": "langchain",
+    "category": "PKG",
+    "observation": "The LangChain environment had no mcp package, so importing r1_native failed.",
+    "resolution": "Used r1_anyio.save as the host save function.",
+    "round": "R1",
+    "status": "resolved"
+  },
+  {
+    "id": "I08",
+    "source": "langchain",
+    "category": "CANCEL",
+    "observation": "The timeout cancellation was caught by except BaseException in _invoke and recorded as error instead of timeout.",
+    "resolution": "Catch anyio.get_cancelled_exc_class() first and re-raise; attempt1 is discarded and attempt2 is valid.",
+    "round": "R1_langchain attempt2",
+    "status": "resolved"
+  },
+  {
+    "id": "I09",
+    "source": "smolagents",
+    "category": "API",
+    "observation": "Tool.__call__ is synchronous; a direct call cannot continue after the caller times out.",
+    "resolution": "The adapter calls tool(...) on an AnyIO worker thread with abandon_on_cancel=True.",
+    "round": "R4",
+    "status": "resolved"
+  },
+  {
+    "id": "I10",
+    "source": "smolagents",
+    "category": "EV",
+    "observation": "The framework provides no effect query, lifecycle registry, version binding or atomic admission.",
+    "resolution": "The host explicitly provides describe/effects/status/reauthorize/drain; no native support is claimed.",
+    "round": "R4",
+    "status": "resolved"
+  },
+  {
+    "id": "I11",
+    "source": "pydantic_ai",
+    "category": "API",
+    "observation": "Tool.function_schema.call requires an args dict and a RunContext; passing arguments to a tool without ctx is not obvious.",
+    "resolution": "Pass the args dict and None; the function does not declare ctx and the schema path ignores it.",
+    "round": "R4",
+    "status": "resolved"
+  },
+  {
+    "id": "I12",
+    "source": "pydantic_ai",
+    "category": "EV",
+    "observation": "The framework provides no effect query, lifecycle registry, version binding or atomic admission.",
+    "resolution": "The host explicitly provides the five evidence entry points; no native support is claimed.",
+    "round": "R4",
+    "status": "resolved"
+  },
+  {
+    "id": "I13",
+    "source": "pydantic_ai",
+    "category": "PKG",
+    "observation": "The R4 environment had anyio 4.15.1 while the runner asserted 4.12.1, so the entry point failed.",
+    "resolution": "Changed the assertion to 4.15.1; attempt1 is retained and attempt2 is valid.",
+    "round": "R4_pydantic_ai attempt2",
+    "status": "resolved"
+  },
+  {
+    "id": "I14",
+    "source": "r8",
+    "category": "VERIFY",
+    "observation": "The checker put a set of row counts into detail, and json.dumps failed on the set.",
+    "resolution": "Converted it to a sorted list; attempt1 is retained and attempt3 is valid.",
+    "round": "R8 attempt3",
+    "status": "resolved"
+  },
+  {
+    "id": "I15",
+    "source": "r8",
+    "category": "FIXTURE",
+    "observation": "In attempt2, full late_commit paused early in 1/10 runs because of timing jitter.",
+    "resolution": "Increased the late-wait loop from 3 to 10 iterations (20 ms); attempt2 is retained as a failure round and attempt3 is valid.",
+    "round": "R8 attempt3",
+    "status": "resolved"
+  },
+  {
+    "id": "I16",
+    "source": "r7",
+    "category": "VERIFY",
+    "observation": "attempt1 did not collect status/describe counts, so full action overhead could not be reported.",
+    "resolution": "Added counters in TimedHost.call; attempt1 is retained and attempt2 is the main table.",
+    "round": "R7 attempt2",
+    "status": "resolved"
+  }
+]

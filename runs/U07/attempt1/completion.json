@@ -1,0 +1,43 @@
+{
+  "version": {
+    "command": [
+      "--version"
+    ],
+    "returncode": 0,
+    "stdout": "2.0.0\n",
+    "stderr": "",
+    "elapsed_ns": 117479500
+  },
+  "conformance": {
+    "command": [
+      "conformance",
+      "--input",
+      "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\U07\\attempt1\\conformance.json",
+      "--output",
+      "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\U07\\attempt1\\conformance-bundle.json"
+    ],
+    "returncode": 0,
+    "stdout": "{\"tasks_total\": 26, \"steps_total\": 95, \"matched\": true, \"sources\": [{\"source\": \"anyio\", \"tasks\": 8, \"steps\": 30, \"matched\": true}, {\"source\": \"langchain\", \"tasks\": 10, \"steps\": 38, \"matched\": true}, {\"source\": \"mcp\", \"tasks\": 8, \"steps\": 27, \"matched\": true}], \"mismatches\": []}\n",
+    "stderr": "",
+    "elapsed_ns": 217389600
+  },
+  "verify": {
+    "command": [
+      "verify",
+      "--input",
+      "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\U07\\attempt1\\conformance-bundle.json"
+    ],
+    "returncode": 0,
+    "stdout": "{\"valid\": true, \"kind\": \"conformance_bundle\", \"whole_program\": \"unknown\", \"authenticity\": \"not_attested\", \"scope\": \"digest and semantic replay; trusted observers are still premises\"}\n",
+    "stderr": "",
+    "elapsed_ns": 215567500
+  },
+  "sealed": {
+    "cli.json": "43c5033e6dafa65bb365ea20a66f06aecdf7b5fb3635bf4387f2e036838bac2c",
+    "conformance-bundle.json": "5ac252ee4d7569dd7f3cd211b592ba7a133e319dcaa54400c74f1b2f6c4aa100",
+    "conformance.json": "7ed4ede6040683080f2153071efef6bb0f278ec356e2ce71738535a84afc5984",
+    "freeze.json": "3f38e88dec35ce5fa5dd477a131538bcd59eae294a1a11e9e9fd6b4b1560f611",
+    "installation.json": "13c948d93851587a25b9b43c04a1386fab987d14f3280f9699f2365ad47ec815",
+    "dist/clear_assurance-2.0.0-py3-none-any.whl": "8fac564ad0599dd8bf276e61e37b6cb410564230398d50b3acef99d61cfcde63"
+  }
+}
