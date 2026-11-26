@@ -1,0 +1,557 @@
+{
+  "source": "mcp",
+  "files": {
+    "docs/R2_random_fault_campaign_protocol.md": "3248f31ba1bee84b04f9cdbe7e4accc3463e7e5e863d2953ba3eb5f83c7e38fb",
+    "scripts/r2_random.py": "e65333c8b1bc42cca9c31126254f056a6f5ae54c92c564d56195f43c2eb83a7a",
+    "scripts/run_r2.py": "67da4b8873e85fa01ddcbf1fe74c0b35b5c3eccc408b43aa605d472376c9a80b",
+    "scripts/verify_r2.py": "50040d66dbf155154f1a29aff1615cf9383fa3d0a0a0a730bf5d18c69b48b336",
+    "scripts/r1_policies.py": "09664043a3e4ed3f2765f645fcea5587c2f6dfc6a336eea8e3c65e9c9393531f",
+    "scripts/r1_native.py": "3e93f2e1b51cb71beb296965e08d2883992c7b2a8720569476242e6dad9356d9",
+    "scripts/r1_server.py": "1a23764d01b00dbb29559783bc63f655bd454e3eed0bee7cf0737ac690613882"
+  },
+  "cases": [
+    {
+      "id": "fail_before_S0",
+      "mode": "fail_before",
+      "seed": 0
+    },
+    {
+      "id": "fail_before_S1",
+      "mode": "fail_before",
+      "seed": 1
+    },
+    {
+      "id": "fail_before_S2",
+      "mode": "fail_before",
+      "seed": 2
+    },
+    {
+      "id": "fail_before_S3",
+      "mode": "fail_before",
+      "seed": 3
+    },
+    {
+      "id": "fail_before_S4",
+      "mode": "fail_before",
+      "seed": 4
+    },
+    {
+      "id": "fail_before_S5",
+      "mode": "fail_before",
+      "seed": 5
+    },
+    {
+      "id": "fail_before_S6",
+      "mode": "fail_before",
+      "seed": 6
+    },
+    {
+      "id": "fail_before_S7",
+      "mode": "fail_before",
+      "seed": 7
+    },
+    {
+      "id": "fail_before_S8",
+      "mode": "fail_before",
+      "seed": 8
+    },
+    {
+      "id": "fail_before_S9",
+      "mode": "fail_before",
+      "seed": 9
+    },
+    {
+      "id": "fail_before_S10",
+      "mode": "fail_before",
+      "seed": 10
+    },
+    {
+      "id": "fail_before_S11",
+      "mode": "fail_before",
+      "seed": 11
+    },
+    {
+      "id": "fail_before_S12",
+      "mode": "fail_before",
+      "seed": 12
+    },
+    {
+      "id": "fail_before_S13",
+      "mode": "fail_before",
+      "seed": 13
+    },
+    {
+      "id": "fail_before_S14",
+      "mode": "fail_before",
+      "seed": 14
+    },
+    {
+      "id": "fail_before_S15",
+      "mode": "fail_before",
+      "seed": 15
+    },
+    {
+      "id": "fail_before_S16",
+      "mode": "fail_before",
+      "seed": 16
+    },
+    {
+      "id": "fail_before_S17",
+      "mode": "fail_before",
+      "seed": 17
+    },
+    {
+      "id": "fail_before_S18",
+      "mode": "fail_before",
+      "seed": 18
+    },
+    {
+      "id": "fail_before_S19",
+      "mode": "fail_before",
+      "seed": 19
+    },
+    {
+      "id": "lost_return_S0",
+      "mode": "lost_return",
+      "seed": 0
+    },
+    {
+      "id": "lost_return_S1",
+      "mode": "lost_return",
+      "seed": 1
+    },
+    {
+      "id": "lost_return_S2",
+      "mode": "lost_return",
+      "seed": 2
+    },
+    {
+      "id": "lost_return_S3",
+      "mode": "lost_return",
+      "seed": 3
+    },
+    {
+      "id": "lost_return_S4",
+      "mode": "lost_return",
+      "seed": 4
+    },
+    {
+      "id": "lost_return_S5",
+      "mode": "lost_return",
+      "seed": 5
+    },
+    {
+      "id": "lost_return_S6",
+      "mode": "lost_return",
+      "seed": 6
+    },
+    {
+      "id": "lost_return_S7",
+      "mode": "lost_return",
+      "seed": 7
+    },
+    {
+      "id": "lost_return_S8",
+      "mode": "lost_return",
+      "seed": 8
+    },
+    {
+      "id": "lost_return_S9",
+      "mode": "lost_return",
+      "seed": 9
+    },
+    {
+      "id": "lost_return_S10",
+      "mode": "lost_return",
+      "seed": 10
+    },
+    {
+      "id": "lost_return_S11",
+      "mode": "lost_return",
+      "seed": 11
+    },
+    {
+      "id": "lost_return_S12",
+      "mode": "lost_return",
+      "seed": 12
+    },
+    {
+      "id": "lost_return_S13",
+      "mode": "lost_return",
+      "seed": 13
+    },
+    {
+      "id": "lost_return_S14",
+      "mode": "lost_return",
+      "seed": 14
+    },
+    {
+      "id": "lost_return_S15",
+      "mode": "lost_return",
+      "seed": 15
+    },
+    {
+      "id": "lost_return_S16",
+      "mode": "lost_return",
+      "seed": 16
+    },
+    {
+      "id": "lost_return_S17",
+      "mode": "lost_return",
+      "seed": 17
+    },
+    {
+      "id": "lost_return_S18",
+      "mode": "lost_return",
+      "seed": 18
+    },
+    {
+      "id": "lost_return_S19",
+      "mode": "lost_return",
+      "seed": 19
+    },
+    {
+      "id": "late_commit_S0",
+      "mode": "late_commit",
+      "seed": 0
+    },
+    {
+      "id": "late_commit_S1",
+      "mode": "late_commit",
+      "seed": 1
+    },
+    {
+      "id": "late_commit_S2",
+      "mode": "late_commit",
+      "seed": 2
+    },
+    {
+      "id": "late_commit_S3",
+      "mode": "late_commit",
+      "seed": 3
+    },
+    {
+      "id": "late_commit_S4",
+      "mode": "late_commit",
+      "seed": 4
+    },
+    {
+      "id": "late_commit_S5",
+      "mode": "late_commit",
+      "seed": 5
+    },
+    {
+      "id": "late_commit_S6",
+      "mode": "late_commit",
+      "seed": 6
+    },
+    {
+      "id": "late_commit_S7",
+      "mode": "late_commit",
+      "seed": 7
+    },
+    {
+      "id": "late_commit_S8",
+      "mode": "late_commit",
+      "seed": 8
+    },
+    {
+      "id": "late_commit_S9",
+      "mode": "late_commit",
+      "seed": 9
+    },
+    {
+      "id": "late_commit_S10",
+      "mode": "late_commit",
+      "seed": 10
+    },
+    {
+      "id": "late_commit_S11",
+      "mode": "late_commit",
+      "seed": 11
+    },
+    {
+      "id": "late_commit_S12",
+      "mode": "late_commit",
+      "seed": 12
+    },
+    {
+      "id": "late_commit_S13",
+      "mode": "late_commit",
+      "seed": 13
+    },
+    {
+      "id": "late_commit_S14",
+      "mode": "late_commit",
+      "seed": 14
+    },
+    {
+      "id": "late_commit_S15",
+      "mode": "late_commit",
+      "seed": 15
+    },
+    {
+      "id": "late_commit_S16",
+      "mode": "late_commit",
+      "seed": 16
+    },
+    {
+      "id": "late_commit_S17",
+      "mode": "late_commit",
+      "seed": 17
+    },
+    {
+      "id": "late_commit_S18",
+      "mode": "late_commit",
+      "seed": 18
+    },
+    {
+      "id": "late_commit_S19",
+      "mode": "late_commit",
+      "seed": 19
+    },
+    {
+      "id": "query_unavailable_S0",
+      "mode": "query_unavailable",
+      "seed": 0
+    },
+    {
+      "id": "query_unavailable_S1",
+      "mode": "query_unavailable",
+      "seed": 1
+    },
+    {
+      "id": "query_unavailable_S2",
+      "mode": "query_unavailable",
+      "seed": 2
+    },
+    {
+      "id": "query_unavailable_S3",
+      "mode": "query_unavailable",
+      "seed": 3
+    },
+    {
+      "id": "query_unavailable_S4",
+      "mode": "query_unavailable",
+      "seed": 4
+    },
+    {
+      "id": "query_unavailable_S5",
+      "mode": "query_unavailable",
+      "seed": 5
+    },
+    {
+      "id": "query_unavailable_S6",
+      "mode": "query_unavailable",
+      "seed": 6
+    },
+    {
+      "id": "query_unavailable_S7",
+      "mode": "query_unavailable",
+      "seed": 7
+    },
+    {
+      "id": "query_unavailable_S8",
+      "mode": "query_unavailable",
+      "seed": 8
+    },
+    {
+      "id": "query_unavailable_S9",
+      "mode": "query_unavailable",
+      "seed": 9
+    },
+    {
+      "id": "query_unavailable_S10",
+      "mode": "query_unavailable",
+      "seed": 10
+    },
+    {
+      "id": "query_unavailable_S11",
+      "mode": "query_unavailable",
+      "seed": 11
+    },
+    {
+      "id": "query_unavailable_S12",
+      "mode": "query_unavailable",
+      "seed": 12
+    },
+    {
+      "id": "query_unavailable_S13",
+      "mode": "query_unavailable",
+      "seed": 13
+    },
+    {
+      "id": "query_unavailable_S14",
+      "mode": "query_unavailable",
+      "seed": 14
+    },
+    {
+      "id": "query_unavailable_S15",
+      "mode": "query_unavailable",
+      "seed": 15
+    },
+    {
+      "id": "query_unavailable_S16",
+      "mode": "query_unavailable",
+      "seed": 16
+    },
+    {
+      "id": "query_unavailable_S17",
+      "mode": "query_unavailable",
+      "seed": 17
+    },
+    {
+      "id": "query_unavailable_S18",
+      "mode": "query_unavailable",
+      "seed": 18
+    },
+    {
+      "id": "query_unavailable_S19",
+      "mode": "query_unavailable",
+      "seed": 19
+    },
+    {
+      "id": "executor_lost_S0",
+      "mode": "executor_lost",
+      "seed": 0
+    },
+    {
+      "id": "executor_lost_S1",
+      "mode": "executor_lost",
+      "seed": 1
+    },
+    {
+      "id": "executor_lost_S2",
+      "mode": "executor_lost",
+      "seed": 2
+    },
+    {
+      "id": "executor_lost_S3",
+      "mode": "executor_lost",
+      "seed": 3
+    },
+    {
+      "id": "executor_lost_S4",
+      "mode": "executor_lost",
+      "seed": 4
+    },
+    {
+      "id": "executor_lost_S5",
+      "mode": "executor_lost",
+      "seed": 5
+    },
+    {
+      "id": "executor_lost_S6",
+      "mode": "executor_lost",
+      "seed": 6
+    },
+    {
+      "id": "executor_lost_S7",
+      "mode": "executor_lost",
+      "seed": 7
+    },
+    {
+      "id": "executor_lost_S8",
+      "mode": "executor_lost",
+      "seed": 8
+    },
+    {
+      "id": "executor_lost_S9",
+      "mode": "executor_lost",
+      "seed": 9
+    },
+    {
+      "id": "executor_lost_S10",
+      "mode": "executor_lost",
+      "seed": 10
+    },
+    {
+      "id": "executor_lost_S11",
+      "mode": "executor_lost",
+      "seed": 11
+    },
+    {
+      "id": "executor_lost_S12",
+      "mode": "executor_lost",
+      "seed": 12
+    },
+    {
+      "id": "executor_lost_S13",
+      "mode": "executor_lost",
+      "seed": 13
+    },
+    {
+      "id": "executor_lost_S14",
+      "mode": "executor_lost",
+      "seed": 14
+    },
+    {
+      "id": "executor_lost_S15",
+      "mode": "executor_lost",
+      "seed": 15
+    },
+    {
+      "id": "executor_lost_S16",
+      "mode": "executor_lost",
+      "seed": 16
+    },
+    {
+      "id": "executor_lost_S17",
+      "mode": "executor_lost",
+      "seed": 17
+    },
+    {
+      "id": "executor_lost_S18",
+      "mode": "executor_lost",
+      "seed": 18
+    },
+    {
+      "id": "executor_lost_S19",
+      "mode": "executor_lost",
+      "seed": 19
+    }
+  ],
+  "policies": [
+    "clear",
+    "idem_retry",
+    "query_retry",
+    "reauth_retry",
+    "pause"
+  ],
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "modes": [
+    "fail_before",
+    "lost_return",
+    "late_commit",
+    "query_unavailable",
+    "executor_lost"
+  ],
+  "idempotency": false,
+  "query_complete": true,
+  "closure_except": "executor_lost",
+  "target_calls_before_freeze": 0,
+  "python": "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R1\\env\\Scripts\\python.exe",
+  "python_version": "3.13.2",
+  "created_ns": 1792569712587645000
+}
