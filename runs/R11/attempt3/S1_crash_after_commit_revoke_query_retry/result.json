@@ -1,0 +1,66 @@
+{
+  "policy": "query_retry",
+  "context": {
+    "operation_id": "S1_crash_after_commit_revoke_query_retry",
+    "intent": "03aef85917ac2c869c5d99c33c9c9a4cd9cbb62e6f0a9a6f6e35be0f2fa7b8fc",
+    "generation": 1
+  },
+  "origin": {
+    "context": {
+      "operation_id": "S1_crash_after_commit_revoke_query_retry",
+      "intent": "03aef85917ac2c869c5d99c33c9c9a4cd9cbb62e6f0a9a6f6e35be0f2fa7b8fc",
+      "generation": 1
+    },
+    "manifest": {
+      "adapter": "local_subprocess_json",
+      "version": "r11",
+      "python": "3.13.2",
+      "worker_sha256": "e66a82c9a6f893db8c04829ab0f28a4bb2b91c1b3c275d0fa9b388a6da39d9fc",
+      "route_sha256": "5ef26441395b3796938da71abf28032a4f884f037f7e7ba67716ac76744c7d14"
+    },
+    "namespace": "effects"
+  },
+  "initial_observations": [
+    {
+      "action": "append",
+      "phase": "initial",
+      "attempt": 1,
+      "outcome": "lost_return",
+      "timeout": 0.054000000000000006
+    }
+  ],
+  "terminal": "complete",
+  "reason": "query_receipt",
+  "events": [
+    {
+      "seq": 0,
+      "context": {
+        "operation_id": "S1_crash_after_commit_revoke_query_retry",
+        "intent": "03aef85917ac2c869c5d99c33c9c9a4cd9cbb62e6f0a9a6f6e35be0f2fa7b8fc",
+        "generation": 1
+      },
+      "manifest": "99b2ff737b06231fc347eb33385f8dc074e6a6b73bb34379cc26b1260a9ccef0",
+      "action": "query",
+      "body": {
+        "state": "committed",
+        "complete": true,
+        "effect_namespace": "effects",
+        "operation_id": "S1_crash_after_commit_revoke_query_retry",
+        "intent": "03aef85917ac2c869c5d99c33c9c9a4cd9cbb62e6f0a9a6f6e35be0f2fa7b8fc",
+        "generation": 1,
+        "rows": [
+          {
+            "record_id": 1,
+            "origin": "original",
+            "attempt": 1
+          }
+        ],
+        "record_id": 1
+      }
+    }
+  ],
+  "steps": [],
+  "case": "crash_after_commit_revoke",
+  "seed": 1,
+  "elapsed_ns": 355160800
+}
