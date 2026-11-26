@@ -1,0 +1,28 @@
+{
+  "profile": "buffered",
+  "fault": "late_effect",
+  "policy": "blind_retry",
+  "seed": 3,
+  "workflow": "buffered_late_effect_blind_retry_S3",
+  "terminal": "complete",
+  "reason": "retry_committed",
+  "rows": {
+    "create": 1,
+    "reserve": 1,
+    "attach": 2,
+    "commit": 1,
+    "notify": 1
+  },
+  "stale": {
+    "create": 0,
+    "reserve": 0,
+    "attach": 0,
+    "commit": 0,
+    "notify": 0
+  },
+  "rejected": 0,
+  "duplicates": 1,
+  "completed": true,
+  "safe": false,
+  "elapsed_ns": 1747403700
+}

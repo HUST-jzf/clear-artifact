@@ -1,0 +1,50 @@
+{
+  "checks": 602,
+  "passed": 602,
+  "status": "pass",
+  "cells": {
+    "lost_return/clear": {
+      "rows": 1,
+      "stale": 0,
+      "completed": true,
+      "terminal": "complete",
+      "safe": true
+    },
+    "lost_return/verify_retry": {
+      "rows": 1,
+      "stale": 0,
+      "completed": true,
+      "terminal": "complete",
+      "safe": true
+    },
+    "lost_before_commit/clear": {
+      "rows": 1,
+      "stale": 0,
+      "completed": true,
+      "terminal": "complete",
+      "safe": true
+    },
+    "lost_before_commit/verify_retry": {
+      "rows": 1,
+      "stale": 0,
+      "completed": true,
+      "terminal": "complete",
+      "safe": true
+    },
+    "revoke_race/clear": {
+      "rows": 0,
+      "stale": 0,
+      "completed": false,
+      "terminal": "pause",
+      "safe": false
+    },
+    "revoke_race/verify_retry": {
+      "rows": 1,
+      "stale": 1,
+      "completed": true,
+      "terminal": "complete",
+      "safe": false
+    }
+  },
+  "failed": []
+}
