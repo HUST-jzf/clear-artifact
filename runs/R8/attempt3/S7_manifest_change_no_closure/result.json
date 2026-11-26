@@ -1,0 +1,7 @@
+{
+  "terminal": "pause",
+  "reason": "stale_qualification",
+  "case": "manifest_change",
+  "variant": "no_closure",
+  "seed": 7
+}

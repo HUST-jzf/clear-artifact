@@ -1,0 +1,7 @@
+{
+  "terminal": "complete",
+  "reason": "closed_error",
+  "case": "fail_before",
+  "variant": "no_atomic",
+  "seed": 8
+}

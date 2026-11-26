@@ -1,0 +1,21 @@
+{
+  "launch": {
+    "valid": true,
+    "revision": 1,
+    "manifest": "2a0e942e2ef7a2fa8949dbbb329c0ce03a64c64199ac907e3d5182bb3c351f25",
+    "allowed": true
+  },
+  "final_route": {
+    "revision": 2,
+    "schema": "v1",
+    "allowed": false,
+    "outcome": "fail",
+    "delayed": false,
+    "closed_registration": true,
+    "query_complete": true,
+    "idempotency": false,
+    "race_revoke": true
+  },
+  "initial_outcome": "error",
+  "attempt": 1
+}
