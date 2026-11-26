@@ -1,0 +1,24 @@
+{
+  "case": "closure_missing",
+  "policy": "clear",
+  "repetition": 11,
+  "terminal": "complete",
+  "reason": "original_or_retry_receipt",
+  "control_ns": 7100000,
+  "timings": {
+    "active_ns": 6966300,
+    "drain_ns": 911300
+  },
+  "counts": {
+    "describe": 2,
+    "active": 3,
+    "refresh": 2,
+    "effects": 1,
+    "query": 1
+  },
+  "actions": 1,
+  "rows": 1,
+  "duplicate": false,
+  "stale_new": 0,
+  "safe": true
+}
