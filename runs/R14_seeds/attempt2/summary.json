@@ -1,0 +1,442 @@
+{
+  "schema": "r4_10seed_v1",
+  "sources": {
+    "llamaindex": {
+      "runs": 10,
+      "tasks": 400,
+      "policies": {
+        "clear": {
+          "tasks": 80,
+          "safe": 60,
+          "complete": 60,
+          "duplicate": 0,
+          "stale": 0,
+          "pause": 20
+        },
+        "idem_retry": {
+          "tasks": 80,
+          "safe": 20,
+          "complete": 80,
+          "duplicate": 50,
+          "stale": 10,
+          "pause": 0
+        },
+        "query_retry": {
+          "tasks": 80,
+          "safe": 50,
+          "complete": 70,
+          "duplicate": 10,
+          "stale": 10,
+          "pause": 10
+        },
+        "reauth_retry": {
+          "tasks": 80,
+          "safe": 30,
+          "complete": 80,
+          "duplicate": 50,
+          "stale": 0,
+          "pause": 0
+        },
+        "pause": {
+          "tasks": 80,
+          "safe": 0,
+          "complete": 0,
+          "duplicate": 0,
+          "stale": 0,
+          "pause": 80
+        }
+      },
+      "clear_conditions": {
+        "C01_fail_before": {
+          "seeds": 10,
+          "safe_seeds": 10,
+          "terminals": {
+            "complete": 10
+          },
+          "rows": {
+            "1": 10
+          }
+        },
+        "C02_lost_return": {
+          "seeds": 10,
+          "safe_seeds": 10,
+          "terminals": {
+            "complete": 10
+          },
+          "rows": {
+            "1": 10
+          }
+        },
+        "C03_late_commit": {
+          "seeds": 10,
+          "safe_seeds": 10,
+          "terminals": {
+            "complete": 10
+          },
+          "rows": {
+            "1": 10
+          }
+        },
+        "C04_revoke": {
+          "seeds": 10,
+          "safe_seeds": 0,
+          "terminals": {
+            "pause": 10
+          },
+          "rows": {
+            "0": 10
+          }
+        },
+        "C05_query_unavailable": {
+          "seeds": 10,
+          "safe_seeds": 0,
+          "terminals": {
+            "pause": 10
+          },
+          "rows": {
+            "1": 10
+          }
+        },
+        "C06_closure_missing": {
+          "seeds": 10,
+          "safe_seeds": 10,
+          "terminals": {
+            "complete": 10
+          },
+          "rows": {
+            "1": 10
+          }
+        },
+        "C07_idempotent_lost": {
+          "seeds": 10,
+          "safe_seeds": 10,
+          "terminals": {
+            "complete": 10
+          },
+          "rows": {
+            "1": 10
+          }
+        },
+        "C08_normal": {
+          "seeds": 10,
+          "safe_seeds": 10,
+          "terminals": {
+            "complete": 10
+          },
+          "rows": {
+            "1": 10
+          }
+        }
+      },
+      "clear_safe": 60,
+      "clear_total": 80,
+      "clear_wilson": [
+        0.645,
+        0.832
+      ],
+      "seed_aggregates": {
+        "0": {
+          "tasks": 40,
+          "safe": 16,
+          "complete": 29,
+          "duplicate": 11,
+          "stale": 2,
+          "clear_safe": 6
+        },
+        "1": {
+          "tasks": 40,
+          "safe": 16,
+          "complete": 29,
+          "duplicate": 11,
+          "stale": 2,
+          "clear_safe": 6
+        },
+        "2": {
+          "tasks": 40,
+          "safe": 16,
+          "complete": 29,
+          "duplicate": 11,
+          "stale": 2,
+          "clear_safe": 6
+        },
+        "3": {
+          "tasks": 40,
+          "safe": 16,
+          "complete": 29,
+          "duplicate": 11,
+          "stale": 2,
+          "clear_safe": 6
+        },
+        "4": {
+          "tasks": 40,
+          "safe": 16,
+          "complete": 29,
+          "duplicate": 11,
+          "stale": 2,
+          "clear_safe": 6
+        },
+        "5": {
+          "tasks": 40,
+          "safe": 16,
+          "complete": 29,
+          "duplicate": 11,
+          "stale": 2,
+          "clear_safe": 6
+        },
+        "6": {
+          "tasks": 40,
+          "safe": 16,
+          "complete": 29,
+          "duplicate": 11,
+          "stale": 2,
+          "clear_safe": 6
+        },
+        "7": {
+          "tasks": 40,
+          "safe": 16,
+          "complete": 29,
+          "duplicate": 11,
+          "stale": 2,
+          "clear_safe": 6
+        },
+        "8": {
+          "tasks": 40,
+          "safe": 16,
+          "complete": 29,
+          "duplicate": 11,
+          "stale": 2,
+          "clear_safe": 6
+        },
+        "9": {
+          "tasks": 40,
+          "safe": 16,
+          "complete": 29,
+          "duplicate": 11,
+          "stale": 2,
+          "clear_safe": 6
+        }
+      }
+    },
+    "autogen": {
+      "runs": 10,
+      "tasks": 400,
+      "policies": {
+        "clear": {
+          "tasks": 80,
+          "safe": 60,
+          "complete": 60,
+          "duplicate": 0,
+          "stale": 0,
+          "pause": 20
+        },
+        "idem_retry": {
+          "tasks": 80,
+          "safe": 20,
+          "complete": 80,
+          "duplicate": 50,
+          "stale": 10,
+          "pause": 0
+        },
+        "query_retry": {
+          "tasks": 80,
+          "safe": 50,
+          "complete": 70,
+          "duplicate": 10,
+          "stale": 10,
+          "pause": 10
+        },
+        "reauth_retry": {
+          "tasks": 80,
+          "safe": 30,
+          "complete": 80,
+          "duplicate": 50,
+          "stale": 0,
+          "pause": 0
+        },
+        "pause": {
+          "tasks": 80,
+          "safe": 0,
+          "complete": 0,
+          "duplicate": 0,
+          "stale": 0,
+          "pause": 80
+        }
+      },
+      "clear_conditions": {
+        "C01_fail_before": {
+          "seeds": 10,
+          "safe_seeds": 10,
+          "terminals": {
+            "complete": 10
+          },
+          "rows": {
+            "1": 10
+          }
+        },
+        "C02_lost_return": {
+          "seeds": 10,
+          "safe_seeds": 10,
+          "terminals": {
+            "complete": 10
+          },
+          "rows": {
+            "1": 10
+          }
+        },
+        "C03_late_commit": {
+          "seeds": 10,
+          "safe_seeds": 10,
+          "terminals": {
+            "complete": 10
+          },
+          "rows": {
+            "1": 10
+          }
+        },
+        "C04_revoke": {
+          "seeds": 10,
+          "safe_seeds": 0,
+          "terminals": {
+            "pause": 10
+          },
+          "rows": {
+            "0": 10
+          }
+        },
+        "C05_query_unavailable": {
+          "seeds": 10,
+          "safe_seeds": 0,
+          "terminals": {
+            "pause": 10
+          },
+          "rows": {
+            "1": 10
+          }
+        },
+        "C06_closure_missing": {
+          "seeds": 10,
+          "safe_seeds": 10,
+          "terminals": {
+            "complete": 10
+          },
+          "rows": {
+            "1": 10
+          }
+        },
+        "C07_idempotent_lost": {
+          "seeds": 10,
+          "safe_seeds": 10,
+          "terminals": {
+            "complete": 10
+          },
+          "rows": {
+            "1": 10
+          }
+        },
+        "C08_normal": {
+          "seeds": 10,
+          "safe_seeds": 10,
+          "terminals": {
+            "complete": 10
+          },
+          "rows": {
+            "1": 10
+          }
+        }
+      },
+      "clear_safe": 60,
+      "clear_total": 80,
+      "clear_wilson": [
+        0.645,
+        0.832
+      ],
+      "seed_aggregates": {
+        "0": {
+          "tasks": 40,
+          "safe": 16,
+          "complete": 29,
+          "duplicate": 11,
+          "stale": 2,
+          "clear_safe": 6
+        },
+        "1": {
+          "tasks": 40,
+          "safe": 16,
+          "complete": 29,
+          "duplicate": 11,
+          "stale": 2,
+          "clear_safe": 6
+        },
+        "2": {
+          "tasks": 40,
+          "safe": 16,
+          "complete": 29,
+          "duplicate": 11,
+          "stale": 2,
+          "clear_safe": 6
+        },
+        "3": {
+          "tasks": 40,
+          "safe": 16,
+          "complete": 29,
+          "duplicate": 11,
+          "stale": 2,
+          "clear_safe": 6
+        },
+        "4": {
+          "tasks": 40,
+          "safe": 16,
+          "complete": 29,
+          "duplicate": 11,
+          "stale": 2,
+          "clear_safe": 6
+        },
+        "5": {
+          "tasks": 40,
+          "safe": 16,
+          "complete": 29,
+          "duplicate": 11,
+          "stale": 2,
+          "clear_safe": 6
+        },
+        "6": {
+          "tasks": 40,
+          "safe": 16,
+          "complete": 29,
+          "duplicate": 11,
+          "stale": 2,
+          "clear_safe": 6
+        },
+        "7": {
+          "tasks": 40,
+          "safe": 16,
+          "complete": 29,
+          "duplicate": 11,
+          "stale": 2,
+          "clear_safe": 6
+        },
+        "8": {
+          "tasks": 40,
+          "safe": 16,
+          "complete": 29,
+          "duplicate": 11,
+          "stale": 2,
+          "clear_safe": 6
+        },
+        "9": {
+          "tasks": 40,
+          "safe": 16,
+          "complete": 29,
+          "duplicate": 11,
+          "stale": 2,
+          "clear_safe": 6
+        }
+      }
+    }
+  },
+  "total_tasks": 800,
+  "checks_total": 149,
+  "checks_passed": 149,
+  "failed": [],
+  "status": "pass"
+}

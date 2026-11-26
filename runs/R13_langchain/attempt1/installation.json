@@ -1,0 +1,9 @@
+{
+  "versions": {
+    "clear-assurance": "2.0.0",
+    "langchain-core": "1.0.0",
+    "anyio": "4.15.1"
+  },
+  "prefix": "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R1_langchain\\env",
+  "package": "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R1_langchain\\env\\Lib\\site-packages\\clear_assurance\\__init__.py"
+}

@@ -1,0 +1,81 @@
+{
+  "schema": "r4_10seed_freeze_v1",
+  "sources": {
+    "llamaindex": [
+      "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R4_llamaindex\\attempt2",
+      "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R4_llamaindex\\seed1",
+      "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R4_llamaindex\\seed2",
+      "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R4_llamaindex\\seed3",
+      "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R4_llamaindex\\seed4",
+      "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R4_llamaindex\\seed5",
+      "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R4_llamaindex\\seed6",
+      "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R4_llamaindex\\seed7",
+      "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R4_llamaindex\\seed8",
+      "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R4_llamaindex\\seed9"
+    ],
+    "autogen": [
+      "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R4_autogen\\attempt2",
+      "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R4_autogen\\seed1",
+      "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R4_autogen\\seed2",
+      "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R4_autogen\\seed3",
+      "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R4_autogen\\seed4",
+      "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R4_autogen\\seed5",
+      "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R4_autogen\\seed6",
+      "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R4_autogen\\seed7",
+      "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R4_autogen\\seed8",
+      "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R4_autogen\\seed9"
+    ]
+  },
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "policies": [
+    "clear",
+    "idem_retry",
+    "query_retry",
+    "reauth_retry",
+    "pause"
+  ],
+  "cases": [
+    "C01_fail_before",
+    "C02_lost_return",
+    "C03_late_commit",
+    "C04_revoke",
+    "C05_query_unavailable",
+    "C06_closure_missing",
+    "C07_idempotent_lost",
+    "C08_normal"
+  ],
+  "run_hashes": {
+    "runs/R4_llamaindex/attempt2": "49a35e12aa1b255a0239657c5b72e9214503f21db62ce1a0cfa65b731532600e",
+    "runs/R4_llamaindex/seed1": "a0bfb350fba0a78d5cd68690fcd2b6816c10efb3574cc627d9d0511a4878575a",
+    "runs/R4_llamaindex/seed2": "1940138e5a549ce0a0bdd947d816edd036ee22fa5c0ca69d4ff406bc5f1790f0",
+    "runs/R4_llamaindex/seed3": "a59646c97fc0e1e7be37713fe600815e553eb238816b7ff8fa875f243a7575c7",
+    "runs/R4_llamaindex/seed4": "923ac32e226093141c3e54a2dcc36cbe217e6319b34316d0fe3356db61ccd4bf",
+    "runs/R4_llamaindex/seed5": "085d30c51ccf81794b55dc7dad82e0babad2fad1447ffe11948422a8f56df98b",
+    "runs/R4_llamaindex/seed6": "bedfdf044c3dbad5b0f28218003c73423be8d26c704e65778bb5e4afef177995",
+    "runs/R4_llamaindex/seed7": "923f6f7dd6614ae5238883cf36b0ad7010bac383b3b7b9dc74bfd255066a1480",
+    "runs/R4_llamaindex/seed8": "b8d0e99e82120308c090c58e990b35f57ea698a0f4de15caeaf85a306671c1e7",
+    "runs/R4_llamaindex/seed9": "056dfbf8501906b031cb017617a9abf280079b834083b6498fbd511a52414044",
+    "runs/R4_autogen/attempt2": "3a974641dc13517d055c8ee19c2581548d9f9e7b9dc104c9f7dc8c22e2e8dd84",
+    "runs/R4_autogen/seed1": "4c8c336aee255558523ba32406c4bd6d81be2f72a0d16d873f0aff7a0ce9b97b",
+    "runs/R4_autogen/seed2": "a606fa1ae365ad148b2a7b9a20a7382ee5e783eafe89d9c42e6195ebe9819878",
+    "runs/R4_autogen/seed3": "23c810b4d781899f17c09801a54fdd9685ffe25e2b6005b766115574143f4b05",
+    "runs/R4_autogen/seed4": "e4344873eb95dfc107dd590dddbd8aa0ff153af0dd870ba7c963dfb9ac22f85a",
+    "runs/R4_autogen/seed5": "99e2c53218cf27f44b8d5d38205198011ff83305e4fe4fd4c552fac5cfc2226a",
+    "runs/R4_autogen/seed6": "a074b93258c0d8766e818d7e8edd43102bfd22809a3564dd1e1436caf91ca03b",
+    "runs/R4_autogen/seed7": "771345fffbfd7e9bc8eacd9e02a0ddec9664c98bd3795d62cb41818e3404c45f",
+    "runs/R4_autogen/seed8": "2c93fa69899c8b81744dbc0676bf7004b6dc6901a3786c3ee4f29fc5cd19969d",
+    "runs/R4_autogen/seed9": "b419d692ecb2d54d86ce7cba272b9896e376a252d793788dbc7c6196ff314da3"
+  },
+  "created": "2026-10-21"
+}

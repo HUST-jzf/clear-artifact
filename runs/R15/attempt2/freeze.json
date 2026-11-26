@@ -1,0 +1,79 @@
+{
+  "configs": [
+    "idem_on",
+    "idem_off"
+  ],
+  "faults": [
+    "lost_return",
+    "late_commit",
+    "revoke_after_reserve",
+    "revoke_after_commit"
+  ],
+  "fault_step": {
+    "lost_return": "attach",
+    "late_commit": "commit",
+    "revoke_after_reserve": "reserve",
+    "revoke_after_commit": "commit"
+  },
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "policies": [
+    "clear",
+    "idem_retry",
+    "query_retry",
+    "reauth_retry",
+    "pause"
+  ],
+  "steps": [
+    "create",
+    "reserve",
+    "attach",
+    "commit",
+    "notify"
+  ],
+  "cases": 400,
+  "files": {
+    "docs/R15_end_to_end_workflow_protocol.md": "d9ec40b21ef865002333098198f032f3ce31ee5c20b8e956ffd247fba332d9c2",
+    "scripts/r15_service.py": "45e4b5681f697a6f54f3cfaccc0dcb70aa64c93b2b569ded97176da5091b6312",
+    "scripts/r15_client.py": "48e29d11d48732f694edebc6c1680976e8ad204dcd61a3b65d13487d575e6674",
+    "scripts/run_r15.py": "38a6954403f27d25769159c9e5bae155fe51b8ff9a0f3e26317f91a544bda90c",
+    "scripts/verify_r15.py": "0460f867ad6f10f5650217cf727334b077983cfb74d1b5c2eda81c71c9e3964b"
+  },
+  "post_timeout_s": 0.25,
+  "get_timeout_s": 0.5,
+  "late_delay_s": 0.8,
+  "dispatch_jitter_s": 0.015,
+  "service_version": "ticket-svc-2026.10-v1",
+  "source": {
+    "adapter": "ticket-http",
+    "python": "3.13.2",
+    "framework": "stdlib-http",
+    "worker_sha256": "45e4b5681f697a6f54f3cfaccc0dcb70aa64c93b2b569ded97176da5091b6312",
+    "host_sha256": "48e29d11d48732f694edebc6c1680976e8ad204dcd61a3b65d13487d575e6674",
+    "observer_sha256": "b746f33fd7afccfdf905855d693bed1f239f2054a7eb0dfb42cffe5643a92260"
+  },
+  "python": "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R1_anyio\\env\\Scripts\\python.exe",
+  "python_version": "3.13.2",
+  "target_calls_before_freeze": 0,
+  "created_ns": 1792581201310266500
+}
