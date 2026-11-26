@@ -1,0 +1,28 @@
+{
+  "versions": {
+    "clear-assurance": "2.0.0",
+    "mcp": "1.26.0",
+    "anyio": "4.15.1",
+    "pydantic": "2.14.1"
+  },
+  "prefix": "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R1\\env",
+  "package": "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R1\\env\\Lib\\site-packages\\clear_assurance\\__init__.py",
+  "modules": {
+    "clear_assurance.core": {
+      "path": "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R1\\env\\Lib\\site-packages\\clear_assurance\\core.py",
+      "sha256": "17b22cdffe4c055a3c3255903dc7c6a98d691a6c69ca86f83e3032cb9d3b35e4"
+    },
+    "mcp.client.session": {
+      "path": "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R1\\env\\Lib\\site-packages\\mcp\\client\\session.py",
+      "sha256": "037d437b93b086c0510fe885df696b680ac943fbd81c9624618ac8fd7b9d017f"
+    },
+    "mcp.shared.session": {
+      "path": "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R1\\env\\Lib\\site-packages\\mcp\\shared\\session.py",
+      "sha256": "3792799b86369a7632d6e8f2efecb118bbbc7cd69abb54bb14f6b079cb09d7f4"
+    },
+    "mcp.server.lowlevel.server": {
+      "path": "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R1\\env\\Lib\\site-packages\\mcp\\server\\lowlevel\\server.py",
+      "sha256": "910890555395de8303deaef64963b056443f0e0bdd1d22f61a51481d70c3bdaa"
+    }
+  }
+}
