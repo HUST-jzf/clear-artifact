@@ -1,0 +1,84 @@
+{
+  "policy": "query_retry",
+  "context": {
+    "operation_id": "R05_normal_query_retry",
+    "intent": "38d7c6e9ee9f1c1d8b7b1dbd24382d424982ce51486f3c87cf7e76b662aa298e",
+    "generation": 1
+  },
+  "origin": {
+    "context": {
+      "operation_id": "R05_normal_query_retry",
+      "intent": "38d7c6e9ee9f1c1d8b7b1dbd24382d424982ce51486f3c87cf7e76b662aa298e",
+      "generation": 1
+    },
+    "manifest": {
+      "adapter": "anyio_task",
+      "version": "4.12.1",
+      "python": "3.13.2",
+      "framework": {
+        "anyio._backends._asyncio": "c46eaabfad268069cbd262bcd9dc631f66fc86590c949fb1d81a88ab7aafef46"
+      },
+      "worker_sha256": "82727821f348c521f26c19a48622ac6f7ebcb8042abb1df33b008267d39cd415",
+      "host_sha256": "82727821f348c521f26c19a48622ac6f7ebcb8042abb1df33b008267d39cd415",
+      "observer_sha256": "82727821f348c521f26c19a48622ac6f7ebcb8042abb1df33b008267d39cd415",
+      "route_sha256": "5b69705aff7cd514505540973fe3d38dbb2ff46373fd76cf69084541c41bddd9",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "commit",
+        "delayed": false,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": true,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": false,
+        "query_complete": true
+      }
+    },
+    "namespace": "effects"
+  },
+  "initial_observations": [
+    {
+      "action": "append",
+      "phase": "initial",
+      "attempt": 1,
+      "outcome": "return_lost"
+    }
+  ],
+  "terminal": "complete",
+  "reason": "query_receipt",
+  "events": [
+    {
+      "seq": 0,
+      "context": {
+        "operation_id": "R05_normal_query_retry",
+        "intent": "38d7c6e9ee9f1c1d8b7b1dbd24382d424982ce51486f3c87cf7e76b662aa298e",
+        "generation": 1
+      },
+      "manifest": "fd215793cb8d4510c8cd7f6eb2a10d3683c4d641d38237e72bc4fc89b4d7f1d4",
+      "action": "query",
+      "body": {
+        "state": "committed",
+        "complete": true,
+        "effect_namespace": "effects",
+        "operation_id": "R05_normal_query_retry",
+        "intent": "38d7c6e9ee9f1c1d8b7b1dbd24382d424982ce51486f3c87cf7e76b662aa298e",
+        "generation": 1,
+        "rows": [
+          {
+            "record_id": 1,
+            "origin": "original",
+            "attempt": 1
+          }
+        ],
+        "record_id": 1
+      }
+    }
+  ],
+  "steps": [],
+  "case": "normal",
+  "repetition": 5,
+  "control_ns": 768900,
+  "elapsed_ns": 20279600
+}
