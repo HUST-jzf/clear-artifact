@@ -1,0 +1,1582 @@
+{
+  "double_lost_S0_clear": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "reserve": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      },
+      "commit": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "double_lost_S0_idem_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "reserve": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      },
+      "commit": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "double_lost_S0_query_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "reserve": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      },
+      "commit": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "double_lost_S0_reauth_retry": {
+    "epoch": 3,
+    "allowed": true,
+    "faults": {
+      "reserve": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      },
+      "commit": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "double_lost_S0_pause": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "reserve": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      },
+      "commit": {
+        "kind": "lost_return",
+        "delay": 1.0
+      }
+    }
+  },
+  "double_lost_S1_clear": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "reserve": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      },
+      "attach": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "double_lost_S1_idem_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "reserve": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      },
+      "attach": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "double_lost_S1_query_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "reserve": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      },
+      "attach": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "double_lost_S1_reauth_retry": {
+    "epoch": 3,
+    "allowed": true,
+    "faults": {
+      "reserve": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      },
+      "attach": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "double_lost_S1_pause": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "reserve": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      },
+      "attach": {
+        "kind": "lost_return",
+        "delay": 1.0
+      }
+    }
+  },
+  "double_lost_S2_clear": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "commit": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      },
+      "notify": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "double_lost_S2_idem_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "commit": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      },
+      "notify": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "double_lost_S2_query_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "commit": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      },
+      "notify": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "double_lost_S2_reauth_retry": {
+    "epoch": 3,
+    "allowed": true,
+    "faults": {
+      "commit": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      },
+      "notify": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "double_lost_S2_pause": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "commit": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      },
+      "notify": {
+        "kind": "lost_return",
+        "delay": 1.0
+      }
+    }
+  },
+  "double_lost_S3_clear": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "create": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      },
+      "reserve": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "double_lost_S3_idem_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "create": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      },
+      "reserve": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "double_lost_S3_query_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "create": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      },
+      "reserve": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "double_lost_S3_reauth_retry": {
+    "epoch": 3,
+    "allowed": true,
+    "faults": {
+      "create": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      },
+      "reserve": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "double_lost_S3_pause": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "create": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      },
+      "reserve": {
+        "kind": "lost_return",
+        "delay": 1.0
+      }
+    }
+  },
+  "double_lost_S4_clear": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "reserve": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      },
+      "notify": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "double_lost_S4_idem_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "reserve": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      },
+      "notify": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "double_lost_S4_query_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "reserve": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      },
+      "notify": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "double_lost_S4_reauth_retry": {
+    "epoch": 3,
+    "allowed": true,
+    "faults": {
+      "reserve": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      },
+      "notify": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "double_lost_S4_pause": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "reserve": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      },
+      "notify": {
+        "kind": "lost_return",
+        "delay": 1.0
+      }
+    }
+  },
+  "double_lost_S5_clear": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "create": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      },
+      "notify": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "double_lost_S5_idem_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "create": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      },
+      "notify": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "double_lost_S5_query_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "create": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      },
+      "notify": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "double_lost_S5_reauth_retry": {
+    "epoch": 3,
+    "allowed": true,
+    "faults": {
+      "create": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      },
+      "notify": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "double_lost_S5_pause": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "create": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      },
+      "notify": {
+        "kind": "lost_return",
+        "delay": 1.0
+      }
+    }
+  },
+  "double_lost_S6_clear": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "create": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      },
+      "attach": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "double_lost_S6_idem_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "create": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      },
+      "attach": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "double_lost_S6_query_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "create": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      },
+      "attach": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "double_lost_S6_reauth_retry": {
+    "epoch": 3,
+    "allowed": true,
+    "faults": {
+      "create": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      },
+      "attach": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "double_lost_S6_pause": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "create": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      },
+      "attach": {
+        "kind": "lost_return",
+        "delay": 1.0
+      }
+    }
+  },
+  "double_lost_S7_clear": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "commit": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      },
+      "notify": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "double_lost_S7_idem_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "commit": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      },
+      "notify": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "double_lost_S7_query_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "commit": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      },
+      "notify": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "double_lost_S7_reauth_retry": {
+    "epoch": 3,
+    "allowed": true,
+    "faults": {
+      "commit": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      },
+      "notify": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "double_lost_S7_pause": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "commit": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      },
+      "notify": {
+        "kind": "lost_return",
+        "delay": 1.0
+      }
+    }
+  },
+  "double_lost_S8_clear": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "create": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      },
+      "commit": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "double_lost_S8_idem_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "create": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      },
+      "commit": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "double_lost_S8_query_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "create": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      },
+      "commit": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "double_lost_S8_reauth_retry": {
+    "epoch": 3,
+    "allowed": true,
+    "faults": {
+      "create": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      },
+      "commit": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "double_lost_S8_pause": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "create": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      },
+      "commit": {
+        "kind": "lost_return",
+        "delay": 1.0
+      }
+    }
+  },
+  "double_lost_S9_clear": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "attach": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      },
+      "notify": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "double_lost_S9_idem_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "attach": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      },
+      "notify": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "double_lost_S9_query_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "attach": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      },
+      "notify": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "double_lost_S9_reauth_retry": {
+    "epoch": 3,
+    "allowed": true,
+    "faults": {
+      "attach": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      },
+      "notify": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "double_lost_S9_pause": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "attach": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      },
+      "notify": {
+        "kind": "lost_return",
+        "delay": 1.0
+      }
+    }
+  },
+  "double_lost_S10_clear": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "reserve": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      },
+      "notify": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "double_lost_S10_idem_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "reserve": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      },
+      "notify": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "double_lost_S10_query_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "reserve": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      },
+      "notify": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "double_lost_S10_reauth_retry": {
+    "epoch": 3,
+    "allowed": true,
+    "faults": {
+      "reserve": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      },
+      "notify": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "double_lost_S10_pause": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "reserve": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      },
+      "notify": {
+        "kind": "lost_return",
+        "delay": 1.0
+      }
+    }
+  },
+  "double_lost_S11_clear": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "commit": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      },
+      "notify": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "double_lost_S11_idem_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "commit": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      },
+      "notify": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "double_lost_S11_query_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "commit": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      },
+      "notify": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "double_lost_S11_reauth_retry": {
+    "epoch": 3,
+    "allowed": true,
+    "faults": {
+      "commit": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      },
+      "notify": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "double_lost_S11_pause": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "commit": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      },
+      "notify": {
+        "kind": "lost_return",
+        "delay": 1.0
+      }
+    }
+  },
+  "double_lost_S12_clear": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "reserve": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      },
+      "notify": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "double_lost_S12_idem_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "reserve": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      },
+      "notify": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "double_lost_S12_query_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "reserve": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      },
+      "notify": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "double_lost_S12_reauth_retry": {
+    "epoch": 3,
+    "allowed": true,
+    "faults": {
+      "reserve": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      },
+      "notify": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "double_lost_S12_pause": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "reserve": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      },
+      "notify": {
+        "kind": "lost_return",
+        "delay": 1.0
+      }
+    }
+  },
+  "double_lost_S13_clear": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "attach": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      },
+      "notify": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "double_lost_S13_idem_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "attach": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      },
+      "notify": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "double_lost_S13_query_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "attach": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      },
+      "notify": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "double_lost_S13_reauth_retry": {
+    "epoch": 3,
+    "allowed": true,
+    "faults": {
+      "attach": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      },
+      "notify": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "double_lost_S13_pause": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "attach": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      },
+      "notify": {
+        "kind": "lost_return",
+        "delay": 1.0
+      }
+    }
+  },
+  "double_lost_S14_clear": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "reserve": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      },
+      "attach": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "double_lost_S14_idem_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "reserve": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      },
+      "attach": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "double_lost_S14_query_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "reserve": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      },
+      "attach": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "double_lost_S14_reauth_retry": {
+    "epoch": 3,
+    "allowed": true,
+    "faults": {
+      "reserve": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      },
+      "attach": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "double_lost_S14_pause": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "reserve": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      },
+      "attach": {
+        "kind": "lost_return",
+        "delay": 1.0
+      }
+    }
+  },
+  "double_lost_S15_clear": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "attach": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      },
+      "commit": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "double_lost_S15_idem_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "attach": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      },
+      "commit": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "double_lost_S15_query_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "attach": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      },
+      "commit": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "double_lost_S15_reauth_retry": {
+    "epoch": 3,
+    "allowed": true,
+    "faults": {
+      "attach": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      },
+      "commit": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "double_lost_S15_pause": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "attach": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      },
+      "commit": {
+        "kind": "lost_return",
+        "delay": 1.0
+      }
+    }
+  },
+  "double_lost_S16_clear": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "reserve": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      },
+      "attach": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "double_lost_S16_idem_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "reserve": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      },
+      "attach": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "double_lost_S16_query_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "reserve": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      },
+      "attach": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "double_lost_S16_reauth_retry": {
+    "epoch": 3,
+    "allowed": true,
+    "faults": {
+      "reserve": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      },
+      "attach": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "double_lost_S16_pause": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "reserve": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      },
+      "attach": {
+        "kind": "lost_return",
+        "delay": 1.0
+      }
+    }
+  },
+  "double_lost_S17_clear": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "reserve": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      },
+      "notify": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "double_lost_S17_idem_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "reserve": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      },
+      "notify": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "double_lost_S17_query_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "reserve": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      },
+      "notify": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "double_lost_S17_reauth_retry": {
+    "epoch": 3,
+    "allowed": true,
+    "faults": {
+      "reserve": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      },
+      "notify": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "double_lost_S17_pause": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "reserve": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      },
+      "notify": {
+        "kind": "lost_return",
+        "delay": 1.0
+      }
+    }
+  },
+  "double_lost_S18_clear": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "attach": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      },
+      "notify": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "double_lost_S18_idem_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "attach": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      },
+      "notify": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "double_lost_S18_query_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "attach": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      },
+      "notify": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "double_lost_S18_reauth_retry": {
+    "epoch": 3,
+    "allowed": true,
+    "faults": {
+      "attach": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      },
+      "notify": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "double_lost_S18_pause": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "attach": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      },
+      "notify": {
+        "kind": "lost_return",
+        "delay": 1.0
+      }
+    }
+  },
+  "double_lost_S19_clear": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "reserve": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      },
+      "attach": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "double_lost_S19_idem_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "reserve": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      },
+      "attach": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "double_lost_S19_query_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "reserve": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      },
+      "attach": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "double_lost_S19_reauth_retry": {
+    "epoch": 3,
+    "allowed": true,
+    "faults": {
+      "reserve": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      },
+      "attach": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "double_lost_S19_pause": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "reserve": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      },
+      "attach": {
+        "kind": "lost_return",
+        "delay": 1.0
+      }
+    }
+  }
+}

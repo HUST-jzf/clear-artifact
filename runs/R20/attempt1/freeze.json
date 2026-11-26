@@ -1,0 +1,509 @@
+{
+  "configs": [
+    "single_lost-on",
+    "single_lost-off",
+    "single_late-on",
+    "single_late-off",
+    "double_lost-on",
+    "double_lost-off"
+  ],
+  "campaigns": [
+    "single_lost",
+    "single_late",
+    "double_lost"
+  ],
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "policies": [
+    "clear",
+    "idem_retry",
+    "query_retry",
+    "reauth_retry",
+    "pause"
+  ],
+  "steps": [
+    "create",
+    "reserve",
+    "attach",
+    "commit",
+    "notify"
+  ],
+  "files": {
+    "docs/R20_multi_fault_random_position_protocol.md": "7f65808d5437a4f936d40c178c2bb716e93a5b9364402f77e1f1fdc68dc625c6",
+    "scripts/r19_service.py": "e8c7c23e90bd41124f7a900c3f7af56b2ca5232ffa323f66288af969af6a8243",
+    "scripts/r19_client.py": "8693a1615fa4055f311e1189de8b8ece0a67b0099dbc1b31415435127e2a6325",
+    "scripts/r20_client.py": "ae127cfa2b4f3eabeca59b58694055f4b021396fecb04ba7abdedfd52b3f293b",
+    "scripts/run_r20.py": "385a1015f7660fc240b049b9a913e9c9c70ed9bcda54894299200718610b76ee",
+    "scripts/verify_r20.py": "89c11cba221fa1b10d71c3ed81d19083fb9e595c0f184e16004edbfb13139d1d"
+  },
+  "placements": {
+    "single_lost:0": [
+      [
+        3,
+        "lost_return"
+      ]
+    ],
+    "single_lost:1": [
+      [
+        1,
+        "lost_return"
+      ]
+    ],
+    "single_lost:2": [
+      [
+        3,
+        "lost_return"
+      ]
+    ],
+    "single_lost:3": [
+      [
+        3,
+        "lost_return"
+      ]
+    ],
+    "single_lost:4": [
+      [
+        4,
+        "lost_return"
+      ]
+    ],
+    "single_lost:5": [
+      [
+        1,
+        "lost_return"
+      ]
+    ],
+    "single_lost:6": [
+      [
+        0,
+        "lost_return"
+      ]
+    ],
+    "single_lost:7": [
+      [
+        3,
+        "lost_return"
+      ]
+    ],
+    "single_lost:8": [
+      [
+        2,
+        "lost_return"
+      ]
+    ],
+    "single_lost:9": [
+      [
+        3,
+        "lost_return"
+      ]
+    ],
+    "single_lost:10": [
+      [
+        3,
+        "lost_return"
+      ]
+    ],
+    "single_lost:11": [
+      [
+        0,
+        "lost_return"
+      ]
+    ],
+    "single_lost:12": [
+      [
+        2,
+        "lost_return"
+      ]
+    ],
+    "single_lost:13": [
+      [
+        3,
+        "lost_return"
+      ]
+    ],
+    "single_lost:14": [
+      [
+        1,
+        "lost_return"
+      ]
+    ],
+    "single_lost:15": [
+      [
+        3,
+        "lost_return"
+      ]
+    ],
+    "single_lost:16": [
+      [
+        4,
+        "lost_return"
+      ]
+    ],
+    "single_lost:17": [
+      [
+        4,
+        "lost_return"
+      ]
+    ],
+    "single_lost:18": [
+      [
+        2,
+        "lost_return"
+      ]
+    ],
+    "single_lost:19": [
+      [
+        1,
+        "lost_return"
+      ]
+    ],
+    "single_late:0": [
+      [
+        2,
+        "late_commit"
+      ]
+    ],
+    "single_late:1": [
+      [
+        2,
+        "late_commit"
+      ]
+    ],
+    "single_late:2": [
+      [
+        1,
+        "late_commit"
+      ]
+    ],
+    "single_late:3": [
+      [
+        0,
+        "late_commit"
+      ]
+    ],
+    "single_late:4": [
+      [
+        4,
+        "late_commit"
+      ]
+    ],
+    "single_late:5": [
+      [
+        1,
+        "late_commit"
+      ]
+    ],
+    "single_late:6": [
+      [
+        2,
+        "late_commit"
+      ]
+    ],
+    "single_late:7": [
+      [
+        2,
+        "late_commit"
+      ]
+    ],
+    "single_late:8": [
+      [
+        1,
+        "late_commit"
+      ]
+    ],
+    "single_late:9": [
+      [
+        1,
+        "late_commit"
+      ]
+    ],
+    "single_late:10": [
+      [
+        3,
+        "late_commit"
+      ]
+    ],
+    "single_late:11": [
+      [
+        2,
+        "late_commit"
+      ]
+    ],
+    "single_late:12": [
+      [
+        4,
+        "late_commit"
+      ]
+    ],
+    "single_late:13": [
+      [
+        1,
+        "late_commit"
+      ]
+    ],
+    "single_late:14": [
+      [
+        1,
+        "late_commit"
+      ]
+    ],
+    "single_late:15": [
+      [
+        4,
+        "late_commit"
+      ]
+    ],
+    "single_late:16": [
+      [
+        3,
+        "late_commit"
+      ]
+    ],
+    "single_late:17": [
+      [
+        1,
+        "late_commit"
+      ]
+    ],
+    "single_late:18": [
+      [
+        0,
+        "late_commit"
+      ]
+    ],
+    "single_late:19": [
+      [
+        3,
+        "late_commit"
+      ]
+    ],
+    "double_lost:0": [
+      [
+        1,
+        "lost_return"
+      ],
+      [
+        3,
+        "lost_return"
+      ]
+    ],
+    "double_lost:1": [
+      [
+        1,
+        "lost_return"
+      ],
+      [
+        2,
+        "lost_return"
+      ]
+    ],
+    "double_lost:2": [
+      [
+        3,
+        "lost_return"
+      ],
+      [
+        4,
+        "lost_return"
+      ]
+    ],
+    "double_lost:3": [
+      [
+        0,
+        "lost_return"
+      ],
+      [
+        1,
+        "lost_return"
+      ]
+    ],
+    "double_lost:4": [
+      [
+        1,
+        "lost_return"
+      ],
+      [
+        4,
+        "lost_return"
+      ]
+    ],
+    "double_lost:5": [
+      [
+        0,
+        "lost_return"
+      ],
+      [
+        4,
+        "lost_return"
+      ]
+    ],
+    "double_lost:6": [
+      [
+        0,
+        "lost_return"
+      ],
+      [
+        2,
+        "lost_return"
+      ]
+    ],
+    "double_lost:7": [
+      [
+        3,
+        "lost_return"
+      ],
+      [
+        4,
+        "lost_return"
+      ]
+    ],
+    "double_lost:8": [
+      [
+        0,
+        "lost_return"
+      ],
+      [
+        3,
+        "lost_return"
+      ]
+    ],
+    "double_lost:9": [
+      [
+        2,
+        "lost_return"
+      ],
+      [
+        4,
+        "lost_return"
+      ]
+    ],
+    "double_lost:10": [
+      [
+        1,
+        "lost_return"
+      ],
+      [
+        4,
+        "lost_return"
+      ]
+    ],
+    "double_lost:11": [
+      [
+        3,
+        "lost_return"
+      ],
+      [
+        4,
+        "lost_return"
+      ]
+    ],
+    "double_lost:12": [
+      [
+        1,
+        "lost_return"
+      ],
+      [
+        4,
+        "lost_return"
+      ]
+    ],
+    "double_lost:13": [
+      [
+        2,
+        "lost_return"
+      ],
+      [
+        4,
+        "lost_return"
+      ]
+    ],
+    "double_lost:14": [
+      [
+        1,
+        "lost_return"
+      ],
+      [
+        2,
+        "lost_return"
+      ]
+    ],
+    "double_lost:15": [
+      [
+        2,
+        "lost_return"
+      ],
+      [
+        3,
+        "lost_return"
+      ]
+    ],
+    "double_lost:16": [
+      [
+        1,
+        "lost_return"
+      ],
+      [
+        2,
+        "lost_return"
+      ]
+    ],
+    "double_lost:17": [
+      [
+        1,
+        "lost_return"
+      ],
+      [
+        4,
+        "lost_return"
+      ]
+    ],
+    "double_lost:18": [
+      [
+        2,
+        "lost_return"
+      ],
+      [
+        4,
+        "lost_return"
+      ]
+    ],
+    "double_lost:19": [
+      [
+        1,
+        "lost_return"
+      ],
+      [
+        2,
+        "lost_return"
+      ]
+    ]
+  },
+  "post_timeout_s": 0.4,
+  "get_timeout_s": 0.5,
+  "late_delay_s": 1.0,
+  "dispatch_jitter_s": 0.015,
+  "python": "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R1_anyio\\env\\Scripts\\python.exe",
+  "python_version": "3.13.2",
+  "target_calls_before_freeze": 0,
+  "created_ns": 1792589033093429800
+}

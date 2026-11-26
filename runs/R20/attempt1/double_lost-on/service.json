@@ -1,0 +1,7 @@
+{
+  "base_url": "http://127.0.0.1:54378",
+  "pid": 41940,
+  "returncode": 0,
+  "idempotency": "on",
+  "campaign": "double_lost"
+}
