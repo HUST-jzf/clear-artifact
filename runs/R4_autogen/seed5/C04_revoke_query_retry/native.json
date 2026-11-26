@@ -1,0 +1,215 @@
+{
+  "context": {
+    "operation_id": "C04_revoke_query_retry",
+    "intent": "048c8931efe28cd784d1aaa5e3eba5b3b095769fc47a434a07300c2fe4bfcd76",
+    "generation": 1
+  },
+  "origin": {
+    "context": {
+      "operation_id": "C04_revoke_query_retry",
+      "intent": "048c8931efe28cd784d1aaa5e3eba5b3b095769fc47a434a07300c2fe4bfcd76",
+      "generation": 1
+    },
+    "manifest": {
+      "adapter": "autogen_tool",
+      "version": "0.7.5",
+      "python": "3.13.2",
+      "framework": {
+        "autogen_core": "6d5c15c16a36937c1f5dcf17a6197548227a598bce5e0070b0feabaf80aecd61"
+      },
+      "worker_sha256": "2a527692b0ebc6ff51394138d6bbde9954a2d099d4e27d73e7e89f670ba4a3bd",
+      "host_sha256": "2a527692b0ebc6ff51394138d6bbde9954a2d099d4e27d73e7e89f670ba4a3bd",
+      "observer_sha256": "2a527692b0ebc6ff51394138d6bbde9954a2d099d4e27d73e7e89f670ba4a3bd",
+      "route_sha256": "697678f7b026a5f8118bc3484158f7cd65567f759d9f5352fa2eaa8ea7cff5e6",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "fail",
+        "delayed": false,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": true,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": false,
+        "query_complete": true
+      }
+    },
+    "namespace": "effects"
+  },
+  "initial_route": {
+    "revision": 1,
+    "mode": "inline",
+    "outcome": "fail",
+    "delayed": false,
+    "abandon_on_cancel": false,
+    "delegated": false,
+    "closed_registration": true,
+    "allowed": true,
+    "store": "effects",
+    "idempotency": false,
+    "query_complete": true
+  },
+  "initial_qualification": {
+    "valid": true,
+    "manifest": {
+      "adapter": "autogen_tool",
+      "version": "0.7.5",
+      "python": "3.13.2",
+      "framework": {
+        "autogen_core": "6d5c15c16a36937c1f5dcf17a6197548227a598bce5e0070b0feabaf80aecd61"
+      },
+      "worker_sha256": "2a527692b0ebc6ff51394138d6bbde9954a2d099d4e27d73e7e89f670ba4a3bd",
+      "host_sha256": "2a527692b0ebc6ff51394138d6bbde9954a2d099d4e27d73e7e89f670ba4a3bd",
+      "observer_sha256": "2a527692b0ebc6ff51394138d6bbde9954a2d099d4e27d73e7e89f670ba4a3bd",
+      "route_sha256": "697678f7b026a5f8118bc3484158f7cd65567f759d9f5352fa2eaa8ea7cff5e6",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "fail",
+        "delayed": false,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": true,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": false,
+        "query_complete": true
+      }
+    },
+    "checks": {
+      "adapter": true,
+      "version": true,
+      "python": true,
+      "framework": true,
+      "worker_sha256": true,
+      "host_sha256": true,
+      "observer_sha256": true,
+      "known_route": true,
+      "closed_registration": true,
+      "approval_allowed": true,
+      "same_effect_destination": true
+    },
+    "changed_dependencies": []
+  },
+  "initial_observations": [
+    {
+      "action": "append",
+      "phase": "initial",
+      "attempt": 1,
+      "outcome": "error"
+    }
+  ],
+  "attempt": 2,
+  "calls": [
+    {
+      "tool": "append",
+      "outcome": "error",
+      "time_ns": 33472777116900
+    },
+    {
+      "tool": "effects",
+      "outcome": "return",
+      "time_ns": 33472780830700
+    },
+    {
+      "tool": "drain",
+      "outcome": "return",
+      "time_ns": 33472788100300
+    }
+  ],
+  "capabilities": {
+    "executor_handle": true,
+    "closed_registration": true
+  },
+  "drain": {
+    "drained": true,
+    "invocations": 2,
+    "effects": 1,
+    "terminal": true
+  },
+  "final_manifest": {
+    "adapter": "autogen_tool",
+    "version": "0.7.5",
+    "python": "3.13.2",
+    "framework": {
+      "autogen_core": "6d5c15c16a36937c1f5dcf17a6197548227a598bce5e0070b0feabaf80aecd61"
+    },
+    "worker_sha256": "2a527692b0ebc6ff51394138d6bbde9954a2d099d4e27d73e7e89f670ba4a3bd",
+    "host_sha256": "2a527692b0ebc6ff51394138d6bbde9954a2d099d4e27d73e7e89f670ba4a3bd",
+    "observer_sha256": "2a527692b0ebc6ff51394138d6bbde9954a2d099d4e27d73e7e89f670ba4a3bd",
+    "route_sha256": "e0acc3be9b6b729434cc460d0328e5adc38e0decb821a4e1628c341bc1158efb",
+    "route": {
+      "revision": 2,
+      "mode": "inline",
+      "outcome": "fail",
+      "delayed": false,
+      "abandon_on_cancel": false,
+      "delegated": false,
+      "closed_registration": true,
+      "allowed": false,
+      "store": "effects",
+      "idempotency": false,
+      "query_complete": true
+    }
+  },
+  "final_route": {
+    "revision": 2,
+    "mode": "inline",
+    "outcome": "fail",
+    "delayed": false,
+    "abandon_on_cancel": false,
+    "delegated": false,
+    "closed_registration": true,
+    "allowed": false,
+    "store": "effects",
+    "idempotency": false,
+    "query_complete": true
+  },
+  "current_qualification": {
+    "valid": false,
+    "manifest": {
+      "adapter": "autogen_tool",
+      "version": "0.7.5",
+      "python": "3.13.2",
+      "framework": {
+        "autogen_core": "6d5c15c16a36937c1f5dcf17a6197548227a598bce5e0070b0feabaf80aecd61"
+      },
+      "worker_sha256": "2a527692b0ebc6ff51394138d6bbde9954a2d099d4e27d73e7e89f670ba4a3bd",
+      "host_sha256": "2a527692b0ebc6ff51394138d6bbde9954a2d099d4e27d73e7e89f670ba4a3bd",
+      "observer_sha256": "2a527692b0ebc6ff51394138d6bbde9954a2d099d4e27d73e7e89f670ba4a3bd",
+      "route_sha256": "e0acc3be9b6b729434cc460d0328e5adc38e0decb821a4e1628c341bc1158efb",
+      "route": {
+        "revision": 2,
+        "mode": "inline",
+        "outcome": "fail",
+        "delayed": false,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": true,
+        "allowed": false,
+        "store": "effects",
+        "idempotency": false,
+        "query_complete": true
+      }
+    },
+    "checks": {
+      "adapter": true,
+      "version": true,
+      "python": true,
+      "framework": true,
+      "worker_sha256": true,
+      "host_sha256": true,
+      "observer_sha256": true,
+      "known_route": true,
+      "closed_registration": true,
+      "approval_allowed": false,
+      "same_effect_destination": true
+    },
+    "changed_dependencies": [
+      "route_sha256",
+      "route"
+    ]
+  },
+  "elapsed_ns": 15157400
+}
