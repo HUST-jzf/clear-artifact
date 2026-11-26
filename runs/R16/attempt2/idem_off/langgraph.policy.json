@@ -1,0 +1,36 @@
+{
+  "baseline": "langgraph",
+  "config": "idem_off",
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "retry_policy": {
+    "max_attempts": 2,
+    "initial_interval_ms": 10,
+    "backoff_factor": 1.0,
+    "jitter": false,
+    "retry_on": [
+      "ConnectionError",
+      "TimeoutError"
+    ]
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "run": "F:\\desktop\\paper\\clear-artifact\\runs\\R15\\attempt2",
+  "checks": 5669,
+  "passed": 5669,
+  "failed": [],
+  "summary": {
+    "idem_on": {
+      "clear": {
+        "workflows": 80,
+        "safe": 40,
+        "completed": 40,
+        "duplicates": 0,
+        "stale_rows": 0,
+        "orphan": 40,
+        "pauses": 40,
+        "post_calls": 320,
+        "http_calls": 1200,
+        "median_ms": 270.58
+      },
+      "idem_retry": {
+        "workflows": 80,
+        "safe": 40,
+        "completed": 80,
+        "duplicates": 0,
+        "stale_rows": 80,
+        "orphan": 0,
+        "pauses": 0,
+        "post_calls": 440,
+        "http_calls": 920,
+        "median_ms": 244.51
+      },
+      "query_retry": {
+        "workflows": 80,
+        "safe": 40,
+        "completed": 80,
+        "duplicates": 0,
+        "stale_rows": 80,
+        "orphan": 0,
+        "pauses": 0,
+        "post_calls": 400,
+        "http_calls": 920,
+        "median_ms": 248.51
+      },
+      "reauth_retry": {
+        "workflows": 80,
+        "safe": 40,
+        "completed": 80,
+        "duplicates": 0,
+        "stale_rows": 80,
+        "orphan": 0,
+        "pauses": 0,
+        "post_calls": 440,
+        "http_calls": 1000,
+        "median_ms": 250.15
+      },
+      "pause": {
+        "workflows": 80,
+        "safe": 0,
+        "completed": 40,
+        "duplicates": 0,
+        "stale_rows": 80,
+        "orphan": 40,
+        "pauses": 40,
+        "post_calls": 340,
+        "http_calls": 760,
+        "median_ms": 227.0
+      },
+      "lost_return": {
+        "workflows": 100,
+        "safe": 80,
+        "completed": 80,
+        "duplicates": 0,
+        "stale_rows": 0
+      },
+      "late_commit": {
+        "workflows": 100,
+        "safe": 80,
+        "completed": 80,
+        "duplicates": 0,
+        "stale_rows": 0
+      },
+      "revoke_after_reserve": {
+        "workflows": 100,
+        "safe": 0,
+        "completed": 80,
+        "duplicates": 0,
+        "stale_rows": 240
+      },
+      "revoke_after_commit": {
+        "workflows": 100,
+        "safe": 0,
+        "completed": 80,
+        "duplicates": 0,
+        "stale_rows": 80
+      }
+    },
+    "idem_off": {
+      "clear": {
+        "workflows": 80,
+        "safe": 40,
+        "completed": 40,
+        "duplicates": 0,
+        "stale_rows": 0,
+        "orphan": 40,
+        "pauses": 40,
+        "post_calls": 320,
+        "http_calls": 1200,
+        "median_ms": 254.12
+      },
+      "idem_retry": {
+        "workflows": 80,
+        "safe": 0,
+        "completed": 80,
+        "duplicates": 40,
+        "stale_rows": 80,
+        "orphan": 0,
+        "pauses": 0,
+        "post_calls": 440,
+        "http_calls": 920,
+        "median_ms": 239.72
+      },
+      "query_retry": {
+        "workflows": 80,
+        "safe": 40,
+        "completed": 80,
+        "duplicates": 0,
+        "stale_rows": 80,
+        "orphan": 0,
+        "pauses": 0,
+        "post_calls": 400,
+        "http_calls": 920,
+        "median_ms": 238.4
+      },
+      "reauth_retry": {
+        "workflows": 80,
+        "safe": 0,
+        "completed": 80,
+        "duplicates": 40,
+        "stale_rows": 80,
+        "orphan": 0,
+        "pauses": 0,
+        "post_calls": 440,
+        "http_calls": 1000,
+        "median_ms": 263.02
+      },
+      "pause": {
+        "workflows": 80,
+        "safe": 0,
+        "completed": 40,
+        "duplicates": 0,
+        "stale_rows": 80,
+        "orphan": 40,
+        "pauses": 40,
+        "post_calls": 340,
+        "http_calls": 760,
+        "median_ms": 243.51
+      },
+      "lost_return": {
+        "workflows": 100,
+        "safe": 40,
+        "completed": 80,
+        "duplicates": 40,
+        "stale_rows": 0
+      },
+      "late_commit": {
+        "workflows": 100,
+        "safe": 40,
+        "completed": 80,
+        "duplicates": 40,
+        "stale_rows": 0
+      },
+      "revoke_after_reserve": {
+        "workflows": 100,
+        "safe": 0,
+        "completed": 80,
+        "duplicates": 0,
+        "stale_rows": 240
+      },
+      "revoke_after_commit": {
+        "workflows": 100,
+        "safe": 0,
+        "completed": 80,
+        "duplicates": 0,
+        "stale_rows": 80
+      }
+    }
+  },
+  "status": "pass"
+}

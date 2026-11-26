@@ -1,0 +1,91 @@
+{
+  "baselines": [
+    "temporal",
+    "langgraph"
+  ],
+  "configs": [
+    "idem_on",
+    "idem_off"
+  ],
+  "faults": [
+    "lost_return",
+    "late_commit",
+    "revoke_after_reserve",
+    "revoke_after_commit"
+  ],
+  "fault_step": {
+    "lost_return": "attach",
+    "late_commit": "commit",
+    "revoke_after_reserve": "reserve",
+    "revoke_after_commit": "commit"
+  },
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "steps": [
+    "create",
+    "reserve",
+    "attach",
+    "commit",
+    "notify"
+  ],
+  "cases": 320,
+  "files": {
+    "docs/R16_fair_baselines_protocol.md": "1e8b058aa8b31c916ec9dca1e8d63d2fe117381dc1507bad0d26b778e08e87a1",
+    "scripts/r15_service.py": "45e4b5681f697a6f54f3cfaccc0dcb70aa64c93b2b569ded97176da5091b6312",
+    "scripts/r16_common.py": "8af47bd3dc6cc3730ffae1b7dfdbb07b79e01641f2bd95e0b74bfa6c8ddf9498",
+    "scripts/r16_temporal.py": "83b8145437c9c5bbad2fc9b9a004a02a2fa2008fec7b49acc2e4963706412d92",
+    "scripts/r16_langgraph.py": "c5962ae0803c341d94b7ba55a34778245b51c30025beef301a6911ba7220f502",
+    "scripts/run_r16.py": "a025aa9a9a37e4d622b4b2596a61bcff58fd5ae0f44090daafebe1459cde08ab",
+    "scripts/verify_r16.py": "f3631c409ce22c53629026878281b96b8ba41fb931bb616aeb56753d74178b38"
+  },
+  "post_timeout_s": 0.25,
+  "get_timeout_s": 0.5,
+  "late_delay_s": 0.8,
+  "dispatch_jitter_s": 0.015,
+  "service_version": "ticket-svc-2026.10-v1",
+  "temporal": {
+    "cli": "1.9.1",
+    "server": "1.32.0",
+    "sdk": "1.34.0",
+    "maximum_attempts": 2,
+    "initial_interval_ms": 10,
+    "backoff_coefficient": 1.0,
+    "start_to_close_timeout_ms": 250
+  },
+  "langgraph": {
+    "version": "1.2.16",
+    "checkpointer": "langgraph-checkpoint-sqlite 3.1.2",
+    "max_attempts": 2,
+    "initial_interval_s": 0.01,
+    "backoff_factor": 1.0,
+    "jitter": false,
+    "retry_on": [
+      "ConnectionError",
+      "TimeoutError"
+    ]
+  },
+  "python": "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R1_anyio\\env\\Scripts\\python.exe",
+  "python_version": "3.13.2",
+  "target_calls_before_freeze": 0,
+  "created_ns": 1792583570118536700
+}

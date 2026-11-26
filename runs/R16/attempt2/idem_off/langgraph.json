@@ -1,0 +1,2999 @@
+{
+  "baseline": "langgraph",
+  "config": "idem_off",
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "tasks": [
+    {
+      "workflow": "langgraph-idem_off-lost_return-S0",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 1,
+      "stale_rows": 0,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 2,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "post_calls": 6,
+      "safe": false,
+      "elapsed_ns": 322982900,
+      "baseline": "langgraph",
+      "config": "idem_off",
+      "fault": "lost_return",
+      "seed": 0,
+      "attempts": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 2,
+        "commit": 1,
+        "notify": 1
+      },
+      "errors": []
+    },
+    {
+      "workflow": "langgraph-idem_off-lost_return-S1",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 1,
+      "stale_rows": 0,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 2,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "post_calls": 6,
+      "safe": false,
+      "elapsed_ns": 227102500,
+      "baseline": "langgraph",
+      "config": "idem_off",
+      "fault": "lost_return",
+      "seed": 1,
+      "attempts": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 2,
+        "commit": 1,
+        "notify": 1
+      },
+      "errors": []
+    },
+    {
+      "workflow": "langgraph-idem_off-lost_return-S2",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 1,
+      "stale_rows": 0,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 2,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "post_calls": 6,
+      "safe": false,
+      "elapsed_ns": 176290300,
+      "baseline": "langgraph",
+      "config": "idem_off",
+      "fault": "lost_return",
+      "seed": 2,
+      "attempts": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 2,
+        "commit": 1,
+        "notify": 1
+      },
+      "errors": []
+    },
+    {
+      "workflow": "langgraph-idem_off-lost_return-S3",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 1,
+      "stale_rows": 0,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 2,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "post_calls": 6,
+      "safe": false,
+      "elapsed_ns": 299488500,
+      "baseline": "langgraph",
+      "config": "idem_off",
+      "fault": "lost_return",
+      "seed": 3,
+      "attempts": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 2,
+        "commit": 1,
+        "notify": 1
+      },
+      "errors": []
+    },
+    {
+      "workflow": "langgraph-idem_off-lost_return-S4",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 1,
+      "stale_rows": 0,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 2,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "post_calls": 6,
+      "safe": false,
+      "elapsed_ns": 384477100,
+      "baseline": "langgraph",
+      "config": "idem_off",
+      "fault": "lost_return",
+      "seed": 4,
+      "attempts": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 2,
+        "commit": 1,
+        "notify": 1
+      },
+      "errors": []
+    },
+    {
+      "workflow": "langgraph-idem_off-lost_return-S5",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 1,
+      "stale_rows": 0,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 2,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "post_calls": 6,
+      "safe": false,
+      "elapsed_ns": 255175500,
+      "baseline": "langgraph",
+      "config": "idem_off",
+      "fault": "lost_return",
+      "seed": 5,
+      "attempts": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 2,
+        "commit": 1,
+        "notify": 1
+      },
+      "errors": []
+    },
+    {
+      "workflow": "langgraph-idem_off-lost_return-S6",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 1,
+      "stale_rows": 0,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 2,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "post_calls": 6,
+      "safe": false,
+      "elapsed_ns": 273968000,
+      "baseline": "langgraph",
+      "config": "idem_off",
+      "fault": "lost_return",
+      "seed": 6,
+      "attempts": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 2,
+        "commit": 1,
+        "notify": 1
+      },
+      "errors": []
+    },
+    {
+      "workflow": "langgraph-idem_off-lost_return-S7",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 1,
+      "stale_rows": 0,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 2,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "post_calls": 6,
+      "safe": false,
+      "elapsed_ns": 234219400,
+      "baseline": "langgraph",
+      "config": "idem_off",
+      "fault": "lost_return",
+      "seed": 7,
+      "attempts": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 2,
+        "commit": 1,
+        "notify": 1
+      },
+      "errors": []
+    },
+    {
+      "workflow": "langgraph-idem_off-lost_return-S8",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 1,
+      "stale_rows": 0,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 2,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "post_calls": 6,
+      "safe": false,
+      "elapsed_ns": 219294700,
+      "baseline": "langgraph",
+      "config": "idem_off",
+      "fault": "lost_return",
+      "seed": 8,
+      "attempts": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 2,
+        "commit": 1,
+        "notify": 1
+      },
+      "errors": []
+    },
+    {
+      "workflow": "langgraph-idem_off-lost_return-S9",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 1,
+      "stale_rows": 0,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 2,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "post_calls": 6,
+      "safe": false,
+      "elapsed_ns": 247616200,
+      "baseline": "langgraph",
+      "config": "idem_off",
+      "fault": "lost_return",
+      "seed": 9,
+      "attempts": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 2,
+        "commit": 1,
+        "notify": 1
+      },
+      "errors": []
+    },
+    {
+      "workflow": "langgraph-idem_off-lost_return-S10",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 1,
+      "stale_rows": 0,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 2,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "post_calls": 6,
+      "safe": false,
+      "elapsed_ns": 274278100,
+      "baseline": "langgraph",
+      "config": "idem_off",
+      "fault": "lost_return",
+      "seed": 10,
+      "attempts": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 2,
+        "commit": 1,
+        "notify": 1
+      },
+      "errors": []
+    },
+    {
+      "workflow": "langgraph-idem_off-lost_return-S11",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 1,
+      "stale_rows": 0,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 2,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "post_calls": 6,
+      "safe": false,
+      "elapsed_ns": 252463100,
+      "baseline": "langgraph",
+      "config": "idem_off",
+      "fault": "lost_return",
+      "seed": 11,
+      "attempts": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 2,
+        "commit": 1,
+        "notify": 1
+      },
+      "errors": []
+    },
+    {
+      "workflow": "langgraph-idem_off-lost_return-S12",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 1,
+      "stale_rows": 0,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 2,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "post_calls": 6,
+      "safe": false,
+      "elapsed_ns": 265412100,
+      "baseline": "langgraph",
+      "config": "idem_off",
+      "fault": "lost_return",
+      "seed": 12,
+      "attempts": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 2,
+        "commit": 1,
+        "notify": 1
+      },
+      "errors": []
+    },
+    {
+      "workflow": "langgraph-idem_off-lost_return-S13",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 1,
+      "stale_rows": 0,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 2,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "post_calls": 6,
+      "safe": false,
+      "elapsed_ns": 256049800,
+      "baseline": "langgraph",
+      "config": "idem_off",
+      "fault": "lost_return",
+      "seed": 13,
+      "attempts": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 2,
+        "commit": 1,
+        "notify": 1
+      },
+      "errors": []
+    },
+    {
+      "workflow": "langgraph-idem_off-lost_return-S14",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 1,
+      "stale_rows": 0,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 2,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "post_calls": 6,
+      "safe": false,
+      "elapsed_ns": 212126600,
+      "baseline": "langgraph",
+      "config": "idem_off",
+      "fault": "lost_return",
+      "seed": 14,
+      "attempts": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 2,
+        "commit": 1,
+        "notify": 1
+      },
+      "errors": []
+    },
+    {
+      "workflow": "langgraph-idem_off-lost_return-S15",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 1,
+      "stale_rows": 0,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 2,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "post_calls": 6,
+      "safe": false,
+      "elapsed_ns": 321964700,
+      "baseline": "langgraph",
+      "config": "idem_off",
+      "fault": "lost_return",
+      "seed": 15,
+      "attempts": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 2,
+        "commit": 1,
+        "notify": 1
+      },
+      "errors": []
+    },
+    {
+      "workflow": "langgraph-idem_off-lost_return-S16",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 1,
+      "stale_rows": 0,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 2,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "post_calls": 6,
+      "safe": false,
+      "elapsed_ns": 333345700,
+      "baseline": "langgraph",
+      "config": "idem_off",
+      "fault": "lost_return",
+      "seed": 16,
+      "attempts": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 2,
+        "commit": 1,
+        "notify": 1
+      },
+      "errors": []
+    },
+    {
+      "workflow": "langgraph-idem_off-lost_return-S17",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 1,
+      "stale_rows": 0,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 2,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "post_calls": 6,
+      "safe": false,
+      "elapsed_ns": 320640800,
+      "baseline": "langgraph",
+      "config": "idem_off",
+      "fault": "lost_return",
+      "seed": 17,
+      "attempts": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 2,
+        "commit": 1,
+        "notify": 1
+      },
+      "errors": []
+    },
+    {
+      "workflow": "langgraph-idem_off-lost_return-S18",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 1,
+      "stale_rows": 0,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 2,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "post_calls": 6,
+      "safe": false,
+      "elapsed_ns": 353963500,
+      "baseline": "langgraph",
+      "config": "idem_off",
+      "fault": "lost_return",
+      "seed": 18,
+      "attempts": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 2,
+        "commit": 1,
+        "notify": 1
+      },
+      "errors": []
+    },
+    {
+      "workflow": "langgraph-idem_off-lost_return-S19",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 1,
+      "stale_rows": 0,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 2,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "post_calls": 6,
+      "safe": false,
+      "elapsed_ns": 356234000,
+      "baseline": "langgraph",
+      "config": "idem_off",
+      "fault": "lost_return",
+      "seed": 19,
+      "attempts": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 2,
+        "commit": 1,
+        "notify": 1
+      },
+      "errors": []
+    },
+    {
+      "workflow": "langgraph-idem_off-late_commit-S0",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 1,
+      "stale_rows": 0,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 2,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "post_calls": 6,
+      "safe": false,
+      "elapsed_ns": 563504800,
+      "baseline": "langgraph",
+      "config": "idem_off",
+      "fault": "late_commit",
+      "seed": 0,
+      "attempts": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 2,
+        "notify": 1
+      },
+      "errors": []
+    },
+    {
+      "workflow": "langgraph-idem_off-late_commit-S1",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 1,
+      "stale_rows": 0,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 2,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "post_calls": 6,
+      "safe": false,
+      "elapsed_ns": 545339100,
+      "baseline": "langgraph",
+      "config": "idem_off",
+      "fault": "late_commit",
+      "seed": 1,
+      "attempts": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 2,
+        "notify": 1
+      },
+      "errors": []
+    },
+    {
+      "workflow": "langgraph-idem_off-late_commit-S2",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 1,
+      "stale_rows": 0,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 2,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "post_calls": 6,
+      "safe": false,
+      "elapsed_ns": 534010100,
+      "baseline": "langgraph",
+      "config": "idem_off",
+      "fault": "late_commit",
+      "seed": 2,
+      "attempts": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 2,
+        "notify": 1
+      },
+      "errors": []
+    },
+    {
+      "workflow": "langgraph-idem_off-late_commit-S3",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 1,
+      "stale_rows": 0,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 2,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "post_calls": 6,
+      "safe": false,
+      "elapsed_ns": 581747600,
+      "baseline": "langgraph",
+      "config": "idem_off",
+      "fault": "late_commit",
+      "seed": 3,
+      "attempts": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 2,
+        "notify": 1
+      },
+      "errors": []
+    },
+    {
+      "workflow": "langgraph-idem_off-late_commit-S4",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 1,
+      "stale_rows": 0,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 2,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "post_calls": 6,
+      "safe": false,
+      "elapsed_ns": 482002500,
+      "baseline": "langgraph",
+      "config": "idem_off",
+      "fault": "late_commit",
+      "seed": 4,
+      "attempts": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 2,
+        "notify": 1
+      },
+      "errors": []
+    },
+    {
+      "workflow": "langgraph-idem_off-late_commit-S5",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 1,
+      "stale_rows": 0,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 2,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "post_calls": 6,
+      "safe": false,
+      "elapsed_ns": 562055500,
+      "baseline": "langgraph",
+      "config": "idem_off",
+      "fault": "late_commit",
+      "seed": 5,
+      "attempts": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 2,
+        "notify": 1
+      },
+      "errors": []
+    },
+    {
+      "workflow": "langgraph-idem_off-late_commit-S6",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 1,
+      "stale_rows": 0,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 2,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "post_calls": 6,
+      "safe": false,
+      "elapsed_ns": 587796400,
+      "baseline": "langgraph",
+      "config": "idem_off",
+      "fault": "late_commit",
+      "seed": 6,
+      "attempts": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 2,
+        "notify": 1
+      },
+      "errors": []
+    },
+    {
+      "workflow": "langgraph-idem_off-late_commit-S7",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 1,
+      "stale_rows": 0,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 2,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "post_calls": 6,
+      "safe": false,
+      "elapsed_ns": 559295600,
+      "baseline": "langgraph",
+      "config": "idem_off",
+      "fault": "late_commit",
+      "seed": 7,
+      "attempts": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 2,
+        "notify": 1
+      },
+      "errors": []
+    },
+    {
+      "workflow": "langgraph-idem_off-late_commit-S8",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 1,
+      "stale_rows": 0,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 2,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "post_calls": 6,
+      "safe": false,
+      "elapsed_ns": 554642400,
+      "baseline": "langgraph",
+      "config": "idem_off",
+      "fault": "late_commit",
+      "seed": 8,
+      "attempts": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 2,
+        "notify": 1
+      },
+      "errors": []
+    },
+    {
+      "workflow": "langgraph-idem_off-late_commit-S9",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 1,
+      "stale_rows": 0,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 2,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "post_calls": 6,
+      "safe": false,
+      "elapsed_ns": 465898100,
+      "baseline": "langgraph",
+      "config": "idem_off",
+      "fault": "late_commit",
+      "seed": 9,
+      "attempts": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 2,
+        "notify": 1
+      },
+      "errors": []
+    },
+    {
+      "workflow": "langgraph-idem_off-late_commit-S10",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 1,
+      "stale_rows": 0,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 2,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "post_calls": 6,
+      "safe": false,
+      "elapsed_ns": 454341600,
+      "baseline": "langgraph",
+      "config": "idem_off",
+      "fault": "late_commit",
+      "seed": 10,
+      "attempts": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 2,
+        "notify": 1
+      },
+      "errors": []
+    },
+    {
+      "workflow": "langgraph-idem_off-late_commit-S11",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 1,
+      "stale_rows": 0,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 2,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "post_calls": 6,
+      "safe": false,
+      "elapsed_ns": 511030200,
+      "baseline": "langgraph",
+      "config": "idem_off",
+      "fault": "late_commit",
+      "seed": 11,
+      "attempts": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 2,
+        "notify": 1
+      },
+      "errors": []
+    },
+    {
+      "workflow": "langgraph-idem_off-late_commit-S12",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 1,
+      "stale_rows": 0,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 2,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "post_calls": 6,
+      "safe": false,
+      "elapsed_ns": 588035000,
+      "baseline": "langgraph",
+      "config": "idem_off",
+      "fault": "late_commit",
+      "seed": 12,
+      "attempts": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 2,
+        "notify": 1
+      },
+      "errors": []
+    },
+    {
+      "workflow": "langgraph-idem_off-late_commit-S13",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 1,
+      "stale_rows": 0,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 2,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "post_calls": 6,
+      "safe": false,
+      "elapsed_ns": 463713200,
+      "baseline": "langgraph",
+      "config": "idem_off",
+      "fault": "late_commit",
+      "seed": 13,
+      "attempts": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 2,
+        "notify": 1
+      },
+      "errors": []
+    },
+    {
+      "workflow": "langgraph-idem_off-late_commit-S14",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 1,
+      "stale_rows": 0,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 2,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "post_calls": 6,
+      "safe": false,
+      "elapsed_ns": 480879700,
+      "baseline": "langgraph",
+      "config": "idem_off",
+      "fault": "late_commit",
+      "seed": 14,
+      "attempts": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 2,
+        "notify": 1
+      },
+      "errors": []
+    },
+    {
+      "workflow": "langgraph-idem_off-late_commit-S15",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 1,
+      "stale_rows": 0,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 2,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "post_calls": 6,
+      "safe": false,
+      "elapsed_ns": 586187500,
+      "baseline": "langgraph",
+      "config": "idem_off",
+      "fault": "late_commit",
+      "seed": 15,
+      "attempts": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 2,
+        "notify": 1
+      },
+      "errors": []
+    },
+    {
+      "workflow": "langgraph-idem_off-late_commit-S16",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 1,
+      "stale_rows": 0,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 2,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "post_calls": 6,
+      "safe": false,
+      "elapsed_ns": 551729900,
+      "baseline": "langgraph",
+      "config": "idem_off",
+      "fault": "late_commit",
+      "seed": 16,
+      "attempts": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 2,
+        "notify": 1
+      },
+      "errors": []
+    },
+    {
+      "workflow": "langgraph-idem_off-late_commit-S17",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 1,
+      "stale_rows": 0,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 2,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "post_calls": 6,
+      "safe": false,
+      "elapsed_ns": 441928100,
+      "baseline": "langgraph",
+      "config": "idem_off",
+      "fault": "late_commit",
+      "seed": 17,
+      "attempts": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 2,
+        "notify": 1
+      },
+      "errors": []
+    },
+    {
+      "workflow": "langgraph-idem_off-late_commit-S18",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 1,
+      "stale_rows": 0,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 2,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "post_calls": 6,
+      "safe": false,
+      "elapsed_ns": 478394300,
+      "baseline": "langgraph",
+      "config": "idem_off",
+      "fault": "late_commit",
+      "seed": 18,
+      "attempts": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 2,
+        "notify": 1
+      },
+      "errors": []
+    },
+    {
+      "workflow": "langgraph-idem_off-late_commit-S19",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 1,
+      "stale_rows": 0,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 2,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 0
+      },
+      "post_calls": 6,
+      "safe": false,
+      "elapsed_ns": 495978600,
+      "baseline": "langgraph",
+      "config": "idem_off",
+      "fault": "late_commit",
+      "seed": 19,
+      "attempts": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 2,
+        "notify": 1
+      },
+      "errors": []
+    },
+    {
+      "workflow": "langgraph-idem_off-revoke_after_reserve-S0",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 0,
+      "stale_rows": 3,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "post_calls": 5,
+      "safe": false,
+      "elapsed_ns": 228316600,
+      "baseline": "langgraph",
+      "config": "idem_off",
+      "fault": "revoke_after_reserve",
+      "seed": 0,
+      "attempts": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "errors": []
+    },
+    {
+      "workflow": "langgraph-idem_off-revoke_after_reserve-S1",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 0,
+      "stale_rows": 3,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "post_calls": 5,
+      "safe": false,
+      "elapsed_ns": 176049800,
+      "baseline": "langgraph",
+      "config": "idem_off",
+      "fault": "revoke_after_reserve",
+      "seed": 1,
+      "attempts": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "errors": []
+    },
+    {
+      "workflow": "langgraph-idem_off-revoke_after_reserve-S2",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 0,
+      "stale_rows": 3,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "post_calls": 5,
+      "safe": false,
+      "elapsed_ns": 174995800,
+      "baseline": "langgraph",
+      "config": "idem_off",
+      "fault": "revoke_after_reserve",
+      "seed": 2,
+      "attempts": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "errors": []
+    },
+    {
+      "workflow": "langgraph-idem_off-revoke_after_reserve-S3",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 0,
+      "stale_rows": 3,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "post_calls": 5,
+      "safe": false,
+      "elapsed_ns": 308467100,
+      "baseline": "langgraph",
+      "config": "idem_off",
+      "fault": "revoke_after_reserve",
+      "seed": 3,
+      "attempts": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "errors": []
+    },
+    {
+      "workflow": "langgraph-idem_off-revoke_after_reserve-S4",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 0,
+      "stale_rows": 3,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "post_calls": 5,
+      "safe": false,
+      "elapsed_ns": 284449000,
+      "baseline": "langgraph",
+      "config": "idem_off",
+      "fault": "revoke_after_reserve",
+      "seed": 4,
+      "attempts": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "errors": []
+    },
+    {
+      "workflow": "langgraph-idem_off-revoke_after_reserve-S5",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 0,
+      "stale_rows": 3,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "post_calls": 5,
+      "safe": false,
+      "elapsed_ns": 321395500,
+      "baseline": "langgraph",
+      "config": "idem_off",
+      "fault": "revoke_after_reserve",
+      "seed": 5,
+      "attempts": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "errors": []
+    },
+    {
+      "workflow": "langgraph-idem_off-revoke_after_reserve-S6",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 0,
+      "stale_rows": 3,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "post_calls": 5,
+      "safe": false,
+      "elapsed_ns": 264453300,
+      "baseline": "langgraph",
+      "config": "idem_off",
+      "fault": "revoke_after_reserve",
+      "seed": 6,
+      "attempts": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "errors": []
+    },
+    {
+      "workflow": "langgraph-idem_off-revoke_after_reserve-S7",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 0,
+      "stale_rows": 3,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "post_calls": 5,
+      "safe": false,
+      "elapsed_ns": 324578200,
+      "baseline": "langgraph",
+      "config": "idem_off",
+      "fault": "revoke_after_reserve",
+      "seed": 7,
+      "attempts": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "errors": []
+    },
+    {
+      "workflow": "langgraph-idem_off-revoke_after_reserve-S8",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 0,
+      "stale_rows": 3,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "post_calls": 5,
+      "safe": false,
+      "elapsed_ns": 254677500,
+      "baseline": "langgraph",
+      "config": "idem_off",
+      "fault": "revoke_after_reserve",
+      "seed": 8,
+      "attempts": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "errors": []
+    },
+    {
+      "workflow": "langgraph-idem_off-revoke_after_reserve-S9",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 0,
+      "stale_rows": 3,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "post_calls": 5,
+      "safe": false,
+      "elapsed_ns": 246203600,
+      "baseline": "langgraph",
+      "config": "idem_off",
+      "fault": "revoke_after_reserve",
+      "seed": 9,
+      "attempts": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "errors": []
+    },
+    {
+      "workflow": "langgraph-idem_off-revoke_after_reserve-S10",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 0,
+      "stale_rows": 3,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "post_calls": 5,
+      "safe": false,
+      "elapsed_ns": 300859800,
+      "baseline": "langgraph",
+      "config": "idem_off",
+      "fault": "revoke_after_reserve",
+      "seed": 10,
+      "attempts": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "errors": []
+    },
+    {
+      "workflow": "langgraph-idem_off-revoke_after_reserve-S11",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 0,
+      "stale_rows": 3,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "post_calls": 5,
+      "safe": false,
+      "elapsed_ns": 251778600,
+      "baseline": "langgraph",
+      "config": "idem_off",
+      "fault": "revoke_after_reserve",
+      "seed": 11,
+      "attempts": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "errors": []
+    },
+    {
+      "workflow": "langgraph-idem_off-revoke_after_reserve-S12",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 0,
+      "stale_rows": 3,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "post_calls": 5,
+      "safe": false,
+      "elapsed_ns": 284029100,
+      "baseline": "langgraph",
+      "config": "idem_off",
+      "fault": "revoke_after_reserve",
+      "seed": 12,
+      "attempts": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "errors": []
+    },
+    {
+      "workflow": "langgraph-idem_off-revoke_after_reserve-S13",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 0,
+      "stale_rows": 3,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "post_calls": 5,
+      "safe": false,
+      "elapsed_ns": 311220200,
+      "baseline": "langgraph",
+      "config": "idem_off",
+      "fault": "revoke_after_reserve",
+      "seed": 13,
+      "attempts": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "errors": []
+    },
+    {
+      "workflow": "langgraph-idem_off-revoke_after_reserve-S14",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 0,
+      "stale_rows": 3,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "post_calls": 5,
+      "safe": false,
+      "elapsed_ns": 251123500,
+      "baseline": "langgraph",
+      "config": "idem_off",
+      "fault": "revoke_after_reserve",
+      "seed": 14,
+      "attempts": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "errors": []
+    },
+    {
+      "workflow": "langgraph-idem_off-revoke_after_reserve-S15",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 0,
+      "stale_rows": 3,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "post_calls": 5,
+      "safe": false,
+      "elapsed_ns": 290052600,
+      "baseline": "langgraph",
+      "config": "idem_off",
+      "fault": "revoke_after_reserve",
+      "seed": 15,
+      "attempts": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "errors": []
+    },
+    {
+      "workflow": "langgraph-idem_off-revoke_after_reserve-S16",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 0,
+      "stale_rows": 3,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "post_calls": 5,
+      "safe": false,
+      "elapsed_ns": 317983300,
+      "baseline": "langgraph",
+      "config": "idem_off",
+      "fault": "revoke_after_reserve",
+      "seed": 16,
+      "attempts": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "errors": []
+    },
+    {
+      "workflow": "langgraph-idem_off-revoke_after_reserve-S17",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 0,
+      "stale_rows": 3,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "post_calls": 5,
+      "safe": false,
+      "elapsed_ns": 349729700,
+      "baseline": "langgraph",
+      "config": "idem_off",
+      "fault": "revoke_after_reserve",
+      "seed": 17,
+      "attempts": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "errors": []
+    },
+    {
+      "workflow": "langgraph-idem_off-revoke_after_reserve-S18",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 0,
+      "stale_rows": 3,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "post_calls": 5,
+      "safe": false,
+      "elapsed_ns": 302807800,
+      "baseline": "langgraph",
+      "config": "idem_off",
+      "fault": "revoke_after_reserve",
+      "seed": 18,
+      "attempts": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "errors": []
+    },
+    {
+      "workflow": "langgraph-idem_off-revoke_after_reserve-S19",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 0,
+      "stale_rows": 3,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "post_calls": 5,
+      "safe": false,
+      "elapsed_ns": 342422500,
+      "baseline": "langgraph",
+      "config": "idem_off",
+      "fault": "revoke_after_reserve",
+      "seed": 19,
+      "attempts": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "errors": []
+    },
+    {
+      "workflow": "langgraph-idem_off-revoke_after_commit-S0",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 0,
+      "stale_rows": 1,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 1
+      },
+      "post_calls": 5,
+      "safe": false,
+      "elapsed_ns": 312863600,
+      "baseline": "langgraph",
+      "config": "idem_off",
+      "fault": "revoke_after_commit",
+      "seed": 0,
+      "attempts": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "errors": []
+    },
+    {
+      "workflow": "langgraph-idem_off-revoke_after_commit-S1",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 0,
+      "stale_rows": 1,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 1
+      },
+      "post_calls": 5,
+      "safe": false,
+      "elapsed_ns": 248271500,
+      "baseline": "langgraph",
+      "config": "idem_off",
+      "fault": "revoke_after_commit",
+      "seed": 1,
+      "attempts": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "errors": []
+    },
+    {
+      "workflow": "langgraph-idem_off-revoke_after_commit-S2",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 0,
+      "stale_rows": 1,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 1
+      },
+      "post_calls": 5,
+      "safe": false,
+      "elapsed_ns": 221702100,
+      "baseline": "langgraph",
+      "config": "idem_off",
+      "fault": "revoke_after_commit",
+      "seed": 2,
+      "attempts": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "errors": []
+    },
+    {
+      "workflow": "langgraph-idem_off-revoke_after_commit-S3",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 0,
+      "stale_rows": 1,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 1
+      },
+      "post_calls": 5,
+      "safe": false,
+      "elapsed_ns": 252192600,
+      "baseline": "langgraph",
+      "config": "idem_off",
+      "fault": "revoke_after_commit",
+      "seed": 3,
+      "attempts": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "errors": []
+    },
+    {
+      "workflow": "langgraph-idem_off-revoke_after_commit-S4",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 0,
+      "stale_rows": 1,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 1
+      },
+      "post_calls": 5,
+      "safe": false,
+      "elapsed_ns": 334997400,
+      "baseline": "langgraph",
+      "config": "idem_off",
+      "fault": "revoke_after_commit",
+      "seed": 4,
+      "attempts": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "errors": []
+    },
+    {
+      "workflow": "langgraph-idem_off-revoke_after_commit-S5",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 0,
+      "stale_rows": 1,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 1
+      },
+      "post_calls": 5,
+      "safe": false,
+      "elapsed_ns": 277037100,
+      "baseline": "langgraph",
+      "config": "idem_off",
+      "fault": "revoke_after_commit",
+      "seed": 5,
+      "attempts": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "errors": []
+    },
+    {
+      "workflow": "langgraph-idem_off-revoke_after_commit-S6",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 0,
+      "stale_rows": 1,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 1
+      },
+      "post_calls": 5,
+      "safe": false,
+      "elapsed_ns": 293877000,
+      "baseline": "langgraph",
+      "config": "idem_off",
+      "fault": "revoke_after_commit",
+      "seed": 6,
+      "attempts": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "errors": []
+    },
+    {
+      "workflow": "langgraph-idem_off-revoke_after_commit-S7",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 0,
+      "stale_rows": 1,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 1
+      },
+      "post_calls": 5,
+      "safe": false,
+      "elapsed_ns": 235081600,
+      "baseline": "langgraph",
+      "config": "idem_off",
+      "fault": "revoke_after_commit",
+      "seed": 7,
+      "attempts": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "errors": []
+    },
+    {
+      "workflow": "langgraph-idem_off-revoke_after_commit-S8",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 0,
+      "stale_rows": 1,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 1
+      },
+      "post_calls": 5,
+      "safe": false,
+      "elapsed_ns": 262097900,
+      "baseline": "langgraph",
+      "config": "idem_off",
+      "fault": "revoke_after_commit",
+      "seed": 8,
+      "attempts": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "errors": []
+    },
+    {
+      "workflow": "langgraph-idem_off-revoke_after_commit-S9",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 0,
+      "stale_rows": 1,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 1
+      },
+      "post_calls": 5,
+      "safe": false,
+      "elapsed_ns": 299010500,
+      "baseline": "langgraph",
+      "config": "idem_off",
+      "fault": "revoke_after_commit",
+      "seed": 9,
+      "attempts": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "errors": []
+    },
+    {
+      "workflow": "langgraph-idem_off-revoke_after_commit-S10",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 0,
+      "stale_rows": 1,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 1
+      },
+      "post_calls": 5,
+      "safe": false,
+      "elapsed_ns": 292040800,
+      "baseline": "langgraph",
+      "config": "idem_off",
+      "fault": "revoke_after_commit",
+      "seed": 10,
+      "attempts": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "errors": []
+    },
+    {
+      "workflow": "langgraph-idem_off-revoke_after_commit-S11",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 0,
+      "stale_rows": 1,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 1
+      },
+      "post_calls": 5,
+      "safe": false,
+      "elapsed_ns": 348799700,
+      "baseline": "langgraph",
+      "config": "idem_off",
+      "fault": "revoke_after_commit",
+      "seed": 11,
+      "attempts": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "errors": []
+    },
+    {
+      "workflow": "langgraph-idem_off-revoke_after_commit-S12",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 0,
+      "stale_rows": 1,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 1
+      },
+      "post_calls": 5,
+      "safe": false,
+      "elapsed_ns": 376565200,
+      "baseline": "langgraph",
+      "config": "idem_off",
+      "fault": "revoke_after_commit",
+      "seed": 12,
+      "attempts": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "errors": []
+    },
+    {
+      "workflow": "langgraph-idem_off-revoke_after_commit-S13",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 0,
+      "stale_rows": 1,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 1
+      },
+      "post_calls": 5,
+      "safe": false,
+      "elapsed_ns": 245393600,
+      "baseline": "langgraph",
+      "config": "idem_off",
+      "fault": "revoke_after_commit",
+      "seed": 13,
+      "attempts": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "errors": []
+    },
+    {
+      "workflow": "langgraph-idem_off-revoke_after_commit-S14",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 0,
+      "stale_rows": 1,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 1
+      },
+      "post_calls": 5,
+      "safe": false,
+      "elapsed_ns": 288375200,
+      "baseline": "langgraph",
+      "config": "idem_off",
+      "fault": "revoke_after_commit",
+      "seed": 14,
+      "attempts": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "errors": []
+    },
+    {
+      "workflow": "langgraph-idem_off-revoke_after_commit-S15",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 0,
+      "stale_rows": 1,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 1
+      },
+      "post_calls": 5,
+      "safe": false,
+      "elapsed_ns": 289413500,
+      "baseline": "langgraph",
+      "config": "idem_off",
+      "fault": "revoke_after_commit",
+      "seed": 15,
+      "attempts": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "errors": []
+    },
+    {
+      "workflow": "langgraph-idem_off-revoke_after_commit-S16",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 0,
+      "stale_rows": 1,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 1
+      },
+      "post_calls": 5,
+      "safe": false,
+      "elapsed_ns": 238118400,
+      "baseline": "langgraph",
+      "config": "idem_off",
+      "fault": "revoke_after_commit",
+      "seed": 16,
+      "attempts": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "errors": []
+    },
+    {
+      "workflow": "langgraph-idem_off-revoke_after_commit-S17",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 0,
+      "stale_rows": 1,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 1
+      },
+      "post_calls": 5,
+      "safe": false,
+      "elapsed_ns": 264554400,
+      "baseline": "langgraph",
+      "config": "idem_off",
+      "fault": "revoke_after_commit",
+      "seed": 17,
+      "attempts": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "errors": []
+    },
+    {
+      "workflow": "langgraph-idem_off-revoke_after_commit-S18",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 0,
+      "stale_rows": 1,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 1
+      },
+      "post_calls": 5,
+      "safe": false,
+      "elapsed_ns": 289404500,
+      "baseline": "langgraph",
+      "config": "idem_off",
+      "fault": "revoke_after_commit",
+      "seed": 18,
+      "attempts": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "errors": []
+    },
+    {
+      "workflow": "langgraph-idem_off-revoke_after_commit-S19",
+      "terminal": "complete",
+      "completed": true,
+      "duplicates": 0,
+      "stale_rows": 1,
+      "orphan": 0,
+      "rows": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "stale": {
+        "create": 0,
+        "reserve": 0,
+        "attach": 0,
+        "commit": 0,
+        "notify": 1
+      },
+      "post_calls": 5,
+      "safe": false,
+      "elapsed_ns": 208190500,
+      "baseline": "langgraph",
+      "config": "idem_off",
+      "fault": "revoke_after_commit",
+      "seed": 19,
+      "attempts": {
+        "create": 1,
+        "reserve": 1,
+        "attach": 1,
+        "commit": 1,
+        "notify": 1
+      },
+      "errors": []
+    }
+  ],
+  "failures": [],
+  "retry_policy": {
+    "max_attempts": 2,
+    "initial_interval_ms": 10,
+    "backoff_factor": 1.0,
+    "jitter": false,
+    "retry_on": [
+      "ConnectionError",
+      "TimeoutError"
+    ]
+  }
+}
