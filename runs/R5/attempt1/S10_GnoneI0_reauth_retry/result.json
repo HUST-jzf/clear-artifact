@@ -1,0 +1,42 @@
+{
+  "case": "GnoneI0",
+  "policy": "reauth_retry",
+  "seed": 10,
+  "terminal": "not_complete",
+  "rows": 2,
+  "effects": [
+    {
+      "record_id": 1,
+      "controller": "c1",
+      "allowed": true,
+      "revision": 1
+    },
+    {
+      "record_id": 2,
+      "controller": "c2",
+      "allowed": true,
+      "revision": 1
+    }
+  ],
+  "controllers": [
+    {
+      "controller": "c1",
+      "outcome": "inserted"
+    },
+    {
+      "controller": "c2",
+      "outcome": "inserted"
+    }
+  ],
+  "permit": {
+    "allowed": true,
+    "revision": 1
+  },
+  "duplicate": true,
+  "stale_new": 0,
+  "aborted": 0,
+  "errors": [],
+  "operation_id": "S10_GnoneI0_reauth_retry",
+  "intent": "b08eba3e14a83a0a5f629dc64d6276562609b69841222cfe77b8f88f04a55170",
+  "elapsed_ns": 91316400
+}
