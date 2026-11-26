@@ -1,0 +1,302 @@
+{
+  "policy": "clear",
+  "context": {
+    "operation_id": "S3_crash_before_commit_clear",
+    "intent": "03aef85917ac2c869c5d99c33c9c9a4cd9cbb62e6f0a9a6f6e35be0f2fa7b8fc",
+    "generation": 1
+  },
+  "origin": {
+    "context": {
+      "operation_id": "S3_crash_before_commit_clear",
+      "intent": "03aef85917ac2c869c5d99c33c9c9a4cd9cbb62e6f0a9a6f6e35be0f2fa7b8fc",
+      "generation": 1
+    },
+    "manifest": {
+      "adapter": "local_subprocess_json",
+      "version": "r11",
+      "python": "3.13.2",
+      "worker_sha256": "e66a82c9a6f893db8c04829ab0f28a4bb2b91c1b3c275d0fa9b388a6da39d9fc",
+      "route_sha256": "d4ef9abe7bfc1327093546ff3367ab6de3b58ed8c801e7203ec86a1632dfb1a0"
+    },
+    "namespace": "effects"
+  },
+  "initial_observations": [
+    {
+      "action": "append",
+      "phase": "initial",
+      "attempt": 1,
+      "outcome": "lost_return",
+      "timeout": 0.062
+    }
+  ],
+  "terminal": "pause",
+  "reason": "budget_exhausted",
+  "events": [
+    {
+      "seq": 0,
+      "context": {
+        "operation_id": "S3_crash_before_commit_clear",
+        "intent": "03aef85917ac2c869c5d99c33c9c9a4cd9cbb62e6f0a9a6f6e35be0f2fa7b8fc",
+        "generation": 1
+      },
+      "manifest": "db4143e9bfb5f62af914ce22277a20390821a8822b8619742522ff9287c0b778",
+      "action": "wait",
+      "body": {
+        "error": "unknown_attempt",
+        "attempt": 1
+      }
+    },
+    {
+      "seq": 1,
+      "context": {
+        "operation_id": "S3_crash_before_commit_clear",
+        "intent": "03aef85917ac2c869c5d99c33c9c9a4cd9cbb62e6f0a9a6f6e35be0f2fa7b8fc",
+        "generation": 1
+      },
+      "manifest": "db4143e9bfb5f62af914ce22277a20390821a8822b8619742522ff9287c0b778",
+      "action": "query",
+      "body": {
+        "state": "not_committed",
+        "complete": true,
+        "effect_namespace": "effects",
+        "operation_id": "S3_crash_before_commit_clear",
+        "intent": "03aef85917ac2c869c5d99c33c9c9a4cd9cbb62e6f0a9a6f6e35be0f2fa7b8fc",
+        "generation": 1,
+        "rows": []
+      }
+    },
+    {
+      "seq": 2,
+      "context": {
+        "operation_id": "S3_crash_before_commit_clear",
+        "intent": "03aef85917ac2c869c5d99c33c9c9a4cd9cbb62e6f0a9a6f6e35be0f2fa7b8fc",
+        "generation": 1
+      },
+      "manifest": "db4143e9bfb5f62af914ce22277a20390821a8822b8619742522ff9287c0b778",
+      "action": "wait",
+      "body": {
+        "error": "unknown_attempt",
+        "attempt": 1
+      }
+    },
+    {
+      "seq": 3,
+      "context": {
+        "operation_id": "S3_crash_before_commit_clear",
+        "intent": "03aef85917ac2c869c5d99c33c9c9a4cd9cbb62e6f0a9a6f6e35be0f2fa7b8fc",
+        "generation": 1
+      },
+      "manifest": "db4143e9bfb5f62af914ce22277a20390821a8822b8619742522ff9287c0b778",
+      "action": "query",
+      "body": {
+        "state": "not_committed",
+        "complete": true,
+        "effect_namespace": "effects",
+        "operation_id": "S3_crash_before_commit_clear",
+        "intent": "03aef85917ac2c869c5d99c33c9c9a4cd9cbb62e6f0a9a6f6e35be0f2fa7b8fc",
+        "generation": 1,
+        "rows": []
+      }
+    }
+  ],
+  "steps": [
+    {
+      "observation_count": 0,
+      "manifest": {
+        "adapter": "local_subprocess_json",
+        "version": "r11",
+        "python": "3.13.2",
+        "worker_sha256": "e66a82c9a6f893db8c04829ab0f28a4bb2b91c1b3c275d0fa9b388a6da39d9fc",
+        "route_sha256": "9d7e022064a9ed3edceb9988d028e08307909542de5788feb5f459b2ffb7d20e"
+      },
+      "qualification": {
+        "valid": true,
+        "manifest": {
+          "adapter": "local_subprocess_json",
+          "version": "r11",
+          "python": "3.13.2",
+          "worker_sha256": "e66a82c9a6f893db8c04829ab0f28a4bb2b91c1b3c275d0fa9b388a6da39d9fc",
+          "route_sha256": "d4ef9abe7bfc1327093546ff3367ab6de3b58ed8c801e7203ec86a1632dfb1a0"
+        },
+        "checks": {
+          "adapter": true,
+          "version": true,
+          "python": true,
+          "framework": true,
+          "worker_sha256": true,
+          "host_sha256": true,
+          "observer_sha256": true,
+          "known_route": true,
+          "closed_registration": true,
+          "approval_allowed": true,
+          "same_effect_destination": true
+        },
+        "changed_dependencies": []
+      },
+      "decision": {
+        "action": "wait",
+        "reason": "observe_original_lifecycle",
+        "support": []
+      }
+    },
+    {
+      "observation_count": 1,
+      "manifest": {
+        "adapter": "local_subprocess_json",
+        "version": "r11",
+        "python": "3.13.2",
+        "worker_sha256": "e66a82c9a6f893db8c04829ab0f28a4bb2b91c1b3c275d0fa9b388a6da39d9fc",
+        "route_sha256": "9d7e022064a9ed3edceb9988d028e08307909542de5788feb5f459b2ffb7d20e"
+      },
+      "qualification": {
+        "valid": true,
+        "manifest": {
+          "adapter": "local_subprocess_json",
+          "version": "r11",
+          "python": "3.13.2",
+          "worker_sha256": "e66a82c9a6f893db8c04829ab0f28a4bb2b91c1b3c275d0fa9b388a6da39d9fc",
+          "route_sha256": "d4ef9abe7bfc1327093546ff3367ab6de3b58ed8c801e7203ec86a1632dfb1a0"
+        },
+        "checks": {
+          "adapter": true,
+          "version": true,
+          "python": true,
+          "framework": true,
+          "worker_sha256": true,
+          "host_sha256": true,
+          "observer_sha256": true,
+          "known_route": true,
+          "closed_registration": true,
+          "approval_allowed": true,
+          "same_effect_destination": true
+        },
+        "changed_dependencies": []
+      },
+      "decision": {
+        "action": "query",
+        "reason": "check_original_effect_while_pending",
+        "support": []
+      }
+    },
+    {
+      "observation_count": 2,
+      "manifest": {
+        "adapter": "local_subprocess_json",
+        "version": "r11",
+        "python": "3.13.2",
+        "worker_sha256": "e66a82c9a6f893db8c04829ab0f28a4bb2b91c1b3c275d0fa9b388a6da39d9fc",
+        "route_sha256": "9d7e022064a9ed3edceb9988d028e08307909542de5788feb5f459b2ffb7d20e"
+      },
+      "qualification": {
+        "valid": true,
+        "manifest": {
+          "adapter": "local_subprocess_json",
+          "version": "r11",
+          "python": "3.13.2",
+          "worker_sha256": "e66a82c9a6f893db8c04829ab0f28a4bb2b91c1b3c275d0fa9b388a6da39d9fc",
+          "route_sha256": "d4ef9abe7bfc1327093546ff3367ab6de3b58ed8c801e7203ec86a1632dfb1a0"
+        },
+        "checks": {
+          "adapter": true,
+          "version": true,
+          "python": true,
+          "framework": true,
+          "worker_sha256": true,
+          "host_sha256": true,
+          "observer_sha256": true,
+          "known_route": true,
+          "closed_registration": true,
+          "approval_allowed": true,
+          "same_effect_destination": true
+        },
+        "changed_dependencies": []
+      },
+      "decision": {
+        "action": "wait",
+        "reason": "observe_original_lifecycle",
+        "support": []
+      }
+    },
+    {
+      "observation_count": 3,
+      "manifest": {
+        "adapter": "local_subprocess_json",
+        "version": "r11",
+        "python": "3.13.2",
+        "worker_sha256": "e66a82c9a6f893db8c04829ab0f28a4bb2b91c1b3c275d0fa9b388a6da39d9fc",
+        "route_sha256": "9d7e022064a9ed3edceb9988d028e08307909542de5788feb5f459b2ffb7d20e"
+      },
+      "qualification": {
+        "valid": true,
+        "manifest": {
+          "adapter": "local_subprocess_json",
+          "version": "r11",
+          "python": "3.13.2",
+          "worker_sha256": "e66a82c9a6f893db8c04829ab0f28a4bb2b91c1b3c275d0fa9b388a6da39d9fc",
+          "route_sha256": "d4ef9abe7bfc1327093546ff3367ab6de3b58ed8c801e7203ec86a1632dfb1a0"
+        },
+        "checks": {
+          "adapter": true,
+          "version": true,
+          "python": true,
+          "framework": true,
+          "worker_sha256": true,
+          "host_sha256": true,
+          "observer_sha256": true,
+          "known_route": true,
+          "closed_registration": true,
+          "approval_allowed": true,
+          "same_effect_destination": true
+        },
+        "changed_dependencies": []
+      },
+      "decision": {
+        "action": "query",
+        "reason": "check_original_effect_while_pending",
+        "support": []
+      }
+    },
+    {
+      "observation_count": 4,
+      "manifest": {
+        "adapter": "local_subprocess_json",
+        "version": "r11",
+        "python": "3.13.2",
+        "worker_sha256": "e66a82c9a6f893db8c04829ab0f28a4bb2b91c1b3c275d0fa9b388a6da39d9fc",
+        "route_sha256": "9d7e022064a9ed3edceb9988d028e08307909542de5788feb5f459b2ffb7d20e"
+      },
+      "qualification": {
+        "valid": true,
+        "manifest": {
+          "adapter": "local_subprocess_json",
+          "version": "r11",
+          "python": "3.13.2",
+          "worker_sha256": "e66a82c9a6f893db8c04829ab0f28a4bb2b91c1b3c275d0fa9b388a6da39d9fc",
+          "route_sha256": "d4ef9abe7bfc1327093546ff3367ab6de3b58ed8c801e7203ec86a1632dfb1a0"
+        },
+        "checks": {
+          "adapter": true,
+          "version": true,
+          "python": true,
+          "framework": true,
+          "worker_sha256": true,
+          "host_sha256": true,
+          "observer_sha256": true,
+          "known_route": true,
+          "closed_registration": true,
+          "approval_allowed": true,
+          "same_effect_destination": true
+        },
+        "changed_dependencies": []
+      },
+      "decision": {
+        "action": "pause",
+        "reason": "budget_exhausted",
+        "support": []
+      }
+    }
+  ],
+  "case": "crash_before_commit",
+  "seed": 3,
+  "elapsed_ns": 326994200
+}
