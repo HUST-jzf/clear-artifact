@@ -1,0 +1,1230 @@
+{
+  "files": {
+    "scripts/run_r1.py": "38f3ee58cbd2490050881f4ec9a976cd3ef88464bfd49d8ae5ba77fbcfa1c303",
+    "scripts/r1_native.py": "3e93f2e1b51cb71beb296965e08d2883992c7b2a8720569476242e6dad9356d9",
+    "scripts/r1_server.py": "1a23764d01b00dbb29559783bc63f655bd454e3eed0bee7cf0737ac690613882",
+    "scripts/r1_policies.py": "09664043a3e4ed3f2765f645fcea5587c2f6dfc6a336eea8e3c65e9c9393531f",
+    "scripts/verify_r1.py": "1c1cf003fc7f9dcc0bdf384e5d6b5fe317d7407de0f0eafc3f1108f095da8a33",
+    "docs/R1_capability_space_preregistration.md": "6580b9e39c8851f1548e6dd72075b074a2574a993a4d5dadce333a29c387e275"
+  },
+  "cases": [
+    {
+      "id": "I0Q0C0GnoneFfail",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "fail",
+        "delayed": false,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": false,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": false,
+        "query_complete": false
+      },
+      "patch": null,
+      "factors": {
+        "idempotency": 0,
+        "query_complete": 0,
+        "closure": 0,
+        "change": "none",
+        "fault": "fail"
+      }
+    },
+    {
+      "id": "I0Q0C0GnoneFlost",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "commit",
+        "delayed": false,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": false,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": false,
+        "query_complete": false
+      },
+      "patch": null,
+      "factors": {
+        "idempotency": 0,
+        "query_complete": 0,
+        "closure": 0,
+        "change": "none",
+        "fault": "lost"
+      }
+    },
+    {
+      "id": "I0Q0C0GnoneFlate",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "commit",
+        "delayed": true,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": false,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": false,
+        "query_complete": false
+      },
+      "patch": null,
+      "factors": {
+        "idempotency": 0,
+        "query_complete": 0,
+        "closure": 0,
+        "change": "none",
+        "fault": "late"
+      }
+    },
+    {
+      "id": "I0Q0C0GrevokeFfail",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "fail",
+        "delayed": false,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": false,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": false,
+        "query_complete": false
+      },
+      "patch": {
+        "allowed": false
+      },
+      "factors": {
+        "idempotency": 0,
+        "query_complete": 0,
+        "closure": 0,
+        "change": "revoke",
+        "fault": "fail"
+      }
+    },
+    {
+      "id": "I0Q0C0GrevokeFlost",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "commit",
+        "delayed": false,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": false,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": false,
+        "query_complete": false
+      },
+      "patch": {
+        "allowed": false
+      },
+      "factors": {
+        "idempotency": 0,
+        "query_complete": 0,
+        "closure": 0,
+        "change": "revoke",
+        "fault": "lost"
+      }
+    },
+    {
+      "id": "I0Q0C0GrevokeFlate",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "commit",
+        "delayed": true,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": false,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": false,
+        "query_complete": false
+      },
+      "patch": {
+        "allowed": false
+      },
+      "factors": {
+        "idempotency": 0,
+        "query_complete": 0,
+        "closure": 0,
+        "change": "revoke",
+        "fault": "late"
+      }
+    },
+    {
+      "id": "I0Q0C1GnoneFfail",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "fail",
+        "delayed": false,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": true,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": false,
+        "query_complete": false
+      },
+      "patch": null,
+      "factors": {
+        "idempotency": 0,
+        "query_complete": 0,
+        "closure": 1,
+        "change": "none",
+        "fault": "fail"
+      }
+    },
+    {
+      "id": "I0Q0C1GnoneFlost",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "commit",
+        "delayed": false,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": true,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": false,
+        "query_complete": false
+      },
+      "patch": null,
+      "factors": {
+        "idempotency": 0,
+        "query_complete": 0,
+        "closure": 1,
+        "change": "none",
+        "fault": "lost"
+      }
+    },
+    {
+      "id": "I0Q0C1GnoneFlate",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "commit",
+        "delayed": true,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": true,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": false,
+        "query_complete": false
+      },
+      "patch": null,
+      "factors": {
+        "idempotency": 0,
+        "query_complete": 0,
+        "closure": 1,
+        "change": "none",
+        "fault": "late"
+      }
+    },
+    {
+      "id": "I0Q0C1GrevokeFfail",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "fail",
+        "delayed": false,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": true,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": false,
+        "query_complete": false
+      },
+      "patch": {
+        "allowed": false
+      },
+      "factors": {
+        "idempotency": 0,
+        "query_complete": 0,
+        "closure": 1,
+        "change": "revoke",
+        "fault": "fail"
+      }
+    },
+    {
+      "id": "I0Q0C1GrevokeFlost",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "commit",
+        "delayed": false,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": true,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": false,
+        "query_complete": false
+      },
+      "patch": {
+        "allowed": false
+      },
+      "factors": {
+        "idempotency": 0,
+        "query_complete": 0,
+        "closure": 1,
+        "change": "revoke",
+        "fault": "lost"
+      }
+    },
+    {
+      "id": "I0Q0C1GrevokeFlate",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "commit",
+        "delayed": true,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": true,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": false,
+        "query_complete": false
+      },
+      "patch": {
+        "allowed": false
+      },
+      "factors": {
+        "idempotency": 0,
+        "query_complete": 0,
+        "closure": 1,
+        "change": "revoke",
+        "fault": "late"
+      }
+    },
+    {
+      "id": "I0Q1C0GnoneFfail",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "fail",
+        "delayed": false,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": false,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": false,
+        "query_complete": true
+      },
+      "patch": null,
+      "factors": {
+        "idempotency": 0,
+        "query_complete": 1,
+        "closure": 0,
+        "change": "none",
+        "fault": "fail"
+      }
+    },
+    {
+      "id": "I0Q1C0GnoneFlost",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "commit",
+        "delayed": false,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": false,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": false,
+        "query_complete": true
+      },
+      "patch": null,
+      "factors": {
+        "idempotency": 0,
+        "query_complete": 1,
+        "closure": 0,
+        "change": "none",
+        "fault": "lost"
+      }
+    },
+    {
+      "id": "I0Q1C0GnoneFlate",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "commit",
+        "delayed": true,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": false,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": false,
+        "query_complete": true
+      },
+      "patch": null,
+      "factors": {
+        "idempotency": 0,
+        "query_complete": 1,
+        "closure": 0,
+        "change": "none",
+        "fault": "late"
+      }
+    },
+    {
+      "id": "I0Q1C0GrevokeFfail",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "fail",
+        "delayed": false,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": false,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": false,
+        "query_complete": true
+      },
+      "patch": {
+        "allowed": false
+      },
+      "factors": {
+        "idempotency": 0,
+        "query_complete": 1,
+        "closure": 0,
+        "change": "revoke",
+        "fault": "fail"
+      }
+    },
+    {
+      "id": "I0Q1C0GrevokeFlost",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "commit",
+        "delayed": false,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": false,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": false,
+        "query_complete": true
+      },
+      "patch": {
+        "allowed": false
+      },
+      "factors": {
+        "idempotency": 0,
+        "query_complete": 1,
+        "closure": 0,
+        "change": "revoke",
+        "fault": "lost"
+      }
+    },
+    {
+      "id": "I0Q1C0GrevokeFlate",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "commit",
+        "delayed": true,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": false,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": false,
+        "query_complete": true
+      },
+      "patch": {
+        "allowed": false
+      },
+      "factors": {
+        "idempotency": 0,
+        "query_complete": 1,
+        "closure": 0,
+        "change": "revoke",
+        "fault": "late"
+      }
+    },
+    {
+      "id": "I0Q1C1GnoneFfail",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "fail",
+        "delayed": false,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": true,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": false,
+        "query_complete": true
+      },
+      "patch": null,
+      "factors": {
+        "idempotency": 0,
+        "query_complete": 1,
+        "closure": 1,
+        "change": "none",
+        "fault": "fail"
+      }
+    },
+    {
+      "id": "I0Q1C1GnoneFlost",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "commit",
+        "delayed": false,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": true,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": false,
+        "query_complete": true
+      },
+      "patch": null,
+      "factors": {
+        "idempotency": 0,
+        "query_complete": 1,
+        "closure": 1,
+        "change": "none",
+        "fault": "lost"
+      }
+    },
+    {
+      "id": "I0Q1C1GnoneFlate",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "commit",
+        "delayed": true,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": true,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": false,
+        "query_complete": true
+      },
+      "patch": null,
+      "factors": {
+        "idempotency": 0,
+        "query_complete": 1,
+        "closure": 1,
+        "change": "none",
+        "fault": "late"
+      }
+    },
+    {
+      "id": "I0Q1C1GrevokeFfail",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "fail",
+        "delayed": false,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": true,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": false,
+        "query_complete": true
+      },
+      "patch": {
+        "allowed": false
+      },
+      "factors": {
+        "idempotency": 0,
+        "query_complete": 1,
+        "closure": 1,
+        "change": "revoke",
+        "fault": "fail"
+      }
+    },
+    {
+      "id": "I0Q1C1GrevokeFlost",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "commit",
+        "delayed": false,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": true,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": false,
+        "query_complete": true
+      },
+      "patch": {
+        "allowed": false
+      },
+      "factors": {
+        "idempotency": 0,
+        "query_complete": 1,
+        "closure": 1,
+        "change": "revoke",
+        "fault": "lost"
+      }
+    },
+    {
+      "id": "I0Q1C1GrevokeFlate",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "commit",
+        "delayed": true,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": true,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": false,
+        "query_complete": true
+      },
+      "patch": {
+        "allowed": false
+      },
+      "factors": {
+        "idempotency": 0,
+        "query_complete": 1,
+        "closure": 1,
+        "change": "revoke",
+        "fault": "late"
+      }
+    },
+    {
+      "id": "I1Q0C0GnoneFfail",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "fail",
+        "delayed": false,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": false,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": true,
+        "query_complete": false
+      },
+      "patch": null,
+      "factors": {
+        "idempotency": 1,
+        "query_complete": 0,
+        "closure": 0,
+        "change": "none",
+        "fault": "fail"
+      }
+    },
+    {
+      "id": "I1Q0C0GnoneFlost",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "commit",
+        "delayed": false,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": false,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": true,
+        "query_complete": false
+      },
+      "patch": null,
+      "factors": {
+        "idempotency": 1,
+        "query_complete": 0,
+        "closure": 0,
+        "change": "none",
+        "fault": "lost"
+      }
+    },
+    {
+      "id": "I1Q0C0GnoneFlate",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "commit",
+        "delayed": true,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": false,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": true,
+        "query_complete": false
+      },
+      "patch": null,
+      "factors": {
+        "idempotency": 1,
+        "query_complete": 0,
+        "closure": 0,
+        "change": "none",
+        "fault": "late"
+      }
+    },
+    {
+      "id": "I1Q0C0GrevokeFfail",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "fail",
+        "delayed": false,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": false,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": true,
+        "query_complete": false
+      },
+      "patch": {
+        "allowed": false
+      },
+      "factors": {
+        "idempotency": 1,
+        "query_complete": 0,
+        "closure": 0,
+        "change": "revoke",
+        "fault": "fail"
+      }
+    },
+    {
+      "id": "I1Q0C0GrevokeFlost",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "commit",
+        "delayed": false,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": false,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": true,
+        "query_complete": false
+      },
+      "patch": {
+        "allowed": false
+      },
+      "factors": {
+        "idempotency": 1,
+        "query_complete": 0,
+        "closure": 0,
+        "change": "revoke",
+        "fault": "lost"
+      }
+    },
+    {
+      "id": "I1Q0C0GrevokeFlate",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "commit",
+        "delayed": true,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": false,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": true,
+        "query_complete": false
+      },
+      "patch": {
+        "allowed": false
+      },
+      "factors": {
+        "idempotency": 1,
+        "query_complete": 0,
+        "closure": 0,
+        "change": "revoke",
+        "fault": "late"
+      }
+    },
+    {
+      "id": "I1Q0C1GnoneFfail",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "fail",
+        "delayed": false,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": true,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": true,
+        "query_complete": false
+      },
+      "patch": null,
+      "factors": {
+        "idempotency": 1,
+        "query_complete": 0,
+        "closure": 1,
+        "change": "none",
+        "fault": "fail"
+      }
+    },
+    {
+      "id": "I1Q0C1GnoneFlost",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "commit",
+        "delayed": false,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": true,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": true,
+        "query_complete": false
+      },
+      "patch": null,
+      "factors": {
+        "idempotency": 1,
+        "query_complete": 0,
+        "closure": 1,
+        "change": "none",
+        "fault": "lost"
+      }
+    },
+    {
+      "id": "I1Q0C1GnoneFlate",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "commit",
+        "delayed": true,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": true,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": true,
+        "query_complete": false
+      },
+      "patch": null,
+      "factors": {
+        "idempotency": 1,
+        "query_complete": 0,
+        "closure": 1,
+        "change": "none",
+        "fault": "late"
+      }
+    },
+    {
+      "id": "I1Q0C1GrevokeFfail",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "fail",
+        "delayed": false,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": true,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": true,
+        "query_complete": false
+      },
+      "patch": {
+        "allowed": false
+      },
+      "factors": {
+        "idempotency": 1,
+        "query_complete": 0,
+        "closure": 1,
+        "change": "revoke",
+        "fault": "fail"
+      }
+    },
+    {
+      "id": "I1Q0C1GrevokeFlost",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "commit",
+        "delayed": false,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": true,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": true,
+        "query_complete": false
+      },
+      "patch": {
+        "allowed": false
+      },
+      "factors": {
+        "idempotency": 1,
+        "query_complete": 0,
+        "closure": 1,
+        "change": "revoke",
+        "fault": "lost"
+      }
+    },
+    {
+      "id": "I1Q0C1GrevokeFlate",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "commit",
+        "delayed": true,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": true,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": true,
+        "query_complete": false
+      },
+      "patch": {
+        "allowed": false
+      },
+      "factors": {
+        "idempotency": 1,
+        "query_complete": 0,
+        "closure": 1,
+        "change": "revoke",
+        "fault": "late"
+      }
+    },
+    {
+      "id": "I1Q1C0GnoneFfail",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "fail",
+        "delayed": false,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": false,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": true,
+        "query_complete": true
+      },
+      "patch": null,
+      "factors": {
+        "idempotency": 1,
+        "query_complete": 1,
+        "closure": 0,
+        "change": "none",
+        "fault": "fail"
+      }
+    },
+    {
+      "id": "I1Q1C0GnoneFlost",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "commit",
+        "delayed": false,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": false,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": true,
+        "query_complete": true
+      },
+      "patch": null,
+      "factors": {
+        "idempotency": 1,
+        "query_complete": 1,
+        "closure": 0,
+        "change": "none",
+        "fault": "lost"
+      }
+    },
+    {
+      "id": "I1Q1C0GnoneFlate",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "commit",
+        "delayed": true,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": false,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": true,
+        "query_complete": true
+      },
+      "patch": null,
+      "factors": {
+        "idempotency": 1,
+        "query_complete": 1,
+        "closure": 0,
+        "change": "none",
+        "fault": "late"
+      }
+    },
+    {
+      "id": "I1Q1C0GrevokeFfail",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "fail",
+        "delayed": false,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": false,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": true,
+        "query_complete": true
+      },
+      "patch": {
+        "allowed": false
+      },
+      "factors": {
+        "idempotency": 1,
+        "query_complete": 1,
+        "closure": 0,
+        "change": "revoke",
+        "fault": "fail"
+      }
+    },
+    {
+      "id": "I1Q1C0GrevokeFlost",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "commit",
+        "delayed": false,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": false,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": true,
+        "query_complete": true
+      },
+      "patch": {
+        "allowed": false
+      },
+      "factors": {
+        "idempotency": 1,
+        "query_complete": 1,
+        "closure": 0,
+        "change": "revoke",
+        "fault": "lost"
+      }
+    },
+    {
+      "id": "I1Q1C0GrevokeFlate",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "commit",
+        "delayed": true,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": false,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": true,
+        "query_complete": true
+      },
+      "patch": {
+        "allowed": false
+      },
+      "factors": {
+        "idempotency": 1,
+        "query_complete": 1,
+        "closure": 0,
+        "change": "revoke",
+        "fault": "late"
+      }
+    },
+    {
+      "id": "I1Q1C1GnoneFfail",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "fail",
+        "delayed": false,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": true,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": true,
+        "query_complete": true
+      },
+      "patch": null,
+      "factors": {
+        "idempotency": 1,
+        "query_complete": 1,
+        "closure": 1,
+        "change": "none",
+        "fault": "fail"
+      }
+    },
+    {
+      "id": "I1Q1C1GnoneFlost",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "commit",
+        "delayed": false,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": true,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": true,
+        "query_complete": true
+      },
+      "patch": null,
+      "factors": {
+        "idempotency": 1,
+        "query_complete": 1,
+        "closure": 1,
+        "change": "none",
+        "fault": "lost"
+      }
+    },
+    {
+      "id": "I1Q1C1GnoneFlate",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "commit",
+        "delayed": true,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": true,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": true,
+        "query_complete": true
+      },
+      "patch": null,
+      "factors": {
+        "idempotency": 1,
+        "query_complete": 1,
+        "closure": 1,
+        "change": "none",
+        "fault": "late"
+      }
+    },
+    {
+      "id": "I1Q1C1GrevokeFfail",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "fail",
+        "delayed": false,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": true,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": true,
+        "query_complete": true
+      },
+      "patch": {
+        "allowed": false
+      },
+      "factors": {
+        "idempotency": 1,
+        "query_complete": 1,
+        "closure": 1,
+        "change": "revoke",
+        "fault": "fail"
+      }
+    },
+    {
+      "id": "I1Q1C1GrevokeFlost",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "commit",
+        "delayed": false,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": true,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": true,
+        "query_complete": true
+      },
+      "patch": {
+        "allowed": false
+      },
+      "factors": {
+        "idempotency": 1,
+        "query_complete": 1,
+        "closure": 1,
+        "change": "revoke",
+        "fault": "lost"
+      }
+    },
+    {
+      "id": "I1Q1C1GrevokeFlate",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "commit",
+        "delayed": true,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": true,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": true,
+        "query_complete": true
+      },
+      "patch": {
+        "allowed": false
+      },
+      "factors": {
+        "idempotency": 1,
+        "query_complete": 1,
+        "closure": 1,
+        "change": "revoke",
+        "fault": "late"
+      }
+    }
+  ],
+  "policies": [
+    "clear",
+    "idem_retry",
+    "query_retry",
+    "reauth_retry",
+    "pause"
+  ],
+  "seeds": [
+    8
+  ],
+  "budget": 4,
+  "initial_timeout_s": 0.058,
+  "wait_window_s": 0.146,
+  "late_gate_s": 0.086,
+  "target_calls_before_freeze": 0,
+  "python": "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R1\\env\\Scripts\\python.exe",
+  "python_version": "3.13.2",
+  "created_ns": 1792565645192846300
+}
