@@ -1,0 +1,27 @@
+{
+  "case": "revoke",
+  "policy": "clear",
+  "repetition": 17,
+  "terminal": "pause",
+  "reason": "budget_exhausted",
+  "control_ns": 15075300,
+  "timings": {
+    "active_ns": 14350400,
+    "wait_ns": 343600,
+    "drain_ns": 1004200
+  },
+  "counts": {
+    "describe": 5,
+    "active": 7,
+    "refresh": 5,
+    "status": 2,
+    "wait": 4,
+    "effects": 2,
+    "query": 2
+  },
+  "actions": 4,
+  "rows": 0,
+  "duplicate": false,
+  "stale_new": 0,
+  "safe": false
+}
