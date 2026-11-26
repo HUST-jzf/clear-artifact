@@ -1,0 +1,7 @@
+{
+  "base_url": "http://127.0.0.1:58568",
+  "pid": 43300,
+  "returncode": 0,
+  "concurrency": 8,
+  "idempotency": "off"
+}
