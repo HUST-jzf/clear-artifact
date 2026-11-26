@@ -1,0 +1,65 @@
+{
+  "invocations": {
+    "1": {
+      "attempt": 1,
+      "terminal": true,
+      "receipt": {
+        "state": "committed",
+        "record_id": 1,
+        "operation_id": "I1Q1C0GrevokeFlate_reauth_retry",
+        "intent": "38d7c6e9ee9f1c1d8b7b1dbd24382d424982ce51486f3c87cf7e76b662aa298e",
+        "generation": 1,
+        "effect_namespace": "effects",
+        "attempt": 1,
+        "deduplicated": true
+      },
+      "error": null,
+      "done": null,
+      "started_ns": 18424301281000
+    },
+    "2": {
+      "attempt": 2,
+      "terminal": true,
+      "receipt": {
+        "state": "committed",
+        "record_id": 1,
+        "operation_id": "I1Q1C0GrevokeFlate_reauth_retry",
+        "intent": "38d7c6e9ee9f1c1d8b7b1dbd24382d424982ce51486f3c87cf7e76b662aa298e",
+        "generation": 1,
+        "effect_namespace": "effects",
+        "attempt": 2
+      },
+      "error": null,
+      "done": null,
+      "started_ns": 18424368853500
+    }
+  },
+  "writes": [
+    {
+      "attempt": 2,
+      "record_id": 1,
+      "allowed": true,
+      "at_ns": 18424371152000
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "allowed": true,
+      "at_ns": 18424301282600
+    },
+    {
+      "attempt": 2,
+      "allowed": true,
+      "at_ns": 18424368855400
+    }
+  ],
+  "reauth": [
+    {
+      "operation_id": "I1Q1C0GrevokeFlate_reauth_retry",
+      "intent": "38d7c6e9ee9f1c1d8b7b1dbd24382d424982ce51486f3c87cf7e76b662aa298e",
+      "revision": 3,
+      "at_ns": 18424367056500
+    }
+  ]
+}
