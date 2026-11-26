@@ -1,0 +1,91 @@
+{
+  "condition": "revoke_race",
+  "policy": "clear",
+  "seed": 11,
+  "workflow": "revoke_race_clear_S11",
+  "terminal": "pause",
+  "reason": "atomic_admission_rejected",
+  "events": [
+    {
+      "seq": 0,
+      "context": {
+        "operation_id": "revoke_race_clear_S11:attach",
+        "intent": "ticket:attach",
+        "generation": 1
+      },
+      "action": "wait",
+      "body": {
+        "root": "revoke_race_clear_S11:attach",
+        "op": "revoke_race_clear_S11:attach",
+        "step": "attach",
+        "terminal": true,
+        "receipt": null,
+        "state": "unknown",
+        "complete": true,
+        "registration_complete": true,
+        "effect_namespace": "effects",
+        "members": [
+          {
+            "handle": "revoke_race_clear_S11:attach",
+            "parent": null,
+            "terminal": true,
+            "receipt": null
+          }
+        ],
+        "launch_manifest": "738e53cb953ea6a4edc2b00dbf39b6f73faa43083c11df5906fcb9f1ac395cca"
+      }
+    },
+    {
+      "seq": 1,
+      "context": {
+        "operation_id": "revoke_race_clear_S11:attach",
+        "intent": "ticket:attach",
+        "generation": 1
+      },
+      "action": "query",
+      "body": {
+        "root": "revoke_race_clear_S11:attach",
+        "op": "revoke_race_clear_S11:attach",
+        "state": "not_committed",
+        "complete": true,
+        "effect_namespace": "effects",
+        "rows": []
+      }
+    },
+    {
+      "seq": 2,
+      "context": {
+        "operation_id": "revoke_race_clear_S11:attach",
+        "intent": "ticket:attach",
+        "generation": 1
+      },
+      "action": "retry",
+      "body": {
+        "state": "stale_qualification",
+        "op": "revoke_race_clear_S11:attach",
+        "step": "attach",
+        "allowed": false,
+        "epoch": 2
+      }
+    }
+  ],
+  "rows": {
+    "create": 1,
+    "reserve": 1,
+    "attach": 0,
+    "commit": 0,
+    "notify": 0
+  },
+  "stale": {
+    "create": 0,
+    "reserve": 0,
+    "attach": 0,
+    "commit": 0,
+    "notify": 0
+  },
+  "duplicates": 0,
+  "completed": false,
+  "safe": false,
+  "writes": 0,
+  "elapsed_ns": 572494100
+}
