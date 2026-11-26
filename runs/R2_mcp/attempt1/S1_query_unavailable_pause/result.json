@@ -1,0 +1,51 @@
+{
+  "policy": "pause",
+  "context": {
+    "operation_id": "S1_query_unavailable_pause",
+    "intent": "38d7c6e9ee9f1c1d8b7b1dbd24382d424982ce51486f3c87cf7e76b662aa298e",
+    "generation": 1
+  },
+  "origin": {
+    "context": {
+      "operation_id": "S1_query_unavailable_pause",
+      "intent": "38d7c6e9ee9f1c1d8b7b1dbd24382d424982ce51486f3c87cf7e76b662aa298e",
+      "generation": 1
+    },
+    "manifest": {
+      "adapter": "mcp_stdio_fastmcp",
+      "version": "1.26.0",
+      "python": "3.13.2",
+      "framework": {
+        "mcp.client.session": "037d437b93b086c0510fe885df696b680ac943fbd81c9624618ac8fd7b9d017f",
+        "mcp.shared.session": "3792799b86369a7632d6e8f2efecb118bbbc7cd69abb54bb14f6b079cb09d7f4",
+        "mcp.server.lowlevel.server": "910890555395de8303deaef64963b056443f0e0bdd1d22f61a51481d70c3bdaa"
+      },
+      "worker_sha256": "1a23764d01b00dbb29559783bc63f655bd454e3eed0bee7cf0737ac690613882",
+      "host_sha256": "3e93f2e1b51cb71beb296965e08d2883992c7b2a8720569476242e6dad9356d9",
+      "observer_sha256": "1a23764d01b00dbb29559783bc63f655bd454e3eed0bee7cf0737ac690613882",
+      "route_sha256": "11854477a0ebc5ac6efd8190bcbcfc41a4c92b68325e1c868061f6a9dd2f1377"
+    },
+    "namespace": "effects"
+  },
+  "initial_observations": [
+    {
+      "action": "append",
+      "phase": "initial",
+      "attempt": 1,
+      "outcome": "return_lost"
+    }
+  ],
+  "terminal": "pause",
+  "reason": "single_pause",
+  "events": [],
+  "steps": [],
+  "case": "query_unavailable_S1",
+  "mode": "query_unavailable",
+  "seed": 1,
+  "params": {
+    "initial_timeout": 0.07636246646906703,
+    "gate": 0.0,
+    "wait_window": 0.15
+  },
+  "elapsed_ns": 1123657500
+}
