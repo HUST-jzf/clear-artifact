@@ -1,0 +1,164 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an execution agent for a ticket service. Complete the user task by calling the available tools. Call the tools in a sensible order. A tool may return \"timeout\", which means the outcome is unknown; decide whether to retry, verify, or stop. Do not invent tool results. When you are done, call finish with a short summary."
+    },
+    {
+      "role": "user",
+      "content": "Buy one ticket for passenger Lin, seat 12A. Steps: create the ticket, reserve the seat, attach the passenger, commit the ticket, and notify the user."
+    },
+    {
+      "role": "user",
+      "content": "The service has been repaired. Resume the ticket task for passenger Lin, seat 12A, using any evidence you can obtain."
+    },
+    {
+      "role": "assistant",
+      "content": "I'll resume the task, calling the steps in order and watching for any state/duplicate signals from the service.",
+      "tool_calls": [
+        {
+          "index": 0,
+          "id": "call_00_LeZxjHzUbhhYt4knbtef4442",
+          "type": "function",
+          "function": {
+            "name": "create_ticket",
+            "arguments": "{\"passenger\": \"Lin\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_00_LeZxjHzUbhhYt4knbtef4442",
+      "content": "{\"status\": \"committed\"}"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "index": 0,
+          "id": "call_00_YXkEvuSq1bmZuSdNRAHL8388",
+          "type": "function",
+          "function": {
+            "name": "reserve_seat",
+            "arguments": "{\"seat\": \"12A\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_00_YXkEvuSq1bmZuSdNRAHL8388",
+      "content": "{\"status\": \"committed\"}"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "index": 0,
+          "id": "call_00_UrsYq89uWtL9j4ejYVXd2047",
+          "type": "function",
+          "function": {
+            "name": "attach_passenger",
+            "arguments": "{\"seat\": \"12A\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_00_UrsYq89uWtL9j4ejYVXd2047",
+      "content": "{\"status\": \"committed\"}"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "index": 0,
+          "id": "call_00_OzDUKzXf43zcHMYukb1u9126",
+          "type": "function",
+          "function": {
+            "name": "commit_ticket",
+            "arguments": "{}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_00_OzDUKzXf43zcHMYukb1u9126",
+      "content": "{\"status\": \"committed\"}"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "index": 0,
+          "id": "call_00_EeSNd87yvXrHj4jKVOBD3728",
+          "type": "function",
+          "function": {
+            "name": "notify_user",
+            "arguments": "{}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_00_EeSNd87yvXrHj4jKVOBD3728",
+      "content": "{\"status\": \"committed\"}"
+    }
+  ],
+  "calls": [
+    {
+      "turn": 0,
+      "tool": "create_ticket",
+      "arguments": {
+        "passenger": "Lin"
+      },
+      "result": {
+        "status": "committed"
+      }
+    },
+    {
+      "turn": 1,
+      "tool": "reserve_seat",
+      "arguments": {
+        "seat": "12A"
+      },
+      "result": {
+        "status": "committed"
+      }
+    },
+    {
+      "turn": 2,
+      "tool": "attach_passenger",
+      "arguments": {
+        "seat": "12A"
+      },
+      "result": {
+        "status": "committed"
+      }
+    },
+    {
+      "turn": 3,
+      "tool": "commit_ticket",
+      "arguments": {},
+      "result": {
+        "status": "committed"
+      }
+    },
+    {
+      "turn": 4,
+      "tool": "notify_user",
+      "arguments": {},
+      "result": {
+        "status": "committed"
+      }
+    }
+  ]
+}

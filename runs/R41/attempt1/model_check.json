@@ -1,0 +1,131 @@
+{
+  "t5_depth": 8,
+  "t6_depth": 6,
+  "controllers": 2,
+  "configs": {
+    "t5_no_a6": {
+      "model": "t5",
+      "assumptions": {
+        "single_writer": false,
+        "atomic_admit": false
+      },
+      "expected": true,
+      "duplicate_reachable": true,
+      "trace": [
+        [
+          "read",
+          0
+        ],
+        [
+          "read",
+          1
+        ],
+        [
+          "write",
+          0
+        ],
+        [
+          "write",
+          1
+        ]
+      ]
+    },
+    "t5_lease": {
+      "model": "t5",
+      "assumptions": {
+        "single_writer": true,
+        "atomic_admit": false
+      },
+      "expected": false,
+      "duplicate_reachable": false,
+      "trace": null
+    },
+    "t5_atomic_admit": {
+      "model": "t5",
+      "assumptions": {
+        "single_writer": false,
+        "atomic_admit": true
+      },
+      "expected": false,
+      "duplicate_reachable": false,
+      "trace": null
+    },
+    "t6_both": {
+      "model": "t6",
+      "assumptions": {
+        "enforce": true,
+        "finalize_check": true
+      },
+      "expected": false,
+      "duplicate_reachable": false,
+      "trace": null
+    },
+    "t6_fence_only": {
+      "model": "t6",
+      "assumptions": {
+        "enforce": true,
+        "finalize_check": false
+      },
+      "expected": true,
+      "duplicate_reachable": true,
+      "trace": [
+        [
+          "original"
+        ],
+        [
+          "stage",
+          0
+        ],
+        [
+          "finalize",
+          0
+        ]
+      ]
+    },
+    "t6_finalize_only": {
+      "model": "t6",
+      "assumptions": {
+        "enforce": false,
+        "finalize_check": true
+      },
+      "expected": true,
+      "duplicate_reachable": true,
+      "trace": [
+        [
+          "stage",
+          0
+        ],
+        [
+          "finalize",
+          0
+        ],
+        [
+          "original"
+        ]
+      ]
+    },
+    "t6_neither": {
+      "model": "t6",
+      "assumptions": {
+        "enforce": false,
+        "finalize_check": false
+      },
+      "expected": true,
+      "duplicate_reachable": true,
+      "trace": [
+        [
+          "original"
+        ],
+        [
+          "stage",
+          0
+        ],
+        [
+          "finalize",
+          0
+        ]
+      ]
+    }
+  },
+  "passed": true
+}

@@ -1,0 +1,82 @@
+{
+  "schema": "r43_atomix_original_v1",
+  "status": "pass",
+  "date": "2026-10-22",
+  "upstream": {
+    "repo": "https://github.com/mpi-dsg/atomix",
+    "commit": "61e411be662bb021634f0e84bc184bf6074905b4",
+    "clone": "depth 1, direct connection (git proxy bypassed)"
+  },
+  "environment": {
+    "os": "Windows",
+    "python": "3.13.2",
+    "install": "PYTHONPATH=src, no package installation",
+    "dependencies": "core runtime uses only the standard library"
+  },
+  "commands": [
+    "python -m atomix demo",
+    "python -m pytest -q --no-header -p no:cacheprovider",
+    "PYTHONPATH=src python scripts/run_experiment_dispatch.py --config configs/experiments/b3_irreversible.json --output runs/atomix_b3.json",
+    "PYTHONPATH=src python scripts/run_experiment_dispatch.py --config configs/experiments/e5_b2_frontier_contract.json --output runs/e5_b2_frontier_contract.json",
+    "PYTHONPATH=src python scripts/run_experiment_dispatch.py --config configs/experiments/e5_b3_crash_window.json --output runs/e5_b3_crash_window.json",
+    "PYTHONPATH=src python scripts/run_experiment_dispatch.py --config configs/experiments/b3_fp_sweep_real_sink.json --output runs/b3_fp_sweep_real_sink.json"
+  ],
+  "demo": {
+    "speculation": {
+      "baseline": {"record": "branch_b"},
+      "atomix": {"record": "branch_a"},
+      "reading": "Atomix aborts the losing branch; baseline keeps both writes"
+    },
+    "partial_failure": {
+      "baseline": {"order": "step1-applied"},
+      "atomix": {},
+      "reading": "Atomix aborts the transaction; baseline leaks partial state"
+    }
+  },
+  "tests": {
+    "passed": 187,
+    "failed": 2,
+    "skipped": 1,
+    "failed_reason": "both failures are Windows WinError 2 for missing POSIX commands (one test invokes `true`); no core-runtime test failed"
+  },
+  "b3_irreversible": {
+    "design": "7 baselines x 5 abort sources x 200 trials (100 invalid-send + 100 valid-send), real append-only sink",
+    "invalid_trials": 3500,
+    "valid_send_trials": 3500,
+    "per_baseline": {
+      "Tx-Full": {"invalid": 500, "leaks": 0, "valid": 500, "delivered": 500},
+      "TCC-Confirm": {"invalid": 500, "leaks": 0, "valid": 500, "delivered": 500},
+      "Mutex+WAL+Rollback": {"invalid": 500, "leaks": 0, "valid": 500, "delivered": 500},
+      "Saga-Compensation": {"invalid": 500, "leaks": 400, "valid": 500, "delivered": 500},
+      "Atomix-MisclassifiedIrreversible": {"invalid": 500, "leaks": 300, "valid": 500, "delivered": 500},
+      "Checkpoint-Replay": {"invalid": 500, "leaks": 200, "valid": 500, "delivered": 500},
+      "No-Tx": {"invalid": 500, "leaks": 500, "valid": 500, "delivered": 500}
+    },
+    "reading": "The official Atomix experiment gates irreversible sends before externalization: Tx-Full leaks 0/500 and delivers 500/500. Misclassifying an irreversible effect leaks 300/500. The guarantee therefore depends on pre-commit classification and gating, not on undoing an externalized send."
+  },
+  "e5_b2_frontier_contract": {
+    "design": "3 commit-timing regimes x 200 trials",
+    "correct": {"trials": 200, "out_of_order_commits": 0, "blocked_on_correct": 0},
+    "no-advancement": {"trials": 200, "out_of_order_commits": 0, "blocked_on_correct": 400},
+    "premature": {"trials": 200, "out_of_order_commits": 200, "blocked_on_correct": 0},
+    "reading": "Frontier advancement is necessary for progress; without it 400 attempts block, while premature advancement commits 200/200 out of order."
+  },
+  "e5_b3_crash_window": {
+    "design": "4 crash points x 50 trials",
+    "P1": {"trials": 50, "duplicates": 0, "lost_effects": 0, "recovery_blocked": 0},
+    "P2": {"trials": 50, "duplicates": 0, "lost_effects": 0, "recovery_blocked": 50},
+    "P3": {"trials": 50, "duplicates": 0, "lost_effects": 0, "recovery_blocked": 50},
+    "P4": {"trials": 50, "duplicates": 0, "lost_effects": 0, "recovery_blocked": 0},
+    "reading": "No duplicates or lost effects in any crash window; two windows block recovery, matching the paper's tradeoff between safety and progress."
+  },
+  "b3_fp_sweep": {
+    "fault_probabilities": [0.02, 0.1, 0.3],
+    "per_cell": "35 rows per probability, 3500 invalid-send and 3500 valid-send trials per cell; post-externalization logged = 0 in all cells"
+  },
+  "files": {
+    "atomix_b3.json": "b3_irreversible raw rows",
+    "e5_b2_frontier_contract.json": "frontier contract raw counters",
+    "e5_b3_crash_window.json": "crash window raw counters",
+    "b3_fp_sweep_real_sink.json": "false-positive sweep raw rows"
+  }
+}

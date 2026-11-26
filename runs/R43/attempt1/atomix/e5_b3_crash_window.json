@@ -1,0 +1,30 @@
+{
+  "P1": {
+    "trials": 50,
+    "duplicates": 0,
+    "lost_effects": 0,
+    "recovery_blocked": 0,
+    "duplicate_rate": 0.0
+  },
+  "P2": {
+    "trials": 50,
+    "duplicates": 0,
+    "lost_effects": 0,
+    "recovery_blocked": 50,
+    "duplicate_rate": 0.0
+  },
+  "P3": {
+    "trials": 50,
+    "duplicates": 0,
+    "lost_effects": 0,
+    "recovery_blocked": 50,
+    "duplicate_rate": 0.0
+  },
+  "P4": {
+    "trials": 50,
+    "duplicates": 0,
+    "lost_effects": 0,
+    "recovery_blocked": 0,
+    "duplicate_rate": 0.0
+  }
+}

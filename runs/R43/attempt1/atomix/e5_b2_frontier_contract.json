@@ -1,0 +1,19 @@
+{
+  "by_mode": {
+    "correct": {
+      "trials": 200,
+      "out_of_order_commits": 0,
+      "blocked_on_correct": 0
+    },
+    "no-advancement": {
+      "trials": 200,
+      "out_of_order_commits": 0,
+      "blocked_on_correct": 400
+    },
+    "premature": {
+      "trials": 200,
+      "out_of_order_commits": 200,
+      "blocked_on_correct": 0
+    }
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "checks": 304,
+  "passed": 304,
+  "status": "pass",
+  "totals": {
+    "intent_change/blind": {
+      "runs": 6,
+      "duplicates": 12,
+      "mixed": 12,
+      "stale": 0,
+      "residual": 6,
+      "paused": 0,
+      "repaired": 0,
+      "recovered": 0,
+      "phase1_completed": 6,
+      "followed": 6,
+      "completed": 6
+    },
+    "intent_change/evidence": {
+      "runs": 6,
+      "duplicates": 11,
+      "mixed": 11,
+      "stale": 0,
+      "residual": 6,
+      "paused": 0,
+      "repaired": 0,
+      "recovered": 0,
+      "phase1_completed": 6,
+      "followed": 6,
+      "completed": 6
+    },
+    "intent_change/clear": {
+      "runs": 6,
+      "duplicates": 0,
+      "mixed": 0,
+      "stale": 0,
+      "residual": 6,
+      "paused": 0,
+      "repaired": 0,
+      "recovered": 0,
+      "phase1_completed": 6,
+      "followed": 6,
+      "completed": 6
+    },
+    "no_fence_repair/blind": {
+      "runs": 6,
+      "duplicates": 0,
+      "mixed": 0,
+      "stale": 0,
+      "residual": 0,
+      "paused": 0,
+      "repaired": 0,
+      "recovered": 0,
+      "phase1_completed": 6,
+      "followed": 0,
+      "completed": 6
+    },
+    "no_fence_repair/evidence": {
+      "runs": 6,
+      "duplicates": 0,
+      "mixed": 0,
+      "stale": 0,
+      "residual": 0,
+      "paused": 0,
+      "repaired": 0,
+      "recovered": 0,
+      "phase1_completed": 6,
+      "followed": 0,
+      "completed": 6
+    },
+    "no_fence_repair/clear": {
+      "runs": 6,
+      "duplicates": 0,
+      "mixed": 0,
+      "stale": 0,
+      "residual": 0,
+      "paused": 6,
+      "repaired": 6,
+      "recovered": 6,
+      "phase1_completed": 0,
+      "followed": 0,
+      "completed": 6
+    }
+  },
+  "failed": []
+}

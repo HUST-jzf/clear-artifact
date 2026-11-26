@@ -1,0 +1,135 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an execution agent for a ticket service. Complete the user task by calling the available tools. Call the tools in a sensible order. A tool may return \"timeout\", which means the outcome is unknown; decide whether to retry, verify, or stop. Do not invent tool results. When you are done, call finish with a short summary."
+    },
+    {
+      "role": "user",
+      "content": "Buy one ticket for passenger Lin, seat 12A. Steps: create the ticket, reserve the seat, attach the passenger, commit the ticket, and notify the user."
+    },
+    {
+      "role": "assistant",
+      "content": "I'll start by creating the ticket for passenger Lin.",
+      "tool_calls": [
+        {
+          "index": 0,
+          "id": "call_00_ET_xJB1vR11ZgUpreCEOCWi1309",
+          "type": "function",
+          "function": {
+            "name": "create_ticket",
+            "arguments": "{\"passenger\": \"Lin\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_00_ET_xJB1vR11ZgUpreCEOCWi1309",
+      "content": "{\"status\": \"paused\", \"detail\": \"fence_unavailable\"}"
+    },
+    {
+      "role": "assistant",
+      "content": "The create call returned a paused state (\"fence_unavailable\"). Let me retry it to see if it succeeds.",
+      "tool_calls": [
+        {
+          "index": 0,
+          "id": "call_00_iXC2ENrgwm0vEQW16MXJ8196",
+          "type": "function",
+          "function": {
+            "name": "create_ticket",
+            "arguments": "{\"passenger\": \"Lin\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_00_iXC2ENrgwm0vEQW16MXJ8196",
+      "content": "{\"status\": \"paused\", \"detail\": \"outcome could not be verified\"}"
+    },
+    {
+      "role": "assistant",
+      "content": "The ticket creation is not completing — two attempts returned paused states with unverifiable outcomes. Let me make one final attempt to confirm.",
+      "tool_calls": [
+        {
+          "index": 0,
+          "id": "call_00_DF1eRDwlYlZEhjJhotYQ0035",
+          "type": "function",
+          "function": {
+            "name": "create_ticket",
+            "arguments": "{\"passenger\": \"Lin\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_00_DF1eRDwlYlZEhjJhotYQ0035",
+      "content": "{\"status\": \"paused\", \"detail\": \"outcome could not be verified\"}"
+    },
+    {
+      "role": "assistant",
+      "content": "Three consecutive attempts to create the ticket have failed, all returning paused states with unverifiable outcomes. Since the ticket itself cannot be created, every downstream step (reserve seat, attach passenger, commit, notify) depends on a ticket that may or may not exist. Continuing would risk creating a duplicate ticket or a dangling seat reservation, so I'm stopping here rather than guessing.",
+      "tool_calls": [
+        {
+          "index": 0,
+          "id": "call_00_GjvmNu7DSmNOQECCd4je2685",
+          "type": "function",
+          "function": {
+            "name": "finish",
+            "arguments": "{\"summary\": \"Could not complete the ticket purchase for passenger Lin. The first required step, create_ticket, failed three times:\\n1. {\\\"status\\\": \\\"paused\\\", \\\"detail\\\": \\\"fence_unavailable\\\"}\\n2. {\\\"status\\\": \\\"paused\\\", \\\"detail\\\": \\\"outcome could not be verified\\\"}\\n3. {\\\"status\\\": \\\"paused\\\", \\\"detail\\\": \\\"outcome could not"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_00_GjvmNu7DSmNOQECCd4je2685",
+      "content": "{\"status\": \"finished\"}"
+    }
+  ],
+  "calls": [
+    {
+      "turn": 0,
+      "tool": "create_ticket",
+      "arguments": {
+        "passenger": "Lin"
+      },
+      "result": {
+        "status": "paused",
+        "detail": "fence_unavailable"
+      }
+    },
+    {
+      "turn": 1,
+      "tool": "create_ticket",
+      "arguments": {
+        "passenger": "Lin"
+      },
+      "result": {
+        "status": "paused",
+        "detail": "outcome could not be verified"
+      }
+    },
+    {
+      "turn": 2,
+      "tool": "create_ticket",
+      "arguments": {
+        "passenger": "Lin"
+      },
+      "result": {
+        "status": "paused",
+        "detail": "outcome could not be verified"
+      }
+    },
+    {
+      "turn": 3,
+      "tool": "finish",
+      "arguments": {},
+      "result": {
+        "status": "finished"
+      }
+    }
+  ]
+}

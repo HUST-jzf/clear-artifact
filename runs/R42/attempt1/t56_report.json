@@ -1,0 +1,175 @@
+{
+  "schema": "r42_t56_unbounded_v2",
+  "z3_version": "5.3.1",
+  "t5": {
+    "controllers": 2,
+    "depth_bound": null,
+    "configs": {
+      "t5_no_a6": {
+        "init_satisfies_inv": true,
+        "inductive": "sat",
+        "safe": false,
+        "counterexample_action": "commit0",
+        "reachable_committed": 1,
+        "duplicate_witness": [
+          "query0",
+          "query1",
+          "issue0",
+          "issue1",
+          "commit0",
+          "commit1"
+        ],
+        "duplicate_committed": 2,
+        "blocked_at": null
+      },
+      "t5_lease_naive": {
+        "init_satisfies_inv": true,
+        "inductive": "sat",
+        "safe": false,
+        "counterexample_action": "commit0",
+        "reachable_committed": 1,
+        "duplicate_witness": [
+          "acquire0",
+          "query0",
+          "issue0",
+          "crash0",
+          "acquire1",
+          "query1",
+          "issue1",
+          "commit0",
+          "commit1"
+        ],
+        "duplicate_committed": 2,
+        "blocked_at": null
+      },
+      "t5_lease_closed": {
+        "init_satisfies_inv": true,
+        "inductive": "unsat",
+        "safe": true,
+        "counterexample_action": null,
+        "reachable_committed": 1,
+        "duplicate_witness": [
+          "acquire0",
+          "query0",
+          "issue0",
+          "crash0"
+        ],
+        "duplicate_committed": 0,
+        "blocked_at": "acquire1"
+      },
+      "t5_atomic_admit": {
+        "init_satisfies_inv": true,
+        "inductive": "unsat",
+        "safe": true,
+        "counterexample_action": null,
+        "reachable_committed": 1,
+        "duplicate_witness": [
+          "query0",
+          "query1",
+          "issue0",
+          "issue1",
+          "commit0"
+        ],
+        "duplicate_committed": 1,
+        "blocked_at": "commit1"
+      }
+    }
+  },
+  "t6": {
+    "fence_domain": "integers >= 0 (unbounded)",
+    "depth_bound": null,
+    "configs": {
+      "t6_both": {
+        "init_satisfies_inv": true,
+        "inductive": "unsat",
+        "safe": true,
+        "counterexample_action": null,
+        "witness": [
+          "alloc_original",
+          "write_original",
+          "alloc_retry",
+          "stage_retry"
+        ],
+        "witness_committed": 1,
+        "blocked_at": "finalize_retry",
+        "reviewer_sequence": [
+          "alloc_original",
+          "write_original",
+          "alloc_retry"
+        ],
+        "reviewer_committed": 1,
+        "reviewer_blocked_at": "not_original",
+        "recovery_direct_commit": "rejected:not_original"
+      },
+      "t6_fence_only": {
+        "init_satisfies_inv": true,
+        "inductive": "sat",
+        "safe": false,
+        "counterexample_action": "finalize_retry",
+        "witness": [
+          "alloc_original",
+          "write_original",
+          "alloc_retry",
+          "stage_retry",
+          "finalize_retry"
+        ],
+        "witness_committed": 2,
+        "blocked_at": null,
+        "reviewer_sequence": [
+          "alloc_original",
+          "write_original",
+          "alloc_retry"
+        ],
+        "reviewer_committed": 1,
+        "reviewer_blocked_at": "not_original",
+        "recovery_direct_commit": "rejected:not_original"
+      },
+      "t6_finalize_only": {
+        "init_satisfies_inv": true,
+        "inductive": "sat",
+        "safe": false,
+        "counterexample_action": "write_original",
+        "witness": [
+          "alloc_original",
+          "alloc_retry",
+          "stage_retry",
+          "finalize_retry",
+          "write_original"
+        ],
+        "witness_committed": 2,
+        "blocked_at": null,
+        "reviewer_sequence": [
+          "alloc_original",
+          "write_original",
+          "alloc_retry"
+        ],
+        "reviewer_committed": 1,
+        "reviewer_blocked_at": "not_original",
+        "recovery_direct_commit": "rejected:not_original"
+      },
+      "t6_neither": {
+        "init_satisfies_inv": true,
+        "inductive": "sat",
+        "safe": false,
+        "counterexample_action": "write_original",
+        "witness": [
+          "alloc_original",
+          "write_original",
+          "alloc_retry",
+          "stage_retry",
+          "finalize_retry"
+        ],
+        "witness_committed": 2,
+        "blocked_at": null,
+        "reviewer_sequence": [
+          "alloc_original",
+          "write_original",
+          "alloc_retry"
+        ],
+        "reviewer_committed": 1,
+        "reviewer_blocked_at": "not_original",
+        "recovery_direct_commit": "rejected:not_original"
+      }
+    }
+  }
+}

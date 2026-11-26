@@ -1,0 +1,36 @@
+{
+  "scenario": "A",
+  "fault": "late_effect",
+  "policy": "dedup_fresh",
+  "seed": 13,
+  "workflow": "A_late_effect_dedup_fresh_S13",
+  "terminal": "complete",
+  "rows": {
+    "create": 1,
+    "reserve": 1,
+    "attach": 2,
+    "commit": 1,
+    "notify": 1
+  },
+  "stale": {
+    "create": 0,
+    "reserve": 0,
+    "attach": 0,
+    "commit": 0,
+    "notify": 0
+  },
+  "deduplicated": {
+    "create": 0,
+    "reserve": 0,
+    "attach": 0,
+    "commit": 0,
+    "notify": 0
+  },
+  "duplicates": 1,
+  "completed": true,
+  "safe": false,
+  "rejected": 0,
+  "requests": 14,
+  "bytes": 28672,
+  "elapsed_ns": 1755313500
+}

@@ -1,0 +1,291 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an execution agent for a ticket service. Complete the user task by calling the available tools. Call the tools in a sensible order. A tool may return \"timeout\", which means the outcome is unknown; decide whether to retry, verify, or stop. Do not invent tool results. When you are done, call finish with a short summary."
+    },
+    {
+      "role": "user",
+      "content": "Buy one ticket for passenger Lin, seat 12A. Steps: create the ticket, reserve the seat, attach the passenger, commit the ticket, and notify the user."
+    },
+    {
+      "role": "assistant",
+      "content": "I'll start by checking the current state of each step to avoid duplicating any work.",
+      "tool_calls": [
+        {
+          "index": 0,
+          "id": "call_00_ET_Zr4zQToGdhpwn6QmvUKN3618",
+          "type": "function",
+          "function": {
+            "name": "check_step",
+            "arguments": "{\"step\": \"create_ticket\"}"
+          }
+        },
+        {
+          "index": 1,
+          "id": "call_01_ET_r17dI4bquCzLN97I30K60030",
+          "type": "function",
+          "function": {
+            "name": "check_step",
+            "arguments": "{\"step\": \"reserve_seat\"}"
+          }
+        },
+        {
+          "index": 2,
+          "id": "call_02_ET_TItQkuqH8KXHFIfoK6CJ6814",
+          "type": "function",
+          "function": {
+            "name": "check_step",
+            "arguments": "{\"step\": \"attach_passenger\"}"
+          }
+        },
+        {
+          "index": 3,
+          "id": "call_03_ET_8lWWsh1tFUfwWut2Sl9C7444",
+          "type": "function",
+          "function": {
+            "name": "check_step",
+            "arguments": "{\"step\": \"commit_ticket\"}"
+          }
+        },
+        {
+          "index": 4,
+          "id": "call_04_ET_Ay3s8Kvse4ZJz2GRPxjy1983",
+          "type": "function",
+          "function": {
+            "name": "check_step",
+            "arguments": "{\"step\": \"notify_user\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_00_ET_Zr4zQToGdhpwn6QmvUKN3618",
+      "content": "{\"step\": \"create_ticket\", \"state\": \"unknown\"}"
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_01_ET_r17dI4bquCzLN97I30K60030",
+      "content": "{\"step\": \"reserve_seat\", \"state\": \"unknown\"}"
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_02_ET_TItQkuqH8KXHFIfoK6CJ6814",
+      "content": "{\"step\": \"attach_passenger\", \"state\": \"unknown\"}"
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_03_ET_8lWWsh1tFUfwWut2Sl9C7444",
+      "content": "{\"step\": \"commit_ticket\", \"state\": \"unknown\"}"
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_04_ET_Ay3s8Kvse4ZJz2GRPxjy1983",
+      "content": "{\"step\": \"notify_user\", \"state\": \"unknown\"}"
+    },
+    {
+      "role": "assistant",
+      "content": "All steps show unknown state, so I'll proceed in order, starting with creating the ticket.",
+      "tool_calls": [
+        {
+          "index": 0,
+          "id": "call_00_E9lBfW7KEXKA99Ndkxdv1234",
+          "type": "function",
+          "function": {
+            "name": "create_ticket",
+            "arguments": "{\"passenger\": \"Lin\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_00_E9lBfW7KEXKA99Ndkxdv1234",
+      "content": "{\"status\": \"ok\"}"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "index": 0,
+          "id": "call_00_9qxMwG28RF73HIJjVhPU6414",
+          "type": "function",
+          "function": {
+            "name": "reserve_seat",
+            "arguments": "{\"seat\": \"12A\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_00_9qxMwG28RF73HIJjVhPU6414",
+      "content": "{\"status\": \"ok\"}"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "index": 0,
+          "id": "call_00_ET_wHjCwwfLBGj0pK8x9eBH9352",
+          "type": "function",
+          "function": {
+            "name": "attach_passenger",
+            "arguments": "{\"seat\": \"12A\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_00_ET_wHjCwwfLBGj0pK8x9eBH9352",
+      "content": "{\"status\": \"ok\"}"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "index": 0,
+          "id": "call_00_ET_jdBfIO378pxQQxfH5pO34526",
+          "type": "function",
+          "function": {
+            "name": "commit_ticket",
+            "arguments": "{}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_00_ET_jdBfIO378pxQQxfH5pO34526",
+      "content": "{\"status\": \"ok\"}"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "index": 0,
+          "id": "call_00_ET_Iyt1Js8guqBWPPMknC8W5505",
+          "type": "function",
+          "function": {
+            "name": "notify_user",
+            "arguments": "{}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_00_ET_Iyt1Js8guqBWPPMknC8W5505",
+      "content": "{\"status\": \"ok\"}"
+    }
+  ],
+  "calls": [
+    {
+      "turn": 0,
+      "tool": "check_step",
+      "arguments": {
+        "step": "create_ticket"
+      },
+      "result": {
+        "step": "create_ticket",
+        "state": "unknown"
+      }
+    },
+    {
+      "turn": 0,
+      "tool": "check_step",
+      "arguments": {
+        "step": "reserve_seat"
+      },
+      "result": {
+        "step": "reserve_seat",
+        "state": "unknown"
+      }
+    },
+    {
+      "turn": 0,
+      "tool": "check_step",
+      "arguments": {
+        "step": "attach_passenger"
+      },
+      "result": {
+        "step": "attach_passenger",
+        "state": "unknown"
+      }
+    },
+    {
+      "turn": 0,
+      "tool": "check_step",
+      "arguments": {
+        "step": "commit_ticket"
+      },
+      "result": {
+        "step": "commit_ticket",
+        "state": "unknown"
+      }
+    },
+    {
+      "turn": 0,
+      "tool": "check_step",
+      "arguments": {
+        "step": "notify_user"
+      },
+      "result": {
+        "step": "notify_user",
+        "state": "unknown"
+      }
+    },
+    {
+      "turn": 1,
+      "tool": "create_ticket",
+      "arguments": {
+        "passenger": "Lin"
+      },
+      "result": {
+        "status": "ok"
+      }
+    },
+    {
+      "turn": 2,
+      "tool": "reserve_seat",
+      "arguments": {
+        "seat": "12A"
+      },
+      "result": {
+        "status": "ok"
+      }
+    },
+    {
+      "turn": 3,
+      "tool": "attach_passenger",
+      "arguments": {
+        "seat": "12A"
+      },
+      "result": {
+        "status": "ok"
+      }
+    },
+    {
+      "turn": 4,
+      "tool": "commit_ticket",
+      "arguments": {},
+      "result": {
+        "status": "ok"
+      }
+    },
+    {
+      "turn": 5,
+      "tool": "notify_user",
+      "arguments": {},
+      "result": {
+        "status": "ok"
+      }
+    }
+  ]
+}
