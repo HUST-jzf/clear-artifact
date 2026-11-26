@@ -1,0 +1,7 @@
+{
+  "terminal": "pause",
+  "reason": "stale_qualification",
+  "case": "revoke",
+  "variant": "no_atomic",
+  "seed": 1
+}

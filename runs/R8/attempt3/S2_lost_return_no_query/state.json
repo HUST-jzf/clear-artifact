@@ -1,0 +1,21 @@
+{
+  "writes": [
+    {
+      "attempt": 1,
+      "record_id": 1,
+      "allowed": true,
+      "believed_allowed": true,
+      "manifest_sha": "27512d78a9900f454332f564b2f0dd82932b4f5388d7197289fef97641ccffb3",
+      "schema": "v1",
+      "at_ns": 27386681679700
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "allowed": true,
+      "at_ns": 27386667777500
+    }
+  ],
+  "initial_outcome": "return"
+}
