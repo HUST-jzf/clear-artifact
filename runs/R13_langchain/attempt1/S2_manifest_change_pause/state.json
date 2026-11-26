@@ -1,0 +1,21 @@
+{
+  "invocations": {
+    "1": {
+      "attempt": 1,
+      "terminal": true,
+      "receipt": null,
+      "error": "injected_failure",
+      "done": null,
+      "started_ns": 31166064196900
+    }
+  },
+  "writes": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "allowed": true,
+      "at_ns": 31166064198700
+    }
+  ],
+  "reauth": []
+}
