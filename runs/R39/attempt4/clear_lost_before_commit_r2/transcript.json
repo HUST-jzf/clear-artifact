@@ -1,0 +1,155 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an execution agent for a ticket service. Complete the user task by calling the available tools. Call the tools in a sensible order. A tool may return \"timeout\", which means the outcome is unknown; decide whether to retry, verify, or stop. Do not invent tool results. When you are done, call finish with a short summary."
+    },
+    {
+      "role": "user",
+      "content": "Buy one ticket for passenger Lin, seat 12A. Steps: create the ticket, reserve the seat, attach the passenger, commit the ticket, and notify the user."
+    },
+    {
+      "role": "assistant",
+      "content": "I'll process the ticket purchase step by step.",
+      "tool_calls": [
+        {
+          "index": 0,
+          "id": "call_00_ET_xkNAfupO9IMPvQzRSxak4394",
+          "type": "function",
+          "function": {
+            "name": "create_ticket",
+            "arguments": "{}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_00_ET_xkNAfupO9IMPvQzRSxak4394",
+      "content": "{\"status\": \"committed\"}"
+    },
+    {
+      "role": "assistant",
+      "content": "Ticket created. Now reserving the seat.",
+      "tool_calls": [
+        {
+          "index": 0,
+          "id": "call_00_VWOV3S0Pjb80hvcppWY46479",
+          "type": "function",
+          "function": {
+            "name": "reserve_seat",
+            "arguments": "{}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_00_VWOV3S0Pjb80hvcppWY46479",
+      "content": "{\"status\": \"committed\"}"
+    },
+    {
+      "role": "assistant",
+      "content": "Seat reserved. Now attaching the passenger.",
+      "tool_calls": [
+        {
+          "index": 0,
+          "id": "call_00_BaYmZaNV3OWXNuj0Drak0268",
+          "type": "function",
+          "function": {
+            "name": "attach_passenger",
+            "arguments": "{}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_00_BaYmZaNV3OWXNuj0Drak0268",
+      "content": "{\"status\": \"committed\", \"detail\": \"finalized\"}"
+    },
+    {
+      "role": "assistant",
+      "content": "Passenger attached. Now committing the ticket.",
+      "tool_calls": [
+        {
+          "index": 0,
+          "id": "call_00_IHeBRKz1rTwNiexUg9eo9520",
+          "type": "function",
+          "function": {
+            "name": "commit_ticket",
+            "arguments": "{}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_00_IHeBRKz1rTwNiexUg9eo9520",
+      "content": "{\"status\": \"committed\"}"
+    },
+    {
+      "role": "assistant",
+      "content": "Ticket committed. Now notifying the user.",
+      "tool_calls": [
+        {
+          "index": 0,
+          "id": "call_00_ET_Kf4QHrSeAN2BlJbZ7OMA7516",
+          "type": "function",
+          "function": {
+            "name": "notify_user",
+            "arguments": "{}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_00_ET_Kf4QHrSeAN2BlJbZ7OMA7516",
+      "content": "{\"status\": \"committed\"}"
+    }
+  ],
+  "calls": [
+    {
+      "turn": 0,
+      "tool": "create_ticket",
+      "arguments": {},
+      "result": {
+        "status": "committed"
+      }
+    },
+    {
+      "turn": 1,
+      "tool": "reserve_seat",
+      "arguments": {},
+      "result": {
+        "status": "committed"
+      }
+    },
+    {
+      "turn": 2,
+      "tool": "attach_passenger",
+      "arguments": {},
+      "result": {
+        "status": "committed",
+        "detail": "finalized"
+      }
+    },
+    {
+      "turn": 3,
+      "tool": "commit_ticket",
+      "arguments": {},
+      "result": {
+        "status": "committed"
+      }
+    },
+    {
+      "turn": 4,
+      "tool": "notify_user",
+      "arguments": {},
+      "result": {
+        "status": "committed"
+      }
+    }
+  ]
+}

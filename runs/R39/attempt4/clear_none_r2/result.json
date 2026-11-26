@@ -1,0 +1,37 @@
+{
+  "guard": "clear",
+  "fault": "none",
+  "run": 2,
+  "workflow": "clear_none_R2",
+  "rows": {
+    "create": 1,
+    "reserve": 1,
+    "attach": 1,
+    "commit": 1,
+    "notify": 1
+  },
+  "stale": {
+    "create": 0,
+    "reserve": 0,
+    "attach": 0,
+    "commit": 0,
+    "notify": 0
+  },
+  "duplicates": 0,
+  "completed": true,
+  "finished": false,
+  "tool_calls": 5,
+  "retries_after_timeout": 0,
+  "ledger": {
+    "create_ticket": "committed",
+    "reserve_seat": "committed",
+    "attach_passenger": "committed",
+    "commit_ticket": "committed",
+    "notify_user": "committed"
+  },
+  "model": "deepseek-flash",
+  "temperature": 0.7,
+  "drain_seconds": 6.0,
+  "key_leak": false,
+  "elapsed_ns": 10519018400
+}
