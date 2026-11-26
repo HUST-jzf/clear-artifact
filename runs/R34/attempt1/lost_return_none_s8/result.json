@@ -1,0 +1,171 @@
+{
+  "fault": "lost_return",
+  "mechanism": "none",
+  "seed": 8,
+  "workflow": "lost_return_none_S8",
+  "controllers": {
+    "A": {
+      "owner": "A",
+      "terminal": "complete",
+      "reason": "original_or_retry_receipt",
+      "events": [
+        {
+          "seq": 0,
+          "context": {
+            "operation_id": "lost_return_none_S8:attach",
+            "intent": "ticket:attach",
+            "generation": 1
+          },
+          "action": "wait",
+          "body": {
+            "root": "lost_return_none_S8:attach",
+            "op": "lost_return_none_S8:attach",
+            "step": "attach",
+            "terminal": true,
+            "receipt": {
+              "state": "committed",
+              "op": "lost_return_none_S8:attach",
+              "operation_id": "lost_return_none_S8:attach",
+              "step": "attach",
+              "record_id": 3,
+              "attempt": 1,
+              "allowed": true,
+              "manifest": "ticket-svc-2026.10-v1",
+              "intent": "ticket:attach",
+              "generation": 1,
+              "effect_namespace": "effects"
+            },
+            "state": "committed",
+            "complete": true,
+            "registration_complete": true,
+            "effect_namespace": "effects",
+            "members": [
+              {
+                "handle": "lost_return_none_S8:attach",
+                "parent": null,
+                "terminal": true,
+                "receipt": {
+                  "state": "committed",
+                  "op": "lost_return_none_S8:attach",
+                  "operation_id": "lost_return_none_S8:attach",
+                  "step": "attach",
+                  "record_id": 3,
+                  "attempt": 1,
+                  "allowed": true,
+                  "manifest": "ticket-svc-2026.10-v1",
+                  "intent": "ticket:attach",
+                  "generation": 1,
+                  "effect_namespace": "effects"
+                }
+              }
+            ],
+            "launch_manifest": "738e53cb953ea6a4edc2b00dbf39b6f73faa43083c11df5906fcb9f1ac395cca"
+          }
+        }
+      ],
+      "writes": 0
+    },
+    "B": {
+      "owner": "B",
+      "terminal": "complete",
+      "reason": "original_or_retry_receipt",
+      "events": [
+        {
+          "seq": 0,
+          "context": {
+            "operation_id": "lost_return_none_S8:attach",
+            "intent": "ticket:attach",
+            "generation": 1
+          },
+          "action": "wait",
+          "body": {
+            "root": "lost_return_none_S8:attach",
+            "op": "lost_return_none_S8:attach",
+            "step": "attach",
+            "terminal": true,
+            "receipt": {
+              "state": "committed",
+              "op": "lost_return_none_S8:attach",
+              "operation_id": "lost_return_none_S8:attach",
+              "step": "attach",
+              "record_id": 3,
+              "attempt": 1,
+              "allowed": true,
+              "manifest": "ticket-svc-2026.10-v1",
+              "intent": "ticket:attach",
+              "generation": 1,
+              "effect_namespace": "effects"
+            },
+            "state": "committed",
+            "complete": true,
+            "registration_complete": true,
+            "effect_namespace": "effects",
+            "members": [
+              {
+                "handle": "lost_return_none_S8:attach",
+                "parent": null,
+                "terminal": true,
+                "receipt": {
+                  "state": "committed",
+                  "op": "lost_return_none_S8:attach",
+                  "operation_id": "lost_return_none_S8:attach",
+                  "step": "attach",
+                  "record_id": 3,
+                  "attempt": 1,
+                  "allowed": true,
+                  "manifest": "ticket-svc-2026.10-v1",
+                  "intent": "ticket:attach",
+                  "generation": 1,
+                  "effect_namespace": "effects"
+                }
+              }
+            ],
+            "launch_manifest": "738e53cb953ea6a4edc2b00dbf39b6f73faa43083c11df5906fcb9f1ac395cca"
+          }
+        }
+      ],
+      "writes": 0
+    }
+  },
+  "rows": {
+    "create": 1,
+    "reserve": 1,
+    "attach": 1,
+    "commit": 1,
+    "notify": 1
+  },
+  "stale": {
+    "create": 0,
+    "reserve": 0,
+    "attach": 0,
+    "commit": 0,
+    "notify": 0
+  },
+  "duplicates": 0,
+  "completed": true,
+  "safe": true,
+  "writes": 0,
+  "elapsed_ns": 522971900,
+  "observed_steps": {
+    "attach": {
+      "rows": 1,
+      "stale": 0
+    },
+    "commit": {
+      "rows": 1,
+      "stale": 0
+    },
+    "create": {
+      "rows": 1,
+      "stale": 0
+    },
+    "notify": {
+      "rows": 1,
+      "stale": 0
+    },
+    "reserve": {
+      "rows": 1,
+      "stale": 0
+    }
+  }
+}
