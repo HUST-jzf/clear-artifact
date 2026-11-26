@@ -1,0 +1,17 @@
+{
+  "case": "closure_missing",
+  "policy": "pause",
+  "repetition": 32,
+  "terminal": "pause",
+  "reason": "single_pause",
+  "control_ns": 7500,
+  "timings": {
+    "drain_ns": 1056800
+  },
+  "counts": {},
+  "actions": 0,
+  "rows": 1,
+  "duplicate": false,
+  "stale_new": 0,
+  "safe": false
+}

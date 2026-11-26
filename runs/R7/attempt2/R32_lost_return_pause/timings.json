@@ -1,0 +1,17 @@
+{
+  "case": "lost_return",
+  "policy": "pause",
+  "repetition": 32,
+  "terminal": "pause",
+  "reason": "single_pause",
+  "control_ns": 7900,
+  "timings": {
+    "drain_ns": 992100
+  },
+  "counts": {},
+  "actions": 0,
+  "rows": 1,
+  "duplicate": false,
+  "stale_new": 0,
+  "safe": false
+}
