@@ -1,0 +1,257 @@
+{
+  "schema": "r9_audit_v1",
+  "sources": [
+    {
+      "source": "mcp",
+      "path": "scripts/r1_native.py",
+      "cls": "Host",
+      "loc": 149,
+      "methods": [
+        "__init__",
+        "start",
+        "_count",
+        "call",
+        "refresh",
+        "wait",
+        "retry",
+        "action",
+        "drain",
+        "close",
+        "save"
+      ],
+      "method_count": 11,
+      "per_condition_branches": 0,
+      "shims": [
+        "describe",
+        "effects",
+        "status",
+        "reauthorize",
+        "drain"
+      ],
+      "native": {
+        "effects_query": false,
+        "lifecycle_registry": false,
+        "version_binding": false,
+        "atomic_admission": false
+      },
+      "issues": 4,
+      "unresolved": 0
+    },
+    {
+      "source": "anyio",
+      "path": "scripts/r1_anyio.py",
+      "cls": "Host",
+      "loc": 138,
+      "methods": [
+        "__init__",
+        "start",
+        "_count",
+        "call",
+        "refresh",
+        "wait",
+        "retry",
+        "action",
+        "drain",
+        "close",
+        "save"
+      ],
+      "method_count": 11,
+      "per_condition_branches": 0,
+      "shims": [
+        "describe",
+        "effects",
+        "status",
+        "reauthorize",
+        "drain"
+      ],
+      "native": {
+        "effects_query": false,
+        "lifecycle_registry": false,
+        "version_binding": false,
+        "atomic_admission": false
+      },
+      "issues": 2,
+      "unresolved": 0
+    },
+    {
+      "source": "langchain",
+      "path": "scripts/r1_langchain.py",
+      "cls": "Host",
+      "loc": 57,
+      "methods": [
+        "start",
+        "_invoke",
+        "retry"
+      ],
+      "method_count": 3,
+      "per_condition_branches": 0,
+      "shims": [
+        "describe",
+        "effects",
+        "status",
+        "reauthorize",
+        "drain"
+      ],
+      "native": {
+        "effects_query": false,
+        "lifecycle_registry": false,
+        "version_binding": false,
+        "atomic_admission": false
+      },
+      "issues": 2,
+      "unresolved": 0
+    },
+    {
+      "source": "smolagents",
+      "path": "scripts/r4_holdout.py",
+      "cls": "SmolagentsAdapter",
+      "loc": 22,
+      "methods": [
+        "__init__",
+        "call"
+      ],
+      "method_count": 2,
+      "per_condition_branches": 0,
+      "shims": [
+        "describe",
+        "effects",
+        "status",
+        "reauthorize",
+        "drain"
+      ],
+      "native": {
+        "effects_query": false,
+        "lifecycle_registry": false,
+        "version_binding": false,
+        "atomic_admission": false
+      },
+      "issues": 2,
+      "unresolved": 0
+    },
+    {
+      "source": "pydantic_ai",
+      "path": "scripts/r4_holdout.py",
+      "cls": "PydanticAIAdapter",
+      "loc": 16,
+      "methods": [
+        "__init__",
+        "call"
+      ],
+      "method_count": 2,
+      "per_condition_branches": 0,
+      "shims": [
+        "describe",
+        "effects",
+        "status",
+        "reauthorize",
+        "drain"
+      ],
+      "native": {
+        "effects_query": false,
+        "lifecycle_registry": false,
+        "version_binding": false,
+        "atomic_admission": false
+      },
+      "issues": 3,
+      "unresolved": 0
+    }
+  ],
+  "host_shims": [
+    "describe",
+    "effects",
+    "status",
+    "reauthorize",
+    "drain"
+  ],
+  "config_field_count": 12,
+  "config_fields": [
+    "revision",
+    "schema",
+    "mode",
+    "outcome",
+    "delayed",
+    "abandon_on_cancel",
+    "delegated",
+    "closed_registration",
+    "allowed",
+    "store",
+    "idempotency",
+    "query_complete"
+  ],
+  "shared_control": {
+    "paths": [
+      "scripts/r1_policies.py",
+      "src/clear_assurance/core.py"
+    ],
+    "loc": 209
+  },
+  "total_adapter_loc": 382,
+  "issues": {
+    "total": 16,
+    "by_category": {
+      "FIXTURE": 5,
+      "VERIFY": 3,
+      "API": 3,
+      "PKG": 2,
+      "CANCEL": 1,
+      "EV": 2
+    },
+    "unresolved": 0
+  },
+  "frozen": [
+    {
+      "run": "R2_mcp/attempt1",
+      "tasks": 500,
+      "expected": 500,
+      "ok": true
+    },
+    {
+      "run": "R2_anyio/attempt1",
+      "tasks": 500,
+      "expected": 500,
+      "ok": true
+    },
+    {
+      "run": "R2_langchain/attempt2",
+      "tasks": 500,
+      "expected": 500,
+      "ok": true
+    },
+    {
+      "run": "R4_smolagents/attempt1",
+      "tasks": 40,
+      "expected": 40,
+      "ok": true
+    },
+    {
+      "run": "R4_pydantic_ai/attempt1",
+      "tasks": 40,
+      "expected": 40,
+      "ok": true
+    },
+    {
+      "run": "R7/attempt2",
+      "tasks": 1200,
+      "expected": 1200,
+      "ok": true
+    },
+    {
+      "run": "R8/attempt3",
+      "tasks": 450,
+      "expected": 450,
+      "ok": true
+    },
+    {
+      "run": "R8/attempt3 snapshots",
+      "tasks": null,
+      "expected": null,
+      "ok": true
+    }
+  ],
+  "acceptance": {
+    "zero_condition_branches": true,
+    "shims_documented": true,
+    "no_unresolved": true,
+    "frozen_unchanged": true
+  }
+}
