@@ -1,0 +1,14 @@
+{
+  "versions": {
+    "clear-assurance": "2.0.0",
+    "autogen-core": "0.7.5"
+  },
+  "prefix": "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R4_autogen\\env",
+  "package": "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R4_autogen\\env\\Lib\\site-packages\\clear_assurance\\__init__.py",
+  "modules": {
+    "autogen_core": {
+      "path": "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R4_autogen\\env\\Lib\\site-packages\\autogen_core\\__init__.py",
+      "sha256": "6d5c15c16a36937c1f5dcf17a6197548227a598bce5e0070b0feabaf80aecd61"
+    }
+  }
+}
