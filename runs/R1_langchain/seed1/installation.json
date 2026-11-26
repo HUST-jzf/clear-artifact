@@ -1,0 +1,23 @@
+{
+  "versions": {
+    "clear-assurance": "2.0.0",
+    "langchain-core": "1.0.0",
+    "anyio": "4.15.1"
+  },
+  "prefix": "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R1_langchain\\env",
+  "package": "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R1_langchain\\env\\Lib\\site-packages\\clear_assurance\\__init__.py",
+  "modules": {
+    "clear_assurance.core": {
+      "path": "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R1_langchain\\env\\Lib\\site-packages\\clear_assurance\\core.py",
+      "sha256": "17b22cdffe4c055a3c3255903dc7c6a98d691a6c69ca86f83e3032cb9d3b35e4"
+    },
+    "langchain_core.tools": {
+      "path": "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R1_langchain\\env\\Lib\\site-packages\\langchain_core\\tools\\__init__.py",
+      "sha256": "a9ed84f55c19ee1a5d913a33f7aa12274f346b475ef6843048ef453f55e798cd"
+    },
+    "anyio._backends._asyncio": {
+      "path": "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R1_langchain\\env\\Lib\\site-packages\\anyio\\_backends\\_asyncio.py",
+      "sha256": "56acbb3b5ca6984a714e23f37a14ae042553ce21802cd57e05bb0845a297b20e"
+    }
+  }
+}
