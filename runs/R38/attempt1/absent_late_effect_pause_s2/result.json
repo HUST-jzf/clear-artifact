@@ -1,0 +1,42 @@
+{
+  "closure": "absent",
+  "fault": "late_effect",
+  "policy": "pause",
+  "seed": 2,
+  "workflow": "absent_late_effect_pause_S2",
+  "terminal": "pause",
+  "reason": "no_retry",
+  "rows": {
+    "create": 1,
+    "reserve": 1,
+    "attach": 1,
+    "commit": 0,
+    "notify": 0
+  },
+  "stale": {
+    "create": 0,
+    "reserve": 0,
+    "attach": 0,
+    "commit": 0,
+    "notify": 0
+  },
+  "committed": {
+    "create": 1,
+    "reserve": 1,
+    "attach": 1,
+    "commit": 0,
+    "notify": 0
+  },
+  "provisional": {
+    "create": 0,
+    "reserve": 0,
+    "attach": 0,
+    "commit": 0,
+    "notify": 0
+  },
+  "rejected": 0,
+  "duplicates": 0,
+  "completed": false,
+  "safe": false,
+  "elapsed_ns": 1642447400
+}
