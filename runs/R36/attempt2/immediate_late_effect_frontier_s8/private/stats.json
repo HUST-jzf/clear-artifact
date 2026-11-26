@@ -1,0 +1,22 @@
+{
+  "immediate_late_effect_frontier_S8": {
+    "steps": {
+      "attach": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1
+      },
+      "create": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1
+      },
+      "reserve": {
+        "rows": 1,
+        "stale": 0,
+        "committed": 1
+      }
+    },
+    "rejected": 0
+  }
+}
