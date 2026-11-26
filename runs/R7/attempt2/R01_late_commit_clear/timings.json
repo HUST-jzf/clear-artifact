@@ -1,0 +1,25 @@
+{
+  "case": "late_commit",
+  "policy": "clear",
+  "repetition": 1,
+  "terminal": "complete",
+  "reason": "original_or_retry_receipt",
+  "control_ns": 22575800,
+  "timings": {
+    "active_ns": 7993600,
+    "wait_ns": 14535800,
+    "drain_ns": 685300
+  },
+  "counts": {
+    "describe": 2,
+    "active": 2,
+    "refresh": 2,
+    "status": 3,
+    "wait": 2
+  },
+  "actions": 1,
+  "rows": 1,
+  "duplicate": false,
+  "stale_new": 0,
+  "safe": true
+}
