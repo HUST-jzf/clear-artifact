@@ -1,0 +1,83 @@
+{
+  "terminal": "complete",
+  "reason": "original_or_retry_receipt",
+  "body": {
+    "state": "committed",
+    "record_id": 1,
+    "operation_id": "pydantic_ai_s1_C01_fail_before",
+    "intent": "048c8931efe28cd784d1aaa5e3eba5b3b095769fc47a434a07300c2fe4bfcd76",
+    "generation": 1,
+    "effect_namespace": "effects",
+    "attempt": 2
+  },
+  "events": [
+    {
+      "seq": 0,
+      "context": {
+        "operation_id": "pydantic_ai_s1_C01_fail_before",
+        "intent": "048c8931efe28cd784d1aaa5e3eba5b3b095769fc47a434a07300c2fe4bfcd76",
+        "generation": 1
+      },
+      "manifest": "596a9b39e3a77921c09b2c759e6afb195046bd251a00abf47ebac35dc87fa87d",
+      "action": "wait",
+      "body": {
+        "root": "root",
+        "members": [
+          {
+            "handle": "root",
+            "parent": null,
+            "terminal": true,
+            "error_type": "injected_failure",
+            "receipt": null
+          }
+        ],
+        "attempt": 1,
+        "registration_complete": true,
+        "effect_namespace": "effects",
+        "launch_manifest": "596a9b39e3a77921c09b2c759e6afb195046bd251a00abf47ebac35dc87fa87d",
+        "closed_registration": true
+      }
+    },
+    {
+      "seq": 1,
+      "context": {
+        "operation_id": "pydantic_ai_s1_C01_fail_before",
+        "intent": "048c8931efe28cd784d1aaa5e3eba5b3b095769fc47a434a07300c2fe4bfcd76",
+        "generation": 1
+      },
+      "manifest": "596a9b39e3a77921c09b2c759e6afb195046bd251a00abf47ebac35dc87fa87d",
+      "action": "query",
+      "body": {
+        "state": "not_committed",
+        "complete": true,
+        "effect_namespace": "effects",
+        "operation_id": "pydantic_ai_s1_C01_fail_before",
+        "intent": "048c8931efe28cd784d1aaa5e3eba5b3b095769fc47a434a07300c2fe4bfcd76",
+        "generation": 1,
+        "rows": []
+      }
+    },
+    {
+      "seq": 2,
+      "context": {
+        "operation_id": "pydantic_ai_s1_C01_fail_before",
+        "intent": "048c8931efe28cd784d1aaa5e3eba5b3b095769fc47a434a07300c2fe4bfcd76",
+        "generation": 1
+      },
+      "manifest": "596a9b39e3a77921c09b2c759e6afb195046bd251a00abf47ebac35dc87fa87d",
+      "action": "retry",
+      "body": {
+        "state": "committed",
+        "record_id": 1,
+        "operation_id": "pydantic_ai_s1_C01_fail_before",
+        "intent": "048c8931efe28cd784d1aaa5e3eba5b3b095769fc47a434a07300c2fe4bfcd76",
+        "generation": 1,
+        "effect_namespace": "effects",
+        "attempt": 2
+      }
+    }
+  ],
+  "steps": [],
+  "case": "C01_fail_before",
+  "elapsed_ns": 23945200
+}

@@ -1,0 +1,51 @@
+{
+  "terminal": "complete",
+  "reason": "original_or_retry_receipt",
+  "body": {
+    "state": "committed",
+    "complete": true,
+    "effect_namespace": "effects",
+    "operation_id": "pydantic_ai_s1_C06_closure_missing",
+    "intent": "048c8931efe28cd784d1aaa5e3eba5b3b095769fc47a434a07300c2fe4bfcd76",
+    "generation": 1,
+    "rows": [
+      {
+        "record_id": 1,
+        "origin": "original",
+        "attempt": 1
+      }
+    ],
+    "record_id": 1
+  },
+  "events": [
+    {
+      "seq": 0,
+      "context": {
+        "operation_id": "pydantic_ai_s1_C06_closure_missing",
+        "intent": "048c8931efe28cd784d1aaa5e3eba5b3b095769fc47a434a07300c2fe4bfcd76",
+        "generation": 1
+      },
+      "manifest": "c17105e4056c91f19ab74ef83ef0a17dbde6347b9de6b7e52dd6c83e7ff71a6e",
+      "action": "query",
+      "body": {
+        "state": "committed",
+        "complete": true,
+        "effect_namespace": "effects",
+        "operation_id": "pydantic_ai_s1_C06_closure_missing",
+        "intent": "048c8931efe28cd784d1aaa5e3eba5b3b095769fc47a434a07300c2fe4bfcd76",
+        "generation": 1,
+        "rows": [
+          {
+            "record_id": 1,
+            "origin": "original",
+            "attempt": 1
+          }
+        ],
+        "record_id": 1
+      }
+    }
+  ],
+  "steps": [],
+  "case": "C06_closure_missing",
+  "elapsed_ns": 7072600
+}

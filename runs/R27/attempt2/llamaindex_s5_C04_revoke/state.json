@@ -1,0 +1,18 @@
+{
+  "writes": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "allowed": true,
+      "at_ns": 673891698300
+    }
+  ],
+  "entries": {
+    "1": {
+      "attempt": 1,
+      "terminal": true,
+      "receipt": null,
+      "error": "injected_failure"
+    }
+  }
+}

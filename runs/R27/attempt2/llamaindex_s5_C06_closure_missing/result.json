@@ -1,0 +1,51 @@
+{
+  "terminal": "complete",
+  "reason": "original_or_retry_receipt",
+  "body": {
+    "state": "committed",
+    "complete": true,
+    "effect_namespace": "effects",
+    "operation_id": "llamaindex_s5_C06_closure_missing",
+    "intent": "048c8931efe28cd784d1aaa5e3eba5b3b095769fc47a434a07300c2fe4bfcd76",
+    "generation": 1,
+    "rows": [
+      {
+        "record_id": 1,
+        "origin": "original",
+        "attempt": 1
+      }
+    ],
+    "record_id": 1
+  },
+  "events": [
+    {
+      "seq": 0,
+      "context": {
+        "operation_id": "llamaindex_s5_C06_closure_missing",
+        "intent": "048c8931efe28cd784d1aaa5e3eba5b3b095769fc47a434a07300c2fe4bfcd76",
+        "generation": 1
+      },
+      "manifest": "2b0a3c4a116d5eaee85a311f2f180b8743ed967c3695543c8a9f9af78a0f5d5c",
+      "action": "query",
+      "body": {
+        "state": "committed",
+        "complete": true,
+        "effect_namespace": "effects",
+        "operation_id": "llamaindex_s5_C06_closure_missing",
+        "intent": "048c8931efe28cd784d1aaa5e3eba5b3b095769fc47a434a07300c2fe4bfcd76",
+        "generation": 1,
+        "rows": [
+          {
+            "record_id": 1,
+            "origin": "original",
+            "attempt": 1
+          }
+        ],
+        "record_id": 1
+      }
+    }
+  ],
+  "steps": [],
+  "case": "C06_closure_missing",
+  "elapsed_ns": 6716800
+}
