@@ -1,0 +1,442 @@
+{
+  "lost_return_S0_idem_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "attach": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "lost_return_S1_idem_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "attach": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "lost_return_S2_idem_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "attach": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "lost_return_S3_idem_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "attach": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "lost_return_S4_idem_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "attach": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "lost_return_S5_idem_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "attach": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "lost_return_S6_idem_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "attach": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "lost_return_S7_idem_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "attach": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "lost_return_S8_idem_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "attach": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "lost_return_S9_idem_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "attach": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "lost_return_S0_query_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "attach": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "lost_return_S1_query_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "attach": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "lost_return_S2_query_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "attach": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "lost_return_S3_query_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "attach": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "lost_return_S4_query_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "attach": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "lost_return_S5_query_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "attach": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "lost_return_S6_query_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "attach": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "lost_return_S7_query_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "attach": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "lost_return_S8_query_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "attach": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "lost_return_S9_query_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "attach": {
+        "kind": "lost_return",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "late_commit_S0_idem_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "commit": {
+        "kind": "late_commit",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "late_commit_S1_idem_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "commit": {
+        "kind": "late_commit",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "late_commit_S2_idem_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "commit": {
+        "kind": "late_commit",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "late_commit_S3_idem_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "commit": {
+        "kind": "late_commit",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "late_commit_S4_idem_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "commit": {
+        "kind": "late_commit",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "late_commit_S5_idem_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "commit": {
+        "kind": "late_commit",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "late_commit_S6_idem_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "commit": {
+        "kind": "late_commit",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "late_commit_S7_idem_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "commit": {
+        "kind": "late_commit",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "late_commit_S8_idem_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "commit": {
+        "kind": "late_commit",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "late_commit_S9_idem_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "commit": {
+        "kind": "late_commit",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "late_commit_S0_query_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "commit": {
+        "kind": "late_commit",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "late_commit_S1_query_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "commit": {
+        "kind": "late_commit",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "late_commit_S2_query_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "commit": {
+        "kind": "late_commit",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "late_commit_S3_query_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "commit": {
+        "kind": "late_commit",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "late_commit_S4_query_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "commit": {
+        "kind": "late_commit",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "late_commit_S5_query_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "commit": {
+        "kind": "late_commit",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "late_commit_S6_query_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "commit": {
+        "kind": "late_commit",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "late_commit_S7_query_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "commit": {
+        "kind": "late_commit",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "late_commit_S8_query_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "commit": {
+        "kind": "late_commit",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  },
+  "late_commit_S9_query_retry": {
+    "epoch": 1,
+    "allowed": true,
+    "faults": {
+      "commit": {
+        "kind": "late_commit",
+        "delay": 1.0,
+        "fired": true
+      }
+    }
+  }
+}
