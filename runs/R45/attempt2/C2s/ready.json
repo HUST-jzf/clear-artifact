@@ -1,0 +1,12 @@
+{
+  "base_url": "http://127.0.0.1:64109",
+  "profile": "C2s",
+  "axes": {
+    "closure": 0,
+    "read": "stale",
+    "version": 0,
+    "admission": 0,
+    "staging": 0,
+    "dedup": 0
+  }
+}
