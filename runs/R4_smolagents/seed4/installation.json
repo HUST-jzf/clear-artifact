@@ -1,0 +1,14 @@
+{
+  "versions": {
+    "clear-assurance": "2.0.0",
+    "smolagents": "1.26.0"
+  },
+  "prefix": "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R4_smolagents\\env",
+  "package": "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R4_smolagents\\env\\Lib\\site-packages\\clear_assurance\\__init__.py",
+  "modules": {
+    "smolagents": {
+      "path": "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R4_smolagents\\env\\Lib\\site-packages\\smolagents\\__init__.py",
+      "sha256": "11b53a260cae0d0c3306d8ae6730309aa1928d9372e7dee8bc356c18994ebfda"
+    }
+  }
+}

@@ -1,0 +1,204 @@
+{
+  "source": "smolagents",
+  "files": {
+    "docs/R4_held_out_sources_protocol.md": "95fe5645570be52b78350dc64be3b0aeee1cf106b4ef1f076adbf6ebf70a5148",
+    "scripts/r4_holdout.py": "2a527692b0ebc6ff51394138d6bbde9954a2d099d4e27d73e7e89f670ba4a3bd",
+    "scripts/run_r4.py": "5d4124ce31d74e41cf06f82d7499dd0812471afb3968b8555ce101eae3e4b43e",
+    "scripts/verify_r4.py": "192867f6131b062339db62b63bd5c0b6fe500c7be7da4c946d3e76cbaeb49108",
+    "scripts/r1_policies.py": "09664043a3e4ed3f2765f645fcea5587c2f6dfc6a336eea8e3c65e9c9393531f",
+    "sources/R4_smolagents/wheels_sha256.json": "e99a32bf92c8b426b5eef727ea99a53c93926f0fa0029fa9de0516f8bddc63ca",
+    "sources/R4_smolagents/static_review.md": "a75fe3541a81ea20c5686265a89800a79fefc5862a7a227f1facbbf0dead8396"
+  },
+  "cases": [
+    {
+      "id": "C01_fail_before",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "fail",
+        "delayed": false,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": true,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": false,
+        "query_complete": true
+      },
+      "patch": null
+    },
+    {
+      "id": "C02_lost_return",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "commit",
+        "delayed": false,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": true,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": false,
+        "query_complete": true
+      },
+      "patch": null
+    },
+    {
+      "id": "C03_late_commit",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "commit",
+        "delayed": true,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": true,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": false,
+        "query_complete": true
+      },
+      "patch": null
+    },
+    {
+      "id": "C04_revoke",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "fail",
+        "delayed": false,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": true,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": false,
+        "query_complete": true
+      },
+      "patch": {
+        "allowed": false
+      }
+    },
+    {
+      "id": "C05_query_unavailable",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "commit",
+        "delayed": false,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": false,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": false,
+        "query_complete": false
+      },
+      "patch": null
+    },
+    {
+      "id": "C06_closure_missing",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "commit",
+        "delayed": false,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": false,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": false,
+        "query_complete": true
+      },
+      "patch": null
+    },
+    {
+      "id": "C07_idempotent_lost",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "commit",
+        "delayed": false,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": true,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": true,
+        "query_complete": true
+      },
+      "patch": null
+    },
+    {
+      "id": "C08_normal",
+      "route": {
+        "revision": 1,
+        "mode": "inline",
+        "outcome": "commit",
+        "delayed": false,
+        "abandon_on_cancel": false,
+        "delegated": false,
+        "closed_registration": true,
+        "allowed": true,
+        "store": "effects",
+        "idempotency": false,
+        "query_complete": true
+      },
+      "patch": null
+    }
+  ],
+  "policies": [
+    "clear",
+    "idem_retry",
+    "query_retry",
+    "reauth_retry",
+    "pause"
+  ],
+  "expected": {
+    "C01_fail_before": {
+      "terminal": "complete",
+      "rows": 1
+    },
+    "C02_lost_return": {
+      "terminal": "complete",
+      "rows": 1
+    },
+    "C03_late_commit": {
+      "terminal": "complete",
+      "rows": 1
+    },
+    "C04_revoke": {
+      "terminal": "pause",
+      "rows": 0
+    },
+    "C05_query_unavailable": {
+      "terminal": "pause",
+      "rows": 1
+    },
+    "C06_closure_missing": {
+      "terminal": "complete",
+      "rows": 1
+    },
+    "C07_idempotent_lost": {
+      "terminal": "complete",
+      "rows": 1
+    },
+    "C08_normal": {
+      "terminal": "complete",
+      "rows": 1
+    }
+  },
+  "idempotency": "per case",
+  "seed": 4,
+  "seed_params": {
+    "gate_s": 0.068,
+    "initial_timeout_s": 0.05,
+    "wait_window_s": 0.142
+  },
+  "target_calls_before_freeze": 0,
+  "python": "F:\\desktop\\paper\\SPG_ActiveAssurance_20261020\\runs\\R4_smolagents\\env\\Scripts\\python.exe",
+  "python_version": "3.13.2",
+  "created_ns": 1792575241857007800
+}
